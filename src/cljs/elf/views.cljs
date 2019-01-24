@@ -5,9 +5,9 @@
    ))
 
 
-(defn essential-product-summary [product]
-  [:p (:name product)])
-
+(defn essential-product-summary [{:keys [id name]} product]
+  ^{:key id}
+  [:p.essential-product-summary {:id id} name])
 
 
 (defn main-panel []
