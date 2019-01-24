@@ -1,7 +1,7 @@
-(ns essentials-frontend-re-frame.events
+(ns elf.events
   (:require
    [re-frame.core :as re-frame]
-   [essentials-frontend-re-frame.db :as db]
+   [elf.db :as db]
    [day8.re-frame.tracing :refer-macros [fn-traced defn-traced]]
    ))
 
