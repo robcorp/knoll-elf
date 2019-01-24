@@ -1,4 +1,4 @@
-(ns essentials-frontend-re-frame.subs
+(ns elf.subs
   (:require
    [re-frame.core :as re-frame]))
 
@@ -6,3 +6,8 @@
  ::name
  (fn [db]
    (:name db)))
+
+(re-frame/reg-sub
+ ::essentials-products
+ (fn [db]
+   (:essentials-products db)))
