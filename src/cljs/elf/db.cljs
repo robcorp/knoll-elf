@@ -1,12 +1,6 @@
-(ns elf.db)
-
-(def essentials-products
-  [
-   {:id :barcelona-chair, :name "Barcelona Chair"}
-   {:id :pollock-chair, :name "Pollock Chair"}
-   {:id :wassily-chair, :name "Wassily Chair"}
-   ])
+(ns elf.db
+  (:require [elf.datadefs :as dd]))
 
 (def default-db
   {:name "re-frame"
-   :essentials-products essentials-products})
+   :essentials-products dd/essentials-products})
