@@ -1,6 +1,6 @@
 (ns elf.views
   (:require
-   [re-frame.core :as re-frame]
+   [re-frame.core :refer [subscribe] :as re-frame]
    [elf.events :as events]
    [elf.subs :as subs]))
 
@@ -12,38 +12,31 @@
       [:div.product-col-image
        [:img {:src img-src :data-no-retina nil}]]
       [:ul.lead-time-status
-       (if (contains? lead-times-set :quick)
+       (if (lead-times-set :quick)
          [:li.quick-lead-active])
-       (if (contains? lead-times-set :three-week)
+       (if (lead-times-set :three-week)
          [:li.three-ship-active])
-       (if (contains? lead-times-set :std)
+       (if (lead-times-set :std)
          [:li.standard-ship-active])]
       [:p product-name]]]))
 
-(defn check-box [id]
-  [:input {:type "checkbox"
-           :id id
-           :class "check-in"
-           :checked @(re-frame/subscribe [(keyword 'elf.subs id)])
-           :on-change #(re-frame/dispatch [::events/check-box-clicked id])}])
+(defn lead-time-filter-check-box [{:keys [li-id li-class id lead-time label value]} filter]
+  ^{:key id }
+  [:li {:id li-id :class (str "lead-time-list-types " li-class)}
+   [:input {:type "checkbox"
+            :id id
+            :class "check-in"
+            :checked value
+            :on-change #(re-frame/dispatch [::events/lead-time-filter-check-box-clicked lead-time])}]
+   [:label.active {:for id} label]])
 
 ;;; render the Lead Time: filters 
 (defn lead-time-filters []
-  [:div.select-wrap
-   [:h3 "Lead Time:"]
-   [:ul.lead-time-list
-    [:li#all {:class "lead-time-list-types all-lead-type active"}
-     (check-box "all-lead")
-     [:label.active {:for "all-lead"} "All lead Times"]]
-    [:li#quickshiplist {:class "lead-time-list-types quick-ship-type active"}
-     (check-box "quick-ship")
-     [:label.active {:for "quick-ship"} "Quickship"]]
-    [:li#three-week-ship-list {:class "lead-time-list-types three-week-ship active"}
-     (check-box "three-week-ship")
-     [:label.active {:for "three-week-ship"} "Three week ship"]]
-    [:li#standard-ship-list {:class "lead-time-list-types standard-ship active"}
-     (check-box "standard-ship")
-     [:label {:for "standard-ship" :class "active"} "Standard ship"]]]])
+  (let [filters @(subscribe [::subs/lead-time-filters])]
+    [:div.select-wrap
+     [:h3 "Lead Time:"]
+     [:ul.lead-time-list
+      (map lead-time-filter-check-box filters)]]))
 
 (defn product-type-filters []
   [:div.select-wrap
@@ -55,31 +48,29 @@
    (product-type-filters)
    ])
 
-(defn filtered-product-type-section [filtered-product-type]
-  (let [product-type (:product-type filtered-product-type)]
-    #_(println "rendering filtered-product-type-section for product type: " product-type)
-    ^{:key product-type}
-    [:div.product-list
-     [:h3.titleGreyborder product-type]
-     [:ul.product-list
-      (map essential-product-summary (:product-list filtered-product-type))]]))
+(defn filtered-product-type-section [[product-type product-list]]
+  ^{:key product-type}
+  [:div.product-list
+   [:h3.titleGreyborder product-type]
+   [:ul.product-list
+    (map essential-product-summary product-list)]])
 
 (defn filtered-products-view [filtered-products-list]
   [:div.right-product-col
    [:div.filter-btn-wrap
     [:span.filter_btn_left "FILTERS"]]
-   (map filtered-product-type-section filtered-products-list)
+   (map filtered-product-type-section (seq filtered-products-list))
    ])
 
 (defn main-panel []
-  (let [name (re-frame/subscribe [::subs/name])
-        essentials-products (re-frame/subscribe [::subs/essentials-products])]
+  (let [name @(subscribe [::subs/name])
+        filtered-products @(subscribe [::subs/filtered-products])]
     [:div
      [:h1 "Knoll Essentials Lead Times & Finishes"]
-     [:p "(built using the " @name " app framework.)"]
+     [:p "(built using the " name " app framework.)"]
      [:hr]
      [:section.wrapper
       [:section#page
        [:div {:class "product-col clearfix"}
         (filters-view)
-        (filtered-products-view @essentials-products)]]]]))
+        (filtered-products-view filtered-products)]]]]))
