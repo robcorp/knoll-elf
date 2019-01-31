@@ -113,7 +113,7 @@
     border-color: #777777;
 }
 
-.lead-time-list-types.all-lead-type input:checked+label.active:before {
+.lead-time-list-types.all-lead-type input:checked+label:before {
     background-color: #777777;
 }
 
@@ -121,7 +121,7 @@
     border-color: #00adef;
 }
 
-.lead-time-list-types.quick-ship-type input:checked+label.active:before {
+.lead-time-list-types.quick-ship-type input:checked+label:before {
     background-color: #00adef;
 }
 
@@ -130,7 +130,7 @@
     border-color: #fadb32;
 }
 
-.lead-time-list-types.three-week-ship input:checked+label.active:before {
+.lead-time-list-types.three-week-ship input:checked+label:before {
     background-color: #fadb32;
 }
 
@@ -139,7 +139,7 @@
     border-color: #f2772d;
 }
 
-.lead-time-list-types.standard-ship input:checked+label.active:before {
+.lead-time-list-types.standard-ship input:checked+label:before {
     background-color: #f2772d;
 }
 
@@ -174,9 +174,9 @@
     margin-bottom: 95px;
 }
 
-.product-list>li:nth-child(4n+1) {
+/*.product-list>li:nth-child(4n+1) {
     clear: left;
-}
+}*/
 
 .product-list li p {
     clear: left;
@@ -228,6 +228,12 @@
 
 .product-list {
     border-bottom: 1px solid #dddddd;
+    display: -webkit-box;      
+  display: -moz-box;         
+  display: -ms-flexbox;      
+  display: -webkit-flex;     
+  display: flex;   
+   flex-wrap: wrap;          
 }
 
 .product-list:last-child {
@@ -518,7 +524,7 @@ ul.product-type-check-list {
 }
 
 .frame-list li p,
-.upholstery-tetile-list li p {
+.upholstery-tetile-list li p{
     display: inline-block;
     width: 100%;
     float: none;
@@ -552,14 +558,44 @@ ul.upholstery-types-list {
     font-size: 12px;
     color: #333333;
     font-family: 'HelveticaNeueW01-75Bold', Arial, Helvetica, sans-serif;
-    min-width: 25px;
-    min-height: 25px;
-    border-radius: 50%;
+   
+    border-radius: 25px;
     background-color: #f5f5f5;
     text-transform: uppercase;
     display: inline-block;
-    line-height: 25px;
+    line-height: 24px;
     text-align: center;
+        padding: 2px 10px;
+
+}
+
+.sub-tab-wrap .upholstery-types-sub-list li a {
+    font-size: 12px;
+    color: #333333;
+    font-family: 'HelveticaNeueW01-75Bold', Arial, Helvetica, sans-serif;
+    min-width: 25px;
+    min-height: 25px;
+    border-radius: 25px;
+    background-color: #f5f5f5;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 24px;
+    text-align: center;
+    padding: 2px 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    background-image: url(images/back-to-arrow.png);
+    background-repeat: no-repeat;
+    background-position:15px 8px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+        font-family: 'HelveticaNeueW01-75Bold', Arial, Helvetica, sans-serif;
+        font-size: 12px;
+}
+.sub-tab-wrap .upholstery-types-sub-list li a:hover {
+    background-image: url(images/back-to-arrow-whiter.png);
+    background-color:#f94e35;
+    color: #fff;
 }
 
 .upholstery-types-list li a:hover,
@@ -583,13 +619,13 @@ ul.upholstery-types-list {
     display: inherit;
 }
 
-.upholstery-tetile-list li {
+.upholstery-tetile-list li{
     display: inline-block;
     float: left;
     width: 14%;
     margin-bottom: 35px;
     padding: 0 8px;
-    min-height: 110px;
+    min-height: 120px;
 }
 
 .upholstery-tetile-list li img,
@@ -726,6 +762,31 @@ ul.upholstery-types-list {
     display: none;
 }
 
+.product-type-check.disable-filter h4{
+    color: #ccc;
+}
+
+/*.product-list.list-filter>li:nth-child(4n+1) {
+    clear: none;
+}*/
+.tab-main.hide{
+    display: none;
+}
+li.selected.has-sub-tab{
+    cursor: pointer;
+}
+.sub-tab-wrap h5{
+    font-size: 14px;
+    color: #333333;
+        font-family: 'HelveticaNeueW01-75Bold', Arial, Helvetica, sans-serif;
+}
+.essentials-product-tabs .mCSB_inside > .mCSB_container{
+    margin-right: 0;
+}
+
+.disable-filter .product-type-check-list{
+    display: none !important;
+}
 @media screen and (max-width: 992px) {
      .select-wrap {
         position: fixed;
@@ -777,9 +838,9 @@ ul.upholstery-types-list {
     .product-list>li:nth-child(3n+1) {
         clear: left;
     }
-    .product-list>li:nth-child(4n+1) {
+   /* .product-list>li:nth-child(4n+1) {
         clear: none;
-    }
+    }*/
     .product-list>li {
         width: 33.33%;
         margin-bottom: 45px;
@@ -813,9 +874,9 @@ ul.upholstery-types-list {
     .product-list>li:nth-child(3n+1) {
         clear: none;
     }
-    .product-list>li:nth-child(4n+1) {
+    /*.product-list>li:nth-child(4n+1) {
         clear: none;
-    }
+    }*/
     .product-list>li:nth-child(2n+1) {
         clear: left;
     }
