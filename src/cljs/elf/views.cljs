@@ -102,7 +102,7 @@
        [:option {:value "tab2"} "Essentials 3 week options"]
        [:option {:value "tab3"} "Standard Ship options"]]
       [:div {:class "popup-tab-wrap mCustomScrollbar _mCS_1"}
-       [:div {:id "mCSB_1", :class "xmCustomScrollBox xmCS-light xmCSB_vertical xmCSB_inside", :style {:max-height "645px"}, :tabindex "0"}
+       [:div {:id "mCSB_1", :class "xmCustomScrollBox xmCS-light xmCSB_vertical xmCSB_inside", :style {:max-height "645px"}, :tabIndex "0"}
         [:div {:id "mCSB_1_container", :class "mCSB_container", :style {:position "relative" :left "0px" :top "0px"}, :dir "ltr"}
            [:div {:class "popup-tab-content selected", :id "tab1"}
             [:div {:class "options-list-wrap"}
@@ -138,7 +138,7 @@
                [:li {:data-tab "upholstery-tab-3"}
                 [:a {:href "javascript:;"} "c"]]
                [:li 
-                [:a {:href "javascript:;"} "LEATHER &amp; VINYL"]]]]
+                [:a {:href "javascript:;"} "LEATHER & VINYL"]]]]
              [:div {:class "upholstery-tab-wrap"}
               [:div {:class "upholstery-tab-content selected", :id "upholstery-tab-1"}
                [:ul {:class "upholstery-tetile-list"}
