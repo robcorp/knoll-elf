@@ -255,7 +255,7 @@
     position: absolute;
     left: 0px;
     top: 3px;
-    background-image: url(images/plus-pro-icon.png);
+    background-image: url(/images/plus-pro-icon.png);
     width: 8px;
     height: 7px;
     background-position: center;
@@ -264,7 +264,7 @@
 }
 
 .product-type-check h4.open:before {
-    background-image: url(images/minus-pro-icon.png);
+    background-image: url(/images/minus-pro-icon.png);
     width: 8px;
     height: 7px;
 }
@@ -495,7 +495,7 @@ ul.product-type-check-list {
     position: absolute;
     left: 0;
     top: 5px;
-    background-image:url(images/bullet.png);
+    background-image:url(/images/bullet.png);
     background-repeat: no-repeat;
     background-position:left center;
     border-radius: 50%;
@@ -584,7 +584,7 @@ ul.upholstery-types-list {
     padding: 2px 10px;
     display: inline-block;
     box-sizing: border-box;
-    background-image: url(images/back-to-arrow.png);
+    background-image: url(/images/back-to-arrow.png);
     background-repeat: no-repeat;
     background-position:15px 8px;
     padding-left: 30px;
@@ -593,7 +593,7 @@ ul.upholstery-types-list {
         font-size: 12px;
 }
 .sub-tab-wrap .upholstery-types-sub-list li a:hover {
-    background-image: url(images/back-to-arrow-whiter.png);
+    background-image: url(/images/back-to-arrow-whiter.png);
     background-color:#f94e35;
     color: #fff;
 }
@@ -634,7 +634,7 @@ ul.upholstery-types-list {
 }
 
 .popup-modal-dismiss {
-    background-image: url(images/essentials-popup-close-icon.png);
+    background-image: url(/images/essentials-popup-close-icon.png);
     background-repeat: no-repeat;
     background-position: center;
     width: 14px;
@@ -674,7 +674,7 @@ ul.upholstery-types-list {
 }
 
 .pop-action-icon {
-    background-image: url(images/three-dot-icon.png);
+    background-image: url(/images/three-dot-icon.png);
     background-repeat: no-repeat;
     background-position: center;
     width: 23px;
@@ -735,7 +735,7 @@ ul.upholstery-types-list {
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    background-image: url(images/swap-arrow-left.png);
+    background-image: url(/images/swap-arrow-left.png);
     background-position: center;
     position: absolute;
     background-repeat: no-repeat;
@@ -749,7 +749,7 @@ ul.upholstery-types-list {
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    background-image: url(images/swap-arrow-right.png);
+    background-image: url(/images/swap-arrow-right.png);
     background-position: center;
     position: absolute;
     background-repeat: no-repeat;
