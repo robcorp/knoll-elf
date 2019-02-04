@@ -18,6 +18,11 @@
    (:filtered-products db)))
 
 (reg-sub
+ ::selected-product
+ (fn [db]
+   (:selected-product db)))
+
+(reg-sub
  ::lead-time-filters
  (fn [db]
    (:lead-time-filters db)))

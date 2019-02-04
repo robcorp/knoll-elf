@@ -49,3 +49,9 @@
               updated-filters)
             
             :filtered-products filtered-products))))
+
+(reg-event-db
+ ::product-selected
+ (fn [db [_ product-id] event]
+   (assoc  db
+           :selected-product product-id)))
