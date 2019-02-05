@@ -1,7 +1,7 @@
 (ns elf.datadefs
   (:require [ajax.core :as ajax]))
 
-(defonce essentials-products
+(defonce all-products
   [{:product-group "Seating" :product-type "Lounge Chairs" :product-id :barcelona-chair, :product-name "Barcelona Chair" :lead-times [:std :quick :three-week] :img-src "https://www.knoll.com/media/858/141/205_barcelona_lounge_black_F_v3.png"}
    {:product-group "Seating" :product-type "Lounge Chairs" :product-id :pollock-chair, :product-name "Pollock Chair" :lead-times [:quick :std] :img-src "https://www.knoll.com/media/754/476/Thumb_pollock-arm-chair,4.png"}
    {:product-group "Seating" :product-type "Lounge Chairs" :product-id :wassily-chair, :product-name "Wassily Chair" :lead-times [:std :three-week] :img-src "https://www.knoll.com/media/432/603/Thumb_wassily_880,4.png"}
@@ -15,7 +15,7 @@
    {:product-group "Seating" :product-type "Multi-Use Chairs" :product-id :bertoia-molded-shell-side-chair, :product-name "Bertoia Molded Shell Side Chair", :lead-times [:three-week] :img-src "https://www.knoll.com/media/47/66/Thumb_Thumb_bertoia-molded-shell-chair-default,4.png"}])
 
 (defonce filtered-products
-  (group-by :product-type essentials-products))
+  (group-by :product-type all-products))
 
 (defonce lead-time-filters
   [{:lead-time :all :id "all-lead" :label "All lead Times" :value false :li-id "all" :li-class "all-lead-type"}

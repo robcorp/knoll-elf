@@ -38,7 +38,7 @@
    (let [updated-filters (toggle-lead-time-filter-state lead-time (:lead-time-filters db))
          enable-all? (every? true? (select [ALL #((:lead-time %) #{:std :quick :three-week}) :value] updated-filters))
          selected-filters (set (select [ALL #(true? (:value %)) :lead-time] updated-filters))
-         filtered-products (->> (:essentials-products db)
+         filtered-products (->> (:all-products db)
                                 (filter-products-by-lead-times selected-filters)
                                 (group-by :product-type))]
 

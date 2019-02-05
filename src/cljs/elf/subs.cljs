@@ -8,9 +8,9 @@
    (:name db)))
 
 (reg-sub
- ::essentials-products
+ ::all-products
  (fn [db]
-   (:essentials-products db)))
+   (:all-products db)))
 
 (reg-sub
  ::filtered-products
