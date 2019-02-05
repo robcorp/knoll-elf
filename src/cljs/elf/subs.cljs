@@ -1,6 +1,7 @@
 (ns elf.subs
   (:require
-   [re-frame.core :refer [reg-sub] :as re-frame]))
+   [re-frame.core :refer [reg-sub] :as re-frame]
+   [com.rpl.specter :refer [ALL multi-path walker] :refer-macros [select select-first setval] :as spctr]))
 
 (reg-sub
  ::name
@@ -20,7 +21,8 @@
 (reg-sub
  ::selected-product
  (fn [db]
-   (:selected-product db)))
+   (let [selected-product-id (:selected-product db)]
+     (select-first [:all-products ALL #(= selected-product-id (:product-id %))] db))))
 
 (reg-sub
  ::lead-time-filters

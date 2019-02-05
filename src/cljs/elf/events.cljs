@@ -43,15 +43,14 @@
                                 (group-by :product-type))]
 
      (assoc db
-            :lead-time-filters
-            (if enable-all?
-              (setval [(walker #(= :all (:lead-time %))) :value] true updated-filters)
-              updated-filters)
+            :lead-time-filters (if enable-all?
+                                 (setval [(walker #(= :all (:lead-time %))) :value] true updated-filters)
+                                 updated-filters)
             
             :filtered-products filtered-products))))
 
 (reg-event-db
  ::product-selected
- (fn [db [_ product-id] event]
-   (assoc  db
-           :selected-product product-id)))
+ (fn-traced [db [_ product-id] event]
+   (assoc  db :selected-product product-id)))
+

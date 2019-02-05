@@ -9,7 +9,7 @@
   (let [lead-times-set (set lead-times)]
     ^{:key product-id}
     [:li
-     [:a.popup-modal {:href "#" #_"#essentials-modal"
+     [:a.popup-modal {:href "#essentials-modal"
                       :on-click #(re-frame/dispatch [::events/product-selected product-id])}
       [:div.product-col-image
        [:img {:src img-src :data-no-retina nil}]]
@@ -66,7 +66,8 @@
      ]))
 
 (defn modal-popup []
-  (let [selected-product-id @(subscribe [::subs/selected-product])]
+  (let [selected-product @(subscribe [::subs/selected-product])]
+    #_(println "selected product: " selected-product)
     [:div {:id "essentials-modal", :class "white-popup-block mfp-hide"}
      [:div {:class "essentials-modal-wrap"}
       [:div {:class "popup-action-list-wrap"}
@@ -88,7 +89,7 @@
         [:div {:class "essentials-product-img-wrap"}
          [:img {:src "/images/product-popup-1.jpg", :data-no-retina ""}]]
         [:div {:class "essentials-product-img-detail"}
-         [:h2 "MultiGeneration by Knoll High Task"]
+         [:h2 (:product-name selected-product)]
          [:p "The Diamond Chair is an astounding study in space, form and function by one of the master sculptors of the last century. Like Saarinen and Mies, Bertoia found sublime grace in an industrial material, elevating it beyond its normal utility into a work of art. Harry Bertoia’s wire chairs are among the most recognized achievements of mid-century modern design and a proud part of the Knoll heritage."]]]
        [:div {:class "essentials-product-tabs"}
         [:ul {:class "essentials-tab-list"}
@@ -416,8 +417,8 @@
 
       :component-did-mount
       (fn []
-        (println "The main-panel component has mounted")
-        #_(.. (js/$ ".popup-modal")
+        #_(println "The main-panel component has mounted")
+        (.. (js/$ ".popup-modal")
               (magnificPopup #js {:type "inline"
                                   :midClick true
                                   :showCloseBtn false})))
