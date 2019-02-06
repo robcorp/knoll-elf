@@ -2,7 +2,14 @@
   (:require [ajax.core :as ajax]))
 
 (defonce all-products
-  [{:product-group "Seating" :product-type "Lounge Chairs" :product-id :barcelona-chair :product-name "Barcelona Chair" :short-text "Barcelona Chair short text" :lead-times [:std :quick :three-week] :thumb-img-src "https://www.knoll.com/media/858/141/205_barcelona_lounge_black_F_v3.png" :hero1-img-src "https://www.knoll.com/media/858/141/205_barcelona_lounge_black_F_v3.png"}
+  [{:product-group "Seating"
+    :product-type "Lounge Chairs"
+    :product-id :barcelona-chair
+    :product-name "Barcelona Chair"
+    :short-text "Barcelona Chair short text"
+    :lead-times [:std :quick :three-week]
+    :thumb-img-src "https://www.knoll.com/media/858/141/205_barcelona_lounge_black_F_v3.png"
+    :hero1-img-src "https://www.knoll.com/media/858/141/205_barcelona_lounge_black_F_v3.png"}
    {:product-group "Seating" :product-type "Lounge Chairs" :product-id :pollock-chair :product-name "Pollock Chair" :short-text "Pollock Chair short text" :lead-times [:quick :std] :thumb-img-src "https://www.knoll.com/media/754/476/Thumb_pollock-arm-chair,4.png" :hero1-img-src "https://www.knoll.com/media/754/476/Thumb_pollock-arm-chair,4.png"}
    {:product-group "Seating" :product-type "Lounge Chairs" :product-id :wassily-chair :product-name "Wassily Chair" :short-text "Wassily Chair short text" :lead-times [:std :three-week] :thumb-img-src "https://www.knoll.com/media/432/603/Thumb_wassily_880,4.png" :hero1-img-src "https://www.knoll.com/media/432/603/Thumb_wassily_880,4.png"}
    {:product-group "Seating" :product-type "Lounge Chairs" :product-id :risom-lounge-chair :product-name "Risom Lounge Chair" :short-text "Risom Lounge Chair short text" :lead-times [:std :three-week] :thumb-img-src "https://www.knoll.com/media/955/28/Thumb_risom-lounge-chair-880,4.png" :hero1-img-src "https://www.knoll.com/media/955/28/Thumb_risom-lounge-chair-880,4.png"}
@@ -23,21 +30,24 @@
    {:lead-time :three-week :id "three-week-ship" :label "Three week Ship" :value false :li-id "three-week-ship-list" :li-class "three-week-ship"}
    {:lead-time :std :id "standard-ship" :label "Standard Ship" :value false :li-id "standard-ship-list" :li-class "standard-ship"}])
 
-(comment 
-  (def textile (atom nil))
 
-  (defn ajax-handler [resp]
-    #_(js/alert (str "Got response from AJAX call: " resp))
-    (println resp)
-    (reset! textile resp))
 
-  (def url "https://www.knoll.com/textiles/2085")
 
-  (ajax/GET url {:handler ajax-handler :response-format :json :keywords? true}))
+#_(def essentials-products (atom nil))
+
+;; this will change each time Smart JSON Editor is launched
+#_(def url "http://127.0.0.1:7070/571094618.966381") 
+
+#_(defn ajax-handler [resp]
+  (println "ajax resp: " resp)
+  (reset! essentials-products resp))
+
+#_(ajax/GET url {:handler ajax-handler :response-format :json :keywords? true})
 
 #_{"Seating" ["All" "Lounge" "Side andMulti-Use" "Work"]
- "Tabels" ["All" "Height Adjustable and Mobile" "Meeting and Conference" "Occasional" "Side and Dining"]
- "Storage" ["All"]
- "Power & Data" []
- "Work Tools & Accessories" []
- "Screen & Communication Boards" []}
+      "Tabels" ["All" "Height Adjustable and Mobile" "Meeting and Conference" "Occasional" "Side and Dining"]
+      "Storage" ["All"]
+      "Power & Data" []
+      "Work Tools & Accessories" []
+      "Screen & Communication Boards" []}
+
