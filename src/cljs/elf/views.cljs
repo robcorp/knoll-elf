@@ -5,55 +5,25 @@
    [elf.events :as events]
    [elf.subs :as subs]))
 
-(defn essential-product-summary [{:keys [product-id product-name lead-times thumb-img-src]} product]
-  ;; need to get this working so that the Magnific Popup works correctly after filtering has occurred
-  #_(reagent/create-class 
-   {:display-name "essential-product-summary"
-
-    :component-did-mount
-    (fn []
-      #_(println "The main-panel component has mounted")
-      (.. (js/$ ".popup-modal")
-          (magnificPopup #js {:type "inline"
-                              :midClick true
-                              :showCloseBtn false})))
-
-    :reagent-render
-    (fn []
-      (let [lead-times-set (set lead-times)]
-        ^{:key product-id}
-        [:li
-         [:a.popup-modal {:href "#essentials-modal"
-                          :on-click #(re-frame/dispatch [::events/product-selected product-id])}
-          [:div.product-col-image
-           [:img {:src thumb-img-src :data-no-retina nil}]]
-          [:ul.lead-time-status
-           (if (lead-times-set :quick)
-             [:li.quick-lead-active])
-           (if (lead-times-set :three-week)
-             [:li.three-ship-active])
-           (if (lead-times-set :std)
-             [:li.standard-ship-active])]
-          [:p product-name]]]))})
+(defn essential-product-summary [{:keys [product-id product-name lead-times thumb-img-src]}]
   (let [lead-times-set (set lead-times)]
-      ^{:key product-id}
-      [:li
-       [:a.popup-modal {:href "#essentials-modal"
-                        :on-click #(re-frame/dispatch [::events/product-selected product-id])}
-        [:div.product-col-image
-         [:img {:src thumb-img-src :data-no-retina nil}]]
-        [:ul.lead-time-status
-         (if (lead-times-set :quick)
-           [:li.quick-lead-active])
-         (if (lead-times-set :three-week)
-           [:li.three-ship-active])
-         (if (lead-times-set :std)
-           [:li.standard-ship-active])]
-        [:p product-name]]]))
+    ^{:key product-id}
+    [:li
+     [:a.popup-modal {:href "#essentials-modal"
+                      :on-click #(re-frame/dispatch [::events/product-selected product-id])}
+      [:div.product-col-image
+       [:img {:src thumb-img-src :data-no-retina ""}]]
+      [:ul.lead-time-status
+       (if (lead-times-set :quick)
+         [:li.quick-lead-active])
+       (if (lead-times-set :three-week)
+         [:li.three-ship-active])
+       (if (lead-times-set :std)
+         [:li.standard-ship-active])]
+      [:p product-name]]]))
 
 (defn lead-time-filter-check-box [{:keys [li-id li-class id lead-time label value]} filter]
-  ^{:key id }
-  [:li {:id li-id :class (str "lead-time-list-types " li-class)}
+  [:li {:key id :id li-id :class (str "lead-time-list-types " li-class)}
    [:input {:type "checkbox"
             :id id
             :class "check-in"
@@ -75,8 +45,8 @@
 
 (defn filters-view []
   [:div {:class "left-filter-col researchPage"}
-   (lead-time-filters)
-   (product-type-filters)
+   [lead-time-filters]
+   [product-type-filters]
    ])
 
 (defn filtered-product-type-section [[product-type product-list]]
@@ -87,12 +57,24 @@
     (map essential-product-summary product-list)]])
 
 (defn filtered-products-view []
-  (let [filtered-products-list @(subscribe [::subs/filtered-products])]
-    [:div.right-product-col
-     [:div.filter-btn-wrap
-      [:span.filter_btn_left "FILTERS"]]
-     (map filtered-product-type-section (seq filtered-products-list))
-     ]))
+  (let [setup-popup #(.. (js/$ ".popup-modal")
+                         (magnificPopup #js {:type "inline"
+                                             :midClick true
+                                             :showCloseBtn false}))]
+    (reagent/create-class
+     {:reagent-render
+      (fn []
+        (let [filtered-products-list @(subscribe [::subs/filtered-products])]
+          [:div.right-product-col
+           [:div.filter-btn-wrap
+            [:span.filter_btn_left "FILTERS"]]
+           (map filtered-product-type-section (seq filtered-products-list))]))
+
+      :display-name "filtered-products-view"
+
+      :component-did-mount setup-popup
+
+      :component-did-update setup-popup})))
 
 (defn modal-popup []
   (let [selected-product @(subscribe [::subs/selected-product])
@@ -160,10 +142,10 @@
            [:h4 "Frame Finish"]
            [:ul {:class "frame-list"}
             [:li  
-             [:img {:src "/images/frame-1.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+             [:img {:src "/images/frame-1.jpg" :data-no-retina "" }]
              [:p "Dark Finish"]]
             [:li  
-             [:img {:src "/images/frame-2.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+             [:img {:src "/images/frame-2.jpg" :data-no-retina "" }]
              [:p "Light Finish"]]]]
           [:div {:class "upholstery-list-wrap"}
            [:h4 "Upholstery"]
@@ -182,53 +164,53 @@
             [:div {:class "upholstery-tab-content selected", :id "upholstery-tab-1"}
              [:ul {:class "upholstery-tetile-list"}
               [:li {:data-tab "upholstery-tab-family-1", :class "selected has-sub-tab"}
-               [:img {:src "/images/upholstery-1.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-1.jpg" :data-no-retina "" }]
                [:p "Textile 1"]]
               [:li {:data-tab "upholstery-tab-family-2", :class "selected has-sub-tab"}
-               [:img {:src "/images/upholstery-2.jpg", :class "selected has-sub-tab mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-2.jpg", :class "selected has-sub-tab xmCS_img_loaded", :data-no-retina "" }]
                [:p "Textile 2"]]
               [:li 
-               [:img {:src "/images/upholstery-3.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-3.jpg" :data-no-retina "" }]
                [:p "Textile 3"]]
               [:li 
-               [:img {:src "/images/upholstery-4.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-4.jpg" :data-no-retina "" }]
                [:p "Textile 4"]]
               [:li 
-               [:img {:src "/images/upholstery-5.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-5.jpg" :data-no-retina "" }]
                [:p "Textile 5"]]
               [:li 
-               [:img {:src "/images/upholstery-6.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-6.jpg" :data-no-retina "" }]
                [:p "Textile 6"]]
               [:li 
-               [:img {:src "/images/upholstery-7.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-7.jpg" :data-no-retina "" }]
                [:p "Textile 7"]]
               [:li 
-               [:img {:src "/images/upholstery-8.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-8.jpg" :data-no-retina "" }]
                [:p "Textile 8"]]]]
             [:div {:class "upholstery-tab-content", :id "upholstery-tab-2"}
              [:ul {:class "upholstery-tetile-list"}
               [:li 
-               [:img {:src "/images/upholstery-3.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-3.jpg" :data-no-retina "" }]
                [:p "Textile 3"]]
               [:li 
-               [:img {:src "/images/upholstery-4.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-4.jpg" :data-no-retina "" }]
                [:p "Textile 4"]]
               [:li 
-               [:img {:src "/images/upholstery-8.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-8.jpg" :data-no-retina "" }]
                [:p "Textile 8"]]]]
             [:div {:class "upholstery-tab-content", :id "upholstery-tab-3"}
              [:ul {:class "upholstery-tetile-list"}
               [:li 
-               [:img {:src "/images/upholstery-3.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-3.jpg" :data-no-retina "" }]
                [:p "Textile 3"]]
               [:li 
-               [:img {:src "/images/upholstery-4.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-4.jpg" :data-no-retina "" }]
                [:p "Textile 4"]]
               [:li 
-               [:img {:src "/images/upholstery-7.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-7.jpg" :data-no-retina "" }]
                [:p "Textile 7"]]
               [:li 
-               [:img {:src "/images/upholstery-8.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-8.jpg" :data-no-retina "" }]
                [:p "Textile 8"]]]]]
            [:div {:class "sub-tab-wrap"}
             [:div {:class "upholstery-tab-content", :id "upholstery-tab-family-1"}
@@ -238,40 +220,40 @@
              [:h5 "Alignment K394"]
              [:ul {:class "upholstery-tetile-list"}
               [:li 
-               [:img {:src "/images/upholstery-11.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-11.jpg" :data-no-retina "" }]
                [:p "1 Sand"]]
               [:li 
-               [:img {:src "/images/upholstery-12.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-12.jpg" :data-no-retina "" }]
                [:p "2 Straw"]]
               [:li 
-               [:img {:src "/images/upholstery-13.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-13.jpg" :data-no-retina "" }]
                [:p "3 Earth"]]
               [:li 
-               [:img {:src "/images/upholstery-14.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-14.jpg" :data-no-retina "" }]
                [:p "4 Paprika"]]
               [:li 
-               [:img {:src "/images/upholstery-15.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-15.jpg" :data-no-retina "" }]
                [:p "5 Aloe"]]
               [:li 
-               [:img {:src "/images/upholstery-16.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-16.jpg" :data-no-retina "" }]
                [:p "Textile 7"]]
               [:li 
-               [:img {:src "/images/upholstery-17.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-17.jpg" :data-no-retina "" }]
                [:p "Textile 8"]]
               [:li 
-               [:img {:src "/images/upholstery-18.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-18.jpg" :data-no-retina "" }]
                [:p "Textile 8"]]
               [:li 
-               [:img {:src "/images/upholstery-19.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-19.jpg" :data-no-retina "" }]
                [:p "Textile 8"]]
               [:li 
-               [:img {:src "/images/upholstery-20.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-20.jpg" :data-no-retina "" }]
                [:p "Textile 8"]]
               [:li 
-               [:img {:src "/images/upholstery-21.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-21.jpg" :data-no-retina "" }]
                [:p "Textile 8"]]
               [:li 
-               [:img {:src "/images/upholstery-22.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-22.jpg" :data-no-retina "" }]
                [:p "Textile 8"]]]]
             [:div {:class "upholstery-tab-content", :id "upholstery-tab-family-2"}
              [:ul {:class "upholstery-types-sub-list"}
@@ -280,22 +262,22 @@
              [:h5 "Alignment K395"]
              [:ul {:class "upholstery-tetile-list"}
               [:li 
-               [:img {:src "/images/upholstery-12.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-12.jpg" :data-no-retina "" }]
                [:p "2 Straw"]]
               [:li 
-               [:img {:src "/images/upholstery-13.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-13.jpg" :data-no-retina "" }]
                [:p "3 Earth"]]
               [:li 
-               [:img {:src "/images/upholstery-14.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-14.jpg" :data-no-retina "" }]
                [:p "4 Paprika"]]
               [:li 
-               [:img {:src "/images/upholstery-15.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-15.jpg" :data-no-retina "" }]
                [:p "5 Aloe"]]
               [:li 
-               [:img {:src "/images/upholstery-16.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-16.jpg" :data-no-retina "" }]
                [:p "Textile 7"]]
               [:li 
-               [:img {:src "/images/upholstery-17.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-17.jpg" :data-no-retina "" }]
                [:p "Textile 8"]]]]]]]
          [:div {:class "popup-tab-content", :id "tab2"}
           [:div {:class "options-list-wrap"}
@@ -322,44 +304,44 @@
             [:div {:class "upholstery-tab-content selected", :id "upholstery-tab-a-1"}
              [:ul {:class "upholstery-tetile-list"}
               [:li 
-               [:img {:src "/images/upholstery-1.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-1.jpg" :data-no-retina "" }]
                [:p "Textile 1"]]
               [:li 
-               [:img {:src "/images/upholstery-2.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-2.jpg" :data-no-retina "" }]
                [:p "Textile 2"]]
               [:li 
-               [:img {:src "/images/upholstery-3.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-3.jpg" :data-no-retina "" }]
                [:p "Textile 3"]]
               [:li 
-               [:img {:src "/images/upholstery-4.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-4.jpg" :data-no-retina "" }]
                [:p "Textile 4"]]
               [:li 
-               [:img {:src "/images/upholstery-5.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-5.jpg" :data-no-retina "" }]
                [:p "Textile 5"]]]]
             [:div {:class "upholstery-tab-content", :id "upholstery-tab-a-2"}
              [:ul {:class "upholstery-tetile-list"}
               [:li 
-               [:img {:src "/images/upholstery-3.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-3.jpg" :data-no-retina "" }]
                [:p "Textile 3"]]
               [:li 
-               [:img {:src "/images/upholstery-4.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-4.jpg" :data-no-retina "" }]
                [:p "Textile 4"]]
               [:li 
-               [:img {:src "/images/upholstery-8.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-8.jpg" :data-no-retina "" }]
                [:p "Textile 8"]]]]
             [:div {:class "upholstery-tab-content", :id "upholstery-tab-a-3"}
              [:ul {:class "upholstery-tetile-list"}
               [:li 
-               [:img {:src "/images/upholstery-3.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-3.jpg" :data-no-retina "" }]
                [:p "Textile 3"]]
               [:li 
-               [:img {:src "/images/upholstery-4.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-4.jpg" :data-no-retina "" }]
                [:p "Textile 4"]]
               [:li 
-               [:img {:src "/images/upholstery-7.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-7.jpg" :data-no-retina "" }]
                [:p "Textile 7"]]
               [:li 
-               [:img {:src "/images/upholstery-8.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-8.jpg" :data-no-retina "" }]
                [:p "Textile 8"]]]]]]]
          [:div {:class "popup-tab-content", :id "tab3"}
           [:div {:class "options-list-wrap"}
@@ -388,80 +370,66 @@
             [:div {:class "upholstery-tab-content selected", :id "upholstery-tab-b-1"}
              [:ul {:class "upholstery-tetile-list"}
               [:li 
-               [:img {:src "/images/upholstery-1.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-1.jpg" :data-no-retina "" }]
                [:p "Textile 1"]]
               [:li 
-               [:img {:src "/images/upholstery-2.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-2.jpg" :data-no-retina "" }]
                [:p "Textile 2"]]
               [:li 
-               [:img {:src "/images/upholstery-3.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-3.jpg" :data-no-retina "" }]
                [:p "Textile 3"]]
               [:li 
-               [:img {:src "/images/upholstery-4.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-4.jpg" :data-no-retina "" }]
                [:p "Textile 4"]]
               [:li 
-               [:img {:src "/images/upholstery-5.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-5.jpg" :data-no-retina "" }]
                [:p "Textile 5"]]
               [:li 
-               [:img {:src "/images/upholstery-6.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-6.jpg" :data-no-retina "" }]
                [:p "Textile 6"]]
               [:li 
-               [:img {:src "/images/upholstery-7.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-7.jpg" :data-no-retina "" }]
                [:p "Textile 7"]]
               [:li 
-               [:img {:src "/images/upholstery-8.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-8.jpg" :data-no-retina "" }]
                [:p "Textile 8"]]]]
             [:div {:class "upholstery-tab-content", :id "upholstery-tab-b-2"}
              [:ul {:class "upholstery-tetile-list"}
               [:li 
-               [:img {:src "/images/upholstery-3.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-3.jpg" :data-no-retina "" }]
                [:p "Textile 3"]]
               [:li 
-               [:img {:src "/images/upholstery-4.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-4.jpg" :data-no-retina "" }]
                [:p "Textile 4"]]
               [:li 
-               [:img {:src "/images/upholstery-8.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-8.jpg" :data-no-retina "" }]
                [:p "Textile 8"]]]]
             [:div {:class "upholstery-tab-content", :id "upholstery-tab-b-3"}
              [:ul {:class "upholstery-tetile-list"}
               [:li 
-               [:img {:src "/images/upholstery-3.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-3.jpg" :data-no-retina "" }]
                [:p "Textile 3"]]
               [:li 
-               [:img {:src "/images/upholstery-4.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-4.jpg" :data-no-retina "" }]
                [:p "Textile 4"]]
               [:li 
-               [:img {:src "/images/upholstery-7.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-7.jpg" :data-no-retina "" }]
                [:p "Textile 7"]]
               [:li 
-               [:img {:src "/images/upholstery-8.jpg", :class "mCS_img_loaded", :data-no-retina "" }]
+               [:img {:src "/images/upholstery-8.jpg" :data-no-retina "" }]
                [:p "Textile 8"]]]]]]]]]
        [:a {:class "swap-pro-arrow swap-pro-arrow-left"}]
        [:a {:class "swap-pro-arrow swap-pro-arrow-right"}]]]]))
 
 (defn main-panel []
   (let [name @(subscribe [::subs/name])]
-    (reagent/create-class
-     {:display-name "main-panel"
-
-      :component-did-mount
-      (fn []
-        #_(println "The main-panel component has mounted")
-        (.. (js/$ ".popup-modal")
-              (magnificPopup #js {:type "inline"
-                                  :midClick true
-                                  :showCloseBtn false})))
-
-      :reagent-render
-      (fn []
-        [:div
-         [:h1 "Knoll Essentials Lead Times & Finishes"]
-         [:p "(built using the " name " app framework.)"]
-         [:hr]
-         [:section.wrapper
-          [:section#page
-           [:div {:class "product-col clearfix"}
-            (filters-view)
-            (filtered-products-view)]]]
-         (modal-popup)])})))
-
+    [:<> ; this allows sibling elements without needing to wrap in a separate [:div]
+     [:h1 "Knoll Essentials Lead Times & Finishes"]
+     [:p "(built using the " name " app framework.)"]
+     [:hr]
+     [:section.wrapper
+      [:section#page
+       [:div {:class "product-col clearfix"}
+        [filters-view]
+        [filtered-products-view]]]]
+     [modal-popup]]))
