@@ -40,8 +40,123 @@
       (map lead-time-filter-check-box filters)]]))
 
 (defn product-type-filters []
-  [:div.select-wrap
-   [:h3 "Product Type"]])
+  [:<>
+   [:div {:class "filter-view-head"}
+    [:h3 "Filter By"]
+    [:p {:class "reset-filter-link", :style {:display "block"}} "Reset"]]
+   [:div {:class "product-type-check seating-filter"}
+    [:h4 "Seating"]
+    [:ul {:class "product-type-check-list", :style {:display "none"}}
+     [:li
+      [:input {:type "checkbox", :id "all-seat"}]
+      [:label {:for "all-seat"} "All Seating"]]
+     [:li
+      [:input {:type "checkbox", :id "seat-product"}]
+      [:label {:for "seat-product"} "Seating"]]
+     [:li
+      [:input {:type "checkbox", :id "work-product"}]
+      [:label {:for "work-product"} "Work"]]
+     [:li
+      [:input {:type "checkbox", :id "multi-product"}]
+      [:label {:for "multi-product"} "Side &amp; Multi-Use"]]
+     [:li
+      [:input {:type "checkbox", :id "lounge-product"}]
+      [:label {:for "lounge-product"} "Lounge"]]]]
+   [:div {:class "product-type-check"}
+    [:h4 "Tables"]
+    [:ul {:class "product-type-check-list", :style {:display "none"}}
+     [:li
+      [:input {:type "checkbox", :id "all-table"}]
+      [:label {:for "all-table"} "All Tables"]]
+     [:li
+      [:input {:type "checkbox", :id "table-1"}]
+      [:label {:for "table-1"} "Tables 1"]]
+     [:li
+      [:input {:type "checkbox", :id "table-2"}]
+      [:label {:for "table-2"} "Tables 2"]]
+     [:li
+      [:input {:type "checkbox", :id "table-3"}]
+      [:label {:for "table-3"} "Tables 3"]]
+     [:li
+      [:input {:type "checkbox", :id "table-4"}]
+      [:label {:for "table-4"} "Tables 4"]]
+     [:li
+      [:input {:type "checkbox", :id "table-5"}]
+      [:label {:for "table-5"} "Tables 5"]]]]
+   [:div {:class "product-type-check storage-filter"}
+    [:h4 "Storage"]
+    [:ul {:class "product-type-check-list", :style {:display "none"}}
+     [:li
+      [:input {:type "checkbox", :id "storage-1"}]
+      [:label {:for "storage-1"} "Storage 1"]]
+     [:li
+      [:input {:type "checkbox", :id "storage-2"}]
+      [:label {:for "storage-2"} "Storage 2"]]
+     [:li
+      [:input {:type "checkbox", :id "storage-3"}]
+      [:label {:for "storage-3"} "Storage 3"]]
+     [:li
+      [:input {:type "checkbox", :id "storage-4"}]
+      [:label {:for "storage-4"} "Storage 4"]]
+     [:li
+      [:input {:type "checkbox", :id "storage-5"}]
+      [:label {:for "storage-5"} "Storage 5"]]]]
+   [:div {:class "product-type-check power-filter"}
+    [:h4 "Power & Data"]
+    [:ul {:class "product-type-check-list", :style {:display "none"}}
+     [:li
+      [:input {:type "checkbox", :id "power-1"}]
+      [:label {:for "power-1"} "Power &amp; Data 1"]]
+     [:li
+      [:input {:type "checkbox", :id "power-2"}]
+      [:label {:for "power-2"} "Power &amp; Data 2"]]
+     [:li
+      [:input {:type "checkbox", :id "power-3"}]
+      [:label {:for "power-3"} "Power &amp; Data 3"]]
+     [:li
+      [:input {:type "checkbox", :id "power-4"}]
+      [:label {:for "power-4"} "Power &amp; Data 4"]]
+     [:li
+      [:input {:type "checkbox", :id "power-5"}]
+      [:label {:for "power-5"} "Power &amp; Data 5"]]]]
+   [:div {:class "product-type-check"}
+    [:h4 "Work Tools & Accessories"]
+    [:ul {:class "product-type-check-list", :style {:display "none"}}
+     [:li
+      [:input {:type "checkbox", :id "work-1"}]
+      [:label {:for "work-1"} "Work Tools &amp; Accessories 1"]]
+     [:li
+      [:input {:type "checkbox", :id "work-2"}]
+      [:label {:for "work-2"} "Work Tools &amp; Accessories 2"]]
+     [:li
+      [:input {:type "checkbox", :id "work-3"}]
+      [:label {:for "work-3"} "Work Tools &amp; Accessories 3"]]
+     [:li
+      [:input {:type "checkbox", :id "work-4"}]
+      [:label {:for "work-4"} "Work Tools &amp; Accessories 4"]]
+     [:li
+      [:input {:type "checkbox", :id "work-5"}]
+      [:label {:for "work-5"} "Work Tools &amp; Accessories 5"]]]]
+   [:div {:class "product-type-check"}
+    [:h4 "Screen & Communication Boards"]
+    [:ul {:class "product-type-check-list", :style {:display "none"}}
+     [:li
+      [:input {:type "checkbox", :id "screen-1"}]
+      [:label {:for "screen-1"} "Screen &amp; Communication Boards 1"]]
+     [:li
+      [:input {:type "checkbox", :id "screen-2"}]
+      [:label {:for "screen-2"} "Screen &amp; Communication Boards 2"]]
+     [:li
+      [:input {:type "checkbox", :id "screen-3"}]
+      [:label {:for "screen-3"} "Screen &amp; Communication Boards 3"]]
+     [:li
+      [:input {:type "checkbox", :id "screen-4"}]
+      [:label {:for "screen-4"} "Screen &amp; Communication Boards 4"]]
+     [:li
+      [:input {:type "checkbox", :id "screen-5"}]
+      [:label {:for "screen-5"} "Screen &amp; Communication Boards 5"]]]]
+   [:div {:class "hidden-lg visible-xs"}
+    [:a {:class "apply_btn accordian_btn", :href "javascript:;"} " &lt; APPLY AND RETURN"]]])
 
 (defn filters-view []
   [:div {:class "left-filter-col researchPage"}
@@ -83,7 +198,7 @@
      [:div.essentials-modal-wrap
       [:div.popup-action-list-wrap
        [:ul.popup-action-list-view
-        [:li  
+        [:li
          [:span.pop-action-icon]
          [:ul.popup-action-list
           [:li 
@@ -104,24 +219,24 @@
          [:p (:short-text selected-product)]]]
        [:div.essentials-product-tabs
         [:ul.essentials-tab-list
-         (if (lead-times-set :quick)
+         (if (lead-times-set "quick")
            [:li.selected {:data-tab "tab1"}
             [:span.tab-color.quick-lead-active]
             [:a.tab-nav "Essentials Quickship options"]])
-         (if (lead-times-set :three-week)
+         (if (lead-times-set "three-week")
            [:li {:data-tab "tab2"}
             [:span.tab-color.three-ship-active]
             [:a.tab-nav "Essentials 3 week options "]])
-         (if (lead-times-set :std)
+         (if (lead-times-set "std")
            [:li {:data-tab "tab3"}
             [:span.tab-color.standard-ship-active]
             [:a.tab-nav "Standard Ship options"]])]
         [:select.tab-select-option
-         (if (lead-times-set :quick)
+         (if (lead-times-set "quick")
            [:option {:value "tab1"} "ESSENTIALS Quickship options"])
-         (if (lead-times-set :three-week)
+         (if (lead-times-set "three-week")
            [:option {:value "tab2"} "Essentials 3 week options"])
-         (if (lead-times-set :std)
+         (if (lead-times-set "std")
            [:option {:value "tab3"} "Standard Ship options"])]
         [:div {:class "popup-tab-wrap mCustomScrollbar"}
          [:div {:class "popup-tab-content selected", :id "tab1"}
@@ -140,10 +255,10 @@
           [:div {:class "frame-finish-wrap"}
            [:h4 "Frame Finish"]
            [:ul {:class "frame-list"}
-            [:li  
+            [:li
              [:img {:src "/images/frame-1.jpg" :data-no-retina "" }]
              [:p "Dark Finish"]]
-            [:li  
+            [:li
              [:img {:src "/images/frame-2.jpg" :data-no-retina "" }]
              [:p "Light Finish"]]]]
           [:div {:class "upholstery-list-wrap"}
