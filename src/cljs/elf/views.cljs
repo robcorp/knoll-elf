@@ -14,11 +14,11 @@
       [:div.product-col-image
        [:img {:src thumb-img-src :data-no-retina ""}]]
       [:ul.lead-time-status
-       (if (lead-times-set :quick)
+       (if (lead-times-set "quick")
          [:li.quick-lead-active])
-       (if (lead-times-set :three-week)
+       (if (lead-times-set "three-week")
          [:li.three-ship-active])
-       (if (lead-times-set :std)
+       (if (lead-times-set "std")
          [:li.standard-ship-active])]
       [:p product-name]]]))
 
@@ -79,7 +79,6 @@
 (defn modal-popup []
   (let [selected-product @(subscribe [::subs/selected-product])
         lead-times-set (set (:lead-times selected-product))]
-    #_(println "selected product: " selected-product)
     [:div#essentials-modal.white-popup-block.mfp-hide
      [:div.essentials-modal-wrap
       [:div.popup-action-list-wrap
