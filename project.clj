@@ -53,7 +53,7 @@
      :source-paths ["src/cljs"]
      :compiler     {:main            elf.core
                     :output-to       "resources/public/js/compiled/elf.js"
-                    :optimizations   :advanced
+                    :optimizations   :simple
                     :closure-defines {goog.DEBUG false}
                     :pretty-print    false}}
 
