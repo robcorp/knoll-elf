@@ -27,6 +27,7 @@
     <!-- <link href="https://www.knoll.com/css/print.css?v=20180910" type="text/css" rel="stylesheet"> -->
 
     <link rel="stylesheet" type="text/css" href="css/essentials.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/seating.css"> -->
 	<link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.css">
 
   </head>
@@ -40,11 +41,14 @@
     <script src="js/compiled/elf.js"></script>
     <script>elf.core.init();</script>
 	<script>
-	  /*
-	  $(".popup-modal").magnificPopup({
-	  showCloseBtn: false
+	  $(document).ready(function() {
+		  $('.product-type-check-list').hide();
+		  $('.product-type-check-list.product-type-check-list-all').show();
+		  $('.product-type-check h4').click(function() {
+			  $(this).toggleClass('open');
+			  $(this).next('.product-type-check-list').slideToggle(); });
+		  
 	  });
-	  */
 	</script>
   </body>
 </html>
