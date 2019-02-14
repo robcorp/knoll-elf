@@ -535,11 +535,25 @@
        [:a {:class "swap-pro-arrow swap-pro-arrow-left"}]
        [:a {:class "swap-pro-arrow swap-pro-arrow-right"}]]]]))
 
+
+(defn mouse-pos-comp []
+  (reagent/with-let [pointer (reagent/atom {:x nil :y nil})
+               handler #(swap! pointer assoc
+                               :x (.-pageX %)
+                               :y (.-pageY %))
+               _ (.addEventListener js/document "mousemove" handler)]
+    [:div
+     "Pointer moved to: " [:br]
+     (str @pointer)]
+    (finally
+      (.removeEventListener js/document "mousemove" handler))))
+
 (defn main-panel []
   (let [name @(subscribe [::subs/name])]
     [:<> ; this allows sibling elements without needing to wrap in a separate [:div]
      [:h1 "Knoll Essentials Lead Times & Finishes"]
      [:p "(built using the " name " app framework.)"]
+     [mouse-pos-comp]
      [:hr]
      [:section.wrapper
       [:section#page

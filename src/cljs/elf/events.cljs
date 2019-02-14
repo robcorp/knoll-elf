@@ -84,7 +84,7 @@
 
 
 #_(let [presentationObjectItemsURL (str "http://knlprdwcsmgt1.knoll.com/cs/Satellite?pagename=Knoll/Common/Utils/PresentationObjectItemsJSON"
-                                      "&presentationObject=ProductNewsCategorySelector")
+                                      "&presentationObject=ELFLeadTimeSelector")
       success-handler (fn [resp]
                         (println "ajax resp: " + resp)
                         (println "(type resp) = " (type resp))
