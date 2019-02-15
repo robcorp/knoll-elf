@@ -538,10 +538,10 @@
 
 (defn mouse-pos-comp []
   (reagent/with-let [pointer (reagent/atom {:x nil :y nil})
-               handler #(swap! pointer assoc
-                               :x (.-pageX %)
-                               :y (.-pageY %))
-               _ (.addEventListener js/document "mousemove" handler)]
+                     handler #(swap! pointer assoc
+                                     :x (.-pageX %)
+                                     :y (.-pageY %))
+                     _ (.addEventListener js/document "mousemove" handler)]
     [:div
      "Pointer moved to: " [:br]
      (str @pointer)]
