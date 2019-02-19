@@ -39,6 +39,20 @@
      [:ul.lead-time-list
       (map lead-time-filter-check-box filters)]]))
 
+(defn product-type-filter-group [filter-options]
+  (let [name (:name filter-options)
+        desc (:description filter-options)
+        items (:items filter-options)]
+    [:div {:class "product-type-check has-filter-submenu"}
+     [:h4 desc]
+     [:ul {:class "product-type-check-list", :style {:display "none"}}
+      (for [i items]
+        (let [id (str name "-" i)]
+          ^{:key id}
+          [:li
+           [:input {:type "checkbox", :id id}]
+           [:label {:for id} i]]))]]))
+
 (defn product-type-filters []
   (let [seating-filter-options @(subscribe [::subs/seating-filter-options])
         tables-filter-options @(subscribe [::subs/tables-filter-options])
@@ -50,54 +64,13 @@
      [:div {:class "filter-view-head"}
       [:h3 "Filter By"]
       [:p {:class "reset-filter-link", :style {:display "block"}} "Reset"]]
-     [:div {:class "product-type-check has-filter-submenu"}
-      [:h4 (:description seating-filter-options)]
-      [:ul {:class "product-type-check-list", :style {:display "none"}}
-       (for [i (:items seating-filter-options)]
-         ^{:key (str "seating-" i)}
-         [:li
-          [:input {:type "checkbox", :id i}]
-          [:label {:for i} i]])]]
-     [:div {:class "product-type-check has-filter-submenu"}
-      [:h4 (:description tables-filter-options)]
-      [:ul {:class "product-type-check-list", :style {:display "none"}}
-       (for [i (:items tables-filter-options)]
-         ^{:key (str (:name tables-filter-options) "-" i)}
-         [:li
-          [:input {:type "checkbox", :id i}]
-          [:label {:for i} i]])]]
-     [:div {:class "product-type-check has-filter-submenu"}
-      [:h4 (:description storage-filter-options)]
-      [:ul {:class "product-type-check-list", :style {:display "none"}}
-       (for [i (:items storage-filter-options)]
-         ^{:key (str (:name storage-filter-options) "-" i)}
-         [:li
-          [:input {:type "checkbox", :id i}]
-          [:label {:for i} i]])]]
-     [:div {:class "product-type-check has-filter-submenu"}
-      [:h4 (:description power-data-filter-options)]
-      [:ul {:class "product-type-check-list", :style {:display "none"}}
-       (for [i (:items power-data-filter-options)]
-         ^{:key (str (:name power-data-filter-options) "-" i)}
-         [:li
-          [:input {:type "checkbox", :id i}]
-          [:label {:for i} i]])]]
-     [:div {:class "product-type-check has-filter-submenu"}
-      [:h4 (:description work-tools-filter-options)]
-      [:ul {:class "product-type-check-list", :style {:display "none"}}
-       (for [i (:items work-tools-filter-options)]
-         ^{:key (str (:name work-tools-filter-options) "-" i)}
-         [:li
-          [:input {:type "checkbox", :id i}]
-          [:label {:for i} i]])]]
-     [:div {:class "product-type-check has-filter-submenu"}
-      [:h4 (:description screen-board-filter-options)]
-      [:ul {:class "product-type-check-list", :style {:display "none"}}
-       (for [i (:items screen-board-filter-options)]
-         ^{:key (str (:name screen-board-filter-options) "-" i)}
-         [:li
-          [:input {:type "checkbox", :id i}]
-          [:label {:for i} i]])]]
+     [product-type-filter-group seating-filter-options]
+     [product-type-filter-group tables-filter-options]
+     [product-type-filter-group storage-filter-options]
+     [product-type-filter-group power-data-filter-options]
+     [product-type-filter-group work-tools-filter-options]
+     [product-type-filter-group screen-board-filter-options]
+     
      [:div {:class "hidden-lg visible-xs"}
       [:a {:class "apply_btn accordian_btn", :href "javascript:;"} " &lt; APPLY AND RETURN"]]]))
 
@@ -494,8 +467,8 @@
 (defn main-panel []
   (let [name @(subscribe [::subs/name])]
     [:<> ; this allows sibling elements without needing to wrap in a separate [:div]
-     [:h1 "Knoll Essentials Lead Times & Finishes"]
-     [:p "(built using the " name " app framework.)"]
+     [:h1 name]
+     [:p "(built using the re-frame app framework.)"]
      [mouse-pos-comp]
      [:hr]
      [:section.wrapper
