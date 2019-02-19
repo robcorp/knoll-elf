@@ -2,7 +2,7 @@
   (:require [elf.datadefs :as dd]))
 
 (def default-db
-  {:name "re-frame"
+  {:name "Knoll Essentials Lead Times & Finishes"
    :all-products dd/all-products
    :filtered-products dd/filtered-products
    :selected-product (:product-id (first dd/all-products))
