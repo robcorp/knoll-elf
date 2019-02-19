@@ -5,19 +5,20 @@
             [com.rpl.specter :refer [ALL multi-path walker] :refer-macros [select select-first setval] :as spctr]
             [ajax.core :as ajax]))
 
+
+(declare load-all-products load-filter-options)
+
 (reg-event-db
  ::initialize-db
  (fn-traced [_ _]
-            (let [all-products-url "http://127.0.0.1:7070/571268536.060299" ;; this will change each time Smart JSON Editor is launched
-                  success-handler (fn [resp]
-                                    (let [product-id (:product-id (first resp))]
-                                      (re-frame/dispatch [::set-all-products resp])))
-                  error-handler (fn [{:keys [status status-text]}]
-                                  (.log js/console (str "Ajax request to get all-products failed: " status " " status-text))
-                                  (re-frame/dispatch [::use-default-db]))]
-              (ajax/GET all-products-url {:handler success-handler :error-handler error-handler :response-format :json :keywords? true})
-     
-              db/default-db)))
+   (load-all-products)
+   (load-filter-options "ELFSeatingSelector")
+   (load-filter-options "ELFTableSelector")
+   (load-filter-options "ELFStorageSelector")
+   (load-filter-options "ELFPowerAndDataSelector")
+   (load-filter-options "ELFWorkToolsSelector")
+   (load-filter-options "ELFScreensAndBoardsSelector")
+   db/default-db))
 
 (reg-event-db
  ::use-default-db
@@ -28,7 +29,15 @@
 (reg-event-db
  ::set-all-products
  (fn-traced [db [_ products]]
-   (assoc db :all-products products)))
+            (assoc db :all-products products)))
+
+(reg-event-db
+ ::set-filter-options
+ (fn-traced [db [_ selector resp]]
+   (let [selector-key (keyword selector)
+         desc (:description resp)
+         items (:items resp)]
+     (assoc db selector-key {:description desc :items items}))))
 
 (reg-event-db
  ::set-filtered-products
@@ -83,18 +92,25 @@
 
 
 
-#_(let [presentationObjectItemsURL (str "http://knlprdwcsmgt1.knoll.com/cs/Satellite?pagename=Knoll/Common/Utils/PresentationObjectItemsJSON"
-                                      "&presentationObject=ELFLeadTimeSelector")
-      success-handler (fn [resp]
-                        (println "ajax resp: " + resp)
-                        (println "(type resp) = " (type resp))
-                        (println "name: " (-> resp
-                                              :presentationObjectItems
-                                              :items)))
+(defn load-all-products []
+  (let [all-products-url "http://127.0.0.1:7070/571268536.060299" ;; this will change each time Smart JSON Editor is launched
+        success-handler (fn [resp]
+                          (let [product-id (:product-id (first resp))]
+                            (re-frame/dispatch [::set-all-products resp])))
+        error-handler (fn [{:keys [status status-text]}]
+                        (.log js/console (str "Ajax request to get all-products failed: " status " " status-text))
+                        (re-frame/dispatch [::use-default-db]))]
+    (ajax/GET all-products-url {:handler success-handler :error-handler error-handler :response-format :json :keywords? true})))
+
+(defn load-filter-options [selector]
+  (let [presentationObjectItemsURL (str "http://knlprdwcsmgt1.knoll.com/cs/Satellite?pagename=Knoll/Common/Utils/PresentationObjectItemsJSON"
+                                        "&presentationObject=" selector)
+        success-handler (fn [resp]
+                          (re-frame/dispatch [::set-filter-options selector (:presentationObjectItems resp)]))
       
-      error-handler (fn [{:keys [status status-text]}]
-                      (.log js/console (str "Ajax request failed: " status " " status-text)))]
-  (ajax/GET presentationObjectItemsURL {:handler success-handler
-                                        :error-handler error-handler
-                                        :response-format :json
-                                        :keywords? true}))
+        error-handler (fn [{:keys [status status-text]}]
+                        (.log js/console (str "Ajax request failed: " status " " status-text)))]
+    (ajax/GET presentationObjectItemsURL {:handler success-handler
+                                          :error-handler error-handler
+                                          :response-format :json
+                                          :keywords? true})))

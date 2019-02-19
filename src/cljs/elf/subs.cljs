@@ -28,3 +28,33 @@
  ::lead-time-filters
  (fn [db]
    (:lead-time-filters db)))
+
+(reg-sub
+ ::seating-filter-options
+ (fn [db]
+   (:ELFSeatingSelector db)))
+
+(reg-sub
+ ::tables-filter-options
+ (fn [db]
+   (:ELFTableSelector db)))
+
+(reg-sub
+ ::storage-filter-options
+ (fn [db]
+   (:ELFStorageSelector db)))
+
+(reg-sub
+ ::power-data-filter-options
+ (fn [db]
+   (:ELFPowerAndDataSelector db)))
+
+(reg-sub
+ ::work-tools-filter-options
+ (fn [db]
+   (:ELFWorkToolsSelector db)))
+
+(reg-sub
+ ::screen-board-filter-options
+ (fn [db]
+   (:ELFScreensAndBoardsSelector db)))

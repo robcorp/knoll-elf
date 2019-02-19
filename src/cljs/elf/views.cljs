@@ -40,123 +40,66 @@
       (map lead-time-filter-check-box filters)]]))
 
 (defn product-type-filters []
-  [:<>
-   [:div {:class "filter-view-head"}
-    [:h3 "Filter By"]
-    [:p {:class "reset-filter-link", :style {:display "block"}} "Reset"]]
-   [:div {:class "product-type-check seating-filter"}
-    [:h4 "Seating"]
-    [:ul {:class "product-type-check-list", :style {:display "none"}}
-     [:li
-      [:input {:type "checkbox", :id "all-seat"}]
-      [:label {:for "all-seat"} "All Seating"]]
-     [:li
-      [:input {:type "checkbox", :id "seat-product"}]
-      [:label {:for "seat-product"} "Seating"]]
-     [:li
-      [:input {:type "checkbox", :id "work-product"}]
-      [:label {:for "work-product"} "Work"]]
-     [:li
-      [:input {:type "checkbox", :id "multi-product"}]
-      [:label {:for "multi-product"} "Side &amp; Multi-Use"]]
-     [:li
-      [:input {:type "checkbox", :id "lounge-product"}]
-      [:label {:for "lounge-product"} "Lounge"]]]]
-   [:div {:class "product-type-check"}
-    [:h4 "Tables"]
-    [:ul {:class "product-type-check-list", :style {:display "none"}}
-     [:li
-      [:input {:type "checkbox", :id "all-table"}]
-      [:label {:for "all-table"} "All Tables"]]
-     [:li
-      [:input {:type "checkbox", :id "table-1"}]
-      [:label {:for "table-1"} "Tables 1"]]
-     [:li
-      [:input {:type "checkbox", :id "table-2"}]
-      [:label {:for "table-2"} "Tables 2"]]
-     [:li
-      [:input {:type "checkbox", :id "table-3"}]
-      [:label {:for "table-3"} "Tables 3"]]
-     [:li
-      [:input {:type "checkbox", :id "table-4"}]
-      [:label {:for "table-4"} "Tables 4"]]
-     [:li
-      [:input {:type "checkbox", :id "table-5"}]
-      [:label {:for "table-5"} "Tables 5"]]]]
-   [:div {:class "product-type-check storage-filter"}
-    [:h4 "Storage"]
-    [:ul {:class "product-type-check-list", :style {:display "none"}}
-     [:li
-      [:input {:type "checkbox", :id "storage-1"}]
-      [:label {:for "storage-1"} "Storage 1"]]
-     [:li
-      [:input {:type "checkbox", :id "storage-2"}]
-      [:label {:for "storage-2"} "Storage 2"]]
-     [:li
-      [:input {:type "checkbox", :id "storage-3"}]
-      [:label {:for "storage-3"} "Storage 3"]]
-     [:li
-      [:input {:type "checkbox", :id "storage-4"}]
-      [:label {:for "storage-4"} "Storage 4"]]
-     [:li
-      [:input {:type "checkbox", :id "storage-5"}]
-      [:label {:for "storage-5"} "Storage 5"]]]]
-   [:div {:class "product-type-check power-filter"}
-    [:h4 "Power & Data"]
-    [:ul {:class "product-type-check-list", :style {:display "none"}}
-     [:li
-      [:input {:type "checkbox", :id "power-1"}]
-      [:label {:for "power-1"} "Power &amp; Data 1"]]
-     [:li
-      [:input {:type "checkbox", :id "power-2"}]
-      [:label {:for "power-2"} "Power &amp; Data 2"]]
-     [:li
-      [:input {:type "checkbox", :id "power-3"}]
-      [:label {:for "power-3"} "Power &amp; Data 3"]]
-     [:li
-      [:input {:type "checkbox", :id "power-4"}]
-      [:label {:for "power-4"} "Power &amp; Data 4"]]
-     [:li
-      [:input {:type "checkbox", :id "power-5"}]
-      [:label {:for "power-5"} "Power &amp; Data 5"]]]]
-   [:div {:class "product-type-check"}
-    [:h4 "Work Tools & Accessories"]
-    [:ul {:class "product-type-check-list", :style {:display "none"}}
-     [:li
-      [:input {:type "checkbox", :id "work-1"}]
-      [:label {:for "work-1"} "Work Tools &amp; Accessories 1"]]
-     [:li
-      [:input {:type "checkbox", :id "work-2"}]
-      [:label {:for "work-2"} "Work Tools &amp; Accessories 2"]]
-     [:li
-      [:input {:type "checkbox", :id "work-3"}]
-      [:label {:for "work-3"} "Work Tools &amp; Accessories 3"]]
-     [:li
-      [:input {:type "checkbox", :id "work-4"}]
-      [:label {:for "work-4"} "Work Tools &amp; Accessories 4"]]
-     [:li
-      [:input {:type "checkbox", :id "work-5"}]
-      [:label {:for "work-5"} "Work Tools &amp; Accessories 5"]]]]
-   [:div {:class "product-type-check"}
-    [:h4 "Screen & Communication Boards"]
-    [:ul {:class "product-type-check-list", :style {:display "none"}}
-     [:li
-      [:input {:type "checkbox", :id "screen-1"}]
-      [:label {:for "screen-1"} "Screen &amp; Communication Boards 1"]]
-     [:li
-      [:input {:type "checkbox", :id "screen-2"}]
-      [:label {:for "screen-2"} "Screen &amp; Communication Boards 2"]]
-     [:li
-      [:input {:type "checkbox", :id "screen-3"}]
-      [:label {:for "screen-3"} "Screen &amp; Communication Boards 3"]]
-     [:li
-      [:input {:type "checkbox", :id "screen-4"}]
-      [:label {:for "screen-4"} "Screen &amp; Communication Boards 4"]]
-     [:li
-      [:input {:type "checkbox", :id "screen-5"}]
-      [:label {:for "screen-5"} "Screen &amp; Communication Boards 5"]]]]
-   [:div {:class "hidden-lg visible-xs"}
-    [:a {:class "apply_btn accordian_btn", :href "javascript:;"} " &lt; APPLY AND RETURN"]]])
+  (let [seating-filter-options @(subscribe [::subs/seating-filter-options])
+        tables-filter-options @(subscribe [::subs/tables-filter-options])
+        storage-filter-options @(subscribe [::subs/storage-filter-options])
+        power-data-filter-options @(subscribe [::subs/power-data-filter-options])
+        work-tools-filter-options @(subscribe [::subs/work-tools-filter-options])
+        screen-board-filter-options @(subscribe [::subs/screen-board-filter-options])]
+    [:<>
+     [:div {:class "filter-view-head"}
+      [:h3 "Filter By"]
+      [:p {:class "reset-filter-link", :style {:display "block"}} "Reset"]]
+     [:div {:class "product-type-check has-filter-submenu"}
+      [:h4 (:description seating-filter-options)]
+      [:ul {:class "product-type-check-list", :style {:display "none"}}
+       (for [i (:items seating-filter-options)]
+         ^{:key (str "seating-" i)}
+         [:li
+          [:input {:type "checkbox", :id i}]
+          [:label {:for i} i]])]]
+     [:div {:class "product-type-check has-filter-submenu"}
+      [:h4 (:description tables-filter-options)]
+      [:ul {:class "product-type-check-list", :style {:display "none"}}
+       (for [i (:items tables-filter-options)]
+         ^{:key (str (:name tables-filter-options) "-" i)}
+         [:li
+          [:input {:type "checkbox", :id i}]
+          [:label {:for i} i]])]]
+     [:div {:class "product-type-check has-filter-submenu"}
+      [:h4 (:description storage-filter-options)]
+      [:ul {:class "product-type-check-list", :style {:display "none"}}
+       (for [i (:items storage-filter-options)]
+         ^{:key (str (:name storage-filter-options) "-" i)}
+         [:li
+          [:input {:type "checkbox", :id i}]
+          [:label {:for i} i]])]]
+     [:div {:class "product-type-check has-filter-submenu"}
+      [:h4 (:description power-data-filter-options)]
+      [:ul {:class "product-type-check-list", :style {:display "none"}}
+       (for [i (:items power-data-filter-options)]
+         ^{:key (str (:name power-data-filter-options) "-" i)}
+         [:li
+          [:input {:type "checkbox", :id i}]
+          [:label {:for i} i]])]]
+     [:div {:class "product-type-check has-filter-submenu"}
+      [:h4 (:description work-tools-filter-options)]
+      [:ul {:class "product-type-check-list", :style {:display "none"}}
+       (for [i (:items work-tools-filter-options)]
+         ^{:key (str (:name work-tools-filter-options) "-" i)}
+         [:li
+          [:input {:type "checkbox", :id i}]
+          [:label {:for i} i]])]]
+     [:div {:class "product-type-check has-filter-submenu"}
+      [:h4 (:description screen-board-filter-options)]
+      [:ul {:class "product-type-check-list", :style {:display "none"}}
+       (for [i (:items screen-board-filter-options)]
+         ^{:key (str (:name screen-board-filter-options) "-" i)}
+         [:li
+          [:input {:type "checkbox", :id i}]
+          [:label {:for i} i]])]]
+     [:div {:class "hidden-lg visible-xs"}
+      [:a {:class "apply_btn accordian_btn", :href "javascript:;"} " &lt; APPLY AND RETURN"]]]))
 
 (defn filters-view []
   [:div {:class "left-filter-col researchPage"}
