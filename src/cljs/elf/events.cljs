@@ -37,7 +37,7 @@
    (let [selector-key (keyword selector)
          desc (:description resp)
          items (:items resp)]
-     (assoc db selector-key {:description desc :items items}))))
+     (assoc db selector-key {:name selector :description desc :items items}))))
 
 (reg-event-db
  ::set-filtered-products
