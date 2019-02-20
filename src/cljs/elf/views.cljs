@@ -51,7 +51,7 @@
           ^{:key id}
           [:li
            [:input {:type "checkbox", :id id}]
-           [:label {:for id} i]]))]]))
+           [:label {:for id} (if (= "All") (str i " " desc) i)]]))]]))
 
 (defn product-type-filters []
   (let [seating-filter-options @(subscribe [::subs/seating-filter-options])
