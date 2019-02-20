@@ -3,7 +3,8 @@
             [elf.db :as db]
             [day8.re-frame.tracing :refer-macros [fn-traced defn-traced]]
             [com.rpl.specter :refer [ALL multi-path walker] :refer-macros [select select-first setval] :as spctr]
-            [ajax.core :as ajax]))
+            [ajax.core :as ajax]
+            [clojure.string :as str]))
 
 
 (declare load-all-products load-filter-options)
@@ -37,17 +38,17 @@
    (let [selector-key (keyword selector)
          desc (:description resp)
          items (:items resp)]
-     (assoc db selector-key {:name selector :description desc :items items}))))
+     (assoc db selector-key {:name selector :description desc :items (mapv (fn [i] {:label i :value false}) items)}))))
 
 (reg-event-db
  ::set-filtered-products
  (fn-traced [db [_ products]]
    (assoc db :filtered-products (group-by :product-type products))))
 
-(defn- lead-time-filter-value [lead-time lead-time-filters]
+#_(defn- lead-time-filter-value [lead-time lead-time-filters]
   (select-first [ALL #(= (:lead-time %) lead-time) :value] lead-time-filters))
 
-(defn- toggle-lead-time-filter-state [selected-filter filters]
+#_(defn- toggle-lead-time-filter-state [selected-filter filters]
   (let [selected-filter-value (lead-time-filter-value selected-filter filters)
         all-value (lead-time-filter-value "all" filters)]
 
@@ -63,12 +64,17 @@
         ;; else
         (setval [(walker #(= selected-filter (:lead-time %))) :value] (not selected-filter-value) filters)))))
 
+(defn- update-lead-time-filter-state [selected-filter filters]
+  (->> filters
+       (setval [ALL :value] false)
+       (setval [(walker #(= selected-filter (:lead-time %))) :value] true)))
+
 (defn- filter-products-by-lead-times [lead-times prods]
-  (if (empty? lead-times)
+  (if (lead-times "all")
     prods ;; return prods unfiltered
     (select [ALL #(some lead-times (:lead-times %))] prods)))
 
-(reg-event-db
+#_(reg-event-db
  ::lead-time-filter-check-box-clicked
  (fn-traced [db [_ lead-time] event]
    (let [updated-filters (toggle-lead-time-filter-state lead-time (:lead-time-filters db))
@@ -86,10 +92,34 @@
             :filtered-products filtered-products))))
 
 (reg-event-db
+ ::lead-time-filter-radio-button-clicked
+ (fn-traced [db [_ lead-time] event]
+   (let [updated-filters (update-lead-time-filter-state lead-time (:lead-time-filters db))
+         selected-lead-times (set (select [ALL #(true? (:value %)) :lead-time] updated-filters))
+         filtered-products (->> (:all-products db)
+                                (filter-products-by-lead-times selected-lead-times)
+                                (group-by :product-type))]
+
+     (assoc db
+            :lead-time-filters updated-filters
+            :filtered-products filtered-products))))
+
+(reg-event-db
+ ::product-type-filter-checkbox-clicked
+ (fn-traced [db [_ filter-id] event]
+   (let [[selector-str label] (str/split filter-id #":")
+         selector (keyword selector-str)
+         filter (selector db)
+         current-value (select-first [:items ALL #(= label (:label %)) :value] filter)
+         all-value (select-first [:items ALL #(= "All" (:label %)) :value] filter)]
+     (if (= label "All")
+       (setval [selector :items ALL :value] (not all-value) db)       
+       (setval [selector :items ALL #(= label (:label %)) :value] (not current-value) db)))))
+
+(reg-event-db
  ::product-selected
  (fn-traced [db [_ product-id] event]
-   (assoc  db :selected-product product-id)))
-
+   (assoc db :selected-product product-id)))
 
 
 (defn load-all-products []

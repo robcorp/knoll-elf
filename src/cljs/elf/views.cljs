@@ -31,13 +31,23 @@
             :on-change #(re-frame/dispatch [::events/lead-time-filter-check-box-clicked lead-time])}]
    [:label.active {:for id} label]])
 
+(defn lead-time-filter-radio-button [{:keys [li-id li-class id lead-time label value]} filter]
+  [:li {:key id :id li-id :class (str "lead-time-list-types " li-class)}
+   [:input {:type "radio"
+            :id id
+            :class "check-in"
+            :checked value
+            :name "lead-times-radio"
+            :on-change #(re-frame/dispatch [::events/lead-time-filter-radio-button-clicked lead-time])}]
+   [:label.active {:for id} label]])
+
 ;;; render the Lead Time: filters 
 (defn lead-time-filters []
   (let [filters @(subscribe [::subs/lead-time-filters])]
     [:div.select-wrap
      [:h3 "Lead Time:"]
      [:ul.lead-time-list
-      (map lead-time-filter-check-box filters)]]))
+      (map lead-time-filter-radio-button filters)]]))
 
 (defn product-type-filter-group [filter-options]
   (let [name (:name filter-options)
@@ -45,13 +55,19 @@
         items (:items filter-options)]
     [:div {:class "product-type-check has-filter-submenu"}
      [:h4 desc]
-     [:ul {:class "product-type-check-list", :style {:display "none"}}
+     [:ul {:class "product-type-check-list", :style {:display "block"}}
       (for [i items]
-        (let [id (str name "-" i)]
+        (let [{:keys [label value]} i
+              id (str name ":" label)]
           ^{:key id}
           [:li
-           [:input {:type "checkbox", :id id}]
-           [:label {:for id} (if (= "All") (str i " " desc) i)]]))]]))
+           [:input {:type "checkbox"
+                    :id id
+                    :checked value
+                    :on-change #(re-frame/dispatch [::events/product-type-filter-checkbox-clicked id])}]
+           [:label {:for id} (if (= "All")
+                               (str label " " desc)
+                               label)]]))]]))
 
 (defn product-type-filters []
   (let [seating-filter-options @(subscribe [::subs/seating-filter-options])
@@ -63,7 +79,7 @@
     [:<>
      [:div {:class "filter-view-head"}
       [:h3 "Filter By"]
-      [:p {:class "reset-filter-link", :style {:display "block"}} "Reset"]]
+      [:p {:class "reset-filter-link", :style {:display "none"}} "Reset"]]
      [product-type-filter-group seating-filter-options]
      [product-type-filter-group tables-filter-options]
      [product-type-filter-group storage-filter-options]
@@ -469,7 +485,7 @@
     [:<> ; this allows sibling elements without needing to wrap in a separate [:div]
      [:h1 name]
      [:p "(built using the re-frame app framework.)"]
-     [mouse-pos-comp]
+     #_[mouse-pos-comp]
      [:hr]
      [:section.wrapper
       [:section#page
