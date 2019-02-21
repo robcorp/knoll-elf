@@ -22,15 +22,6 @@
          [:li.standard-ship-active])]
       [:p product-name]]]))
 
-(defn lead-time-filter-check-box [{:keys [li-id li-class id lead-time label value]} filter]
-  [:li {:key id :id li-id :class (str "lead-time-list-types " li-class)}
-   [:input {:type "checkbox"
-            :id id
-            :class "check-in"
-            :checked value
-            :on-change #(re-frame/dispatch [::events/lead-time-filter-check-box-clicked lead-time])}]
-   [:label.active {:for id} label]])
-
 (defn lead-time-filter-radio-button [{:keys [li-id li-class id lead-time label value]} filter]
   [:li {:key id :id li-id :class (str "lead-time-list-types " li-class)}
    [:input {:type "radio"
@@ -50,24 +41,41 @@
       (map lead-time-filter-radio-button filters)]]))
 
 (defn product-type-filter-group [filter-options]
-  (let [name (:name filter-options)
-        desc (:description filter-options)
-        items (:items filter-options)]
-    [:div {:class "product-type-check has-filter-submenu"}
-     [:h4 desc]
-     [:ul {:class "product-type-check-list", :style {:display "block"}}
-      (for [i items]
-        (let [{:keys [label value]} i
-              id (str name ":" label)]
-          ^{:key id}
-          [:li
-           [:input {:type "checkbox"
-                    :id id
-                    :checked value
-                    :on-change #(re-frame/dispatch [::events/product-type-filter-checkbox-clicked id])}]
-           [:label {:for id} (if (= "All")
-                               (str label " " desc)
-                               label)]]))]]))
+  (let [did-mount-toggler (fn [comp]
+                            (.click (.find (js/$ (reagent/dom-node comp)) "h4") 
+                                    (fn [ev]
+                                      (this-as this
+                                        (let [$this (js/$ this)]
+                                          (.toggleClass $this "open")
+                                          (.slideToggle (.next $this ".product-type-check-list")))))))]
+    
+    (reagent/create-class
+     {:reagent-render
+      (fn [filter-options]
+        (let [name (:name filter-options)
+              desc (:description filter-options)
+              items (:items filter-options)]
+          [:div {:class "product-type-check has-filter-submenu"}
+           [:h4 desc]
+           [:ul {:class "product-type-check-list", :style {:display "none"}}
+            (for [i items]
+              (let [{:keys [label value]} i
+                    id (str name ":" label)]
+                ^{:key id}
+                [:li
+                 [:input {:type "checkbox"
+                          :id id
+                          :checked value
+                          :on-change #(re-frame/dispatch [::events/product-type-filter-checkbox-clicked id])}]
+                 [:label {:for id} (if (= "All" label)
+                                     (str label " " desc)
+                                     label)]]))]]))
+
+      :display-name "product-type-filter-group"
+
+      :component-did-mount did-mount-toggler
+
+      :component-did-update #()})))
 
 (defn product-type-filters []
   (let [seating-filter-options @(subscribe [::subs/seating-filter-options])
@@ -79,7 +87,10 @@
     [:<>
      [:div {:class "filter-view-head"}
       [:h3 "Filter By"]
-      [:p {:class "reset-filter-link", :style {:display "none"}} "Reset"]]
+      [:p {:class "reset-filter-link"
+           :style {:display "block"}
+           :on-click #(re-frame/dispatch [::events/reset-product-type-filters])}
+       "Reset"]]
      [product-type-filter-group seating-filter-options]
      [product-type-filter-group tables-filter-options]
      [product-type-filter-group storage-filter-options]
@@ -88,13 +99,12 @@
      [product-type-filter-group screen-board-filter-options]
      
      [:div {:class "hidden-lg visible-xs"}
-      [:a {:class "apply_btn accordian_btn", :href "javascript:;"} " &lt; APPLY AND RETURN"]]]))
+      [:a {:class "apply_btn accordian_btn", :href "javascript:;"} " < APPLY AND RETURN"]]]))
 
 (defn filters-view []
   [:div {:class "left-filter-col researchPage"}
    [lead-time-filters]
-   [product-type-filters]
-   ])
+   [product-type-filters]])
 
 (defn filtered-product-type-section [[product-type product-list]]
   ^{:key product-type}

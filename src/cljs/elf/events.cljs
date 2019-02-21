@@ -117,12 +117,22 @@
        (setval [selector :items ALL #(= label (:label %)) :value] (not current-value) db)))))
 
 (reg-event-db
+ ::reset-product-type-filters
+ (fn [db _]
+   (setval (multi-path [:ELFSeatingSelector :items ALL :value]
+                       [:ELFTableSelector :items ALL :value]
+                       [:ELFStorageSelector :items ALL :value]
+                       [:ELFPowerAndDataSelector :items ALL :value]
+                       [:ELFWorkToolsSelector :items ALL :value]
+                       [:ELFScreensAndBoardsSelector :items ALL :value]) false db)))
+
+(reg-event-db
  ::product-selected
  (fn-traced [db [_ product-id] event]
    (assoc db :selected-product product-id)))
 
 
-(defn load-all-products []
+(defn- load-all-products []
   (let [all-products-url "http://127.0.0.1:7070/571268536.060299" ;; this will change each time Smart JSON Editor is launched
         success-handler (fn [resp]
                           (let [product-id (:product-id (first resp))]
@@ -132,7 +142,7 @@
                         (re-frame/dispatch [::use-default-db]))]
     (ajax/GET all-products-url {:handler success-handler :error-handler error-handler :response-format :json :keywords? true})))
 
-(defn load-filter-options [selector]
+(defn- load-filter-options [selector]
   (let [presentationObjectItemsURL (str "http://knlprdwcsmgt1.knoll.com/cs/Satellite?pagename=Knoll/Common/Utils/PresentationObjectItemsJSON"
                                         "&presentationObject=" selector)
         success-handler (fn [resp]
