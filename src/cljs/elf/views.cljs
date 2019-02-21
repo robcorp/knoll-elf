@@ -133,25 +133,26 @@
 
       :component-did-update setup-popup})))
 
-(defn modal-popup []
+(defn old-modal-popup []
   (let [selected-product @(subscribe [::subs/selected-product])
         lead-times-set (set (:lead-times selected-product))]
     [:div#essentials-modal.white-popup-block.mfp-hide
      [:div.essentials-modal-wrap
-      [:div.popup-action-list-wrap
-       [:ul.popup-action-list-view
-        [:li
-         [:span.pop-action-icon]
-         [:ul.popup-action-list
-          [:li 
-           [:a {:href "javascript:;"} " Visit Full Product Page"]]
-          [:li 
-           [:a {:href "javascript:;"} "Share"]]
-          [:li 
-           [:a {:href "javascript:;"} "PRINT"]]
-          [:li 
-           [:a {:href "javascript:;"} "View essentials brochure"]]]]]]
-      [:a.popup-modal-dismiss {:href "#"} "Dismiss"]
+      [:div.header-popup-view
+       [:div.popup-action-list-wrap
+        [:ul.popup-action-list-view
+         [:li
+          [:span.pop-action-icon]
+          [:ul.popup-action-list
+           [:li 
+            [:a {:href "javascript:;"} " Visit Full Product Page"]]
+           [:li 
+            [:a {:href "javascript:;"} "Share"]]
+           [:li 
+            [:a {:href "javascript:;"} "PRINT"]]
+           [:li 
+            [:a {:href "javascript:;"} "View essentials brochure"]]]]]
+        [:a.popup-modal-dismiss "Dismiss"]]]
       [:div.essentials-modal-content
        [:div.essentials-product-img
         [:div.essentials-product-img-wrap
@@ -478,6 +479,213 @@
        [:a {:class "swap-pro-arrow swap-pro-arrow-right"}]]]]))
 
 
+(defn modal-popup []
+  (let [selected-product @(subscribe [::subs/selected-product])
+        lead-times-set (set (:lead-times selected-product))]
+    [:div#essentials-modal.white-popup-block.mfp-hide
+     [:div.essentials-modal-wrap
+      [:div.header-popup-view
+       [:div.popup-action-list-wrap
+        [:ul.popup-action-list-view
+         [:li [:span.pop-action-icon]
+          [:ul.popup-action-list
+           [:li [:a {:href (str "https://www.knoll.com/product/" (:product-id selected-product) "?section=design") :target "_blank"} " Visit Full Product Page"]]
+           [:li [:a {:href "javascript:;"} "Share"]] [:li [:a {:href "javascript:;"} "PRINT"]]
+           [:li [:a {:href "javascript:;"} "View essentials brochure"]]]]]]
+       [:a.popup-modal-dismiss "Dismiss"]]
+      [:div.owl-popup-div
+       [:div.item
+        [:div.essentials-modal-content
+         [:div.essentials-product-img
+          [:div.essentials-product-img-wrap
+           [:img {:src (:hero1-img-src selected-product) :data-no-retina ""}]]
+          [:div.essentials-product-img-detail
+           [:h2 (:product-name selected-product)]
+           [:p (:short-text selected-product)]]]
+         [:div.essentials-product-tabs
+          [:ul.essentials-tab-list
+         (if (lead-times-set "quick")
+           [:li.selected {:data-tab "tab1"}
+            [:span.tab-color.quick-lead-active]
+            [:a.tab-nav "Essentials Quickship options"]])
+         (if (lead-times-set "three-week")
+           [:li {:data-tab "tab2"}
+            [:span.tab-color.three-ship-active]
+            [:a.tab-nav "Essentials 3 week options "]])
+         (if (lead-times-set "std")
+           [:li {:data-tab "tab3"}
+            [:span.tab-color.standard-ship-active]
+            [:a.tab-nav "Standard Ship options"]])]
+          #_[:ul.essentials-tab-list
+           [:li.selected {:data-tab "tab1"} [:span.tab-color.quick-lead-active] [:a.tab-nav "Essentials Quickship  options"]]
+           [:li {:data-tab "tab2"} [:span.tab-color.three-ship-active] [:a.tab-nav "Essentials 3 week options "]]
+           [:li {:data-tab "tab3"} [:span.tab-color.standard-ship-active] [:a.tab-nav "Standard Ship options"]]]
+          [:select.tab-select-option
+           [:option {:value "tab1"} "ESSENTIALS Quickship options"]
+           [:option {:value "tab2"} "Essentials 3 week options"]
+           [:option {:value "tab3"} "Standard Ship options"]]
+          [:div.popup-tab-wrap.mCustomScrollbar
+           [:div#tab1.popup-tab-content.selected
+            [:div.options-list-wrap
+             [:h4 "Options"]
+             [:ul.options-list
+              [:li " Dark frame finish"]
+              [:li " Plastic or aluminum base"]]
+             [:ul.options-list
+              [:li " Three arms"]
+              [:li " Lumbar support"]]]
+            [:div.frame-finish-wrap
+             [:h4 "Frame Finish"]
+             [:ul.frame-list
+              [:li [:div.swatch-div [:img {:src "/images/frames/k-frame-finish.jpg" :data-no-retina ""}]] [:p "Red"]]
+              [:li [:div.swatch-div [:img {:src "/images/frames/k-frame-finish-2.jpg" :data-no-retina ""}]] [:p "Light Finish"]]
+              [:li [:div.swatch-div [:img {:src "/images/frames/k-frame-finish-3.jpg" :data-no-retina ""}]] [:p "Light Finish"]]
+              [:li [:div.swatch-div [:img {:src "/images/frames/k-frame-finish-4.jpg" :data-no-retina ""}]] [:p "Black"]]
+              [:li [:div.swatch-div [:img {:src "/images/frames/k-frame-finish-5.jpg" :data-no-retina ""}]] [:p "Grey"]]]]
+            [:div.upholstery-list-wrap
+             [:h4 "Upholstery"]
+             [:div.tab-main
+              [:label "Grade:"]
+              [:ul.upholstery-types-list
+               [:li.selected {:data-tab "upholstery-tab-1"} [:a {:href "javascript:;"} "a"]]
+               [:li {:data-tab "upholstery-tab-2"} [:a {:href "javascript:;"} "b"]]
+               [:li {:data-tab "upholstery-tab-3"} [:a {:href "javascript:;"} "c"]]
+               [:li [:a {:href "javascript:;"} "LEATHER & VINYL"]]]]
+             [:div.upholstery-tab-wrap
+              [:div#upholstery-tab-1.upholstery-tab-content.selected
+               [:ul.upholstery-tetile-list
+                [:li.selected.has-sub-tab {:data-tab "upholstery-tab-family-1"}
+                 [:div.swatch-div
+                  [:img {:src "images/upholstery-1.jpg" :data-no-retina ""}]] [:p "Textile 1"]]
+                [:li.selected.has-sub-tab {:data-tab "upholstery-tab-family-2"}
+                 [:div.swatch-div [:img.selected.has-sub-tab {:src "/images/upholstery-2.jpg" :data-no-retina ""}]] [:p "Textile 2"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-3.jpg" :data-no-retina ""}]] [:p "Textile 3"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-4.jpg" :data-no-retina ""}]] [:p "Textile 4"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-5.jpg" :data-no-retina ""}]] [:p "Textile 5"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-6.jpg" :data-no-retina ""}]] [:p "Textile 6"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-7.jpg" :data-no-retina ""}]] [:p "Textile 7"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-8.jpg" :data-no-retina ""}]] [:p "Textile 8"]]]]
+              [:div#upholstery-tab-2.upholstery-tab-content
+               [:ul.upholstery-tetile-list
+                [:li
+                 [:div.swatch-div [:img {:src "/images/upholstery-3.jpg" :data-no-retina ""}]] [:p "Textile 3"]]
+                [:li
+                 [:div.swatch-div [:img {:src "/images/upholstery-4.jpg" :data-no-retina ""}]] [:p "Textile 4"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-8.jpg" :data-no-retina ""}]] [:p "Textile 8"]]]]
+              [:div#upholstery-tab-3.upholstery-tab-content
+               [:ul.upholstery-tetile-list
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-3.jpg" :data-no-retina ""}]] [:p "Textile 3"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-4.jpg" :data-no-retina ""}]] [:p "Textile 4"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-7.jpg" :data-no-retina ""}]] [:p "Textile 7"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-8.jpg" :data-no-retina ""}]] [:p "Textile 8"]]]]]
+             [:div.sub-tab-wrap
+              [:div#upholstery-tab-family-1.upholstery-tab-content
+               [:ul.upholstery-types-sub-list
+                [:li {:data-tab "upholstery-tab-1"} [:a {:href "javascript:;"} "Back to all grade a"]]]
+               [:h5 "Alignment K394"]
+               [:ul.upholstery-tetile-list
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-11.jpg" :data-no-retina ""}]] [:p "1 Sand"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-12.jpg" :data-no-retina ""}]] [:p "2 Straw"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-13.jpg" :data-no-retina ""}]] [:p "3 Earth"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-14.jpg" :data-no-retina ""}]] [:p "4 Paprika"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-15.jpg" :data-no-retina ""}]] [:p "5 Aloe"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-16.jpg" :data-no-retina ""}]] [:p "Textile 7"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-17.jpg" :data-no-retina ""}]] [:p "Textile 8"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-18.jpg" :data-no-retina ""}]] [:p "Textile 8"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-19.jpg" :data-no-retina ""}]] [:p "Textile 8"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-20.jpg" :data-no-retina ""}]] [:p "Textile 8"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-21.jpg" :data-no-retina ""}]] [:p "Textile 8"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-22.jpg" :data-no-retina ""}]] [:p "Textile 8"]]]]
+              [:div#upholstery-tab-family-2.upholstery-tab-content
+               [:ul.upholstery-types-sub-list
+                [:li {:data-tab "upholstery-tab-1"} [:a {:href "javascript:;"} "Back to all grade a"]]]
+               [:h5 "Alignment K395"]
+               [:ul.upholstery-tetile-list
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-12.jpg" :data-no-retina ""}]] [:p "2 Straw"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-13.jpg" :data-no-retina ""}]] [:p "3 Earth"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-14.jpg" :data-no-retina ""}]] [:p "4 Paprika"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-15.jpg" :data-no-retina ""}]] [:p "5 Aloe"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-16.jpg" :data-no-retina ""}]] [:p "Textile 7"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-17.jpg" :data-no-retina ""}]] [:p "Textile 8"]]]]]]]
+           [:div#tab2.popup-tab-content
+            [:div.options-list-wrap
+             [:h4 "Options"]
+             [:ul.options-list
+              [:li " Three arm options, or armless"]
+              [:li " Lumbar support"]
+              [:li " Lumbar support"]]
+             [:ul.options-list
+              [:li " Three arm options, or armless"]
+              [:li " Three arm options, or armless"]
+              [:li " Lumbar support"]]]
+            [:div.upholstery-list-wrap [:h4 "Upholstery"]
+             [:label "Grade:"]
+             [:ul.upholstery-types-list
+              [:li.selected {:data-tab "upholstery-tab-a-1"} [:a {:href "javascript:;"} "a"]]
+              [:li {:data-tab "upholstery-tab-a-2"} [:a {:href "javascript:;"} "b"]]
+              [:li {:data-tab "upholstery-tab-a-3"} [:a {:href "javascript:;"} "c"]]]
+             [:div.upholstery-tab-wrap
+              [:div#upholstery-tab-a-1.upholstery-tab-content.selected
+               [:ul.upholstery-tetile-list
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-1.jpg" :data-no-retina ""}]] [:p "Textile 1"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-2.jpg" :data-no-retina ""}]] [:p "Textile 2"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-3.jpg" :data-no-retina ""}]] [:p "Textile 3"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-4.jpg" :data-no-retina ""}]] [:p "Textile 4"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-5.jpg" :data-no-retina ""}]] [:p "Textile 5"]]]]
+              [:div#upholstery-tab-a-2.upholstery-tab-content
+               [:ul.upholstery-tetile-list
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-3.jpg" :data-no-retina ""}]] [:p "Textile 3"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-4.jpg" :data-no-retina ""}]] [:p "Textile 4"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-8.jpg" :data-no-retina ""}]] [:p "Textile 8"]]]]
+              [:div#upholstery-tab-a-3.upholstery-tab-content
+               [:ul.upholstery-tetile-list
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-3.jpg" :data-no-retina ""}]] [:p "Textile 3"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-4.jpg" :data-no-retina ""}]] [:p "Textile 4"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-7.jpg" :data-no-retina ""}]] [:p "Textile 7"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-8.jpg" :data-no-retina ""}]] [:p "Textile 8"]]]]]]]
+           [:div#tab3.popup-tab-content
+            [:div.options-list-wrap
+             [:h4 "Options"]
+             [:ul.options-list
+              [:li " Three arm options, or armless"]
+              [:li " Lumbar support"]
+              [:li " Three arm options, or armless"]
+              [:li " Lumbar support"]]
+             [:ul.options-list
+              [:li " Three arm options, or armless"]
+              [:li " Lumbar support"]
+              [:li " Three arm options, or armless"]
+              [:li " Lumbar support"]]]
+            [:div.upholstery-list-wrap
+             [:h4 "Upholstery"] [:label "Grade:"]
+             [:ul.upholstery-types-list
+              [:li.selected {:data-tab "upholstery-tab-b-1"} [:a {:href "javascript:;"} "a"]]
+              [:li {:data-tab "upholstery-tab-b-2"} [:a {:href "javascript:;"} "b"]]
+              [:li {:data-tab "upholstery-tab-b-3"} [:a {:href "javascript:;"} "c"]]]
+             [:div.upholstery-tab-wrap
+              [:div#upholstery-tab-b-1.upholstery-tab-content.selected
+               [:ul.upholstery-tetile-list
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-1.jpg" :data-no-retina ""}]] [:p "Textile 1"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-2.jpg" :data-no-retina ""}]] [:p "Textile 2"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-3.jpg" :data-no-retina ""}]] [:p "Textile 3"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-4.jpg" :data-no-retina ""}]] [:p "Textile 4"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-5.jpg" :data-no-retina ""}]] [:p "Textile 5"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-6.jpg" :data-no-retina ""}]] [:p "Textile 6"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-7.jpg" :data-no-retina ""}]] [:p "Textile 7"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-8.jpg" :data-no-retina ""}]] [:p "Textile 8"]]]]
+              [:div#upholstery-tab-b-2.upholstery-tab-content
+               [:ul.upholstery-tetile-list
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-3.jpg" :data-no-retina ""}]] [:p "Textile 3"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-4.jpg" :data-no-retina ""}]] [:p "Textile 4"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-8.jpg" :data-no-retina ""}]] [:p "Textile 8"]]]]
+              [:div#upholstery-tab-b-3.upholstery-tab-content
+               [:ul.upholstery-tetile-list
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-3.jpg" :data-no-retina ""}]] [:p "Textile 3"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-4.jpg" :data-no-retina ""}]] [:p "Textile 4"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-7.jpg" :data-no-retina ""}]] [:p "Textile 7"]]
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-8.jpg" :data-no-retina ""}]] [:p "Textile 8"]]]]]]]]]]]]]]))
+
+
 (defn mouse-pos-comp []
   (reagent/with-let [pointer (reagent/atom {:x nil :y nil})
                      handler #(swap! pointer assoc
@@ -494,12 +702,19 @@
   (let [name @(subscribe [::subs/name])]
     [:<> ; this allows sibling elements without needing to wrap in a separate [:div]
      [:h1 name]
-     [:p "(built using the re-frame app framework.)"]
+     #_[:p "(built using the re-frame app framework.)"]
      #_[mouse-pos-comp]
      [:hr]
-     [:section.wrapper
-      [:section#page
-       [:div {:class "product-col clearfix"}
-        [filters-view]
-        [filtered-products-view]]]]
+     [:div.allbody-wrapper
+      [:section#essentials-product-search
+       [:section.wrapper
+        [:section#essentials_search
+         [:article.left
+          [:h2 "Knoll Essentials Product Index"]
+          [:p "Explore the wide variety of high-performance products available through Knoll Essentials, including a broad range of materials and finishes to reflect your brand and culture. Most of these products can be ready to install in just four weeks."]]]]]
+
+      [:section.wrapper [:section#page
+                         [:div {:class "product-col clearfix"}
+                          [filters-view]
+                          [filtered-products-view]]]]]
      [modal-popup]]))
