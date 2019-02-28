@@ -5,6 +5,32 @@
    [elf.events :as events]
    [elf.subs :as subs]))
 
+(declare filters-view filtered-products-view modal-popup mouse-pos-comp)
+
+(defn main-panel []
+  (let [name @(subscribe [::subs/name])]
+    [:<> ; this allows sibling elements without needing to wrap in a separate [:div]
+     [:div
+        [:h1 name]
+        [:p "(built using the re-frame app framework.)"]
+        [mouse-pos-comp]
+        [:hr]]
+     [:div.xallbody-wrapper
+      [:section#essentials-product-search
+         [:section.wrapper
+          [:section#essentials_search
+           [:article.left
+            [:h2 "Knoll Essentials Product Index"]
+            [:p "Explore the wide variety of high-performance products available through Knoll Essentials, including a broad range of materials and finishes to reflect your brand and culture. Most of these products can be ready to install in just four weeks."]]]]]
+
+      [:section.wrapper
+       [:section#page
+        [:div {:class "product-col clearfix"}
+         [filters-view]
+         [filtered-products-view]]]]]
+     [modal-popup]]))
+
+
 (defn essential-product-summary [{:keys [product-id product-name lead-times thumb-img-src]}]
   (let [lead-times-set (set lead-times)]
     ^{:key product-id}
@@ -504,26 +530,29 @@
            [:p (:short-text selected-product)]]]
          [:div.essentials-product-tabs
           [:ul.essentials-tab-list
-         (if (lead-times-set "quick")
-           [:li.selected {:data-tab "tab1"}
-            [:span.tab-color.quick-lead-active]
-            [:a.tab-nav "Essentials Quickship options"]])
-         (if (lead-times-set "three-week")
-           [:li {:data-tab "tab2"}
-            [:span.tab-color.three-ship-active]
-            [:a.tab-nav "Essentials 3 week options "]])
-         (if (lead-times-set "std")
-           [:li {:data-tab "tab3"}
-            [:span.tab-color.standard-ship-active]
-            [:a.tab-nav "Standard Ship options"]])]
-          #_[:ul.essentials-tab-list
-           [:li.selected {:data-tab "tab1"} [:span.tab-color.quick-lead-active] [:a.tab-nav "Essentials Quickship  options"]]
-           [:li {:data-tab "tab2"} [:span.tab-color.three-ship-active] [:a.tab-nav "Essentials 3 week options "]]
-           [:li {:data-tab "tab3"} [:span.tab-color.standard-ship-active] [:a.tab-nav "Standard Ship options"]]]
+           (if (lead-times-set "quick")
+             [:li.selected {:data-tab "tab1"}
+              [:span.tab-color.quick-lead-active]
+              [:a.tab-nav "Essentials Quickship options"]])
+           (if (lead-times-set "three-week")
+             [:li {:data-tab "tab2"}
+              [:span.tab-color.three-ship-active]
+              [:a.tab-nav "Essentials 3 week options "]])
+           (if (lead-times-set "std")
+             [:li {:data-tab "tab3"}
+              [:span.tab-color.standard-ship-active]
+              [:a.tab-nav "Standard Ship options"]])]
           [:select.tab-select-option
-           [:option {:value "tab1"} "ESSENTIALS Quickship options"]
-           [:option {:value "tab2"} "Essentials 3 week options"]
-           [:option {:value "tab3"} "Standard Ship options"]]
+           (if (lead-times-set "quick")
+             [:option {:value "tab1"} "ESSENTIALS Quickship options"])
+           (if (lead-times-set "three-week")
+             [:option {:value "tab2"} "Essentials 3 week options"])
+           (if (lead-times-set "std")
+             [:option {:value "tab3"} "Standard Ship options"])]
+          #_[:select.tab-select-option
+             [:option {:value "tab1"} "ESSENTIALS Quickship options"]
+             [:option {:value "tab2"} "Essentials 3 week options"]
+             [:option {:value "tab3"} "Standard Ship options"]]
           [:div.popup-tab-wrap.mCustomScrollbar
            [:div#tab1.popup-tab-content.selected
             [:div.options-list-wrap
@@ -698,23 +727,4 @@
     (finally
       (.removeEventListener js/document "mousemove" handler))))
 
-(defn main-panel []
-  (let [name @(subscribe [::subs/name])]
-    [:<> ; this allows sibling elements without needing to wrap in a separate [:div]
-     [:h1 name]
-     #_[:p "(built using the re-frame app framework.)"]
-     #_[mouse-pos-comp]
-     [:hr]
-     [:div.allbody-wrapper
-      [:section#essentials-product-search
-       [:section.wrapper
-        [:section#essentials_search
-         [:article.left
-          [:h2 "Knoll Essentials Product Index"]
-          [:p "Explore the wide variety of high-performance products available through Knoll Essentials, including a broad range of materials and finishes to reflect your brand and culture. Most of these products can be ready to install in just four weeks."]]]]]
 
-      [:section.wrapper [:section#page
-                         [:div {:class "product-col clearfix"}
-                          [filters-view]
-                          [filtered-products-view]]]]]
-     [modal-popup]]))
