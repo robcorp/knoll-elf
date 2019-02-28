@@ -3,7 +3,8 @@
    [reagent.core :as reagent]
    [re-frame.core :refer [subscribe] :as re-frame]
    [elf.events :as events]
-   [elf.subs :as subs]))
+   [elf.subs :as subs]
+   [com.rpl.specter :refer [ALL multi-path walker] :refer-macros [select select-first setval transform] :as spctr]))
 
 (declare filters-view filtered-products-view modal-popup mouse-pos-comp)
 
@@ -103,18 +104,27 @@
 
       :component-did-update #()})))
 
+(defn- get-filter-values [filter]
+  (select [:items ALL :value] filter))
+
 (defn product-type-filters []
   (let [seating-filter-options @(subscribe [::subs/seating-filter-options])
         tables-filter-options @(subscribe [::subs/tables-filter-options])
         storage-filter-options @(subscribe [::subs/storage-filter-options])
         power-data-filter-options @(subscribe [::subs/power-data-filter-options])
         work-tools-filter-options @(subscribe [::subs/work-tools-filter-options])
-        screen-board-filter-options @(subscribe [::subs/screen-board-filter-options])]
+        screen-board-filter-options @(subscribe [::subs/screen-board-filter-options])
+        show-reset? (some true? (concat (get-filter-values seating-filter-options)
+                                        (get-filter-values tables-filter-options)
+                                        (get-filter-values storage-filter-options)
+                                        (get-filter-values power-data-filter-options)
+                                        (get-filter-values work-tools-filter-options)
+                                        (get-filter-values screen-board-filter-options)))]
     [:<>
      [:div {:class "filter-view-head"}
       [:h3 "Filter By"]
       [:p {:class "reset-filter-link"
-           :style {:display "block"}
+           :style {:display (if show-reset? "block" "none")}
            :on-click #(re-frame/dispatch [::events/reset-product-type-filters])}
        "Reset"]]
      [product-type-filter-group seating-filter-options]
