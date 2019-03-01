@@ -103,7 +103,8 @@
                        [:ELFStorageSelector :items ALL :value]
                        [:ELFPowerAndDataSelector :items ALL :value]
                        [:ELFWorkToolsSelector :items ALL :value]
-                       [:ELFScreensAndBoardsSelector :items ALL :value]) false db)))
+                       [:ELFScreensAndBoardsSelector :items ALL :value])
+           false db)))
 
 (reg-event-db
  ::product-selected
