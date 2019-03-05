@@ -1,0 +1,5053 @@
+{
+  "all-products" : [
+    {
+      "lead-times" : [
+        "quick",
+        "std",
+        "three-week"
+      ],
+      "product-name" : "local-Generation by Knoll",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/354/800/generation_thumb,0.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Work"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/820/514/generation_hero,0.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356385677781"
+    },
+    {
+      "lead-times" : [
+        "quick",
+        "std",
+        "three-week"
+      ],
+      "product-name" : "ReGeneration by Knoll Fully Upholstered",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/255/106/regeneration-upholstered_thumb,0.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Work"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/1015/62/regeneration-upholstered_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356385684549"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week",
+        "quick"
+      ],
+      "product-name" : "k. task ",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/817/292/k-task_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Work"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/901/960/k-task_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356385033150"
+    },
+    {
+      "lead-times" : [
+        "quick",
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Life",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/582/222/life_thumb,1.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Work"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/464/793/life_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356385687541"
+    },
+    {
+      "lead-times" : [
+        "quick",
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Remix",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/595/165/remix_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Work"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/35/197/remix_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356385687643"
+    },
+    {
+      "lead-times" : [
+        "quick",
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Remix High Back",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/376/989/remix-high-back_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Work"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/94/719/remix-high-back_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356385691542"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "MR Chaise",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/250/5/mr-chaise.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Lounge"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/702/372/mr-chaise.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386210748"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Template Towers",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/377/385/template_towers_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Towers"
+      ],
+      "hero1-img-src" : "/media/61/138/template_towers_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386307218"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Risom Lounge Chair",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/472/114/risom-lounge-chair,0.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Lounge",
+        "Outdoor"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/28/882/risom-lounge-chair.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386213005"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Jehs+Laub Lounge Chair",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/265/931/jehs-laub-lounge-chair.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Lounge"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/781/416/jehs-laub-lounge-chair.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386213520"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Interpole Conduit",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/419/1017/interpole-conduit_pwr data_thumb,0.jpg",
+      "powerCategories" : [
+        "Power & Technology Distribution"
+      ],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/723/422/interpole-conduit_pwr data_hero,0.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386660563"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Series 2 Towers",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/983/435/series-2_towers_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Towers"
+      ],
+      "hero1-img-src" : "/media/543/998/series-2_towers_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386306007"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Template Lockers",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/96/471/template_lockers_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Lockers and Wardrobes"
+      ],
+      "hero1-img-src" : "/media/118/438/template_lockers_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386306860"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "1966 Collection Mobile Cart",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/66/340/1966-cart_credenza_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Credenzas, Carts and Consoles"
+      ],
+      "hero1-img-src" : "/media/84/632/1966-cart_credenza_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386309464"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "AutoStrada Floorstanding Pedestals",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/481/409/autostrada-floorstanding_ped_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Pedestals"
+      ],
+      "hero1-img-src" : "/media/725/6/autostrada-floorstanding_ped_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386260205"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "AutoStrada Mobile Pedestals",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/429/465/autostrada-mobile_ped_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Pedestals"
+      ],
+      "hero1-img-src" : "/media/393/900/autostrada-mobile_ped_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386260784"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Calibre Mobile Pedestals",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/193/388/calibre-mobile-ped_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Pedestals"
+      ],
+      "hero1-img-src" : "/media/1013/996/calibre-mobile-ped_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386264999"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Calibre Floorstanding Pedestals",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/625/211/calibre-floorstanding-ped_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Pedestals"
+      ],
+      "hero1-img-src" : "/media/629/34/calibre-floorstanding-ped_thumb.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386268747"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Series 2 Floorstanding Pedestals",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/355/523/series-2-freestanding_ped_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Pedestals"
+      ],
+      "hero1-img-src" : "/media/787/406/series-2-freestanding_ped_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386304685"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Power Disc",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/267/477/power-disc_pwr data_thumb.jpg",
+      "powerCategories" : [
+        "Power & Technology Distribution"
+      ],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/619/735/power-disc_pwr data_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386653344"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Horsepower Beam",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/500/944/horsepower-beam_pwr data_thumb,1.jpg",
+      "powerCategories" : [
+        "Power & Technology Distribution"
+      ],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/98/156/horsepower-beam_pwr data_hero,1.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386658147"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Horsepower Sawhorse Desk",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/763/905/horsepower-sawhorse-desk_pwr data_thumb,0.jpg",
+      "powerCategories" : [
+        "Power & Technology Distribution"
+      ],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [
+        "Desks & Benching"
+      ],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/635/947/horsepower-sawhorse-desk_pwr data_hero,0.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386658027"
+    },
+    {
+      "lead-times" : [
+        "quick",
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Sapper XYZ 30 Monitor Arm",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/174/927/sapper-xyz30_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/616/221/sapper-xyz30_hero.jpg",
+      "workToolsCategories" : [
+        "Technology Support"
+      ],
+      "product-group" : "Seating",
+      "product-id" : "1356386720246"
+    },
+    {
+      "lead-times" : [
+        "quick",
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Sapper Double Monitor Arm",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/795/946/sapperdouble_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/388/997/sapperdouble_hero.jpg",
+      "workToolsCategories" : [
+        "Technology Support"
+      ],
+      "product-group" : "Seating",
+      "product-id" : "1356386691394"
+    },
+    {
+      "lead-times" : [
+        "quick",
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Sapper Single Monitor Arm",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/536/25/sappersingle_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/54/784/sappersingle_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386672648"
+    },
+    {
+      "lead-times" : [
+        "quick",
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Sapper 50 Monitor Arm",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n\r\n<p>Nothing can stop me now!</p>\r\n",
+      "thumb-img-src" : "/media/439/686/sapper-50_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/63/445/sapper-50_hero.jpg",
+      "workToolsCategories" : [
+        "Technology Support"
+      ],
+      "product-group" : "Seating",
+      "product-id" : "1356386715902"
+    },
+    {
+      "lead-times" : [
+        "quick",
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Sapper XYZ Dual Monitor Arm",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n\r\n<p>Nothing can stop me now!</p>\r\n",
+      "thumb-img-src" : "/media/85/236/sapper-xyz_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/361/805/sapper-xyz_hero.jpg",
+      "workToolsCategories" : [
+        "Technology Support"
+      ],
+      "product-group" : "Seating",
+      "product-id" : "1356386720064"
+    },
+    {
+      "lead-times" : [
+        "quick",
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Adjustable Keyboard Supports",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/20/869/adustable-keyboard-supports_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/578/54/adustable-keyboard-supports_hero.jpg",
+      "workToolsCategories" : [
+        "Technology Support"
+      ],
+      "product-group" : "Seating",
+      "product-id" : "1356386722809"
+    },
+    {
+      "lead-times" : [
+        "quick",
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Sparrow LED Light",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/790/503/sparrow_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/768/9/sparrow_hero.jpg",
+      "workToolsCategories" : [
+        "Lighting"
+      ],
+      "product-group" : "Seating",
+      "product-id" : "1356386725229"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Adjustable Vertical CPU Holder",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/95/923/adjustable-cpu-holder_thumb,0.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/151/915/adjustable-cpu-holder_hero,0.jpg",
+      "workToolsCategories" : [
+        "Technology Support"
+      ],
+      "product-group" : "Seating",
+      "product-id" : "1356386722938"
+    },
+    {
+      "lead-times" : [
+        "quick",
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Antenna Simple Tables",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/35/829/antenna-simple-tables_dining-multiuse_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [
+        "Desks & Benching",
+        "Dining & Multi-use",
+        "Meeting & Conference",
+        "Training"
+      ],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/83/879/antenna-simple-tables_dining-multiuse_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356387319552"
+    },
+    {
+      "lead-times" : [
+        "quick",
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Highwire LED Undercabinet Light",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/566/160/highwire_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/5/890/highwire_hero.jpg",
+      "workToolsCategories" : [
+        "Lighting"
+      ],
+      "product-group" : "Seating",
+      "product-id" : "1356386725386"
+    },
+    {
+      "lead-times" : [
+        "quick",
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Copeland Light",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/22/476/copeland_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/512/669/copeland_hero.jpg",
+      "workToolsCategories" : [
+        "Lighting"
+      ],
+      "product-group" : "Seating",
+      "product-id" : "1356386725493"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Scribe Mobile Markerboard",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/212/24/scribe_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [
+        "Communication Boards"
+      ],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/386/93/scribe_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386727674"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Rockwell Unscripted Creative Wall – Crossbeams & Fins",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/118/387/creative-wall-beams-fins_pwr data_thumb.jpg",
+      "powerCategories" : [
+        "Interior Architecture",
+        "Power & Technology Distribution"
+      ],
+      "seatingCategories" : [],
+      "screensCategories" : [
+        "Screens & Dividers"
+      ],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/296/876/creative-wall-beams-fins_pwr data_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386655778"
+    },
+    {
+      "lead-times" : [
+        "quick",
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Rockwell Unscripted Easy Tables",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/576/618/rockwell-unscripted-easy-table_dining-multiuse_thumb,0.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [
+        "Desks & Benching",
+        "Dining & Multi-use",
+        "Meeting & Conference",
+        "Training"
+      ],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/662/211/rockwell-unscripted-easy-table_dining-multiuse_hero,0.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386246622"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Antenna Tables and Desks",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/210/936/antenna-round-table_dining-multiuse_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [
+        "Desks & Benching",
+        "Dining & Multi-use",
+        "Meeting & Conference",
+        "Training"
+      ],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/452/783/antenna-round-table_dining-multiuse_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356387321490"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Antenna Y-Base Tables ",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/144/569/antenna-y-base-tables_dining-multiuse_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [
+        "Desks & Benching",
+        "Dining & Multi-use",
+        "Meeting & Conference"
+      ],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/582/738/antenna-y-base-tables_dining-multiuse_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356387323468"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Dividends Horizon X Base Tables",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/271/263/dividends-horizon-x-base-table_dining-multiuse_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [
+        "Dining & Multi-use",
+        "Meeting & Conference"
+      ],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/487/497/dividends-horizon-x-base-table_dining-multiuse_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356387329190"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Pixel by Marc Krusin",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/508/409/pixel-4-leg-table_dining-multiuse_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [
+        "Dining & Multi-use",
+        "Meeting & Conference",
+        "Training"
+      ],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/858/138/pixel-4-leg-table_dining-multiuse_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356388336259"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week",
+        "quick"
+      ],
+      "product-name" : "Remix Side",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/206/671/remix-side.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Side and Multi-Use"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/402/357/remix-side.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356385711784"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Saarinen Executive Armless",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/763/561/saarinen-executive-armless-chair.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Side and Multi-Use"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/127/642/saarinen-executive-armless-chair.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356385713805"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Ricchio Chair",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/578/590/ricchio-chair.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Side and Multi-Use"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/518/689/ricchio-chair.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386085036"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week",
+        "quick"
+      ],
+      "product-name" : "Bertoia Molded Shell Stool",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/274/486/bertoia-molded-shell-chair.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Stools"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/214/812/bertoia-molded-shell-chair.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386113540"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "MultiGeneration by Knoll Stool",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/66/531/multigeneration-stool.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Stools"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/6/854/multigeneration-stool.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386109340"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "ES Anchor Raised Lockers",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/630/643/anchor-raised_lockers_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Lockers and Wardrobes"
+      ],
+      "hero1-img-src" : "/media/928/674/anchor-raised_lockers_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386242225"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Newson Aluminium",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/285/943/newson-chair.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Side and Multi-Use"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/545/703/newson-chair.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386115938"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Antenna Workspaces Lockers",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/553/784/antenna_lockers_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Lockers and Wardrobes"
+      ],
+      "hero1-img-src" : "/media/397/613/antenna_lockers_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386251715"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Antenna Workspaces Doublewide Pedestal",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/706/122/antenna_dbl-ped_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Doublewide Pedestals"
+      ],
+      "hero1-img-src" : "/media/348/438/antenna_dbl-ped_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386248632"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Antenna Workspaces Overheads",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/120/404/antenna-overheads_mounted_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Mounted Storage"
+      ],
+      "hero1-img-src" : "/media/350/832/antenna-overheads_mounted_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386251853"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "AutoStrada Lower Storage",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/409/644/autostrada-lower-storage_dbl-ped_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Doublewide Pedestals"
+      ],
+      "hero1-img-src" : "/media/29/774/autostrada-lower-storage_dbl-ped_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386261165"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "AutoStrada Anchored Towers",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/146/961/autostrada-anchored_towers_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Towers"
+      ],
+      "hero1-img-src" : "/media/396/465/autostrada-anchored_towers_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386254823"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "AutoStrada Box Shelf Lockers",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/253/1009/autostrada-box-shelf_lockers_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Lockers and Wardrobes"
+      ],
+      "hero1-img-src" : "/media/57/26/autostrada-box-shelf_lockers_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386257649"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Florence Knoll Credenza",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/559/371/florence-knoll-credenza_credenza_thumb,0.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Credenzas, Carts and Consoles"
+      ],
+      "hero1-img-src" : "/media/199/732/florence-knoll-credenza_credenza_hero,0.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386271985"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Calibre Doublewide Pedestals",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/405/397/calibre_dbl-ped_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Doublewide Pedestals"
+      ],
+      "hero1-img-src" : "/media/153/398/calibre_dbl-ped_thumb.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386264633"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Dividends Horizon Overheads & Overdesks",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/324/233/dividends-overhead_mounted_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Mounted Storage"
+      ],
+      "hero1-img-src" : "/media/666/177/dividends-overhead_mounted_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386271692"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Pixel by Marc Krusin",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/375/461/pixel-column-legh_dining-multiuse_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [
+        "Dining & Multi-use",
+        "Meeting & Conference"
+      ],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/127/768/pixel-column-legh_dining-multiuse_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356388345643"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "quick",
+        "three-week"
+      ],
+      "product-name" : "k. stand Height-Adjustable Tables",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/819/77/k-stand-table_HAT training_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [
+        "Desks & Benching",
+        "Height-Adjustable",
+        "Training"
+      ],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/835/821/k-stand-table_HAT training_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356388501831"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Pixel by Marc Krusin - Y Leg",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/378/572/pixel-y-leg-table_meeting_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [
+        "Desks & Benching",
+        "Meeting & Conference"
+      ],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/28/78/pixel-y-leg-table_meeting_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356388496056"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Reff Profiles 28 3/8\" Stepped Base Locker",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/490/926/reff-profiles-stepped-base_lockers_thumb,0.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Lockers and Wardrobes"
+      ],
+      "hero1-img-src" : "/media/942/942/reff-profiles-stepped-base_lockers_thumb,0.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386280474"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Pixel Pedestals",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/707/102/pixel-pedestal_ped_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Pedestals"
+      ],
+      "hero1-img-src" : "/media/435/624/pixel-pedestal_ped_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386275395"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Quoin Credenzas",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/23/619/quoin_credenza_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Credenzas, Carts and Consoles"
+      ],
+      "hero1-img-src" : "/media/479/13/quoin_credenza_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386278150"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Reff Profiles 28 3/8\" L Shelf & Cubby",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/459/260/reff-profiles-desktop-towers_mounted_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Mounted Storage"
+      ],
+      "hero1-img-src" : "/media/307/971/reff-profiles-desktop-towers_mounted_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386282769"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Reff Profiles Classic Credenzas ",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/670/218/reff-profiles-classic_credenza_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Credenzas, Carts and Consoles"
+      ],
+      "hero1-img-src" : "/media/632/66/reff-profiles-classic_credenza_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386283107"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Reff Profiles Progressive Credenzas",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/645/775/reff-profiles-progressive_credenza_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Credenzas, Carts and Consoles"
+      ],
+      "hero1-img-src" : "/media/433/943/reff-profiles-progressive_credenza_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386285127"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Reff Profiles Stepped Base Doublewide",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/447/805/reff-profiles-stepped-base_dbl-ped_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Doublewide Pedestals"
+      ],
+      "hero1-img-src" : "/media/823/349/reff-profiles-stepped-base_dbl-ped_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386286319"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Rockwell Unscripted Consoles",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/234/304/rockwell-console_credenza_thumb,1.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Credenzas, Carts and Consoles"
+      ],
+      "hero1-img-src" : "/media/684/366/rockwell-console_credenza_hero,1.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386289155"
+    },
+    {
+      "lead-times" : [
+        "quick",
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Sapper XYZ Crossbar",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/803/821/sapper-xyz-crossbar_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/339/350/sapper-xyz-crossbar_hero.jpg",
+      "workToolsCategories" : [
+        "Technology Support"
+      ],
+      "product-group" : "Seating",
+      "product-id" : "1356386722566"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Pop Up Floorstanding Screen",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/108/159/pop-up-floorstanding_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [
+        "Screens & Dividers"
+      ],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/746/97/pop-up-floorstanding_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386727560"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Adjustable Sling CPU Holder",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/735/226/sling-cpu-holder_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/535/727/sling-cpu-holder_hero.jpg",
+      "workToolsCategories" : [
+        "Technology Support"
+      ],
+      "product-group" : "Seating",
+      "product-id" : "1356386723035"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Rockwell Unscripted Creative Wall – Freestanding",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/175/331/creative-wall-freestanding_pwr data_thumb.jpg",
+      "powerCategories" : [
+        "Interior Architecture",
+        "Power & Technology Distribution"
+      ],
+      "seatingCategories" : [],
+      "screensCategories" : [
+        "Screens & Dividers"
+      ],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/463/841/creative-wall-freestanding_pwr data_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386653770"
+    },
+    {
+      "lead-times" : [
+        "quick",
+        "std",
+        "three-week"
+      ],
+      "product-name" : " Pop Up Desktop Screen",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/688/812/pop-up-desktop_thumb,0.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [
+        "Screens & Dividers"
+      ],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/38/350/pop-up-desktop_hero,0.jpg",
+      "workToolsCategories" : [
+        "Desktop Management"
+      ],
+      "product-group" : "Seating",
+      "product-id" : "1356386725126"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Rockwell Unscripted Modular Storage",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/731/71/rockwell-modular_credenza_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [
+        "Screens & Dividers"
+      ],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Credenzas, Carts and Consoles"
+      ],
+      "hero1-img-src" : "/media/547/271/rockwell-modular_credenza_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386296967"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Interpole Storage",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/988/412/interpole_mounted_thumb.jpg",
+      "powerCategories" : [
+        "Interior Architecture",
+        "Power & Technology Distribution"
+      ],
+      "seatingCategories" : [],
+      "screensCategories" : [
+        "Screens & Dividers"
+      ],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Mounted Storage"
+      ],
+      "hero1-img-src" : "/media/36/858/interpole_mounted_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386275127"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Gigi Swivel",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/171/35/gigi-swivel_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Work"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/715/60/gigi-swivel_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356385696849"
+    },
+    {
+      "lead-times" : [
+        "quick",
+        "std",
+        "three-week"
+      ],
+      "product-name" : "ReGeneration by Knoll High Task",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/984/771/regeneration-high-task_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Work",
+        "Stools"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/510/117/regeneration-high-task_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356385685337"
+    },
+    {
+      "lead-times" : [
+        "quick",
+        "std",
+        "three-week"
+      ],
+      "product-name" : "MultiGeneration by Knoll Light Task",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/98/413/multigeneration-light-task_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Work"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/52/238/multigeneration-light-task_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356385691821"
+    },
+    {
+      "lead-times" : [
+        "quick",
+        "std",
+        "three-week"
+      ],
+      "product-name" : "MultiGeneration by Knoll High Task",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/94/82/multigeneration-high-task_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Work",
+        "Stools"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/184/29/multigeneration-high-task_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356385692188"
+    },
+    {
+      "lead-times" : [
+        "quick",
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Chadwick",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/460/614/chadwick_thumb,1.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Work"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/394/79/chadwick_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356385694381"
+    },
+    {
+      "lead-times" : [
+        "quick",
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Bertoia Molded Shell Stacking",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/563/624/bertoia-molded-shell-stacking.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Side and Multi-Use"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/439/581/bertoia-molded-shell-stacking.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356385703710"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Ollo",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/618/945/ollo_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Work"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/300/321/ollo_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356384997400"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Olivares Aluminum Chair",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/404/690/olivares-aluminum-chair.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Outdoor",
+        "Side and Multi-Use"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/277/568/olivares-aluminum-chair.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386151370"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Piton",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/47/375/piton-stool.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Outdoor",
+        "Side and Multi-Use"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/944/252/piton-stool.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386089784"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Maya Lin Stones",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/430/944/maya-lin-stones.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Side and Multi-Use",
+        "Outdoor"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/626/776/maya-lin-stones.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386087713"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Chip ",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/846/557/chip-chair_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Side and Multi-Use"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/968/473/chip-chair_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386085347"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Platner Arm Chair",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/774/548/platner-arm-chair,0.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Side and Multi-Use"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/458/447/platner-arm-chair.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386136848"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Washington Skeleton Aluminium Side Chair",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/789/275/washington-skeleton-chair.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Outdoor",
+        "Side and Multi-Use"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/537/252/washington-skeleton-chair.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386147096"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "1966 Dining Arm Chair",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/385/922/1966-dining-chair-arms.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Outdoor",
+        "Side and Multi-Use"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/389/72/1966-dining-chair-arms.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386148791"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Spark Series Lounge Chair",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/341/34/spark-lounge-chair.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Lounge",
+        "Outdoor"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/89/679/spark-lounge-chair.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386161979"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Rockwell Unscripted Ottoman",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/253/497/rockwell-unscripted-ottoman,0.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Lounge"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/513/99/rockwell-unscripted-ottoman,0.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386186599"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Pfister Lounge Chair",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/561/820/pfister-lounge-chair.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Lounge"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/565/519/pfister-lounge-chair.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386206246"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Barcelona Couch",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/511/482/barcelona-couch,0.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Lounge"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/643/262/barcelona-couch.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386196635"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Anchor Raised Credenzas",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/955/249/anchor-raised_credenza_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Credenzas, Carts and Consoles"
+      ],
+      "hero1-img-src" : "/media/191/574/anchor-raised_credenza_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386240110"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Anchor Combination Towers",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/988/474/anchor-combination_towers_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Towers"
+      ],
+      "hero1-img-src" : "/media/378/570/anchor-combination_towers_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386235871"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Anchor Floorstanding Combination Pedestals",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/732/394/anchor-floorstanding-combination_ped_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Pedestals"
+      ],
+      "hero1-img-src" : "/media/634/402/anchor-floorstanding-combination_ped_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386242689"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Anchor Slide-out Towers",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/473/439/anchor-slide-out_towers_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Towers"
+      ],
+      "hero1-img-src" : "/media/989/304/anchor-slide-out_towers_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386246475"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Anchor Mobile Pedestals",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/980/93/anchor-mobile_ped_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Pedestals"
+      ],
+      "hero1-img-src" : "/media/642/95/anchor-mobile_ped_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386244246"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Anchor Raised Doublewide Pedestals",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/587/522/anchor-raised_dbl-ped_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Doublewide Pedestals"
+      ],
+      "hero1-img-src" : "/media/299/968/anchor-raised_dbl-ped_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386244422"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Antenna Workspaces Suspended & Extension Cabinets",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/810/265/antenna-underdesk_mounted_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Mounted Storage"
+      ],
+      "hero1-img-src" : "/media/108/35/antenna-underdesk_mounted_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386254405"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Rockwell Unscripted High Back Settee",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/215/157/rockwell-unscripted-high-back-settee.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Lounge"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/88/35/rockwell-unscripted-high-back-settee.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386189328"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Rockwell Unscripted Cube",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/882/966/rockwell-unscripted-upholstered-cube.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Side and Multi-Use"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/686/766/rockwell-unscripted-upholstered-cube.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356385705942"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Saarinen Executive Arm",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/998/397/saarinen-executive-arm-chair.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Side and Multi-Use"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/34/489/saarinen-executive-arm-chair.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356385713717"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Moment",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/755/321/moment.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Side and Multi-Use"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/631/394/moment.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356385715741"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Womb Chair",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/28/621/womb-chair,0.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Lounge"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/472/557/womb-chair.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386193917"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Rockwell Unscripted Modular Lounge",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/971/830/rockwell-unscripted-modular-lounge.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Lounge"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/74/953/rockwell-unscripted-modular-lounge.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386191505"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Florence Knoll Lounge Chair",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/37/106/florence-knoll-lounge-chair.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Lounge"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/291/350/florence-knoll-lounge-chair.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386191898"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Calibre Towers",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/25/519/calibre_towers_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Towers"
+      ],
+      "hero1-img-src" : "/media/541/547/calibre_towers_thumb.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386271219"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Rockwell Unscripted Wood Blocks",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/711/756/rockwell-wood-blocks_dbl-ped_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Doublewide Pedestals"
+      ],
+      "hero1-img-src" : "/media/303/414/rockwell-wood-blocks_dbl-ped_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386299194"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Dividends Horizon Credenzas",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/473/580/dividends-horizon_credenza_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Credenzas, Carts and Consoles"
+      ],
+      "hero1-img-src" : "/media/869/188/dividends-horizon_credenza_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386271549"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Rockwell Unscripted Hospitality Cart",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/628/924/rockwell-hospitality-cart_credenza_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Credenzas, Carts and Consoles"
+      ],
+      "hero1-img-src" : "/media/994/683/rockwell-hospitality-cart_credenza_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386293283"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Rockwell Unscripted Soft Storage Bin",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/550/488/rockwell-unscripted-mobile-bin_ped_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Pedestals"
+      ],
+      "hero1-img-src" : "/media/496/240/rockwell-unscripted-mobile-bin_ped_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386296097"
+    },
+    {
+      "lead-times" : [
+        "quick",
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Horsepower Perch",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/747/826/horsepower-perch_pwr data_thumb.jpg",
+      "powerCategories" : [
+        "Power & Technology Distribution"
+      ],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/139/1011/horsepower-perch_pwr data_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386656062"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Anchor Raised Pedestals",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/682/43/anchor-raised_ped_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Pedestals"
+      ],
+      "hero1-img-src" : "/media/236/325/anchor-raised_ped_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386262327"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Series 2 Open Doublewide Pedestals",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/150/689/series-2-open_dbl-ped_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Doublewide Pedestals"
+      ],
+      "hero1-img-src" : "/media/384/676/series-2-open_dbl-ped_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386303118"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "quick",
+        "three-week"
+      ],
+      "product-name" : "Horsepower Mobile Technology Cart",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/332/249/horsepower-technology-cart_pwr data_thumb.jpg",
+      "powerCategories" : [
+        "Power & Technology Distribution"
+      ],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/522/992/horsepower-technology-cart_pwr data_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386655888"
+    },
+    {
+      "lead-times" : [
+        "quick",
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Sapper XYZ Single Monitor Arm",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n\r\n<p>Nothing can stop me now!</p>\r\n",
+      "thumb-img-src" : "/media/81/411/sapper-xyz_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/613/865/sapper-xyz_hero.jpg",
+      "workToolsCategories" : [
+        "Technology Support"
+      ],
+      "product-group" : "Seating",
+      "product-id" : "1356386717262"
+    },
+    {
+      "lead-times" : [
+        "quick",
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Sapper Triple Monitor Arm",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n\r\n<p>Nothing can stop me now!</p>\r\n",
+      "thumb-img-src" : "/media/896/610/sapper-triple_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/929/405/sapper-triple_hero.jpg",
+      "workToolsCategories" : [
+        "Technology Support"
+      ],
+      "product-group" : "Seating",
+      "product-id" : "1356386696709"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week",
+        "quick"
+      ],
+      "product-name" : "Orchestra",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/951/77/orchestra_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/575/557/orchestra_hero.jpg",
+      "workToolsCategories" : [
+        "Desktop Management"
+      ],
+      "product-group" : "Seating",
+      "product-id" : "1356386723179"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Copeland Light",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/838/594/smokador_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/208/541/smokador_hero.jpg",
+      "workToolsCategories" : [
+        "Desktop Management"
+      ],
+      "product-group" : "Seating",
+      "product-id" : "1356386725602"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : " Interpole Display",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/212/46/interpole-screens-dividers_pwr data_thumb,0.jpg",
+      "powerCategories" : [
+        "Interior Architecture",
+        "Power & Technology Distribution"
+      ],
+      "seatingCategories" : [],
+      "screensCategories" : [
+        "Screens & Dividers"
+      ],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/44/681/interpole-screens-dividers_pwr data_hero,0.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386658268"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Interpole Screen",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/85/948/interpole-screens-dividers_pwr data_thumb.jpg",
+      "powerCategories" : [
+        "Interior Architecture",
+        "Power & Technology Distribution"
+      ],
+      "seatingCategories" : [],
+      "screensCategories" : [
+        "Communication Boards",
+        "Screens & Dividers"
+      ],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/941/558/interpole-screens-dividers_pwr data_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386660352"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Rockwell Unscripted Puffy Screen",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/418/81/puffy_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [
+        "Screens & Dividers"
+      ],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/636/40/puffy_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386730295"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Rockwell Unscripted Sawhorse Table",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/402/77/rockwell-unscripted-sawhorse-round_dining-multiuse_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [
+        "Dining & Multi-use",
+        "Meeting & Conference",
+        "Desks & Benching"
+      ],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/260/260/rockwell-unscripted-sawhorse-round_dining-multiuse_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356388367894"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Propeller Training Tables",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/277/470/propeller_meeting_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [
+        "Meeting & Conference",
+        "Desks & Benching",
+        "Training"
+      ],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/289/636/propeller_meeting_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356388490306"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Florence Knoll",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/641/757/florence-knoll-dining-table_dining-multiuse_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [
+        "Desks & Benching",
+        "Dining & Multi-use",
+        "Meeting & Conference"
+      ],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/565/645/florence-knoll-dining-table_dining-multiuse_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356388361451"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Rockwell Unscripted Tall Tables",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/676/536/rockwell-unscripted-tall-table_meeting_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [
+        "Dining & Multi-use",
+        "Meeting & Conference"
+      ],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/434/638/rockwell-unscripted-tall-table_meeting_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356388367781"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "quick",
+        "three-week"
+      ],
+      "product-name" : "Rockwell Unscripted Big Easy Table",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/975/80/rockwell-easy-table-desk_meeting_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [
+        "Meeting & Conference",
+        "Desks & Benching"
+      ],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/807/689/rockwell-easy-table-desk_meeting_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356388423732"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Pensi Table",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/61/558/pensi-table_dining-multiuse_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [
+        "Dining & Multi-use",
+        "Meeting & Conference",
+        "Outdoor"
+      ],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/249/771/pensi-table_dining-multiuse_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356388386408"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "D'Urso High Tables",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/463/603/durso-work-table_dining-multiuse_thumb,0.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [
+        "Dining & Multi-use",
+        "Meeting & Conference",
+        "Training"
+      ],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/295/343/durso-work-table_dining-multiuse_hero,0.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356388389801"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Stromborg Tables",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/487/208/stromborg-square-table_dining-multiuse_thumb,0.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [
+        "Desks & Benching",
+        "Dining & Multi-use",
+        "Meeting & Conference",
+        "Outdoor"
+      ],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/527/297/stromborg-square-table_dining-multiuse_hero,0.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356388410953"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "1966 Dining Table",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/175/730/1966-table_meeting_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [
+        "Dining & Multi-use",
+        "Outdoor",
+        "Meeting & Conference"
+      ],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/583/545/1966-table_meeting_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356388422787"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Saarinen Dining Table - Oval",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/472/635/saarinen-oval_meeting_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [
+        "Desks & Benching",
+        "Meeting & Conference",
+        "Dining & Multi-use"
+      ],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/1022/13/saarinen-oval_meeting_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356388465709"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Antenna Tables and Desks - Wood Shroud Leg",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/208/40/antenna-wood-shroud_leg_thumb,0.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [
+        "Desks & Benching",
+        "Meeting & Conference"
+      ],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/518/721/antenna-wood-shroud_leg_hero,0.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356388474079"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Propeller Conference Table",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/286/801/propeller-conference-table-drum_meeting_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [
+        "Meeting & Conference"
+      ],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/1016/679/propeller-conference-table-drum_meeting_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356388465796"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "LSM Conference Table with L-Leg",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/426/291/lsm-l-leg-conference-table_meeting_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [
+        "Meeting & Conference"
+      ],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/492/597/lsm-l-leg-conference-table_meeting_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356388501320"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week",
+        "quick"
+      ],
+      "product-name" : "MultiGeneration by Knoll Stacking",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/393/227/multigeneration-stacking.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Side and Multi-Use"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/909/856/multigeneration-stacking.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356385709771"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Saarinen Executive Arm Swivel",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/71/595/saarinen-executive-swivel_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Work"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/943/243/saarinen-executive-swivel_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356385694707"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Pollock Executive",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/989/42/pollock-executive_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Work"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/345/457/pollock-executive_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356385697435"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "MultiGeneration by Knoll Hybrid",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/829/114/multigeneration-hybrid-base.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Side and Multi-Use"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/313/904/multigeneration-hybrid-base.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356385711700"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Sprite",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/909/477/sprite-stacking-chair,0.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Side and Multi-Use"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/145/951/sprite-stacking-chair,0.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386054517"
+    },
+    {
+      "lead-times" : [
+        "quick",
+        "std",
+        "three-week"
+      ],
+      "product-name" : "ReGeneration by Knoll",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/21/158/regeneration_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Work"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/545/956/regeneration_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356385682793"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Rockwell Unscripted Cylinder",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/719/508/rockwell-unscripted-upholstered-cylinder,0.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Side and Multi-Use",
+        "Stools"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/851/867/rockwell-unscripted-upholstered-cylinder.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356385705804"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Straight Chair",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/531/602/nakashima-straight-chair,1.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Side and Multi-Use"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/407/913/nakashima-straight-chair,1.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386116244"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Gigi Stool",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/693/369/gigi-stool.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Stools"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/314/262/gigi-stool.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386111405"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Spark Series",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/119/919/spark-side-chair.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Side and Multi-Use",
+        "Outdoor"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/1016/796/spark-side-chair.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356385717773"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Toledo Stacking Chair",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/264/728/toldedo-chair.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Side and Multi-Use"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/844/916/toldedo-chair.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386142818"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Saarinen Executive Plastic Back",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/1004/960/saarinen-executive-plastic-back.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Side and Multi-Use"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/304/307/saarinen-executive-plastic-back.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386118182"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Tulip Arm",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/945/918/rockwell-unscripted-steps.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Side and Multi-Use"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/818/796/rockwell-unscripted-steps.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386122808"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Toboggan Chair Desk",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/640/272/toboggan-chair.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Side and Multi-Use"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/708/301/toboggan-chair.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386153716"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "MR Chair",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/784/725/mr-chair.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Side and Multi-Use"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/852/569/mr-chair.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386143195"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Risom Side Chair",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/151/233/risom-dining-chair.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Outdoor",
+        "Side and Multi-Use"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/795/251/risom-dining-chair.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386145851"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Krefeld Lounge Chair",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/171/480/krefeld-lounge.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Lounge"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/425/724/krefeld-lounge.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386154818"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "k. lounge",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/77/342/k-lounge-stool,0.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Lounge",
+        "Side and Multi-Use"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/337/483/k-lounge-stool.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386162420"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "D'Urso Swivel Chair",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/221/245/durso-lounge,0.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Lounge"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/481/585/durso-lounge.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386156703"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Barcelona Chair",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/406/811/barcelona-chair.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Lounge"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/90/941/barcelona-chair,0.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386157079"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Bertoia Diamond Chair",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/921/636/bertoia-diamond-chair.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Lounge",
+        "Outdoor"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/24/759/bertoia-diamond-chair,0.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386159341"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Krusin Lounge Chair",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/877/724/krusin-lounge-chair.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Lounge"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/1004/846/krusin-lounge-chair,0.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386161779"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Platner Easy Chair",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/466/775/platner-easy-chair.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Lounge"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/270/389/platner-easy-chair,0.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386194278"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Wassily Chair",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/395/135/wassily-lounge-chair.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Lounge"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/522/257/wassily-lounge-chair,0.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386166373"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Pollock Arm Chair",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/754/476/pollock-arm-chair,0.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Lounge"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/694/868/pollock-arm-chair,0.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386196538"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Rockwell Unscripted Sofa",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/130/568/rockwell-unscripted-sofa.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Lounge"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/3/446/rockwell-unscripted-sofa.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386168797"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Bertoia Bird Chair",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/111/675/bertoia-bird-chair.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Lounge"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/243/16/bertoia-bird-chair,0.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386203737"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Architecture & Associés Contract Lounge Chair",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/626/815/aa-lounge-chair.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Lounge"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/566/895/aa-lounge-chair.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386201789"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Divina Lounge Chair",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/461/416/divina-lounge-chair.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Lounge"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/588/538/divina-lounge-chair.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386206678"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Suzanne Lounge Chair",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/859/689/suzanne-lounge-chair.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Lounge"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/986/811/suzanne-lounge-chair,0.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386218039"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Barber Osgerby Compact Armchair",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/475/381/barber-osgerby-lounge_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Lounge"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/923/104/barber-osgerby-lounge_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386203840"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Washington Prism™ Lounge Chair and Ottoman",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/174/961/washington-prism_thumb (1).jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Lounge"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/680/566/washington-prism_hero (1).jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386209920"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "D'Urso Contract Lounge Chair",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/21/547/durso-lounge-chair.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Lounge"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/793/827/durso-lounge-chair.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386217471"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "1966 Lounge Chair",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/368/948/1966-lounge-chair.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Lounge",
+        "Outdoor"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/622/168/1966-lounge-chair.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386220638"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Antenna Workspaces L-Cabinet",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/490/406/antenna-l-cabinet_towers_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Towers"
+      ],
+      "hero1-img-src" : "/media/308/249/antenna-l-cabinet_towers_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386251393"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Anchor Lockers",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/475/150/anchor_lockers_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Lockers and Wardrobes"
+      ],
+      "hero1-img-src" : "/media/923/559/anchor_lockers_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386242065"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Anchor Credenzas",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/626/665/anchor_credenza_thumb,1.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Credenzas, Carts and Consoles"
+      ],
+      "hero1-img-src" : "/media/36/81/anchor_credenza_hero,1.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386236650"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Anchor Mobile Credenzas",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/589/617/anchor-mobile_credenza_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Credenzas, Carts and Consoles"
+      ],
+      "hero1-img-src" : "/media/233/839/anchor-mobile_credenza_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386239773"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Anchor Doublewide Pedestals",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/432/29/anchor_dbl-ped_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Doublewide Pedestals"
+      ],
+      "hero1-img-src" : "/media/294/853/anchor_dbl-ped_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386244333"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Antenna Workspaces Stanchion Mounted & Exterior Cabinets",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/943/148/antenna-stantion_mounted_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Mounted Storage"
+      ],
+      "hero1-img-src" : "/media/839/526/antenna-stantion_mounted_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386252007"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Anchor Overheads",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/527/292/anchor-overhead_mounted_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Mounted Storage"
+      ],
+      "hero1-img-src" : "/media/231/300/anchor-overhead_mounted_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386244513"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Anchor Stackers",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/989/887/anchor-slide-out_towers_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Mounted Storage"
+      ],
+      "hero1-img-src" : "/media/225/661/anchor-slide-out_towers_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386246572"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "AutoStrada Box Shelf Credenzas",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/912/663/autostrada-box-shelf_credenza_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Credenzas, Carts and Consoles"
+      ],
+      "hero1-img-src" : "/media/838/939/autostrada-box-shelf_credenza_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386257306"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Dividends Horizon EQ",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/53/69/dividends-horizon-eq-table_dining-multiuse_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [
+        "Dining & Multi-use",
+        "Meeting & Conference",
+        "Desks & Benching"
+      ],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/513/788/dividends-horizon-eq-table_dining-multiuse_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356387336670"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "AutoStrada Overheads",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/296/310/autostrada-overhead_mounted_thumb,0.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Mounted Storage"
+      ],
+      "hero1-img-src" : "/media/686/168/autostrada-overhead_mounted_hero,0.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386261290"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week",
+        "quick"
+      ],
+      "product-name" : "Calibre Lateral Files",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/542/811/calibre_dbl-ped_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Doublewide Pedestals"
+      ],
+      "hero1-img-src" : "/media/415/689/calibre_dbl-ped_thumb.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386265209"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : " Antenna Workspaces Mobile Pedestals",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/198/129/antenna-mobile_ped_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Pedestals"
+      ],
+      "hero1-img-src" : "/media/848/162/antenna-mobile_ped_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386248937"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Propeller Credenzas",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/88/277/propeller_credenza_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Credenzas, Carts and Consoles"
+      ],
+      "hero1-img-src" : "/media/382/960/propeller_credenza_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386277995"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Reff Profiles 28 3/8\" Desktop Towers",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/839/812/reff-profiles-desktop-towers_mounted_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Mounted Storage"
+      ],
+      "hero1-img-src" : "/media/175/482/reff-profiles-desktop-towers_mounted_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386282521"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Reff Profiles Floorstanding Pedestals",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/570/794/reff-profiles-floorstanding-mobile_ped_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Pedestals"
+      ],
+      "hero1-img-src" : "/media/860/745/reff-profiles-floorstanding-mobile_ped_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386285302"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Reff Profiles Mobile Pedestals",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/1022/117/reff-profiles-floorstanding-mobile_ped_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Pedestals"
+      ],
+      "hero1-img-src" : "/media/160/405/reff-profiles-floorstanding-mobile_ped_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386285479"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Reff Profiles 26 1/2\" Side Access Towers",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/844/482/reff-profiles-side-accress_towers_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Towers"
+      ],
+      "hero1-img-src" : "/media/10/967/reff-profiles-side-accress_towers_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386282936"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Reff Profiles Overheads & Overdesks",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/288/893/reff-profiles-overhead_mounted_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Mounted Storage"
+      ],
+      "hero1-img-src" : "/media/950/649/reff-profiles-overhead_mounted_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386285870"
+    },
+    {
+      "lead-times" : [
+        "quick",
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Series 2 Lockers",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/450/1015/series-2_lockers_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Lockers and Wardrobes"
+      ],
+      "hero1-img-src" : "/media/724/488/series-2_lockers_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386301629"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Series 2 Doublewide Pedestals",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/407/894/series-2_dbl-ped_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Doublewide Pedestals"
+      ],
+      "hero1-img-src" : "/media/95/782/series-2_dbl-ped_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386302772"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : " Antenna Workspaces Freestanding Pedestals",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/326/945/antenna-florostanding_ped_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Pedestals"
+      ],
+      "hero1-img-src" : "/media/600/167/antenna-florostanding_ped_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386264081"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Template Credenzas",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/141/365/template_credenza_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Credenzas, Carts and Consoles"
+      ],
+      "hero1-img-src" : "/media/681/401/template_credenza_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386306329"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Rockwell Unscripted Conversation Board",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/931/311/rockwell-communication-board_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [
+        "Communication Boards"
+      ],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/91/81/rockwell-communication-board_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386730165"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Anchor Floorstanding Pedestals",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/474/882/anchor-floorstanding_ped_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Pedestals"
+      ],
+      "hero1-img-src" : "/media/956/1012/anchor-floorstanding_ped_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386230505"
+    },
+    {
+      "lead-times" : [
+        "quick",
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Series 2 Mobile Pedestals",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/653/645/series-2-mobile_ped_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Pedestals"
+      ],
+      "hero1-img-src" : "/media/169/873/series-2-mobile_ped_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386302333"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Dividends Horizon Freestanding Panels",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/30/780/dividends-horizon-freestanding-panel_pwr data_thumb.jpg",
+      "powerCategories" : [
+        "Interior Architecture"
+      ],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/248/613/dividends-horizon-freestanding-panel_pwr data_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386647924"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Saarinen Table - Round",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/903/1004/saarinen-dining-table_dining-multiuse_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [
+        "Desks & Benching",
+        "Dining & Multi-use",
+        "Meeting & Conference",
+        "Outdoor"
+      ],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/111/224/saarinen-dining-table_dining-multiuse_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356387327249"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Rockwell Unscripted Telly Screen",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/758/133/telly_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [
+        "Screens & Dividers"
+      ],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/680/405/telly_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386730396"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Reff Profiles Meeting Tables",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/730/165/reff-profiles-meeting-table-2x4_meeting_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [
+        "Meeting & Conference"
+      ],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/700/857/reff-profiles-meeting-table-2x4_meeting_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356388447960"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Florence Knoll Table Desk",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/184/959/florence-knoll-table-desk_meeting_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [
+        "Desks & Benching",
+        "Meeting & Conference"
+      ],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/286/883/florence-knoll-table-desk_meeting_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356388492249"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Gigi Swivel",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/55/555/gigi.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Side and Multi-Use"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/699/355/gigi.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356385717905"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Bertoia Side",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/909/165/bertoia-side-chair.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Side and Multi-Use",
+        "Outdoor"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/145/127/bertoia-side-chair.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356385715832"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Krusin Side Chair",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/581/69/krusin-side-chair,0.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Side and Multi-Use"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/329/747/krusin-side-chair.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386084950"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Rockwell Unscripted Club Chair",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/410/628/rockwell-unscripted-club-chair.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Lounge"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/537/750/rockwell-unscripted-club-chair,0.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386168390"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "JR",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/755/409/jr-chair.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Side and Multi-Use"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/631/994/jr-chair.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386085140"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Bertoia Stool",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/467/109/bertoia-stool.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Stools"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/343/168/bertoia-stool.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386113419"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Rockwell Unscripted Steps",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/175/139/rockwell-unscripted-steps,0.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Side and Multi-Use"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/48/17/rockwell-unscripted-steps,0.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386118311"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Tulip Armless",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/413/729/tulip-chair.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Side and Multi-Use"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/673/993/tulip-chair.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386122919"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Brno Chair - Flat Bar",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/118/173/brno-chair-flat-bar.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Side and Multi-Use"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/826/928/brno-chair-flat-bar.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386140852"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "CHIP Barstool",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/247/702/chip-chair.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Stools"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/891/490/chip-chair.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386145294"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Pilot by Knoll",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/730/425/pilot-lounge-chair.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Lounge"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/158/987/pilot-lounge-chair.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386154087"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Rockwell Unscripted Petite Club Chair",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/163/124/rockwell-unscripted-petite-club-chair.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Lounge"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/39/986/rockwell-unscripted-petite-club-chair.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386186908"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Rockwell Unscripted High Back Lounge Chair",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/278/845/rockwell-unscripted-high-back-lounge-chair.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Lounge"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/151/723/rockwell-unscripted-high-back-lounge-chair.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386189110"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Bertoia Asymmetric Chaise",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/632/687/bertoia-asymmetric-lounge-chair.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Lounge"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/1013/29/bertoia-asymmetric-lounge-chair,0.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386209414"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Rockwell Unscripted Credenzas",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/399/759/rockwell-credenza_credenza_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Credenzas, Carts and Consoles"
+      ],
+      "hero1-img-src" : "/media/359/381/rockwell-credenza_credenza_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386293053"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Rockwell Unscripted Modular Lockers",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/615/824/rockwell-lockers_lockers_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Lockers and Wardrobes"
+      ],
+      "hero1-img-src" : "/media/399/317/rockwell-lockers_lockers_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386296557"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Rockwell Unscripted Mobile Storage Carts",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/50/895/rockwell-unscripted-mobile-carts_ped_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Pedestals"
+      ],
+      "hero1-img-src" : "/media/612/253/rockwell-unscripted-mobile-carts_ped_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386293644"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Reff Profiles Column Leg",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/334/424/reff-profiles-column-leg-table_dining-multiuse_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [
+        "Dining & Multi-use",
+        "Meeting & Conference"
+      ],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/456/271/reff-profiles-column-leg-table_dining-multiuse_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356388326852"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "quick",
+        "three-week"
+      ],
+      "product-name" : "Series 2 Credenzas",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/11/946/series-2_credenza_hero.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Credenzas, Carts and Consoles"
+      ],
+      "hero1-img-src" : "/media/399/257/series-2_credenza_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386299023"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "AutoStrada Tables",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/715/282/autostrada-round-table_dining-multiuse_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [
+        "Dining & Multi-use",
+        "Meeting & Conference"
+      ],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/171/564/autostrada-round-table_dining-multiuse_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356388332478"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Antenna Workspaces Big Table",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/685/736/antenna-dual-sided-table_meeting_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [
+        "Desks & Benching",
+        "Meeting & Conference"
+      ],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/137/909/antenna-dual-sided-table_meeting_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356388427517"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Upstart Tables",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/437/870/upstart-table_dining-multiuse_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [
+        "Dining & Multi-use",
+        "Meeting & Conference",
+        "Desks & Benching",
+        "Training"
+      ],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/129/583/upstart-table_dining-multiuse_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356388347596"
+    },
+    {
+      "lead-times" : [
+        "quick",
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Generation by Knoll",
+      "short-text" : "",
+      "thumb-img-src" : "",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Work"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356365901962"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Dividends Horizon Y Base Tables",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/922/777/dividends-horizon-desk_meeting_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [
+        "Meeting & Conference",
+        "Desks & Benching",
+        "Training"
+      ],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/508/943/dividends-horizon-desk_meeting_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356388463778"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Pixel by Marc Krusin - Y Fold",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/47/264/pixel-y-flip-table_meeting_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [
+        "Meeting & Conference"
+      ],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/711/695/pixel-y-flip-table_meeting_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356388469596"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Fence",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/439/883/fence_pwr data_thumb.jpg",
+      "powerCategories" : [
+        "Power & Technology Distribution"
+      ],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/63/88/fence_pwr data_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386649892"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Platner Dining Table",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/680/940/platner-dining-table_dining-multiuse_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [
+        "Dining & Multi-use",
+        "Meeting & Conference"
+      ],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/302/486/platner-dining-table_dining-multiuse_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356388369909"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Reff Profiles Sliding Tables",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/326/330/reff-profiles-sliding-base_dining-multiuse_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [
+        "Dining & Multi-use",
+        "Meeting & Conference"
+      ],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/720/565/reff-profiles-sliding-base_dining-multiuse_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356388324921"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Pixel Credenzas",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/994/135/pixel-credenza_credenza_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Credenzas, Carts and Consoles"
+      ],
+      "hero1-img-src" : "/media/180/295/pixel-credenza_credenza_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386277841"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Horsepower Cabinets",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/395/103/horsepower_mounted_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Mounted Storage"
+      ],
+      "hero1-img-src" : "/media/491/657/horsepower_mounted_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386274784"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Service Wall",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/829/287/fence_pwr data_thumb.jpg",
+      "powerCategories" : [
+        "Power & Technology Distribution"
+      ],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/965/867/fence_pwr data_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386651975"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Quoin Locker",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/918/82/quoin_lockers_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Lockers and Wardrobes"
+      ],
+      "hero1-img-src" : "/media/640/458/quoin_lockers_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386280154"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Reff Profiles 28 3/8\" Progressive Towers",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/369/931/reff-profiles-progressive_towers_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [
+        "Towers"
+      ],
+      "hero1-img-src" : "/media/325/816/reff-profiles-progressive_towers_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356386280312"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Petal Dining Table",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/874/914/petal-dining-table_dining-multiuse_thumb,0.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [
+        "Dining & Multi-use",
+        "Meeting & Conference",
+        "Outdoor"
+      ],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/44/56/petal-dining-table_dining-multiuse_hero,0.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356388383609"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "1966 Dining Table - Bar and Counter Height",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/759/25/1966-tables_dining-multiuse_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [
+        "Dining & Multi-use",
+        "Outdoor"
+      ],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/767/423/1966-tables_dining-multiuse_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356388418177"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "product-name" : "Rockwell Unscripted Library Table",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/167/752/rockwell-library_meeting_thumb.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [],
+      "screensCategories" : [],
+      "tableCategories" : [
+        "Meeting & Conference"
+      ],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/847/83/rockwell-library_meeting_hero.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356388480508"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week",
+        "quick"
+      ],
+      "product-name" : "Bertoia Molded Shell",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/52/740/bertoia-shell-chair.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Side and Multi-Use"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/1008/173/bertoia-shell-chair.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356385701743"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "product-name" : "Rockwell Unscripted Easy Stool",
+      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>\r\n",
+      "thumb-img-src" : "/media/679/1007/rockwell-unscripted-easy-stool.jpg",
+      "powerCategories" : [],
+      "seatingCategories" : [
+        "Side and Multi-Use"
+      ],
+      "screensCategories" : [],
+      "tableCategories" : [],
+      "product-type" : "Lounge",
+      "storageCategories" : [],
+      "hero1-img-src" : "/media/803/377/rockwell-unscripted-easy-stool.jpg",
+      "workToolsCategories" : [],
+      "product-group" : "Seating",
+      "product-id" : "1356385703833"
+    }
+  ]
+}
