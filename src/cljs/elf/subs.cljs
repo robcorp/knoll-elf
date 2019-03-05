@@ -19,6 +19,36 @@
    (:filtered-products db)))
 
 (reg-sub
+ ::filtered-seating-products
+ (fn [db]
+   (:filtered-seating-products db)))
+
+(reg-sub
+ ::filtered-table-products
+ (fn [db]
+   (:filtered-table-products db)))
+
+(reg-sub
+ ::filtered-storage-products
+ (fn [db]
+   (:filtered-storage-products db)))
+
+(reg-sub
+ ::filtered-power-products
+ (fn [db]
+   (:filtered-power-products db)))
+
+(reg-sub
+ ::filtered-work-products
+ (fn [db]
+   (:filtered-work-products db)))
+
+(reg-sub
+ ::filtered-screen-products
+ (fn [db]
+   (:filtered-screen-products db)))
+
+(reg-sub
  ::selected-product
  (fn [db]
    (let [selected-product-id (:selected-product db)]
