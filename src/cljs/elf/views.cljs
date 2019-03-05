@@ -39,7 +39,7 @@
      [:a.popup-modal {:href "#essentials-modal"
                       :on-click #(re-frame/dispatch [::events/product-selected product-id])}
       [:div.product-col-image
-       [:img {:src thumb-img-src :data-no-retina ""}]]
+       [:img {:src (str "https://knlprdwcsmgt.knoll.com" thumb-img-src) :data-no-retina ""}]]
       [:ul.lead-time-status
        (if (lead-times-set "quick")
          [:li.quick-lead-active])
@@ -142,12 +142,13 @@
    [lead-time-filters]
    [product-type-filters]])
 
-(defn filtered-product-type-section [[product-type product-list]]
-  ^{:key product-type}
-  [:div.product-list
-   [:h3.titleGreyborder product-type]
-   [:ul.product-list
-    (map essential-product-summary product-list)]])
+(defn filtered-product-type-section [{:keys [label products]}]
+  (when (not (empty? products))
+    ^{:key label}
+    [:div.product-list
+     [:h3.titleGreyborder (str label " (" (count products) ")")]
+     [:ul.product-list
+      (map essential-product-summary products)]]))
 
 (defn filtered-products-view []
   (let [setup-popup #(.. (js/$ ".popup-modal")
@@ -157,11 +158,21 @@
     (reagent/create-class
      {:reagent-render
       (fn []
-        (let [filtered-products-list @(subscribe [::subs/filtered-products])]
+        (let [filtered-seating-products @(subscribe [::subs/filtered-seating-products])
+              filtered-table-products @(subscribe [::subs/filtered-table-products])
+              filtered-storage-products @(subscribe [::subs/filtered-storage-products])
+              filtered-power-products @(subscribe [::subs/filtered-power-products])
+              filtered-work-products @(subscribe [::subs/filtered-work-products])
+              filtered-screen-products @(subscribe [::subs/filtered-screen-products])]
           [:div.right-product-col
            [:div.filter-btn-wrap
             [:span.filter_btn_left "FILTERS"]]
-           (map filtered-product-type-section (seq filtered-products-list))]))
+           (map filtered-product-type-section filtered-seating-products)
+           (map filtered-product-type-section filtered-table-products)
+           (map filtered-product-type-section filtered-storage-products)
+           (map filtered-product-type-section filtered-power-products)
+           (map filtered-product-type-section filtered-work-products)
+           (map filtered-product-type-section filtered-screen-products)]))
 
       :display-name "filtered-products-view"
 
@@ -192,7 +203,7 @@
       [:div.essentials-modal-content
        [:div.essentials-product-img
         [:div.essentials-product-img-wrap
-         [:img {:src (:hero1-img-src selected-product), :data-no-retina ""}]]
+         [:img {:src (str "https://knlprdwcsmgt.knoll.com" (:hero1-img-src selected-product)), :data-no-retina ""}]]
         [:div.essentials-product-img-detail
          [:h2 (:product-name selected-product)]
          [:p (:short-text selected-product)]]]
@@ -514,7 +525,6 @@
        [:a {:class "swap-pro-arrow swap-pro-arrow-left"}]
        [:a {:class "swap-pro-arrow swap-pro-arrow-right"}]]]]))
 
-
 (defn modal-popup []
   (let [selected-product @(subscribe [::subs/selected-product])
         lead-times-set (set (:lead-times selected-product))]
@@ -534,10 +544,10 @@
         [:div.essentials-modal-content
          [:div.essentials-product-img
           [:div.essentials-product-img-wrap
-           [:img {:src (:hero1-img-src selected-product) :data-no-retina ""}]]
+           [:img {:src (str "https://knlprdwcsmgt.knoll.com" (:hero1-img-src selected-product)) :data-no-retina ""}]]
           [:div.essentials-product-img-detail
            [:h2 (:product-name selected-product)]
-           [:p (:short-text selected-product)]]]
+           [:div {:dangerouslySetInnerHTML {:__html (:short-text selected-product)}}]]]
          [:div.essentials-product-tabs
           [:ul.essentials-tab-list
            (if (lead-times-set "quick")
