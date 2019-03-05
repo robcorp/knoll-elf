@@ -3,9 +3,15 @@
 
 (def default-db
   {:name "Knoll Essentials Lead Times & Finishes"
-   :all-products dd/all-products
-   :filtered-products dd/filtered-products
-   :selected-product (:product-id (first dd/all-products))
+   :all-products []
+   :filtered-products nil
+   :filtered-seating-products {}
+   :filtered-table-products {}
+   :filtered-storage-products {}
+   :filtered-power-products {}
+   :filtered-work-products {}
+   :filtered-screen-products {}
+   :selected-product nil
    :lead-time-filters dd/lead-time-filters
    :ELFSeatingSelector {:description "Seating"
                         :items []}
