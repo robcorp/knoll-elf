@@ -19,44 +19,44 @@
 
   :repl-options {:nrepl-middleware [cider.piggieback/wrap-cljs-repl]}
 
-  :profiles
-  {:dev
-   {:dependencies [[binaryage/devtools "0.9.10"]
-                   [day8.re-frame/re-frame-10x "0.3.6"]
-                   [day8.re-frame/tracing "0.5.1"]
-                   [figwheel-sidecar "0.5.18"]
-                   #_[cider/piggieback "0.3.10"]
-                   [cider/piggieback "0.4.0"]]
+  :profiles {:dev
+             {:dependencies [[binaryage/devtools "0.9.10"]
+                             [day8.re-frame/re-frame-10x "0.3.6"]
+                             [day8.re-frame/tracing "0.5.1"]
+                             [figwheel-sidecar "0.5.18"]
+                             #_[cider/piggieback "0.3.10"]
+                             [cider/piggieback "0.4.0"]]
 
-    :plugins      [[lein-figwheel "0.5.18"]]}
-   :prod { :dependencies [[day8.re-frame/tracing-stubs "0.5.1"]]}
-   }
+              :plugins      [[lein-figwheel "0.5.18"]]}
+             :prod { :dependencies [[day8.re-frame/tracing-stubs "0.5.1"]]}}
 
-  :cljsbuild
-  {:builds
-   [{:id           "dev"
-     :source-paths ["src/cljs"]
-     :figwheel     {:on-jsload "elf.core/mount-root"}
-     :compiler     {:main                 elf.core
-                    :output-to            "resources/public/js/compiled/elf.js"
-                    :output-dir           "resources/public/js/compiled/out"
-                    :asset-path           "js/compiled/out"
-                    :source-map-timestamp true
-                    :preloads             [devtools.preload
-                                           day8.re-frame-10x.preload]
-                    :closure-defines      {"re_frame.trace.trace_enabled_QMARK_" true
-                                           "day8.re_frame.tracing.trace_enabled_QMARK_" true}
-                    :external-config      {:devtools/config {:features-to-install :all}}
-                    }}
+  :cljsbuild {:builds
+              [{:id           "dev"
+                :source-paths ["src/cljs"]
+                :figwheel     {:on-jsload "elf.core/mount-root"}
+                :compiler     {:main                 elf.core
+                               :output-to            "resources/public/js/compiled/elf.js"
+                               :output-dir           "resources/public/js/compiled/out"
+                               :asset-path           "js/compiled/out"
+                               :source-map-timestamp true
+                               :preloads             [devtools.preload
+                                                      day8.re-frame-10x.preload]
+                               :closure-defines      {"re_frame.trace.trace_enabled_QMARK_" true
+                                                      "day8.re_frame.tracing.trace_enabled_QMARK_" true}
+                               :external-config      {:devtools/config {:features-to-install :all}}}}
 
-    {:id           "min"
-     :source-paths ["src/cljs"]
-     :compiler     {:main            elf.core
-                    :output-to       "resources/public/js/compiled/elf.js"
-                    :optimizations   :simple
-                    :closure-defines {goog.DEBUG false}
-                    :pretty-print    false}}
-
-
-    ]}
-  )
+               {:id           "simple"
+                :source-paths ["src/cljs"]
+                :compiler     {:main            elf.core
+                               :output-to       "resources/public/js/compiled/elf.js"
+                               :optimizations   :simple
+                               :closure-defines {goog.DEBUG false}
+                               :pretty-print    false}}
+               {:id           "advanced"
+                :source-paths ["src/cljs"]
+                :compiler     {:main            elf.core
+                               :output-to       "resources/public/js/compiled/elf.js"
+                               :optimizations   :advanced
+                               :closure-defines {goog.DEBUG false}
+                               :externs         ["jquery-1.9-externs.js" "externs.js"]
+                               :pretty-print    false}}]})
