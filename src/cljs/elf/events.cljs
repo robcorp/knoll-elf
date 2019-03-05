@@ -27,10 +27,25 @@
    (.log js/console "Using db/default-db.")
    db/default-db))
 
+(defn- category-products [products selector category-key]
+  (let [category-products (filter #(not (empty? (category-key %))) products)
+        label (:description selector)
+        categories (select [:items ALL :label #(not= "All" %)] selector)]
+    (for [category categories]
+      {:label (str label " / " category) :products (filter #((set (category-key %)) category) category-products)})))
+
 (reg-event-db
  ::set-all-products
  (fn-traced [db [_ products]]
-            (assoc db :all-products products)))
+   (assoc db
+          :all-products products
+          :filtered-products (group-by :product-type products)
+          :filtered-seating-products (category-products products (:ELFSeatingSelector db) :seatingCategories)
+          :filtered-table-products (category-products products (:ELFTableSelector db) :tableCategories)
+          :filtered-storage-products (category-products products (:ELFStorageSelector db) :storageCategories)
+          :filtered-power-products (category-products products (:ELFPowerAndDataSelector db) :powerCategories)
+          :filtered-work-products (category-products products (:ELFWorkToolsSelector db) :workToolsCategories)
+          :filtered-screen-products (category-products products (:ELFScreensAndBoardsSelector db) :screensCategories))))
 
 (reg-event-db
  ::set-filter-options
@@ -62,12 +77,17 @@
    (let [updated-filters (update-lead-time-filter-state lead-time (:lead-time-filters db))
          selected-lead-times (set (select [ALL #(true? (:value %)) :lead-time] updated-filters))
          filtered-products (->> (:all-products db)
-                                (filter-products-by-lead-times selected-lead-times)
-                                (group-by :product-type))]
+                                (filter-products-by-lead-times selected-lead-times))]
 
      (assoc db
             :lead-time-filters updated-filters
-            :filtered-products filtered-products))))
+            :filtered-products filtered-products
+            :filtered-seating-products (category-products filtered-products (:ELFSeatingSelector db) :seatingCategories)
+            :filtered-table-products (category-products filtered-products (:ELFTableSelector db) :tableCategories)
+            :filtered-storage-products (category-products filtered-products (:ELFStorageSelector db) :storageCategories)
+            :filtered-power-products (category-products filtered-products (:ELFPowerAndDataSelector db) :powerCategories)
+            :filtered-work-products (category-products filtered-products (:ELFWorkToolsSelector db) :workToolsCategories)
+            :filtered-screen-products (category-products filtered-products (:ELFScreensAndBoardsSelector db) :screensCategories)))))
 
 
 (defn- toggle-product-type-filter-state [selected-filter filters]
@@ -113,10 +133,10 @@
 
 
 (defn- load-all-products []
-  (let [all-products-url "http://127.0.0.1:7070/571268536.060299" ;; this will change each time Smart JSON Editor is launched
+  (let [all-products-url "http://knlprdwcsmgt1.knoll.com/cs/Satellite?pagename=Knoll/Common/Utils/EssentialsPopupProductsJSON"
+        ;all-products-url "http://localhost:3449/all-products.json"
         success-handler (fn [resp]
-                          (let [product-id (:product-id (first resp))]
-                            (re-frame/dispatch [::set-all-products resp])))
+                          (re-frame/dispatch [::set-all-products (:all-products resp)]))
         error-handler (fn [{:keys [status status-text]}]
                         (.log js/console (str "Ajax request to get all-products failed: " status " " status-text))
                         (re-frame/dispatch [::use-default-db]))]
