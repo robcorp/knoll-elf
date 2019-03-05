@@ -36,7 +36,7 @@
                 :figwheel     {:on-jsload "elf.core/mount-root"}
                 :compiler     {:main                 elf.core
                                :output-to            "resources/public/js/compiled/elf.js"
-                               :output-dir           "resources/public/js/compiled/out"
+                               :output-dir           "resources/public/js/compiled/dev-out"
                                :asset-path           "js/compiled/out"
                                :source-map-timestamp true
                                :preloads             [devtools.preload
@@ -49,6 +49,7 @@
                 :source-paths ["src/cljs"]
                 :compiler     {:main            elf.core
                                :output-to       "resources/public/js/compiled/elf.js"
+                               :output-dir      "resourced/public/js/compiled/simple-out"
                                :optimizations   :simple
                                :closure-defines {goog.DEBUG false}
                                :pretty-print    false}}
@@ -56,6 +57,7 @@
                 :source-paths ["src/cljs"]
                 :compiler     {:main            elf.core
                                :output-to       "resources/public/js/compiled/elf.js"
+                               :output-dir      "resourced/public/js/compiled/advanced-out"
                                :optimizations   :advanced
                                :closure-defines {goog.DEBUG false}
                                :externs         ["jquery-1.9-externs.js" "externs.js"]
