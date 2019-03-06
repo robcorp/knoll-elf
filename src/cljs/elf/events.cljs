@@ -32,7 +32,9 @@
         label (:description selector)
         categories (select [:items ALL :label #(not= "All" %)] selector)]
     (for [category categories]
-      {:label (str label " / " category) :products (filter #((set (category-key %)) category) category-products)})))
+      {:product-category category
+       :label (str label " / " category)
+       :products (filter #((set (category-key %)) category) category-products)})))
 
 (reg-event-db
  ::set-all-products
