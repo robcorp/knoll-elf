@@ -36,7 +36,7 @@
                 :figwheel     {:on-jsload "elf.core/mount-root"}
                 :compiler     {:main                 elf.core
                                :output-to            "resources/public/js/compiled/elf.js"
-                               :output-dir           "resources/public/js/compiled/dev-out"
+                               :output-dir           "resources/public/js/compiled/out"
                                :asset-path           "js/compiled/out"
                                :source-map-timestamp true
                                :preloads             [devtools.preload
