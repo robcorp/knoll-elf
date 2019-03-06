@@ -180,7 +180,7 @@
 
       :component-did-update setup-popup})))
 
-(defn old-modal-popup []
+#_(defn old-modal-popup []
   (let [selected-product @(subscribe [::subs/selected-product])
         lead-times-set (set (:lead-times selected-product))]
     [:div#essentials-modal.white-popup-block.mfp-hide
@@ -538,7 +538,7 @@
            [:li [:a {:href (str "https://www.knoll.com/product/" (:product-id selected-product) "?section=design") :target "_blank"} " Visit Full Product Page"]]
            [:li [:a {:href "javascript:;"} "Share"]] [:li [:a {:href "javascript:;"} "PRINT"]]
            [:li [:a {:href "javascript:;"} "View essentials brochure"]]]]]]
-       [:a.popup-modal-dismiss "Dismiss"]]
+       [:a.popup-modal-dismiss {:on-click #(->> js/$ .-magnificPopup .close)} "Dismiss"]]
       [:div.owl-popup-div
        [:div.item
         [:div.essentials-modal-content
