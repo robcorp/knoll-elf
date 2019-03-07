@@ -1,17 +1,19 @@
 (ns elf.views
   (:require
    [reagent.core :as reagent]
-   [re-frame.core :refer [subscribe] :as re-frame]
+   [re-frame.core :as re-frame]
    [elf.events :as events]
    [elf.subs :as subs]
    [com.rpl.specter :refer [ALL multi-path walker] :refer-macros [select select-first setval transform] :as spctr]))
 
+(def <sub (comp deref re-frame/subscribe)) ; permits using (<sub [::subs/name]) rather than @(subscribe [::subs/name])
+
 (declare filters-view filtered-products-view modal-popup mouse-pos-comp)
 
 (defn main-panel []
-  (let [name @(subscribe [::subs/name])]
+  (let [name (<sub [::subs/name])]
     [:<> ; this allows sibling elements without needing to wrap in a separate [:div]
-     [:div
+     #_[:div
         [:h1 name]
         [:p "(built using the re-frame app framework.)"]
         [mouse-pos-comp]
@@ -61,7 +63,7 @@
 
 ;;; render the Lead Time: filters 
 (defn lead-time-filters []
-  (let [filters @(subscribe [::subs/lead-time-filters])]
+  (let [filters (<sub [::subs/lead-time-filters])]
     [:div.select-wrap
      [:h3 "Lead Time:"]
      [:ul.lead-time-list
@@ -108,12 +110,12 @@
   (select [:items ALL :value] filter))
 
 (defn product-type-filters []
-  (let [seating-filter-options @(subscribe [::subs/seating-filter-options])
-        tables-filter-options @(subscribe [::subs/tables-filter-options])
-        storage-filter-options @(subscribe [::subs/storage-filter-options])
-        power-data-filter-options @(subscribe [::subs/power-data-filter-options])
-        work-tools-filter-options @(subscribe [::subs/work-tools-filter-options])
-        screen-board-filter-options @(subscribe [::subs/screen-board-filter-options])
+  (let [seating-filter-options (<sub [::subs/seating-filter-options])
+        tables-filter-options (<sub [::subs/tables-filter-options])
+        storage-filter-options (<sub [::subs/storage-filter-options])
+        power-data-filter-options (<sub [::subs/power-data-filter-options])
+        work-tools-filter-options (<sub [::subs/work-tools-filter-options])
+        screen-board-filter-options (<sub [::subs/screen-board-filter-options])
         show-reset? (some true? (concat (get-filter-values seating-filter-options)
                                         (get-filter-values tables-filter-options)
                                         (get-filter-values storage-filter-options)
@@ -158,12 +160,12 @@
     (reagent/create-class
      {:reagent-render
       (fn []
-        (let [filtered-seating-products @(subscribe [::subs/filtered-seating-products])
-              filtered-table-products @(subscribe [::subs/filtered-table-products])
-              filtered-storage-products @(subscribe [::subs/filtered-storage-products])
-              filtered-power-products @(subscribe [::subs/filtered-power-products])
-              filtered-work-products @(subscribe [::subs/filtered-work-products])
-              filtered-screen-products @(subscribe [::subs/filtered-screen-products])]
+        (let [filtered-seating-products (<sub [::subs/filtered-seating-products])
+              filtered-table-products (<sub [::subs/filtered-table-products])
+              filtered-storage-products (<sub [::subs/filtered-storage-products])
+              filtered-power-products (<sub [::subs/filtered-power-products])
+              filtered-work-products (<sub [::subs/filtered-work-products])
+              filtered-screen-products (<sub [::subs/filtered-screen-products])]
           [:div.right-product-col
            [:div.filter-btn-wrap
             [:span.filter_btn_left "FILTERS"]]
@@ -181,7 +183,7 @@
       :component-did-update setup-popup})))
 
 #_(defn old-modal-popup []
-  (let [selected-product @(subscribe [::subs/selected-product])
+  (let [selected-product (<sub [::subs/selected-product])
         lead-times-set (set (:lead-times selected-product))]
     [:div#essentials-modal.white-popup-block.mfp-hide
      [:div.essentials-modal-wrap
@@ -526,7 +528,7 @@
        [:a {:class "swap-pro-arrow swap-pro-arrow-right"}]]]]))
 
 (defn modal-popup []
-  (let [selected-product @(subscribe [::subs/selected-product])
+  (let [selected-product (<sub [::subs/selected-product])
         lead-times-set (set (:lead-times selected-product))]
     [:div#essentials-modal.white-popup-block.mfp-hide
      [:div.essentials-modal-wrap
