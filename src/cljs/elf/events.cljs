@@ -27,27 +27,41 @@
    (.log js/console "Using db/default-db.")
    db/default-db))
 
-(defn- category-products [products selector category-key]
-  (let [category-products (filter #(not (empty? (category-key %))) products)
-        label (:description selector)
-        categories (select [:items ALL :label #(not= "All" %)] selector)]
+(defn- category-products [db products selector category-key]
+  (let [cat-products (filter #(not (empty? (category-key %))) products)
+        selected-filter (selector db)
+        label (:description selected-filter)
+        no-product-filters-selected? (not (some true? (select (multi-path [:ELFSeatingSelector :items ALL :value]
+                                                                          [:ELFTableSelector :items ALL :value]
+                                                                          [:ELFStorageSelector :items ALL :value]
+                                                                          [:ELFPowerAndDataSelector :items ALL :value]
+                                                                          [:ELFWorkToolsSelector :items ALL :value]
+                                                                          [:ELFScreensAndBoardsSelector :items ALL :value]) db)))
+        categories (if no-product-filters-selected?
+                     (select [:items ALL :label #(not= "All" %)] selected-filter)
+                     (set (select [:items ALL #(true? (:value %)) :label] selected-filter)))]
+    
     (for [category categories]
       {:product-category category
        :label (str label " / " category)
-       :products (filter #((set (category-key %)) category) category-products)})))
+       :products (filter #((set (category-key %)) category) cat-products)})))
+
+(defn- filter-category-products [db products]
+  (assoc db
+         :filtered-seating-products (category-products db products :ELFSeatingSelector :seatingCategories)
+         :filtered-table-products (category-products db products :ELFTableSelector :tableCategories)
+         :filtered-storage-products (category-products db products :ELFStorageSelector :storageCategories)
+         :filtered-power-products (category-products db products :ELFPowerAndDataSelector :powerCategories)
+         :filtered-work-products (category-products db products :ELFWorkToolsSelector :workToolsCategories)
+         :filtered-screen-products (category-products db products :ELFScreensAndBoardsSelector :screensCategories)))
 
 (reg-event-db
  ::set-all-products
  (fn-traced [db [_ products]]
-   (assoc db
-          :all-products products
-          :filtered-products (group-by :product-type products)
-          :filtered-seating-products (category-products products (:ELFSeatingSelector db) :seatingCategories)
-          :filtered-table-products (category-products products (:ELFTableSelector db) :tableCategories)
-          :filtered-storage-products (category-products products (:ELFStorageSelector db) :storageCategories)
-          :filtered-power-products (category-products products (:ELFPowerAndDataSelector db) :powerCategories)
-          :filtered-work-products (category-products products (:ELFWorkToolsSelector db) :workToolsCategories)
-          :filtered-screen-products (category-products products (:ELFScreensAndBoardsSelector db) :screensCategories))))
+   (-> db
+       (assoc :all-products products
+              :filtered-products products)
+       (filter-category-products products))))
 
 (reg-event-db
  ::set-filter-options
@@ -75,26 +89,23 @@
 
 (reg-event-db
  ::lead-time-filter-radio-button-clicked
- (fn-traced [db [_ lead-time] event]
-   (let [updated-filters (update-lead-time-filter-state lead-time (:lead-time-filters db))
-         selected-lead-times (set (select [ALL #(true? (:value %)) :lead-time] updated-filters))
+ (fn [db [_ lead-time] event]
+   (let [updated-lead-time-filters (update-lead-time-filter-state lead-time (:lead-time-filters db))
+         selected-lead-times (set (select [ALL #(true? (:value %)) :lead-time] updated-lead-time-filters))
          filtered-products (->> (:all-products db)
                                 (filter-products-by-lead-times selected-lead-times))]
 
-     (assoc db
-            :lead-time-filters updated-filters
-            :filtered-products filtered-products
-            :filtered-seating-products (category-products filtered-products (:ELFSeatingSelector db) :seatingCategories)
-            :filtered-table-products (category-products filtered-products (:ELFTableSelector db) :tableCategories)
-            :filtered-storage-products (category-products filtered-products (:ELFStorageSelector db) :storageCategories)
-            :filtered-power-products (category-products filtered-products (:ELFPowerAndDataSelector db) :powerCategories)
-            :filtered-work-products (category-products filtered-products (:ELFWorkToolsSelector db) :workToolsCategories)
-            :filtered-screen-products (category-products filtered-products (:ELFScreensAndBoardsSelector db) :screensCategories)))))
+     (-> db
+         (assoc
+          :lead-time-filters updated-lead-time-filters
+          :filtered-products filtered-products)
+         (filter-category-products filtered-products)))))
 
 
 (defn- toggle-product-type-filter-state [selected-filter filters]
   (let [selected-filter-value (select-first [ALL #(= selected-filter (:label %)) :value] filters)
         all-value (select-first [ALL #(= "All" (:label %)) :value] filters)]
+
     (if (= "All" selected-filter)
       (setval [ALL :value] (not selected-filter-value) filters)
 
@@ -112,21 +123,28 @@
          selector (keyword selector-str)
          filters (:items (selector db))
          updated-filters (toggle-product-type-filter-state label filters)
-         enable-all? (every? true? (select [ALL #(not= "All" (:label %)) :value] updated-filters))]
-     (if enable-all?
-       (setval [selector :items] (setval [ALL #(= "All" (:label %)) :value] true updated-filters) db)
-       (setval [selector :items] updated-filters db)))))
+         enable-all? (every? true? (select [ALL #(not= "All" (:label %)) :value] updated-filters))
+         updated-db (if enable-all?
+                      (setval [selector :items] (setval [ALL #(= "All" (:label %)) :value] true updated-filters) db)
+                      (setval [selector :items] updated-filters db))]
 
-(reg-event-db
- ::reset-product-type-filters
- (fn-traced [db _]
-   (setval (multi-path [:ELFSeatingSelector :items ALL :value]
+     (filter-category-products updated-db (:filtered-products updated-db)))))
+
+(defn- clear-all-product-filters [db]
+  (setval (multi-path [:ELFSeatingSelector :items ALL :value]
                        [:ELFTableSelector :items ALL :value]
                        [:ELFStorageSelector :items ALL :value]
                        [:ELFPowerAndDataSelector :items ALL :value]
                        [:ELFWorkToolsSelector :items ALL :value]
                        [:ELFScreensAndBoardsSelector :items ALL :value])
-           false db)))
+           false db))
+
+(reg-event-db
+ ::reset-product-type-filters
+ (fn-traced [db _]
+   (-> db
+       (clear-all-product-filters)
+       (filter-category-products (:filtered-products db)))))
 
 (reg-event-db
  ::product-selected
