@@ -166,8 +166,18 @@
               filtered-storage-products (<sub [::subs/filtered-storage-products])
               filtered-power-products (<sub [::subs/filtered-power-products])
               filtered-work-products (<sub [::subs/filtered-work-products])
-              filtered-screen-products (<sub [::subs/filtered-screen-products])]
+              filtered-screen-products (<sub [::subs/filtered-screen-products])
+              no-results? (empty? (select [ALL :products ALL :product-id] (concat filtered-seating-products
+                                                                                 filtered-table-products
+                                                                                 filtered-storage-products
+                                                                                 filtered-power-products
+                                                                                 filtered-work-products
+                                                                                 filtered-screen-products)))]
+          (println "no-results?: " no-results?)
           [:div.right-product-col
+           (if no-results?
+             [:div
+              [:h3.text-center "No results found"]])
            [:div.filter-btn-wrap
             [:span.filter_btn_left "FILTERS"]]
            (map filtered-product-type-section filtered-seating-products)
