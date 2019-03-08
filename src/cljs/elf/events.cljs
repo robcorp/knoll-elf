@@ -67,11 +67,12 @@
  ::set-filter-options
  (fn-traced [db [_ selector resp]]
    (let [selector-key (keyword selector)
+         product-category (select-first [selector-key :product-category] db/default-db)
          desc (:description resp)
          items (setval [spctr/BEFORE-ELEM] "All" (:items resp))]
-     (assoc db selector-key {:name selector :description desc :items (mapv (fn [i] {:label i :value false}) items)}))))
+     (assoc db selector-key {:name selector :description desc :product-category product-category :items (mapv (fn [i] {:label i :value false}) items)}))))
 
-(reg-event-db
+#_(reg-event-db
  ::set-filtered-products
  (fn-traced [db [_ products]]
    (assoc db :filtered-products (group-by :product-type products))))
@@ -174,3 +175,27 @@
                                           :error-handler error-handler
                                           :response-format :json
                                           :keywords? true})))
+
+
+(defn- visible-product-ids
+  "Returns a vector of product-ids of all the currently visible products based on the current filter selections.
+  This is useful for cycling through products on the modal popup."
+  [db]
+  (select (multi-path [:filtered-seating-products ALL :products ALL :product-id]
+                      [:filtered-table-products ALL :products ALL :product-id]
+                      [:filtered-storage-products ALL :products ALL :product-id]
+                      [:filtered-power-products ALL :products ALL :product-id]
+                      [:filtered-work-products ALL :products ALL :product-id]
+                      [:filtered-screen-products ALL :products ALL :product-id]) db))
+
+(defn- next-visible-prod-id [db]
+  (let [current-prod (:selected-product db)
+        visible-prods (visible-product-ids db)
+        i (.indexOf visible-prods current-prod)]
+    (visible-prods (min (inc i) (dec (count visible-prods))))))
+
+(defn- previous-visible-prod-id [db]
+  (let [current-prod (:selected-product db)
+        visible-prods (visible-product-ids db)
+        i (.indexOf visible-prods current-prod)]
+    (visible-prods (max (dec i) 0))))
