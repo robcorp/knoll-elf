@@ -4,7 +4,7 @@
    [re-frame.core :as re-frame]
    [elf.events :as events]
    [elf.subs :as subs]
-   [com.rpl.specter :refer [ALL multi-path walker] :refer-macros [select select-first setval transform] :as spctr]))
+   [com.rpl.specter :refer [ALL multi-path walker] :refer-macros [select select-first] :as spctr]))
 
 (def <sub (comp deref re-frame/subscribe)) ; permits using (<sub [::subs/name]) rather than @(subscribe [::subs/name])
 
@@ -69,7 +69,7 @@
      [:ul.lead-time-list
       (map lead-time-filter-radio-button filters)]]))
 
-(defn product-type-filter-group [filter-options]
+(defn product-type-filter-group [filter-options filtered-prods]
   (let [did-mount-toggler (fn [comp]
                             (.click (.find (js/$ (reagent/dom-node comp)) "h4") 
                                     (fn [ev]
@@ -80,12 +80,12 @@
     
     (reagent/create-class
      {:reagent-render
-      (fn [filter-options]
-        (let [name (:name filter-options)
-              desc (:description filter-options)
-              items (:items filter-options)]
+      (fn [filter-options filtered-prods]
+        (let [{:keys [name description product-category items]} filter-options
+              available-categories (conj (set (select [ALL #(not (empty? (product-category %))) product-category ALL] filtered-prods)) "All")
+              disable-group? false]
           [:div {:class "product-type-check has-filter-submenu"}
-           [:h4 desc]
+           [:h4 (if disable-group? {:class "disable-filter"}) description]
            [:ul {:class "product-type-check-list", :style {:display "none"}}
             (for [i items]
               (let [{:keys [label value]} i
@@ -95,16 +95,15 @@
                  [:input {:type "checkbox"
                           :id id
                           :checked value
+                          :class (if (available-categories label) "" "disable-filter")
                           :on-change #(re-frame/dispatch [::events/product-type-filter-checkbox-clicked id])}]
                  [:label {:for id} (if (= "All" label)
-                                     (str label " " desc)
+                                     (str label " " description)
                                      label)]]))]]))
 
       :display-name "product-type-filter-group"
 
-      :component-did-mount did-mount-toggler
-
-      :component-did-update #()})))
+      :component-did-mount did-mount-toggler})))
 
 (defn- get-filter-values [filter]
   (select [:items ALL :value] filter))
@@ -116,6 +115,8 @@
         power-data-filter-options (<sub [::subs/power-data-filter-options])
         work-tools-filter-options (<sub [::subs/work-tools-filter-options])
         screen-board-filter-options (<sub [::subs/screen-board-filter-options])
+        filtered-prods (<sub [::subs/filtered-products])
+        
         show-reset? (some true? (concat (get-filter-values seating-filter-options)
                                         (get-filter-values tables-filter-options)
                                         (get-filter-values storage-filter-options)
@@ -129,12 +130,12 @@
            :style {:display (if show-reset? "block" "none")}
            :on-click #(re-frame/dispatch [::events/reset-product-type-filters])}
        "Reset"]]
-     [product-type-filter-group seating-filter-options]
-     [product-type-filter-group tables-filter-options]
-     [product-type-filter-group storage-filter-options]
-     [product-type-filter-group power-data-filter-options]
-     [product-type-filter-group work-tools-filter-options]
-     [product-type-filter-group screen-board-filter-options]
+     [product-type-filter-group seating-filter-options filtered-prods]
+     [product-type-filter-group tables-filter-options filtered-prods]
+     [product-type-filter-group storage-filter-options filtered-prods]
+     [product-type-filter-group power-data-filter-options filtered-prods]
+     [product-type-filter-group work-tools-filter-options filtered-prods]
+     [product-type-filter-group screen-board-filter-options filtered-prods]
      
      [:div {:class "hidden-lg visible-xs"}
       [:a {:class "apply_btn accordian_btn", :href "javascript:;"} " < APPLY AND RETURN"]]]))
