@@ -3,6 +3,7 @@
 
 (def default-db
   {:name "Knoll Essentials Lead Times & Finishes"
+   :loading-all-products true
    :all-products []
    :filtered-products nil
    :filtered-seating-products {}
