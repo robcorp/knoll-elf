@@ -9,6 +9,11 @@
    (:name db)))
 
 (reg-sub
+ ::loading-all-products
+ (fn [db]
+   (:loading-all-products db)))
+
+(reg-sub
  ::all-products
  (fn [db]
    (:all-products db)))

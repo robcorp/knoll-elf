@@ -59,7 +59,8 @@
  ::set-all-products
  (fn-traced [db [_ products]]
    (-> db
-       (assoc :all-products products
+       (assoc :loading-all-products false
+              :all-products products
               :filtered-products products)
        (filter-category-products products))))
 
