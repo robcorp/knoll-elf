@@ -13,24 +13,26 @@
 (defn main-panel []
   (let [name (<sub [::subs/name])]
     [:<> ; this allows sibling elements without needing to wrap in a separate [:div]
-     #_[:div
-        [:h1 name]
-        [:p "(built using the re-frame app framework.)"]
-        [mouse-pos-comp]
-        [:hr]]
-     [:div.xallbody-wrapper
-      [:section#essentials-product-search
-         [:section.wrapper
-          [:section#essentials_search
-           [:article.left
-            [:h2 "Knoll Essentials Product Index"]
-            [:p "Explore the wide variety of high-performance products available through Knoll Essentials, including a broad range of materials and finishes to reflect your brand and culture. Most of these products can be ready to install in just four weeks."]]]]]
+     [:section.body_container
+      #_[:div
+         [:h1 name]
+         [:p "(built using the re-frame app framework.)"]
+         [mouse-pos-comp]
+         [:hr]]
+      [:div.allbody-wrapper
+       [:section#essentials-product-search
+        [:section.wrapper
+         [:section#essentials_search
+          [:article.left
+           [:h2 "Knoll Essentials Product Index"]
+           [:p "Explore the wide variety of high-performance products available through Knoll Essentials, including a broad range of materials and finishes to reflect your brand and culture. Most of these products can be ready to install in just four weeks."]]]]]
 
-      [:section.wrapper
-       [:section#page
-        [:div {:class "product-col clearfix"}
-         [filters-view]
-         [filtered-products-view]]]]]
+       [:section.wrapper
+        [:section#page
+         [:div {:class "product-col clearfix"}
+          [filters-view]
+          [filtered-products-view]]]]]
+      [:div.veil]]
      [modal-popup]]))
 
 
@@ -79,34 +81,44 @@
                                           (.slideToggle (.next $this ".product-type-check-list")))))))]
     
     (reagent/create-class
-     {:reagent-render
-      (fn [filter-options filtered-prods]
-        (let [{:keys [name description product-category items]} filter-options
-              available-categories (conj (set (select [ALL #(not (empty? (product-category %))) product-category ALL] filtered-prods)) "All")
-              disable-group? false]
-          [:div {:class "product-type-check has-filter-submenu"}
-           [:h4 (if disable-group? {:class "disable-filter"}) description]
-           [:ul {:class "product-type-check-list", :style {:display "none"}}
-            (for [i items]
-              (let [{:keys [label value]} i
-                    id (str name ":" label)]
-                ^{:key id}
-                [:li
-                 [:input {:type "checkbox"
-                          :id id
-                          :checked value
-                          :class (if (available-categories label) "" "disable-filter")
-                          :on-change #(re-frame/dispatch [::events/product-type-filter-checkbox-clicked id])}]
-                 [:label {:for id} (if (= "All" label)
-                                     (str label " " description)
-                                     label)]]))]]))
+     {:display-name "product-type-filter-group"
 
-      :display-name "product-type-filter-group"
+      :reagent-render (fn [filter-options filtered-prods]
+                        (let [{:keys [name description product-category items]} filter-options
+                              available-categories (conj (set (select [ALL #(not (empty? (product-category %))) product-category ALL] filtered-prods)) "All")
+                              disable-group? false]
+                          [:div {:class "product-type-check has-filter-submenu"}
+                           [:h4 (if disable-group? {:class "disable-filter"}) description]
+                           [:ul {:class "product-type-check-list", :style {:display "none"}}
+                            (for [i items]
+                              (let [{:keys [label value]} i
+                                    id (str name ":" label)]
+                                ^{:key id}
+                                [:li
+                                 [:input {:type "checkbox"
+                                          :id id
+                                          :checked value
+                                          :class (if (available-categories label) "" "disable-filter")
+                                          :on-change #(re-frame/dispatch [::events/product-type-filter-checkbox-clicked id])}]
+                                 [:label {:for id} (if (= "All" label)
+                                                     (str label " " description)
+                                                     label)]]))]]))
 
       :component-did-mount did-mount-toggler})))
 
 (defn- get-filter-values [filter]
   (select [:items ALL :value] filter))
+
+(defn- close-filter-slideout []
+  (do (.. (js/$ ".select-wrap") (removeClass "open"))
+      (.. (js/$ "html") (removeClass "hidescroll"))
+      (.. (js/$ ".veil") (removeClass "overlay"))))
+
+(defn- open-filter-slideout []
+  (do (.. (js/$ ".select-wrap") (toggleClass "open"))
+      (.. (js/$ "html") (addClass "hidescroll"))
+      (.. (js/$ ".veil") (addClass "overlay"))
+      (.. (js/$ ".veil.overlay") (click close-filter-slideout))))
 
 (defn product-type-filters []
   (let [seating-filter-options (<sub [::subs/seating-filter-options])
@@ -136,12 +148,12 @@
      [product-type-filter-group power-data-filter-options filtered-prods]
      [product-type-filter-group work-tools-filter-options filtered-prods]
      [product-type-filter-group screen-board-filter-options filtered-prods]
-     
-     [:div {:class "hidden-lg visible-xs"}
-      [:a {:class "apply_btn accordian_btn", :href "javascript:;"} " < APPLY AND RETURN"]]]))
+
+     [:div {:class "mobile-visible"}
+      [:a {:class "apply_btn accordian_btn", :on-click close-filter-slideout} " < APPLY AND RETURN"]]]))
 
 (defn filters-view []
-  [:div {:class "left-filter-col researchPage"}
+  [:div.left-filter-col.researchPage
    [:div.select-wrap
     [lead-time-filters]
     [product-type-filters]]])
@@ -154,46 +166,52 @@
      [:ul.product-list
       (map essential-product-summary products)]]))
 
+
+(defn- setup-popup []
+  (.. (js/$ ".popup-modal")
+      (magnificPopup #js {:type "inline"
+                          :midClick true
+                          :showCloseBtn false})))
+
 (defn filtered-products-view []
-  (let [setup-popup #(.. (js/$ ".popup-modal")
-                         (magnificPopup #js {:type "inline"
-                                             :midClick true
-                                             :showCloseBtn false}))]
-    (reagent/create-class
-     {:reagent-render
-      (fn []
-        (let [filtered-seating-products (<sub [::subs/filtered-seating-products])
-              filtered-table-products (<sub [::subs/filtered-table-products])
-              filtered-storage-products (<sub [::subs/filtered-storage-products])
-              filtered-power-products (<sub [::subs/filtered-power-products])
-              filtered-work-products (<sub [::subs/filtered-work-products])
-              filtered-screen-products (<sub [::subs/filtered-screen-products])
-              no-results? (empty? (select [ALL :products ALL] (concat filtered-seating-products
-                                                                      filtered-table-products
-                                                                      filtered-storage-products
-                                                                      filtered-power-products
-                                                                      filtered-work-products
-                                                                      filtered-screen-products)))]
-          [:div.right-product-col
-           (if no-results?
-             [:div
-              [:h3.text-center "No results found"]])
+  (reagent/create-class
+   {:display-name "filtered-products-view"
 
-           [:div.right-product-content
-            [:div.filter-btn-wrap
-             [:span.filter_btn_left "FILTERS"]]
-            (map filtered-product-type-section filtered-seating-products)
-            (map filtered-product-type-section filtered-table-products)
-            (map filtered-product-type-section filtered-storage-products)
-            (map filtered-product-type-section filtered-power-products)
-            (map filtered-product-type-section filtered-work-products)
-            (map filtered-product-type-section filtered-screen-products)]]))
+    :reagent-render (fn []
+                      (let [filtered-seating-products (<sub [::subs/filtered-seating-products])
+                            filtered-table-products (<sub [::subs/filtered-table-products])
+                            filtered-storage-products (<sub [::subs/filtered-storage-products])
+                            filtered-power-products (<sub [::subs/filtered-power-products])
+                            filtered-work-products (<sub [::subs/filtered-work-products])
+                            filtered-screen-products (<sub [::subs/filtered-screen-products])
+                            loading-all-products? (<sub [::subs/loading-all-products])
+                            no-results? (empty? (select [ALL :products ALL] (concat filtered-seating-products
+                                                                                    filtered-table-products
+                                                                                    filtered-storage-products
+                                                                                    filtered-power-products
+                                                                                    filtered-work-products
+                                                                                    filtered-screen-products)))]
+                        [:div.right-product-col
+                         [:div.right-product-content
+                          [:div.filter-btn-wrap
+                           [:span.filter_btn_left {:on-click open-filter-slideout}
+                            "FILTERS"]]
+                          (if loading-all-products?
+                            [:div
+                             [:h3.text-center "Loading..."]]
+                            (if no-results?
+                              [:div
+                               [:h3.text-center "No results found"]]))
+                          (map filtered-product-type-section filtered-seating-products)
+                          (map filtered-product-type-section filtered-table-products)
+                          (map filtered-product-type-section filtered-storage-products)
+                          (map filtered-product-type-section filtered-power-products)
+                          (map filtered-product-type-section filtered-work-products)
+                          (map filtered-product-type-section filtered-screen-products)]]))
 
-      :display-name "filtered-products-view"
+    :component-did-mount setup-popup
 
-      :component-did-mount setup-popup
-
-      :component-did-update setup-popup})))
+    :component-did-update setup-popup}))
 
 #_(defn old-modal-popup []
   (let [selected-product (<sub [::subs/selected-product])
@@ -761,5 +779,3 @@
      (str @pointer)]
     (finally
       (.removeEventListener js/document "mousemove" handler))))
-
-
