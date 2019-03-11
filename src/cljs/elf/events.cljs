@@ -1,6 +1,7 @@
 (ns elf.events
   (:require [re-frame.core :refer [reg-event-db] :as re-frame]
             [elf.db :as db]
+            [elf.config :as config]
             [day8.re-frame.tracing :refer-macros [fn-traced defn-traced]]
             [com.rpl.specter :refer [ALL multi-path walker] :refer-macros [select select-first setval transform] :as spctr]
             [ajax.core :as ajax]
@@ -27,9 +28,10 @@
    (.log js/console "Using db/default-db.")
    db/default-db))
 
-(defn- category-products [db products selector category-key]
-  (let [cat-products (filter #(not (empty? (category-key %))) products)
-        selected-filter (selector db)
+(defn- category-products [db products selector]
+  (let [selected-filter (selector db)
+        category-key (:product-category selected-filter)
+        cat-products (filter #(not (empty? (category-key %))) products)
         label (:description selected-filter)
         no-product-filters-selected? (not (some true? (select (multi-path [:ELFSeatingSelector :items ALL :value]
                                                                           [:ELFTableSelector :items ALL :value]
@@ -40,7 +42,7 @@
         categories (if no-product-filters-selected?
                      (select [:items ALL :label #(not= "All" %)] selected-filter)
                      (set (select [:items ALL #(true? (:value %)) :label] selected-filter)))]
-    
+
     (for [category categories]
       {:product-category category
        :label (str label " / " category)
@@ -48,12 +50,12 @@
 
 (defn- filter-category-products [db products]
   (assoc db
-         :filtered-seating-products (category-products db products :ELFSeatingSelector :seatingCategories)
-         :filtered-table-products (category-products db products :ELFTableSelector :tableCategories)
-         :filtered-storage-products (category-products db products :ELFStorageSelector :storageCategories)
-         :filtered-power-products (category-products db products :ELFPowerAndDataSelector :powerCategories)
-         :filtered-work-products (category-products db products :ELFWorkToolsSelector :workToolsCategories)
-         :filtered-screen-products (category-products db products :ELFScreensAndBoardsSelector :screensCategories)))
+         :filtered-seating-products (category-products db products :ELFSeatingSelector)
+         :filtered-table-products (category-products db products :ELFTableSelector)
+         :filtered-storage-products (category-products db products :ELFStorageSelector)
+         :filtered-power-products (category-products db products :ELFPowerAndDataSelector)
+         :filtered-work-products (category-products db products :ELFWorkToolsSelector)
+         :filtered-screen-products (category-products db products :ELFScreensAndBoardsSelector)))
 
 (reg-event-db
  ::set-all-products
@@ -155,23 +157,30 @@
 
 
 (defn- load-all-products []
-  (let [all-products-url "https://knlprdwcsmgt.knoll.com/cs/Satellite?pagename=Knoll/Common/Utils/EssentialsPopupProductsJSON"
+  (let [baseURL (if config/debug?
+                  "http://knlprdwcsmgt1.knoll.com"
+                  (str (.. js/window -location -origin)))
+        all-products-url (str baseURL "/cs/Satellite?pagename=Knoll/Common/Utils/EssentialsPopupProductsJSON")
         ;all-products-url "http://localhost:3449/all-products.json"
         success-handler (fn [resp]
                           (re-frame/dispatch [::set-all-products (:all-products resp)]))
         error-handler (fn [{:keys [status status-text]}]
                         (.log js/console (str "Ajax request to get all-products failed: " status " " status-text))
                         (re-frame/dispatch [::use-default-db]))]
+
     (ajax/GET all-products-url {:handler success-handler :error-handler error-handler :response-format :json :keywords? true})))
 
 (defn- load-filter-options [selector]
-  (let [presentationObjectItemsURL (str "https://knlprdwcsmgt.knoll.com/cs/Satellite?pagename=Knoll/Common/Utils/PresentationObjectItemsJSON"
-                                        "&presentationObject=" selector)
+  (let [baseURL (if config/debug?
+                  "http://knlprdwcsmgt1.knoll.com"
+                  (str (.. js/window -location -origin) ))
+        presentationObjectItemsURL (str baseURL "/cs/Satellite?pagename=Knoll/Common/Utils/PresentationObjectItemsJSON&presentationObject=" selector)
         success-handler (fn [resp]
                           (re-frame/dispatch [::set-filter-options selector (:presentationObjectItems resp)]))
       
         error-handler (fn [{:keys [status status-text]}]
                         (.log js/console (str "Ajax request failed: " status " " status-text)))]
+
     (ajax/GET presentationObjectItemsURL {:handler success-handler
                                           :error-handler error-handler
                                           :response-format :json
