@@ -155,7 +155,7 @@
 
 
 (defn- load-all-products []
-  (let [all-products-url "http://knlprdwcsmgt1.knoll.com/cs/Satellite?pagename=Knoll/Common/Utils/EssentialsPopupProductsJSON"
+  (let [all-products-url "https://knlprdwcsmgt.knoll.com/cs/Satellite?pagename=Knoll/Common/Utils/EssentialsPopupProductsJSON"
         ;all-products-url "http://localhost:3449/all-products.json"
         success-handler (fn [resp]
                           (re-frame/dispatch [::set-all-products (:all-products resp)]))
@@ -165,7 +165,7 @@
     (ajax/GET all-products-url {:handler success-handler :error-handler error-handler :response-format :json :keywords? true})))
 
 (defn- load-filter-options [selector]
-  (let [presentationObjectItemsURL (str "http://knlprdwcsmgt1.knoll.com/cs/Satellite?pagename=Knoll/Common/Utils/PresentationObjectItemsJSON"
+  (let [presentationObjectItemsURL (str "https://knlprdwcsmgt.knoll.com/cs/Satellite?pagename=Knoll/Common/Utils/PresentationObjectItemsJSON"
                                         "&presentationObject=" selector)
         success-handler (fn [resp]
                           (re-frame/dispatch [::set-filter-options selector (:presentationObjectItems resp)]))

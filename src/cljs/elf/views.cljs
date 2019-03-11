@@ -13,26 +13,19 @@
 (defn main-panel []
   (let [name (<sub [::subs/name])]
     [:<> ; this allows sibling elements without needing to wrap in a separate [:div]
-     [:section.body_container
-      #_[:div
-         [:h1 name]
-         [:p "(built using the re-frame app framework.)"]
-         [mouse-pos-comp]
-         [:hr]]
-      [:div.allbody-wrapper
-       [:section#essentials-product-search
-        [:section.wrapper
-         [:section#essentials_search
-          [:article.left
-           [:h2 "Knoll Essentials Product Index"]
-           [:p "Explore the wide variety of high-performance products available through Knoll Essentials, including a broad range of materials and finishes to reflect your brand and culture. Most of these products can be ready to install in just four weeks."]]]]]
-
-       [:section.wrapper
-        [:section#page
-         [:div {:class "product-col clearfix"}
-          [filters-view]
-          [filtered-products-view]]]]]
-      [:div.veil]]
+     #_[:section.body_container]
+     #_[:div
+          [:h1 name]
+          [:p "(built using the re-frame app framework.)"]
+          [mouse-pos-comp]
+          [:hr]]
+     #_[:div.allbody-wrapper]
+     [:section.wrapper
+      [:section#page
+       [:div {:class "product-col clearfix"}
+        [filters-view]
+        [filtered-products-view]]]]
+     [:div.veil]
      [modal-popup]]))
 
 
