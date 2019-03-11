@@ -31,7 +31,7 @@
 (defn- category-products [db products selector]
   (let [selected-filter (selector db)
         category-key (:product-category selected-filter)
-        cat-products (filter #(not (empty? (category-key %))) products)
+        cat-products (sort-by :product-name #(compare (str/lower-case %1) (str/lower-case %2)) (filter #(not (empty? (category-key %))) products))
         label (:description selected-filter)
         no-product-filters-selected? (not (some true? (select (multi-path [:ELFSeatingSelector :items ALL :value]
                                                                           [:ELFTableSelector :items ALL :value]
