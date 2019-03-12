@@ -1,6 +1,5 @@
 (defproject elf "0.1.0-SNAPSHOT"
   :dependencies [[org.clojure/clojure "1.8.0"]
-                 #_[org.clojure/clojurescript "1.10.439"]
                  [org.clojure/clojurescript "1.10.516"]
                  [reagent "0.8.1"]
                  [re-frame "0.10.6"]
@@ -24,7 +23,6 @@
                              [day8.re-frame/re-frame-10x "0.3.6"]
                              [day8.re-frame/tracing "0.5.1"]
                              [figwheel-sidecar "0.5.18"]
-                             #_[cider/piggieback "0.3.10"]
                              [cider/piggieback "0.4.0"]]
 
               :plugins      [[lein-figwheel "0.5.18"]]}
