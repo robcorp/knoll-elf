@@ -171,7 +171,8 @@
    {:display-name "filtered-products-view"
 
     :reagent-render (fn []
-                      (let [filtered-seating-products (<sub [::subs/filtered-seating-products])
+                      (let [all-products (<sub [::subs/all-products])
+                            filtered-seating-products (<sub [::subs/filtered-seating-products])
                             filtered-table-products (<sub [::subs/filtered-table-products])
                             filtered-storage-products (<sub [::subs/filtered-storage-products])
                             filtered-power-products (<sub [::subs/filtered-power-products])
@@ -184,23 +185,24 @@
                                                                                     filtered-power-products
                                                                                     filtered-work-products
                                                                                     filtered-screen-products)))]
+                        #_(println "count(all-products): " (count all-products))
                         [:div.right-product-col
                          [:div.right-product-content
                           [:div.filter-btn-wrap
                            [:span.filter_btn_left {:on-click open-filter-slideout}
                             "FILTERS"]]
-                          (if loading-all-products?
-                            [:div
-                             [:h3.text-center "Loading..."]]
-                            (if no-results?
+                          (if (empty? all-products) ;loading-all-products?
                               [:div
-                               [:h3.text-center "No results found"]]))
-                          (map filtered-product-type-section filtered-seating-products)
-                          (map filtered-product-type-section filtered-table-products)
-                          (map filtered-product-type-section filtered-storage-products)
-                          (map filtered-product-type-section filtered-power-products)
-                          (map filtered-product-type-section filtered-work-products)
-                          (map filtered-product-type-section filtered-screen-products)]]))
+                               [:h3.text-center "Loading..."]]
+                              (if no-results?
+                                [:div [:h3.text-center "No results found"]]
+                                [:<>
+                                 (map filtered-product-type-section filtered-seating-products)
+                                 (map filtered-product-type-section filtered-table-products)
+                                 (map filtered-product-type-section filtered-storage-products)
+                                 (map filtered-product-type-section filtered-power-products)
+                                 (map filtered-product-type-section filtered-work-products)
+                                 (map filtered-product-type-section filtered-screen-products)]))]]))
 
     :component-did-mount setup-popup
 
