@@ -1,11 +1,12 @@
 (ns elf.db
-  (:require [elf.datadefs :as dd]))
+  (:require [elf.datadefs :as dd]
+            [cljs.reader :as rdr]))
 
 (def default-db
   {:name "Knoll Essentials Lead Times & Finishes"
    :loading-all-products true
-   :all-products (cljs.reader/read-string (.getItem js/localStorage "all-products"))
-   :filtered-products (cljs.reader/read-string (.getItem js/localStorage "all-products"))
+   :all-products (rdr/read-string (.getItem js/localStorage "all-products"))
+   :filtered-products (rdr/read-string (.getItem js/localStorage "all-products"))
    :filtered-seating-products {}
    :filtered-table-products {}
    :filtered-storage-products {}
@@ -14,7 +15,7 @@
    :filtered-screen-products {}
    :selected-product nil
    :lead-time-filters dd/lead-time-filters
-   :ELFSeatingSelector (if-let [from-local-storage (cljs.reader/read-string (.getItem js.localStorage "ELFSeatingSelector"))]
+   :ELFSeatingSelector (if-let [from-local-storage (rdr/read-string (.getItem js.localStorage "ELFSeatingSelector"))]
                          from-local-storage
                          {:name "ELFSeatingSelector"
                           :description "Seating-"
@@ -25,7 +26,7 @@
                                   {:label "Lounge" :value false}
                                   {:label "Stools" :value false}
                                   {:label "Outdoor" :value false}]})
-   :ELFTableSelector (if-let [from-local-storage (cljs.reader/read-string (.getItem js.localStorage "ELFTableSelector"))]
+   :ELFTableSelector (if-let [from-local-storage (rdr/read-string (.getItem js.localStorage "ELFTableSelector"))]
                        from-local-storage
                        {:name "ELFTableSelector"
                         :description "Tables-"
@@ -38,7 +39,7 @@
                                 {:label "Training" :value false}
                                 {:label "Side & Coffee" :value false}
                                 {:label "Outdoor" :value false}]})
-   :ELFStorageSelector (if-let [from-local-storage (cljs.reader/read-string (.getItem js.localStorage "ELFStorageSelector"))]
+   :ELFStorageSelector (if-let [from-local-storage (rdr/read-string (.getItem js.localStorage "ELFStorageSelector"))]
                          from-local-storage
                          {:name "ELFStorageSelector"
                           :description "Storage-"
@@ -50,7 +51,7 @@
                                   {:label "Lockers and Wardrobes" :value false}
                                   {:label "Towers" :value false}
                                   {:label "Mounted Storage" :value false}]})
-   :ELFPowerAndDataSelector (if-let [from-local-storage (cljs.reader/read-string (.getItem js.localStorage "ELFPowerAndDataSelector"))]
+   :ELFPowerAndDataSelector (if-let [from-local-storage (rdr/read-string (.getItem js.localStorage "ELFPowerAndDataSelector"))]
                               from-local-storage
                               {:name "ELFPowerAndDataSelector"
                                :description "Enhanced Power And Data-"
@@ -58,7 +59,7 @@
                                :items [{:label "All" :value false}
                                        {:label "Power & Technology Distribution" :value false}
                                        {:label "Interior Architecture" :value false}]})
-   :ELFWorkToolsSelector (if-let [from-local-storage (cljs.reader/read-string (.getItem js.localStorage "ELFWorkToolsSelector"))]
+   :ELFWorkToolsSelector (if-let [from-local-storage (rdr/read-string (.getItem js.localStorage "ELFWorkToolsSelector"))]
                            from-local-storage
                            {:name "ELFWorkToolsSelector"
                             :description "Accessories & Work Tools-"
@@ -67,7 +68,7 @@
                                     {:label "Lighting" :value false}
                                     {:label "Technology Support" :value false}
                                     {:label "Desktop Management" :value false}]})
-   :ELFScreensAndBoardsSelector (if-let [from-local-storage (cljs.reader/read-string (.getItem js.localStorage "ELFScreensAndBoardsSelector"))]
+   :ELFScreensAndBoardsSelector (if-let [from-local-storage (rdr/read-string (.getItem js.localStorage "ELFScreensAndBoardsSelector"))]
                                   from-local-storage
                                   {:name "ELFScreensAndBoardsSelector"
                                    :description "Screens & Communication Boards-"
