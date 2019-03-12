@@ -8,19 +8,20 @@
             [clojure.string :as str]))
 
 
-(declare load-all-products load-filter-options)
+(declare load-all-products load-filter-options filter-category-products)
 
 (reg-event-db
  ::initialize-db
  (fn-traced [_ _]
-   (load-all-products)
    (load-filter-options "ELFSeatingSelector")
    (load-filter-options "ELFTableSelector")
    (load-filter-options "ELFStorageSelector")
    (load-filter-options "ELFPowerAndDataSelector")
    (load-filter-options "ELFWorkToolsSelector")
    (load-filter-options "ELFScreensAndBoardsSelector")
-   db/default-db))
+   (load-all-products)
+   (let [db db/default-db]
+     (filter-category-products db (:filtered-products db)))))
 
 (reg-event-db
  ::use-default-db
@@ -62,6 +63,7 @@
 (reg-event-db
  ::set-all-products
  (fn-traced [db [_ products]]
+   (.setItem js/localStorage "all-products" products)
    (-> db
        (assoc :loading-all-products false
               :all-products products
@@ -74,8 +76,10 @@
    (let [selector-key (keyword selector)
          product-category (select-first [selector-key :product-category] db/default-db)
          desc (:description resp)
-         items (setval [spctr/BEFORE-ELEM] "All" (:items resp))]
-     (assoc db selector-key {:name selector :description desc :product-category product-category :items (mapv (fn [i] {:label i :value false}) items)}))))
+         items (setval [spctr/BEFORE-ELEM] "All" (:items resp))
+         filter-options {:name selector :description desc :product-category product-category :items (mapv (fn [i] {:label i :value false}) items)}]
+     (.setItem js/localStorage selector filter-options)
+     (assoc db selector-key filter-options))))
 
 #_(reg-event-db
  ::set-filtered-products
