@@ -13,7 +13,7 @@
    :filtered-power-products {}
    :filtered-work-products {}
    :filtered-screen-products {}
-   :selected-product nil
+   :selected-epp-id nil
    :lead-time-filters dd/lead-time-filters
    :ELFSeatingSelector (if-let [from-local-storage (rdr/read-string (.getItem js.localStorage "ELFSeatingSelector"))]
                          from-local-storage
