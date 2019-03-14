@@ -760,7 +760,12 @@
                 [:li [:div.swatch-div [:img {:src "/images/upholstery-3.jpg" :data-no-retina ""}]] [:p "Textile 3"]]
                 [:li [:div.swatch-div [:img {:src "/images/upholstery-4.jpg" :data-no-retina ""}]] [:p "Textile 4"]]
                 [:li [:div.swatch-div [:img {:src "/images/upholstery-7.jpg" :data-no-retina ""}]] [:p "Textile 7"]]
-                [:li [:div.swatch-div [:img {:src "/images/upholstery-8.jpg" :data-no-retina ""}]] [:p "Textile 8"]]]]]]]]]]]]]]))
+                [:li [:div.swatch-div [:img {:src "/images/upholstery-8.jpg" :data-no-retina ""}]] [:p "Textile 8"]]]]]]]]]]]
+       [:div.owl-controls
+        [:div.owl-nav
+         [:div.owl-prev {:on-click #(evt> [::events/select-previous-product])} "prev"]
+         [:div.owl-next {:on-click #(evt> [::events/select-next-product])} "next"]]
+        [:div.owl-dots {:style {:display "none"}}]]]]]))
 
 
 (defn mouse-pos-comp []

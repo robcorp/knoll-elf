@@ -214,3 +214,13 @@
         visible-prods (visible-product-ids db)
         i (.indexOf visible-prods current-prod)]
     (visible-prods (max (dec i) 0))))
+
+(reg-event-db
+ ::select-previous-product
+ (fn [db _]
+   (assoc db :selected-epp-id (previous-visible-prod-id db))))
+
+(reg-event-db
+ ::select-next-product
+ (fn [db _]
+   (assoc db :selected-epp-id (next-visible-prod-id db))))
