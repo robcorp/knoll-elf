@@ -19,7 +19,7 @@
                          from-local-storage
                          {:name "ELFSeatingSelector"
                           :description "Seating-"
-                          :product-category :seatingCategories
+                          :product-category :seatingCats
                           :items [{:label "All" :value false}
                                   {:label "Work" :value false}
                                   {:label "Side and Multi-Use" :value false}
@@ -30,7 +30,7 @@
                        from-local-storage
                        {:name "ELFTableSelector"
                         :description "Tables-"
-                        :product-category :tableCategories
+                        :product-category :tableCats
                         :items [{:label "All" :value false}
                                 {:label "Meeting & Conference" :value false}
                                 {:label "Desks & Benching" :value false}
@@ -43,7 +43,7 @@
                          from-local-storage
                          {:name "ELFStorageSelector"
                           :description "Storage-"
-                          :product-category :storageCategories
+                          :product-category :storageCats
                           :items [{:label "All" :value false}
                                   {:label "Pedestals" :value false}
                                   {:label "Doublewide Pedestals" :value false}
@@ -55,7 +55,7 @@
                               from-local-storage
                               {:name "ELFPowerAndDataSelector"
                                :description "Enhanced Power And Data-"
-                               :product-category :powerCategories
+                               :product-category :powerCats
                                :items [{:label "All" :value false}
                                        {:label "Power & Technology Distribution" :value false}
                                        {:label "Interior Architecture" :value false}]})
@@ -63,7 +63,7 @@
                            from-local-storage
                            {:name "ELFWorkToolsSelector"
                             :description "Accessories & Work Tools-"
-                            :product-category :workToolsCategories
+                            :product-category :workCats
                             :items [{:label "All" :value false}
                                     {:label "Lighting" :value false}
                                     {:label "Technology Support" :value false}
@@ -72,7 +72,7 @@
                                   from-local-storage
                                   {:name "ELFScreensAndBoardsSelector"
                                    :description "Screens & Communication Boards-"
-                                   :product-category :screensCategories
+                                   :product-category :screensCats
                                    :items [{:label "All" :value false}
                                            {:label "Screens & Dividers" :value false}
                                            {:label "Communication Boards" :value false}]})})

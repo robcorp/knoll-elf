@@ -29,14 +29,14 @@
      [modal-popup]]))
 
 
-(defn essential-product-summary [{:keys [epp-id title product-name lead-times thumb-img-src]}]
+(defn essential-product-summary [{:keys [epp-id title product-name lead-times thumb-img]}]
   (let [lead-times-set (set lead-times)]
     ^{:key epp-id}
     [:li
      [:a.popup-modal {:href "#essentials-modal"
                       :on-click #(re-frame/dispatch [::events/product-selected epp-id])}
       [:div.product-col-image
-       [:img {:src (str "https://knlprdwcsmgt.knoll.com" thumb-img-src) :data-no-retina ""}]]
+       [:img {:src (str "https://knlprdwcsmgt.knoll.com" thumb-img) :data-no-retina ""}]]
       [:ul.lead-time-status
        (if (lead-times-set "quick")
          [:li.quick-lead-active])
@@ -572,7 +572,7 @@
         [:div.essentials-modal-content
          [:div.essentials-product-img
           [:div.essentials-product-img-wrap
-           [:img {:src (str "https://knlprdwcsmgt.knoll.com" (:hero1-img-src selected-product)) :data-no-retina ""}]]
+           [:img {:src (str "https://knlprdwcsmgt.knoll.com" (:hero1-img selected-product)) :data-no-retina ""}]]
           [:div.essentials-product-img-detail
            [:h2 (:product-name selected-product)]
            [:div {:dangerouslySetInnerHTML {:__html (:short-text selected-product)}}]]]
