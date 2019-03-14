@@ -4,7 +4,6 @@
 
 (def default-db
   {:name "Knoll Essentials Lead Times & Finishes"
-   :loading-all-products true
    :all-products (rdr/read-string (.getItem js/localStorage "all-products"))
    :filtered-products (rdr/read-string (.getItem js/localStorage "all-products"))
    :filtered-seating-products {}

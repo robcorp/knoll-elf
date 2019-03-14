@@ -65,8 +65,7 @@
  (fn-traced [db [_ products]]
    (.setItem js/localStorage "all-products" products)
    (-> db
-       (assoc :loading-all-products false
-              :all-products products
+       (assoc :all-products products
               :filtered-products products)
        (filter-category-products products))))
 

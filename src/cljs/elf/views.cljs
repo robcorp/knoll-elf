@@ -178,7 +178,6 @@
                             filtered-power-products (<sub [::subs/filtered-power-products])
                             filtered-work-products (<sub [::subs/filtered-work-products])
                             filtered-screen-products (<sub [::subs/filtered-screen-products])
-                            loading-all-products? (<sub [::subs/loading-all-products])
                             no-results? (empty? (select [ALL :products ALL] (concat filtered-seating-products
                                                                                     filtered-table-products
                                                                                     filtered-storage-products
@@ -191,7 +190,7 @@
                           [:div.filter-btn-wrap
                            [:span.filter_btn_left {:on-click open-filter-slideout}
                             "FILTERS"]]
-                          (if (empty? all-products) ;loading-all-products?
+                          (if (empty? all-products)
                               [:div
                                [:h3.text-center "Loading..."]]
                               (if no-results?
