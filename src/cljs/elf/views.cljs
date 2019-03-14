@@ -7,6 +7,7 @@
    [com.rpl.specter :refer [ALL multi-path walker] :refer-macros [select select-first] :as spctr]))
 
 (def <sub (comp deref re-frame/subscribe)) ; permits using (<sub [::subs/name]) rather than @(subscribe [::subs/name])
+(def evt> re-frame/dispatch)
 
 (declare filters-view filtered-products-view modal-popup mouse-pos-comp)
 
@@ -34,7 +35,7 @@
     ^{:key epp-id}
     [:li
      [:a.popup-modal {:href "#essentials-modal"
-                      :on-click #(re-frame/dispatch [::events/product-selected epp-id])}
+                      :on-click #(evt> [::events/product-selected epp-id])}
       [:div.product-col-image
        [:img {:src (str "https://knlprdwcsmgt.knoll.com" thumb-img) :data-no-retina ""}]]
       [:ul.lead-time-status
@@ -53,7 +54,7 @@
             :class "check-in"
             :checked value
             :name "lead-times-radio"
-            :on-change #(re-frame/dispatch [::events/lead-time-filter-radio-button-clicked lead-time])}]
+            :on-change #(evt> [::events/lead-time-filter-radio-button-clicked lead-time])}]
    [:label.active {:for id} label]])
 
 ;;; render the Lead Time: filters 
@@ -92,7 +93,7 @@
                                           :id id
                                           :checked value
                                           :class (if (available-categories label) "" "disable-filter")
-                                          :on-change #(re-frame/dispatch [::events/product-type-filter-checkbox-clicked id])}]
+                                          :on-change #(evt> [::events/product-type-filter-checkbox-clicked id])}]
                                  [:label {:for id} (if (= "All" label)
                                                      (str label " " description)
                                                      label)]]))]]))
@@ -133,7 +134,7 @@
       [:h3 "Filter By"]
       [:p {:class "reset-filter-link"
            :style {:display (if show-reset? "block" "none")}
-           :on-click #(re-frame/dispatch [::events/reset-product-type-filters])}
+           :on-click #(evt> [::events/reset-product-type-filters])}
        "Reset"]]
      [product-type-filter-group seating-filter-options filtered-prods]
      [product-type-filter-group tables-filter-options filtered-prods]
