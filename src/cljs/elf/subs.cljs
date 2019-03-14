@@ -56,8 +56,8 @@
 (reg-sub
  ::selected-product
  (fn [db]
-   (let [selected-product-id (:selected-product db)]
-     (select-first [:all-products ALL #(= selected-product-id (:product-id %))] db))))
+   (let [selected-epp-id (:selected-epp-id db)]
+     (select-first [:all-products ALL #(= selected-epp-id (:epp-id %))] db))))
 
 (reg-sub
  ::lead-time-filters

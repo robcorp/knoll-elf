@@ -29,12 +29,12 @@
      [modal-popup]]))
 
 
-(defn essential-product-summary [{:keys [product-id product-name lead-times thumb-img-src]}]
+(defn essential-product-summary [{:keys [epp-id title product-name lead-times thumb-img-src]}]
   (let [lead-times-set (set lead-times)]
-    ^{:key product-id}
+    ^{:key epp-id}
     [:li
      [:a.popup-modal {:href "#essentials-modal"
-                      :on-click #(re-frame/dispatch [::events/product-selected product-id])}
+                      :on-click #(re-frame/dispatch [::events/product-selected epp-id])}
       [:div.product-col-image
        [:img {:src (str "https://knlprdwcsmgt.knoll.com" thumb-img-src) :data-no-retina ""}]]
       [:ul.lead-time-status
@@ -44,7 +44,7 @@
          [:li.three-ship-active])
        (if (lead-times-set "std")
          [:li.standard-ship-active])]
-      [:p product-name]]]))
+      [:p title]]]))
 
 (defn lead-time-filter-radio-button [{:keys [li-id li-class id lead-time label value]} filter]
   [:li {:key id :id li-id :class (str "lead-time-list-types " li-class)}
