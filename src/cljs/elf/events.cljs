@@ -32,7 +32,7 @@
 (defn- category-products [db products selector]
   (let [selected-filter (selector db)
         category-key (:product-category selected-filter)
-        cat-products (sort-by :product-name
+        cat-products (sort-by :title
                               #(compare (str/lower-case %1) (str/lower-case %2))
                               (filter #(not (empty? (category-key %))) products))
         label (:description selected-filter)
@@ -158,8 +158,8 @@
 
 (reg-event-db
  ::product-selected
- (fn-traced [db [_ product-id] event]
-   (assoc db :selected-product product-id)))
+ (fn-traced [db [_ epp-id] event]
+   (assoc db :selected-epp-id epp-id)))
 
 
 (defn- load-all-products []
@@ -197,21 +197,21 @@
   "Returns a vector of product-ids of all the currently visible products based on the current filter selections.
   This is useful for cycling through products on the modal popup."
   [db]
-  (select (multi-path [:filtered-seating-products ALL :products ALL :product-id]
-                      [:filtered-table-products ALL :products ALL :product-id]
-                      [:filtered-storage-products ALL :products ALL :product-id]
-                      [:filtered-power-products ALL :products ALL :product-id]
-                      [:filtered-work-products ALL :products ALL :product-id]
-                      [:filtered-screen-products ALL :products ALL :product-id]) db))
+  (select (multi-path [:filtered-seating-products ALL :products ALL :epp-id]
+                      [:filtered-table-products ALL :products ALL :epp-id]
+                      [:filtered-storage-products ALL :products ALL :epp-id]
+                      [:filtered-power-products ALL :products ALL :epp-id]
+                      [:filtered-work-products ALL :products ALL :epp-id]
+                      [:filtered-screen-products ALL :products ALL :epp-id]) db))
 
 (defn- next-visible-prod-id [db]
-  (let [current-prod (:selected-product db)
+  (let [current-prod (:selected-epp-id db)
         visible-prods (visible-product-ids db)
         i (.indexOf visible-prods current-prod)]
     (visible-prods (min (inc i) (dec (count visible-prods))))))
 
 (defn- previous-visible-prod-id [db]
-  (let [current-prod (:selected-product db)
+  (let [current-prod (:selected-epp-id db)
         visible-prods (visible-product-ids db)
         i (.indexOf visible-prods current-prod)]
     (visible-prods (max (dec i) 0))))
