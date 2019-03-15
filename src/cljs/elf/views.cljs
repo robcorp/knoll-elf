@@ -2,6 +2,7 @@
   (:require
    [reagent.core :as reagent]
    [re-frame.core :as re-frame]
+   [elf.config :as config]
    [elf.events :as events]
    [elf.subs :as subs]
    [com.rpl.specter :refer [ALL multi-path walker] :refer-macros [select select-first] :as spctr]))
@@ -14,12 +15,13 @@
 (defn main-panel []
   (let [name (<sub [::subs/name])]
     [:<> ; this allows sibling elements without needing to wrap in a separate [:div]
-     #_[:section.body_container]
-     #_[:div
+     (when config/debug?
+       [:section.body_container]
+       [:div
           [:h1 name]
           [:p "(built using the re-frame app framework.)"]
           [mouse-pos-comp]
-          [:hr]]
+          [:hr]])
      #_[:div.allbody-wrapper]
      [:section.wrapper
       [:section#page
@@ -30,12 +32,11 @@
      [modal-popup]]))
 
 
-(defn essential-product-summary [{:keys [epp-id title product-name lead-times thumb-img]}]
+(defn essential-product-summary [label {:keys [epp-id title product-name lead-times thumb-img]}]
   (let [lead-times-set (set lead-times)]
-    ^{:key epp-id}
     [:li
      [:a.popup-modal {:href "#essentials-modal"
-                      :on-click #(evt> [::events/product-selected epp-id])}
+                      :on-click #(evt> [::events/product-selected label epp-id])}
       [:div.product-col-image
        [:img {:src (str "https://knlprdwcsmgt.knoll.com" thumb-img) :data-no-retina ""}]]
       [:ul.lead-time-status
@@ -158,34 +159,33 @@
     [:div.product-list
      [:h3.titleGreyborder (str label " (" (count products) ")")]
      [:ul.product-list
-      (map essential-product-summary products)]]))
+      (for [prod products]
+        (let [epp-id (:epp-id prod)]
+          ^{:key epp-id}
+          [essential-product-summary label prod]))]]))
 
 
 (defn- setup-popup []
-  (.. (js/$ ".popup-modal")
+  #_(.. (js/$ ".popup-modal")
       (magnificPopup #js {:type "inline"
                           :midClick true
                           :showCloseBtn false})))
 
 (defn filtered-products-view []
-  (reagent/create-class
-   {:display-name "filtered-products-view"
+  (let [all-products (<sub [::subs/all-products])
+                            filtered-seating-prods (<sub [::subs/filtered-seating-products])
+                            filtered-table-prods (<sub [::subs/filtered-table-products])
+                            filtered-storage-prods (<sub [::subs/filtered-storage-products])
+                            filtered-power-prods (<sub [::subs/filtered-power-products])
+                            filtered-work-prods (<sub [::subs/filtered-work-products])
+                            filtered-screen-prods (<sub [::subs/filtered-screen-products])
+                            no-results? (empty? (select [ALL :products ALL] (concat filtered-seating-prods
+                                                                                    filtered-table-prods
+                                                                                    filtered-storage-prods
+                                                                                    filtered-power-prods
+                                                                                    filtered-work-prods
+                                                                                    filtered-screen-prods)))]
 
-    :reagent-render (fn []
-                      (let [all-products (<sub [::subs/all-products])
-                            filtered-seating-products (<sub [::subs/filtered-seating-products])
-                            filtered-table-products (<sub [::subs/filtered-table-products])
-                            filtered-storage-products (<sub [::subs/filtered-storage-products])
-                            filtered-power-products (<sub [::subs/filtered-power-products])
-                            filtered-work-products (<sub [::subs/filtered-work-products])
-                            filtered-screen-products (<sub [::subs/filtered-screen-products])
-                            no-results? (empty? (select [ALL :products ALL] (concat filtered-seating-products
-                                                                                    filtered-table-products
-                                                                                    filtered-storage-products
-                                                                                    filtered-power-products
-                                                                                    filtered-work-products
-                                                                                    filtered-screen-products)))]
-                        #_(println "count(all-products): " (count all-products))
                         [:div.right-product-col
                          [:div.right-product-content
                           [:div.filter-btn-wrap
@@ -197,16 +197,12 @@
                               (if no-results?
                                 [:div [:h3.text-center "No results found"]]
                                 [:<>
-                                 (map filtered-product-type-section filtered-seating-products)
-                                 (map filtered-product-type-section filtered-table-products)
-                                 (map filtered-product-type-section filtered-storage-products)
-                                 (map filtered-product-type-section filtered-power-products)
-                                 (map filtered-product-type-section filtered-work-products)
-                                 (map filtered-product-type-section filtered-screen-products)]))]]))
-
-    :component-did-mount setup-popup
-
-    :component-did-update setup-popup}))
+                                 (map filtered-product-type-section filtered-seating-prods)
+                                 (map filtered-product-type-section filtered-table-prods)
+                                 (map filtered-product-type-section filtered-storage-prods)
+                                 (map filtered-product-type-section filtered-power-prods)
+                                 (map filtered-product-type-section filtered-work-prods)
+                                 (map filtered-product-type-section filtered-screen-prods)]))]]))
 
 #_(defn old-modal-popup []
   (let [selected-product (<sub [::subs/selected-product])
@@ -567,14 +563,14 @@
            [:li [:a {:href "javascript:;"} "Share"]] [:li [:a {:href "javascript:;"} "PRINT"]]
            [:li [:a {:href "javascript:;"} "View essentials brochure"]]]]]]
        [:a.popup-modal-dismiss {:on-click #(->> js/$ .-magnificPopup .close)} "Dismiss"]]
-      [:div.owl-popup-div
+      [:div.owl-popup-div.owl-carousel.owl-theme.owl-responsive--1.owl-loaded
        [:div.item
         [:div.essentials-modal-content
          [:div.essentials-product-img
           [:div.essentials-product-img-wrap
            [:img {:src (str "https://knlprdwcsmgt.knoll.com" (:hero1-img selected-product)) :data-no-retina ""}]]
           [:div.essentials-product-img-detail
-           [:h2 (:product-name selected-product)]
+           [:h2 (:title selected-product)]
            [:div {:dangerouslySetInnerHTML {:__html (:short-text selected-product)}}]]]
          [:div.essentials-product-tabs
           [:ul.essentials-tab-list

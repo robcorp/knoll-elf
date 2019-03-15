@@ -51,7 +51,7 @@
 (reg-sub
  ::selected-product
  (fn [db]
-   (let [selected-epp-id (:selected-epp-id db)]
+   (let [[_ selected-epp-id] (:selected-epp-id db)]
      (select-first [:all-products ALL #(= selected-epp-id (:epp-id %))] db))))
 
 (reg-sub

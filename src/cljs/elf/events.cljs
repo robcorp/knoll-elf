@@ -3,7 +3,7 @@
             [elf.db :as db]
             [elf.config :as config]
             [day8.re-frame.tracing :refer-macros [fn-traced defn-traced]]
-            [com.rpl.specter :refer [ALL multi-path walker] :refer-macros [select select-first setval transform] :as spctr]
+            [com.rpl.specter :refer [ALL collect-one multi-path walker] :refer-macros [select select-first setval transform] :as spctr]
             [ajax.core :as ajax]
             [clojure.string :as str]))
 
@@ -157,8 +157,12 @@
 
 (reg-event-db
  ::product-selected
- (fn-traced [db [_ epp-id] event]
-   (assoc db :selected-epp-id epp-id)))
+ (fn-traced [db [_ label epp-id] event]
+            (.. js/$ -magnificPopup (open (clj->js {:type "inline"
+                                                    :midClick true
+                                                    :showCloseBtn false
+                                                    :items {:src "#essentials-modal"}})))
+            (assoc db :selected-epp-id [label epp-id])))
 
 
 (defn- load-all-products []
@@ -196,12 +200,12 @@
   "Returns a vector of product-ids of all the currently visible products based on the current filter selections.
   This is useful for cycling through products on the modal popup."
   [db]
-  (select (multi-path [:filtered-seating-products ALL :products ALL :epp-id]
-                      [:filtered-table-products ALL :products ALL :epp-id]
-                      [:filtered-storage-products ALL :products ALL :epp-id]
-                      [:filtered-power-products ALL :products ALL :epp-id]
-                      [:filtered-work-products ALL :products ALL :epp-id]
-                      [:filtered-screen-products ALL :products ALL :epp-id]) db))
+  (select (multi-path [:filtered-seating-products ALL (collect-one :label) :products ALL :epp-id]
+                      [:filtered-table-products ALL (collect-one :label) :products ALL :epp-id]
+                      [:filtered-storage-products ALL (collect-one :label) :products ALL :epp-id]
+                      [:filtered-power-products ALL (collect-one :label) :products ALL :epp-id]
+                      [:filtered-work-products ALL (collect-one :label) :products ALL :epp-id]
+                      [:filtered-screen-products ALL (collect-one :label) :products ALL :epp-id]) db))
 
 (defn- next-visible-prod-id [db]
   (let [current-prod (:selected-epp-id db)
