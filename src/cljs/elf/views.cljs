@@ -38,7 +38,7 @@
      [:a.popup-modal {:href "#essentials-modal"
                       :on-click #(evt> [::events/product-selected label epp-id])}
       [:div.product-col-image
-       [:img {:src (str "https://knlprdwcsmgt.knoll.com" thumb-img) :data-no-retina ""}]]
+       [:img {:src (str "https://knlprdwcsmgt.knoll.com/media" thumb-img) :data-no-retina ""}]]
       [:ul.lead-time-status
        (if (lead-times-set "quick")
          [:li.quick-lead-active])
@@ -569,7 +569,7 @@
           [:div.essentials-modal-content
            [:div.essentials-product-img
             [:div.essentials-product-img-wrap
-             [:img {:src (str "https://knlprdwcsmgt.knoll.com" (:hero1-img selected-product)) :data-no-retina ""}]]
+             [:img {:src (str "https://knlprdwcsmgt.knoll.com/media" (:hero1-img selected-product)) :data-no-retina ""}]]
             [:div.essentials-product-img-detail
              [:h2 (:title selected-product)]
              [:div {:dangerouslySetInnerHTML {:__html (:short-text selected-product)}}]]]
