@@ -1,5 +1,6 @@
 var $ = function(){};
 $.magnificPopup = function(){};
+$.owlCarousel = function(){};
 
 /*
 $.click = function(){};

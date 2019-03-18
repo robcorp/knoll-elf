@@ -158,10 +158,30 @@
 (reg-event-db
  ::product-selected
  (fn-traced [db [_ label epp-id] event]
-            (.. js/$ -magnificPopup (open (clj->js {:type "inline"
-                                                    :midClick true
-                                                    :showCloseBtn false
-                                                    :items {:src "#essentials-modal"}})))
+            (.. js/$ -magnificPopup
+                (open (clj->js {:type "inline"
+                                :midClick true
+                                :showCloseBtn false
+                                :items {:src "#essentials-modal"}})))
+            
+            (.. (js/$ ".owl-popup-div")
+                (owlCarousel (clj->js {:items 1
+                                       :responsiveClass true
+                                       :margin 0
+                                       :dots false
+                                       :nav true
+                                       :loop false
+                                       :autoHeight true
+                                       #_:onTranslated #_callBack
+                                       :touchDrag true
+                                       :mouseDrag true})))
+            
+            (.. (js/$ ".owl-next")
+                (click #(re-frame/dispatch [::select-next-product])))
+
+            (.. (js/$ ".owl-prev")
+                (click #(re-frame/dispatch [::select-previous-product])))
+            
             (assoc db :selected-epp-id [label epp-id])))
 
 
