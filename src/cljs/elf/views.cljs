@@ -16,7 +16,7 @@
 (defn main-panel []
   (let [name (<sub [::subs/name])]
     [:<> ; this allows sibling elements without needing to wrap in a separate [:div]
-     (when config/debug?
+     (when false #_config/debug?
        [:section.body_container]
        [:div
           [:h1 name]
@@ -106,15 +106,15 @@
   (select [:items ALL :value] filter))
 
 (defn- close-filter-slideout []
-  (do (.. (js/$ ".select-wrap") (removeClass "open"))
-      (.. (js/$ "html") (removeClass "hidescroll"))
-      (.. (js/$ ".veil") (removeClass "overlay"))))
+  (do (.removeClass (js/$ ".select-wrap") "open")
+      (.removeClass (js/$ "html") "hidescroll")
+      (.removeClass (js/$ ".veil") "overlay")))
 
 (defn- open-filter-slideout []
-  (do (.. (js/$ ".select-wrap") (toggleClass "open"))
-      (.. (js/$ "html") (addClass "hidescroll"))
-      (.. (js/$ ".veil") (addClass "overlay"))
-      (.. (js/$ ".veil.overlay") (click close-filter-slideout))))
+  (do (.toggleClass (js/$ ".select-wrap") "open")
+      (.addClass (js/$ "html") "hidescroll")
+      (.addClass (js/$ ".veil") "overlay")
+      (.click (js/$ ".veil.overlay") close-filter-slideout)))
 
 (defn product-type-filters []
   (let [seating-filter-options (<sub [::subs/seating-filter-options])
