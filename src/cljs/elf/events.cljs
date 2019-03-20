@@ -158,7 +158,7 @@
 (reg-event-db
  ::product-selected
  (fn-traced [db [_ label epp-id] event]
-            (.. js/$ -magnificPopup
+            #_(.. js/$ -magnificPopup
                 (open (clj->js {:type "inline"
                                 :midClick true
                                 :showCloseBtn false
@@ -181,6 +181,8 @@
 
             (.. (js/$ ".owl-prev")
                 (click #(re-frame/dispatch [::select-previous-product])))
+
+            #_(.. (js/$ ".popup-tab-wrap") mCustomScrollbar)
             
             (assoc db :selected-epp-id [label epp-id])))
 
@@ -242,9 +244,11 @@
 (reg-event-db
  ::select-previous-product
  (fn [db _]
-   (assoc db :selected-epp-id (previous-visible-prod-id db))))
+   (let [prev-prod (previous-visible-prod-id db)]
+     (assoc db :selected-epp-id prev-prod))))
 
 (reg-event-db
  ::select-next-product
  (fn [db _]
-   (assoc db :selected-epp-id (next-visible-prod-id db))))
+   (let [next-prod (next-visible-prod-id db)]
+     (assoc db :selected-epp-id next-prod))))
