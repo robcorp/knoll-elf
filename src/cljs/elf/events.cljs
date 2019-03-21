@@ -80,11 +80,6 @@
      (.setItem js/localStorage selector filter-options)
      (assoc db selector-key filter-options))))
 
-#_(reg-event-db
- ::set-filtered-products
- (fn-traced [db [_ products]]
-   (assoc db :filtered-products (group-by :product-type products))))
-
 
 (defn- update-lead-time-filter-state [selected-filter filters]
   (->> filters
@@ -98,7 +93,7 @@
 
 (reg-event-db
  ::lead-time-filter-radio-button-clicked
- (fn [db [_ lead-time] event]
+ (fn-traced [db [_ lead-time] event]
    (let [updated-lead-time-filters (update-lead-time-filter-state lead-time (:lead-time-filters db))
          selected-lead-times (set (select [ALL #(true? (:value %)) :lead-time] updated-lead-time-filters))
          filtered-products (->> (:all-products db)
@@ -155,10 +150,21 @@
        (clear-all-product-filters)
        (filter-category-products (:filtered-products db)))))
 
-(reg-event-db
+#_(reg-event-db
  ::product-selected
  (fn-traced [db [_ label epp-id] event]
             #_(.. js/$ -magnificPopup
+                  (open (clj->js {:type "inline"
+                                  :midClick true
+                                  :showCloseBtn false
+                                  :items {:src "#essentials-modal"}})))
+
+            (assoc db :selected-epp-id [label epp-id])))
+
+(reg-event-db
+ ::product-selected
+ (fn-traced [db [_ label epp-id] event]
+            (.. js/$ -magnificPopup
                 (open (clj->js {:type "inline"
                                 :midClick true
                                 :showCloseBtn false
@@ -177,9 +183,11 @@
                                        :mouseDrag true})))
             
             (.. (js/$ ".owl-next")
+                (unbind "click")
                 (click #(re-frame/dispatch [::select-next-product])))
 
             (.. (js/$ ".owl-prev")
+                (unbind "click")
                 (click #(re-frame/dispatch [::select-previous-product])))
 
             #_(.. (js/$ ".popup-tab-wrap") mCustomScrollbar)
@@ -199,7 +207,7 @@
                         (.log js/console (str "Ajax request to get all-products failed: " status " " status-text))
                         (re-frame/dispatch [::use-default-db]))]
 
-    (ajax/GET all-products-url {:handler success-handler :error-handler error-handler :response-format :json :keywords? true})))
+    (ajax/GET all-products-url {:timeout 90000 :handler success-handler :error-handler error-handler :response-format :json :keywords? true})))
 
 (defn- load-filter-options [selector]
   (let [baseURL (if config/debug?

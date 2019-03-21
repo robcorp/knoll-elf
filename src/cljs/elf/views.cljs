@@ -308,19 +308,20 @@
 
 (defn popup-tab-wrap [selected-prod lead-times-set]
   (let [first-tab (atom nil)]
-    [:div.popup-tab-wrap.xmCustomScrollbar {:style {:height "500px" :overflow-y "scroll"}}
-     (if (lead-times-set "quick")
-       (do
-         (if-not @first-tab (reset! first-tab "quick"))
-         (tab-contents "quick" selected-prod lead-times-set @first-tab)))
-     (if (lead-times-set "three-week")
-       (do
-         (if-not @first-tab (reset! first-tab "three-week"))
-         (tab-contents "three-week" selected-prod lead-times-set @first-tab)))
-     (if (lead-times-set "std")
-       (do
-         (if-not @first-tab (reset! first-tab "std"))
-         (tab-contents "std" selected-prod lead-times-set @first-tab)))]))
+    [:div#style-2.scrollbar
+     [:div.popup-tab-wrap.force-overflow
+      (if (lead-times-set "quick")
+        (do
+          (if-not @first-tab (reset! first-tab "quick"))
+          (tab-contents "quick" selected-prod lead-times-set @first-tab)))
+      (if (lead-times-set "three-week")
+        (do
+          (if-not @first-tab (reset! first-tab "three-week"))
+          (tab-contents "three-week" selected-prod lead-times-set @first-tab)))
+      (if (lead-times-set "std")
+        (do
+          (if-not @first-tab (reset! first-tab "std"))
+          (tab-contents "std" selected-prod lead-times-set @first-tab)))]]))
 
 (defn product-tabs [selected-prod lead-times-set]
   (let [first-tab (atom nil)
@@ -330,7 +331,6 @@
                     3 "33.33%")]
 
     [:div.essentials-product-tabs
-
      [:ul.essentials-tab-list
       (if (lead-times-set "quick")
         (do
@@ -467,7 +467,7 @@
 (defn modal-popup []
   (let [selected-prod (<sub [::subs/selected-product])
         lead-times-set (set (:lead-times selected-prod))]
-    [:div#essentials-modal.white-popup-block.xmfp-hide
+    [:div#essentials-modal.white-popup-block.mfp-hide
      [:div.essentials-modal-wrap
       [:div.header-popup-view
        [:div.popup-action-list-wrap
@@ -478,7 +478,8 @@
            [:li [:a {:href "javascript:;"} "Share"]] [:li [:a {:href "javascript:;"} "PRINT"]]
            [:li [:a {:href "javascript:;"} "View essentials brochure"]]]]]]
        [:a.popup-modal-dismiss {:on-click #(->> js/$ .-magnificPopup .close)} "Dismiss"]]
-      [:div.owl-popup-div ;.owl-carousel.owl-theme.owl-responsive--1.owl-loaded
+
+      [:div.owl-popup-div
        [:div.item
         [:div.essentials-modal-content
          [:div.essentials-product-img
@@ -489,7 +490,6 @@
            [:div {:dangerouslySetInnerHTML {:__html (:short-text selected-prod)}}]]]
 
          (product-tabs selected-prod lead-times-set)]]]]]))
-
 
 (defn mouse-pos-comp []
   (reagent/with-let [pointer (reagent/atom {:x nil :y nil})
