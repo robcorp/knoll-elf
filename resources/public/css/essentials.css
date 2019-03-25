@@ -558,6 +558,48 @@
     margin-bottom: 15px;
 }
 
+ul.finish-types-list {
+    display: inline-block;
+}
+
+.finish-types-list li {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.finish-list-wrap label {
+    font-size: 14px;
+    font-family: 'HelveticaNeueW01-75Bold', Arial, Helvetica, sans-serif;
+}
+
+.finish-types-list li a {
+    font-size: 12px;
+    color: #333333;
+    font-family: 'HelveticaNeueW01-75Bold', Arial, Helvetica, sans-serif;
+    border-radius: 25px;
+    background-color: #f5f5f5;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 24px;
+    text-align: center;
+	margin-right: 4px;
+    padding: 2px 10px;
+}
+
+.finish-types-list li a:hover,
+.finish-types-list li.selected a {
+    background-color: #f94e35;
+    color: #fff;
+}
+
+.finish-tab-content {
+    display: none;
+}
+
+.finish-tab-content.selected {
+    display: inherit;
+}
+
 ul.upholstery-types-list {
     display: inline-block;
 }
