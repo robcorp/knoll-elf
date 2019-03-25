@@ -150,17 +150,6 @@
        (clear-all-product-filters)
        (filter-category-products (:filtered-products db)))))
 
-#_(reg-event-db
- ::product-selected
- (fn-traced [db [_ label epp-id] event]
-            #_(.. js/$ -magnificPopup
-                  (open (clj->js {:type "inline"
-                                  :midClick true
-                                  :showCloseBtn false
-                                  :items {:src "#essentials-modal"}})))
-
-            (assoc db :selected-epp-id [label epp-id])))
-
 (reg-event-db
  ::product-selected
  (fn-traced [db [_ label epp-id] event]
