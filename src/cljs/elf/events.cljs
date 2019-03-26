@@ -167,7 +167,6 @@
                                        :nav true
                                        :loop false
                                        :autoHeight true
-                                       #_:onTranslated #_callBack
                                        :touchDrag true
                                        :mouseDrag true})))
             
@@ -185,11 +184,12 @@
 
 
 (defn- load-all-products []
-  (let [baseURL (if config/debug?
-                  "http://knlprdwcsmgt1.knoll.com"
-                  (str (.. js/window -location -origin)))
-        all-products-url (str baseURL "/cs/Satellite?pagename=Knoll/Common/Utils/EssentialsPopupProductsJSON")
-        ;all-products-url "http://localhost:3449/all-products.json"
+  (let [path "/cs/Satellite?pagename=Knoll/Common/Utils/EssentialsPopupProductsJSON"
+        all-products-url (if config/debug?
+                           (if config/use-local-products?
+                             "http://localhost:3449/all-products.json" ;; use the local file - this file should be updated periodically using the json from prod or staging
+                             (str "http://knlprdwcsmgt1.knoll.com" path)) ;; use staging url
+                           (str (.. js/window -location -origin) path)) ;; use the host of the current browser window
         success-handler (fn [resp]
                           (re-frame/dispatch [::set-all-products (:all-products resp)]))
         error-handler (fn [{:keys [status status-text]}]
@@ -213,7 +213,6 @@
                                           :error-handler error-handler
                                           :response-format :json
                                           :keywords? true})))
-
 
 (defn- visible-product-ids
   "Returns a vector of product-ids of all the currently visible products based on the current filter selections.
