@@ -11827,6 +11827,253 @@
     },
     {
       "lead-times" : [
+        "std"
+      ],
+      "short-text" : "<p>With simple lines, lean proportions and industrial materials, D&#39;Urso Tables reflect the designer&#39;s&nbsp;&nbsp;preference for objects that look more engineered than styled.</p>",
+      "storageCats" : [],
+      "screensCats" : [],
+      "epp-id" : "1356388389801",
+      "seatingCats" : [],
+      "tableCats" : [
+        "Dining & Multi-use",
+        "Meeting & Conference",
+        "Training"
+      ],
+      "availFinMods" : [
+        {
+          "id" : "1356400477578",
+          "title" : "Options",
+          "std" : {
+            "optsTxt" : "<link href=\"/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Worksurface:</span><span class=\"essop-option\">Round, Square, Racetrack</span></p>\r\n\r\n<p><span class=\"essop-title\">Worksurface Material:</span><span class=\"essop-option\">Laminate, Veneer, Marble, Granite</span></p>\r\n\r\n<p><span class=\"essop-title\">Grommet:</span><span class=\"essop-option\">No Grommet</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Legs:Painted</span><span class=\"essop-option\">, Polished Chrome</span></p>\r\n\r\n<p><span class=\"essop-title\">Feet:Glides, Casters, Locking Casters</span></p>\r\n</div>\r\n</div>\r\n\r\n<p><span class=\"essop-title\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<p>\r\n<style type=\"text/css\">table, th, td {\r\n    border-collapse: collapse;\r\n}\r\nth, td {\r\n    padding: 3px 6px 5px 0px;\r\n}\r\ntd {  \r\n  color: #777;\r\n  font: 11px/13px 'HelveticaNeueW01-55Roma', Arial, Helvetica, sans-serif;}\r\nth {\r\n    color: #777;\r\n  font: 11px/13px 'HelveticaNeueW01-75Bold', Arial, Helvetica, sans-serif;text-align: left;\r\n}\r\n</style>\r\n</p>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>Round Top</td>\r\n\t\t\t<td>42 / 48 / 54 / 60 / 72&quot;</td>\r\n\t\t\t<td>&ndash;</td>\r\n\t\t\t<td>27.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>Square Top</td>\r\n\t\t\t<td>48 / 54 / 60&quot;</td>\r\n\t\t\t<td>&ndash;</td>\r\n\t\t\t<td>27.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>Racetrack Top</td>\r\n\t\t\t<td>72&quot;</td>\r\n\t\t\t<td>36&quot;</td>\r\n\t\t\t<td>27.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>84&quot;</td>\r\n\t\t\t<td>42&quot;</td>\r\n\t\t\t<td>27.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>96&quot;</td>\r\n\t\t\t<td>48&quot;</td>\r\n\t\t\t<td>27.5&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>&nbsp;</p>\r\n",
+            "fins" : []
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "<link href=\"/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p>&nbsp;</p>\r\n</div>\r\n</div>\r\n</div>\r\n",
+            "fins" : []
+          }
+        },
+        {
+          "id" : "1352996280357",
+          "title" : "Leg Finish",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1352996254622",
+                "color" : "Chrome, Polished",
+                "img" : "/666/580/Thumb_c,0.png",
+                "skus" : "",
+                "type" : "Metal"
+              },
+              {
+                "id" : "1352939530924",
+                "color" : "Jet Black",
+                "img" : "/166/218/Thumb_PNT111,0.png",
+                "skus" : "",
+                "type" : "Paint"
+              },
+              {
+                "id" : "1352939531014",
+                "color" : "Medium Metallic Grey",
+                "img" : "/569/645/Thumb_PNT612,2.png",
+                "skus" : "",
+                "type" : "Paint"
+              },
+              {
+                "id" : "1347382988856",
+                "color" : "Red",
+                "img" : "/369/146/Thumb_CHIPRD,0.png",
+                "skus" : "",
+                "type" : "Paint"
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        },
+        {
+          "id" : "1352996280279",
+          "title" : "Laminate",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1352941560902",
+                "color" : "Bright White",
+                "img" : "/706/642/Thumb_PNT118,0.png",
+                "skus" : "",
+                "type" : "Laminate"
+              },
+              {
+                "id" : "1352939535379",
+                "color" : "Fog",
+                "img" : "/631/302/Thumb_LAM128,2.png",
+                "skus" : "",
+                "type" : "Laminate"
+              },
+              {
+                "id" : "1352939535329",
+                "color" : "Pumice",
+                "img" : "/532/52/Thumb_LAM119,2.png",
+                "skus" : "",
+                "type" : "Laminate"
+              },
+              {
+                "id" : "1347382988419",
+                "color" : "Light Grey",
+                "img" : "/199/577/Thumb_LAML,0.png",
+                "skus" : "",
+                "type" : "Laminate"
+              },
+              {
+                "id" : "1347383009548",
+                "color" : "Jet Black ",
+                "img" : "/340/141/Thumb_LAM111,2.png",
+                "skus" : "",
+                "type" : "Laminate"
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        },
+        {
+          "id" : "1352996280297",
+          "title" : "Natural Veneer",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1347383014388",
+                "color" : "American Cherry ",
+                "img" : "/756/243/Thumb_VENVX,2.png",
+                "skus" : "",
+                "type" : "Veneer"
+              },
+              {
+                "id" : "1352941870389",
+                "color" : "Maple",
+                "img" : "/975/80/Thumb_VENKC,0.png",
+                "skus" : "",
+                "type" : "Veneer"
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        },
+        {
+          "id" : "1352996280312",
+          "title" : "Coated Marble",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1347382972444",
+                "color" : "Carrara ",
+                "img" : "/960/316/Thumb_MRBNGC,2.png",
+                "skus" : "",
+                "type" : "Marble and Stone"
+              },
+              {
+                "id" : "1347382972404",
+                "color" : "Empire Beige ",
+                "img" : "/847/223/Thumb_MRBGB,2.png",
+                "skus" : "",
+                "type" : "Marble and Stone"
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        },
+        {
+          "id" : "1352996280328",
+          "title" : "Natural Marble",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1347382972444",
+                "color" : "Carrara ",
+                "img" : "/960/316/Thumb_MRBNGC,2.png",
+                "skus" : "",
+                "type" : "Marble and Stone"
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        },
+        {
+          "id" : "1352996280343",
+          "title" : "Granite",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1347382972364",
+                "color" : "Black Andes Granite",
+                "img" : "/135/809/Thumb_GRAGA,0.png",
+                "skus" : "",
+                "type" : "Marble and Stone"
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        }
+      ],
+      "title" : "D'Urso High Tables",
+      "thumb-img" : "/341/542/durso-work-table_dining-multiuse_thumb.jpg",
+      "hero1-img" : "/685/380/durso-work-table_dining-multiuse_hero.jpg",
+      "workCats" : [],
+      "name" : "ES Durso High Tables",
+      "powerCats" : [],
+      "product-id" : "durso-high-tables"
+    },
+    {
+      "lead-times" : [
         "std",
         "three-week"
       ],
@@ -58047,237 +58294,6 @@
       "name" : "ES Washington Prism™ Lounge Chair and Ottoman",
       "powerCats" : [],
       "product-id" : "washington-prism-lounge-chair-and-ottoman"
-    },
-    {
-      "lead-times" : [
-        "std"
-      ],
-      "short-text" : "<p>With simple lines, lean proportions and industrial materials, D&#39;Urso Tables reflect the designer&#39;s&nbsp;&nbsp;preference for objects that look more engineered than styled.</p>",
-      "storageCats" : [],
-      "screensCats" : [],
-      "epp-id" : "1356388389801",
-      "seatingCats" : [],
-      "tableCats" : [
-        "Dining & Multi-use",
-        "Meeting & Conference",
-        "Training"
-      ],
-      "availFinMods" : [
-        {
-          "id" : "1352996280357",
-          "title" : "Leg Finish",
-          "std" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1352996254622",
-                "color" : "Chrome, Polished",
-                "img" : "/666/580/Thumb_c,0.png",
-                "skus" : "",
-                "type" : "Metal"
-              },
-              {
-                "id" : "1352939530924",
-                "color" : "Jet Black",
-                "img" : "/166/218/Thumb_PNT111,0.png",
-                "skus" : "",
-                "type" : "Paint"
-              },
-              {
-                "id" : "1352939531014",
-                "color" : "Medium Metallic Grey",
-                "img" : "/569/645/Thumb_PNT612,2.png",
-                "skus" : "",
-                "type" : "Paint"
-              },
-              {
-                "id" : "1347382988856",
-                "color" : "Red",
-                "img" : "/369/146/Thumb_CHIPRD,0.png",
-                "skus" : "",
-                "type" : "Paint"
-              }
-            ]
-          },
-          "three-week" : {
-            "optsTxt" : "",
-            "fins" : []
-          },
-          "quick" : {
-            "optsTxt" : "",
-            "fins" : []
-          }
-        },
-        {
-          "id" : "1352996280279",
-          "title" : "Laminate",
-          "std" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1352941560902",
-                "color" : "Bright White",
-                "img" : "/706/642/Thumb_PNT118,0.png",
-                "skus" : "",
-                "type" : "Laminate"
-              },
-              {
-                "id" : "1352939535379",
-                "color" : "Fog",
-                "img" : "/631/302/Thumb_LAM128,2.png",
-                "skus" : "",
-                "type" : "Laminate"
-              },
-              {
-                "id" : "1352939535329",
-                "color" : "Pumice",
-                "img" : "/532/52/Thumb_LAM119,2.png",
-                "skus" : "",
-                "type" : "Laminate"
-              },
-              {
-                "id" : "1347382988419",
-                "color" : "Light Grey",
-                "img" : "/199/577/Thumb_LAML,0.png",
-                "skus" : "",
-                "type" : "Laminate"
-              },
-              {
-                "id" : "1347383009548",
-                "color" : "Jet Black ",
-                "img" : "/340/141/Thumb_LAM111,2.png",
-                "skus" : "",
-                "type" : "Laminate"
-              }
-            ]
-          },
-          "three-week" : {
-            "optsTxt" : "",
-            "fins" : []
-          },
-          "quick" : {
-            "optsTxt" : "",
-            "fins" : []
-          }
-        },
-        {
-          "id" : "1352996280297",
-          "title" : "Natural Veneer",
-          "std" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1347383014388",
-                "color" : "American Cherry ",
-                "img" : "/756/243/Thumb_VENVX,2.png",
-                "skus" : "",
-                "type" : "Veneer"
-              },
-              {
-                "id" : "1352941870389",
-                "color" : "Maple",
-                "img" : "/975/80/Thumb_VENKC,0.png",
-                "skus" : "",
-                "type" : "Veneer"
-              }
-            ]
-          },
-          "three-week" : {
-            "optsTxt" : "",
-            "fins" : []
-          },
-          "quick" : {
-            "optsTxt" : "",
-            "fins" : []
-          }
-        },
-        {
-          "id" : "1352996280312",
-          "title" : "Coated Marble",
-          "std" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1347382972444",
-                "color" : "Carrara ",
-                "img" : "/960/316/Thumb_MRBNGC,2.png",
-                "skus" : "",
-                "type" : "Marble and Stone"
-              },
-              {
-                "id" : "1347382972404",
-                "color" : "Empire Beige ",
-                "img" : "/847/223/Thumb_MRBGB,2.png",
-                "skus" : "",
-                "type" : "Marble and Stone"
-              }
-            ]
-          },
-          "three-week" : {
-            "optsTxt" : "",
-            "fins" : []
-          },
-          "quick" : {
-            "optsTxt" : "",
-            "fins" : []
-          }
-        },
-        {
-          "id" : "1352996280328",
-          "title" : "Natural Marble",
-          "std" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1347382972444",
-                "color" : "Carrara ",
-                "img" : "/960/316/Thumb_MRBNGC,2.png",
-                "skus" : "",
-                "type" : "Marble and Stone"
-              }
-            ]
-          },
-          "three-week" : {
-            "optsTxt" : "",
-            "fins" : []
-          },
-          "quick" : {
-            "optsTxt" : "",
-            "fins" : []
-          }
-        },
-        {
-          "id" : "1352996280343",
-          "title" : "Granite",
-          "std" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1347382972364",
-                "color" : "Black Andes Granite",
-                "img" : "/135/809/Thumb_GRAGA,0.png",
-                "skus" : "",
-                "type" : "Marble and Stone"
-              }
-            ]
-          },
-          "three-week" : {
-            "optsTxt" : "",
-            "fins" : []
-          },
-          "quick" : {
-            "optsTxt" : "",
-            "fins" : []
-          }
-        }
-      ],
-      "title" : "D'Urso High Tables",
-      "thumb-img" : "/595/786/durso-work-table_dining-multiuse_thumb.jpg",
-      "hero1-img" : "/939/624/durso-work-table_dining-multiuse_hero.jpg",
-      "workCats" : [],
-      "name" : "ES Durso High Tables",
-      "powerCats" : [],
-      "product-id" : "durso-high-tables"
     },
     {
       "lead-times" : [
