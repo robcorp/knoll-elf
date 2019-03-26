@@ -173,36 +173,42 @@
 
 (defn filtered-products-view []
   (let [all-products (<sub [::subs/all-products])
-                            filtered-seating-prods (<sub [::subs/filtered-seating-products])
-                            filtered-table-prods (<sub [::subs/filtered-table-products])
-                            filtered-storage-prods (<sub [::subs/filtered-storage-products])
-                            filtered-power-prods (<sub [::subs/filtered-power-products])
-                            filtered-work-prods (<sub [::subs/filtered-work-products])
-                            filtered-screen-prods (<sub [::subs/filtered-screen-products])
-                            no-results? (empty? (select [ALL :products ALL] (concat filtered-seating-prods
-                                                                                    filtered-table-prods
-                                                                                    filtered-storage-prods
-                                                                                    filtered-power-prods
-                                                                                    filtered-work-prods
-                                                                                    filtered-screen-prods)))]
+        filtered-seating-prods (<sub [::subs/filtered-seating-products])
+        filtered-table-prods (<sub [::subs/filtered-table-products])
+        filtered-storage-prods (<sub [::subs/filtered-storage-products])
+        filtered-power-prods (<sub [::subs/filtered-power-products])
+        filtered-work-prods (<sub [::subs/filtered-work-products])
+        filtered-screen-prods (<sub [::subs/filtered-screen-products])
+        no-results? (empty? (select [ALL :products ALL] (concat filtered-seating-prods
+                                                                filtered-table-prods
+                                                                filtered-storage-prods
+                                                                filtered-power-prods
+                                                                filtered-work-prods
+                                                                filtered-screen-prods)))
+        ;;all-swatches (into #{} (select [ALL :availFinMods ALL (spctr/multi-path [:quick] [:std] [:three-weeik]) :fins ALL :img] all-products))
+        ]
 
-                        [:div.right-product-col
-                         [:div.right-product-content
-                          [:div.filter-btn-wrap
-                           [:span.filter_btn_left {:on-click open-filter-slideout}
-                            "FILTERS"]]
-                          (if (empty? all-products)
-                              [:div
-                               [:h3.text-center "Loading..."]]
-                              (if no-results?
-                                [:div [:h3.text-center "No results found"]]
-                                [:<>
-                                 (map filtered-product-type-section filtered-seating-prods)
-                                 (map filtered-product-type-section filtered-table-prods)
-                                 (map filtered-product-type-section filtered-storage-prods)
-                                 (map filtered-product-type-section filtered-power-prods)
-                                 (map filtered-product-type-section filtered-work-prods)
-                                 (map filtered-product-type-section filtered-screen-prods)]))]]))
+    [:div.right-product-col
+     [:div.right-product-content
+      [:div.filter-btn-wrap
+       [:span.filter_btn_left {:on-click open-filter-slideout}
+        "FILTERS"]]
+      (if (empty? all-products)
+        [:div
+         [:h3.text-center "Loading..."]]
+        (if no-results?
+          [:div [:h3.text-center "No results found"]]
+          [:<>
+           (map filtered-product-type-section filtered-seating-prods)
+           (map filtered-product-type-section filtered-table-prods)
+           (map filtered-product-type-section filtered-storage-prods)
+           (map filtered-product-type-section filtered-power-prods)
+           (map filtered-product-type-section filtered-work-prods)
+           (map filtered-product-type-section filtered-screen-prods)
+           #_[:div {:class "hidden"}
+            (for [img all-swatches]
+              ^{:key img}
+              [:img {:src (str "http://knlprdwcsmgt1.knoll.com/media" img)}])]]))]]))
 
 
 (defn- finish-types-pill-clicked [evt]
