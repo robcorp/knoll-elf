@@ -16,22 +16,20 @@
 (defn main-panel []
   (let [name (<sub [::subs/name])]
     [:<> ; this allows sibling elements without needing to wrap in a separate [:div]
-     #_[modal-popup]
+     [modal-popup]
+     [:div.veil]
      (when false #_config/debug?
-       [:section.body_container]
-       [:div
-          [:h1 name]
-          [:p "(built using the re-frame app framework.)"]
-          [mouse-pos-comp]
-          [:hr]])
-     #_[:div.allbody-wrapper]
+           [:section.body_container]
+           [:div
+            [:h1 name]
+            [:p "(built using the re-frame app framework.)"]
+            [mouse-pos-comp]
+            [:hr]])
      [:section.wrapper
       [:section#page
        [:div {:class "product-col clearfix"}
         [filters-view]
-        [filtered-products-view]]]]
-     [:div.veil]
-     [modal-popup]]))
+        [filtered-products-view]]]]]))
 
 
 (defn essential-product-summary [label {:keys [epp-id title product-name lead-times thumb-img]}]
@@ -211,9 +209,10 @@
   (let [target (js/$ (.-currentTarget evt))
         tab (.data target "tab")
         tab-content (str ".popup-tab-content.selected " "#" tab ".finish-tab-content")]
-    #_(.log js/console (str "target: " target))
-    #_(.log js/console (str "tab: " tab))
-    #_(.log js/console (str "tab-content: " tab-content))
+    #_(when config/debug?
+      (.log js/console (str "target: " target))
+      (.log js/console (str "tab: " tab))
+      (.log js/console (str "tab-content: " tab-content)))
     (.removeClass (js/$ ".popup-tab-content.selected .finish-types-list > li") "selected") ; deselect the current pill
     (.removeClass (js/$ ".finish-tab-content") "selected") ; and hide the current pill's tab contents
     (.addClass target "selected") ; select the new tab
@@ -223,14 +222,14 @@
   (if (> (count fins) 0)
     ^{:key (str "finish-" title - "pill")}
     [:li {:class (if (= i 0) "selected" "")
-          :data-tab (str "finish-" (str/replace title #"\s" "-"))
+          :data-tab (str "finish-" (str/replace title #"[^a-zA-Z0-9-]" ""))
           :on-click finish-types-pill-clicked}
      [:a {:href "javascript:;"} title]]))
 
 (defn- create-finish-types-tab [i [title fins]]
   (if (> (count fins) 0)
     ^{:key (str "finiish-" title "-tab")}
-    [:div {:id (str "finish-" (str/replace title #"\s" "-")) :class ["finish-tab-content" (if (= i 0) "selected")]}
+    [:div {:id (str "finish-" (str/replace title #"[^a-zA-Z0-9-]" "")) :class ["finish-tab-content" (if (= i 0) "selected")]}
      [:ul.frame-list
            (for [fin fins]
              ^{:key (:id fin)}
@@ -239,89 +238,93 @@
                [:img {:src (str "https://knlprdwcsmgt.knoll.com/media" (:img fin)) :data-no-retina ""}]]
               [:p (:color fin)]])]]))
 
-(defn tab-contents [lead-time selected-prod lead-times-set first-tab]
+(defn tab-contents [lead-time selected-prod lead-times-set selected?]
   (let [avail-fin-mods (select [:availFinMods ALL #(not= "Options" (:title %)) (collect-one :title) (keyword lead-time) :fins] selected-prod)
         [optsTitle opts] (select-first [:availFinMods ALL #(= "options" (str/lower-case (:title %))) (collect-one :title) (keyword lead-time)] selected-prod)
-        tab-content-class (if (= lead-time first-tab) "selected" "")]
-    
+        tab-content-class (if selected? "selected" "")]
+
+    ^{:key (str (:epp-id selected-prod) "-" lead-time)}
     [:div.popup-tab-content {:id lead-time :class tab-content-class}
      (if opts
        [:div.options-list-wrap
         [:h4 optsTitle]
         [:div {:dangerouslySetInnerHTML {:__html (:optsTxt opts)}}]])
 
-     [:div.finish-list-wrap
-      [:h4 "Finishes"]
-      [:div.tab-main
-       [:ul.finish-types-list
-        (map-indexed create-finish-types-pill avail-fin-mods)]]
+     (if (> (count avail-fin-mods) 0)
+       [:div.finish-list-wrap
+        [:h4 "Finishes"]
+        [:div.tab-main
+         [:ul.finish-types-list
+          (map-indexed create-finish-types-pill avail-fin-mods)]]
 
-      [:div.finish-tab-wrap
-       (map-indexed create-finish-types-tab avail-fin-mods)
-       
-       #_[:div#upholstery-tab-1.upholstery-tab-content.selected
-        [:ul.upholstery-tetile-list
-         [:li.selected.has-sub-tab {:data-tab "upholstery-tab-family-1"}
-          [:div.swatch-div
-           [:img {:src "images/upholstery-1.jpg" :data-no-retina ""}]] [:p "Textile 1"]]
-         [:li.selected.has-sub-tab {:data-tab "upholstery-tab-family-2"}
-          [:div.swatch-div [:img.selected.has-sub-tab {:src "/images/upholstery-2.jpg" :data-no-retina ""}]] [:p "Textile 2"]]
-         [:li [:div.swatch-div [:img {:src "/images/upholstery-3.jpg" :data-no-retina ""}]] [:p "Textile 3"]]
-         [:li [:div.swatch-div [:img {:src "/images/upholstery-4.jpg" :data-no-retina ""}]] [:p "Textile 4"]]
-         [:li [:div.swatch-div [:img {:src "/images/upholstery-5.jpg" :data-no-retina ""}]] [:p "Textile 5"]]
-         [:li [:div.swatch-div [:img {:src "/images/upholstery-6.jpg" :data-no-retina ""}]] [:p "Textile 6"]]
-         [:li [:div.swatch-div [:img {:src "/images/upholstery-7.jpg" :data-no-retina ""}]] [:p "Textile 7"]]
-         [:li [:div.swatch-div [:img {:src "/images/upholstery-8.jpg" :data-no-retina ""}]] [:p "Textile 8"]]]]
-       #_[:div#upholstery-tab-2.upholstery-tab-content
-        [:ul.upholstery-tetile-list
-         [:li
-          [:div.swatch-div [:img {:src "/images/upholstery-3.jpg" :data-no-retina ""}]] [:p "Textile 3"]]
-         [:li
-          [:div.swatch-div [:img {:src "/images/upholstery-4.jpg" :data-no-retina ""}]] [:p "Textile 4"]]
-         [:li [:div.swatch-div [:img {:src "/images/upholstery-8.jpg" :data-no-retina ""}]] [:p "Textile 8"]]]]
-       #_[:div#upholstery-tab-3.upholstery-tab-content
-        [:ul.upholstery-tetile-list
-         [:li [:div.swatch-div [:img {:src "/images/upholstery-3.jpg" :data-no-retina ""}]] [:p "Textile 3"]]
-         [:li [:div.swatch-div [:img {:src "/images/upholstery-4.jpg" :data-no-retina ""}]] [:p "Textile 4"]]
-         [:li [:div.swatch-div [:img {:src "/images/upholstery-7.jpg" :data-no-retina ""}]] [:p "Textile 7"]]
-         [:li [:div.swatch-div [:img {:src "/images/upholstery-8.jpg" :data-no-retina ""}]] [:p "Textile 8"]]]]]
-      #_[:div.sub-tab-wrap
-       [:div#upholstery-tab-family-1.upholstery-tab-content
-        [:ul.upholstery-types-sub-list
-         [:li {:data-tab "upholstery-tab-1"} [:a {:href "javascript:;"} "Back to all grade a"]]]
-        [:h5 "Alignment K394"]
-        [:ul.upholstery-tetile-list
-         [:li [:div.swatch-div [:img {:src "/images/upholstery-11.jpg" :data-no-retina ""}]] [:p "1 Sand"]]
-         [:li [:div.swatch-div [:img {:src "/images/upholstery-12.jpg" :data-no-retina ""}]] [:p "2 Straw"]]
-         [:li [:div.swatch-div [:img {:src "/images/upholstery-13.jpg" :data-no-retina ""}]] [:p "3 Earth"]]
-         [:li [:div.swatch-div [:img {:src "/images/upholstery-14.jpg" :data-no-retina ""}]] [:p "4 Paprika"]]
-         [:li [:div.swatch-div [:img {:src "/images/upholstery-15.jpg" :data-no-retina ""}]] [:p "5 Aloe"]]
-         [:li [:div.swatch-div [:img {:src "/images/upholstery-16.jpg" :data-no-retina ""}]] [:p "Textile 7"]]
-         [:li [:div.swatch-div [:img {:src "/images/upholstery-17.jpg" :data-no-retina ""}]] [:p "Textile 8"]]
-         [:li [:div.swatch-div [:img {:src "/images/upholstery-18.jpg" :data-no-retina ""}]] [:p "Textile 8"]]
-         [:li [:div.swatch-div [:img {:src "/images/upholstery-19.jpg" :data-no-retina ""}]] [:p "Textile 8"]]
-         [:li [:div.swatch-div [:img {:src "/images/upholstery-20.jpg" :data-no-retina ""}]] [:p "Textile 8"]]
-         [:li [:div.swatch-div [:img {:src "/images/upholstery-21.jpg" :data-no-retina ""}]] [:p "Textile 8"]]
-         [:li [:div.swatch-div [:img {:src "/images/upholstery-22.jpg" :data-no-retina ""}]] [:p "Textile 8"]]]]
-       [:div#upholstery-tab-family-2.upholstery-tab-content
-        [:ul.upholstery-types-sub-list
-         [:li {:data-tab "upholstery-tab-1"} [:a {:href "javascript:;"} "Back to all grade a"]]]
-        [:h5 "Alignment K395"]
-        [:ul.upholstery-tetile-list
-         [:li [:div.swatch-div [:img {:src "/images/upholstery-12.jpg" :data-no-retina ""}]] [:p "2 Straw"]]
-         [:li [:div.swatch-div [:img {:src "/images/upholstery-13.jpg" :data-no-retina ""}]] [:p "3 Earth"]]
-         [:li [:div.swatch-div [:img {:src "/images/upholstery-14.jpg" :data-no-retina ""}]] [:p "4 Paprika"]]
-         [:li [:div.swatch-div [:img {:src "/images/upholstery-15.jpg" :data-no-retina ""}]] [:p "5 Aloe"]]
-         [:li [:div.swatch-div [:img {:src "/images/upholstery-16.jpg" :data-no-retina ""}]] [:p "Textile 7"]]
-         [:li [:div.swatch-div [:img {:src "/images/upholstery-17.jpg" :data-no-retina ""}]] [:p "Textile 8"]]]]]]]))
+        [:div.finish-tab-wrap
+         (map-indexed create-finish-types-tab avail-fin-mods)
+         
+         #_[:div#upholstery-tab-1.upholstery-tab-content.selected
+            [:ul.upholstery-tetile-list
+             [:li.selected.has-sub-tab {:data-tab "upholstery-tab-family-1"}
+              [:div.swatch-div
+               [:img {:src "images/upholstery-1.jpg" :data-no-retina ""}]] [:p "Textile 1"]]
+             [:li.selected.has-sub-tab {:data-tab "upholstery-tab-family-2"}
+              [:div.swatch-div [:img.selected.has-sub-tab {:src "/images/upholstery-2.jpg" :data-no-retina ""}]] [:p "Textile 2"]]
+             [:li [:div.swatch-div [:img {:src "/images/upholstery-3.jpg" :data-no-retina ""}]] [:p "Textile 3"]]
+             [:li [:div.swatch-div [:img {:src "/images/upholstery-4.jpg" :data-no-retina ""}]] [:p "Textile 4"]]
+             [:li [:div.swatch-div [:img {:src "/images/upholstery-5.jpg" :data-no-retina ""}]] [:p "Textile 5"]]
+             [:li [:div.swatch-div [:img {:src "/images/upholstery-6.jpg" :data-no-retina ""}]] [:p "Textile 6"]]
+             [:li [:div.swatch-div [:img {:src "/images/upholstery-7.jpg" :data-no-retina ""}]] [:p "Textile 7"]]
+             [:li [:div.swatch-div [:img {:src "/images/upholstery-8.jpg" :data-no-retina ""}]] [:p "Textile 8"]]]]
+         #_[:div#upholstery-tab-2.upholstery-tab-content
+            [:ul.upholstery-tetile-list
+             [:li
+              [:div.swatch-div [:img {:src "/images/upholstery-3.jpg" :data-no-retina ""}]] [:p "Textile 3"]]
+             [:li
+              [:div.swatch-div [:img {:src "/images/upholstery-4.jpg" :data-no-retina ""}]] [:p "Textile 4"]]
+             [:li [:div.swatch-div [:img {:src "/images/upholstery-8.jpg" :data-no-retina ""}]] [:p "Textile 8"]]]]
+         #_[:div#upholstery-tab-3.upholstery-tab-content
+            [:ul.upholstery-tetile-list
+             [:li [:div.swatch-div [:img {:src "/images/upholstery-3.jpg" :data-no-retina ""}]] [:p "Textile 3"]]
+             [:li [:div.swatch-div [:img {:src "/images/upholstery-4.jpg" :data-no-retina ""}]] [:p "Textile 4"]]
+             [:li [:div.swatch-div [:img {:src "/images/upholstery-7.jpg" :data-no-retina ""}]] [:p "Textile 7"]]
+             [:li [:div.swatch-div [:img {:src "/images/upholstery-8.jpg" :data-no-retina ""}]] [:p "Textile 8"]]]]]
+        #_[:div.sub-tab-wrap
+           [:div#upholstery-tab-family-1.upholstery-tab-content
+            [:ul.upholstery-types-sub-list
+             [:li {:data-tab "upholstery-tab-1"} [:a {:href "javascript:;"} "Back to all grade a"]]]
+            [:h5 "Alignment K394"]
+            [:ul.upholstery-tetile-list
+             [:li [:div.swatch-div [:img {:src "/images/upholstery-11.jpg" :data-no-retina ""}]] [:p "1 Sand"]]
+             [:li [:div.swatch-div [:img {:src "/images/upholstery-12.jpg" :data-no-retina ""}]] [:p "2 Straw"]]
+             [:li [:div.swatch-div [:img {:src "/images/upholstery-13.jpg" :data-no-retina ""}]] [:p "3 Earth"]]
+             [:li [:div.swatch-div [:img {:src "/images/upholstery-14.jpg" :data-no-retina ""}]] [:p "4 Paprika"]]
+             [:li [:div.swatch-div [:img {:src "/images/upholstery-15.jpg" :data-no-retina ""}]] [:p "5 Aloe"]]
+             [:li [:div.swatch-div [:img {:src "/images/upholstery-16.jpg" :data-no-retina ""}]] [:p "Textile 7"]]
+             [:li [:div.swatch-div [:img {:src "/images/upholstery-17.jpg" :data-no-retina ""}]] [:p "Textile 8"]]
+             [:li [:div.swatch-div [:img {:src "/images/upholstery-18.jpg" :data-no-retina ""}]] [:p "Textile 8"]]
+             [:li [:div.swatch-div [:img {:src "/images/upholstery-19.jpg" :data-no-retina ""}]] [:p "Textile 8"]]
+             [:li [:div.swatch-div [:img {:src "/images/upholstery-20.jpg" :data-no-retina ""}]] [:p "Textile 8"]]
+             [:li [:div.swatch-div [:img {:src "/images/upholstery-21.jpg" :data-no-retina ""}]] [:p "Textile 8"]]
+             [:li [:div.swatch-div [:img {:src "/images/upholstery-22.jpg" :data-no-retina ""}]] [:p "Textile 8"]]]]
+           [:div#upholstery-tab-family-2.upholstery-tab-content
+            [:ul.upholstery-types-sub-list
+             [:li {:data-tab "upholstery-tab-1"} [:a {:href "javascript:;"} "Back to all grade a"]]]
+            [:h5 "Alignment K395"]
+            [:ul.upholstery-tetile-list
+             [:li [:div.swatch-div [:img {:src "/images/upholstery-12.jpg" :data-no-retina ""}]] [:p "2 Straw"]]
+             [:li [:div.swatch-div [:img {:src "/images/upholstery-13.jpg" :data-no-retina ""}]] [:p "3 Earth"]]
+             [:li [:div.swatch-div [:img {:src "/images/upholstery-14.jpg" :data-no-retina ""}]] [:p "4 Paprika"]]
+             [:li [:div.swatch-div [:img {:src "/images/upholstery-15.jpg" :data-no-retina ""}]] [:p "5 Aloe"]]
+             [:li [:div.swatch-div [:img {:src "/images/upholstery-16.jpg" :data-no-retina ""}]] [:p "Textile 7"]]
+             [:li [:div.swatch-div [:img {:src "/images/upholstery-17.jpg" :data-no-retina ""}]] [:p "Textile 8"]]]]]])]))
 
 (defn- lead-time-tab-clicked [evt]
   (let [target (js/$ (.-currentTarget evt))
         tab (.data target "tab")
         tab-content (str "#" tab ".popup-tab-content")]
-    #_(.log js/console (str "target: " target))
-    #_(.log js/console (str "tab: " tab))
-    #_(.log js/console (str "tab-content: " tab-content))
+    
+    #_(when config/debug?
+      (.log js/console (str "target: " target))
+      (.log js/console (str "tab: " tab))
+      (.log js/console (str "tab-content: " tab-content)))
     (.removeClass (js/$ ".essentials-tab-list > li") "selected") ; deselect the current tab
     (.removeClass (js/$ ".popup-tab-content") "selected") ; and hide the current tab's contents
     (.addClass target "selected")       ; select the new tab
@@ -330,37 +333,41 @@
       (.removeClass (js/$ ".popup-tab-content.selected .finish-tab-wrap .finish-tab-content") "selected") ; make sure only the selected pill's contents are showing
       (.addClass (js/$ (str ".finish-tab-wrap " "#" selected-pill)) "selected"))))
 
-(defn popup-tab-wrap [selected-prod lead-times-set]
-  (let [first-tab (atom nil)]
+(defn popup-tab-wrap []
+  (let [selected-prod (<sub [::subs/selected-product])
+        lead-times-set (set (:lead-times selected-prod))
+        num-lead-times (count lead-times-set)
+        epp-id (:epp-id selected-prod)]
+    
     [:div#style-2.scrollbar
      [:div.popup-tab-wrap.force-overflow
       (if (lead-times-set "quick")
-        (do
-          (if-not @first-tab (reset! first-tab "quick"))
-          [tab-contents "quick" selected-prod lead-times-set @first-tab]))
-      (if (lead-times-set "three-week")
-        (do
-          (if-not @first-tab (reset! first-tab "three-week"))
-          [tab-contents "three-week" selected-prod lead-times-set @first-tab]))
-      (if (lead-times-set "std")
-        (do
-          (if-not @first-tab (reset! first-tab "std"))
-          [tab-contents "std" selected-prod lead-times-set @first-tab]))]]))
+        [tab-contents "quick" selected-prod lead-times-set (= 3 num-lead-times)])
 
-(defn product-tabs [selected-prod lead-times-set]
-  (let [first-tab (atom nil)
+      (if (lead-times-set "three-week")
+        [tab-contents "three-week" selected-prod lead-times-set (= 2 num-lead-times)])
+
+      (if (lead-times-set "std")
+        [tab-contents "std" selected-prod lead-times-set (= 1 num-lead-times)])]]))
+
+(defn product-tabs []
+  (let [selected-prod (<sub [::subs/selected-product])
+        lead-times-set (set (:lead-times selected-prod))
+        epp-id (:epp-id selected-prod)
         tab-width (case (count lead-times-set)
                     (0 1) "100%"
                     2 "50%"
                     3 "33.33%")]
 
     [:div.essentials-product-tabs
+     ^{:key :epp-id}
      [:ul.essentials-tab-list
       (if (lead-times-set "quick")
         (do
-          (if-not @first-tab (reset! first-tab "quick"))
-          [:li {:data-tab "quick"
-                :class (if (= "quick" @first-tab) "selected" "")
+          ^{:key (str epp-id "-" "quick")}
+          [:li {:id (str epp-id "-" "quick")
+                :data-tab "quick"
+                :class (if (= 3 (count lead-times-set)) "selected")
                 :style {:width tab-width}
                 :on-click lead-time-tab-clicked}
            [:span.tab-color.quick-lead-active]
@@ -368,9 +375,10 @@
 
       (if (lead-times-set "three-week")
         (do
-          (if-not @first-tab (reset! first-tab "three-week"))
-          [:li {:data-tab "three-week"
-                :class (if (= "three-week" @first-tab) "selected" "")
+          ^{:key (str epp-id "-" "three-week")}
+          [:li {:id (str epp-id "-" "three-week")
+                :data-tab "three-week"
+                :class (if (= 2 (count lead-times-set)) "selected")
                 :style {:width tab-width}
                 :on-click lead-time-tab-clicked}
            [:span.tab-color.three-ship-active]
@@ -378,9 +386,10 @@
 
       (if (lead-times-set "std")
         (do
-          (if-not @first-tab (reset! first-tab "std"))
-          [:li {:data-tab "std"
-                :class (if (= "std" @first-tab) "selected" "")
+          ^{:key (str epp-id "-" "std")}
+          [:li {:id (str epp-id "-" "std")
+                :data-tab "std"
+                :class (if (= 1 (count lead-times-set)) "selected")
                 :style {:width tab-width}
                 :on-click lead-time-tab-clicked}
            [:span.tab-color.standard-ship-active]
@@ -491,7 +500,7 @@
 (defn modal-popup []
   (let [selected-prod (<sub [::subs/selected-product])
         lead-times-set (set (:lead-times selected-prod))]
-    [:div#essentials-modal.white-popup-block.xmfp-hide
+    [:div#essentials-modal.white-popup-block.mfp-hide
      [:div.essentials-modal-wrap
       [:div.header-popup-view
        [:div.popup-action-list-wrap
@@ -508,12 +517,14 @@
         [:div.essentials-modal-content
          [:div.essentials-product-img
           [:div.essentials-product-img-wrap
-           [:img {:src (str "https://knlprdwcsmgt.knoll.com/media" (:hero1-img selected-prod)) :data-no-retina ""}]]
+           (when (:hero1-img selected-prod)
+             ^{:key (str (:epp-id selected-prod) "-" (:hero1-img selected-prod))}
+             [:img {:src (str "https://knlprdwcsmgt.knoll.com/media" (:hero1-img selected-prod)) :data-no-retina ""}])]
           [:div.essentials-product-img-detail
            [:h2 (:title selected-prod)]
            [:div {:dangerouslySetInnerHTML {:__html (:short-text selected-prod)}}]]]
 
-         (product-tabs selected-prod lead-times-set)]]]]]))
+         [product-tabs]]]]]]))
 
 (defn mouse-pos-comp []
   (reagent/with-let [pointer (reagent/atom {:x nil :y nil})
