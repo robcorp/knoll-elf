@@ -340,6 +340,18 @@
       (.removeClass (js/$ ".popup-tab-content.selected .finish-tab-wrap .finish-tab-content") "selected") ; make sure only the selected pill's contents are showing
       (.addClass (js/$ (str ".finish-tab-wrap " "#" selected-pill)) "selected"))))
 
+(defn- lead-time-dropdown-selection-changed [evt]
+  (let [tab (.. evt -target -value)
+        tab-content (str "#" tab ".popup-tab-content")]
+
+    (.removeClass (js/$ ".essentials-tab-list > li") "selected") ; deselect the current tab
+    (.removeClass (js/$ ".popup-tab-content") "selected") ; and hide the current tab's contents
+    #_(.addClass target "selected")           ; select the new tab
+    (.addClass (js/$ tab-content) "selected") ; show the new tab's content
+    (let [selected-pill (.data (js/$ ".popup-tab-content.selected .finish-types-list > li.selected") "tab")]
+      (.removeClass (js/$ ".popup-tab-content.selected .finish-tab-wrap .finish-tab-content") "selected") ; make sure only the selected pill's contents are showing
+      (.addClass (js/$ (str ".finish-tab-wrap " "#" selected-pill)) "selected"))))
+
 (defn popup-tab-wrap []
   (let [selected-prod (<sub [::subs/selected-product])
         lead-times-set (set (:lead-times selected-prod))
@@ -360,11 +372,16 @@
 (defn product-tabs []
   (let [selected-prod (<sub [::subs/selected-product])
         lead-times-set (set (:lead-times selected-prod))
+        lead-times-count (count lead-times-set)
         epp-id (:epp-id selected-prod)
-        tab-width (case (count lead-times-set)
+        tab-width (case lead-times-count
                     (0 1) "100%"
                     2 "50%"
-                    3 "33.33%")]
+                    3 "33.33%")
+        select-default-value (case lead-times-count
+                               3 "quick"
+                               2 "three-week"
+                               (0 1) "std")]
 
     [:div.essentials-product-tabs
      ^{:key :epp-id}
@@ -374,7 +391,7 @@
           ^{:key (str epp-id "-" "quick")}
           [:li {:id (str epp-id "-" "quick")
                 :data-tab "quick"
-                :class (if (= 3 (count lead-times-set)) "selected")
+                :class (if (= 3 lead-times-count) "selected")
                 :style {:width tab-width}
                 :on-click lead-time-tab-clicked}
            [:span.tab-color.quick-lead-active]
@@ -385,7 +402,7 @@
           ^{:key (str epp-id "-" "three-week")}
           [:li {:id (str epp-id "-" "three-week")
                 :data-tab "three-week"
-                :class (if (= 2 (count lead-times-set)) "selected")
+                :class (if (= 2 lead-times-count) "selected")
                 :style {:width tab-width}
                 :on-click lead-time-tab-clicked}
            [:span.tab-color.three-ship-active]
@@ -396,21 +413,23 @@
           ^{:key (str epp-id "-" "std")}
           [:li {:id (str epp-id "-" "std")
                 :data-tab "std"
-                :class (if (= 1 (count lead-times-set)) "selected")
+                :class (if (= 1 lead-times-count) "selected")
                 :style {:width tab-width}
                 :on-click lead-time-tab-clicked}
            [:span.tab-color.standard-ship-active]
            [:a.tab-nav "Standard Ship options"]]))]
 
-     [:select.tab-select-option
+     ^{:key (str "select-" epp-id)}
+     [:select.tab-select-option {:defaultValue select-default-value
+                                 :on-change lead-time-dropdown-selection-changed}
       (if (lead-times-set "quick")
-        [:option {:value "tab1"} "ESSENTIALS Quickship options"])
+        [:option {:value "quick"} "ESSENTIALS QUICKSHIP OPTIONS"])
 
       (if (lead-times-set "three-week")
-        [:option {:value "tab2"} "Essentials 3 week options"])
+        [:option {:value "three-week"} "ESSENTIALS 3 WEEK OPTIONS"])
 
       (if (lead-times-set "std")
-        [:option {:value "tab3"} "Standard Ship options"])]
+        [:option {:value "std"} "STANDARD SHIP OPTIONS"])]
 
      [popup-tab-wrap selected-prod lead-times-set]
      
