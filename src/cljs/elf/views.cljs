@@ -25,7 +25,7 @@
             [:p "(built using the re-frame app framework.)"]
             [mouse-pos-comp]
             [:hr]])
-     [:section.wrapper
+     [:section.wrapper.essentials
       [:section#page
        [:div {:class "product-col clearfix"}
         [filters-view]
@@ -215,10 +215,7 @@
   (let [target (js/$ (.-currentTarget evt))
         tab (.data target "tab")
         tab-content (str ".popup-tab-content.selected " "#" tab ".finish-tab-content")]
-    #_(when config/debug?
-      (.log js/console (str "target: " target))
-      (.log js/console (str "tab: " tab))
-      (.log js/console (str "tab-content: " tab-content)))
+
     (.removeClass (js/$ ".popup-tab-content.selected .finish-types-list > li") "selected") ; deselect the current pill
     (.removeClass (js/$ ".finish-tab-content") "selected") ; and hide the current pill's tab contents
     (.addClass target "selected") ; select the new tab
@@ -236,6 +233,7 @@
   (if (> (count fins) 0)
     ^{:key (str "finiish-" title "-tab")}
     [:div {:id (str "finish-" (str/replace title #"[^a-zA-Z0-9-]" "")) :class ["finish-tab-content" (if (= i 0) "selected")]}
+     [:h5.print-show title]
      [:ul.frame-list
            (for [fin fins]
              ^{:key (:id fin)}
@@ -247,10 +245,17 @@
 (defn tab-contents [lead-time selected-prod lead-times-set selected?]
   (let [avail-fin-mods (select [:availFinMods ALL #(not= "Options" (:title %)) (collect-one :title) (keyword lead-time) :fins] selected-prod)
         [optsTitle opts] (select-first [:availFinMods ALL #(= "options" (str/lower-case (:title %))) (collect-one :title) (keyword lead-time)] selected-prod)
-        tab-content-class (if selected? "selected" "")]
+        tab-content-class (if selected? "selected" "")
+        print-show-text (case (keyword lead-time)
+                          :quick "Essentials Quickship options"
+                          :three-week "Essentials 3 week options"
+                          :std "Standard Ship options")]
 
     ^{:key (str (:epp-id selected-prod) "-" lead-time)}
     [:div.popup-tab-content {:id lead-time :class tab-content-class}
+     [:h3.print-show.print-show-h3
+      [:a.tab-nav print-show-text]]
+     
      (if opts
        [:div.options-list-wrap
         [:h4 optsTitle]
@@ -326,14 +331,10 @@
   (let [target (js/$ (.-currentTarget evt))
         tab (.data target "tab")
         tab-content (str "#" tab ".popup-tab-content")]
-    
-    #_(when config/debug?
-      (.log js/console (str "target: " target))
-      (.log js/console (str "tab: " tab))
-      (.log js/console (str "tab-content: " tab-content)))
+
     (.removeClass (js/$ ".essentials-tab-list > li") "selected") ; deselect the current tab
     (.removeClass (js/$ ".popup-tab-content") "selected") ; and hide the current tab's contents
-    (.addClass target "selected")       ; select the new tab
+    (.addClass target "selected")             ; select the new tab
     (.addClass (js/$ tab-content) "selected") ; show the new tab's content
     (let [selected-pill (.data (js/$ ".popup-tab-content.selected .finish-types-list > li.selected") "tab")]
       (.removeClass (js/$ ".popup-tab-content.selected .finish-tab-wrap .finish-tab-content") "selected") ; make sure only the selected pill's contents are showing
@@ -514,7 +515,7 @@
          [:li [:span.pop-action-icon]
           [:ul.popup-action-list
            [:li [:a {:href (str "https://www.knoll.com/product/" (:product-id selected-prod) "?section=design") :target "_blank"} " Visit Full Product Page"]]
-           [:li [:a {:href "javascript:;"} "Share"]] [:li [:a {:href "javascript:;"} "PRINT"]]
+           [:li [:a {:href "javascript:;"} "Share"]] [:li [:a {:href "javascript:;" :on-click #(.print js/window)} "PRINT"]]
            [:li [:a {:href "javascript:;"} "View essentials brochure"]]]]]]
        [:a.popup-modal-dismiss {:on-click #(->> js/$ .-magnificPopup .close)} "Dismiss"]]
 
