@@ -165,12 +165,6 @@
           [essential-product-summary label prod]))]]))
 
 
-(defn- setup-popup []
-  #_(.. (js/$ ".popup-modal")
-      (magnificPopup #js {:type "inline"
-                          :midClick true
-                          :showCloseBtn false})))
-
 (defn filtered-products-view []
   (let [all-products (<sub [::subs/all-products])
         filtered-seating-prods (<sub [::subs/filtered-seating-products])
@@ -231,7 +225,7 @@
 
 (defn- create-finish-types-tab [i [title fins]]
   (if (> (count fins) 0)
-    ^{:key (str "finiish-" title "-tab")}
+    ^{:key (str "finish-" title "-tab")}
     [:div {:id (str "finish-" (str/replace title #"[^a-zA-Z0-9-]" "")) :class ["finish-tab-content" (if (= i 0) "selected")]}
      [:h5.print-show title]
      [:ul.frame-list
@@ -241,6 +235,58 @@
               [:div.swatch-div
                [:img {:src (str "https://knlprdwcsmgt.knoll.com/media" (:img fin)) :data-no-retina ""}]]
               [:p (:color fin)]])]]))
+
+(defn- fabric-grade-pill-clicked [evt]
+  (let [target (js/$ (.-currentTarget evt))
+        tab (.data target "tab")
+        tab-content (str ".popup-tab-content.selected " "#" tab ".upholstery-tab-content")]
+
+    (.removeClass (js/$ ".popup-tab-content.selected .upholstery-types-list > li") "selected") ; deselect the current pill
+    (.removeClass (js/$ ".popup-tab-content.selected .upholstery-tab-content") "selected") ; and hide the current pill's tab contents
+    (.addClass target "selected") ; select the new tab
+    (.addClass (js/$ tab-content) "selected")))
+
+(defn- create-fabric-grade-pill [i grade]
+  ^{:key (str "grade-" grade "-pill")}
+  [:li {:class (if (= i 0) "selected" "")
+        :data-tab (str "grade-" grade)
+        :on-click fabric-grade-pill-clicked}
+   [:a {:href "javascript:;"} grade]])
+
+(defn- create-fabric-swatch [i fab]
+  (let [name (:Name fab)
+        part (:PartNum fab)
+        grade (:Grade fab)
+        primarySku (:PrimarySKU fab)
+        class (str "has-sub-tab" (if (= i 0) " selected"))]
+
+    ^{:key (str grade "-" part)}
+    [:li {:class class}
+     [:div.swatch-div
+      [:img {:src (str "https://www.knoll.com/textileimages/th/" part primarySku ".jpg")}]]
+     [:p name]]))
+
+(defn- create-fabric-grade-tab [i [grade fabs]]
+  (when grade
+    ^{:key (str "grade-" grade "-tab")}
+    [:div {:id (str "grade-" grade) :class (str "upholstery-tab-content" (if (= i 0) " selected"))}
+     [:h5.print-show (str "Grade " grade)]
+     [:ul.upholstery-textile-list
+      (map-indexed create-fabric-swatch (sort-by :Name fabs))]]))
+
+(defn approved-fabrics [lead-time]
+  (let [selected-prod (<sub [::subs/selected-product])
+        fabs (<sub [::subs/selected-product-textiles])
+        grades (->> fabs keys sort)]
+    (when (> (count fabs) 0)
+      [:div.upholstery-list-wrap
+       [:h4 "Fabrics"]
+       [:div.tab-main
+        [:label "Grade:"]
+        [:ul.upholstery-types-list
+         (map-indexed create-fabric-grade-pill grades)]]
+       [:div.upholstery-tab-wrap
+        (map-indexed create-fabric-grade-tab (sort fabs))]])))
 
 (defn tab-contents [lead-time selected-prod lead-times-set selected?]
   (let [avail-fin-mods (select [:availFinMods ALL #(not= "Options" (:title %)) (collect-one :title) (keyword lead-time) :fins] selected-prod)
@@ -269,63 +315,10 @@
           (map-indexed create-finish-types-pill avail-fin-mods)]]
 
         [:div.finish-tab-wrap
-         (map-indexed create-finish-types-tab avail-fin-mods)
-         
-         #_[:div#upholstery-tab-1.upholstery-tab-content.selected
-            [:ul.upholstery-tetile-list
-             [:li.selected.has-sub-tab {:data-tab "upholstery-tab-family-1"}
-              [:div.swatch-div
-               [:img {:src "images/upholstery-1.jpg" :data-no-retina ""}]] [:p "Textile 1"]]
-             [:li.selected.has-sub-tab {:data-tab "upholstery-tab-family-2"}
-              [:div.swatch-div [:img.selected.has-sub-tab {:src "/images/upholstery-2.jpg" :data-no-retina ""}]] [:p "Textile 2"]]
-             [:li [:div.swatch-div [:img {:src "/images/upholstery-3.jpg" :data-no-retina ""}]] [:p "Textile 3"]]
-             [:li [:div.swatch-div [:img {:src "/images/upholstery-4.jpg" :data-no-retina ""}]] [:p "Textile 4"]]
-             [:li [:div.swatch-div [:img {:src "/images/upholstery-5.jpg" :data-no-retina ""}]] [:p "Textile 5"]]
-             [:li [:div.swatch-div [:img {:src "/images/upholstery-6.jpg" :data-no-retina ""}]] [:p "Textile 6"]]
-             [:li [:div.swatch-div [:img {:src "/images/upholstery-7.jpg" :data-no-retina ""}]] [:p "Textile 7"]]
-             [:li [:div.swatch-div [:img {:src "/images/upholstery-8.jpg" :data-no-retina ""}]] [:p "Textile 8"]]]]
-         #_[:div#upholstery-tab-2.upholstery-tab-content
-            [:ul.upholstery-tetile-list
-             [:li
-              [:div.swatch-div [:img {:src "/images/upholstery-3.jpg" :data-no-retina ""}]] [:p "Textile 3"]]
-             [:li
-              [:div.swatch-div [:img {:src "/images/upholstery-4.jpg" :data-no-retina ""}]] [:p "Textile 4"]]
-             [:li [:div.swatch-div [:img {:src "/images/upholstery-8.jpg" :data-no-retina ""}]] [:p "Textile 8"]]]]
-         #_[:div#upholstery-tab-3.upholstery-tab-content
-            [:ul.upholstery-tetile-list
-             [:li [:div.swatch-div [:img {:src "/images/upholstery-3.jpg" :data-no-retina ""}]] [:p "Textile 3"]]
-             [:li [:div.swatch-div [:img {:src "/images/upholstery-4.jpg" :data-no-retina ""}]] [:p "Textile 4"]]
-             [:li [:div.swatch-div [:img {:src "/images/upholstery-7.jpg" :data-no-retina ""}]] [:p "Textile 7"]]
-             [:li [:div.swatch-div [:img {:src "/images/upholstery-8.jpg" :data-no-retina ""}]] [:p "Textile 8"]]]]]
-        #_[:div.sub-tab-wrap
-           [:div#upholstery-tab-family-1.upholstery-tab-content
-            [:ul.upholstery-types-sub-list
-             [:li {:data-tab "upholstery-tab-1"} [:a {:href "javascript:;"} "Back to all grade a"]]]
-            [:h5 "Alignment K394"]
-            [:ul.upholstery-tetile-list
-             [:li [:div.swatch-div [:img {:src "/images/upholstery-11.jpg" :data-no-retina ""}]] [:p "1 Sand"]]
-             [:li [:div.swatch-div [:img {:src "/images/upholstery-12.jpg" :data-no-retina ""}]] [:p "2 Straw"]]
-             [:li [:div.swatch-div [:img {:src "/images/upholstery-13.jpg" :data-no-retina ""}]] [:p "3 Earth"]]
-             [:li [:div.swatch-div [:img {:src "/images/upholstery-14.jpg" :data-no-retina ""}]] [:p "4 Paprika"]]
-             [:li [:div.swatch-div [:img {:src "/images/upholstery-15.jpg" :data-no-retina ""}]] [:p "5 Aloe"]]
-             [:li [:div.swatch-div [:img {:src "/images/upholstery-16.jpg" :data-no-retina ""}]] [:p "Textile 7"]]
-             [:li [:div.swatch-div [:img {:src "/images/upholstery-17.jpg" :data-no-retina ""}]] [:p "Textile 8"]]
-             [:li [:div.swatch-div [:img {:src "/images/upholstery-18.jpg" :data-no-retina ""}]] [:p "Textile 8"]]
-             [:li [:div.swatch-div [:img {:src "/images/upholstery-19.jpg" :data-no-retina ""}]] [:p "Textile 8"]]
-             [:li [:div.swatch-div [:img {:src "/images/upholstery-20.jpg" :data-no-retina ""}]] [:p "Textile 8"]]
-             [:li [:div.swatch-div [:img {:src "/images/upholstery-21.jpg" :data-no-retina ""}]] [:p "Textile 8"]]
-             [:li [:div.swatch-div [:img {:src "/images/upholstery-22.jpg" :data-no-retina ""}]] [:p "Textile 8"]]]]
-           [:div#upholstery-tab-family-2.upholstery-tab-content
-            [:ul.upholstery-types-sub-list
-             [:li {:data-tab "upholstery-tab-1"} [:a {:href "javascript:;"} "Back to all grade a"]]]
-            [:h5 "Alignment K395"]
-            [:ul.upholstery-tetile-list
-             [:li [:div.swatch-div [:img {:src "/images/upholstery-12.jpg" :data-no-retina ""}]] [:p "2 Straw"]]
-             [:li [:div.swatch-div [:img {:src "/images/upholstery-13.jpg" :data-no-retina ""}]] [:p "3 Earth"]]
-             [:li [:div.swatch-div [:img {:src "/images/upholstery-14.jpg" :data-no-retina ""}]] [:p "4 Paprika"]]
-             [:li [:div.swatch-div [:img {:src "/images/upholstery-15.jpg" :data-no-retina ""}]] [:p "5 Aloe"]]
-             [:li [:div.swatch-div [:img {:src "/images/upholstery-16.jpg" :data-no-retina ""}]] [:p "Textile 7"]]
-             [:li [:div.swatch-div [:img {:src "/images/upholstery-17.jpg" :data-no-retina ""}]] [:p "Textile 8"]]]]]])]))
+         (map-indexed create-finish-types-tab avail-fin-mods)]])
+
+     (if (not= "quick" lead-time)
+       [approved-fabrics lead-time])]))
 
 (defn- lead-time-tab-clicked [evt]
   (let [target (js/$ (.-currentTarget evt))
@@ -346,7 +339,6 @@
 
     (.removeClass (js/$ ".essentials-tab-list > li") "selected") ; deselect the current tab
     (.removeClass (js/$ ".popup-tab-content") "selected") ; and hide the current tab's contents
-    #_(.addClass target "selected")           ; select the new tab
     (.addClass (js/$ tab-content) "selected") ; show the new tab's content
     (let [selected-pill (.data (js/$ ".popup-tab-content.selected .finish-types-list > li.selected") "tab")]
       (.removeClass (js/$ ".popup-tab-content.selected .finish-tab-wrap .finish-tab-content") "selected") ; make sure only the selected pill's contents are showing
@@ -431,102 +423,12 @@
       (if (lead-times-set "std")
         [:option {:value "std"} "STANDARD SHIP OPTIONS"])]
 
-     [popup-tab-wrap selected-prod lead-times-set]
-     
-     #_[:div.popup-tab-wrap {:style {:height "450px"}}
-
-        (if (lead-times-set "quick")
-          [:<> [tab-contents "quick"]])
-
-        (if (lead-times-set "three-week")
-          [:<> [tab-contents "three-week"]])
-
-        (if (lead-times-set "std")
-          [:<> [tab-contents "std"]])]
-
-     #_[:div#tab2.popup-tab-content
-        [:div.options-list-wrap
-         [:h4 "Options"]
-         [:ul.options-list
-          [:li " Three arm options, or armless"]
-          [:li " Lumbar support"]
-          [:li " Lumbar support"]]
-         [:ul.options-list
-          [:li " Three arm options, or armless"]
-          [:li " Three arm options, or armless"]
-          [:li " Lumbar support"]]]
-        [:div.upholstery-list-wrap [:h4 "Upholstery"]
-         [:label "Grade:"]
-         [:ul.upholstery-types-list
-          [:li.selected {:data-tab "upholstery-tab-a-1"} [:a {:href "javascript:;"} "a"]]
-          [:li {:data-tab "upholstery-tab-a-2"} [:a {:href "javascript:;"} "b"]]
-          [:li {:data-tab "upholstery-tab-a-3"} [:a {:href "javascript:;"} "c"]]]
-         [:div.upholstery-tab-wrap
-          [:div#upholstery-tab-a-1.upholstery-tab-content.selected
-           [:ul.upholstery-tetile-list
-            [:li [:div.swatch-div [:img {:src "/images/upholstery-1.jpg" :data-no-retina ""}]] [:p "Textile 1"]]
-            [:li [:div.swatch-div [:img {:src "/images/upholstery-2.jpg" :data-no-retina ""}]] [:p "Textile 2"]]
-            [:li [:div.swatch-div [:img {:src "/images/upholstery-3.jpg" :data-no-retina ""}]] [:p "Textile 3"]]
-            [:li [:div.swatch-div [:img {:src "/images/upholstery-4.jpg" :data-no-retina ""}]] [:p "Textile 4"]]
-            [:li [:div.swatch-div [:img {:src "/images/upholstery-5.jpg" :data-no-retina ""}]] [:p "Textile 5"]]]]
-          [:div#upholstery-tab-a-2.upholstery-tab-content
-           [:ul.upholstery-tetile-list
-            [:li [:div.swatch-div [:img {:src "/images/upholstery-3.jpg" :data-no-retina ""}]] [:p "Textile 3"]]
-            [:li [:div.swatch-div [:img {:src "/images/upholstery-4.jpg" :data-no-retina ""}]] [:p "Textile 4"]]
-            [:li [:div.swatch-div [:img {:src "/images/upholstery-8.jpg" :data-no-retina ""}]] [:p "Textile 8"]]]]
-          [:div#upholstery-tab-a-3.upholstery-tab-content
-           [:ul.upholstery-tetile-list
-            [:li [:div.swatch-div [:img {:src "/images/upholstery-3.jpg" :data-no-retina ""}]] [:p "Textile 3"]]
-            [:li [:div.swatch-div [:img {:src "/images/upholstery-4.jpg" :data-no-retina ""}]] [:p "Textile 4"]]
-            [:li [:div.swatch-div [:img {:src "/images/upholstery-7.jpg" :data-no-retina ""}]] [:p "Textile 7"]]
-            [:li [:div.swatch-div [:img {:src "/images/upholstery-8.jpg" :data-no-retina ""}]] [:p "Textile 8"]]]]]]]
-
-     #_[:div#tab3.popup-tab-content
-        [:div.options-list-wrap
-         [:h4 "Options"]
-         [:ul.options-list
-          [:li " Three arm options, or armless"]
-          [:li " Lumbar support"]
-          [:li " Three arm options, or armless"]
-          [:li " Lumbar support"]]
-         [:ul.options-list
-          [:li " Three arm options, or armless"]
-          [:li " Lumbar support"]
-          [:li " Three arm options, or armless"]
-          [:li " Lumbar support"]]]
-        [:div.upholstery-list-wrap
-         [:h4 "Upholstery"] [:label "Grade:"]
-         [:ul.upholstery-types-list
-          [:li.selected {:data-tab "upholstery-tab-b-1"} [:a {:href "javascript:;"} "a"]]
-          [:li {:data-tab "upholstery-tab-b-2"} [:a {:href "javascript:;"} "b"]]
-          [:li {:data-tab "upholstery-tab-b-3"} [:a {:href "javascript:;"} "c"]]]
-         [:div.upholstery-tab-wrap
-          [:div#upholstery-tab-b-1.upholstery-tab-content.selected
-           [:ul.upholstery-tetile-list
-            [:li [:div.swatch-div [:img {:src "/images/upholstery-1.jpg" :data-no-retina ""}]] [:p "Textile 1"]]
-            [:li [:div.swatch-div [:img {:src "/images/upholstery-2.jpg" :data-no-retina ""}]] [:p "Textile 2"]]
-            [:li [:div.swatch-div [:img {:src "/images/upholstery-3.jpg" :data-no-retina ""}]] [:p "Textile 3"]]
-            [:li [:div.swatch-div [:img {:src "/images/upholstery-4.jpg" :data-no-retina ""}]] [:p "Textile 4"]]
-            [:li [:div.swatch-div [:img {:src "/images/upholstery-5.jpg" :data-no-retina ""}]] [:p "Textile 5"]]
-            [:li [:div.swatch-div [:img {:src "/images/upholstery-6.jpg" :data-no-retina ""}]] [:p "Textile 6"]]
-            [:li [:div.swatch-div [:img {:src "/images/upholstery-7.jpg" :data-no-retina ""}]] [:p "Textile 7"]]
-            [:li [:div.swatch-div [:img {:src "/images/upholstery-8.jpg" :data-no-retina ""}]] [:p "Textile 8"]]]]
-          [:div#upholstery-tab-b-2.upholstery-tab-content
-           [:ul.upholstery-tetile-list
-            [:li [:div.swatch-div [:img {:src "/images/upholstery-3.jpg" :data-no-retina ""}]] [:p "Textile 3"]]
-            [:li [:div.swatch-div [:img {:src "/images/upholstery-4.jpg" :data-no-retina ""}]] [:p "Textile 4"]]
-            [:li [:div.swatch-div [:img {:src "/images/upholstery-8.jpg" :data-no-retina ""}]] [:p "Textile 8"]]]]
-          [:div#upholstery-tab-b-3.upholstery-tab-content
-           [:ul.upholstery-tetile-list
-            [:li [:div.swatch-div [:img {:src "/images/upholstery-3.jpg" :data-no-retina ""}]] [:p "Textile 3"]]
-            [:li [:div.swatch-div [:img {:src "/images/upholstery-4.jpg" :data-no-retina ""}]] [:p "Textile 4"]]
-            [:li [:div.swatch-div [:img {:src "/images/upholstery-7.jpg" :data-no-retina ""}]] [:p "Textile 7"]]
-            [:li [:div.swatch-div [:img {:src "/images/upholstery-8.jpg" :data-no-retina ""}]] [:p "Textile 8"]]]]]]]]))
+     [popup-tab-wrap selected-prod lead-times-set]]))
 
 (defn modal-popup []
   (let [selected-prod (<sub [::subs/selected-product])
         lead-times-set (set (:lead-times selected-prod))]
-    [:div#essentials-modal.white-popup-block.mfp-hide
+    [:div#essentials-modal.white-popup-block.xmfp-hide
      [:div.essentials-modal-wrap
       [:div.header-popup-view
        [:div.popup-action-list-wrap

@@ -5,14 +5,17 @@
             [day8.re-frame.tracing :refer-macros [fn-traced defn-traced]]
             [com.rpl.specter :refer [ALL collect-one multi-path walker] :refer-macros [select select-first setval transform] :as spctr]
             [ajax.core :as ajax]
-            [clojure.string :as str]))
+            [clojure.string :as str]
+            [day8.re-frame.http-fx]))
 
 
-(declare load-all-products load-filter-options filter-category-products)
+(declare load-textiles-approvals load-textiles-info load-all-products load-filter-options filter-category-products)
 
 (reg-event-db
  ::initialize-db
  (fn-traced [_ _]
+   (load-textiles-approvals)
+   (load-textiles-info)
    (load-filter-options "ELFSeatingSelector")
    (load-filter-options "ELFTableSelector")
    (load-filter-options "ELFStorageSelector")
@@ -80,6 +83,15 @@
      (.setItem js/localStorage selector filter-options)
      (assoc db selector-key filter-options))))
 
+(reg-event-db
+ ::set-textiles-approvals
+ (fn-traced [db [_ resp]]
+   (assoc db :textiles-approvals resp)))
+
+(reg-event-db
+ ::set-textiles-info
+ (fn-traced [db [_ resp]]
+   (assoc db :textiles-info resp)))
 
 (defn- update-lead-time-filter-state [selected-filter filters]
   (->> filters
@@ -153,7 +165,7 @@
 (reg-event-db
  ::product-selected
  (fn-traced [db [_ label epp-id] event]
-            (.. js/$ -magnificPopup
+            #_(.. js/$ -magnificPopup
                 (open (clj->js {:type "inline"
                                 :midClick true
                                 :showCloseBtn false
@@ -187,7 +199,7 @@
   (let [path "/cs/Satellite?pagename=Knoll/Common/Utils/EssentialsPopupProductsJSON"
         all-products-url (if config/debug?
                            (if config/use-local-products?
-                             "http://localhost:3449/all-products.json" ;; use the local file - this file should be updated periodically using the json from prod or staging
+                             "http://localhost:3449/elf/json/all-products.json" ;; use the local file - this file should be updated periodically using the json from prod or staging
                              (str "http://knlprdwcsmgt1.knoll.com" path)) ;; use staging url
                            (str (.. js/window -location -origin) path)) ;; use the host of the current browser window
         success-handler (fn [resp]
@@ -248,3 +260,32 @@
  (fn [db _]
    (let [next-prod (next-visible-prod-id db)]
      (assoc db :selected-epp-id next-prod))))
+
+
+(defn- load-textiles-approvals []
+  (let [path "/elf/json/knolltextiles_approvals.json"
+        url (if config/debug?
+              (str "http://localhost:3449" path)
+              (str "http://knlprdwcsmgt1.knoll.com" path))
+        success-handler (fn [resp]
+                          (re-frame/dispatch [::set-textiles-approvals resp]))
+        error-handler (fn [{:keys [status status-text]}]
+                        (.log js/console (str "Ajax request to get knolltextiles-approvals failed: " status " " status-text))
+                        #_(re-frame/dispatch [::use-default-db]))]
+
+    (ajax/GET url {:timeout 90000 :handler success-handler :error-handler error-handler :response-format :json :keywords? true})))
+
+(defn- load-textiles-info []
+  (let [path "/elf/json/knolltextiles_info.json"
+        url (if config/debug?
+              (str "http://localhost:3449" path) ;; use the local
+              (str "http://knlprdwcsmgt1.knoll.com" path))
+        success-handler (fn [resp]
+                          (re-frame/dispatch [::set-textiles-info resp]))
+        error-handler (fn [{:keys [status status-text]}]
+                        (.log js/console (str "Ajax request to get knolltextiles-info failed: " status " " status-text))
+                        #_(re-frame/dispatch [::use-default-db]))]
+
+    (ajax/GET url {:timeout 90000 :handler success-handler :error-handler error-handler :response-format :json :keywords? true})))
+
+

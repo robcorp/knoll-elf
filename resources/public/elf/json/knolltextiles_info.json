@@ -1,0 +1,1934 @@
+[
+ {
+   "Name": "Alignment",
+   "PartNum": "K349",
+   "Grade": "A",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Beacon",
+   "PartNum": "W1597",
+   "Grade": "A",
+   "EssntlSKUs": "W15971, W15972, W15973, W15974, W15975, W15976, W15977, W15978, W15979, W159710, W159711, W159712",
+   "PrimarySKU": "5"
+ },
+ {
+   "Name": "Bocce",
+   "PartNum": "K1255",
+   "Grade": "A",
+   "EssntlSKUs": "",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Cat's Cradle",
+   "PartNum": "K1290",
+   "Grade": "A",
+   "EssntlSKUs": "",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Chance",
+   "PartNum": "K1552",
+   "Grade": "A",
+   "EssntlSKUs": "K15521, K15522, K15523, K15524, K15525, K15526, K15527, K15528, K155210",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Common Ground",
+   "PartNum": "K448",
+   "Grade": "A",
+   "EssntlSKUs": "",
+   "PrimarySKU": "9"
+ },
+ {
+   "Name": "Commuter Cloth",
+   "PartNum": "K1778",
+   "Grade": "A",
+   "EssntlSKUs": "K17781, K17782, K17783, K17784, K17785, K17785, K17786, K17787, K17788, K17789, K177810, K177811, K177812, W17813",
+   "PrimarySKU": "10"
+ },
+ {
+   "Name": "Crossroad",
+   "PartNum": "K2085",
+   "Grade": "A",
+   "EssntlSKUs": "K20851, K20852, K20853, K20854, K20855, K20856, K20857, K20858, K20859, K208510, K208511, K208512, K208513, K208514, K208515, K208516, K208517, K208518, K208519, K208520, K208521, K208522, K208523, K208524",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Delite",
+   "PartNum": "K2026",
+   "Grade": "A",
+   "EssntlSKUs": "K20261, K20262, K20263, K20264, K20265, K20266, K20267, K20268, K20269, K202610, K202611, K202612, K202613, K202614",
+   "PrimarySKU": "5"
+ },
+ {
+   "Name": "Dristi",
+   "PartNum": "K872",
+   "Grade": "A",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Foil Rap",
+   "PartNum": "W535",
+   "Grade": "A",
+   "EssntlSKUs": "",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Heavy Metal",
+   "PartNum": "W539",
+   "Grade": "A",
+   "EssntlSKUs": "",
+   "PrimarySKU": "2"
+ },
+ {
+   "Name": "Hourglass",
+   "PartNum": "K1523",
+   "Grade": "A",
+   "EssntlSKUs": "K15231, K15232, K15233, K15234, K15235, K15236, K15237, K15238, K15239, K152310, K152311, K152312, K152313, K152314, K152315, K152316, K152317, K152318, K152319, K152320, K152321, K152322, K152323, K152324, K152325, K152326, K152327, K152328",
+   "PrimarySKU": "18"
+ },
+ {
+   "Name": "Mariner",
+   "PartNum": "K642",
+   "Grade": "A",
+   "EssntlSKUs": "",
+   "PrimarySKU": "8"
+ },
+ {
+   "Name": "Metaphor",
+   "PartNum": "K612",
+   "Grade": "A",
+   "EssntlSKUs": "",
+   "PrimarySKU": ""
+ },
+ {
+   "Name": "Monarch",
+   "PartNum": "K1149",
+   "Grade": "A",
+   "EssntlSKUs": "",
+   "PrimarySKU": "11"
+ },
+ {
+   "Name": "Oh La La",
+   "PartNum": "K2201",
+   "Grade": "A",
+   "EssntlSKUs": "K22011, K22012, K22013, K22014, K22015, K22016, K22017, K22018, K22019, K220110, K220111, K220112, K220113, K220114",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Overture",
+   "PartNum": "K2169",
+   "Grade": "A",
+   "EssntlSKUs": "",
+   "PrimarySKU": "5"
+ },
+ {
+   "Name": "Prep",
+   "PartNum": "K1076",
+   "Grade": "A",
+   "EssntlSKUs": "",
+   "PrimarySKU": "5"
+ },
+ {
+   "Name": "Presto",
+   "PartNum": "K1000",
+   "Grade": "A",
+   "EssntlSKUs": "",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Soliloquy",
+   "PartNum": "K1458",
+   "Grade": "A",
+   "EssntlSKUs": "",
+   "PrimarySKU": "2"
+ },
+ {
+   "Name": "Sonnet",
+   "PartNum": "K1460",
+   "Grade": "A",
+   "EssntlSKUs": "K14601, K14602, K14603, K14604, K14605, K14606, K14607, K14608, K14609, K146010, K146011, K146012",
+   "PrimarySKU": "9"
+ },
+ {
+   "Name": "Trophy",
+   "PartNum": "K1709",
+   "Grade": "A",
+   "EssntlSKUs": "",
+   "PrimarySKU": "6"
+ },
+ {
+   "Name": "Uni-Form",
+   "PartNum": "K2125",
+   "Grade": "A",
+   "EssntlSKUs": "K21251, K21252, K21253, K21254, K21255, K21256, K21257, K21258, K21259, K212510, K212511, K212512, K212513, K212514",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Abacus",
+   "PartNum": "K715",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1A"
+ },
+ {
+   "Name": "Argyle",
+   "PartNum": "K1938",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "6"
+ },
+ {
+   "Name": "Backdrop",
+   "PartNum": "W302",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": ""
+ },
+ {
+   "Name": "Bank Shot",
+   "PartNum": "K134",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "5"
+ },
+ {
+   "Name": "Belize",
+   "PartNum": "K1165",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "6"
+ },
+ {
+   "Name": "Bistro",
+   "PartNum": "K1775",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "2"
+ },
+ {
+   "Name": "Boundary",
+   "PartNum": "K1828",
+   "Grade": "B",
+   "EssntlSKUs": "K18281, K18282, K18283, K18284, K18285, K18286, K18287, K18288, K18289, K182810",
+   "PrimarySKU": "7"
+ },
+ {
+   "Name": "Brigadoon",
+   "PartNum": "K2167",
+   "Grade": "B",
+   "EssntlSKUs": "K21671, K21672, K21673, K21674, K21675, K21676, K21677, K21678",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Calypso",
+   "PartNum": "K2127",
+   "Grade": "B",
+   "EssntlSKUs": "K21271, K21272, K21273, K21274, K21275, K21276, K21277, K21278",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Cameo",
+   "PartNum": "K1460",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "7"
+ },
+ {
+   "Name": "Chroma",
+   "PartNum": "K345",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Chronicle",
+   "PartNum": "K1525",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Close Knit",
+   "PartNum": "K201",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "10"
+ },
+ {
+   "Name": "Day Tripper",
+   "PartNum": "K2248",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "10"
+ },
+ {
+   "Name": "Digit ",
+   "PartNum": "K891",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": ""
+ },
+ {
+   "Name": "Digital Tape",
+   "PartNum": "W304",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": ""
+ },
+ {
+   "Name": "Diva",
+   "PartNum": "K2051",
+   "Grade": "B",
+   "EssntlSKUs": "K20511, K20512, K20513, K20514, K20515, K20516, K20517, K20518, K20519, K205110, K205111, K205112",
+   "PrimarySKU": "7"
+ },
+ {
+   "Name": "Dovetail",
+   "PartNum": "K1150",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Fast Forward",
+   "PartNum": "W301",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": ""
+ },
+ {
+   "Name": "Ferry",
+   "PartNum": "K1697",
+   "Grade": "B",
+   "EssntlSKUs": "K16971, K16972, K16973, K16974, K16975, K16976, K16977, K16978, K16979, K169710",
+   "PrimarySKU": "5"
+ },
+ {
+   "Name": "Forza",
+   "PartNum": "K584",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "8"
+ },
+ {
+   "Name": "Gala II",
+   "PartNum": "K1520",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Grande",
+   "PartNum": "K180",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Grandview",
+   "PartNum": "K1463",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Helios",
+   "PartNum": "K2089",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "5"
+ },
+ {
+   "Name": "Holbrook",
+   "PartNum": "K1928",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "6"
+ },
+ {
+   "Name": "Instinct ",
+   "PartNum": "K2258",
+   "Grade": "B",
+   "EssntlSKUs": "K22581, K22582, K22583, K22584, K22585, K22586, K22587, K22588, K22589, K225810, K225811, K225812, K225813, K225814, K225815",
+   "PrimarySKU": "10"
+ },
+ {
+   "Name": "Journey",
+   "PartNum": "K1806",
+   "Grade": "B",
+   "EssntlSKUs": "K18061, K18062, K18063, K18064, K18065, K18066, K18068, K18069, K180610, K180611, K180612, K180613, K180614, K180615, K180616, K180617, K180618",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Keaton",
+   "PartNum": "K1596",
+   "Grade": "B",
+   "EssntlSKUs": "K15961, K15962, K15963, K15964, K15965, K15966, K15967, K15968",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Knoll Felt",
+   "PartNum": "K1207",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "9"
+ },
+ {
+   "Name": "Knoll Hopsack",
+   "PartNum": "K1206",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "10"
+ },
+ {
+   "Name": "Little Devil",
+   "PartNum": "K2112",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "5"
+ },
+ {
+   "Name": "Ludlow",
+   "PartNum": "K1998",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "5"
+ },
+ {
+   "Name": "Lyric",
+   "PartNum": "K698",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Melody",
+   "PartNum": "K2067",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Mini Stitch",
+   "PartNum": "K1130",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Night Life",
+   "PartNum": "K181",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "6"
+ },
+ {
+   "Name": "Paradigm",
+   "PartNum": "K1101",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "2"
+ },
+ {
+   "Name": "Petal Pusher",
+   "PartNum": "K1968",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "2"
+ },
+ {
+   "Name": "Pogo",
+   "PartNum": "K1100",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "2"
+ },
+ {
+   "Name": "Prairie",
+   "PartNum": "K1925",
+   "Grade": "B",
+   "EssntlSKUs": "K19251, K19252, K19253, K19254, K19255, K19256, K19257, K19258, K19259, K192510, K192511, K192512, K192513, K192514, K192515, K192516, K192517, K192518, K192519, K192520, K192521, K192522, K192523, K192524, K192525, K192526, K192527, K192528, K192529, K192530, K192531, K192532, K192533, K192534, K192535, K192536, K192537, K192538, K192539, K192540, K192541, K192542, K192543, K192544, K192545, K192546, K192547, K192548, K192549, K192550, K192551, K192552, K192553, K192554, K192555, K192556, K192557, K192558, K192558, K192559, K192560, K192561",
+   "PrimarySKU": "12"
+ },
+ {
+   "Name": "Prim",
+   "PartNum": "K1884",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Radiance",
+   "PartNum": "K1921",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Ransom",
+   "PartNum": "K1298",
+   "Grade": "B",
+   "EssntlSKUs": "K12981, K12982, K12983, K12984, K12985, K12986, K12987, K12988, K12989, K129810, K129811, K129812, K129813, K129814",
+   "PrimarySKU": "10"
+ },
+ {
+   "Name": "Roam",
+   "PartNum": "K1657",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Rush Hour",
+   "PartNum": "K1824",
+   "Grade": "B",
+   "EssntlSKUs": "K18241, K18242, K18243, K18244, K18245, K18246, K18247, K18248",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Soiree",
+   "PartNum": "K1616",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "2"
+ },
+ {
+   "Name": "Spark",
+   "PartNum": "K1075",
+   "Grade": "B",
+   "EssntlSKUs": "K10751, K10752, K10753, K10754, K10755, K10756, K10757, K10758, K10759, K107510, K107511, K107512",
+   "PrimarySKU": "8"
+ },
+ {
+   "Name": "Spinoff Nuance",
+   "PartNum": "K319",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": ""
+ },
+ {
+   "Name": "Spree",
+   "PartNum": "K1600",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "6"
+ },
+ {
+   "Name": "Starry Night",
+   "PartNum": "K529",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": ""
+ },
+ {
+   "Name": "Stripemania",
+   "PartNum": "K2225",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Summit",
+   "PartNum": "K2020",
+   "Grade": "B",
+   "EssntlSKUs": "K20201, K20202, K20203, K20204, K20205, K20206, K20207, K20208, K20209, K202010, K202011, K202012",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Sutton",
+   "PartNum": "K1750",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Synth",
+   "PartNum": "K1693",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Tabloid",
+   "PartNum": "K2022",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Tinge",
+   "PartNum": "K2068",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "9"
+ },
+ {
+   "Name": "Utmost",
+   "PartNum": "K1325",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "11"
+ },
+ {
+   "Name": "Venue",
+   "PartNum": "1558",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Versa",
+   "PartNum": "K1698",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Vinyl",
+   "PartNum": "K242",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "21"
+ },
+ {
+   "Name": "Westwood",
+   "PartNum": "K1949",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "5"
+ },
+ {
+   "Name": "Wide Angle",
+   "PartNum": "K244",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Wild Thing",
+   "PartNum": "K2240",
+   "Grade": "B",
+   "EssntlSKUs": "K22401, K22402, K22403, K22404, K22405, K22406, K22407, K22408",
+   "PrimarySKU": "2"
+ },
+ {
+   "Name": "Yeni",
+   "PartNum": "K2082",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Zipline",
+   "PartNum": "K1448",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "5"
+ },
+ {
+   "Name": "Atlas",
+   "PartNum": "K1236",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "13"
+ },
+ {
+   "Name": "Autobahn",
+   "PartNum": "K491",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": ""
+ },
+ {
+   "Name": "Axiom",
+   "PartNum": "K1650",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "7"
+ },
+ {
+   "Name": "Baxter",
+   "PartNum": "K1557",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "7"
+ },
+ {
+   "Name": "Biota",
+   "PartNum": "K1297",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Cairo",
+   "PartNum": "K2034",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "5"
+ },
+ {
+   "Name": "Charm",
+   "PartNum": "K1049",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Circa",
+   "PartNum": "K1054",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "8"
+ },
+ {
+   "Name": "Classic Boucle",
+   "PartNum": "K162",
+   "Grade": "C",
+   "EssntlSKUs": "K1627, K16212, K16220",
+   "PrimarySKU": "28"
+ },
+ {
+   "Name": "Color Field",
+   "PartNum": "K2226",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "9"
+ },
+ {
+   "Name": "Dahlia CR",
+   "PartNum": "HC1660",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Decade",
+   "PartNum": "K1053",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": ""
+ },
+ {
+   "Name": "Dune",
+   "PartNum": "K2047",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "2"
+ },
+ {
+   "Name": "Durand",
+   "PartNum": "K1885",
+   "Grade": "C",
+   "EssntlSKUs": "K18851, K18853, K18854, K18855, K18856, K18857",
+   "PrimarySKU": "5"
+ },
+ {
+   "Name": "Earthwork",
+   "PartNum": "K1238",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Echo",
+   "PartNum": "K1019",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": ""
+ },
+ {
+   "Name": "Empire Stripe",
+   "PartNum": "K1025",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Enmesh",
+   "PartNum": "K1092",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": ""
+ },
+ {
+   "Name": "Entourage",
+   "PartNum": "K1389",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Essence",
+   "PartNum": "K2059",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Fable CR",
+   "PartNum": "HC1122",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Fibra",
+   "PartNum": "K1105",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Greenwich",
+   "PartNum": "K1753",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Groovy",
+   "PartNum": "K2242",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "5"
+ },
+ {
+   "Name": "Hudson",
+   "PartNum": "K1765",
+   "Grade": "C",
+   "EssntlSKUs": "K17651, K17652, K17653, K17654, K17655, K17656, K17657",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Hula Hoop",
+   "PartNum": "K753",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "50"
+ },
+ {
+   "Name": "Kaleidoscope CR",
+   "PartNum": "HC1186",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": ""
+ },
+ {
+   "Name": "Kaya CR",
+   "PartNum": "K2122",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "11"
+ },
+ {
+   "Name": "Kora CR",
+   "PartNum": "HC1010",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "5"
+ },
+ {
+   "Name": "Lagos",
+   "PartNum": "K2028",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "2"
+ },
+ {
+   "Name": "Legend CR",
+   "PartNum": "HC1124",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Lore CR",
+   "PartNum": "HC1123",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Magnolia",
+   "PartNum": "K1999",
+   "Grade": "C",
+   "EssntlSKUs": "K19991, K19992, K19993, K19994, K19995, K19996, K19997, K19998",
+   "PrimarySKU": "8"
+ },
+ {
+   "Name": "Metro",
+   "PartNum": "K1018",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Milestone",
+   "PartNum": "K1886",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Moto CR",
+   "PartNum": "HC1002",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "2"
+ },
+ {
+   "Name": "Noble",
+   "PartNum": "K1556",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Palisade",
+   "PartNum": "K2030",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "10"
+ },
+ {
+   "Name": "Panache CR",
+   "PartNum": "HC1047",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Pullman",
+   "PartNum": "K2124",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "5"
+ },
+ {
+   "Name": "Quark",
+   "PartNum": "K781",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "2"
+ },
+ {
+   "Name": "Regard CR",
+   "PartNum": "HC1063",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "2"
+ },
+ {
+   "Name": "Roundtrip",
+   "PartNum": "K1430",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Sahara",
+   "PartNum": "HC1269",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "7"
+ },
+ {
+   "Name": "Sandpiper CR",
+   "PartNum": "HC1258",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "5"
+ },
+ {
+   "Name": "Sashiko",
+   "PartNum": "K2121",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "6"
+ },
+ {
+   "Name": "Sequin CR",
+   "PartNum": "HC1009",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Sinclair",
+   "PartNum": "K1555",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Smart",
+   "PartNum": "K1268",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "13"
+ },
+ {
+   "Name": "Spectator",
+   "PartNum": "K1391",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Spot On",
+   "PartNum": "K1324",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "2"
+ },
+ {
+   "Name": "Star Struck",
+   "PartNum": "K1048",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Stepping Stones",
+   "PartNum": "K346",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Swing",
+   "PartNum": "K479",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Tight Rope",
+   "PartNum": "K1798",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Tilden",
+   "PartNum": "K1779",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Tower Grid",
+   "PartNum": "K1887",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Transition",
+   "PartNum": "K816",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Treble CR",
+   "PartNum": "HC1062",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "7"
+ },
+ {
+   "Name": "Vibe II",
+   "PartNum": "K1029",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "7"
+ },
+ {
+   "Name": "Wit",
+   "PartNum": "K2050",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Zari CR",
+   "PartNum": "HC1008",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Zen Wave",
+   "PartNum": "K2078",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Chain Link",
+   "PartNum": "K2191",
+   "Grade": "D",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Compass CR",
+   "PartNum": "HC1183",
+   "Grade": "D",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Coterie",
+   "PartNum": "K1564",
+   "Grade": "D",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Eclat Weave",
+   "PartNum": "K1104",
+   "Grade": "D",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Hologram",
+   "PartNum": "K500",
+   "Grade": "D",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "In The Loop",
+   "PartNum": "K490",
+   "Grade": "D",
+   "EssntlSKUs": "",
+   "PrimarySKU": ""
+ },
+ {
+   "Name": "Island",
+   "PartNum": "K2053",
+   "Grade": "D",
+   "EssntlSKUs": "",
+   "PrimarySKU": "2"
+ },
+ {
+   "Name": "Kabuki",
+   "PartNum": "K2084",
+   "Grade": "D",
+   "EssntlSKUs": "",
+   "PrimarySKU": "5"
+ },
+ {
+   "Name": "Masquerade",
+   "PartNum": "K806",
+   "Grade": "D",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Menagerie",
+   "PartNum": "K1322",
+   "Grade": "D",
+   "EssntlSKUs": "",
+   "PrimarySKU": "5"
+ },
+ {
+   "Name": "Origins",
+   "PartNum": "K1700",
+   "Grade": "D",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Plaidtastic",
+   "PartNum": "K2238",
+   "Grade": "D",
+   "EssntlSKUs": "",
+   "PrimarySKU": "2"
+ },
+ {
+   "Name": "Satellite",
+   "PartNum": "K503",
+   "Grade": "D",
+   "EssntlSKUs": "",
+   "PrimarySKU": ""
+ },
+ {
+   "Name": "Satin Chisel",
+   "PartNum": "K487",
+   "Grade": "D",
+   "EssntlSKUs": "",
+   "PrimarySKU": ""
+ },
+ {
+   "Name": "Tara",
+   "PartNum": "K1967",
+   "Grade": "D",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Theory",
+   "PartNum": "K1656",
+   "Grade": "D",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Woodland",
+   "PartNum": "K2049",
+   "Grade": "D",
+   "EssntlSKUs": "",
+   "PrimarySKU": "5"
+ },
+ {
+   "Name": "Zoom",
+   "PartNum": "K113",
+   "Grade": "D",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Aegean",
+   "PartNum": "K2074",
+   "Grade": "E",
+   "EssntlSKUs": "",
+   "PrimarySKU": "2"
+ },
+ {
+   "Name": "Cleo",
+   "PartNum": "K2168",
+   "Grade": "E",
+   "EssntlSKUs": "",
+   "PrimarySKU": "5"
+ },
+ {
+   "Name": "Demure",
+   "PartNum": "K2023",
+   "Grade": "E",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Highland",
+   "PartNum": "K2010",
+   "Grade": "E",
+   "EssntlSKUs": "",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Ikat Square",
+   "PartNum": "K1703",
+   "Grade": "E",
+   "EssntlSKUs": "",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Ikat Stripe",
+   "PartNum": "K1701",
+   "Grade": "E",
+   "EssntlSKUs": "",
+   "PrimarySKU": "5"
+ },
+ {
+   "Name": "Juno",
+   "PartNum": "K2152",
+   "Grade": "E",
+   "EssntlSKUs": "",
+   "PrimarySKU": "7"
+ },
+ {
+   "Name": "Kampala",
+   "PartNum": "K2032",
+   "Grade": "E",
+   "EssntlSKUs": "",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Katazome",
+   "PartNum": "K1459",
+   "Grade": "E",
+   "EssntlSKUs": "",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Kimono",
+   "PartNum": "K1174",
+   "Grade": "E",
+   "EssntlSKUs": "",
+   "PrimarySKU": "5"
+ },
+ {
+   "Name": "Luberon",
+   "PartNum": "K676",
+   "Grade": "E",
+   "EssntlSKUs": "",
+   "PrimarySKU": ""
+ },
+ {
+   "Name": "Mamba",
+   "PartNum": "K549",
+   "Grade": "E",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Marquee",
+   "PartNum": "K1608",
+   "Grade": "E",
+   "EssntlSKUs": "",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Meroe",
+   "PartNum": "K2043",
+   "Grade": "E",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Midpoint",
+   "PartNum": "K2123",
+   "Grade": "E",
+   "EssntlSKUs": "",
+   "PrimarySKU": "5"
+ },
+ {
+   "Name": "Nature Walk",
+   "PartNum": "K2081",
+   "Grade": "E",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Rebel",
+   "PartNum": "K2261",
+   "Grade": "E",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Seurat",
+   "PartNum": "K2151",
+   "Grade": "E",
+   "EssntlSKUs": "",
+   "PrimarySKU": "5"
+ },
+ {
+   "Name": "Sherman",
+   "PartNum": "K1789",
+   "Grade": "E",
+   "EssntlSKUs": "",
+   "PrimarySKU": "2"
+ },
+ {
+   "Name": "Shima",
+   "PartNum": "K1468",
+   "Grade": "E",
+   "EssntlSKUs": "",
+   "PrimarySKU": "2"
+ },
+ {
+   "Name": "Tryst",
+   "PartNum": "K1522",
+   "Grade": "E",
+   "EssntlSKUs": "",
+   "PrimarySKU": "8"
+ },
+ {
+   "Name": "Vatera",
+   "PartNum": "K2071",
+   "Grade": "E",
+   "EssntlSKUs": "",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Whip",
+   "PartNum": "K1386",
+   "Grade": "E",
+   "EssntlSKUs": "",
+   "PrimarySKU": "15"
+ },
+ {
+   "Name": "Atelier",
+   "PartNum": "K1607",
+   "Grade": "F",
+   "EssntlSKUs": "",
+   "PrimarySKU": "2"
+ },
+ {
+   "Name": "Biscayne",
+   "PartNum": "K1771",
+   "Grade": "F",
+   "EssntlSKUs": "",
+   "PrimarySKU": "5"
+ },
+ {
+   "Name": "Calais Cotton Velvet",
+   "PartNum": "K787",
+   "Grade": "F",
+   "EssntlSKUs": "",
+   "PrimarySKU": "114"
+ },
+ {
+   "Name": "Century",
+   "PartNum": "K1051",
+   "Grade": "F",
+   "EssntlSKUs": "",
+   "PrimarySKU": "6"
+ },
+ {
+   "Name": "Coco",
+   "PartNum": "K1024",
+   "Grade": "F",
+   "EssntlSKUs": "",
+   "PrimarySKU": "7"
+ },
+ {
+   "Name": "Cornaro",
+   "PartNum": "K1320",
+   "Grade": "F",
+   "EssntlSKUs": "",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Double Agent",
+   "PartNum": "K2199",
+   "Grade": "F",
+   "EssntlSKUs": "",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Eclipse",
+   "PartNum": "K377",
+   "Grade": "F",
+   "EssntlSKUs": "",
+   "PrimarySKU": ""
+ },
+ {
+   "Name": "Glider",
+   "PartNum": "K1717",
+   "Grade": "F",
+   "EssntlSKUs": "",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Icon",
+   "PartNum": "K1028",
+   "Grade": "F",
+   "EssntlSKUs": "",
+   "PrimarySKU": "7"
+ },
+ {
+   "Name": "In Stitches",
+   "PartNum": "K2190",
+   "Grade": "F",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Intrigue",
+   "PartNum": "K1551",
+   "Grade": "F",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Jasmine",
+   "PartNum": "K2077",
+   "Grade": "F",
+   "EssntlSKUs": "",
+   "PrimarySKU": "2"
+ },
+ {
+   "Name": "Liberty",
+   "PartNum": "K1888",
+   "Grade": "F",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Mod Plaid",
+   "PartNum": "K1630",
+   "Grade": "F",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Rivington",
+   "PartNum": "K1080",
+   "Grade": "F",
+   "EssntlSKUs": "",
+   "PrimarySKU": "11"
+ },
+ {
+   "Name": "Sideline",
+   "PartNum": "K2210",
+   "Grade": "F",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Soon",
+   "PartNum": "K1787",
+   "Grade": "F",
+   "EssntlSKUs": "",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Swank",
+   "PartNum": "K2221",
+   "Grade": "F",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Tivoli",
+   "PartNum": "K2063",
+   "Grade": "F",
+   "EssntlSKUs": "",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Topography",
+   "PartNum": "K1052",
+   "Grade": "F",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Totem",
+   "PartNum": "K1561",
+   "Grade": "F",
+   "EssntlSKUs": "",
+   "PrimarySKU": "5"
+ },
+ {
+   "Name": "Tweed Frieze",
+   "PartNum": "K754",
+   "Grade": "F",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "All Star",
+   "PartNum": "K2209",
+   "Grade": "G",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Alter Ego",
+   "PartNum": "K2140",
+   "Grade": "G",
+   "EssntlSKUs": "",
+   "PrimarySKU": "12"
+ },
+ {
+   "Name": "Amore",
+   "PartNum": "K2080",
+   "Grade": "G",
+   "EssntlSKUs": "",
+   "PrimarySKU": "5"
+ },
+ {
+   "Name": "Andissa",
+   "PartNum": "K2083",
+   "Grade": "G",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Arabella",
+   "PartNum": "K1475",
+   "Grade": "G",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Arber",
+   "PartNum": "K1711",
+   "Grade": "G",
+   "EssntlSKUs": "",
+   "PrimarySKU": "2"
+ },
+ {
+   "Name": "Arrondissement",
+   "PartNum": "K2200",
+   "Grade": "G",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Djenne",
+   "PartNum": "K2029",
+   "Grade": "G",
+   "EssntlSKUs": "",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Duchess",
+   "PartNum": "K1209",
+   "Grade": "G",
+   "EssntlSKUs": "",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Feeling Plaid",
+   "PartNum": "K2150",
+   "Grade": "G",
+   "EssntlSKUs": "",
+   "PrimarySKU": "2"
+ },
+ {
+   "Name": "Gibson",
+   "PartNum": "K1086",
+   "Grade": "G",
+   "EssntlSKUs": "",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Haze",
+   "PartNum": "K109",
+   "Grade": "G",
+   "EssntlSKUs": "",
+   "PrimarySKU": "15"
+ },
+ {
+   "Name": "Kamani",
+   "PartNum": "K1580",
+   "Grade": "G",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Kinabalu",
+   "PartNum": "K1800",
+   "Grade": "G",
+   "EssntlSKUs": "",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Kingston",
+   "PartNum": "K1826",
+   "Grade": "G",
+   "EssntlSKUs": "",
+   "PrimarySKU": "5"
+ },
+ {
+   "Name": "Melange",
+   "PartNum": "K1882",
+   "Grade": "G",
+   "EssntlSKUs": "",
+   "PrimarySKU": "5"
+ },
+ {
+   "Name": "Metallic Gloss",
+   "PartNum": "K1922",
+   "Grade": "G",
+   "EssntlSKUs": "",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Modern Tweed",
+   "PartNum": "K2155",
+   "Grade": "G",
+   "EssntlSKUs": "",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Petite Floral",
+   "PartNum": "K2087",
+   "Grade": "G",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Sablon",
+   "PartNum": "K1565",
+   "Grade": "G",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Serendipity",
+   "PartNum": "K1528",
+   "Grade": "G",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Spencer",
+   "PartNum": "K1106",
+   "Grade": "G",
+   "EssntlSKUs": "",
+   "PrimarySKU": "8"
+ },
+ {
+   "Name": "Straie Stripe",
+   "PartNum": "K1827",
+   "Grade": "G",
+   "EssntlSKUs": "",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Ultrasuede ®",
+   "PartNum": "K1021",
+   "Grade": "G",
+   "EssntlSKUs": "",
+   "PrimarySKU": "37"
+ },
+ {
+   "Name": "Utrillo",
+   "PartNum": "K1807",
+   "Grade": "G",
+   "EssntlSKUs": "",
+   "PrimarySKU": "2"
+ },
+ {
+   "Name": "Arno",
+   "PartNum": "K128",
+   "Grade": "H",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Bavaria",
+   "PartNum": "K1160",
+   "Grade": "H",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Catwalk",
+   "PartNum": "K2156",
+   "Grade": "H",
+   "EssntlSKUs": "",
+   "PrimarySKU": "6"
+ },
+ {
+   "Name": "Chiseled",
+   "PartNum": "K2249",
+   "Grade": "H",
+   "EssntlSKUs": "",
+   "PrimarySKU": "2"
+ },
+ {
+   "Name": "Constance",
+   "PartNum": "K1527",
+   "Grade": "H",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Firefly",
+   "PartNum": "K2021",
+   "Grade": "H",
+   "EssntlSKUs": "",
+   "PrimarySKU": "2"
+ },
+ {
+   "Name": "Gezelle",
+   "PartNum": "K1567",
+   "Grade": "H",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Magritte",
+   "PartNum": "K1566",
+   "Grade": "H",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Stretch Appeal",
+   "PartNum": "K2188",
+   "Grade": "H",
+   "EssntlSKUs": "",
+   "PrimarySKU": "9"
+ },
+ {
+   "Name": "Tosca",
+   "PartNum": "K1825",
+   "Grade": "H",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "World Piece",
+   "PartNum": "KL2208",
+   "Grade": "H",
+   "EssntlSKUs": "",
+   "PrimarySKU": "2"
+ },
+ {
+   "Name": "Aswan",
+   "PartNum": "K2046",
+   "Grade": "I",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Byron",
+   "PartNum": "K1387",
+   "Grade": "I",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Cato",
+   "PartNum": "H800",
+   "Grade": "I",
+   "EssntlSKUs": "",
+   "PrimarySKU": "19"
+ },
+ {
+   "Name": "Cummings",
+   "PartNum": "K1378",
+   "Grade": "I",
+   "EssntlSKUs": "",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Diamond Days",
+   "PartNum": "K1756",
+   "Grade": "I",
+   "EssntlSKUs": "",
+   "PrimarySKU": "2"
+ },
+ {
+   "Name": "Digi Velvet",
+   "PartNum": "K1969",
+   "Grade": "I",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Dynamic",
+   "PartNum": "K1617",
+   "Grade": "I",
+   "EssntlSKUs": "",
+   "PrimarySKU": "5"
+ },
+ {
+   "Name": "Hastings",
+   "PartNum": "K1087",
+   "Grade": "I",
+   "EssntlSKUs": "",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Ita",
+   "PartNum": "K1930",
+   "Grade": "I",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Jaipur",
+   "PartNum": "K1155",
+   "Grade": "I",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Knoll Velvet",
+   "PartNum": "K784",
+   "Grade": "I",
+   "EssntlSKUs": "",
+   "PrimarySKU": "83"
+ },
+ {
+   "Name": "Limani",
+   "PartNum": "K2079",
+   "Grade": "I",
+   "EssntlSKUs": "",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Mepal",
+   "PartNum": "K1231",
+   "Grade": "I",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "North Island",
+   "PartNum": "K1159",
+   "Grade": "I",
+   "EssntlSKUs": "",
+   "PrimarySKU": "6"
+ },
+ {
+   "Name": "Olema",
+   "PartNum": "KL1764",
+   "Grade": "I",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Piper",
+   "PartNum": "K1706",
+   "Grade": "I",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Prince Hairy",
+   "PartNum": "K2237",
+   "Grade": "I",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Ravello",
+   "PartNum": "K1420",
+   "Grade": "I",
+   "EssntlSKUs": "",
+   "PrimarySKU": ""
+ },
+ {
+   "Name": "Rutledge",
+   "PartNum": "K1707",
+   "Grade": "I",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Sandis",
+   "PartNum": "K1214",
+   "Grade": "I",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3"
+ },
+ {
+   "Name": "Tudor",
+   "PartNum": "K1579",
+   "Grade": "I",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ },
+ {
+   "Name": "Vermeer",
+   "PartNum": "K1271",
+   "Grade": "I",
+   "EssntlSKUs": "",
+   "PrimarySKU": "4"
+ },
+ {
+   "Name": "Zimba",
+   "PartNum": "K1669",
+   "Grade": "I",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1"
+ }
+]
