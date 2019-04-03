@@ -199,7 +199,7 @@
   (let [path "/cs/Satellite?pagename=Knoll/Common/Utils/EssentialsPopupProductsJSON"
         all-products-url (if config/debug?
                            (if config/use-local-products?
-                             "http://localhost:3449/elf/json/all-products.json" ;; use the local file - this file should be updated periodically using the json from prod or staging
+                             "http://localhost:3449/js/elf/all-products.json" ;; use the local file - this file should be updated periodically using the json from prod or staging
                              (str "http://knlprdwcsmgt1.knoll.com" path)) ;; use staging url
                            (str (.. js/window -location -origin) path)) ;; use the host of the current browser window
         success-handler (fn [resp]
@@ -263,7 +263,7 @@
 
 
 (defn- load-textiles-approvals []
-  (let [path "/elf/json/knolltextiles_approvals.json"
+  (let [path "/js/elf/knolltextiles_approvals.json"
         url (if config/debug?
               (str "http://localhost:3449" path)
               (str "http://knlprdwcsmgt1.knoll.com" path))
@@ -276,7 +276,7 @@
     (ajax/GET url {:timeout 90000 :handler success-handler :error-handler error-handler :response-format :json :keywords? true})))
 
 (defn- load-textiles-info []
-  (let [path "/elf/json/knolltextiles_info.json"
+  (let [path "/js/elf/knolltextiles_info.json"
         url (if config/debug?
               (str "http://localhost:3449" path) ;; use the local
               (str "http://knlprdwcsmgt1.knoll.com" path))
