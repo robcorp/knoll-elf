@@ -165,7 +165,7 @@
 (reg-event-db
  ::product-selected
  (fn-traced [db [_ label epp-id] event]
-            #_(.. js/$ -magnificPopup
+            (.. js/$ -magnificPopup
                 (open (clj->js {:type "inline"
                                 :midClick true
                                 :showCloseBtn false
