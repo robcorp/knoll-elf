@@ -266,7 +266,7 @@
   (let [path "/js/elf/knolltextiles_approvals.json"
         url (if config/debug?
               (str "http://localhost:3449" path)
-              (str "http://knlprdwcsmgt1.knoll.com" path))
+              (str (.. js/window -location -origin) path))
         success-handler (fn [resp]
                           (re-frame/dispatch [::set-textiles-approvals resp]))
         error-handler (fn [{:keys [status status-text]}]
@@ -279,7 +279,7 @@
   (let [path "/js/elf/knolltextiles_info.json"
         url (if config/debug?
               (str "http://localhost:3449" path) ;; use the local
-              (str "http://knlprdwcsmgt1.knoll.com" path))
+              (str (.. js/window -location -origin) path))
         success-handler (fn [resp]
                           (re-frame/dispatch [::set-textiles-info resp]))
         error-handler (fn [{:keys [status status-text]}]
