@@ -165,12 +165,16 @@
 (reg-event-db
  ::product-selected
  (fn-traced [db [_ label epp-id] event]
+            ;; show the popup
             (.. js/$ -magnificPopup
                 (open (clj->js {:type "inline"
                                 :midClick true
                                 :showCloseBtn false
                                 :items {:src "#essentials-modal"}})))
-            
+
+            ;; create the carousel (mainly for styling and rendering the
+            ;; navigation arrows, since we don't actually scroll left or
+            ;; right for next / previous
             (.. (js/$ ".owl-popup-div")
                 (owlCarousel (clj->js {:items 1
                                        :responsiveClass true
@@ -181,7 +185,8 @@
                                        :autoHeight true
                                        :touchDrag true
                                        :mouseDrag true})))
-            
+
+            ;; set up click events for next / previous navigation arrows
             (.. (js/$ ".owl-next")
                 (unbind "click")
                 (click #(re-frame/dispatch [::select-next-product])))
@@ -190,9 +195,15 @@
                 (unbind "click")
                 (click #(re-frame/dispatch [::select-previous-product])))
 
-            #_(.. (js/$ ".popup-tab-wrap") mCustomScrollbar)
-            
+            ;; update the :selected-epp-id in the app db with the selected product's
+            ;; label and epp-id
             (assoc db :selected-epp-id [label epp-id])))
+
+(reg-event-db
+ ::show-fabric-skus
+ (fn-traced [db [_ partnum]]
+   (println "::show-fabric-skus event for partnum: " partnum)
+   db))
 
 
 (defn- load-all-products []

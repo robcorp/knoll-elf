@@ -66,7 +66,7 @@
      (select-first [:all-products ALL #(= selected-epp-id (:epp-id %))] db))))
 
 (reg-sub
- ::selected-product-textiles
+ ::selected-product-all-textiles
  (fn [_]
    [(re-frame/subscribe [::selected-product])
     (re-frame/subscribe [::textiles-info])
@@ -84,6 +84,14 @@
          textiles (group-by :Grade (map get-textiles-info partnums))]
 
      (filter #(not-empty (key %)) textiles))))
+
+(reg-sub
+ ::selected-product-essential-textiles
+ (fn [_]
+   (re-frame/subscribe [::selected-product-all-textiles]))
+
+ (fn [textiles]
+   (group-by :Grade (select [spctr/MAP-VALS ALL #(not-empty (:EssntlSKUs %))] textiles))))
 
 (reg-sub
  ::lead-time-filters
