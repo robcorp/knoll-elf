@@ -352,18 +352,22 @@
   (let [selected-prod (<sub [::subs/selected-product])
         lead-times-set (set (:lead-times selected-prod))
         num-lead-times (count lead-times-set)
-        epp-id (:epp-id selected-prod)]
+        epp-id (:epp-id selected-prod)
+        first-tab (atom nil)]
     
     [:div#style-2.scrollbar
      [:div.popup-tab-wrap.force-overflow
-      (if (lead-times-set "quick")
-        [tab-contents "quick" selected-prod lead-times-set (= 3 num-lead-times)])
+      (when (lead-times-set "quick")
+        (if-not @first-tab (reset! first-tab "quick")) ;; if first-tab hasn't been set yet, set it to "quick"
+        [tab-contents "quick" selected-prod lead-times-set (= @first-tab "quick")])
 
-      (if (lead-times-set "three-week")
-        [tab-contents "three-week" selected-prod lead-times-set (= 2 num-lead-times)])
+      (when (lead-times-set "three-week")
+        (if-not @first-tab (reset! first-tab "three-week")) ;; if first-tab hasn't been set yet, set it to "three-week"
+        [tab-contents "three-week" selected-prod lead-times-set (= @first-tab "three-week")])
 
-      (if (lead-times-set "std")
-        [tab-contents "std" selected-prod lead-times-set (= 1 num-lead-times)])]]))
+      (when (lead-times-set "std")
+        (if-not @first-tab (reset! first-tab "std")) ;; if first-tab hasn't been set yet, set it to "std"
+        [tab-contents "std" selected-prod lead-times-set (= @first-tab "std")])]]))
 
 (defn product-tabs []
   (let [selected-prod (<sub [::subs/selected-product])
@@ -377,43 +381,44 @@
         select-default-value (case lead-times-count
                                3 "quick"
                                2 "three-week"
-                               (0 1) "std")]
+                               (0 1) "std")
+        first-tab (atom nil)]
 
     [:div.essentials-product-tabs
      ^{:key :epp-id}
      [:ul.essentials-tab-list
-      (if (lead-times-set "quick")
-        (do
-          ^{:key (str epp-id "-" "quick")}
-          [:li {:id (str epp-id "-" "quick")
-                :data-tab "quick"
-                :class (if (= 3 lead-times-count) "selected")
-                :style {:width tab-width}
-                :on-click lead-time-tab-clicked}
-           [:span.tab-color.quick-lead-active]
-           [:a.tab-nav "Essentials Quickship options"]]))
+      (when (lead-times-set "quick")
+        (if-not @first-tab (reset! first-tab "quick"))
+        ^{:key (str epp-id "-" "quick")}
+        [:li {:id (str epp-id "-" "quick")
+              :data-tab "quick"
+              :class (if (= @first-tab "quick") "selected")
+              :style {:width tab-width}
+              :on-click lead-time-tab-clicked}
+         [:span.tab-color.quick-lead-active]
+         [:a.tab-nav "Essentials Quickship options"]])
 
-      (if (lead-times-set "three-week")
-        (do
-          ^{:key (str epp-id "-" "three-week")}
-          [:li {:id (str epp-id "-" "three-week")
-                :data-tab "three-week"
-                :class (if (= 2 lead-times-count) "selected")
-                :style {:width tab-width}
-                :on-click lead-time-tab-clicked}
-           [:span.tab-color.three-ship-active]
-           [:a.tab-nav "Essentials 3 week options "]]))
+      (when (lead-times-set "three-week")
+        (if-not @first-tab (reset! first-tab "three-week"))
+        ^{:key (str epp-id "-" "three-week")}
+        [:li {:id (str epp-id "-" "three-week")
+              :data-tab "three-week"
+              :class (if (= @first-tab "three-week") "selected")
+              :style {:width tab-width}
+              :on-click lead-time-tab-clicked}
+         [:span.tab-color.three-ship-active]
+         [:a.tab-nav "Essentials 3 week options "]])
 
-      (if (lead-times-set "std")
-        (do
-          ^{:key (str epp-id "-" "std")}
-          [:li {:id (str epp-id "-" "std")
-                :data-tab "std"
-                :class (if (= 1 lead-times-count) "selected")
-                :style {:width tab-width}
-                :on-click lead-time-tab-clicked}
-           [:span.tab-color.standard-ship-active]
-           [:a.tab-nav "Standard Ship options"]]))]
+      (when (lead-times-set "std")
+        (if-not @first-tab (reset! first-tab "std"))
+        ^{:key (str epp-id "-" "std")}
+        [:li {:id (str epp-id "-" "std")
+              :data-tab "std"
+              :class (if (= @first-tab "std") "selected") #_(if (= 1 lead-times-count) "selected")
+              :style {:width tab-width}
+              :on-click lead-time-tab-clicked}
+         [:span.tab-color.standard-ship-active]
+         [:a.tab-nav "Standard Ship options"]])]
 
      ^{:key (str "select-" epp-id)}
      [:select.tab-select-option {:defaultValue select-default-value
