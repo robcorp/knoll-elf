@@ -1098,7 +1098,7 @@ h3.titleGreyborder.inactive+ul.product-list {
     .popup-tab-wrap .mCSB_draggerContainer {
         display: none;
     }
-    .seating-page .mfp-wrap {
+    .essentials-page .mfp-wrap {
         overflow: auto !important;
     }
 }

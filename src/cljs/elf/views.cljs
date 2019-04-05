@@ -282,7 +282,6 @@
                "three-week" (<sub [::subs/selected-product-essential-textiles]))
         grades (->> fabs keys sort)]
     
-    (println "in approved-fabrics lead-time: " lead-time ", grades: " grades)
     (when (> (count fabs) 0)
       [:div.upholstery-list-wrap
        [:h4 "Fabrics"]
