@@ -85,13 +85,13 @@
 
 (reg-event-db
  ::set-textiles-approvals
- (fn-traced [db [_ resp]]
-   (assoc db :textiles-approvals resp)))
+ (fn-traced [db [_ approvals]]
+   (assoc db :textiles-approvals approvals)))
 
 (reg-event-db
  ::set-textiles-info
- (fn-traced [db [_ resp]]
-   (assoc db :textiles-info resp)))
+ (fn-traced [db [_ info]]
+   (assoc db :textiles-info info)))
 
 (defn- update-lead-time-filter-state [selected-filter filters]
   (->> filters
@@ -298,5 +298,4 @@
                         #_(re-frame/dispatch [::use-default-db]))]
 
     (ajax/GET url {:timeout 90000 :handler success-handler :error-handler error-handler :response-format :json :keywords? true})))
-
 
