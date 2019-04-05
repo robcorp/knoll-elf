@@ -1,0 +1,980 @@
+[
+   {
+      "form": 0,
+      "name": "",
+      "type": "textarea",
+      "id": "txt1",
+      "elementPos": 0,
+      "namePos": 0,
+      "value": "\"A\";\"B\";\"C\";\"D\";\"E\"\n\"Name\";\"PartNum\";\"Grade\";\"EssntlSKUs\";\"PrimarySKU\"\n\"Alignment\";\"K349\";\"A\";;1\n\"Beacon\";\"W1597\";\"A\";\"W15971, W15972, W15973, W15974, W15975, W15976, W15977, W15978, W15979, W159710, W159711, W159712\";5\n\"Bocce\";\"K1255\";\"A\";;4\n\"Cat's Cradle\";\"K1290\";\"A\";;4\n\"Chance\";\"K1552\";\"A\";\"K15521, K15522, K15523, K15524, K15525, K15526, K15527, K15528, K155210\";3\n\"Common Ground\";\"K448\";\"A\";;9\n\"Commuter Cloth\";\"K1778\";\"A\";\"K17781, K17782, K17783, K17784, K17785, K17785, K17786, K17787, K17788, K17789, K177810, K177811, K177812, W17813\";10\n\"Crossroad\";\"K2085\";\"A\";\"K20851, K20852, K20853, K20854, K20855, K20856, K20857, K20858, K20859, K208510, K208511, K208512, K208513, K208514, K208515, K208516, K208517, K208518, K208519, K208520, K208521, K208522, K208523, K208524\";3\n\"Delite\";\"K2026\";\"A\";\"K20261, K20262, K20263, K20264, K20265, K20266, K20267, K20268, K20269, K202610, K202611, K202612, K202613, K202614\";5\n\"Dristi\";\"K872\";\"A\";;3\n\"Foil Rap\";\"W535\";\"A\";;4\n\"Heavy Metal\";\"W539\";\"A\";;2\n\"Hourglass\";\"K1523\";\"A\";\"K15231, K15232, K15233, K15234, K15235, K15236, K15237, K15238, K15239, K152310, K152311, K152312, K152313, K152314, K152315, K152316, K152317, K152318, K152319, K152320, K152321, K152322, K152323, K152324, K152325, K152326, K152327, K152328\";18\n\"Mariner\";\"K642\";\"A\";;8\n\"Metaphor\";\"K612\";\"A\";;\n\"Monarch\";\"K1149\";\"A\";;11\n\"Oh La La\";\"K2201\";\"A\";\"K22011, K22012, K22013, K22014, K22015, K22016, K22017, K22018, K22019, K220110, K220111, K220112, K220113, K220114\";3\n\"Overture\";\"K2169\";\"A\";;5\n\"Prep\";\"K1076\";\"A\";;5\n\"Presto\";\"K1000\";\"A\";;4\n\"Soliloquy\";\"K1458\";\"A\";;2\n\"Sonnet\";\"K1460\";\"A\";\"K14601, K14602, K14603, K14604, K14605, K14606, K14607, K14608, K14609, K146010, K146011, K146012\";9\n\"Trophy\";\"K1709\";\"A\";;6\n\"Uni-Form\";\"K2125\";\"A\";\"K21251, K21252, K21253, K21254, K21255, K21256, K21257, K21258, K21259, K212510, K212511, K212512, K212513, K212514\";3\n\"Abacus\";\"K715\";\"B\";;\"1A\"\n\"Argyle\";\"K1938\";\"B\";;6\n\"Backdrop\";\"W302\";\"B\";;\n\"Bank Shot\";\"K134\";\"B\";;5\n\"Belize\";\"K1165\";\"B\";;6\n\"Bistro\";\"K1775\";\"B\";;2\n\"Boundary\";\"K1828\";\"B\";\"K18281, K18282, K18283, K18284, K18285, K18286, K18287, K18288, K18289, K182810\";7\n\"Brigadoon\";\"K2167\";\"B\";\"K21671, K21672, K21673, K21674, K21675, K21676, K21677, K21678\";3\n\"Calypso\";\"K2127\";\"B\";\"K21271, K21272, K21273, K21274, K21275, K21276, K21277, K21278\";4\n\"Cameo\";\"K1460\";\"B\";;7\n\"Chroma\";\"K345\";\"B\";;4\n\"Chronicle\";\"K1525\";\"B\";;1\n\"Close Knit\";\"K201\";\"B\";;10\n\"Day Tripper\";\"K2248\";\"B\";;10\n\"Digit \";\"K891\";\"B\";;\n\"Digital Tape\";\"W304\";\"B\";;\n\"Diva\";\"K2051\";\"B\";\"K20511, K20512, K20513, K20514, K20515, K20516, K20517, K20518, K20519, K205110, K205111, K205112\";7\n\"Dovetail\";\"K1150\";\"B\";;3\n\"Fast Forward\";\"W301\";\"B\";;\n\"Ferry\";\"K1697\";\"B\";\"K16971, K16972, K16973, K16974, K16975, K16976, K16977, K16978, K16979, K169710\";5\n\"Forza\";\"K584\";\"B\";;8\n\"Gala II\";\"K1520\";\"B\";;4\n\"Grande\";\"K180\";\"B\";;3\n\"Grandview\";\"K1463\";\"B\";;4\n\"Helios\";\"K2089\";\"B\";;5\n\"Holbrook\";\"K1928\";\"B\";;6\n\"Instinct \";\"K2258\";\"B\";\"K22581, K22582, K22583, K22584, K22585, K22586, K22587, K22588, K22589, K225810, K225811, K225812, K225813, K225814, K225815\";10\n\"Journey\";\"K1806\";\"B\";\"K18061, K18062, K18063, K18064, K18065, K18066, K18068, K18069, K180610, K180611, K180612, K180613, K180614, K180615, K180616, K180617, K180618\";4\n\"Keaton\";\"K1596\";\"B\";\"K15961, K15962, K15963, K15964, K15965, K15966, K15967, K15968\";3\n\"Knoll Felt\";\"K1207\";\"B\";;9\n\"Knoll Hopsack\";\"K1206\";\"B\";;10\n\"Little Devil\";\"K2112\";\"B\";;5\n\"Ludlow\";\"K1998\";\"B\";;5\n\"Lyric\";\"K698\";\"B\";;3\n\"Melody\";\"K2067\";\"B\";;3\n\"Mini Stitch\";\"K1130\";\"B\";;3\n\"Night Life\";\"K181\";\"B\";;6\n\"Paradigm\";\"K1101\";\"B\";;2\n\"Petal Pusher\";\"K1968\";\"B\";;2\n\"Pogo\";\"K1100\";\"B\";;2\n\"Prairie\";\"K1925\";\"B\";\"K19251, K19252, K19253, K19254, K19255, K19256, K19257, K19258, K19259, K192510, K192511, K192512, K192513, K192514, K192515, K192516, K192517, K192518, K192519, K192520, K192521, K192522, K192523, K192524, K192525, K192526, K192527, K192528, K192529, K192530, K192531, K192532, K192533, K192534, K192535, K192536, K192537, K192538, K192539, K192540, K192541, K192542, K192543, K192544, K192545, K192546, K192547, K192548, K192549, K192550, K192551, K192552, K192553, K192554, K192555, K192556, K192557, K192558, K192558, K192559, K192560, K192561\";12\n\"Prim\";\"K1884\";\"B\";;3\n\"Radiance\";\"K1921\";\"B\";;4\n\"Ransom\";\"K1298\";\"B\";\"K12981, K12982, K12983, K12984, K12985, K12986, K12987, K12988, K12989, K129810, K129811, K129812, K129813, K129814\";10\n\"Roam\";\"K1657\";\"B\";;3\n\"Rush Hour\";\"K1824\";\"B\";\"K18241, K18242, K18243, K18244, K18245, K18246, K18247, K18248\";4\n\"Soiree\";\"K1616\";\"B\";;2\n\"Spark\";\"K1075\";\"B\";\"K10751, K10752, K10753, K10754, K10755, K10756, K10757, K10758, K10759, K107510, K107511, K107512\";8\n\"Spinoff Nuance\";\"K319\";\"B\";;\n\"Spree\";\"K1600\";\"B\";;6\n\"Starry Night\";\"K529\";\"B\";;\n\"Stripemania\";\"K2225\";\"B\";;3\n\"Summit\";\"K2020\";\"B\";\"K20201, K20202, K20203, K20204, K20205, K20206, K20207, K20208, K20209, K202010, K202011, K202012\";4\n\"Sutton\";\"K1750\";\"B\";;3\n\"Synth\";\"K1693\";\"B\";;3\n\"Tabloid\";\"K2022\";\"B\";;3\n\"Tinge\";\"K2068\";\"B\";;9\n\"Utmost\";\"K1325\";\"B\";;11\n\"Venue\";1558;\"B\";;3\n\"Versa\";\"K1698\";\"B\";;3\n\"Vinyl\";\"K242\";\"B\";;21\n\"Westwood\";\"K1949\";\"B\";;5\n\"Wide Angle\";\"K244\";\"B\";;1\n\"Wild Thing\";\"K2240\";\"B\";\"K22401, K22402, K22403, K22404, K22405, K22406, K22407, K22408\";2\n\"Yeni\";\"K2082\";\"B\";;4\n\"Zipline\";\"K1448\";\"B\";;5\n\"Atlas\";\"K1236\";\"C\";;13\n\"Autobahn\";\"K491\";\"C\";;\n\"Axiom\";\"K1650\";\"C\";;7\n\"Baxter\";\"K1557\";\"C\";;7\n\"Biota\";\"K1297\";\"C\";;1\n\"Cairo\";\"K2034\";\"C\";;5\n\"Charm\";\"K1049\";\"C\";;4\n\"Circa\";\"K1054\";\"C\";;8\n\"Classic Boucle\";\"K162\";\"C\";\"K1627, K16212, K16220\";28\n\"Color Field\";\"K2226\";\"C\";;9\n\"Dahlia CR\";\"HC1660\";\"C\";;3\n\"Decade\";\"K1053\";\"C\";;\n\"Dune\";\"K2047\";\"C\";;2\n\"Durand\";\"K1885\";\"C\";\"K18851, K18853, K18854, K18855, K18856, K18857\";5\n\"Earthwork\";\"K1238\";\"C\";;1\n\"Echo\";\"K1019\";\"C\";;\n\"Empire Stripe\";\"K1025\";\"C\";;3\n\"Enmesh\";\"K1092\";\"C\";;\n\"Entourage\";\"K1389\";\"C\";;3\n\"Essence\";\"K2059\";\"C\";;4\n\"Fable CR\";\"HC1122\";\"C\";;1\n\"Fibra\";\"K1105\";\"C\";;1\n\"Greenwich\";\"K1753\";\"C\";;4\n\"Groovy\";\"K2242\";\"C\";;5\n\"Hudson\";\"K1765\";\"C\";\"K17651, K17652, K17653, K17654, K17655, K17656, K17657\";1\n\"Hula Hoop\";\"K753\";\"C\";;50\n\"Kaleidoscope CR\";\"HC1186\";\"C\";;\n\"Kaya CR\";\"K2122\";\"C\";;11\n\"Kora CR\";\"HC1010\";\"C\";;5\n\"Lagos\";\"K2028\";\"C\";;2\n\"Legend CR\";\"HC1124\";\"C\";;1\n\"Lore CR\";\"HC1123\";\"C\";;1\n\"Magnolia\";\"K1999\";\"C\";\"K19991, K19992, K19993, K19994, K19995, K19996, K19997, K19998\";8\n\"Metro\";\"K1018\";\"C\";;3\n\"Milestone\";\"K1886\";\"C\";;4\n\"Moto CR\";\"HC1002\";\"C\";;2\n\"Noble\";\"K1556\";\"C\";;3\n\"Palisade\";\"K2030\";\"C\";;10\n\"Panache CR\";\"HC1047\";\"C\";;1\n\"Pullman\";\"K2124\";\"C\";;5\n\"Quark\";\"K781\";\"C\";;2\n\"Regard CR\";\"HC1063\";\"C\";;2\n\"Roundtrip\";\"K1430\";\"C\";;1\n\"Sahara\";\"HC1269\";\"C\";;7\n\"Sandpiper CR\";\"HC1258\";\"C\";;5\n\"Sashiko\";\"K2121\";\"C\";;6\n\"Sequin CR\";\"HC1009\";\"C\";;1\n\"Sinclair\";\"K1555\";\"C\";;3\n\"Smart\";\"K1268\";\"C\";;13\n\"Spectator\";\"K1391\";\"C\";;1\n\"Spot On\";\"K1324\";\"C\";;2\n\"Star Struck\";\"K1048\";\"C\";;1\n\"Stepping Stones\";\"K346\";\"C\";;1\n\"Swing\";\"K479\";\"C\";;1\n\"Tight Rope\";\"K1798\";\"C\";;1\n\"Tilden\";\"K1779\";\"C\";;3\n\"Tower Grid\";\"K1887\";\"C\";;4\n\"Transition\";\"K816\";\"C\";;4\n\"Treble CR\";\"HC1062\";\"C\";;7\n\"Vibe II\";\"K1029\";\"C\";;7\n\"Wit\";\"K2050\";\"C\";;3\n\"Zari CR\";\"HC1008\";\"C\";;1\n\"Zen Wave\";\"K2078\";\"C\";;4\n\"Chain Link\";\"K2191\";\"D\";;3\n\"Compass CR\";\"HC1183\";\"D\";;1\n\"Coterie\";\"K1564\";\"D\";;3\n\"Eclat Weave\";\"K1104\";\"D\";;1\n\"Hologram\";\"K500\";\"D\";;1\n\"In The Loop\";\"K490\";\"D\";;\n\"Island\";\"K2053\";\"D\";;2\n\"Kabuki\";\"K2084\";\"D\";;5\n\"Masquerade\";\"K806\";\"D\";;1\n\"Menagerie\";\"K1322\";\"D\";;5\n\"Origins\";\"K1700\";\"D\";;3\n\"Plaidtastic\";\"K2238\";\"D\";;2\n\"Satellite\";\"K503\";\"D\";;\n\"Satin Chisel\";\"K487\";\"D\";;\n\"Tara\";\"K1967\";\"D\";;3\n\"Theory\";\"K1656\";\"D\";;3\n\"Woodland\";\"K2049\";\"D\";;5\n\"Zoom\";\"K113\";\"D\";;1\n\"Aegean\";\"K2074\";\"E\";;2\n\"Cleo\";\"K2168\";\"E\";;5\n\"Demure\";\"K2023\";\"E\";;1\n\"Highland\";\"K2010\";\"E\";;4\n\"Ikat Square\";\"K1703\";\"E\";;4\n\"Ikat Stripe\";\"K1701\";\"E\";;5\n\"Juno\";\"K2152\";\"E\";;7\n\"Kampala\";\"K2032\";\"E\";;4\n\"Katazome\";\"K1459\";\"E\";;4\n\"Kimono\";\"K1174\";\"E\";;5\n\"Luberon\";\"K676\";\"E\";;\n\"Mamba\";\"K549\";\"E\";;1\n\"Marquee\";\"K1608\";\"E\";;4\n\"Meroe\";\"K2043\";\"E\";;1\n\"Midpoint\";\"K2123\";\"E\";;5\n\"Nature Walk\";\"K2081\";\"E\";;1\n\"Rebel\";\"K2261\";\"E\";;1\n\"Seurat\";\"K2151\";\"E\";;5\n\"Sherman\";\"K1789\";\"E\";;2\n\"Shima\";\"K1468\";\"E\";;2\n\"Tryst\";\"K1522\";\"E\";;8\n\"Vatera\";\"K2071\";\"E\";;4\n\"Whip\";\"K1386\";\"E\";;15\n\"Atelier\";\"K1607\";\"F\";;2\n\"Biscayne\";\"K1771\";\"F\";;5\n\"Calais Cotton Velvet\";\"K787\";\"F\";;114\n\"Century\";\"K1051\";\"F\";;6\n\"Coco\";\"K1024\";\"F\";;7\n\"Cornaro\";\"K1320\";\"F\";;4\n\"Double Agent\";\"K2199\";\"F\";;4\n\"Eclipse\";\"K377\";\"F\";;\n\"Glider\";\"K1717\";\"F\";;4\n\"Icon\";\"K1028\";\"F\";;7\n\"In Stitches\";\"K2190\";\"F\";;1\n\"Intrigue\";\"K1551\";\"F\";;3\n\"Jasmine\";\"K2077\";\"F\";;2\n\"Liberty\";\"K1888\";\"F\";;3\n\"Mod Plaid\";\"K1630\";\"F\";;1\n\"Rivington\";\"K1080\";\"F\";;11\n\"Sideline\";\"K2210\";\"F\";;3\n\"Soon\";\"K1787\";\"F\";;4\n\"Swank\";\"K2221\";\"F\";;3\n\"Tivoli\";\"K2063\";\"F\";;4\n\"Topography\";\"K1052\";\"F\";;3\n\"Totem\";\"K1561\";\"F\";;5\n\"Tweed Frieze\";\"K754\";\"F\";;1\n\"All Star\";\"K2209\";\"G\";;3\n\"Alter Ego\";\"K2140\";\"G\";;12\n\"Amore\";\"K2080\";\"G\";;5\n\"Andissa\";\"K2083\";\"G\";;3\n\"Arabella\";\"K1475\";\"G\";;3\n\"Arber\";\"K1711\";\"G\";;2\n\"Arrondissement\";\"K2200\";\"G\";;1\n\"Djenne\";\"K2029\";\"G\";;4\n\"Duchess\";\"K1209\";\"G\";;4\n\"Feeling Plaid\";\"K2150\";\"G\";;2\n\"Gibson\";\"K1086\";\"G\";;4\n\"Haze\";\"K109\";\"G\";;15\n\"Kamani\";\"K1580\";\"G\";;1\n\"Kinabalu\";\"K1800\";\"G\";;4\n\"Kingston\";\"K1826\";\"G\";;5\n\"Melange\";\"K1882\";\"G\";;5\n\"Metallic Gloss\";\"K1922\";\"G\";;4\n\"Modern Tweed\";\"K2155\";\"G\";;4\n\"Petite Floral\";\"K2087\";\"G\";;3\n\"Sablon\";\"K1565\";\"G\";;3\n\"Serendipity\";\"K1528\";\"G\";;1\n\"Spencer\";\"K1106\";\"G\";;8\n\"Straie Stripe\";\"K1827\";\"G\";;4\n\"Ultrasuede ®\";\"K1021\";\"G\";;37\n\"Utrillo\";\"K1807\";\"G\";;2\n\"Arno\";\"K128\";\"H\";;1\n\"Bavaria\";\"K1160\";\"H\";;3\n\"Catwalk\";\"K2156\";\"H\";;6\n\"Chiseled\";\"K2249\";\"H\";;2\n\"Constance\";\"K1527\";\"H\";;1\n\"Firefly\";\"K2021\";\"H\";;2\n\"Gezelle\";\"K1567\";\"H\";;1\n\"Magritte\";\"K1566\";\"H\";;1\n\"Stretch Appeal\";\"K2188\";\"H\";;9\n\"Tosca\";\"K1825\";\"H\";;3\n\"World Piece\";\"KL2208\";\"H\";;2\n\"Aswan\";\"K2046\";\"I\";;1\n\"Byron\";\"K1387\";\"I\";;3\n\"Cato\";\"H800\";\"I\";;19\n\"Cummings\";\"K1378\";\"I\";;4\n\"Diamond Days\";\"K1756\";\"I\";;2\n\"Digi Velvet\";\"K1969\";\"I\";;3\n\"Dynamic\";\"K1617\";\"I\";;5\n\"Hastings\";\"K1087\";\"I\";;4\n\"Ita\";\"K1930\";\"I\";;3\n\"Jaipur\";\"K1155\";\"I\";;1\n\"Knoll Velvet\";\"K784\";\"I\";;83\n\"Limani\";\"K2079\";\"I\";;4\n\"Mepal\";\"K1231\";\"I\";;3\n\"North Island\";\"K1159\";\"I\";;6\n\"Olema\";\"KL1764\";\"I\";;1\n\"Piper\";\"K1706\";\"I\";;3\n\"Prince Hairy\";\"K2237\";\"I\";;1\n\"Ravello\";\"K1420\";\"I\";;\n\"Rutledge\";\"K1707\";\"I\";;3\n\"Sandis\";\"K1214\";\"I\";;3\n\"Tudor\";\"K1579\";\"I\";;1\n\"Vermeer\";\"K1271\";\"I\";;4\n\"Zimba\";\"K1669\";\"I\";;1\n"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "txtEncoding",
+      "elementPos": 2,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "url",
+      "type": "text",
+      "id": "url",
+      "elementPos": 3,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "chkHeader",
+      "type": "checkbox",
+      "id": "chkHeader",
+      "elementPos": 8,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "txtRowLimit",
+      "elementPos": 9,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "txtSkipLimit",
+      "elementPos": 10,
+      "checked": false,
+      "namePos": 0,
+      "value": "1"
+   },
+   {
+      "form": 0,
+      "name": "sep",
+      "type": "radio",
+      "id": "sepAuto",
+      "elementPos": 11,
+      "checked": true,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "sep",
+      "type": "radio",
+      "id": "sepComma",
+      "elementPos": 12,
+      "checked": false,
+      "namePos": 1,
+      "value": ","
+   },
+   {
+      "form": 0,
+      "name": "sep",
+      "type": "radio",
+      "id": "sepSemicolon",
+      "elementPos": 13,
+      "checked": false,
+      "namePos": 2,
+      "value": ";"
+   },
+   {
+      "form": 0,
+      "name": "sep",
+      "type": "radio",
+      "id": "sepColon",
+      "elementPos": 14,
+      "checked": false,
+      "namePos": 3,
+      "value": ":"
+   },
+   {
+      "form": 0,
+      "name": "sep",
+      "type": "radio",
+      "id": "sepPipe",
+      "elementPos": 15,
+      "checked": false,
+      "namePos": 4,
+      "value": "|"
+   },
+   {
+      "form": 0,
+      "name": "sep",
+      "type": "radio",
+      "id": "sepTab",
+      "elementPos": 16,
+      "checked": false,
+      "namePos": 5,
+      "value": "\\t"
+   },
+   {
+      "form": 0,
+      "name": "sep",
+      "type": "radio",
+      "id": "sepCaret",
+      "elementPos": 17,
+      "checked": false,
+      "namePos": 6,
+      "value": "^"
+   },
+   {
+      "form": 0,
+      "name": "sep",
+      "type": "radio",
+      "id": "sepSpace",
+      "elementPos": 18,
+      "checked": false,
+      "namePos": 7,
+      "value": " "
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkReplaceAccents",
+      "elementPos": 19,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkIgnoreDoubleQuote",
+      "elementPos": 20,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkInputQuote",
+      "elementPos": 21,
+      "checked": false,
+      "namePos": 0,
+      "value": "'"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkDecodeLiterals",
+      "elementPos": 22,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "txtCols",
+      "elementPos": 24,
+      "checked": false,
+      "namePos": 0,
+      "value": "1,2,3,4,5"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkIgnoreCase",
+      "elementPos": 26,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "selSortFld1",
+      "elementPos": 27,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "selSortType1",
+      "elementPos": 28,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "selSortAsc1",
+      "elementPos": 29,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "selSortFld2",
+      "elementPos": 30,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "selSortType2",
+      "elementPos": 31,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "selSortAsc2",
+      "elementPos": 32,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "selSortFld3",
+      "elementPos": 33,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "selSortType3",
+      "elementPos": 34,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "selSortAsc3",
+      "elementPos": 35,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "",
+      "elementPos": 36,
+      "checked": false,
+      "namePos": 0,
+      "value": "on"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "",
+      "elementPos": 37,
+      "checked": false,
+      "namePos": 0,
+      "value": "on"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "",
+      "elementPos": 38,
+      "checked": false,
+      "namePos": 0,
+      "value": "on"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "",
+      "elementPos": 39,
+      "checked": false,
+      "namePos": 0,
+      "value": "on"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "",
+      "elementPos": 40,
+      "checked": false,
+      "namePos": 0,
+      "value": "on"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "",
+      "elementPos": 41,
+      "checked": false,
+      "namePos": 0,
+      "value": "on"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "",
+      "elementPos": 42,
+      "checked": false,
+      "namePos": 0,
+      "value": "on"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "",
+      "elementPos": 43,
+      "checked": false,
+      "namePos": 0,
+      "value": "on"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml1",
+      "elementPos": 44,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr1",
+      "elementPos": 45,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper1",
+      "elementPos": 46,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower1",
+      "elementPos": 47,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper1",
+      "elementPos": 48,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct1",
+      "elementPos": 49,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch1",
+      "elementPos": 50,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull1",
+      "elementPos": 51,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals1",
+      "elementPos": 52,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml2",
+      "elementPos": 53,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr2",
+      "elementPos": 54,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper2",
+      "elementPos": 55,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower2",
+      "elementPos": 56,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper2",
+      "elementPos": 57,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct2",
+      "elementPos": 58,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch2",
+      "elementPos": 59,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull2",
+      "elementPos": 60,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals2",
+      "elementPos": 61,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml3",
+      "elementPos": 62,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr3",
+      "elementPos": 63,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper3",
+      "elementPos": 64,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower3",
+      "elementPos": 65,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper3",
+      "elementPos": 66,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct3",
+      "elementPos": 67,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch3",
+      "elementPos": 68,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull3",
+      "elementPos": 69,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals3",
+      "elementPos": 70,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml4",
+      "elementPos": 71,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr4",
+      "elementPos": 72,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper4",
+      "elementPos": 73,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower4",
+      "elementPos": 74,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper4",
+      "elementPos": 75,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct4",
+      "elementPos": 76,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch4",
+      "elementPos": 77,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull4",
+      "elementPos": 78,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals4",
+      "elementPos": 79,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml5",
+      "elementPos": 80,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr5",
+      "elementPos": 81,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper5",
+      "elementPos": 82,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower5",
+      "elementPos": 83,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper5",
+      "elementPos": 84,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct5",
+      "elementPos": 85,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch5",
+      "elementPos": 86,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull5",
+      "elementPos": 87,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals5",
+      "elementPos": 88,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkCsvQuotes",
+      "elementPos": 89,
+      "checked": false,
+      "namePos": 0,
+      "value": "on"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "txtKeyNum",
+      "elementPos": 90,
+      "checked": false,
+      "namePos": 0,
+      "value": "1"
+   },
+   {
+      "form": 0,
+      "name": "chkFldData",
+      "type": "checkbox",
+      "id": "chkFldData",
+      "elementPos": 91,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "txtFieldName",
+      "elementPos": 92,
+      "checked": false,
+      "namePos": 0,
+      "value": "fields"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "txtDataName",
+      "elementPos": 93,
+      "checked": false,
+      "namePos": 0,
+      "value": "data"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkOverwrite",
+      "elementPos": 94,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "chkNullJson",
+      "type": "checkbox",
+      "id": "chkNullJson",
+      "elementPos": 95,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "chkSkipEmpty",
+      "type": "checkbox",
+      "id": "chkSkipEmpty",
+      "elementPos": 96,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "chkTryToObject",
+      "type": "checkbox",
+      "id": "chkTryToObject",
+      "elementPos": 97,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "chkLineMode",
+      "type": "checkbox",
+      "id": "chkLineMode",
+      "elementPos": 98,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "chkMongoDbMode",
+      "type": "checkbox",
+      "id": "chkMongoDbMode",
+      "elementPos": 99,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "chkAutoNum",
+      "type": "checkbox",
+      "id": "chkAutoNum",
+      "elementPos": 100,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "txtHeader",
+      "elementPos": 102,
+      "checked": false,
+      "namePos": 0,
+      "value": "[{br}"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "textarea",
+      "id": "txtTemplate",
+      "elementPos": 103,
+      "namePos": 0,
+      "value": "  {lb}\n     \"{h1}\":\"{f1}\"\n    ,\"{h2}\":\"{f2}\"\n    ,\"{h3}\":\"{f3}\"\n    ,\"{h4}\":\"{f4}\"\n    ,\"{h5}\":\"{f5}\"\n  {rb}"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "txtFooter",
+      "elementPos": 104,
+      "checked": false,
+      "namePos": 0,
+      "value": "]"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fn",
+      "elementPos": 111,
+      "checked": false,
+      "namePos": 0,
+      "value": "knolltextiles_info"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "eol",
+      "elementPos": 113,
+      "namePos": 0,
+      "value": ""
+   }
+]

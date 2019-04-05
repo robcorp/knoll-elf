@@ -541,7 +541,7 @@
 }
 
 .frame-list li p,
-.upholstery-tetile-list li p {
+.upholstery-textile-list li p {
     display: inline-block;
     width: 100%;
     float: none;
@@ -553,6 +553,12 @@
 }
 
 .frame-finish-wrap {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dedede;
+    margin-bottom: 15px;
+}
+
+.finish-list-wrap {
     padding-bottom: 15px;
     border-bottom: 1px solid #dedede;
     margin-bottom: 15px;
@@ -624,6 +630,7 @@ ul.upholstery-types-list {
     display: inline-block;
     line-height: 24px;
     text-align: center;
+	margin-left: 4px;
     padding: 2px 10px;
 }
 
@@ -663,7 +670,7 @@ ul.upholstery-types-list {
     color: #fff;
 }
 
-.upholstery-tetile-list {
+.upholstery-textile-list {
     width: 100%;
     margin: 25px -8px 0;
     display: -webkit-box;
@@ -683,7 +690,7 @@ ul.upholstery-types-list {
     display: inherit;
 }
 
-.upholstery-tetile-list li {
+.upholstery-textile-list li {
     float: left;
     width: 14%;
     margin-bottom: 35px;
@@ -724,7 +731,7 @@ ul.upholstery-types-list {
     opacity: 1;
 }
 
-.upholstery-tetile-list li img,
+.upholstery-textile-list li img,
 .frame-list li img {
     max-width: 100%;
 }
@@ -1091,7 +1098,7 @@ h3.titleGreyborder.inactive+ul.product-list {
     .popup-tab-wrap .mCSB_draggerContainer {
         display: none;
     }
-    .seating-page .mfp-wrap {
+    .essentials-page .mfp-wrap {
         overflow: auto !important;
     }
 }
@@ -1147,14 +1154,14 @@ h3.titleGreyborder.inactive+ul.product-list {
     .essentials-modal-wrap .owl-prev {
         left: 15px;
     }
-    .upholstery-tetile-list,
+    .upholstery-textile-list,
     .frame-list {
         display: flex;
         flex-wrap: wrap;
         margin: 25px 0px 0;
         margin-bottom: 10px;
     }
-    .upholstery-tetile-list li,
+    .upholstery-textile-list li,
     .frame-list li {
         width: calc(33.33% - 10px);
         min-height: auto;
@@ -1282,7 +1289,7 @@ h3.titleGreyborder.inactive+ul.product-list {
         border: none;
     }
     .essentials-tab-list,
-    .upholstery-tetile-lis {
+    .upholstery-textile-lis {
         display: inline-block;
         width: 100%;
     }
@@ -1293,7 +1300,7 @@ h3.titleGreyborder.inactive+ul.product-list {
         display: none;
     }
     .frame-list li,
-    .upholstery-tetile-list li {
+    .upholstery-textile-list li {
         display: inline-block !important;
         width: 100px !important;
     }
@@ -1326,6 +1333,10 @@ h3.titleGreyborder.inactive+ul.product-list {
         padding-bottom: 5px;
     }
     .frame-finish-wrap {
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+    }
+    .finish-list-wrap {
         padding-bottom: 5px;
         margin-bottom: 5px;
     }
@@ -1368,6 +1379,9 @@ h3.titleGreyborder.inactive+ul.product-list {
     .frame-finish-wrap {
         padding-bottom: 0px;
     }
+    .finish-list-wrap {
+        padding-bottom: 0px;
+    }
     .upholstery-types-list li {
         margin-bottom: 0;
     }
@@ -1386,17 +1400,17 @@ h3.titleGreyborder.inactive+ul.product-list {
     .mCSB_scrollTools {
         display: none !important;
     }
-    .upholstery-tetile-list li {
+    .upholstery-textile-list li {
         margin-bottom: 0px !important;
     }
     .frame-list li p,
-    .upholstery-tetile-list li p {
+    .upholstery-textile-list li p {
         margin-bottom: 10px;
     }
     .upholstery-tab-content {
         display: block !important;
     }
-    .upholstery-tetile-list li,
+    .upholstery-textile-list li,
     .frame-list li {
         width: auto !important;
         padding: 0 10px 0 0;
@@ -1405,19 +1419,19 @@ h3.titleGreyborder.inactive+ul.product-list {
         width: 0;
         height: 0;
     }
-    .upholstery-tetile-list li p,
+    .upholstery-textile-list li p,
     .frame-list li p {
         position: relative;
     }
-    .upholstery-tetile-list li p {
+    .upholstery-textile-list li p {
         line-height: normal;
         margin-bottom: 0;
     }
-    .upholstery-tetile-list li:last-child p:after,
+    .upholstery-textile-list li:last-child p:after,
     .frame-list li:last-child p:after {
         display: none;
     }
-    .upholstery-tetile-list li p:after,
+    .upholstery-textile-list li p:after,
     .frame-list li p:after {
         content: ",";
         position: absolute;
@@ -1425,7 +1439,7 @@ h3.titleGreyborder.inactive+ul.product-list {
         top: 0;
         color: #777;
     }
-    .upholstery-tetile-list,
+    .upholstery-textile-list,
     .frame-list {
         margin: 3px 0 12px 0;
     }

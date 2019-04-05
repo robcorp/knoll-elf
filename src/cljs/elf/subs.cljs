@@ -1,5 +1,6 @@
 (ns elf.subs
   (:require
+   [clojure.string :as str]
    [re-frame.core :refer [reg-sub] :as re-frame]
    [com.rpl.specter :refer [ALL multi-path walker] :refer-macros [select select-first setval] :as spctr]))
 
@@ -49,10 +50,48 @@
    (:filtered-screen-products db)))
 
 (reg-sub
+ ::textiles-info
+ (fn [db]
+   (:textiles-info db)))
+
+(reg-sub
+ ::textiles-approvals
+ (fn [db]
+   (:textiles-approvals db)))
+
+(reg-sub
  ::selected-product
  (fn [db]
    (let [[_ selected-epp-id] (:selected-epp-id db)]
      (select-first [:all-products ALL #(= selected-epp-id (:epp-id %))] db))))
+
+(reg-sub
+ ::selected-product-all-textiles
+ (fn [_]
+   [(re-frame/subscribe [::selected-product])
+    (re-frame/subscribe [::textiles-info])
+    (re-frame/subscribe [::textiles-approvals])])
+
+ (fn [[selected-prod info approvals]]
+   (let [partnums (->> selected-prod
+                       :apprvId
+                       keyword
+                       (get approvals)
+                       (filter not-empty)
+                       (filter #(not-empty (str/replace % #"[a-zA-Z]*" ""))))
+         get-textiles-info (fn [partnum]
+                             (select-first [ALL #(= (:PartNum %) partnum)] info))
+         textiles (group-by :Grade (map get-textiles-info partnums))]
+
+     (filter #(not-empty (key %)) textiles))))
+
+(reg-sub
+ ::selected-product-essential-textiles
+ (fn [_]
+   (re-frame/subscribe [::selected-product-all-textiles]))
+
+ (fn [textiles]
+   (group-by :Grade (select [spctr/MAP-VALS ALL #(not-empty (:EssntlSKUs %))] textiles))))
 
 (reg-sub
  ::lead-time-filters
