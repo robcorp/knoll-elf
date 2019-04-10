@@ -400,7 +400,7 @@
    "Type": "TEX"
  },
  {
-   "Name": "Instinct ",
+   "Name": "Instinct",
    "PartNum": "K2258",
    "Grade": "B",
    "EssntlSKUs": "K22581, K22582, K22583, K22584, K22585, K22586, K22587, K22588, K22589, K225810, K225811, K225812, K225813, K225814, K225815",
@@ -669,6 +669,14 @@
    "Grade": "B",
    "EssntlSKUs": "",
    "PrimarySKU": "3",
+   "Type": "TEX"
+ },
+ {
+   "Name": "Vibe II",
+   "PartNum": "K2154",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "7",
    "Type": "TEX"
  },
  {
@@ -1192,14 +1200,6 @@
    "Type": "TEX"
  },
  {
-   "Name": "Vibe II",
-   "PartNum": "K2154",
-   "Grade": "C",
-   "EssntlSKUs": "",
-   "PrimarySKU": "7",
-   "Type": "TEX"
- },
- {
    "Name": "Wit",
    "PartNum": "K2050",
    "Grade": "C",
@@ -1261,6 +1261,14 @@
    "Grade": "D",
    "EssntlSKUs": "",
    "PrimarySKU": "1",
+   "Type": "TEX"
+ },
+ {
+   "Name": "Ikat Stripe",
+   "PartNum": "K1701",
+   "Grade": "D",
+   "EssntlSKUs": "",
+   "PrimarySKU": "5",
    "Type": "TEX"
  },
  {
@@ -1405,14 +1413,6 @@
    "Grade": "E",
    "EssntlSKUs": "",
    "PrimarySKU": "4",
-   "Type": "TEX"
- },
- {
-   "Name": "Ikat Stripe",
-   "PartNum": "K1701",
-   "Grade": "E",
-   "EssntlSKUs": "",
-   "PrimarySKU": "5",
    "Type": "TEX"
  },
  {
@@ -1784,6 +1784,14 @@
    "Type": "TEX"
  },
  {
+   "Name": "Arezzo",
+   "PartNum": "K1442",
+   "Grade": "G",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1",
+   "Type": "TEX"
+ },
+ {
    "Name": "Arrondissement",
    "PartNum": "K2200",
    "Grade": "G",
@@ -1821,6 +1829,14 @@
    "Grade": "G",
    "EssntlSKUs": "",
    "PrimarySKU": "4",
+   "Type": "TEX"
+ },
+ {
+   "Name": "Hampshire",
+   "PartNum": "K1151",
+   "Grade": "G",
+   "EssntlSKUs": "",
+   "PrimarySKU": "2",
    "Type": "TEX"
  },
  {
@@ -1912,15 +1928,15 @@
    "Type": "TEX"
  },
  {
-   "Name": "Straie Stripe",
-   "PartNum": "K1827",
+   "Name": "Striae Stripe",
+   "PartNum": "K1828",
    "Grade": "G",
    "EssntlSKUs": "",
-   "PrimarySKU": "4",
+   "PrimarySKU": "5",
    "Type": "TEX"
  },
  {
-   "Name": "Ultrasuede ®",
+   "Name": "Ultrasuede",
    "PartNum": "K1021",
    "Grade": "G",
    "EssntlSKUs": "",
@@ -2208,49 +2224,33 @@
    "Type": "TEX"
  },
  {
-   "Name": "Hampshire",
-   "PartNum": "K1151",
-   "Grade": "G",
-   "EssntlSKUs": "",
-   "PrimarySKU": "2",
-   "Type": "TEX"
- },
- {
-   "Name": "Arezzo",
-   "PartNum": "K1442",
-   "Grade": "G",
-   "EssntlSKUs": "",
-   "PrimarySKU": "1",
-   "Type": "TEX"
- },
- {
-   "Name": "Andes",
-   "PartNum": "AD",
-   "Grade": "V",
+   "Name": "Vicenza",
+   "PartNum": "VZ",
+   "Grade": "U",
    "EssntlSKUs": "",
    "PrimarySKU": "",
    "Type": "LEA"
  },
  {
-   "Name": "Alaska",
-   "PartNum": "AL",
-   "Grade": "W",
+   "Name": "Vicenza Perforated",
+   "PartNum": "PERFVZ",
+   "Grade": "U",
    "EssntlSKUs": "",
    "PrimarySKU": "",
    "Type": "LEA"
  },
  {
-   "Name": "Amazon",
-   "PartNum": "AM",
-   "Grade": "W",
+   "Name": "Volo",
+   "PartNum": "VO",
+   "Grade": "U",
    "EssntlSKUs": "",
    "PrimarySKU": "",
    "Type": "LEA"
  },
  {
-   "Name": "Antique",
-   "PartNum": "AQ",
-   "Grade": "W",
+   "Name": "Volo Perforated",
+   "PartNum": "PERFVO",
+   "Grade": "U",
    "EssntlSKUs": "",
    "PrimarySKU": "",
    "Type": "LEA"
@@ -2264,64 +2264,24 @@
    "Type": "LEA"
  },
  {
-   "Name": "Cascia",
-   "PartNum": "CA",
-   "Grade": "Y",
+   "Name": "Acqua Perforated",
+   "PartNum": "PERFAU",
+   "Grade": "V",
    "EssntlSKUs": "",
    "PrimarySKU": "",
    "Type": "LEA"
  },
  {
-   "Name": "Copenhagen",
-   "PartNum": "CO",
-   "Grade": "Y",
+   "Name": "Andes",
+   "PartNum": "AD",
+   "Grade": "V",
    "EssntlSKUs": "",
    "PrimarySKU": "",
    "Type": "LEA"
  },
  {
-   "Name": "Cervo",
-   "PartNum": "CV",
-   "Grade": "Y",
-   "EssntlSKUs": "",
-   "PrimarySKU": "",
-   "Type": "LEA"
- },
- {
-   "Name": "Derby",
-   "PartNum": "DE",
-   "Grade": "W",
-   "EssntlSKUs": "",
-   "PrimarySKU": "",
-   "Type": "LEA"
- },
- {
-   "Name": "Ducale",
-   "PartNum": "DL",
-   "Grade": "X",
-   "EssntlSKUs": "",
-   "PrimarySKU": "",
-   "Type": "LEA"
- },
- {
-   "Name": "Distressed",
-   "PartNum": "DT",
-   "Grade": "Y",
-   "EssntlSKUs": "",
-   "PrimarySKU": "",
-   "Type": "LEA"
- },
- {
-   "Name": "Ducale Velours",
-   "PartNum": "DV",
-   "Grade": "X",
-   "EssntlSKUs": "",
-   "PrimarySKU": "",
-   "Type": "LEA"
- },
- {
-   "Name": "Espana",
-   "PartNum": "ES",
+   "Name": "Andes Perforated",
+   "PartNum": "PERFAD",
    "Grade": "V",
    "EssntlSKUs": "",
    "PrimarySKU": "",
@@ -2336,17 +2296,25 @@
    "Type": "LEA"
  },
  {
-   "Name": "Forte",
-   "PartNum": "FE",
-   "Grade": "W",
+   "Name": "Embossed Tipped Perforated",
+   "PartNum": "PERFET",
+   "Grade": "V",
    "EssntlSKUs": "",
    "PrimarySKU": "",
    "Type": "LEA"
  },
  {
-   "Name": "Gemma",
-   "PartNum": "GE",
-   "Grade": "Y",
+   "Name": "Espana",
+   "PartNum": "ES",
+   "Grade": "V",
+   "EssntlSKUs": "",
+   "PrimarySKU": "",
+   "Type": "LEA"
+ },
+ {
+   "Name": "Espana Perforated",
+   "PartNum": "PERFES",
+   "Grade": "V",
    "EssntlSKUs": "",
    "PrimarySKU": "",
    "Type": "LEA"
@@ -2360,25 +2328,9 @@
    "Type": "LEA"
  },
  {
-   "Name": "Lucca",
-   "PartNum": "LC",
-   "Grade": "Y",
-   "EssntlSKUs": "",
-   "PrimarySKU": "",
-   "Type": "LEA"
- },
- {
-   "Name": "Lucente",
-   "PartNum": "LU",
-   "Grade": "W",
-   "EssntlSKUs": "",
-   "PrimarySKU": "",
-   "Type": "LEA"
- },
- {
-   "Name": "Marissa",
-   "PartNum": "MA",
-   "Grade": "Y",
+   "Name": "Hand Tipped Perforated",
+   "PartNum": "PERFHT",
+   "Grade": "V",
    "EssntlSKUs": "",
    "PrimarySKU": "",
    "Type": "LEA"
@@ -2392,65 +2344,9 @@
    "Type": "LEA"
  },
  {
-   "Name": "Portofino",
-   "PartNum": "PT",
-   "Grade": "Y",
-   "EssntlSKUs": "",
-   "PrimarySKU": "",
-   "Type": "LEA"
- },
- {
-   "Name": "Riva",
-   "PartNum": "RA",
-   "Grade": "Y",
-   "EssntlSKUs": "",
-   "PrimarySKU": "",
-   "Type": "LEA"
- },
- {
-   "Name": "Rugata",
-   "PartNum": "RU",
-   "Grade": "Y",
-   "EssntlSKUs": "",
-   "PrimarySKU": "",
-   "Type": "LEA"
- },
- {
-   "Name": "Sabrina",
-   "PartNum": "SA",
-   "Grade": "W",
-   "EssntlSKUs": "",
-   "PrimarySKU": "",
-   "Type": "LEA"
- },
- {
-   "Name": "Saddle",
-   "PartNum": "SL",
-   "Grade": "Y",
-   "EssntlSKUs": "",
-   "PrimarySKU": "",
-   "Type": "LEA"
- },
- {
-   "Name": "Sassolino",
-   "PartNum": "SS",
-   "Grade": "Y",
-   "EssntlSKUs": "",
-   "PrimarySKU": "",
-   "Type": "LEA"
- },
- {
-   "Name": "Umbria",
-   "PartNum": "UM",
-   "Grade": "W",
-   "EssntlSKUs": "",
-   "PrimarySKU": "",
-   "Type": "LEA"
- },
- {
-   "Name": "Volo",
-   "PartNum": "VO",
-   "Grade": "U",
+   "Name": "Maremma Perforated",
+   "PartNum": "PERFMM",
+   "Grade": "V",
    "EssntlSKUs": "",
    "PrimarySKU": "",
    "Type": "LEA"
@@ -2464,17 +2360,17 @@
    "Type": "LEA"
  },
  {
-   "Name": "Vicenza",
-   "PartNum": "VZ",
-   "Grade": "U",
+   "Name": "Velluto Pelle Perforated",
+   "PartNum": "PERFVP",
+   "Grade": "V",
    "EssntlSKUs": "",
    "PrimarySKU": "",
    "Type": "LEA"
  },
  {
-   "Name": "Andes Perforated",
-   "PartNum": "PERFAD",
-   "Grade": "V",
+   "Name": "Alaska",
+   "PartNum": "AL",
+   "Grade": "W",
    "EssntlSKUs": "",
    "PrimarySKU": "",
    "Type": "LEA"
@@ -2482,6 +2378,14 @@
  {
    "Name": "Alaska Perforated",
    "PartNum": "PERFAL",
+   "Grade": "W",
+   "EssntlSKUs": "",
+   "PrimarySKU": "",
+   "Type": "LEA"
+ },
+ {
+   "Name": "Amazon",
+   "PartNum": "AM",
    "Grade": "W",
    "EssntlSKUs": "",
    "PrimarySKU": "",
@@ -2496,6 +2400,14 @@
    "Type": "LEA"
  },
  {
+   "Name": "Antique",
+   "PartNum": "AQ",
+   "Grade": "W",
+   "EssntlSKUs": "",
+   "PrimarySKU": "",
+   "Type": "LEA"
+ },
+ {
    "Name": "Antique Perforated",
    "PartNum": "PERFAQ",
    "Grade": "W",
@@ -2504,9 +2416,121 @@
    "Type": "LEA"
  },
  {
-   "Name": "Acqua Perforated",
-   "PartNum": "PERFAU",
-   "Grade": "V",
+   "Name": "Derby",
+   "PartNum": "DE",
+   "Grade": "W",
+   "EssntlSKUs": "",
+   "PrimarySKU": "",
+   "Type": "LEA"
+ },
+ {
+   "Name": "Derby Perforated",
+   "PartNum": "PERFDE",
+   "Grade": "W",
+   "EssntlSKUs": "",
+   "PrimarySKU": "",
+   "Type": "LEA"
+ },
+ {
+   "Name": "Forte",
+   "PartNum": "FE",
+   "Grade": "W",
+   "EssntlSKUs": "",
+   "PrimarySKU": "",
+   "Type": "LEA"
+ },
+ {
+   "Name": "Forte Perforated",
+   "PartNum": "PERFFE",
+   "Grade": "W",
+   "EssntlSKUs": "",
+   "PrimarySKU": "",
+   "Type": "LEA"
+ },
+ {
+   "Name": "Lucente",
+   "PartNum": "LU",
+   "Grade": "W",
+   "EssntlSKUs": "",
+   "PrimarySKU": "",
+   "Type": "LEA"
+ },
+ {
+   "Name": "Lucente Perforated",
+   "PartNum": "PERFLU",
+   "Grade": "W",
+   "EssntlSKUs": "",
+   "PrimarySKU": "",
+   "Type": "LEA"
+ },
+ {
+   "Name": "Sabrina",
+   "PartNum": "SA",
+   "Grade": "W",
+   "EssntlSKUs": "",
+   "PrimarySKU": "",
+   "Type": "LEA"
+ },
+ {
+   "Name": "Sabrina Perforated",
+   "PartNum": "PERFSA",
+   "Grade": "W",
+   "EssntlSKUs": "",
+   "PrimarySKU": "",
+   "Type": "LEA"
+ },
+ {
+   "Name": "Umbria",
+   "PartNum": "UM",
+   "Grade": "W",
+   "EssntlSKUs": "",
+   "PrimarySKU": "",
+   "Type": "LEA"
+ },
+ {
+   "Name": "Umbria Perforated",
+   "PartNum": "PERFUM",
+   "Grade": "W",
+   "EssntlSKUs": "",
+   "PrimarySKU": "",
+   "Type": "LEA"
+ },
+ {
+   "Name": "Ducale",
+   "PartNum": "DL",
+   "Grade": "X",
+   "EssntlSKUs": "",
+   "PrimarySKU": "",
+   "Type": "LEA"
+ },
+ {
+   "Name": "Ducale Perforated",
+   "PartNum": "PERFDL",
+   "Grade": "X",
+   "EssntlSKUs": "",
+   "PrimarySKU": "",
+   "Type": "LEA"
+ },
+ {
+   "Name": "Ducale Velours",
+   "PartNum": "DV",
+   "Grade": "X",
+   "EssntlSKUs": "",
+   "PrimarySKU": "",
+   "Type": "LEA"
+ },
+ {
+   "Name": "Ducale Velours Perforated",
+   "PartNum": "PERFDV",
+   "Grade": "X",
+   "EssntlSKUs": "",
+   "PrimarySKU": "",
+   "Type": "LEA"
+ },
+ {
+   "Name": "Cascia",
+   "PartNum": "CA",
+   "Grade": "Y",
    "EssntlSKUs": "",
    "PrimarySKU": "",
    "Type": "LEA"
@@ -2520,8 +2544,8 @@
    "Type": "LEA"
  },
  {
-   "Name": "Copenhagen Perforated",
-   "PartNum": "PERFCO",
+   "Name": "Cervo",
+   "PartNum": "CV",
    "Grade": "Y",
    "EssntlSKUs": "",
    "PrimarySKU": "",
@@ -2536,17 +2560,25 @@
    "Type": "LEA"
  },
  {
-   "Name": "Derby Perforated",
-   "PartNum": "PERFDE",
-   "Grade": "W",
+   "Name": "Copenhagen",
+   "PartNum": "CO",
+   "Grade": "Y",
    "EssntlSKUs": "",
    "PrimarySKU": "",
    "Type": "LEA"
  },
  {
-   "Name": "Ducale Perforated",
-   "PartNum": "PERFDL",
-   "Grade": "X",
+   "Name": "Copenhagen Perforated",
+   "PartNum": "PERFCO",
+   "Grade": "Y",
+   "EssntlSKUs": "",
+   "PrimarySKU": "",
+   "Type": "LEA"
+ },
+ {
+   "Name": "Distressed",
+   "PartNum": "DT",
+   "Grade": "Y",
    "EssntlSKUs": "",
    "PrimarySKU": "",
    "Type": "LEA"
@@ -2560,33 +2592,9 @@
    "Type": "LEA"
  },
  {
-   "Name": "Ducale Velours Perforated",
-   "PartNum": "PERFDV",
-   "Grade": "X",
-   "EssntlSKUs": "",
-   "PrimarySKU": "",
-   "Type": "LEA"
- },
- {
-   "Name": "Espana Perforated",
-   "PartNum": "PERFES",
-   "Grade": "V",
-   "EssntlSKUs": "",
-   "PrimarySKU": "",
-   "Type": "LEA"
- },
- {
-   "Name": "Embossed Tipped Perforated",
-   "PartNum": "PERFET",
-   "Grade": "V",
-   "EssntlSKUs": "",
-   "PrimarySKU": "",
-   "Type": "LEA"
- },
- {
-   "Name": "Forte Perforated",
-   "PartNum": "PERFFE",
-   "Grade": "W",
+   "Name": "Gemma",
+   "PartNum": "GE",
+   "Grade": "Y",
    "EssntlSKUs": "",
    "PrimarySKU": "",
    "Type": "LEA"
@@ -2600,9 +2608,9 @@
    "Type": "LEA"
  },
  {
-   "Name": "Hand Tipped Perforated",
-   "PartNum": "PERFHT",
-   "Grade": "V",
+   "Name": "Lucca",
+   "PartNum": "LC",
+   "Grade": "Y",
    "EssntlSKUs": "",
    "PrimarySKU": "",
    "Type": "LEA"
@@ -2616,9 +2624,9 @@
    "Type": "LEA"
  },
  {
-   "Name": "Lucente Perforated",
-   "PartNum": "PERFLU",
-   "Grade": "W",
+   "Name": "Marissa",
+   "PartNum": "MA",
+   "Grade": "Y",
    "EssntlSKUs": "",
    "PrimarySKU": "",
    "Type": "LEA"
@@ -2632,9 +2640,9 @@
    "Type": "LEA"
  },
  {
-   "Name": "Maremma Perforated",
-   "PartNum": "PERFMM",
-   "Grade": "V",
+   "Name": "Portofino",
+   "PartNum": "PT",
+   "Grade": "Y",
    "EssntlSKUs": "",
    "PrimarySKU": "",
    "Type": "LEA"
@@ -2642,6 +2650,14 @@
  {
    "Name": "Portofino Perforated",
    "PartNum": "PERFPT",
+   "Grade": "Y",
+   "EssntlSKUs": "",
+   "PrimarySKU": "",
+   "Type": "LEA"
+ },
+ {
+   "Name": "Riva",
+   "PartNum": "RA",
    "Grade": "Y",
    "EssntlSKUs": "",
    "PrimarySKU": "",
@@ -2656,6 +2672,14 @@
    "Type": "LEA"
  },
  {
+   "Name": "Rugata",
+   "PartNum": "RU",
+   "Grade": "Y",
+   "EssntlSKUs": "",
+   "PrimarySKU": "",
+   "Type": "LEA"
+ },
+ {
    "Name": "Rugata Perforated",
    "PartNum": "PERFRU",
    "Grade": "Y",
@@ -2664,9 +2688,9 @@
    "Type": "LEA"
  },
  {
-   "Name": "Sabrina Perforated",
-   "PartNum": "PERFSA",
-   "Grade": "W",
+   "Name": "Saddle",
+   "PartNum": "SL",
+   "Grade": "Y",
    "EssntlSKUs": "",
    "PrimarySKU": "",
    "Type": "LEA"
@@ -2680,51 +2704,19 @@
    "Type": "LEA"
  },
  {
-   "Name": "Sassolino Perforated",
-   "PartNum": "PERFSS",
+   "Name": "Sassolino",
+   "PartNum": "SS",
    "Grade": "Y",
    "EssntlSKUs": "",
    "PrimarySKU": "",
    "Type": "LEA"
  },
  {
-   "Name": "Umbria Perforated",
-   "PartNum": "PERFUM",
-   "Grade": "W",
+   "Name": "Sassolino Perforated",
+   "PartNum": "PERFSS",
+   "Grade": "Y",
    "EssntlSKUs": "",
    "PrimarySKU": "",
    "Type": "LEA"
- },
- {
-   "Name": "Volo Perforated",
-   "PartNum": "PERFVO",
-   "Grade": "U",
-   "EssntlSKUs": "",
-   "PrimarySKU": "",
-   "Type": "LEA"
- },
- {
-   "Name": "Velluto Pelle Perforated",
-   "PartNum": "PERFVP",
-   "Grade": "V",
-   "EssntlSKUs": "",
-   "PrimarySKU": "",
-   "Type": "LEA"
- },
- {
-   "Name": "Vicenza Perforated",
-   "PartNum": "PERFVZ",
-   "Grade": "U",
-   "EssntlSKUs": "",
-   "PrimarySKU": "",
-   "Type": "LEA"
- },
- {
-   "Name": " ",
-   "PartNum": null,
-   "Grade": "",
-   "EssntlSKUs": "",
-   "PrimarySKU": "",
-   "Type": ""
  }
 ]
