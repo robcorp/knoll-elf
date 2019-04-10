@@ -52,7 +52,7 @@
                                :optimizations   :simple
                                :closure-defines {goog.DEBUG false}
                                :pretty-print    false}}
-               {:id           "advanced"
+               {:id           "prod"
                 :source-paths ["src/cljs"]
                 :compiler     {:main            elf.core
                                :output-to       "resources/public/js/compiled/elf.js"
