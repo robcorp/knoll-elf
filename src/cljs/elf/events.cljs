@@ -172,11 +172,12 @@
  ::product-selected
  (fn-traced [db [_ label epp-id] event]
             ;; show the popup
-            (.. js/$ -magnificPopup
-                (open (clj->js {:type "inline"
-                                :midClick true
-                                :showCloseBtn false
-                                :items {:src "#essentials-modal"}})))
+            (if-not config/debug?
+              (.. js/$ -magnificPopup
+                  (open (clj->js {:type "inline"
+                                  :midClick true
+                                  :showCloseBtn false
+                                  :items {:src "#essentials-modal"}}))))
 
             ;; create the carousel (mainly for styling and rendering the
             ;; navigation arrows, since we don't actually scroll left or
