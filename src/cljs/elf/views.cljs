@@ -311,20 +311,23 @@
 
       ^{:key (str lead-time grade part)}
       [:div {:id (str "fabric-" part "-tab")
-             :class ["upholstery-tab-content" (str "grade-" grade) (str lead-time grade part)]}
-       [:ul.upholstery-types-sub-list
-        [:li
-	     [:a {:href "javascript:;"
-              :data-tab (str "fabric-" part "-tab")
-              :on-click return-to-fabrics-view} (str "Back to all grade " grade)]]]
-       [:h5 (str name " " part)]
-       (if (not-empty colors)
-         [:ul.upholstery-textile-list
-          (for [[sku name] colors]
-            ^{:key (str lead-time grade part sku name)}
-            [:li {:class (str lead-time grade part sku name)}
-             [:div.swatch-div [:img {:src (str "https://www.knoll.com/textileimages/th/" part sku ".jpg") :data-no-retina ""}]]
-             [:p (str sku " " name)]])])])))
+             :class ["upholstery-tab-content" (str "grade-" grade)]}
+       (if (empty? colors)
+         [:p "Loading..."]
+         [:<>
+          [:ul.upholstery-types-sub-list
+           [:li
+	        [:a {:href "javascript:;"
+                 :data-tab (str "fabric-" part "-tab")
+                 :on-click return-to-fabrics-view} (str "Back to all grade " grade)]]]
+          [:h5 (str name " " part)]
+          [:ul.upholstery-textile-list
+           (for [[sku name] colors]
+             ^{:key (str lead-time grade part sku name)}
+             [:li {:class (str lead-time grade part sku name)}
+              [:div.swatch-div [:img {:src (str "https://www.knoll.com/textileimages/th/" part sku ".jpg") :data-no-retina ""}]]
+              [:p (str sku " " name)]])]
+            ])])))
 
 (defn- approved-fabrics [lead-time]
   (let [selected-prod (<sub [::subs/selected-product])
@@ -492,7 +495,7 @@
 (defn- modal-popup []
   (let [selected-prod (<sub [::subs/selected-product])
         lead-times-set (set (:lead-times selected-prod))]
-    [:div#essentials-modal.white-popup-block.mfp-hide
+    [:div#essentials-modal {:class ["white-popup-block" (if-not config/debug? "mfp-hide")]}
      [:div.essentials-modal-wrap
       [:div.header-popup-view
        [:div.popup-action-list-wrap
