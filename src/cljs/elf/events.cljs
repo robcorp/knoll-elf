@@ -154,12 +154,12 @@
 
 (defn- clear-all-product-filters [db]
   (setval (multi-path [:ELFSeatingSelector :items ALL :value]
-                       [:ELFTableSelector :items ALL :value]
-                       [:ELFStorageSelector :items ALL :value]
-                       [:ELFPowerAndDataSelector :items ALL :value]
-                       [:ELFWorkToolsSelector :items ALL :value]
-                       [:ELFScreensAndBoardsSelector :items ALL :value])
-           false db))
+                      [:ELFTableSelector :items ALL :value]
+                      [:ELFStorageSelector :items ALL :value]
+                      [:ELFPowerAndDataSelector :items ALL :value]
+                      [:ELFWorkToolsSelector :items ALL :value]
+                      [:ELFScreensAndBoardsSelector :items ALL :value])
+          false db))
 
 (reg-event-db
  ::reset-product-type-filters
