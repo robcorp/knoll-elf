@@ -32,7 +32,7 @@
         [filtered-products-view]]]]]))
 
 
-(defn essential-product-summary [label {:keys [epp-id title product-name lead-times thumb-img]}]
+(defn- essential-product-summary [label {:keys [epp-id title product-name lead-times thumb-img]}]
   (let [lead-times-set (set lead-times)]
     [:li
      [:a.popup-modal {:href "#essentials-modal"
@@ -48,7 +48,7 @@
          [:li.standard-ship-active])]
       [:p title]]]))
 
-(defn lead-time-filter-radio-button [{:keys [li-id li-class id lead-time label value]} filter]
+(defn- lead-time-filter-radio-button [{:keys [li-id li-class id lead-time label value]} filter]
   [:li {:key id :id li-id :class ["lead-time-list-types" li-class]}
    [:input.check-in {:type "radio"
             :id id
@@ -58,14 +58,14 @@
    [:label.active {:for id} label]])
 
 ;;; render the Lead Time: filters 
-(defn lead-time-filters []
+(defn- lead-time-filters []
   (let [filters (<sub [::subs/lead-time-filters])]
     [:<>
      [:h3 "Lead Time:"]
      [:ul.lead-time-list
       (map lead-time-filter-radio-button filters)]]))
 
-(defn product-type-filter-group [filter-options filtered-prods]
+(defn- product-type-filter-group [filter-options filtered-prods]
   (let [did-mount-toggler (fn [comp]
                             (.click (.find (js/$ (reagent/dom-node comp)) "h4") 
                                     (fn [ev]
@@ -114,7 +114,7 @@
       (.addClass (js/$ ".veil") "overlay")
       (.click (js/$ ".veil.overlay") close-filter-slideout)))
 
-(defn product-type-filters []
+(defn- product-type-filters []
   (let [seating-filter-options (<sub [::subs/seating-filter-options])
         tables-filter-options (<sub [::subs/tables-filter-options])
         storage-filter-options (<sub [::subs/storage-filter-options])
@@ -146,13 +146,13 @@
      [:div.mobile-visible
       [:a.apply_btn.accordian_btn {:on-click close-filter-slideout} " < APPLY AND RETURN"]]]))
 
-(defn filters-view []
+(defn- filters-view []
   [:div.left-filter-col.researchPage
    [:div.select-wrap
     [lead-time-filters]
     [product-type-filters]]])
 
-(defn filtered-product-type-section [{:keys [label products]}]
+(defn- filtered-product-type-section [{:keys [label products]}]
   (when (not (empty? products))
     ^{:key label}
     [:div.product-list
@@ -164,7 +164,7 @@
           [essential-product-summary label prod]))]]))
 
 
-(defn filtered-products-view []
+(defn- filtered-products-view []
   (let [all-products (<sub [::subs/all-products])
         filtered-seating-prods (<sub [::subs/filtered-seating-products])
         filtered-table-prods (<sub [::subs/filtered-table-products])
@@ -177,9 +177,7 @@
                                                                 filtered-storage-prods
                                                                 filtered-power-prods
                                                                 filtered-work-prods
-                                                                filtered-screen-prods)))
-        ;;all-swatches (into #{} (select [ALL :availFinMods ALL (spctr/multi-path [:quick] [:std] [:three-weeik]) :fins ALL :img] all-products))
-        ]
+                                                                filtered-screen-prods)))]
 
     [:div.right-product-col
      [:div.right-product-content
@@ -253,6 +251,16 @@
         :on-click fabric-grade-pill-clicked}
    [:a {:href "javascript:;"} grade]])
 
+(defn- fabric-swatch-clicked [evt]
+  (let [target (js/$ (.-currentTarget evt))
+        tab (.data target "tab")
+        part (str/replace tab #"fabric-(.*)-tab" "$1")]
+
+    (evt> [::events/show-fabric-skus part])
+    (.hide (js/$ ".popup-tab-content.selected .upholstery-list-wrap .tab-main"))
+    (.hide (js/$ ".popup-tab-content.selected .upholstery-list-wrap .upholstery-tab-wrap"))
+    (.show (js/$ (str ".popup-tab-content.selected .upholstery-list-wrap .sub-tab-wrap #" tab)))))
+
 (defn- create-fabric-swatch [i fab]
   (let [name (:Name fab)
         part (:PartNum fab)
@@ -261,7 +269,8 @@
 
     ^{:key (str grade "-" part)}
     [:li {:class ["has-sub-tab" (if (= i 0) " selected")]
-          :on-click #(evt> [::events/show-fabric-skus part])}
+          :data-tab (str "fabric-" part "-tab")
+          :on-click fabric-swatch-clicked}
      [:div.swatch-div
       [:img {:src (str "https://www.knoll.com/textileimages/th/" part primarySku ".jpg")}]]
      [:p name]]))
@@ -275,7 +284,49 @@
      [:ul.upholstery-textile-list
       (map-indexed create-fabric-swatch (sort-by :Name fabs))]]))
 
-(defn approved-fabrics [lead-time]
+(defn- return-to-fabrics-view [evt]
+  (let [target (js/$ (.-currentTarget evt))
+        tab (.data target "tab")]
+
+    (.hide (js/$ (str ".popup-tab-content.selected .upholstery-list-wrap .sub-tab-wrap #" tab)))
+    (.show (js/$ ".popup-tab-content.selected .upholstery-list-wrap .tab-main"))
+    (.show (js/$ ".popup-tab-content.selected .upholstery-list-wrap .upholstery-tab-wrap"))))
+
+(defn- essential-colors [fab]
+  (let [part-len (count (:PartNum fab))
+        fab-colors (:FabricColors fab)
+        ess-skus (map #(subs (str/trim %) part-len)
+                      (str/split (:EssntlSKUs fab) #","))
+        ess-colors (filter not-empty (map #(some (fn [sku] (if (= (first sku) %) sku)) fab-colors) ess-skus))]
+
+    ess-colors))
+
+(defn- create-fabric-grade-sub-tab [lead-time [grade fabs]]
+  (for [fab fabs]
+    (let [part (:PartNum fab)
+          name (:Name fab)
+          colors (case lead-time
+                   "std" (:FabricColors fab)
+                   "three-week" (essential-colors fab))]
+
+      ^{:key (str lead-time grade part)}
+      [:div {:id (str "fabric-" part "-tab")
+             :class ["upholstery-tab-content" (str "grade-" grade) (str lead-time grade part)]}
+       [:ul.upholstery-types-sub-list
+        [:li
+	     [:a {:href "javascript:;"
+              :data-tab (str "fabric-" part "-tab")
+              :on-click return-to-fabrics-view} (str "Back to all grade " grade)]]]
+       [:h5 (str name " " part)]
+       (if (not-empty colors)
+         [:ul.upholstery-textile-list
+          (for [[sku name] colors]
+            ^{:key (str lead-time grade part sku name)}
+            [:li {:class (str lead-time grade part sku name)}
+             [:div.swatch-div [:img {:src (str "https://www.knoll.com/textileimages/th/" part sku ".jpg") :data-no-retina ""}]]
+             [:p (str sku " " name)]])])])))
+
+(defn- approved-fabrics [lead-time]
   (let [selected-prod (<sub [::subs/selected-product])
         fabs (case lead-time
                "std" (<sub [::subs/selected-product-all-textiles])
@@ -290,9 +341,13 @@
         [:ul.upholstery-types-list
          (map-indexed create-fabric-grade-pill grades)]]
        [:div.upholstery-tab-wrap
-        (map-indexed create-fabric-grade-tab (sort fabs))]])))
+        (map-indexed create-fabric-grade-tab (sort fabs))]
+       [:div.sub-tab-wrap
+        #_(map #(create-fabric-grade-sub-tab lead-time %) (sort fabs))
+        (for [fab (sort fabs)]
+            (create-fabric-grade-sub-tab lead-time fab))]])))
 
-(defn tab-contents [lead-time selected-prod lead-times-set selected?]
+(defn- tab-contents [lead-time selected-prod lead-times-set selected?]
   (let [avail-fin-mods (select [:availFinMods ALL #(not= "Options" (:title %)) (collect-one :title) (keyword lead-time) :fins] selected-prod)
         [optsTitle opts] (select-first [:availFinMods ALL #(= "options" (str/lower-case (:title %))) (collect-one :title) (keyword lead-time)] selected-prod)
         tab-content-class (if selected? "selected" "")
@@ -348,24 +403,28 @@
       (.removeClass (js/$ ".popup-tab-content.selected .finish-tab-wrap .finish-tab-content") "selected") ; make sure only the selected pill's contents are showing
       (.addClass (js/$ (str ".finish-tab-wrap " "#" selected-pill)) "selected"))))
 
-(defn popup-tab-wrap []
+(defn- popup-tab-wrap []
   (let [selected-prod (<sub [::subs/selected-product])
         lead-times-set (set (:lead-times selected-prod))
         num-lead-times (count lead-times-set)
-        epp-id (:epp-id selected-prod)]
+        epp-id (:epp-id selected-prod)
+        first-tab (atom nil)]
     
     [:div#style-2.scrollbar
      [:div.popup-tab-wrap.force-overflow
-      (if (lead-times-set "quick")
-        [tab-contents "quick" selected-prod lead-times-set (= 3 num-lead-times)])
+      (when (lead-times-set "quick")
+        (if-not @first-tab (reset! first-tab "quick")) ;; if first-tab hasn't been set yet, set it to "quick"
+        [tab-contents "quick" selected-prod lead-times-set (= @first-tab "quick")])
 
-      (if (lead-times-set "three-week")
-        [tab-contents "three-week" selected-prod lead-times-set (= 2 num-lead-times)])
+      (when (lead-times-set "three-week")
+        (if-not @first-tab (reset! first-tab "three-week")) ;; if first-tab hasn't been set yet, set it to "three-week"
+        [tab-contents "three-week" selected-prod lead-times-set (= @first-tab "three-week")])
 
-      (if (lead-times-set "std")
-        [tab-contents "std" selected-prod lead-times-set (= 1 num-lead-times)])]]))
+      (when (lead-times-set "std")
+        (if-not @first-tab (reset! first-tab "std")) ;; if first-tab hasn't been set yet, set it to "std"
+        [tab-contents "std" selected-prod lead-times-set (= @first-tab "std")])]]))
 
-(defn product-tabs []
+(defn- product-tabs []
   (let [selected-prod (<sub [::subs/selected-product])
         lead-times-set (set (:lead-times selected-prod))
         lead-times-count (count lead-times-set)
@@ -377,43 +436,44 @@
         select-default-value (case lead-times-count
                                3 "quick"
                                2 "three-week"
-                               (0 1) "std")]
+                               (0 1) "std")
+        first-tab (atom nil)]
 
     [:div.essentials-product-tabs
      ^{:key :epp-id}
      [:ul.essentials-tab-list
-      (if (lead-times-set "quick")
-        (do
-          ^{:key (str epp-id "-" "quick")}
-          [:li {:id (str epp-id "-" "quick")
-                :data-tab "quick"
-                :class (if (= 3 lead-times-count) "selected")
-                :style {:width tab-width}
-                :on-click lead-time-tab-clicked}
-           [:span.tab-color.quick-lead-active]
-           [:a.tab-nav "Essentials Quickship options"]]))
+      (when (lead-times-set "quick")
+        (if-not @first-tab (reset! first-tab "quick"))
+        ^{:key (str epp-id "-" "quick")}
+        [:li {:id (str epp-id "-" "quick")
+              :data-tab "quick"
+              :class (if (= @first-tab "quick") "selected")
+              :style {:width tab-width}
+              :on-click lead-time-tab-clicked}
+         [:span.tab-color.quick-lead-active]
+         [:a.tab-nav "Essentials Quickship options"]])
 
-      (if (lead-times-set "three-week")
-        (do
-          ^{:key (str epp-id "-" "three-week")}
-          [:li {:id (str epp-id "-" "three-week")
-                :data-tab "three-week"
-                :class (if (= 2 lead-times-count) "selected")
-                :style {:width tab-width}
-                :on-click lead-time-tab-clicked}
-           [:span.tab-color.three-ship-active]
-           [:a.tab-nav "Essentials 3 week options "]]))
+      (when (lead-times-set "three-week")
+        (if-not @first-tab (reset! first-tab "three-week"))
+        ^{:key (str epp-id "-" "three-week")}
+        [:li {:id (str epp-id "-" "three-week")
+              :data-tab "three-week"
+              :class (if (= @first-tab "three-week") "selected")
+              :style {:width tab-width}
+              :on-click lead-time-tab-clicked}
+         [:span.tab-color.three-ship-active]
+         [:a.tab-nav "Essentials 3 week options "]])
 
-      (if (lead-times-set "std")
-        (do
-          ^{:key (str epp-id "-" "std")}
-          [:li {:id (str epp-id "-" "std")
-                :data-tab "std"
-                :class (if (= 1 lead-times-count) "selected")
-                :style {:width tab-width}
-                :on-click lead-time-tab-clicked}
-           [:span.tab-color.standard-ship-active]
-           [:a.tab-nav "Standard Ship options"]]))]
+      (when (lead-times-set "std")
+        (if-not @first-tab (reset! first-tab "std"))
+        ^{:key (str epp-id "-" "std")}
+        [:li {:id (str epp-id "-" "std")
+              :data-tab "std"
+              :class (if (= @first-tab "std") "selected") #_(if (= 1 lead-times-count) "selected")
+              :style {:width tab-width}
+              :on-click lead-time-tab-clicked}
+         [:span.tab-color.standard-ship-active]
+         [:a.tab-nav "Standard Ship options"]])]
 
      ^{:key (str "select-" epp-id)}
      [:select.tab-select-option {:defaultValue select-default-value
@@ -429,7 +489,7 @@
 
      [popup-tab-wrap selected-prod lead-times-set]]))
 
-(defn modal-popup []
+(defn- modal-popup []
   (let [selected-prod (<sub [::subs/selected-product])
         lead-times-set (set (:lead-times selected-prod))]
     [:div#essentials-modal.white-popup-block.mfp-hide
@@ -458,7 +518,7 @@
 
          [product-tabs]]]]]]))
 
-(defn mouse-pos-comp []
+(defn- mouse-pos-comp []
   (reagent/with-let [pointer (reagent/atom {:x nil :y nil})
                      handler #(swap! pointer assoc
                                      :x (.-pageX %)

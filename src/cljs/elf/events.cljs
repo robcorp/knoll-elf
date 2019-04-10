@@ -9,7 +9,7 @@
             [day8.re-frame.http-fx]))
 
 
-(declare load-textiles-approvals load-textiles-info load-all-products load-filter-options filter-category-products)
+(declare load-textiles-approvals load-textiles-info load-fabric-data load-all-products load-filter-options filter-category-products)
 
 (reg-event-db
  ::initialize-db
@@ -85,13 +85,19 @@
 
 (reg-event-db
  ::set-textiles-approvals
- (fn-traced [db [_ resp]]
-   (assoc db :textiles-approvals resp)))
+ (fn-traced [db [_ approvals]]
+   (assoc db :textiles-approvals approvals)))
 
 (reg-event-db
  ::set-textiles-info
- (fn-traced [db [_ resp]]
-   (assoc db :textiles-info resp)))
+ (fn-traced [db [_ info]]
+   (assoc db :textiles-info info)))
+
+(reg-event-db
+ ::set-fabric-colors
+ (fn [db [_ partnum colors]]
+   (let [color-names-skus (map (fn [c] [(:SkuNumber c) (:ColorName c)]) colors)]
+     (setval [:textiles-info ALL #(= partnum (:PartNum %)) :FabricColors] color-names-skus db))))
 
 (defn- update-lead-time-filter-state [selected-filter filters]
   (->> filters
@@ -201,10 +207,14 @@
 
 (reg-event-db
  ::show-fabric-skus
- (fn-traced [db [_ partnum]]
-   (println "::show-fabric-skus event for partnum: " partnum)
-   db))
+ (fn-traced [db [evt partnum]]
+   ;; if FabricColors don't exist in the db for the partnum,
+   ;; call textiles webservice with partnums.
+   ;; Otherwise, just return the db untouched
+   (if-not (spctr/select-first [:textiles-info ALL #(= partnum (:PartNum %)) :FabricColors] db)
+     (load-fabric-data partnum))
 
+   db))
 
 (defn- load-all-products []
   (let [path "/cs/Satellite?pagename=Knoll/Common/Utils/EssentialsPopupProductsJSON"
@@ -224,7 +234,7 @@
 (defn- load-filter-options [selector]
   (let [baseURL (if config/debug?
                   "http://knlprdwcsmgt1.knoll.com"
-                  (str (.. js/window -location -origin) ))
+                  (str (.. js/window -location -origin)))
         presentationObjectItemsURL (str baseURL "/cs/Satellite?pagename=Knoll/Common/Utils/PresentationObjectItemsJSON&presentationObject=" selector)
         success-handler (fn [resp]
                           (re-frame/dispatch [::set-filter-options selector (:presentationObjectItems resp)]))
@@ -299,4 +309,22 @@
 
     (ajax/GET url {:timeout 90000 :handler success-handler :error-handler error-handler :response-format :json :keywords? true})))
 
+(defn- load-fabric-data
+  "Call the textiles webservice with the provided partnum"
+  [partnum]
+  (let [baseURL (if config/debug?
+                  "https://www.knoll.com" #_"http://knlprdwcsmgt1.knoll.com"
+                  ;; prod server is fast, but staging server may have updated
+                  ;; data not yet in prod.
+                  (str (.. js/window -location -origin)))
+        textileWSURL (str baseURL "/textiles/" (str/replace partnum #"^[a-zA-Z]*" ""))
+        success-handler (fn [resp]
+                          (re-frame/dispatch [::set-fabric-colors partnum (:FabricColors resp)]))
 
+        error-handler (fn [{:keys [status status-text]}]
+                        (.log js/console (str "Ajax request failed: " status " " status-text)))]
+
+    (ajax/GET textileWSURL {:handler success-handler
+                            :error-handler error-handler
+                            :response-format :json
+                            :keywords? true})))
