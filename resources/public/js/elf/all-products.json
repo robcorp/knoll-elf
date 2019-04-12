@@ -16358,11 +16358,11 @@
           "id" : "1356407071508",
           "title" : "Options",
           "std" : {
-            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Size:</span><span class=\"essop-option\">Standard, Large, Child's</span></p>\r\n<p><span class=\"essop-title\">Seat Pad:</span><span class=\"essop-option\">Seat Pad, Full Cover</span></p>\r\n\r\n<p><span class=\"essop-title\">Frame:</span><span class=\"essop-option\">Chrome, 18k Gold, Powder Coat Paint (two-tone available)</span></p>\r\n</div>\r\n</div>\r\n</div>",
+            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Size:</span><span class=\"essop-option\">Standard, Large, Child&#39;s</span></p>\r\n\r\n<p><span class=\"essop-title\">Seat Pad Style:</span><span class=\"essop-option\">Seat Pad, Full Cover</span></p>\r\n<p><span class=\"essop-title\">Upholstery:</span><span class=\"essop-option\">Approved Textiles and Leathers</span></p>\r\n\r\n<p><span class=\"essop-title\">Frame:</span><span class=\"essop-option\">Chrome, 18k Gold, Powder Coat Paint (two-tone available)</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
             "fins" : []
           },
           "three-week" : {
-            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Size:</span><span class=\"essop-option\">Standard</span></p>\r\n\r\n<p><span class=\"essop-title\">Seat Pad:</span><span class=\"essop-option\">Seat Pad</span></p>\r\n\r\n<p><span class=\"essop-title\">Frame:</span><span class=\"essop-option\">Chrome</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title\">Quantity Limit:&nbsp;</span><span class=\"essop-option red\">10</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
+            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Size:</span><span class=\"essop-option\">Standard</span></p>\r\n\r\n\r\n<p><span class=\"essop-title\">Seat Pad Style:</span><span class=\"essop-option\">Seat Pad</span></p>\r\n<p><span class=\"essop-title\">Upholstery:</span><span class=\"essop-option\">Approved Textiles and Leathers</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title\">Quantity Limit:&nbsp;</span><span class=\"essop-option red\">10</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
             "fins" : []
           },
           "quick" : {
@@ -16663,15 +16663,15 @@
           "id" : "1356407695795",
           "title" : "Options",
           "std" : {
-            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell:</span><span class=\"essop-option\">Plastic</span></p>\r\n\r\n<p><span class=\"essop-title\">Seat Pad:</span><span class=\"essop-option\">No Seat Pad, Generation Fabric, Approved Fabric and Leather</span></p>\r\n\r\n<p><span class=\"essop-title\">Arms:</span><span class=\"essop-option\">Fixed, Armless, Tablet Arm </span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Frame:</span><span class=\"essop-option\">Painted</span></p>\r\n\r\n<p><span class=\"essop-title\">Casters:</span><span class=\"essop-option\">Hard, Soft, Glides</span></p>\r\n<p><span class=\"essop-title\">Accessories:</span><span class=\"essop-option\">Ganging Mechanism, Stacking Dolly, Book Basket</span></p>\r\n</div>\r\n</div>\r\n</div>",
+            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell:</span><span class=\"essop-option\">Plastic</span></p>\r\n\r\n<p><span class=\"essop-title\">Optional Seat Pad:</span><span class=\"essop-option\">Generation Fabric, Approved Fabric and Leather</span></p>\r\n\r\n<p><span class=\"essop-title\">Arms:</span><span class=\"essop-option\">Fixed, Armless, Tablet Arm </span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Frame:</span><span class=\"essop-option\">Painted</span></p>\r\n\r\n<p><span class=\"essop-title\">Casters:</span><span class=\"essop-option\">Hard, Soft, Glides</span></p>\r\n\r\n<p><span class=\"essop-title\">Accessories:</span><span class=\"essop-option\">Ganging Mechanism, Stacking Dolly, Book Basket</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
             "fins" : []
           },
           "three-week" : {
-            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell:</span><span class=\"essop-option\">Plastic</span></p>\r\n\r\n<p><span class=\"essop-title\">Seat Pad:</span><span class=\"essop-option\">No Seat Pad, Generation Fabric, Approved Fabric and Leather</span></p>\r\n\r\n<p><span class=\"essop-title\">Arms:</span><span class=\"essop-option\">Fixed, Armless, Tablet Arm </span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Frame:</span><span class=\"essop-option\">Painted</span></p>\r\n\r\n<p><span class=\"essop-title\">Casters:</span><span class=\"essop-option\">Hard, Soft, Glides</span></p>\r\n<p><span class=\"essop-title\">Accessories:</span><span class=\"essop-option\">Ganging Mechanism, Stacking Dolly, Book Basket</span></p>\r\n</div>\r\n</div>\r\n</div>",
+            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell:</span><span class=\"essop-option\">Plastic</span></p>\r\n\r\n<p><span class=\"essop-title\">Optional Seat Pad:</span><span class=\"essop-option\">Generation Fabric, Approved Fabric and Leather</span></p>\r\n\r\n<p><span class=\"essop-title\">Arms:</span><span class=\"essop-option\">Fixed, Armless, Tablet Arm </span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Frame:</span><span class=\"essop-option\">Painted</span></p>\r\n\r\n<p><span class=\"essop-title\">Casters:</span><span class=\"essop-option\">Hard, Soft, Glides</span></p>\r\n\r\n<p><span class=\"essop-title\">Accessories:</span><span class=\"essop-option\">Ganging Mechanism, Stacking Dolly, Book Basket</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
             "fins" : []
           },
           "quick" : {
-            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell:</span><span class=\"essop-option\">Plastic</span></p>\r\n\r\n<p><span class=\"essop-title\">Seat Pad:</span><span class=\"essop-option\">No Seat Pad, Generation Fabric</span></p>\r\n\r\n<p><span class=\"essop-title\">Arms:</span><span class=\"essop-option\">Fixed, Armless</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Frame:</span><span class=\"essop-option\">Painted</span></p>\r\n\r\n<p><span class=\"essop-title\">Casters:</span><span class=\"essop-option\">Hard, Glides</span></p>\r\n<p><span class=\"essop-title\">Accessories:</span><span class=\"essop-option\">Not Available</span></p>\r\n</div>\r\n<div class=\"left\">\r\n<p><span class=\"essop-title\">Quantity Limit:&nbsp;</span><span class=\"essop-option red\">25</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
+            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell:</span><span class=\"essop-option\">Plastic</span></p>\r\n\r\n<p><span class=\"essop-title\">Optional Seat Pad:</span><span class=\"essop-option\">Generation Fabric</span></p>\r\n\r\n<p><span class=\"essop-title\">Arms:</span><span class=\"essop-option\">Fixed, Armless</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Frame:</span><span class=\"essop-option\">Painted</span></p>\r\n\r\n<p><span class=\"essop-title\">Casters:</span><span class=\"essop-option\">Hard, Glides</span></p>\r\n\r\n<p><span class=\"essop-title\">Accessories:</span><span class=\"essop-option\">Not Available</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title\">Quantity Limit:&nbsp;</span><span class=\"essop-option red\">25</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
             "fins" : []
           }
         },
@@ -17058,202 +17058,6 @@
       "name" : "ES MultiGeneration by Knoll Stacking",
       "powerCats" : [],
       "product-id" : "multigeneration-by-knoll-stacking-base"
-    },
-    {
-      "lead-times" : [
-        "std",
-        "three-week"
-      ],
-      "short-text" : "<p>&nbsp;</p><p>Ross Lovegrove, an industrial designer recognized for forward-thinking, organically-inspired products, brought his distinctive aesthetic to Knoll with the Sprite&trade; Stacking Chair &mdash; his take on the quintessential molded plywood side chair.</p>",
-      "storageCats" : [],
-      "screensCats" : [],
-      "epp-id" : "1356386054517",
-      "seatingCats" : [
-        "Side and Multi-Use"
-      ],
-      "apprvId" : "SIDE-15",
-      "tableCats" : [],
-      "availFinMods" : [
-        {
-          "id" : "1352996339743",
-          "title" : "Paint",
-          "std" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1352940758198",
-                "color" : "White",
-                "img" : "/926/522/Thumb_CHIPWV,0.png",
-                "type" : "Paint"
-              },
-              {
-                "id" : "1347382987936",
-                "color" : "Grey",
-                "img" : "/98/98/Thumb_PNTSL,0.png",
-                "type" : "Paint"
-              },
-              {
-                "id" : "1347382987877",
-                "color" : "Navy",
-                "img" : "/700/914/Thumb_PNTNA,0.png",
-                "type" : "Paint"
-              },
-              {
-                "id" : "1352994049431",
-                "color" : "Red ",
-                "img" : "/842/44/Thumb_BertoiaWarmRedRD_406,0.png",
-                "type" : "Paint"
-              },
-              {
-                "id" : "1347382987796",
-                "color" : "Lime",
-                "img" : "/390/341/Thumb_PNTLI,0.png",
-                "type" : "Paint"
-              },
-              {
-                "id" : "1352941971580",
-                "color" : "Black  ",
-                "img" : "/467/969/Thumb_PNTBL,2.png",
-                "type" : "Paint"
-              }
-            ]
-          },
-          "three-week" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1352940758198",
-                "color" : "White",
-                "img" : "/926/522/Thumb_CHIPWV,0.png",
-                "type" : "Paint"
-              },
-              {
-                "id" : "1352941971580",
-                "color" : "Black  ",
-                "img" : "/467/969/Thumb_PNTBL,2.png",
-                "type" : "Paint"
-              }
-            ]
-          },
-          "quick" : {
-            "optsTxt" : "",
-            "fins" : []
-          }
-        },
-        {
-          "id" : "1352996339762",
-          "title" : "Maple",
-          "std" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1352994055730",
-                "color" : "Clear Maple/Maple/Rotary Maple",
-                "img" : "/439/540/Thumb_WODKC,4.png",
-                "type" : "Veneer"
-              }
-            ]
-          },
-          "three-week" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1352994055730",
-                "color" : "Clear Maple/Maple/Rotary Maple",
-                "img" : "/439/540/Thumb_WODKC,4.png",
-                "type" : "Veneer"
-              }
-            ]
-          },
-          "quick" : {
-            "optsTxt" : "",
-            "fins" : []
-          }
-        },
-        {
-          "id" : "1352996339724",
-          "title" : "Exotic Alpi  and Veneer",
-          "std" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1347383001159",
-                "color" : "Natural Beech Lumber",
-                "img" : "/683/501/Thumb_WODBN,2.png",
-                "type" : "Veneer"
-              },
-              {
-                "id" : "1352941763569",
-                "color" : "Cherry",
-                "img" : "/109/608/Thumb_CY,0.png",
-                "type" : "Veneer"
-              },
-              {
-                "id" : "1352941765377",
-                "color" : "Walnut",
-                "img" : "/553/410/Thumb_WODWA,0.png",
-                "type" : "Veneer"
-              },
-              {
-                "id" : "1352941765434",
-                "color" : "Zebra",
-                "img" : "/522/852/Thumb_WODZE,0.png",
-                "type" : "Veneer"
-              },
-              {
-                "id" : "1352941765491",
-                "color" : "Macasser Ebony",
-                "img" : "/503/916/Thumb_WODME,0.png",
-                "type" : "Veneer"
-              },
-              {
-                "id" : "1352941765663",
-                "color" : "Black and White Woodgrain",
-                "img" : "/426/288/Thumb_WODWB,0.png",
-                "type" : "Veneer"
-              }
-            ]
-          },
-          "three-week" : {
-            "optsTxt" : "",
-            "fins" : []
-          },
-          "quick" : {
-            "optsTxt" : "",
-            "fins" : []
-          }
-        },
-        {
-          "id" : "1352996279726",
-          "title" : "Leg Finish",
-          "std" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1352996254622",
-                "color" : "Chrome, Polished",
-                "img" : "/666/580/Thumb_c,0.png",
-                "type" : "Metal"
-              }
-            ]
-          },
-          "three-week" : {
-            "optsTxt" : "",
-            "fins" : []
-          },
-          "quick" : {
-            "optsTxt" : "",
-            "fins" : []
-          }
-        }
-      ],
-      "title" : "Sprite",
-      "thumb-img" : "/280/96/sprite-stacking-chair.jpg",
-      "hero1-img" : "/153/998/sprite-stacking-chair.jpg",
-      "workCats" : [],
-      "name" : "ES Sprite",
-      "powerCats" : [],
-      "product-id" : "sprite-stacking-chair"
     },
     {
       "lead-times" : [
@@ -17727,15 +17531,15 @@
           "id" : "1356405456561",
           "title" : "Options",
           "std" : {
-            "optsTxt" : "\t<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n\t<div id=\"essop-container\">\r\n\t\t<div class=\"essop-options\">\r\n\t\t\t<div class=\"essop-column\">\r\n\t\t\t\t<p><span class=\"essop-title\">Shell:</span><span class=\"essop-option\">Plastic</span></p>\r\n\t\t\t\t<p><span class=\"essop-title\">Seat Pad:</span><span class=\"essop-option\">No Seat Pad, Generation Fabric, Approved Fabric and Leather</span></p>\r\n\t\t\t\t<p><span class=\"essop-title\">Arms:</span><span class=\"essop-option\">Fixed, Armless </span></p>\r\n\t\t\t</div>\r\n\t\t\t<div class=\"essop-column\">\r\n\t\t\t\t<p><span class=\"essop-title\">Frame:</span><span class=\"essop-option\">Painted, Chrome </span></p>\r\n\t\t\t\t<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Plastic, Aluminum</span></p>\r\n\t\t\t\t<p><span class=\"essop-title\">Casters:</span><span class=\"essop-option\">Hard, Soft, Glides</span></p>\r\n\t\t\t\t\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t</div>",
+            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell:</span><span class=\"essop-option\">Plastic</span></p>\r\n\r\n<p><span class=\"essop-title\">Optional Seat Pad:</span><span class=\"essop-option\">Generation Fabric, Approved Fabric and Leather</span></p>\r\n\r\n<p><span class=\"essop-title\">Arms:</span><span class=\"essop-option\">Fixed, Armless </span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Frame:</span><span class=\"essop-option\">Painted, Chrome </span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Plastic, Aluminum</span></p>\r\n\r\n<p><span class=\"essop-title\">Casters:</span><span class=\"essop-option\">Hard, Soft, Glides</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
             "fins" : []
           },
           "three-week" : {
-            "optsTxt" : "<div id=\"essop-container\">\r\n\t\t<div class=\"essop-options\">\r\n\t\t\t<div class=\"essop-column\">\r\n\t\t\t\t<p><span class=\"essop-title\">Shell:</span><span class=\"essop-option\">Plastic</span></p>\r\n\t\t\t\t<p><span class=\"essop-title\">Seat Pad:</span><span class=\"essop-option\">No Seat Pad, Generation Fabric, Approved Fabric and Leather</span></p>\r\n\t\t\t\t<p><span class=\"essop-title\">Arms:</span><span class=\"essop-option\">Fixed, Armless </span></p>\r\n\t\t\t</div>\r\n\t\t\t<div class=\"essop-column\">\r\n\t\t\t\t<p><span class=\"essop-title\">Frame:</span><span class=\"essop-option\">Painted, Chrome </span></p>\r\n\t\t\t\t<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Plastic, Aluminum</span></p>\r\n\t\t\t\t<p><span class=\"essop-title\">Casters:</span><span class=\"essop-option\">Hard, Soft, Glides</span></p>\r\n\t\t\t\t\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t</div>",
+            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell:</span><span class=\"essop-option\">Plastic</span></p>\r\n\r\n<p><span class=\"essop-title\">Optional Seat Pad:</span><span class=\"essop-option\">Generation Fabric, Approved Fabric and Leather</span></p>\r\n\r\n<p><span class=\"essop-title\">Arms:</span><span class=\"essop-option\">Fixed, Armless </span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Frame:</span><span class=\"essop-option\">Painted, Chrome </span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Plastic, Aluminum</span></p>\r\n\r\n<p><span class=\"essop-title\">Casters:</span><span class=\"essop-option\">Hard, Soft, Glides</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
             "fins" : []
           },
           "quick" : {
-            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell:</span><span class=\"essop-option\">Plastic</span></p>\r\n\r\n<p><span class=\"essop-title\">Seat Pad:</span><span class=\"essop-option\">No Seat Pad, Generation Fabric</span></p>\r\n\r\n<p><span class=\"essop-title\">Arms:</span><span class=\"essop-option\">Fixed, Armless </span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Frame:</span><span class=\"essop-option\">Painted</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Plastic, Aluminum</span></p>\r\n\r\n<p><span class=\"essop-title\">Casters:</span><span class=\"essop-option\">Hard, Glides</span></p>\r\n</div>\r\n<div class=\"left\">\r\n\r\n<p><span class=\"essop-title\">Quantity Limit:&nbsp;</span><span class=\"essop-option red\">25</span></p>\r\n</div>\r\n</div>\r\n\r\n",
+            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell:</span><span class=\"essop-option\">Plastic</span></p>\r\n\r\n<p><span class=\"essop-title\">Optional Seat Pad:</span><span class=\"essop-option\">Generation Fabric</span></p>\r\n\r\n<p><span class=\"essop-title\">Arms:</span><span class=\"essop-option\">Fixed, Armless </span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Frame:</span><span class=\"essop-option\">Painted</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Plastic, Aluminum</span></p>\r\n\r\n<p><span class=\"essop-title\">Casters:</span><span class=\"essop-option\">Hard, Glides</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title\">Quantity Limit:&nbsp;</span><span class=\"essop-option red\">25</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
             "fins" : []
           }
         },
@@ -18458,15 +18262,15 @@
           "id" : "1356405458599",
           "title" : "Options",
           "std" : {
-            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n\t<div id=\"essop-container\">\r\n\t\t<div class=\"essop-options\">\r\n\t\t\t<div class=\"essop-column\">\r\n\t\t\t\t<p><span class=\"essop-title\">Shell:</span><span class=\"essop-option\">Plastic</span></p>\r\n\t\t\t\t<p><span class=\"essop-title\">Seat Pad:</span><span class=\"essop-option\">No Seat Pad, Generation Fabric, Approved Fabric and Leather</span></p>\r\n\t\t\t\t<p><span class=\"essop-title\">Arms:</span><span class=\"essop-option\">Fixed, Armless </span></p>\r\n\t\t\t\t<p><span class=\"essop-title\">Frame:</span><span class=\"essop-option\">Painted, Chrome </span></p>\r\n\t\t\t</div>\r\n\t\t\t<div class=\"essop-column\">\r\n\t\t\t\t<p><span class=\"essop-title\">Cylinder:</span><span class=\"essop-option\">Standard, Low</span></p>\r\n\t\t\t\t<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Plastic, Aluminum</span></p>\r\n\t\t\t\t<p><span class=\"essop-title\">Casters:</span><span class=\"essop-option\">Hard, Soft, Glides</span></p>\r\n\t\t\t\t\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t</div>",
+            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell:</span><span class=\"essop-option\">Plastic</span></p>\r\n\r\n<p><span class=\"essop-title\">Optional Seat Pad:</span><span class=\"essop-option\">Generation Fabric, Approved Fabric and Leather</span></p>\r\n\r\n<p><span class=\"essop-title\">Arms:</span><span class=\"essop-option\">Fixed, Armless </span></p>\r\n\r\n<p><span class=\"essop-title\">Frame:</span><span class=\"essop-option\">Painted, Chrome </span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Cylinder:</span><span class=\"essop-option\">Standard, Low</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Plastic, Aluminum</span></p>\r\n\r\n<p><span class=\"essop-title\">Casters:</span><span class=\"essop-option\">Hard, Soft, Glides</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
             "fins" : []
           },
           "three-week" : {
-            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell:</span><span class=\"essop-option\">Plastic</span></p>\r\n\r\n<p><span class=\"essop-title\">Seat Pad:</span><span class=\"essop-option\">No Seat Pad, Generation Fabric, Approved Fabric and Leather</span></p>\r\n\r\n<p><span class=\"essop-title\">Arms:</span><span class=\"essop-option\">Fixed, Armless </span></p>\r\n\r\n<p><span class=\"essop-title\">Frame:</span><span class=\"essop-option\">Painted, Chrome </span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Cylinder:</span><span class=\"essop-option\">Standard, Low</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Plastic, Aluminum</span></p>\r\n\r\n<p><span class=\"essop-title\">Casters:</span><span class=\"essop-option\">Hard, Soft, Glides</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
+            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell:</span><span class=\"essop-option\">Plastic</span></p>\r\n\r\n<p><span class=\"essop-title\">Optional Seat Pad:</span><span class=\"essop-option\">Generation Fabric, Approved Fabric and Leather</span></p>\r\n\r\n<p><span class=\"essop-title\">Arms:</span><span class=\"essop-option\">Fixed, Armless </span></p>\r\n\r\n<p><span class=\"essop-title\">Frame:</span><span class=\"essop-option\">Painted, Chrome </span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Cylinder:</span><span class=\"essop-option\">Standard, Low</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Plastic, Aluminum</span></p>\r\n\r\n<p><span class=\"essop-title\">Casters:</span><span class=\"essop-option\">Hard, Soft, Glides</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
             "fins" : []
           },
           "quick" : {
-            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell:</span><span class=\"essop-option\">Plastic</span></p>\r\n\r\n<p><span class=\"essop-title\">Seat Pad:</span><span class=\"essop-option\">No Seat Pad, Generation Fabric</span></p>\r\n\r\n<p><span class=\"essop-title\">Arms:</span><span class=\"essop-option\">Fixed, Armless </span></p>\r\n\r\n<p><span class=\"essop-title\">Frame:</span><span class=\"essop-option\">Painted</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Cylinder:</span><span class=\"essop-option\">Standard</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Plastic, Aluminum</span></p>\r\n\r\n<p><span class=\"essop-title\">Casters:</span><span class=\"essop-option\">Hard, Glides</span></p>\r\n</div>\r\n<div class=\"left\">\r\n\r\n<p><span class=\"essop-title\">Quantity Limit:&nbsp;</span><span class=\"essop-option red\">25</span></p>\r\n</div>\r\n</div>\r\n",
+            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell:</span><span class=\"essop-option\">Plastic</span></p>\r\n\r\n<p><span class=\"essop-title\">Optional Seat Pad:</span><span class=\"essop-option\">Generation Fabric</span></p>\r\n\r\n<p><span class=\"essop-title\">Arms:</span><span class=\"essop-option\">Fixed, Armless </span></p>\r\n\r\n<p><span class=\"essop-title\">Frame:</span><span class=\"essop-option\">Painted</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Cylinder:</span><span class=\"essop-option\">Standard</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Plastic, Aluminum</span></p>\r\n\r\n<p><span class=\"essop-title\">Casters:</span><span class=\"essop-option\">Hard, Glides</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title\">Quantity Limit:&nbsp;</span><span class=\"essop-option red\">25</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
             "fins" : []
           }
         },
@@ -23225,7 +23029,14 @@
           },
           "three-week" : {
             "optsTxt" : "",
-            "fins" : []
+            "fins" : [
+              {
+                "id" : "1352996254622",
+                "color" : "Chrome, Polished",
+                "img" : "/666/580/Thumb_c,0.png",
+                "type" : "Metal"
+              }
+            ]
           },
           "quick" : {
             "optsTxt" : "",
@@ -37002,11 +36813,11 @@
           "id" : "1356407667153",
           "title" : "Options",
           "std" : {
-            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Arms:</span><span class=\"essop-option\">Arms, Tablet Arm, Armless</span></p>\r\n<p><span class=\"essop-title\">Seat Pad:</span><span class=\"essop-option\">No Seat Pad, Seat Pad in Approved Textiles and Leathers</span></p>\r\n<p><span class=\"essop-title\">Accessories:</span><span class=\"essop-option\">Ganging Mechanism, Stacking Dolly</span></p>\r\n</div>\r\n</div>\r\n</div>",
+            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Arms:</span><span class=\"essop-option\">Arms, Tablet Arm, Armless</span></p>\r\n\r\n<p><span class=\"essop-title\">Optional Seat Pad:</span><span class=\"essop-option\">Approved Textiles and Leathers</span></p>\r\n\r\n<p><span class=\"essop-title\">Accessories:</span><span class=\"essop-option\">Ganging Mechanism, Stacking Dolly</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
             "fins" : []
           },
           "three-week" : {
-            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Arms:</span><span class=\"essop-option\"> Armless</span></p>\r\n<p><span class=\"essop-title\">Seat Pad:</span><span class=\"essop-option\">No Seat Pad</span></p>\r\n<p><span class=\"essop-title\">Accessories:</span><span class=\"essop-option\">Not Available</span></p>\r\n</div>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title\">Quantity Limit:&nbsp;</span><span class=\"essop-option red\">25</span></p>\r\n</div>\r\n</div>",
+            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Arms:</span><span class=\"essop-option\"> Armless</span></p>\r\n\r\n<p><span class=\"essop-title\">Optional Seat Pad:</span><span class=\"essop-option\">Not Available</span></p>\r\n\r\n<p><span class=\"essop-title\">Accessories:</span><span class=\"essop-option\">Not Available</span></p>\r\n</div>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title\">Quantity Limit:&nbsp;</span><span class=\"essop-option red\">25</span></p>\r\n</div>\r\n</div>\r\n",
             "fins" : []
           },
           "quick" : {
@@ -41116,229 +40927,6 @@
         "std",
         "three-week"
       ],
-      "short-text" : "<p>k. lounge is a soft-seating series that delivers a broad range of capabilities, making it the go-to solution for activity spaces throughout the work environment.</p>",
-      "storageCats" : [],
-      "screensCats" : [],
-      "epp-id" : "1356386162420",
-      "seatingCats" : [
-        "Lounge",
-        "Side and Multi-Use"
-      ],
-      "apprvId" : "",
-      "tableCats" : [],
-      "availFinMods" : [
-        {
-          "id" : "1356389619142",
-          "title" : "Base Grade Textile: Delite",
-          "std" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1353003209436",
-                "color" : "Delite - Orange",
-                "img" : "/33/633/Thumb_orange,9.png",
-                "type" : ""
-              },
-              {
-                "id" : "1353003209374",
-                "color" : "Delite - Red",
-                "img" : "/72/988/Thumb_red,9.png",
-                "type" : ""
-              },
-              {
-                "id" : "1353003209527",
-                "color" : "Delite - Catalina",
-                "img" : "/302/1007/Thumb_catalina,9.png",
-                "type" : ""
-              },
-              {
-                "id" : "1353003210114",
-                "color" : "Delite - Turquoise",
-                "img" : "/728/521/Thumb_turquoise,2.png",
-                "type" : ""
-              },
-              {
-                "id" : "1353003209866",
-                "color" : "Delite - Parrot",
-                "img" : "/905/960/Thumb_parrot,9.png",
-                "type" : ""
-              },
-              {
-                "id" : "1353003209804",
-                "color" : "Delite - Green",
-                "img" : "/630/134/Thumb_green,9.png",
-                "type" : ""
-              },
-              {
-                "id" : "1353003209651",
-                "color" : "Delite - Cinder",
-                "img" : "/700/969/Thumb_cinder,9.png",
-                "type" : ""
-              },
-              {
-                "id" : "1353003209990",
-                "color" : "Delite - Stone",
-                "img" : "/728/304/Thumb_stone,9.png",
-                "type" : ""
-              },
-              {
-                "id" : "1353003209713",
-                "color" : "Delite - Gray",
-                "img" : "/470/329/Thumb_gray,9.png",
-                "type" : ""
-              },
-              {
-                "id" : "1353003209928",
-                "color" : "Delite - Slate",
-                "img" : "/524/76/Thumb_slate,9.png",
-                "type" : ""
-              },
-              {
-                "id" : "1353003210052",
-                "color" : "Delite - Tobacco",
-                "img" : "/72/572/Thumb_tobacco,9.png",
-                "type" : ""
-              },
-              {
-                "id" : "1353003209589",
-                "color" : "Delite - Charcoal",
-                "img" : "/96/987/Thumb_charcoal,9.png",
-                "type" : ""
-              },
-              {
-                "id" : "1353003210295",
-                "color" : "Delite - Onyx",
-                "img" : "/821/632/Thumb_onyx,2.png",
-                "type" : ""
-              },
-              {
-                "id" : "1353004284823",
-                "color" : "Delite - Purple",
-                "img" : "/687/595/Thumb_purple,9.png",
-                "type" : ""
-              }
-            ]
-          },
-          "three-week" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1353003210114",
-                "color" : "Delite - Turquoise",
-                "img" : "/728/521/Thumb_turquoise,2.png",
-                "type" : ""
-              },
-              {
-                "id" : "1353003209651",
-                "color" : "Delite - Cinder",
-                "img" : "/700/969/Thumb_cinder,9.png",
-                "type" : ""
-              },
-              {
-                "id" : "1353003209589",
-                "color" : "Delite - Charcoal",
-                "img" : "/96/987/Thumb_charcoal,9.png",
-                "type" : ""
-              }
-            ]
-          },
-          "quick" : {
-            "optsTxt" : "",
-            "fins" : []
-          }
-        }
-      ],
-      "title" : "k. lounge",
-      "thumb-img" : "/980/116/k-lounge-stool.jpg",
-      "hero1-img" : "/853/1018/k-lounge-stool.jpg",
-      "workCats" : [],
-      "name" : "ES k. lounge",
-      "powerCats" : [],
-      "product-id" : "k-lounge"
-    },
-    {
-      "lead-times" : [
-        "std",
-        "three-week"
-      ],
-      "short-text" : "<p>The Spark Series Lounge chair brings energy to every space with its bright colors and unique personality. A perfect balance of design and utility, the chairs are pleasing to the eye, comfortable and versatile.</p>",
-      "storageCats" : [],
-      "screensCats" : [],
-      "epp-id" : "1356386161979",
-      "seatingCats" : [
-        "Lounge",
-        "Outdoor"
-      ],
-      "apprvId" : "",
-      "tableCats" : [],
-      "availFinMods" : [
-        {
-          "id" : "1352996272365",
-          "title" : "Frame Color",
-          "std" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1347382989190",
-                "color" : "Red",
-                "img" : "/881/504/Thumb_Spark01,0.png",
-                "type" : "Plastic"
-              },
-              {
-                "id" : "1347382989270",
-                "color" : "Blue",
-                "img" : "/754/382/Thumb_Spark02,0.png",
-                "type" : "Plastic"
-              },
-              {
-                "id" : "1347382989306",
-                "color" : "Citron",
-                "img" : "/627/260/Thumb_Spark03,0.png",
-                "type" : "Plastic"
-              },
-              {
-                "id" : "1347382989365",
-                "color" : "Light Grey",
-                "img" : "/500/138/Thumb_Spark04,0.png",
-                "type" : "Plastic"
-              },
-              {
-                "id" : "1347382989426",
-                "color" : "Dark Grey",
-                "img" : "/373/16/Thumb_Spark05,2.png",
-                "type" : "Plastic"
-              },
-              {
-                "id" : "1347382989462",
-                "color" : "Recycled Black",
-                "img" : "/246/918/Thumb_Spark06,0.png",
-                "type" : "Plastic"
-              }
-            ]
-          },
-          "three-week" : {
-            "optsTxt" : "",
-            "fins" : []
-          },
-          "quick" : {
-            "optsTxt" : "",
-            "fins" : []
-          }
-        }
-      ],
-      "title" : "Spark Series Lounge Chair",
-      "thumb-img" : "/732/312/spark-lounge-chair.jpg",
-      "hero1-img" : "/605/190/spark-lounge-chair.jpg",
-      "workCats" : [],
-      "name" : "ES Spark Series Lounge Chair",
-      "powerCats" : [],
-      "product-id" : "spark-series-lounge-chair"
-    },
-    {
-      "lead-times" : [
-        "std",
-        "three-week"
-      ],
       "short-text" : "<p>Unscripted upholstered seats bring punctuation to any space with a bit of unexpected fun. The low cube works with lounge or standard-height tables.. The seat&nbsp;shares common finish details with other Unscripted lounge pieces, including pinch pleat seams and optional serged edge stitch detail.</p>",
       "storageCats" : [],
       "screensCats" : [],
@@ -42563,6 +42151,137 @@
     },
     {
       "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "short-text" : "<p>The Spark Series Side Chair brings energy to every room or patio with its bright colors and unique personality. A perfect balance of design and utility, the chairs are pleasing to the eye, comfortable, and versatile.</p>",
+      "storageCats" : [],
+      "screensCats" : [],
+      "epp-id" : "1356385717773",
+      "seatingCats" : [
+        "Outdoor",
+        "Side and Multi-Use"
+      ],
+      "apprvId" : "SIDE-14",
+      "tableCats" : [],
+      "availFinMods" : [
+        {
+          "id" : "1356408667263",
+          "title" : "Options",
+          "std" : {
+            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Optional Seat Pad:</span><span class=\"essop-option\">Approved Textiles</span></p>\r\n\r\n<p><span class=\"essop-title\">Accessories:</span><span class=\"essop-option\">Ganging Mechanism, Stacking Dolly</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
+            "fins" : []
+          },
+          "three-week" : {
+            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Optional Seat Pad:</span><span class=\"essop-option\">Not Available</span></p>\r\n\r\n<p><span class=\"essop-title\">Accessories:</span><span class=\"essop-option\">Ganging Mechanism</span></p>\r\n</div>\r\n<div class=\"left\">\r\n<p><span class=\"essop-title\">Quantity Limit:&nbsp;</span><span class=\"essop-option red\">25</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        },
+        {
+          "id" : "1352996272365",
+          "title" : "Frame Color",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1347382989190",
+                "color" : "Red",
+                "img" : "/881/504/Thumb_Spark01,0.png",
+                "type" : "Plastic"
+              },
+              {
+                "id" : "1347382989270",
+                "color" : "Blue",
+                "img" : "/754/382/Thumb_Spark02,0.png",
+                "type" : "Plastic"
+              },
+              {
+                "id" : "1347382989306",
+                "color" : "Citron",
+                "img" : "/627/260/Thumb_Spark03,0.png",
+                "type" : "Plastic"
+              },
+              {
+                "id" : "1347382989365",
+                "color" : "Light Grey",
+                "img" : "/500/138/Thumb_Spark04,0.png",
+                "type" : "Plastic"
+              },
+              {
+                "id" : "1347382989426",
+                "color" : "Dark Grey",
+                "img" : "/373/16/Thumb_Spark05,2.png",
+                "type" : "Plastic"
+              },
+              {
+                "id" : "1347382989462",
+                "color" : "Recycled Black",
+                "img" : "/246/918/Thumb_Spark06,0.png",
+                "type" : "Plastic"
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1347382989190",
+                "color" : "Red",
+                "img" : "/881/504/Thumb_Spark01,0.png",
+                "type" : "Plastic"
+              },
+              {
+                "id" : "1347382989270",
+                "color" : "Blue",
+                "img" : "/754/382/Thumb_Spark02,0.png",
+                "type" : "Plastic"
+              },
+              {
+                "id" : "1347382989306",
+                "color" : "Citron",
+                "img" : "/627/260/Thumb_Spark03,0.png",
+                "type" : "Plastic"
+              },
+              {
+                "id" : "1347382989365",
+                "color" : "Light Grey",
+                "img" : "/500/138/Thumb_Spark04,0.png",
+                "type" : "Plastic"
+              },
+              {
+                "id" : "1347382989426",
+                "color" : "Dark Grey",
+                "img" : "/373/16/Thumb_Spark05,2.png",
+                "type" : "Plastic"
+              },
+              {
+                "id" : "1347382989462",
+                "color" : "Recycled Black",
+                "img" : "/246/918/Thumb_Spark06,0.png",
+                "type" : "Plastic"
+              }
+            ]
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        }
+      ],
+      "title" : "Spark Series Side Chair",
+      "thumb-img" : "/127/966/spark-side-chair.jpg",
+      "hero1-img" : "/543/897/spark-side-chair.jpg",
+      "workCats" : [],
+      "name" : "ES Spark Series Side Chair",
+      "powerCats" : [],
+      "product-id" : "spark-series-side-chair"
+    },
+    {
+      "lead-times" : [
         "std"
       ],
       "short-text" : "<p>Designed by Mies van der Rohe in 1930 for his renowned Tugendhat House in Brno, Czech Republic, the Brno Chair reflects the groundbreaking simplicity of its original environment. The chair, an icon of 20th-century design, is celebrated for its lean profile, clean lines and exquisite details.</p>",
@@ -42734,6 +42453,154 @@
       "name" : "ES Architecture & Associés Contract Lounge Chair",
       "powerCats" : [],
       "product-id" : "architecture-associes-contract-lounge-chair"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "short-text" : "<p>Featured in nearly every Florence Knoll interior, the Saarinen Executive Chair remains one of the most popular Knoll designs. Originally introduced in 1950, the chair transformed the notion of what executive seating could be with its fluid, sculptural form and modern finishing. The timeless and versatile design continues to fit seamlessly into work, conference, lounge and dining applications of any decor.</p>",
+      "storageCats" : [],
+      "screensCats" : [],
+      "epp-id" : "1356385713717",
+      "seatingCats" : [
+        "Side and Multi-Use"
+      ],
+      "apprvId" : "SIDE-12",
+      "tableCats" : [],
+      "availFinMods" : [
+        {
+          "id" : "1356408658765",
+          "title" : "Options",
+          "std" : {
+            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Seat &amp; Back:</span><span class=\"essop-option\">Approved Fabric and Leather (split upholstery available)</span></p>\r\n\r\n<p><span class=\"essop-title\">Legs:</span><span class=\"essop-option\">Wood, Tubular</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
+            "fins" : []
+          },
+          "three-week" : {
+            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Seat &amp; Back:</span><span class=\"essop-option\">Approved Fabric and Leather (will match)</span></p>\r\n\r\n<p><span class=\"essop-title\">Legs:</span><span class=\"essop-option\">Wood, Tubular</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title\">Quantity Limit:&nbsp;</span><span class=\"essop-option red\">4</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "<div>\r\n<div>&nbsp;</div>\r\n</div>\r\n",
+            "fins" : []
+          }
+        },
+        {
+          "id" : "1397675650254",
+          "title" : "Wood Legs",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1347383001930",
+                "color" : "Light Oak",
+                "img" : "/309/289/VENLO,0.png",
+                "type" : "Veneer"
+              },
+              {
+                "id" : "1352941942840",
+                "color" : "Pearwood",
+                "img" : "/323/887/Thumb_P,0.png",
+                "type" : "Veneer"
+              },
+              {
+                "id" : "1347383002078",
+                "color" : "Light Walnut ",
+                "img" : "/289/52/Thumb_WODLWA,0.png",
+                "type" : "Veneer"
+              },
+              {
+                "id" : "1347383004210",
+                "color" : "Reff Dark Cherry ",
+                "img" : "/867/295/Thumb_WODV314,0.png",
+                "type" : "Veneer"
+              },
+              {
+                "id" : "1347383010370",
+                "color" : "Ebonized Walnut Veneer",
+                "img" : "/356/142/Thumb_VEND,0.png",
+                "type" : "Veneer"
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1347383001930",
+                "color" : "Light Oak",
+                "img" : "/309/289/VENLO,0.png",
+                "type" : "Veneer"
+              },
+              {
+                "id" : "1352941942840",
+                "color" : "Pearwood",
+                "img" : "/323/887/Thumb_P,0.png",
+                "type" : "Veneer"
+              },
+              {
+                "id" : "1347383002078",
+                "color" : "Light Walnut ",
+                "img" : "/289/52/Thumb_WODLWA,0.png",
+                "type" : "Veneer"
+              },
+              {
+                "id" : "1347383010370",
+                "color" : "Ebonized Walnut Veneer",
+                "img" : "/356/142/Thumb_VEND,0.png",
+                "type" : "Veneer"
+              }
+            ]
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        },
+        {
+          "id" : "1356045393376",
+          "title" : "Tubular Legs",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1352996254622",
+                "color" : "Chrome, Polished",
+                "img" : "/666/580/Thumb_c,0.png",
+                "type" : "Metal"
+              },
+              {
+                "id" : "1352941971580",
+                "color" : "Black  ",
+                "img" : "/467/969/Thumb_PNTBL,2.png",
+                "type" : "Paint"
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1352996254622",
+                "color" : "Chrome, Polished",
+                "img" : "/666/580/Thumb_c,0.png",
+                "type" : "Metal"
+              }
+            ]
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        }
+      ],
+      "title" : "Saarinen Executive Arm",
+      "thumb-img" : "/109/567/saarinen-executive-arm-chair.jpg",
+      "hero1-img" : "/1006/444/saarinen-executive-arm-chair.jpg",
+      "workCats" : [],
+      "name" : "ES Saarinen Executive Arm",
+      "powerCats" : [],
+      "product-id" : "saarinen-executive-arm-chair"
     },
     {
       "lead-times" : [
@@ -44769,212 +44636,6 @@
       "name" : "ES Template Lockers",
       "powerCats" : [],
       "product-id" : "template"
-    },
-    {
-      "lead-times" : [
-        "std"
-      ],
-      "short-text" : "<p>Unscripted steps are building blocks that bring an improvisational, communal experience to spaces where people can be &ldquo;alone together&rdquo; or &ldquo;together together,&rdquo; and create natural, open transitions from one experience to the next. Simple, cubic forms plan together in myriad ways, bringing a sense of theater and play to the workplace.</p>",
-      "storageCats" : [],
-      "screensCats" : [],
-      "epp-id" : "1356386118311",
-      "seatingCats" : [
-        "Side and Multi-Use"
-      ],
-      "apprvId" : "",
-      "tableCats" : [],
-      "availFinMods" : [
-        {
-          "id" : "1356072753368",
-          "title" : "Plywood",
-          "std" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1356038626102",
-                "color" : "Birch Plywood (9-ply)",
-                "img" : "/843/873/Thumb_birch-plywood,2.png",
-                "type" : "Veneer"
-              }
-            ]
-          },
-          "three-week" : {
-            "optsTxt" : "",
-            "fins" : []
-          },
-          "quick" : {
-            "optsTxt" : "",
-            "fins" : []
-          }
-        },
-        {
-          "id" : "1355995898279",
-          "title" : "Nomad (For Steps)",
-          "std" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1356214919347",
-                "color" : "Graphite",
-                "img" : "/353/222/Thumb_graphite-nomad,0.png",
-                "type" : "Textiles"
-              },
-              {
-                "id" : "1355995898124",
-                "color" : "Lima",
-                "img" : "/427/842/Thumb_nomad-lima,0.png",
-                "type" : "Textiles"
-              },
-              {
-                "id" : "1355995897971",
-                "color" : "Sand",
-                "img" : "/284/222/Thumb_nomad-sand,0.png",
-                "type" : "Textiles"
-              },
-              {
-                "id" : "1356214919230",
-                "color" : "Natural",
-                "img" : "/190/497/Thumb_natural-nomad,0.png",
-                "type" : "Textiles"
-              },
-              {
-                "id" : "1355995896299",
-                "color" : "Red",
-                "img" : "/621/251/Thumb_nomad-red,2.png",
-                "type" : "Textiles"
-              },
-              {
-                "id" : "1356214917305",
-                "color" : "Aegean",
-                "img" : "/577/861/Thumb_agean-nomad,0.png",
-                "type" : "Textiles"
-              },
-              {
-                "id" : "1356214915383",
-                "color" : "Indigo",
-                "img" : "/39/459/Thumb_indigo-nomad,0.png",
-                "type" : "Textiles"
-              }
-            ]
-          },
-          "three-week" : {
-            "optsTxt" : "",
-            "fins" : []
-          },
-          "quick" : {
-            "optsTxt" : "",
-            "fins" : []
-          }
-        },
-        {
-          "id" : "1356072747660",
-          "title" : "Loose Seat Pads",
-          "std" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1356072747951",
-                "color" : "Pearl",
-                "img" : "/365/509/Thumb_1,2.png",
-                "type" : ""
-              },
-              {
-                "id" : "1356072749827",
-                "color" : "Gravel",
-                "img" : "/37/455/Thumb_2,2.png",
-                "type" : ""
-              },
-              {
-                "id" : "1356072749926",
-                "color" : "Honey Bee",
-                "img" : "/934/332/Thumb_3,5.png",
-                "type" : ""
-              },
-              {
-                "id" : "1356072750028",
-                "color" : "Zest",
-                "img" : "/807/210/Thumb_4,2.png",
-                "type" : ""
-              },
-              {
-                "id" : "1356072750133",
-                "color" : "Blossom",
-                "img" : "/680/88/Thumb_5,2.png",
-                "type" : ""
-              },
-              {
-                "id" : "1356072750241",
-                "color" : "Paprika",
-                "img" : "/553/990/Thumb_6,2.png",
-                "type" : ""
-              },
-              {
-                "id" : "1356072750352",
-                "color" : "Lime",
-                "img" : "/426/868/Thumb_7,2.png",
-                "type" : ""
-              },
-              {
-                "id" : "1356072750466",
-                "color" : "Leaf",
-                "img" : "/299/746/Thumb_8,2.png",
-                "type" : ""
-              },
-              {
-                "id" : "1356072750583",
-                "color" : "Tropical",
-                "img" : "/172/624/Thumb_9,2.png",
-                "type" : ""
-              },
-              {
-                "id" : "1356072750703",
-                "color" : "Ocean",
-                "img" : "/914/536/Thumb_10,2.png",
-                "type" : ""
-              },
-              {
-                "id" : "1356072750826",
-                "color" : "Horizon",
-                "img" : "/787/414/Thumb_11,2.png",
-                "type" : ""
-              },
-              {
-                "id" : "1356072750953",
-                "color" : "Mineral",
-                "img" : "/660/292/Thumb_12,2.png",
-                "type" : ""
-              },
-              {
-                "id" : "1356072752761",
-                "color" : "Moon Light",
-                "img" : "/533/170/Thumb_13,2.png",
-                "type" : ""
-              },
-              {
-                "id" : "1356072753037",
-                "color" : "Granite",
-                "img" : "/406/48/Thumb_14,2.png",
-                "type" : ""
-              }
-            ]
-          },
-          "three-week" : {
-            "optsTxt" : "",
-            "fins" : []
-          },
-          "quick" : {
-            "optsTxt" : "",
-            "fins" : []
-          }
-        }
-      ],
-      "title" : "Rockwell Unscripted Steps",
-      "thumb-img" : "/437/430/rockwell-unscripted-steps.jpg",
-      "hero1-img" : "/310/308/rockwell-unscripted-steps.jpg",
-      "workCats" : [],
-      "name" : "ES Rockwell Unscripted Steps",
-      "powerCats" : [],
-      "product-id" : "rockwell-unscripted-steps"
     },
     {
       "lead-times" : [
@@ -50316,7 +49977,14 @@
           },
           "three-week" : {
             "optsTxt" : "",
-            "fins" : []
+            "fins" : [
+              {
+                "id" : "1352996254622",
+                "color" : "Chrome, Polished",
+                "img" : "/666/580/Thumb_c,0.png",
+                "type" : "Metal"
+              }
+            ]
           },
           "quick" : {
             "optsTxt" : "",
@@ -52220,7 +51888,14 @@
           },
           "three-week" : {
             "optsTxt" : "",
-            "fins" : []
+            "fins" : [
+              {
+                "id" : "1352996254622",
+                "color" : "Chrome, Polished",
+                "img" : "/666/580/Thumb_c,0.png",
+                "type" : "Metal"
+              }
+            ]
           },
           "quick" : {
             "optsTxt" : "",
@@ -52417,65 +52092,6 @@
       "name" : "ES Bertoia Asymmetric Chaise",
       "powerCats" : [],
       "product-id" : "bertoia-asymmetric-chaise"
-    },
-    {
-      "lead-times" : [
-        "std",
-        "three-week"
-      ],
-      "short-text" : "<p>The D&rsquo;Urso Swivel Lounge strikes a playful balance between utility and whimsy, bringing a modern twist to the cocktail lounge seating category that is perfect for today&rsquo;s more relaxed workplace or hospitality setting.</p>",
-      "storageCats" : [],
-      "screensCats" : [],
-      "epp-id" : "1356386156703",
-      "seatingCats" : [
-        "Lounge"
-      ],
-      "apprvId" : "LOUNGE-09",
-      "tableCats" : [],
-      "availFinMods" : [
-        {
-          "id" : "1352996279757",
-          "title" : "Base Finish",
-          "std" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1353006124859",
-                "color" : "Aluminum, Polished",
-                "img" : "/634/226/Thumb_polished-aluminum,0.png",
-                "type" : "Metal"
-              },
-              {
-                "id" : "1352993880633",
-                "color" : "Textured Black Powder Coat",
-                "img" : "/97/875/Thumb_tb,0.png",
-                "type" : "Paint"
-              },
-              {
-                "id" : "1352993880753",
-                "color" : "Warm White",
-                "img" : "/979/264/Thumb_ww,0.png",
-                "type" : "Paint"
-              }
-            ]
-          },
-          "three-week" : {
-            "optsTxt" : "",
-            "fins" : []
-          },
-          "quick" : {
-            "optsTxt" : "",
-            "fins" : []
-          }
-        }
-      ],
-      "title" : "D'Urso Swivel Chair",
-      "thumb-img" : "/100/219/durso-lounge.jpg",
-      "hero1-img" : "/997/96/durso-lounge.jpg",
-      "workCats" : [],
-      "name" : "ES DUrso Swivel Chair",
-      "powerCats" : [],
-      "product-id" : "durso-swivel-chair"
     },
     {
       "lead-times" : [
@@ -53707,6 +53323,436 @@
     },
     {
       "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "short-text" : "<p>k. lounge is a soft-seating series that delivers a broad range of capabilities, making it the go-to solution for activity spaces throughout the work environment.</p>",
+      "storageCats" : [],
+      "screensCats" : [],
+      "epp-id" : "1356408716899",
+      "seatingCats" : [
+        "Lounge"
+      ],
+      "apprvId" : "KL-03",
+      "tableCats" : [],
+      "availFinMods" : [
+        {
+          "id" : "1356408713586",
+          "title" : "Options",
+          "std" : {
+            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Upholstery:</span><span class=\"essop-option\">Delite (Base Grade), Approved Fabrics and Leathers (split upholstery available for pieces with back)</span></p>\r\n\r\n<p><span class=\"essop-title\">Feet:</span><span class=\"essop-option\">Glides, Casters</span></p>\r\n\r\n<p><span class=\"essop-title\">Power:</span><span class=\"essop-option\">Available</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t\t<th>casters</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>KL1 Bench, two seat</td>\r\n\t\t\t<td>52&quot;</td>\r\n\t\t\t<td>21.5&quot;</td>\r\n\t\t\t<td>17.25&quot;</td>\r\n\t\t\t<td>17.25</td>\r\n\t\t\t<td>no</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>KL2 Bench, three seat</td>\r\n\t\t\t<td>78&quot;</td>\r\n\t\t\t<td>21.5&quot;</td>\r\n\t\t\t<td>17.25&quot;</td>\r\n\t\t\t<td>17.25&quot;</td>\r\n\t\t\t<td>no</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>KL4 Bench with back, single seat</td>\r\n\t\t\t<td>26&quot;</td>\r\n\t\t\t<td>28.25&quot;</td>\r\n\t\t\t<td>26&quot;</td>\r\n\t\t\t<td>17.25&quot;</td>\r\n\t\t\t<td>yes</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>KL5 Bench with back, two seat</td>\r\n\t\t\t<td>52&quot;</td>\r\n\t\t\t<td>28.25&quot;</td>\r\n\t\t\t<td>26&quot;</td>\r\n\t\t\t<td>17.25&quot;</td>\r\n\t\t\t<td>no</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>KL6 Bench with back, three seat</td>\r\n\t\t\t<td>78&quot;</td>\r\n\t\t\t<td>28.25&quot;</td>\r\n\t\t\t<td>26&quot;</td>\r\n\t\t\t<td>17.25&quot;</td>\r\n\t\t\t<td>no</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>KL9 Ottoman</td>\r\n\t\t\t<td>28.25&quot;</td>\r\n\t\t\t<td>28&quot;</td>\r\n\t\t\t<td>17.25&quot;</td>\r\n\t\t\t<td>17.25&quot;</td>\r\n\t\t\t<td>yes</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins" : []
+          },
+          "three-week" : {
+            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Upholstery:</span><span class=\"essop-option\">Delite (Base Grade)</span></p>\r\n\r\n<p><span class=\"essop-title\">Feet:</span><span class=\"essop-option\">Glides</span></p>\r\n\r\n<p><span class=\"essop-title\">Power:</span><span class=\"essop-option\">Not Available</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 10)</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t\t<th>casters</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>KL1 Bench, two seat</td>\r\n\t\t\t<td>52&quot;</td>\r\n\t\t\t<td>21.5&quot;</td>\r\n\t\t\t<td>17.25&quot;</td>\r\n\t\t\t<td>17.25</td>\r\n\t\t\t<td>no</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>KL2 Bench, three seat</td>\r\n\t\t\t<td>78&quot;</td>\r\n\t\t\t<td>21.5&quot;</td>\r\n\t\t\t<td>17.25&quot;</td>\r\n\t\t\t<td>17.25&quot;</td>\r\n\t\t\t<td>\r\n\t\t\t<div>no</div>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>KL4 Bench with back, single seat</td>\r\n\t\t\t<td>26&quot;</td>\r\n\t\t\t<td>28.25&quot;</td>\r\n\t\t\t<td>26&quot;</td>\r\n\t\t\t<td>17.25&quot;</td>\r\n\t\t\t<td>no</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>KL5 Bench with back, two seat</td>\r\n\t\t\t<td>52&quot;</td>\r\n\t\t\t<td>28.25&quot;</td>\r\n\t\t\t<td>26&quot;</td>\r\n\t\t\t<td>17.25&quot;</td>\r\n\t\t\t<td>no</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>KL6 Bench with back, three seat</td>\r\n\t\t\t<td>78&quot;</td>\r\n\t\t\t<td>28.25&quot;</td>\r\n\t\t\t<td>26&quot;</td>\r\n\t\t\t<td>17.25&quot;</td>\r\n\t\t\t<td>no</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>KL9 Ottoman</td>\r\n\t\t\t<td>28.25&quot;</td>\r\n\t\t\t<td>28&quot;</td>\r\n\t\t\t<td>17.25&quot;</td>\r\n\t\t\t<td>17.25&quot;</td>\r\n\t\t\t<td>no</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "<div>\r\n<div>&nbsp;</div>\r\n</div>\r\n",
+            "fins" : []
+          }
+        },
+        {
+          "id" : "1356389619142",
+          "title" : "Base Grade Textile: Delite",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1353003209436",
+                "color" : "Delite - Orange",
+                "img" : "/33/633/Thumb_orange,9.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003209374",
+                "color" : "Delite - Red",
+                "img" : "/72/988/Thumb_red,9.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003209527",
+                "color" : "Delite - Catalina",
+                "img" : "/302/1007/Thumb_catalina,9.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003210114",
+                "color" : "Delite - Turquoise",
+                "img" : "/728/521/Thumb_turquoise,2.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003209866",
+                "color" : "Delite - Parrot",
+                "img" : "/905/960/Thumb_parrot,9.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003209804",
+                "color" : "Delite - Green",
+                "img" : "/630/134/Thumb_green,9.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003209651",
+                "color" : "Delite - Cinder",
+                "img" : "/700/969/Thumb_cinder,9.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003209990",
+                "color" : "Delite - Stone",
+                "img" : "/728/304/Thumb_stone,9.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003209713",
+                "color" : "Delite - Gray",
+                "img" : "/470/329/Thumb_gray,9.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003209928",
+                "color" : "Delite - Slate",
+                "img" : "/524/76/Thumb_slate,9.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003210052",
+                "color" : "Delite - Tobacco",
+                "img" : "/72/572/Thumb_tobacco,9.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003209589",
+                "color" : "Delite - Charcoal",
+                "img" : "/96/987/Thumb_charcoal,9.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003210295",
+                "color" : "Delite - Onyx",
+                "img" : "/821/632/Thumb_onyx,2.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353004284823",
+                "color" : "Delite - Purple",
+                "img" : "/687/595/Thumb_purple,9.png",
+                "type" : ""
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1353003210114",
+                "color" : "Delite - Turquoise",
+                "img" : "/728/521/Thumb_turquoise,2.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003209651",
+                "color" : "Delite - Cinder",
+                "img" : "/700/969/Thumb_cinder,9.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003209589",
+                "color" : "Delite - Charcoal",
+                "img" : "/96/987/Thumb_charcoal,9.png",
+                "type" : ""
+              }
+            ]
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        }
+      ],
+      "title" : "k. lounge Curve",
+      "thumb-img" : "/341/184/k-lounge-straight_thumb,0.jpg",
+      "hero1-img" : "/89/445/k-lounge-straight_thumb,0.jpg",
+      "workCats" : [],
+      "name" : "ES k. lounge Straight",
+      "powerCats" : [],
+      "product-id" : "k-lounge"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "short-text" : "<p>&nbsp;</p><p>Ross Lovegrove, an industrial designer recognized for forward-thinking, organically-inspired products, brought his distinctive aesthetic to Knoll with the Sprite&trade; Stacking Chair &mdash; his take on the quintessential molded plywood side chair.</p>",
+      "storageCats" : [],
+      "screensCats" : [],
+      "epp-id" : "1356386054517",
+      "seatingCats" : [
+        "Side and Multi-Use"
+      ],
+      "apprvId" : "SIDE-15",
+      "tableCats" : [],
+      "availFinMods" : [
+        {
+          "id" : "1356408676449",
+          "title" : "Options",
+          "std" : {
+            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Seat Finish:</span><span class=\"essop-option\">Painted, Veneer (front and back specified separately)</span></p>\r\n\r\n<p><span class=\"essop-title\">Arms:</span><span class=\"essop-option\">Arms, Armless, Tablet Arm</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Optional Seat Pad:</span><span class=\"essop-option\">Approved Textiles and Leathers</span></p>\r\n\r\n<p><span class=\"essop-title\">Accessories:</span><span class=\"essop-option\">Ganging Mechanism, Stacking Dolly</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
+            "fins" : []
+          },
+          "three-week" : {
+            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Seat Finish:</span><span class=\"essop-option\">Painted, Veneer (front and back will match)</span></p>\r\n\r\n<p><span class=\"essop-title\">Arms:</span><span class=\"essop-option\">Armless</span></p>\r\n</dov>\r\n<div class=\"essop-column\">&nbsp;</div>\r\n\r\n<p><span class=\"essop-title\">Optional Seat Pad:</span><span class=\"essop-option\">Not Available</span></p>\r\n\r\n<p><span class=\"essop-title\">Accessories:</span><span class=\"essop-option\">Not Available</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title\">Quantity Limit:&nbsp;</span><span class=\"essop-option red\">10</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        },
+        {
+          "id" : "1352996339743",
+          "title" : "Paint",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1352940758198",
+                "color" : "White",
+                "img" : "/926/522/Thumb_CHIPWV,0.png",
+                "type" : "Paint"
+              },
+              {
+                "id" : "1347382987936",
+                "color" : "Grey",
+                "img" : "/98/98/Thumb_PNTSL,0.png",
+                "type" : "Paint"
+              },
+              {
+                "id" : "1347382987877",
+                "color" : "Navy",
+                "img" : "/700/914/Thumb_PNTNA,0.png",
+                "type" : "Paint"
+              },
+              {
+                "id" : "1352994049431",
+                "color" : "Red ",
+                "img" : "/842/44/Thumb_BertoiaWarmRedRD_406,0.png",
+                "type" : "Paint"
+              },
+              {
+                "id" : "1347382987796",
+                "color" : "Lime",
+                "img" : "/390/341/Thumb_PNTLI,0.png",
+                "type" : "Paint"
+              },
+              {
+                "id" : "1352941971580",
+                "color" : "Black  ",
+                "img" : "/467/969/Thumb_PNTBL,2.png",
+                "type" : "Paint"
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1352940758198",
+                "color" : "White",
+                "img" : "/926/522/Thumb_CHIPWV,0.png",
+                "type" : "Paint"
+              },
+              {
+                "id" : "1352941971580",
+                "color" : "Black  ",
+                "img" : "/467/969/Thumb_PNTBL,2.png",
+                "type" : "Paint"
+              }
+            ]
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        },
+        {
+          "id" : "1352996339724",
+          "title" : "Veneer",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1352994055730",
+                "color" : "Clear Maple/Maple/Rotary Maple",
+                "img" : "/439/540/Thumb_WODKC,4.png",
+                "type" : "Veneer"
+              },
+              {
+                "id" : "1347383001159",
+                "color" : "Natural Beech Lumber",
+                "img" : "/683/501/Thumb_WODBN,2.png",
+                "type" : "Veneer"
+              },
+              {
+                "id" : "1352941763569",
+                "color" : "Cherry",
+                "img" : "/109/608/Thumb_CY,0.png",
+                "type" : "Veneer"
+              },
+              {
+                "id" : "1352941765377",
+                "color" : "Walnut",
+                "img" : "/553/410/Thumb_WODWA,0.png",
+                "type" : "Veneer"
+              },
+              {
+                "id" : "1352941765434",
+                "color" : "Zebra",
+                "img" : "/522/852/Thumb_WODZE,0.png",
+                "type" : "Veneer"
+              },
+              {
+                "id" : "1352941765491",
+                "color" : "Macasser Ebony",
+                "img" : "/503/916/Thumb_WODME,0.png",
+                "type" : "Veneer"
+              },
+              {
+                "id" : "1352941765663",
+                "color" : "Black and White Woodgrain",
+                "img" : "/426/288/Thumb_WODWB,0.png",
+                "type" : "Veneer"
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1352994055730",
+                "color" : "Clear Maple/Maple/Rotary Maple",
+                "img" : "/439/540/Thumb_WODKC,4.png",
+                "type" : "Veneer"
+              }
+            ]
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        },
+        {
+          "id" : "1352996279726",
+          "title" : "Leg Finish",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1352996254622",
+                "color" : "Chrome, Polished",
+                "img" : "/666/580/Thumb_c,0.png",
+                "type" : "Metal"
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1352996254622",
+                "color" : "Chrome, Polished",
+                "img" : "/666/580/Thumb_c,0.png",
+                "type" : "Metal"
+              }
+            ]
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        }
+      ],
+      "title" : "Sprite",
+      "thumb-img" : "/26/876/sprite-stacking-chair.jpg",
+      "hero1-img" : "/484/152/sprite-stacking-chair.jpg",
+      "workCats" : [],
+      "name" : "ES Sprite",
+      "powerCats" : [],
+      "product-id" : "sprite-stacking-chair"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "short-text" : "<p>Pilot is an innovative swivel lounge chair that marries visual and material lightness with exceptional comfort. The cantilevered seat, which features a unique upholstery substructure for greater flexibility, appears to float in the air, giving the chair a refined silhouette and an essential, timeless appeal.</p>",
+      "storageCats" : [],
+      "screensCats" : [],
+      "epp-id" : "1356386154087",
+      "seatingCats" : [
+        "Lounge"
+      ],
+      "apprvId" : "LOUNGE-02",
+      "tableCats" : [],
+      "availFinMods" : [
+        {
+          "id" : "1356409095698",
+          "title" : "Options",
+          "std" : {
+            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Arms:</span><span class=\"essop-option\">Upholstered Arms, Loop Arms, Armless</span></p>\r\n\r\n<p><span class=\"essop-title\">Upholstery:</span><span class=\"essop-option\">Approved Textiles and Leathers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base and Loop Arm Finish:</span><span class=\"essop-option\">Painted, Aluminum</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
+            "fins" : []
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        },
+        {
+          "id" : "1356390562512",
+          "title" : "Base",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1353006124859",
+                "color" : "Aluminum, Polished",
+                "img" : "/634/226/Thumb_polished-aluminum,0.png",
+                "type" : "Metal"
+              },
+              {
+                "id" : "1355998554834",
+                "color" : "Dark Grey",
+                "img" : "/201/520/Thumb_dark-grey,0.png",
+                "type" : "Paint"
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        }
+      ],
+      "title" : "Pilot by Knoll - Low Back",
+      "thumb-img" : "/709/538/pilot-low-back_thumb,0.jpg",
+      "hero1-img" : "/829/644/pilot-low-back_hero,0.jpg",
+      "workCats" : [],
+      "name" : "ES Pilot by Knoll - Low Back",
+      "powerCats" : [],
+      "product-id" : "pilot-by-knoll-low-back"
+    },
+    {
+      "lead-times" : [
         "std"
       ],
       "short-text" : "<p>Creative Wall can be both backdrop and focal point. Connected by crossbeams, fins and planes&nbsp;create&nbsp;open-ended spaces, allowing for circulation and connection within the open plan. A combination of aperture and enclosure creates landmarks, pavilions, portals, studios, and workshops for individuals or teams.&nbsp;&nbsp;Expandable planning capabilities make for unlimited opportunities to design unique, immersive workplaces that can evolve over time.</p>",
@@ -54880,6 +54926,895 @@
     },
     {
       "lead-times" : [
+        "std"
+      ],
+      "short-text" : "<p>Featured in nearly all Florence Knoll-designed interiors, the Saarinen Executive Chair has remained one of our most popular designs for nearly 70 years. The design, which is now found in dining rooms as often as it is in offices, transformed the notion of what seating could be with its sculptural form and modern finishing. The plastic back offers a lighter, more flexible design for a variety of spaces.</p>",
+      "storageCats" : [],
+      "screensCats" : [],
+      "epp-id" : "1356386118182",
+      "seatingCats" : [
+        "Side and Multi-Use"
+      ],
+      "apprvId" : "SIDE-13",
+      "tableCats" : [],
+      "availFinMods" : [
+        {
+          "id" : "1356408666909",
+          "title" : "Options",
+          "std" : {
+            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Seat:</span><span class=\"essop-option\">Approved Fabric and Leather</span></p>\r\n\r\n<p><span class=\"essop-title\">Legs:</span><span class=\"essop-option\">Wood, Tubular</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
+            "fins" : []
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "<div>\r\n<div>&nbsp;</div>\r\n</div>\r\n",
+            "fins" : []
+          }
+        },
+        {
+          "id" : "1356289999559",
+          "title" : "Back",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1352995493276",
+                "color" : "White",
+                "img" : "/744/793/Thumb_WS2CN012,0.png",
+                "type" : "Plastic"
+              },
+              {
+                "id" : "1352995493141",
+                "color" : "Black",
+                "img" : "/681/150/Thumb_WS2CN011,0.png",
+                "type" : "Plastic"
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        },
+        {
+          "id" : "1356390241308",
+          "title" : "Wood Legs",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1347383001930",
+                "color" : "Light Oak",
+                "img" : "/309/289/VENLO,0.png",
+                "type" : "Veneer"
+              },
+              {
+                "id" : "1352941942840",
+                "color" : "Pearwood",
+                "img" : "/323/887/Thumb_P,0.png",
+                "type" : "Veneer"
+              },
+              {
+                "id" : "1347383002078",
+                "color" : "Light Walnut ",
+                "img" : "/289/52/Thumb_WODLWA,0.png",
+                "type" : "Veneer"
+              },
+              {
+                "id" : "1347383004210",
+                "color" : "Reff Dark Cherry ",
+                "img" : "/867/295/Thumb_WODV314,0.png",
+                "type" : "Veneer"
+              },
+              {
+                "id" : "1347383010370",
+                "color" : "Ebonized Walnut Veneer",
+                "img" : "/356/142/Thumb_VEND,0.png",
+                "type" : "Veneer"
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        },
+        {
+          "id" : "1356390245992",
+          "title" : "Tubular Legs",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1352996254622",
+                "color" : "Chrome, Polished",
+                "img" : "/666/580/Thumb_c,0.png",
+                "type" : "Metal"
+              },
+              {
+                "id" : "1352941971580",
+                "color" : "Black  ",
+                "img" : "/467/969/Thumb_PNTBL,2.png",
+                "type" : "Paint"
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        }
+      ],
+      "title" : "Saarinen Executive Plastic Back",
+      "thumb-img" : "/439/476/saarinen-executive-plastic-back.jpg",
+      "hero1-img" : "/312/354/saarinen-executive-plastic-back.jpg",
+      "workCats" : [],
+      "name" : "ES Saarinen Executive Plastic Back",
+      "powerCats" : [],
+      "product-id" : "saarinen-executive-armless-chair-plastic-back"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "short-text" : "<p>The Toledo chair is a graceful combination of cast-aluminum back and seat sections joined by tubular aluminum arms and legs. Immediately recognized as a classic, Toledo adorns public spaces worldwide.</p>",
+      "storageCats" : [],
+      "screensCats" : [],
+      "epp-id" : "1356386142818",
+      "seatingCats" : [
+        "Side and Multi-Use"
+      ],
+      "apprvId" : "SIDE-16",
+      "tableCats" : [],
+      "availFinMods" : [
+        {
+          "id" : "1356408683071",
+          "title" : "Options",
+          "std" : {
+            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Optional Seat Pad:</span><span class=\"essop-option\">Approved Textiles and Leathers</span></p>\r\n\r\n</div>\r\n</div>\r\n</div>\r\n",
+            "fins" : []
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        },
+        {
+          "id" : "1352996413748",
+          "title" : "Seat and Legs",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1353006124859",
+                "color" : "Aluminum, Polished",
+                "img" : "/634/226/Thumb_polished-aluminum,0.png",
+                "type" : "Metal"
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        }
+      ],
+      "title" : "Toledo Stacking Chair",
+      "thumb-img" : "/979/61/toldedo-chair.jpg",
+      "hero1-img" : "/852/963/toldedo-chair.jpg",
+      "workCats" : [],
+      "name" : "ES Toledo Stacking Chair",
+      "powerCats" : [],
+      "product-id" : "toledo-stacking-chair"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "short-text" : "<p>Eero Saarinen vowed to address the &ldquo;ugly, confusing, unrestful world&rdquo; he observed underneath chairs and tables -- the so-called &quot;slum of legs.&quot; A five-year design investigation led him to the revolutionary Pedestal Collection, including the Tulip Chair.</p>",
+      "storageCats" : [],
+      "screensCats" : [],
+      "epp-id" : "1356386122808",
+      "seatingCats" : [
+        "Side and Multi-Use"
+      ],
+      "apprvId" : "SIDE-10",
+      "tableCats" : [],
+      "availFinMods" : [
+        {
+          "id" : "1356408683336",
+          "title" : "Options",
+          "std" : {
+            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Style:</span><span class=\"essop-option\">Seat Pad Only, Upholstered Inner Shell with Seat Pad</span></p>\r\n\r\n<p><span class=\"essop-title\">Upholstery:</span><span class=\"essop-option\">Approved Textiles and Leathers (upholstered inner shell&nbsp;more restricted than below)</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Fixed, Swivel</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
+            "fins" : []
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        },
+        {
+          "id" : "1397912136419",
+          "title" : "Shell and Base",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1352993977372",
+                "color" : "White Rilsan",
+                "img" : "/576/622/Thumb_PNT118,2.png",
+                "type" : "Metal"
+              },
+              {
+                "id" : "1352993977262",
+                "color" : "Black Rilsan",
+                "img" : "/555/631/Thumb_PNT111,0.png",
+                "type" : "Metal"
+              },
+              {
+                "id" : "1352993898585",
+                "color" : "Platinum",
+                "img" : "/17/100/Thumb_Saarinen_Platinum,2.png",
+                "type" : "Metal"
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        }
+      ],
+      "title" : "Tulip Arm",
+      "thumb-img" : "/970/59/saarinen-tulip-arm-chair_thumb.jpg",
+      "hero1-img" : "/843/961/saarinen-tulip-arm-chair_thumb.jpg",
+      "workCats" : [],
+      "name" : "ES Tulip Arm",
+      "powerCats" : [],
+      "product-id" : "tulip-arm-chair"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "short-text" : "<p>The D&rsquo;Urso Swivel Lounge strikes a playful balance between utility and whimsy, bringing a modern twist to the cocktail lounge seating category that is perfect for today&rsquo;s more relaxed workplace or hospitality setting.</p>",
+      "storageCats" : [],
+      "screensCats" : [],
+      "epp-id" : "1356386156703",
+      "seatingCats" : [
+        "Lounge"
+      ],
+      "apprvId" : "LOUNGE-09",
+      "tableCats" : [],
+      "availFinMods" : [
+        {
+          "id" : "1356408694800",
+          "title" : "Options",
+          "std" : {
+            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Base Style:</span><span class=\"essop-option\">Swivel, Swivel with Return-to-center Mechanism</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Finish:</span><span class=\"essop-option\">Aluminum, Painted</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
+            "fins" : []
+          },
+          "three-week" : {
+            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Base Style:</span><span class=\"essop-option\">Swivel, Swivel with Return-to-center Mechanism</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Finish:</span><span class=\"essop-option\">Aluminum, Painted</span></p>\r\n</div>\r\n<div class=\"left\">\r\n<p><span class=\"essop-title\">Quantity Limit:&nbsp;</span><span class=\"essop-option red\">2</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "<div>\r\n<div>&nbsp;</div>\r\n</div>\r\n",
+            "fins" : []
+          }
+        },
+        {
+          "id" : "1352996279757",
+          "title" : "Base Finish",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1353006124859",
+                "color" : "Aluminum, Polished",
+                "img" : "/634/226/Thumb_polished-aluminum,0.png",
+                "type" : "Metal"
+              },
+              {
+                "id" : "1352993880633",
+                "color" : "Textured Black Powder Coat",
+                "img" : "/97/875/Thumb_tb,0.png",
+                "type" : "Paint"
+              },
+              {
+                "id" : "1352993880753",
+                "color" : "Warm White",
+                "img" : "/979/264/Thumb_ww,0.png",
+                "type" : "Paint"
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1353006124859",
+                "color" : "Aluminum, Polished",
+                "img" : "/634/226/Thumb_polished-aluminum,0.png",
+                "type" : "Metal"
+              },
+              {
+                "id" : "1352993880633",
+                "color" : "Textured Black Powder Coat",
+                "img" : "/97/875/Thumb_tb,0.png",
+                "type" : "Paint"
+              },
+              {
+                "id" : "1352993880753",
+                "color" : "Warm White",
+                "img" : "/979/264/Thumb_ww,0.png",
+                "type" : "Paint"
+              }
+            ]
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        }
+      ],
+      "title" : "D'Urso Swivel Chair",
+      "thumb-img" : "/870/998/durso-lounge.jpg",
+      "hero1-img" : "/743/876/durso-lounge.jpg",
+      "workCats" : [],
+      "name" : "ES DUrso Swivel Chair",
+      "powerCats" : [],
+      "product-id" : "durso-swivel-chair"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "short-text" : "<p>Power Cube brings easy access to power to shared spaces, because everyone needs a place to plug in when they&rsquo;re on-the-go. With whiteboard writable surfaces on all sides, Power Cube encourages the sharing of ideas, making it great for informal team meeting areas.</p>",
+      "storageCats" : [],
+      "screensCats" : [],
+      "epp-id" : "1356388935857",
+      "seatingCats" : [],
+      "apprvId" : "",
+      "tableCats" : [
+        "Side & Coffee"
+      ],
+      "availFinMods" : [
+        {
+          "id" : "1356401203488",
+          "title" : "Options",
+          "std" : {
+            "optsTxt" : "<link href=\"/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Worksurface Material:</span><span class=\"essop-option\">Whiteboard Powder Coat Paint</span></p>\r\n\r\n<p><span class=\"essop-title\">Power / Wiring:</span><span class=\"essop-option\">72&quot; Whip (for hardwiring), 72&quot; Cordset, No Power</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Outlet Placement:</span><span class=\"essop-option\">Single Side, Two Side</span></p>\r\n\r\n<p><span class=\"essop-title\">Outlet Configuration:</span><span class=\"essop-option\">4 Electrical Outlets, 3 Electrical Outlets / 2 USB ports</span></p>\r\n</div>\r\n</div>\r\n\r\n<p><span class=\"essop-title\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<p>\r\n<style type=\"text/css\">table, th, td {\r\n    border-collapse: collapse;\r\n}\r\nth, td {\r\n    padding: 3px 6px 5px 0px;\r\n}\r\ntd {  \r\n  color: #777;\r\n  font: 11px/13px 'HelveticaNeueW01-55Roma', Arial, Helvetica, sans-serif;}\r\nth {\r\n    color: #777;\r\n  font: 11px/13px 'HelveticaNeueW01-75Bold', Arial, Helvetica, sans-serif;text-align: left;\r\n}\r\n</style>\r\n</p>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>24&quot;</td>\r\n\t\t\t<td>24&quot;</td>\r\n\t\t\t<td>13&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>36&quot;</td>\r\n\t\t\t<td>36&quot;</td>\r\n\t\t\t<td>13&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>",
+            "fins" : []
+          },
+          "three-week" : {
+            "optsTxt" : "<link href=\"/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Quantity Limit:</span><span class=\"essop-option\" style=\"color:#f04e23\">5</span></p>\r\n\r\n<p><span class=\"essop-title\">Worksurface Material:</span><span class=\"essop-option\">Whiteboard Powder Coat Paint</span></p>\r\n\r\n<p><span class=\"essop-title\">Power / Wiring:</span><span class=\"essop-option\">72&quot; Whip (for hardwiring), No Power</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Outlet Placement:</span><span class=\"essop-option\">Single Side, Two Side</span></p>\r\n\r\n<p><span class=\"essop-title\">Outlet Configuration:</span><span class=\"essop-option\">4 Electrical Outlets</span></p>\r\n</div>\r\n</div>\r\n\r\n<p><span class=\"essop-title\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<p>\r\n<style type=\"text/css\">table, th, td {\r\n    border-collapse: collapse;\r\n}\r\nth, td {\r\n    padding: 3px 6px 5px 0px;\r\n}\r\ntd {  \r\n  color: #777;\r\n  font: 11px/13px 'HelveticaNeueW01-55Roma', Arial, Helvetica, sans-serif;}\r\nth {\r\n    color: #777;\r\n  font: 11px/13px 'HelveticaNeueW01-75Bold', Arial, Helvetica, sans-serif;text-align: left;\r\n}\r\n</style>\r\n</p>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>24&quot;</td>\r\n\t\t\t<td>24&quot;</td>\r\n\t\t\t<td>13&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>36&quot;</td>\r\n\t\t\t<td>36&quot;</td>\r\n\t\t\t<td>13&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        }
+      ],
+      "title" : "Power Cube",
+      "thumb-img" : "/720/71/power-cube_side-coffee_thumb.jpg",
+      "hero1-img" : "/466/332/power-cube_side-coffee_hero.jpg",
+      "workCats" : [],
+      "name" : "ES Power Cube",
+      "powerCats" : [],
+      "product-id" : "power-cube"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "short-text" : "<p>Designed by Mies van der Rohe in 1930 for his renowned Tugendhat House in Brno, Czech Republic, the Brno Chair reflects the groundbreaking simplicity of its original environment. The chair, an icon of 20th-century design, is celebrated for its lean profile, clean lines and exquisite details.</p>",
+      "storageCats" : [],
+      "screensCats" : [],
+      "epp-id" : "1356390553362",
+      "seatingCats" : [
+        "Side and Multi-Use"
+      ],
+      "apprvId" : "SIDE-04",
+      "tableCats" : [],
+      "availFinMods" : [
+        {
+          "id" : "1356277700385",
+          "title" : "Frame",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1352996254622",
+                "color" : "Chrome, Polished",
+                "img" : "/666/580/Thumb_c,0.png",
+                "type" : "Metal"
+              },
+              {
+                "id" : "1352996366780",
+                "color" : "Stainless Steel, Polished",
+                "img" : "/682/817/Thumb_s,0.png",
+                "type" : "Metal"
+              },
+              {
+                "id" : "1356275102141",
+                "color" : "Bronze, Antiqued Polished",
+                "img" : "/395/81/Thumb_bas,0.png",
+                "type" : "Metal"
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        }
+      ],
+      "title" : "Brno Chair - Tubular",
+      "thumb-img" : "/859/793/brno-tubular_thumb,0.jpg",
+      "hero1-img" : "/419/889/brno-tubular_hero,0.jpg",
+      "workCats" : [],
+      "name" : "ES Brno Chair - Tubular",
+      "powerCats" : [],
+      "product-id" : "brno-chair-tubular"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "short-text" : "<p>k. lounge is a soft-seating series that delivers a broad range of capabilities, making it the go-to solution for activity spaces throughout the work environment.</p>",
+      "storageCats" : [],
+      "screensCats" : [],
+      "epp-id" : "1356386162420",
+      "seatingCats" : [
+        "Lounge",
+        "Side and Multi-Use"
+      ],
+      "apprvId" : "KL-01",
+      "tableCats" : [],
+      "availFinMods" : [
+        {
+          "id" : "1356408698712",
+          "title" : "Options",
+          "std" : {
+            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Upholstery:</span><span class=\"essop-option\">Delite (Base Grade), Approved Fabrics and Leathers</span></p>\r\n<p><span class=\"essop-title\">Feet:</span><span class=\"essop-option\">Glides, Casters</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
+            "fins" : []
+          },
+          "three-week" : {
+            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Upholstery:</span><span class=\"essop-option\">Delite (Base Grade)</span></p>\r\n<p><span class=\"essop-title\">Feet:</span><span class=\"essop-option\">Glides</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title\">Quantity Limit:&nbsp;</span><span class=\"essop-option red\">10</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "<div>\r\n<div>&nbsp;</div>\r\n</div>\r\n",
+            "fins" : []
+          }
+        },
+        {
+          "id" : "1356389619142",
+          "title" : "Base Grade Textile: Delite",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1353003209436",
+                "color" : "Delite - Orange",
+                "img" : "/33/633/Thumb_orange,9.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003209374",
+                "color" : "Delite - Red",
+                "img" : "/72/988/Thumb_red,9.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003209527",
+                "color" : "Delite - Catalina",
+                "img" : "/302/1007/Thumb_catalina,9.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003210114",
+                "color" : "Delite - Turquoise",
+                "img" : "/728/521/Thumb_turquoise,2.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003209866",
+                "color" : "Delite - Parrot",
+                "img" : "/905/960/Thumb_parrot,9.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003209804",
+                "color" : "Delite - Green",
+                "img" : "/630/134/Thumb_green,9.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003209651",
+                "color" : "Delite - Cinder",
+                "img" : "/700/969/Thumb_cinder,9.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003209990",
+                "color" : "Delite - Stone",
+                "img" : "/728/304/Thumb_stone,9.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003209713",
+                "color" : "Delite - Gray",
+                "img" : "/470/329/Thumb_gray,9.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003209928",
+                "color" : "Delite - Slate",
+                "img" : "/524/76/Thumb_slate,9.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003210052",
+                "color" : "Delite - Tobacco",
+                "img" : "/72/572/Thumb_tobacco,9.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003209589",
+                "color" : "Delite - Charcoal",
+                "img" : "/96/987/Thumb_charcoal,9.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003210295",
+                "color" : "Delite - Onyx",
+                "img" : "/821/632/Thumb_onyx,2.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353004284823",
+                "color" : "Delite - Purple",
+                "img" : "/687/595/Thumb_purple,9.png",
+                "type" : ""
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1353003210114",
+                "color" : "Delite - Turquoise",
+                "img" : "/728/521/Thumb_turquoise,2.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003209651",
+                "color" : "Delite - Cinder",
+                "img" : "/700/969/Thumb_cinder,9.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003209589",
+                "color" : "Delite - Charcoal",
+                "img" : "/96/987/Thumb_charcoal,9.png",
+                "type" : ""
+              }
+            ]
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        }
+      ],
+      "title" : "k. lounge Stool",
+      "thumb-img" : "/726/896/k-lounge-stool.jpg",
+      "hero1-img" : "/599/774/k-lounge-stool.jpg",
+      "workCats" : [],
+      "name" : "ES k. lounge Stool",
+      "powerCats" : [],
+      "product-id" : "k-lounge"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "short-text" : "<p>Derived from the highly successful Gigi stacking chair, the Gigi Stool is flexible in application and style. The distinctive profile gives the seat back both strength and flexibility, while a wide range of colors offers the freedom to specify chairs that adapt to any space.</p>",
+      "storageCats" : [],
+      "screensCats" : [],
+      "epp-id" : "1356386111405",
+      "seatingCats" : [
+        "Stools"
+      ],
+      "apprvId" : "SIDE-07",
+      "tableCats" : [],
+      "availFinMods" : [
+        {
+          "id" : "1352996344425",
+          "title" : "Shell",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1347382990154",
+                "color" : "White",
+                "img" : "/224/778/Thumb_GIGI001,0.png",
+                "type" : "Plastic"
+              },
+              {
+                "id" : "1347382990190",
+                "color" : "Graphite",
+                "img" : "/994/533/Thumb_GIGI003,0.png",
+                "type" : "Plastic"
+              },
+              {
+                "id" : "1347382990249",
+                "color" : "Mango",
+                "img" : "/613/167/Thumb_GIGI006,2.png",
+                "type" : "Plastic"
+              },
+              {
+                "id" : "1347382990491",
+                "color" : "Navy",
+                "img" : "/256/966/Thumb_GIGI012,0.png",
+                "type" : "Plastic"
+              },
+              {
+                "id" : "1347382990366",
+                "color" : "Red",
+                "img" : "/486/45/Thumb_GIGI007,0.png",
+                "type" : "Plastic"
+              },
+              {
+                "id" : "1352993891230",
+                "color" : "Seafoam",
+                "img" : "/1020/965/Thumb_Gigi_Seafoam,0.png",
+                "type" : "Plastic"
+              },
+              {
+                "id" : "1347382990456",
+                "color" : "Black",
+                "img" : "/2/722/Thumb_GIGI014,0.png",
+                "type" : "Plastic"
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1347382990190",
+                "color" : "Graphite",
+                "img" : "/994/533/Thumb_GIGI003,0.png",
+                "type" : "Plastic"
+              },
+              {
+                "id" : "1347382990456",
+                "color" : "Black",
+                "img" : "/2/722/Thumb_GIGI014,0.png",
+                "type" : "Plastic"
+              }
+            ]
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        }
+      ],
+      "title" : "Gigi Stool",
+      "thumb-img" : "/60/18/gigi-stool.jpg",
+      "hero1-img" : "/957/919/gigi-stool.jpg",
+      "workCats" : [],
+      "name" : "ES Gigi Stool",
+      "powerCats" : [],
+      "product-id" : "gigi-barstool"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "short-text" : "<p>k. lounge is a soft-seating series that delivers a broad range of capabilities, making it the go-to solution for activity spaces throughout the work environment.</p>",
+      "storageCats" : [],
+      "screensCats" : [],
+      "epp-id" : "1356408700692",
+      "seatingCats" : [
+        "Lounge"
+      ],
+      "apprvId" : "KL-02",
+      "tableCats" : [],
+      "availFinMods" : [
+        {
+          "id" : "1356408706420",
+          "title" : "Options",
+          "std" : {
+            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Upholstery:</span><span class=\"essop-option\">Delite (Base Grade), Approved Fabrics and Leathers (split upholstery available for pieces with back)</span></p>\r\n\r\n<p><span class=\"essop-title\">Feet:</span><span class=\"essop-option\">Glides</span></p>\r\n\r\n<p><span class=\"essop-title\">Power:</span><span class=\"essop-option\">Available</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t\t<th>curve</th>\r\n\t\t\t<th>casters</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>KL3 Curved Bench, no back</td>\r\n\t\t\t<td>44.5&quot;</td>\r\n\t\t\t<td>44.5&quot;</td>\r\n\t\t\t<td>17.25&quot;</td>\r\n\t\t\t<td>17.25</td>\r\n\t\t\t<td>60&deg;</td>\r\n\t\t\t<td>no</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>KL7 Curved Bench with back, inside radius</td>\r\n\t\t\t<td>44.5&quot;</td>\r\n\t\t\t<td>44.5&quot;</td>\r\n\t\t\t<td>26&quot;</td>\r\n\t\t\t<td>17.25&quot;</td>\r\n\t\t\t<td>60&deg;</td>\r\n\t\t\t<td>no</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>KL7 Curved Bench with back, outside radius</td>\r\n\t\t\t<td>44.5&quot;</td>\r\n\t\t\t<td>44.5&quot;</td>\r\n\t\t\t<td>26&quot;</td>\r\n\t\t\t<td>17.25&quot;</td>\r\n\t\t\t<td>60&deg;</td>\r\n\t\t\t<td>no</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins" : []
+          },
+          "three-week" : {
+            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Upholstery:</span><span class=\"essop-option\">Delite (Base Grade)</span></p>\r\n\r\n<p><span class=\"essop-title\">Feet:</span><span class=\"essop-option\">Glides</span></p>\r\n\r\n<p><span class=\"essop-title\">Power:</span><span class=\"essop-option\">Not Available</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 10)</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t\t<th>curve</th>\r\n\t\t\t<th>casters</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>KL3 Curved Bench, no back</td>\r\n\t\t\t<td>44.5&quot;</td>\r\n\t\t\t<td>44.5&quot;</td>\r\n\t\t\t<td>17.25&quot;</td>\r\n\t\t\t<td>17.25</td>\r\n\t\t\t<td>60&deg;</td>\r\n\t\t\t<td>no</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>KL7 Curved Bench with back, inside radius</td>\r\n\t\t\t<td>44.5&quot;</td>\r\n\t\t\t<td>44.5&quot;</td>\r\n\t\t\t<td>26&quot;</td>\r\n\t\t\t<td>17.25&quot;</td>\r\n\t\t\t<td>60&deg;</td>\r\n\t\t\t<td>no</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>KL7 Curved Bench with back, outside radius</td>\r\n\t\t\t<td>44.5&quot;</td>\r\n\t\t\t<td>44.5&quot;</td>\r\n\t\t\t<td>26&quot;</td>\r\n\t\t\t<td>17.25&quot;</td>\r\n\t\t\t<td>60&deg;</td>\r\n\t\t\t<td>no</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "<div>\r\n<div>&nbsp;</div>\r\n</div>\r\n",
+            "fins" : []
+          }
+        },
+        {
+          "id" : "1356389619142",
+          "title" : "Base Grade Textile: Delite",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1353003209436",
+                "color" : "Delite - Orange",
+                "img" : "/33/633/Thumb_orange,9.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003209374",
+                "color" : "Delite - Red",
+                "img" : "/72/988/Thumb_red,9.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003209527",
+                "color" : "Delite - Catalina",
+                "img" : "/302/1007/Thumb_catalina,9.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003210114",
+                "color" : "Delite - Turquoise",
+                "img" : "/728/521/Thumb_turquoise,2.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003209866",
+                "color" : "Delite - Parrot",
+                "img" : "/905/960/Thumb_parrot,9.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003209804",
+                "color" : "Delite - Green",
+                "img" : "/630/134/Thumb_green,9.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003209651",
+                "color" : "Delite - Cinder",
+                "img" : "/700/969/Thumb_cinder,9.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003209990",
+                "color" : "Delite - Stone",
+                "img" : "/728/304/Thumb_stone,9.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003209713",
+                "color" : "Delite - Gray",
+                "img" : "/470/329/Thumb_gray,9.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003209928",
+                "color" : "Delite - Slate",
+                "img" : "/524/76/Thumb_slate,9.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003210052",
+                "color" : "Delite - Tobacco",
+                "img" : "/72/572/Thumb_tobacco,9.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003209589",
+                "color" : "Delite - Charcoal",
+                "img" : "/96/987/Thumb_charcoal,9.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003210295",
+                "color" : "Delite - Onyx",
+                "img" : "/821/632/Thumb_onyx,2.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353004284823",
+                "color" : "Delite - Purple",
+                "img" : "/687/595/Thumb_purple,9.png",
+                "type" : ""
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1353003210114",
+                "color" : "Delite - Turquoise",
+                "img" : "/728/521/Thumb_turquoise,2.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003209651",
+                "color" : "Delite - Cinder",
+                "img" : "/700/969/Thumb_cinder,9.png",
+                "type" : ""
+              },
+              {
+                "id" : "1353003209589",
+                "color" : "Delite - Charcoal",
+                "img" : "/96/987/Thumb_charcoal,9.png",
+                "type" : ""
+              }
+            ]
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        }
+      ],
+      "title" : "k. lounge Curve",
+      "thumb-img" : "/392/166/k-lounge-curve_thumb.jpg",
+      "hero1-img" : "/590/725/k-lounge-curve_hero.jpg",
+      "workCats" : [],
+      "name" : "ES k. lounge Curve",
+      "powerCats" : [],
+      "product-id" : "k-lounge"
+    },
+    {
+      "lead-times" : [
         "std",
         "three-week"
       ],
@@ -54893,6 +55828,22 @@
       "apprvId" : "",
       "tableCats" : [],
       "availFinMods" : [
+        {
+          "id" : "1356409089983",
+          "title" : "Options",
+          "std" : {
+            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Arms:</span><span class=\"essop-option\">Arms, Armless</span></p>\r\n\r\n<p><span class=\"essop-title\">Seat Pad:</span><span class=\"essop-option\">Approved Textiles and Leathers, Woven Rush</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
+            "fins" : []
+          },
+          "three-week" : {
+            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Arms:</span><span class=\"essop-option\">Arms</span></p>\r\n\r\n<p><span class=\"essop-title\">Seat Pad:</span><span class=\"essop-option\">Approved Textiles and Leathers, Woven Rush</span></p>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title\">Quantity Limit:&nbsp;</span><span class=\"essop-option red\">10</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        },
         {
           "id" : "1356389627811",
           "title" : "Stained Beech",
@@ -55091,310 +56042,12 @@
         }
       ],
       "title" : "Krusin Lounge Chair",
-      "thumb-img" : "/496/358/krusin-lounge-chair.jpg",
-      "hero1-img" : "/369/236/krusin-lounge-chair.jpg",
+      "thumb-img" : "/242/114/krusin-lounge-chair,0.jpg",
+      "hero1-img" : "/115/1016/krusin-lounge-chair,0.jpg",
       "workCats" : [],
       "name" : "ES Krusin Lounge Chair",
       "powerCats" : [],
       "product-id" : "krusin-lounge-chair"
-    },
-    {
-      "lead-times" : [
-        "std",
-        "three-week"
-      ],
-      "short-text" : "<p>Power Cube brings easy access to power to shared spaces, because everyone needs a place to plug in when they&rsquo;re on-the-go. With whiteboard writable surfaces on all sides, Power Cube encourages the sharing of ideas, making it great for informal team meeting areas.</p>",
-      "storageCats" : [],
-      "screensCats" : [],
-      "epp-id" : "1356388935857",
-      "seatingCats" : [],
-      "apprvId" : "",
-      "tableCats" : [
-        "Side & Coffee"
-      ],
-      "availFinMods" : [
-        {
-          "id" : "1356401203488",
-          "title" : "Options",
-          "std" : {
-            "optsTxt" : "<link href=\"/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Worksurface Material:</span><span class=\"essop-option\">Whiteboard Powder Coat Paint</span></p>\r\n\r\n<p><span class=\"essop-title\">Power / Wiring:</span><span class=\"essop-option\">72&quot; Whip (for hardwiring), 72&quot; Cordset, No Power</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Outlet Placement:</span><span class=\"essop-option\">Single Side, Two Side</span></p>\r\n\r\n<p><span class=\"essop-title\">Outlet Configuration:</span><span class=\"essop-option\">4 Electrical Outlets, 3 Electrical Outlets / 2 USB ports</span></p>\r\n</div>\r\n</div>\r\n\r\n<p><span class=\"essop-title\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<p>\r\n<style type=\"text/css\">table, th, td {\r\n    border-collapse: collapse;\r\n}\r\nth, td {\r\n    padding: 3px 6px 5px 0px;\r\n}\r\ntd {  \r\n  color: #777;\r\n  font: 11px/13px 'HelveticaNeueW01-55Roma', Arial, Helvetica, sans-serif;}\r\nth {\r\n    color: #777;\r\n  font: 11px/13px 'HelveticaNeueW01-75Bold', Arial, Helvetica, sans-serif;text-align: left;\r\n}\r\n</style>\r\n</p>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>24&quot;</td>\r\n\t\t\t<td>24&quot;</td>\r\n\t\t\t<td>13&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>36&quot;</td>\r\n\t\t\t<td>36&quot;</td>\r\n\t\t\t<td>13&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>",
-            "fins" : []
-          },
-          "three-week" : {
-            "optsTxt" : "<link href=\"/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Quantity Limit:</span><span class=\"essop-option\" style=\"color:#f04e23\">5</span></p>\r\n\r\n<p><span class=\"essop-title\">Worksurface Material:</span><span class=\"essop-option\">Whiteboard Powder Coat Paint</span></p>\r\n\r\n<p><span class=\"essop-title\">Power / Wiring:</span><span class=\"essop-option\">72&quot; Whip (for hardwiring), No Power</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Outlet Placement:</span><span class=\"essop-option\">Single Side, Two Side</span></p>\r\n\r\n<p><span class=\"essop-title\">Outlet Configuration:</span><span class=\"essop-option\">4 Electrical Outlets</span></p>\r\n</div>\r\n</div>\r\n\r\n<p><span class=\"essop-title\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<p>\r\n<style type=\"text/css\">table, th, td {\r\n    border-collapse: collapse;\r\n}\r\nth, td {\r\n    padding: 3px 6px 5px 0px;\r\n}\r\ntd {  \r\n  color: #777;\r\n  font: 11px/13px 'HelveticaNeueW01-55Roma', Arial, Helvetica, sans-serif;}\r\nth {\r\n    color: #777;\r\n  font: 11px/13px 'HelveticaNeueW01-75Bold', Arial, Helvetica, sans-serif;text-align: left;\r\n}\r\n</style>\r\n</p>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>24&quot;</td>\r\n\t\t\t<td>24&quot;</td>\r\n\t\t\t<td>13&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>36&quot;</td>\r\n\t\t\t<td>36&quot;</td>\r\n\t\t\t<td>13&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n",
-            "fins" : []
-          },
-          "quick" : {
-            "optsTxt" : "",
-            "fins" : []
-          }
-        }
-      ],
-      "title" : "Power Cube",
-      "thumb-img" : "/720/71/power-cube_side-coffee_thumb.jpg",
-      "hero1-img" : "/466/332/power-cube_side-coffee_hero.jpg",
-      "workCats" : [],
-      "name" : "ES Power Cube",
-      "powerCats" : [],
-      "product-id" : "power-cube"
-    },
-    {
-      "lead-times" : [
-        "std"
-      ],
-      "short-text" : "<p>Designed by Mies van der Rohe in 1930 for his renowned Tugendhat House in Brno, Czech Republic, the Brno Chair reflects the groundbreaking simplicity of its original environment. The chair, an icon of 20th-century design, is celebrated for its lean profile, clean lines and exquisite details.</p>",
-      "storageCats" : [],
-      "screensCats" : [],
-      "epp-id" : "1356390553362",
-      "seatingCats" : [
-        "Side and Multi-Use"
-      ],
-      "apprvId" : "SIDE-04",
-      "tableCats" : [],
-      "availFinMods" : [
-        {
-          "id" : "1356277700385",
-          "title" : "Frame",
-          "std" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1352996254622",
-                "color" : "Chrome, Polished",
-                "img" : "/666/580/Thumb_c,0.png",
-                "type" : "Metal"
-              },
-              {
-                "id" : "1352996366780",
-                "color" : "Stainless Steel, Polished",
-                "img" : "/682/817/Thumb_s,0.png",
-                "type" : "Metal"
-              },
-              {
-                "id" : "1356275102141",
-                "color" : "Bronze, Antiqued Polished",
-                "img" : "/395/81/Thumb_bas,0.png",
-                "type" : "Metal"
-              }
-            ]
-          },
-          "three-week" : {
-            "optsTxt" : "",
-            "fins" : []
-          },
-          "quick" : {
-            "optsTxt" : "",
-            "fins" : []
-          }
-        }
-      ],
-      "title" : "Brno Chair - Tubular",
-      "thumb-img" : "/859/793/brno-tubular_thumb,0.jpg",
-      "hero1-img" : "/419/889/brno-tubular_hero,0.jpg",
-      "workCats" : [],
-      "name" : "ES Brno Chair - Tubular",
-      "powerCats" : [],
-      "product-id" : "brno-chair-tubular"
-    },
-    {
-      "lead-times" : [
-        "std",
-        "three-week"
-      ],
-      "short-text" : "<p>Derived from the highly successful Gigi stacking chair, the Gigi Stool is flexible in application and style. The distinctive profile gives the seat back both strength and flexibility, while a wide range of colors offers the freedom to specify chairs that adapt to any space.</p>",
-      "storageCats" : [],
-      "screensCats" : [],
-      "epp-id" : "1356386111405",
-      "seatingCats" : [
-        "Stools"
-      ],
-      "apprvId" : "SIDE-07",
-      "tableCats" : [],
-      "availFinMods" : [
-        {
-          "id" : "1352996344425",
-          "title" : "Shell",
-          "std" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1347382990154",
-                "color" : "White",
-                "img" : "/224/778/Thumb_GIGI001,0.png",
-                "type" : "Plastic"
-              },
-              {
-                "id" : "1347382990190",
-                "color" : "Graphite",
-                "img" : "/994/533/Thumb_GIGI003,0.png",
-                "type" : "Plastic"
-              },
-              {
-                "id" : "1347382990249",
-                "color" : "Mango",
-                "img" : "/613/167/Thumb_GIGI006,2.png",
-                "type" : "Plastic"
-              },
-              {
-                "id" : "1347382990491",
-                "color" : "Navy",
-                "img" : "/256/966/Thumb_GIGI012,0.png",
-                "type" : "Plastic"
-              },
-              {
-                "id" : "1347382990366",
-                "color" : "Red",
-                "img" : "/486/45/Thumb_GIGI007,0.png",
-                "type" : "Plastic"
-              },
-              {
-                "id" : "1352993891230",
-                "color" : "Seafoam",
-                "img" : "/1020/965/Thumb_Gigi_Seafoam,0.png",
-                "type" : "Plastic"
-              },
-              {
-                "id" : "1347382990456",
-                "color" : "Black",
-                "img" : "/2/722/Thumb_GIGI014,0.png",
-                "type" : "Plastic"
-              }
-            ]
-          },
-          "three-week" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1347382990190",
-                "color" : "Graphite",
-                "img" : "/994/533/Thumb_GIGI003,0.png",
-                "type" : "Plastic"
-              },
-              {
-                "id" : "1347382990456",
-                "color" : "Black",
-                "img" : "/2/722/Thumb_GIGI014,0.png",
-                "type" : "Plastic"
-              }
-            ]
-          },
-          "quick" : {
-            "optsTxt" : "",
-            "fins" : []
-          }
-        }
-      ],
-      "title" : "Gigi Stool",
-      "thumb-img" : "/60/18/gigi-stool.jpg",
-      "hero1-img" : "/957/919/gigi-stool.jpg",
-      "workCats" : [],
-      "name" : "ES Gigi Stool",
-      "powerCats" : [],
-      "product-id" : "gigi-barstool"
-    },
-    {
-      "lead-times" : [
-        "std"
-      ],
-      "short-text" : "<p>Eero Saarinen vowed to address the &ldquo;ugly, confusing, unrestful world&rdquo; he observed underneath chairs and tables -- the so-called &quot;slum of legs.&quot; A five-year design investigation led him to the revolutionary Pedestal Collection, including the Tulip Chair.</p>",
-      "storageCats" : [],
-      "screensCats" : [],
-      "epp-id" : "1356386122808",
-      "seatingCats" : [
-        "Side and Multi-Use"
-      ],
-      "apprvId" : "SIDE-10",
-      "tableCats" : [],
-      "availFinMods" : [
-        {
-          "id" : "1397912136419",
-          "title" : "Shell and Base",
-          "std" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1352993977372",
-                "color" : "White Rilsan",
-                "img" : "/576/622/Thumb_PNT118,2.png",
-                "type" : "Metal"
-              },
-              {
-                "id" : "1352993977262",
-                "color" : "Black Rilsan",
-                "img" : "/555/631/Thumb_PNT111,0.png",
-                "type" : "Metal"
-              },
-              {
-                "id" : "1352993898585",
-                "color" : "Platinum",
-                "img" : "/17/100/Thumb_Saarinen_Platinum,2.png",
-                "type" : "Metal"
-              }
-            ]
-          },
-          "three-week" : {
-            "optsTxt" : "",
-            "fins" : []
-          },
-          "quick" : {
-            "optsTxt" : "",
-            "fins" : []
-          }
-        }
-      ],
-      "title" : "Tulip Arm",
-      "thumb-img" : "/200/304/saarinen-tulip-arm-chair_thumb.jpg",
-      "hero1-img" : "/73/182/saarinen-tulip-arm-chair_thumb.jpg",
-      "workCats" : [],
-      "name" : "ES Tulip Arm",
-      "powerCats" : [],
-      "product-id" : "tulip-arm-chair"
-    },
-    {
-      "lead-times" : [
-        "std"
-      ],
-      "short-text" : "<p>The Toledo chair is a graceful combination of cast-aluminum back and seat sections joined by tubular aluminum arms and legs. Immediately recognized as a classic, Toledo adorns public spaces worldwide.</p>",
-      "storageCats" : [],
-      "screensCats" : [],
-      "epp-id" : "1356386142818",
-      "seatingCats" : [
-        "Side and Multi-Use"
-      ],
-      "apprvId" : "SIDE-16",
-      "tableCats" : [],
-      "availFinMods" : [
-        {
-          "id" : "1352996413748",
-          "title" : "Seat and Legs",
-          "std" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1353006124859",
-                "color" : "Aluminum, Polished",
-                "img" : "/634/226/Thumb_polished-aluminum,0.png",
-                "type" : "Metal"
-              }
-            ]
-          },
-          "three-week" : {
-            "optsTxt" : "",
-            "fins" : []
-          },
-          "quick" : {
-            "optsTxt" : "",
-            "fins" : []
-          }
-        }
-      ],
-      "title" : "Toledo Stacking Chair",
-      "thumb-img" : "/209/306/toldedo-chair.jpg",
-      "hero1-img" : "/82/184/toldedo-chair.jpg",
-      "workCats" : [],
-      "name" : "ES Toledo Stacking Chair",
-      "powerCats" : [],
-      "product-id" : "toledo-stacking-chair"
     },
     {
       "lead-times" : [
@@ -57046,58 +57699,6 @@
       "name" : "ES Krefeld Bench",
       "powerCats" : [],
       "product-id" : "krefeld-sofa-and-ottoman"
-    },
-    {
-      "lead-times" : [
-        "std"
-      ],
-      "short-text" : "<p>Pilot is an innovative swivel lounge chair that marries visual and material lightness with exceptional comfort. The cantilevered seat, which features a unique upholstery substructure for greater flexibility, appears to float in the air, giving the chair a refined silhouette and an essential, timeless appeal.</p>",
-      "storageCats" : [],
-      "screensCats" : [],
-      "epp-id" : "1356386154087",
-      "seatingCats" : [
-        "Lounge"
-      ],
-      "apprvId" : "LOUNGE-02",
-      "tableCats" : [],
-      "availFinMods" : [
-        {
-          "id" : "1356390562512",
-          "title" : "Base",
-          "std" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1353006124859",
-                "color" : "Aluminum, Polished",
-                "img" : "/634/226/Thumb_polished-aluminum,0.png",
-                "type" : "Metal"
-              },
-              {
-                "id" : "1355998554834",
-                "color" : "Dark Grey",
-                "img" : "/201/520/Thumb_dark-grey,0.png",
-                "type" : "Paint"
-              }
-            ]
-          },
-          "three-week" : {
-            "optsTxt" : "",
-            "fins" : []
-          },
-          "quick" : {
-            "optsTxt" : "",
-            "fins" : []
-          }
-        }
-      ],
-      "title" : "Pilot by Knoll - Low Back",
-      "thumb-img" : "/963/782/pilot-low-back_thumb.jpg",
-      "hero1-img" : "/59/889/pilot-low-back_hero.jpg",
-      "workCats" : [],
-      "name" : "ES Pilot by Knoll - Low Back",
-      "powerCats" : [],
-      "product-id" : "pilot-by-knoll-low-back"
     },
     {
       "lead-times" : [
@@ -70993,7 +71594,14 @@
           },
           "three-week" : {
             "optsTxt" : "",
-            "fins" : []
+            "fins" : [
+              {
+                "id" : "1356038626102",
+                "color" : "Birch Plywood (9-ply)",
+                "img" : "/843/873/Thumb_birch-plywood,2.png",
+                "type" : "Veneer"
+              }
+            ]
           },
           "quick" : {
             "optsTxt" : "",
@@ -79192,7 +79800,14 @@
           },
           "three-week" : {
             "optsTxt" : "",
-            "fins" : []
+            "fins" : [
+              {
+                "id" : "1352996254622",
+                "color" : "Chrome, Polished",
+                "img" : "/666/580/Thumb_c,0.png",
+                "type" : "Metal"
+              }
+            ]
           },
           "quick" : {
             "optsTxt" : "",
@@ -80506,422 +81121,6 @@
     },
     {
       "lead-times" : [
-        "std",
-        "three-week"
-      ],
-      "short-text" : "<p>Featured in nearly every Florence Knoll interior, the Saarinen Executive Chair remains one of the most popular Knoll designs. Originally introduced in 1950, the chair transformed the notion of what executive seating could be with its fluid, sculptural form and modern finishing. The timeless and versatile design continues to fit seamlessly into work, conference, lounge and dining applications of any decor.</p>",
-      "storageCats" : [],
-      "screensCats" : [],
-      "epp-id" : "1356385713717",
-      "seatingCats" : [
-        "Side and Multi-Use"
-      ],
-      "apprvId" : "SIDE-12",
-      "tableCats" : [],
-      "availFinMods" : [
-        {
-          "id" : "1397675650254",
-          "title" : "Wood Legs",
-          "std" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1347383001930",
-                "color" : "Light Oak",
-                "img" : "/309/289/VENLO,0.png",
-                "type" : "Veneer"
-              },
-              {
-                "id" : "1352941942840",
-                "color" : "Pearwood",
-                "img" : "/323/887/Thumb_P,0.png",
-                "type" : "Veneer"
-              },
-              {
-                "id" : "1347383002078",
-                "color" : "Light Walnut ",
-                "img" : "/289/52/Thumb_WODLWA,0.png",
-                "type" : "Veneer"
-              },
-              {
-                "id" : "1347383004210",
-                "color" : "Reff Dark Cherry ",
-                "img" : "/867/295/Thumb_WODV314,0.png",
-                "type" : "Veneer"
-              },
-              {
-                "id" : "1347383010370",
-                "color" : "Ebonized Walnut Veneer",
-                "img" : "/356/142/Thumb_VEND,0.png",
-                "type" : "Veneer"
-              }
-            ]
-          },
-          "three-week" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1347383001930",
-                "color" : "Light Oak",
-                "img" : "/309/289/VENLO,0.png",
-                "type" : "Veneer"
-              },
-              {
-                "id" : "1352941942840",
-                "color" : "Pearwood",
-                "img" : "/323/887/Thumb_P,0.png",
-                "type" : "Veneer"
-              },
-              {
-                "id" : "1347383002078",
-                "color" : "Light Walnut ",
-                "img" : "/289/52/Thumb_WODLWA,0.png",
-                "type" : "Veneer"
-              },
-              {
-                "id" : "1347383010370",
-                "color" : "Ebonized Walnut Veneer",
-                "img" : "/356/142/Thumb_VEND,0.png",
-                "type" : "Veneer"
-              }
-            ]
-          },
-          "quick" : {
-            "optsTxt" : "",
-            "fins" : []
-          }
-        },
-        {
-          "id" : "1356045393376",
-          "title" : "Tubular Legs",
-          "std" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1352996254622",
-                "color" : "Chrome, Polished",
-                "img" : "/666/580/Thumb_c,0.png",
-                "type" : "Metal"
-              },
-              {
-                "id" : "1352941971580",
-                "color" : "Black  ",
-                "img" : "/467/969/Thumb_PNTBL,2.png",
-                "type" : "Paint"
-              }
-            ]
-          },
-          "three-week" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1352996254622",
-                "color" : "Chrome, Polished",
-                "img" : "/666/580/Thumb_c,0.png",
-                "type" : "Metal"
-              }
-            ]
-          },
-          "quick" : {
-            "optsTxt" : "",
-            "fins" : []
-          }
-        }
-      ],
-      "title" : "Saarinen Executive Arm",
-      "thumb-img" : "/363/811/saarinen-executive-arm-chair.jpg",
-      "hero1-img" : "/236/689/saarinen-executive-arm-chair.jpg",
-      "workCats" : [],
-      "name" : "ES Saarinen Executive Arm",
-      "powerCats" : [],
-      "product-id" : "saarinen-executive-arm-chair"
-    },
-    {
-      "lead-times" : [
-        "std"
-      ],
-      "short-text" : "<p>Featured in nearly all Florence Knoll-designed interiors, the Saarinen Executive Chair has remained one of our most popular designs for nearly 70 years. The design, which is now found in dining rooms as often as it is in offices, transformed the notion of what seating could be with its sculptural form and modern finishing. The plastic back offers a lighter, more flexible design for a variety of spaces.</p>",
-      "storageCats" : [],
-      "screensCats" : [],
-      "epp-id" : "1356386118182",
-      "seatingCats" : [
-        "Side and Multi-Use"
-      ],
-      "apprvId" : "SIDE-13",
-      "tableCats" : [],
-      "availFinMods" : [
-        {
-          "id" : "1356390241308",
-          "title" : "Wood Legs",
-          "std" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1347383001930",
-                "color" : "Light Oak",
-                "img" : "/309/289/VENLO,0.png",
-                "type" : "Veneer"
-              },
-              {
-                "id" : "1352941942840",
-                "color" : "Pearwood",
-                "img" : "/323/887/Thumb_P,0.png",
-                "type" : "Veneer"
-              },
-              {
-                "id" : "1347383002078",
-                "color" : "Light Walnut ",
-                "img" : "/289/52/Thumb_WODLWA,0.png",
-                "type" : "Veneer"
-              },
-              {
-                "id" : "1347383004210",
-                "color" : "Reff Dark Cherry ",
-                "img" : "/867/295/Thumb_WODV314,0.png",
-                "type" : "Veneer"
-              },
-              {
-                "id" : "1347383010370",
-                "color" : "Ebonized Walnut Veneer",
-                "img" : "/356/142/Thumb_VEND,0.png",
-                "type" : "Veneer"
-              }
-            ]
-          },
-          "three-week" : {
-            "optsTxt" : "",
-            "fins" : []
-          },
-          "quick" : {
-            "optsTxt" : "",
-            "fins" : []
-          }
-        },
-        {
-          "id" : "1356390245992",
-          "title" : "Tubular Legs",
-          "std" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1352996254622",
-                "color" : "Chrome, Polished",
-                "img" : "/666/580/Thumb_c,0.png",
-                "type" : "Metal"
-              },
-              {
-                "id" : "1352941971580",
-                "color" : "Black  ",
-                "img" : "/467/969/Thumb_PNTBL,2.png",
-                "type" : "Paint"
-              }
-            ]
-          },
-          "three-week" : {
-            "optsTxt" : "",
-            "fins" : []
-          },
-          "quick" : {
-            "optsTxt" : "",
-            "fins" : []
-          }
-        }
-      ],
-      "title" : "Saarinen Executive Plastic Back",
-      "thumb-img" : "/693/720/saarinen-executive-plastic-back.jpg",
-      "hero1-img" : "/566/598/saarinen-executive-plastic-back.jpg",
-      "workCats" : [],
-      "name" : "ES Saarinen Executive Plastic Back",
-      "powerCats" : [],
-      "product-id" : "saarinen-executive-armless-chair-plastic-back"
-    },
-    {
-      "lead-times" : [
-        "std",
-        "three-week"
-      ],
-      "short-text" : "<p>Featured in nearly all Florence Knoll-designed interiors, the Saarinen Executive Chair remains one of the most popular Knoll designs. Introduced in 1950, the chair transformed the notion of what executive seating could be with its sculptural form and modern finishing.</p>",
-      "storageCats" : [],
-      "screensCats" : [],
-      "epp-id" : "1356385713805",
-      "seatingCats" : [
-        "Side and Multi-Use"
-      ],
-      "apprvId" : "SIDE-13",
-      "tableCats" : [],
-      "availFinMods" : [
-        {
-          "id" : "1356390241308",
-          "title" : "Wood Legs",
-          "std" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1347383001930",
-                "color" : "Light Oak",
-                "img" : "/309/289/VENLO,0.png",
-                "type" : "Veneer"
-              },
-              {
-                "id" : "1352941942840",
-                "color" : "Pearwood",
-                "img" : "/323/887/Thumb_P,0.png",
-                "type" : "Veneer"
-              },
-              {
-                "id" : "1347383002078",
-                "color" : "Light Walnut ",
-                "img" : "/289/52/Thumb_WODLWA,0.png",
-                "type" : "Veneer"
-              },
-              {
-                "id" : "1347383004210",
-                "color" : "Reff Dark Cherry ",
-                "img" : "/867/295/Thumb_WODV314,0.png",
-                "type" : "Veneer"
-              },
-              {
-                "id" : "1347383010370",
-                "color" : "Ebonized Walnut Veneer",
-                "img" : "/356/142/Thumb_VEND,0.png",
-                "type" : "Veneer"
-              }
-            ]
-          },
-          "three-week" : {
-            "optsTxt" : "",
-            "fins" : []
-          },
-          "quick" : {
-            "optsTxt" : "",
-            "fins" : []
-          }
-        },
-        {
-          "id" : "1356045393376",
-          "title" : "Tubular Legs",
-          "std" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1352996254622",
-                "color" : "Chrome, Polished",
-                "img" : "/666/580/Thumb_c,0.png",
-                "type" : "Metal"
-              },
-              {
-                "id" : "1352941971580",
-                "color" : "Black  ",
-                "img" : "/467/969/Thumb_PNTBL,2.png",
-                "type" : "Paint"
-              }
-            ]
-          },
-          "three-week" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1352996254622",
-                "color" : "Chrome, Polished",
-                "img" : "/666/580/Thumb_c,0.png",
-                "type" : "Metal"
-              }
-            ]
-          },
-          "quick" : {
-            "optsTxt" : "",
-            "fins" : []
-          }
-        }
-      ],
-      "title" : "Saarinen Executive Armless",
-      "thumb-img" : "/262/811/saarinen-executive-armless-chair.jpg",
-      "hero1-img" : "/135/689/saarinen-executive-armless-chair.jpg",
-      "workCats" : [],
-      "name" : "ES Saarinen Executive Armless",
-      "powerCats" : [],
-      "product-id" : "saarinen-executive-armless-chair"
-    },
-    {
-      "lead-times" : [
-        "std",
-        "three-week"
-      ],
-      "short-text" : "<p>The Spark Series Side Chair brings energy to every room or patio with its bright colors and unique personality. A perfect balance of design and utility, the chairs are pleasing to the eye, comfortable, and versatile.</p>",
-      "storageCats" : [],
-      "screensCats" : [],
-      "epp-id" : "1356385717773",
-      "seatingCats" : [
-        "Outdoor",
-        "Side and Multi-Use"
-      ],
-      "apprvId" : "SIDE-14",
-      "tableCats" : [],
-      "availFinMods" : [
-        {
-          "id" : "1352996272365",
-          "title" : "Frame Color",
-          "std" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1347382989190",
-                "color" : "Red",
-                "img" : "/881/504/Thumb_Spark01,0.png",
-                "type" : "Plastic"
-              },
-              {
-                "id" : "1347382989270",
-                "color" : "Blue",
-                "img" : "/754/382/Thumb_Spark02,0.png",
-                "type" : "Plastic"
-              },
-              {
-                "id" : "1347382989306",
-                "color" : "Citron",
-                "img" : "/627/260/Thumb_Spark03,0.png",
-                "type" : "Plastic"
-              },
-              {
-                "id" : "1347382989365",
-                "color" : "Light Grey",
-                "img" : "/500/138/Thumb_Spark04,0.png",
-                "type" : "Plastic"
-              },
-              {
-                "id" : "1347382989426",
-                "color" : "Dark Grey",
-                "img" : "/373/16/Thumb_Spark05,2.png",
-                "type" : "Plastic"
-              },
-              {
-                "id" : "1347382989462",
-                "color" : "Recycled Black",
-                "img" : "/246/918/Thumb_Spark06,0.png",
-                "type" : "Plastic"
-              }
-            ]
-          },
-          "three-week" : {
-            "optsTxt" : "",
-            "fins" : []
-          },
-          "quick" : {
-            "optsTxt" : "",
-            "fins" : []
-          }
-        }
-      ],
-      "title" : "Spark Series Side Chair",
-      "thumb-img" : "/381/186/spark-side-chair.jpg",
-      "hero1-img" : "/254/64/spark-side-chair.jpg",
-      "workCats" : [],
-      "name" : "ES Spark Series Side Chair",
-      "powerCats" : [],
-      "product-id" : "spark-series-side-chair"
-    },
-    {
-      "lead-times" : [
         "std"
       ],
       "short-text" : "<p>Clean lines and exceptional comfort characterize the Divina lounge collection from Piero Lissoni. Soft and inviting, Divina cushions lie flush on the frame and generous armrests fully enclose each side of the lounge, which seems to float above the floor on razor-thin legs. The collection, which features lounge chairs in standard and &ldquo;piccolo&rdquo; versions, as well as a settee and sofa, offers modern elegance and superior comfort for any contract or residential application.</p>",
@@ -80950,7 +81149,14 @@
           },
           "three-week" : {
             "optsTxt" : "",
-            "fins" : []
+            "fins" : [
+              {
+                "id" : "1352996254622",
+                "color" : "Chrome, Polished",
+                "img" : "/666/580/Thumb_c,0.png",
+                "type" : "Metal"
+              }
+            ]
           },
           "quick" : {
             "optsTxt" : "",
@@ -80996,7 +81202,14 @@
           },
           "three-week" : {
             "optsTxt" : "",
-            "fins" : []
+            "fins" : [
+              {
+                "id" : "1352996254622",
+                "color" : "Chrome, Polished",
+                "img" : "/666/580/Thumb_c,0.png",
+                "type" : "Metal"
+              }
+            ]
           },
           "quick" : {
             "optsTxt" : "",
@@ -86243,11 +86456,11 @@
           "id" : "1356407075287",
           "title" : "Options",
           "std" : {
-            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Seat Pad:</span><span class=\"essop-option\">No Seat Pad, Seat Pad, Seat and Back Pad, Full Cover</span></p>\r\n\r\n<p><span class=\"essop-title\">Frame:</span><span class=\"essop-option\">Chrome, Powder Coat Paint</span></p>\r\n<p><span class=\"essop-title\">Height:</span><span class=\"essop-option\">Bar Height (seat 29.25\"), Counter Height (seat 27.5\")</span></p>\r\n</div>\r\n</div>\r\n</div>",
+            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Seat Pad Style:</span><span class=\"essop-option\">No Seat Pad, Seat Pad, Seat and Back Pad, Full Cover</span></p>\r\n\r\n<p><span class=\"essop-title\">Upholstery:</span><span class=\"essop-option\">Approved Textiles and Leathers</span></p>\r\n\r\n<p><span class=\"essop-title\">Frame:</span><span class=\"essop-option\">Chrome, Powder Coat Paint</span></p>\r\n\r\n<p><span class=\"essop-title\">Height:</span><span class=\"essop-option\">Bar Height (seat 29.25&quot;), Counter Height (seat 27.5&quot;)</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
             "fins" : []
           },
           "three-week" : {
-            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Seat Pad:</span><span class=\"essop-option\">No Seat Pad, Seat Pad, Seat and Back Pad, Full Cover</span></p>\r\n\r\n<p><span class=\"essop-title\">Frame:</span><span class=\"essop-option\">Chrome, Powder Coat Paint</span></p>\r\n<p><span class=\"essop-title\">Height:</span><span class=\"essop-option\">Bar Height (seat 29.25\"), Counter Height (seat 27.5\")</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title\">Quantity Limit:&nbsp;</span><span class=\"essop-option red\">10</span></p>\r\n</div>\r\n</div>\r\n</div>",
+            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Seat Pad Style:</span><span class=\"essop-option\">No Seat Pad, Seat Pad, Seat and Back Pad, Full Cover</span></p>\r\n\r\n<p><span class=\"essop-title\">Upholstery:</span><span class=\"essop-option\">Approved Textiles and Leathers</span></p>\r\n\r\n<p><span class=\"essop-title\">Height:</span><span class=\"essop-option\">Bar Height (seat 29.25&quot;), Counter Height (seat 27.5&quot;)</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title\">Quantity Limit:&nbsp;</span><span class=\"essop-option red\">10</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
             "fins" : []
           },
           "quick" : {
@@ -86577,11 +86790,11 @@
           "id" : "1356407680530",
           "title" : "Options",
           "std" : {
-            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Sizes:</span><span class=\"essop-option\">Adult, Child</span></p>\r\n\r\n<p><span class=\"essop-title\">Seat Pad:</span><span class=\"essop-option\">Approved Textiles and Leathers</span></p>\r\n<p><span class=\"essop-title\">Additional Options:</span><span class=\"essop-option\">Available with added weight for use outdoors.</span></p>\r\n\r\n</div>\r\n</div>\r\n</div>",
+            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Sizes:</span><span class=\"essop-option\">Adult, Child</span></p>\r\n\r\n<p><span class=\"essop-title\">Optional Seat Pad:</span><span class=\"essop-option\">Approved Textiles and Leathers</span></p>\r\n\r\n<p><span class=\"essop-title\">Additional Options:</span><span class=\"essop-option\">Available with added weight for use outdoors.</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
             "fins" : []
           },
           "three-week" : {
-            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Sizes:</span><span class=\"essop-option\">Adult</span></p>\r\n\r\n<p><span class=\"essop-title\">Seat Pad:</span><span class=\"essop-option\">Not Available</span></p>\r\n<p><span class=\"essop-title\">Additional Options:</span><span class=\"essop-option\">Available with added weight for use outdoors</span></p>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title\">Quantity Limit:</span><span class=\"essop-option red\">5</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n",
+            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Sizes:</span><span class=\"essop-option\">Adult</span></p>\r\n\r\n<p><span class=\"essop-title\">Optional Seat Pad:</span><span class=\"essop-option\">Not Available</span></p>\r\n\r\n<p><span class=\"essop-title\">Additional Options:</span><span class=\"essop-option\">Available with added weight for use outdoors</span></p>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title\">Quantity Limit:</span><span class=\"essop-option red\">5</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n",
             "fins" : []
           },
           "quick" : {
@@ -87190,6 +87403,689 @@
       "name" : "ES Anchor Doublewide Pedestals",
       "powerCats" : [],
       "product-id" : "anchor"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "short-text" : "<p>Unscripted easy stools are sturdy, simple seats you can pick up and move with the capsule-shaped handhold in the seat. Three heights offer a perch for any table. The optional seat pad adds extra cushion to the solid plywood seat.</p>",
+      "storageCats" : [],
+      "screensCats" : [],
+      "epp-id" : "1356385703833",
+      "seatingCats" : [
+        "Side and Multi-Use"
+      ],
+      "apprvId" : "",
+      "tableCats" : [],
+      "availFinMods" : [
+        {
+          "id" : "1356408645744",
+          "title" : "Options",
+          "std" : {
+            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Height:</span><span class=\"essop-option\">Low (16&quot;), Counter (24&quot;), Bar (30&quot;)</span></p>\r\n\r\n<p><span class=\"essop-title\">Seat:</span><span class=\"essop-option\">Plywood</span></p>\r\n\r\n<p><span class=\"essop-title\">Optional Seat Pad:</span><span class=\"essop-option\">KnollTextiles Crossroad (in colors below)</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
+            "fins" : []
+          },
+          "three-week" : {
+            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Height:</span><span class=\"essop-option\">Low (16&quot;), Counter (24&quot;), Bar (30&quot;)</span></p>\r\n\r\n<p><span class=\"essop-title\">Seat:</span><span class=\"essop-option\">Plywood</span></p>\r\n\r\n<p><span class=\"essop-title\">Optional Seat Pad:</span><span class=\"essop-option\">Not Available</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        },
+        {
+          "id" : "1355995787215",
+          "title" : "Textured Paint",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1347382702133",
+                "color" : "Jet Black - Textured",
+                "img" : "/547/584/Thumb_PNT111,0.png",
+                "type" : "Paint"
+              },
+              {
+                "id" : "1355996232859",
+                "color" : "Black Brown - Textured",
+                "img" : "/108/245/Thumb_120,0.png",
+                "type" : "Paint"
+              },
+              {
+                "id" : "1347382702596",
+                "color" : "Medium Grey - Textured",
+                "img" : "/161/641/Thumb_PNT115,2.png",
+                "type" : "Paint"
+              },
+              {
+                "id" : "1347382702345",
+                "color" : "Folkstone Grey - Textured",
+                "img" : "/73/735/Thumb_PNT114,0.png",
+                "type" : "Paint"
+              },
+              {
+                "id" : "1347382703086",
+                "color" : "Bright White - Textured",
+                "img" : "/833/764/Thumb_PNT118,0.png",
+                "type" : "Paint"
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1347382702133",
+                "color" : "Jet Black - Textured",
+                "img" : "/547/584/Thumb_PNT111,0.png",
+                "type" : "Paint"
+              },
+              {
+                "id" : "1347382702345",
+                "color" : "Folkstone Grey - Textured",
+                "img" : "/73/735/Thumb_PNT114,0.png",
+                "type" : "Paint"
+              },
+              {
+                "id" : "1347382703086",
+                "color" : "Bright White - Textured",
+                "img" : "/833/764/Thumb_PNT118,0.png",
+                "type" : "Paint"
+              }
+            ]
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1347382702133",
+                "color" : "Jet Black - Textured",
+                "img" : "/547/584/Thumb_PNT111,0.png",
+                "type" : "Paint"
+              },
+              {
+                "id" : "1347382702345",
+                "color" : "Folkstone Grey - Textured",
+                "img" : "/73/735/Thumb_PNT114,0.png",
+                "type" : "Paint"
+              },
+              {
+                "id" : "1347382703086",
+                "color" : "Bright White - Textured",
+                "img" : "/833/764/Thumb_PNT118,0.png",
+                "type" : "Paint"
+              }
+            ]
+          }
+        },
+        {
+          "id" : "1356072753368",
+          "title" : "Plywood",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1356038626102",
+                "color" : "Birch Plywood (9-ply)",
+                "img" : "/843/873/Thumb_birch-plywood,2.png",
+                "type" : "Veneer"
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1356038626102",
+                "color" : "Birch Plywood (9-ply)",
+                "img" : "/843/873/Thumb_birch-plywood,2.png",
+                "type" : "Veneer"
+              }
+            ]
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        },
+        {
+          "id" : "1356076140415",
+          "title" : "Seat Pad",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1356072747951",
+                "color" : "Pearl",
+                "img" : "/365/509/Thumb_1,2.png",
+                "type" : ""
+              },
+              {
+                "id" : "1356072749827",
+                "color" : "Gravel",
+                "img" : "/37/455/Thumb_2,2.png",
+                "type" : ""
+              },
+              {
+                "id" : "1356072749926",
+                "color" : "Honey Bee",
+                "img" : "/934/332/Thumb_3,5.png",
+                "type" : ""
+              },
+              {
+                "id" : "1356072750028",
+                "color" : "Zest",
+                "img" : "/807/210/Thumb_4,2.png",
+                "type" : ""
+              },
+              {
+                "id" : "1356072750133",
+                "color" : "Blossom",
+                "img" : "/680/88/Thumb_5,2.png",
+                "type" : ""
+              },
+              {
+                "id" : "1356072750241",
+                "color" : "Paprika",
+                "img" : "/553/990/Thumb_6,2.png",
+                "type" : ""
+              },
+              {
+                "id" : "1356072750352",
+                "color" : "Lime",
+                "img" : "/426/868/Thumb_7,2.png",
+                "type" : ""
+              },
+              {
+                "id" : "1356072750466",
+                "color" : "Leaf",
+                "img" : "/299/746/Thumb_8,2.png",
+                "type" : ""
+              },
+              {
+                "id" : "1356072750583",
+                "color" : "Tropical",
+                "img" : "/172/624/Thumb_9,2.png",
+                "type" : ""
+              },
+              {
+                "id" : "1356072750703",
+                "color" : "Ocean",
+                "img" : "/914/536/Thumb_10,2.png",
+                "type" : ""
+              },
+              {
+                "id" : "1356072750826",
+                "color" : "Horizon",
+                "img" : "/787/414/Thumb_11,2.png",
+                "type" : ""
+              },
+              {
+                "id" : "1356072750953",
+                "color" : "Mineral",
+                "img" : "/660/292/Thumb_12,2.png",
+                "type" : ""
+              },
+              {
+                "id" : "1356072752761",
+                "color" : "Moon Light",
+                "img" : "/533/170/Thumb_13,2.png",
+                "type" : ""
+              },
+              {
+                "id" : "1356072753037",
+                "color" : "Granite",
+                "img" : "/406/48/Thumb_14,2.png",
+                "type" : ""
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        }
+      ],
+      "title" : "Rockwell Unscripted Easy Stool",
+      "thumb-img" : "/552/885/rockwell-unscripted-easy-stool,0.jpg",
+      "hero1-img" : "/425/763/rockwell-unscripted-easy-stool,0.jpg",
+      "workCats" : [],
+      "name" : "ES Rockwell Unscripted Easy Stool",
+      "powerCats" : [],
+      "product-id" : "rockwell-unscripted-easy-stools"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "short-text" : "<p>Unscripted steps are building blocks that bring an improvisational, communal experience to spaces where people can be &ldquo;alone together&rdquo; or &ldquo;together together,&rdquo; and create natural, open transitions from one experience to the next. Simple, cubic forms plan together in myriad ways, bringing a sense of theater and play to the workplace.</p>",
+      "storageCats" : [],
+      "screensCats" : [],
+      "epp-id" : "1356386118311",
+      "seatingCats" : [
+        "Lounge"
+      ],
+      "apprvId" : "RW-02",
+      "tableCats" : [],
+      "availFinMods" : [
+        {
+          "id" : "1356408645852",
+          "title" : "Options",
+          "std" : {
+            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Upholstery:</span><span class=\"essop-option\">Nomad,&nbsp;Approved Fabric (not available for all peices)</span></p>\r\n\r\n<p><span class=\"essop-title\">Power Cutouts:</span><span class=\"essop-option\">Available on Select Pieces</span></p>\r\n<p><span class=\"essop-title\">Optional Seat Pad:</span><span class=\"essop-option\">KnollTextiles Crossroad (in colors below)</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>One Step</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>Corner</td>\r\n\t\t\t<td>20&quot;</td>\r\n\t\t\t<td>20&quot;</td>\r\n\t\t\t<td>16&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>Short*</td>\r\n\t\t\t<td>30&quot;</td>\r\n\t\t\t<td>20&quot;</td>\r\n\t\t\t<td>16&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>Long*</td>\r\n\t\t\t<td>60&quot;</td>\r\n\t\t\t<td>20&quot;</td>\r\n\t\t\t<td>16&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Two Step</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>Short*</td>\r\n\t\t\t<td>30&quot;</td>\r\n\t\t\t<td>40&quot;</td>\r\n\t\t\t<td>31&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>Long*</td>\r\n\t\t\t<td>60&quot;</td>\r\n\t\t\t<td>40&quot;</td>\r\n\t\t\t<td>31&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>Inside Corner</td>\r\n\t\t\t<td>40&quot;</td>\r\n\t\t\t<td>40&quot;</td>\r\n\t\t\t<td>31&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>Outside Corner</td>\r\n\t\t\t<td>40&quot;</td>\r\n\t\t\t<td>40&quot;</td>\r\n\t\t\t<td>31&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Chaise*</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>20&quot;</td>\r\n\t\t\t<td>40&quot;</td>\r\n\t\t\t<td>31&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>*Available Covered</p>\r\n</div>\r\n</div>\r\n",
+            "fins" : []
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        },
+        {
+          "id" : "1356072753368",
+          "title" : "Plywood",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1356038626102",
+                "color" : "Birch Plywood (9-ply)",
+                "img" : "/843/873/Thumb_birch-plywood,2.png",
+                "type" : "Veneer"
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1356038626102",
+                "color" : "Birch Plywood (9-ply)",
+                "img" : "/843/873/Thumb_birch-plywood,2.png",
+                "type" : "Veneer"
+              }
+            ]
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        },
+        {
+          "id" : "1355995898279",
+          "title" : "Nomad (For Steps)",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1356214919347",
+                "color" : "Graphite",
+                "img" : "/353/222/Thumb_graphite-nomad,0.png",
+                "type" : "Textiles"
+              },
+              {
+                "id" : "1355995898124",
+                "color" : "Lima",
+                "img" : "/427/842/Thumb_nomad-lima,0.png",
+                "type" : "Textiles"
+              },
+              {
+                "id" : "1355995897971",
+                "color" : "Sand",
+                "img" : "/284/222/Thumb_nomad-sand,0.png",
+                "type" : "Textiles"
+              },
+              {
+                "id" : "1356214919230",
+                "color" : "Natural",
+                "img" : "/190/497/Thumb_natural-nomad,0.png",
+                "type" : "Textiles"
+              },
+              {
+                "id" : "1355995896299",
+                "color" : "Red",
+                "img" : "/621/251/Thumb_nomad-red,2.png",
+                "type" : "Textiles"
+              },
+              {
+                "id" : "1356214917305",
+                "color" : "Aegean",
+                "img" : "/577/861/Thumb_agean-nomad,0.png",
+                "type" : "Textiles"
+              },
+              {
+                "id" : "1356214915383",
+                "color" : "Indigo",
+                "img" : "/39/459/Thumb_indigo-nomad,0.png",
+                "type" : "Textiles"
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        },
+        {
+          "id" : "1356072747660",
+          "title" : "Loose Seat Pads",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1356072747951",
+                "color" : "Pearl",
+                "img" : "/365/509/Thumb_1,2.png",
+                "type" : ""
+              },
+              {
+                "id" : "1356072749827",
+                "color" : "Gravel",
+                "img" : "/37/455/Thumb_2,2.png",
+                "type" : ""
+              },
+              {
+                "id" : "1356072749926",
+                "color" : "Honey Bee",
+                "img" : "/934/332/Thumb_3,5.png",
+                "type" : ""
+              },
+              {
+                "id" : "1356072750028",
+                "color" : "Zest",
+                "img" : "/807/210/Thumb_4,2.png",
+                "type" : ""
+              },
+              {
+                "id" : "1356072750133",
+                "color" : "Blossom",
+                "img" : "/680/88/Thumb_5,2.png",
+                "type" : ""
+              },
+              {
+                "id" : "1356072750241",
+                "color" : "Paprika",
+                "img" : "/553/990/Thumb_6,2.png",
+                "type" : ""
+              },
+              {
+                "id" : "1356072750352",
+                "color" : "Lime",
+                "img" : "/426/868/Thumb_7,2.png",
+                "type" : ""
+              },
+              {
+                "id" : "1356072750466",
+                "color" : "Leaf",
+                "img" : "/299/746/Thumb_8,2.png",
+                "type" : ""
+              },
+              {
+                "id" : "1356072750583",
+                "color" : "Tropical",
+                "img" : "/172/624/Thumb_9,2.png",
+                "type" : ""
+              },
+              {
+                "id" : "1356072750703",
+                "color" : "Ocean",
+                "img" : "/914/536/Thumb_10,2.png",
+                "type" : ""
+              },
+              {
+                "id" : "1356072750826",
+                "color" : "Horizon",
+                "img" : "/787/414/Thumb_11,2.png",
+                "type" : ""
+              },
+              {
+                "id" : "1356072750953",
+                "color" : "Mineral",
+                "img" : "/660/292/Thumb_12,2.png",
+                "type" : ""
+              },
+              {
+                "id" : "1356072752761",
+                "color" : "Moon Light",
+                "img" : "/533/170/Thumb_13,2.png",
+                "type" : ""
+              },
+              {
+                "id" : "1356072753037",
+                "color" : "Granite",
+                "img" : "/406/48/Thumb_14,2.png",
+                "type" : ""
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        }
+      ],
+      "title" : "Rockwell Unscripted Steps",
+      "thumb-img" : "/874/780/rockwell-unscripted-steps,1.jpg",
+      "hero1-img" : "/302/261/rockwell-unscripted-steps,0.jpg",
+      "workCats" : [],
+      "name" : "ES Rockwell Unscripted Steps",
+      "powerCats" : [],
+      "product-id" : "rockwell-unscripted-steps"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "short-text" : "<p>Featured in nearly all Florence Knoll-designed interiors, the Saarinen Executive Chair remains one of the most popular Knoll designs. Introduced in 1950, the chair transformed the notion of what executive seating could be with its sculptural form and modern finishing.</p>",
+      "storageCats" : [],
+      "screensCats" : [],
+      "epp-id" : "1356385713805",
+      "seatingCats" : [
+        "Side and Multi-Use"
+      ],
+      "apprvId" : "SIDE-13",
+      "tableCats" : [],
+      "availFinMods" : [
+        {
+          "id" : "1356408658765",
+          "title" : "Options",
+          "std" : {
+            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Seat &amp; Back:</span><span class=\"essop-option\">Approved Fabric and Leather (split upholstery available)</span></p>\r\n\r\n<p><span class=\"essop-title\">Legs:</span><span class=\"essop-option\">Wood, Tubular</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
+            "fins" : []
+          },
+          "three-week" : {
+            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Seat &amp; Back:</span><span class=\"essop-option\">Approved Fabric and Leather (will match)</span></p>\r\n\r\n<p><span class=\"essop-title\">Legs:</span><span class=\"essop-option\">Wood, Tubular</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title\">Quantity Limit:&nbsp;</span><span class=\"essop-option red\">4</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "<div>\r\n<div>&nbsp;</div>\r\n</div>\r\n",
+            "fins" : []
+          }
+        },
+        {
+          "id" : "1356390241308",
+          "title" : "Wood Legs",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1347383001930",
+                "color" : "Light Oak",
+                "img" : "/309/289/VENLO,0.png",
+                "type" : "Veneer"
+              },
+              {
+                "id" : "1352941942840",
+                "color" : "Pearwood",
+                "img" : "/323/887/Thumb_P,0.png",
+                "type" : "Veneer"
+              },
+              {
+                "id" : "1347383002078",
+                "color" : "Light Walnut ",
+                "img" : "/289/52/Thumb_WODLWA,0.png",
+                "type" : "Veneer"
+              },
+              {
+                "id" : "1347383004210",
+                "color" : "Reff Dark Cherry ",
+                "img" : "/867/295/Thumb_WODV314,0.png",
+                "type" : "Veneer"
+              },
+              {
+                "id" : "1347383010370",
+                "color" : "Ebonized Walnut Veneer",
+                "img" : "/356/142/Thumb_VEND,0.png",
+                "type" : "Veneer"
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        },
+        {
+          "id" : "1356045393376",
+          "title" : "Tubular Legs",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1352996254622",
+                "color" : "Chrome, Polished",
+                "img" : "/666/580/Thumb_c,0.png",
+                "type" : "Metal"
+              },
+              {
+                "id" : "1352941971580",
+                "color" : "Black  ",
+                "img" : "/467/969/Thumb_PNTBL,2.png",
+                "type" : "Paint"
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1352996254622",
+                "color" : "Chrome, Polished",
+                "img" : "/666/580/Thumb_c,0.png",
+                "type" : "Metal"
+              }
+            ]
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        }
+      ],
+      "title" : "Saarinen Executive Armless",
+      "thumb-img" : "/823/690/saarinen-executive-armless-chair.jpg",
+      "hero1-img" : "/696/568/saarinen-executive-armless-chair.jpg",
+      "workCats" : [],
+      "name" : "ES Saarinen Executive Armless",
+      "powerCats" : [],
+      "product-id" : "saarinen-executive-armless-chair"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "short-text" : "<p>Pilot is an innovative swivel lounge chair that marries visual and material lightness with exceptional comfort. The cantilevered seat, which features a unique upholstery substructure for greater flexibility, appears to float in the air, giving the chair a refined silhouette and an essential, timeless appeal.</p>",
+      "storageCats" : [],
+      "screensCats" : [],
+      "epp-id" : "1356409107073",
+      "seatingCats" : [
+        "Lounge"
+      ],
+      "apprvId" : "LOUNGE-02",
+      "tableCats" : [],
+      "availFinMods" : [
+        {
+          "id" : "1356409095698",
+          "title" : "Options",
+          "std" : {
+            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Arms:</span><span class=\"essop-option\">Upholstered Arms, Loop Arms, Armless</span></p>\r\n\r\n<p><span class=\"essop-title\">Upholstery:</span><span class=\"essop-option\">Approved Textiles and Leathers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base and Loop Arm Finish:</span><span class=\"essop-option\">Painted, Aluminum</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
+            "fins" : []
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        },
+        {
+          "id" : "1355998551622",
+          "title" : "Base",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1353006124859",
+                "color" : "Aluminum, Polished",
+                "img" : "/634/226/Thumb_polished-aluminum,0.png",
+                "type" : "Metal"
+              },
+              {
+                "id" : "1355998554834",
+                "color" : "Dark Grey",
+                "img" : "/201/520/Thumb_dark-grey,0.png",
+                "type" : "Paint"
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1355998554834",
+                "color" : "Dark Grey",
+                "img" : "/201/520/Thumb_dark-grey,0.png",
+                "type" : "Paint"
+              }
+            ]
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        }
+      ],
+      "title" : "Pilot by Knoll - High Back",
+      "thumb-img" : "/582/416/pilot-low-back_thumb,0.jpg",
+      "hero1-img" : "/702/522/pilot-low-back_hero,0.jpg",
+      "workCats" : [],
+      "name" : "ES Pilot by Knoll - High Back",
+      "powerCats" : [],
+      "product-id" : "pilot-by-knoll-high-back"
     },
     {
       "lead-times" : [
@@ -93073,7 +93969,14 @@
           },
           "three-week" : {
             "optsTxt" : "",
-            "fins" : []
+            "fins" : [
+              {
+                "id" : "1352996254622",
+                "color" : "Chrome, Polished",
+                "img" : "/666/580/Thumb_c,0.png",
+                "type" : "Metal"
+              }
+            ]
           },
           "quick" : {
             "optsTxt" : "",
@@ -97412,15 +98315,15 @@
           "id" : "1356407693833",
           "title" : "Options",
           "std" : {
-            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell:</span><span class=\"essop-option\">Plastic</span></p>\r\n\r\n<p><span class=\"essop-title\">Seat Pad:</span><span class=\"essop-option\">No Seat Pad, Generation Fabric, Approved Fabric and Leather</span></p>\r\n\r\n<p><span class=\"essop-title\">Arms:</span><span class=\"essop-option\">Fixed, Armless </span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Frame:</span><span class=\"essop-option\">Painted, Chrome </span></p>\r\n\r\n<p><span class=\"essop-title\">Casters:</span><span class=\"essop-option\">Hard, Soft, Glides</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
+            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell:</span><span class=\"essop-option\">Plastic</span></p>\r\n\r\n<p><span class=\"essop-title\">Optional Seat Pad:</span><span class=\"essop-option\">Generation Fabric, Approved Fabric and Leather</span></p>\r\n\r\n<p><span class=\"essop-title\">Arms:</span><span class=\"essop-option\">Fixed, Armless </span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Frame:</span><span class=\"essop-option\">Painted, Chrome </span></p>\r\n\r\n<p><span class=\"essop-title\">Casters:</span><span class=\"essop-option\">Hard, Soft, Glides</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
             "fins" : []
           },
           "three-week" : {
-            "optsTxt" : "\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell:</span><span class=\"essop-option\">Plastic</span></p>\r\n\r\n<p><span class=\"essop-title\">Seat Pad:</span><span class=\"essop-option\">No Seat Pad, Generation Fabric, Approved Fabric and Leather</span></p>\r\n\r\n<p><span class=\"essop-title\">Arms:</span><span class=\"essop-option\">Fixed, Armless </span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Frame:</span><span class=\"essop-option\">Painted, Chrome </span></p>\r\n\r\n<p><span class=\"essop-title\">Casters:</span><span class=\"essop-option\">Hard, Soft, Glides</span></p>\r\n</div>\r\n</div>\r\n</div>",
+            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell:</span><span class=\"essop-option\">Plastic</span></p>\r\n\r\n<p><span class=\"essop-title\">Optional Seat Pad:</span><span class=\"essop-option\">Generation Fabric, Approved Fabric and Leather</span></p>\r\n\r\n<p><span class=\"essop-title\">Arms:</span><span class=\"essop-option\">Fixed, Armless </span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Frame:</span><span class=\"essop-option\">Painted, Chrome </span></p>\r\n\r\n<p><span class=\"essop-title\">Casters:</span><span class=\"essop-option\">Hard, Soft, Glides</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
             "fins" : []
           },
           "quick" : {
-            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell:</span><span class=\"essop-option\">Plastic</span></p>\r\n\r\n<p><span class=\"essop-title\">Seat Pad:</span><span class=\"essop-option\">No Seat Pad, Generation Fabric</span></p>\r\n\r\n<p><span class=\"essop-title\">Arms:</span><span class=\"essop-option\">Fixed, Armless </span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Frame:</span><span class=\"essop-option\">Painted</span></p>\r\n\r\n<p><span class=\"essop-title\">Casters:</span><span class=\"essop-option\">Hard,&nbsp;Glides</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
+            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell:</span><span class=\"essop-option\">Plastic</span></p>\r\n\r\n<p><span class=\"essop-title\">Optional Seat Pad:</span><span class=\"essop-option\">Generation Fabric</span></p>\r\n\r\n<p><span class=\"essop-title\">Arms:</span><span class=\"essop-option\">Fixed, Armless </span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Frame:</span><span class=\"essop-option\">Painted</span></p>\r\n\r\n<p><span class=\"essop-title\">Casters:</span><span class=\"essop-option\">Hard,&nbsp;Glides</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
             "fins" : []
           }
         },
@@ -97991,6 +98894,137 @@
       "name" : "ES Ricchio Chair",
       "powerCats" : [],
       "product-id" : "ricchio-chair"
+    },
+    {
+      "lead-times" : [
+        "std",
+        "three-week"
+      ],
+      "short-text" : "<p>The Spark Series Lounge chair brings energy to every space with its bright colors and unique personality. A perfect balance of design and utility, the chairs are pleasing to the eye, comfortable and versatile.</p>",
+      "storageCats" : [],
+      "screensCats" : [],
+      "epp-id" : "1356386161979",
+      "seatingCats" : [
+        "Lounge",
+        "Outdoor"
+      ],
+      "apprvId" : "SIDE-14",
+      "tableCats" : [],
+      "availFinMods" : [
+        {
+          "id" : "1356408667263",
+          "title" : "Options",
+          "std" : {
+            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Optional Seat Pad:</span><span class=\"essop-option\">Approved Textiles</span></p>\r\n\r\n<p><span class=\"essop-title\">Accessories:</span><span class=\"essop-option\">Ganging Mechanism, Stacking Dolly</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
+            "fins" : []
+          },
+          "three-week" : {
+            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Optional Seat Pad:</span><span class=\"essop-option\">Not Available</span></p>\r\n\r\n<p><span class=\"essop-title\">Accessories:</span><span class=\"essop-option\">Ganging Mechanism</span></p>\r\n</div>\r\n<div class=\"left\">\r\n<p><span class=\"essop-title\">Quantity Limit:&nbsp;</span><span class=\"essop-option red\">25</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        },
+        {
+          "id" : "1352996272365",
+          "title" : "Frame Color",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1347382989190",
+                "color" : "Red",
+                "img" : "/881/504/Thumb_Spark01,0.png",
+                "type" : "Plastic"
+              },
+              {
+                "id" : "1347382989270",
+                "color" : "Blue",
+                "img" : "/754/382/Thumb_Spark02,0.png",
+                "type" : "Plastic"
+              },
+              {
+                "id" : "1347382989306",
+                "color" : "Citron",
+                "img" : "/627/260/Thumb_Spark03,0.png",
+                "type" : "Plastic"
+              },
+              {
+                "id" : "1347382989365",
+                "color" : "Light Grey",
+                "img" : "/500/138/Thumb_Spark04,0.png",
+                "type" : "Plastic"
+              },
+              {
+                "id" : "1347382989426",
+                "color" : "Dark Grey",
+                "img" : "/373/16/Thumb_Spark05,2.png",
+                "type" : "Plastic"
+              },
+              {
+                "id" : "1347382989462",
+                "color" : "Recycled Black",
+                "img" : "/246/918/Thumb_Spark06,0.png",
+                "type" : "Plastic"
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1347382989190",
+                "color" : "Red",
+                "img" : "/881/504/Thumb_Spark01,0.png",
+                "type" : "Plastic"
+              },
+              {
+                "id" : "1347382989270",
+                "color" : "Blue",
+                "img" : "/754/382/Thumb_Spark02,0.png",
+                "type" : "Plastic"
+              },
+              {
+                "id" : "1347382989306",
+                "color" : "Citron",
+                "img" : "/627/260/Thumb_Spark03,0.png",
+                "type" : "Plastic"
+              },
+              {
+                "id" : "1347382989365",
+                "color" : "Light Grey",
+                "img" : "/500/138/Thumb_Spark04,0.png",
+                "type" : "Plastic"
+              },
+              {
+                "id" : "1347382989426",
+                "color" : "Dark Grey",
+                "img" : "/373/16/Thumb_Spark05,2.png",
+                "type" : "Plastic"
+              },
+              {
+                "id" : "1347382989462",
+                "color" : "Recycled Black",
+                "img" : "/246/918/Thumb_Spark06,0.png",
+                "type" : "Plastic"
+              }
+            ]
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        }
+      ],
+      "title" : "Spark Series Lounge Chair",
+      "thumb-img" : "/478/68/spark-lounge-chair.jpg",
+      "hero1-img" : "/351/970/spark-lounge-chair.jpg",
+      "workCats" : [],
+      "name" : "ES Spark Series Lounge Chair",
+      "powerCats" : [],
+      "product-id" : "spark-series-lounge-chair"
     },
     {
       "lead-times" : [
@@ -99559,29 +100593,6 @@
       "name" : "ES Reff Profiles Sliding Tables",
       "powerCats" : [],
       "product-id" : "reff-profiles-sliding-tables"
-    },
-    {
-      "lead-times" : [
-        "std",
-        "three-week"
-      ],
-      "short-text" : "<p>This is a test for &quot;The Duke of URL&quot;</p>",
-      "storageCats" : [],
-      "screensCats" : [],
-      "epp-id" : "1356385703833",
-      "seatingCats" : [
-        "Side and Multi-Use"
-      ],
-      "apprvId" : "",
-      "tableCats" : [],
-      "availFinMods" : [],
-      "title" : "Rockwell Unscripted Easy Stool",
-      "thumb-img" : "/679/1007/rockwell-unscripted-easy-stool.jpg",
-      "hero1-img" : "/803/377/rockwell-unscripted-easy-stool.jpg",
-      "workCats" : [],
-      "name" : "ES Rockwell Unscripted Easy Stool",
-      "powerCats" : [],
-      "product-id" : "rockwell-unscripted-easy-stools"
     },
     {
       "lead-times" : [
