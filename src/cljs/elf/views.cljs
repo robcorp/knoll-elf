@@ -34,7 +34,7 @@
 
 (defn- essential-product-summary [label {:keys [epp-id title product-name lead-times thumb-img]}]
   (let [lead-times-set (set lead-times)]
-    [:li
+    [:li {:id epp-id}
      [:a.popup-modal {:href "#essentials-modal"
                       :on-click #(evt> [::events/product-selected label epp-id])}
       [:div.product-col-image
@@ -146,9 +146,45 @@
      [:div.mobile-visible
       [:a.apply_btn.accordian_btn {:on-click close-filter-slideout} " < APPLY AND RETURN"]]]))
 
+(defn- search-box []
+  (let [search-box-id (str (gensym "search-box-"))
+        make-autocomplete
+        (fn []
+          (let [src (->> (<sub [::subs/visible-filtered-products])
+                         (map (fn [p] {:label (:title p) :id (:epp-id p)}))
+                         (into #{})
+                         (sort-by :label))]
+
+            (.autocomplete (js/$ (str "input#" search-box-id))
+                           (clj->js {:source src
+                                     :autoFocus true
+                                     :select (fn [evt ui]
+                                               (.val (js/$ (str "input#" search-box-id)) "")
+                                               (let [label (.. ui -item -label)
+                                                     id (.. ui -item -id)]
+                                                 (.. js/document
+                                                     (getElementById id)
+                                                     scrollIntoView))
+                                               false)}))))]
+
+    (reagent/create-class
+     {:display-name "search-box"
+
+      :reagent-render
+      (fn []
+        (let [prods (<sub [::subs/visible-filtered-products])]
+          [:div.ui-widget.search-box
+           [:label {:for search-box-id} "Find Product: "]
+           [:input {:id search-box-id}]]))
+
+      :component-did-mount make-autocomplete
+
+      :component-did-update make-autocomplete})))
+
 (defn- filters-view []
   [:div.left-filter-col.researchPage
    [:div.select-wrap
+    [search-box]
     [lead-time-filters]
     [product-type-filters]]])
 

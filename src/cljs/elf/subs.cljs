@@ -50,6 +50,19 @@
    (:filtered-screen-products db)))
 
 (reg-sub
+ ::visible-filtered-products
+ (fn [_]
+   [(re-frame/subscribe [::filtered-seating-products])
+    (re-frame/subscribe [::filtered-table-products])
+    (re-frame/subscribe [::filtered-storage-products])
+    (re-frame/subscribe [::filtered-power-products])
+    (re-frame/subscribe [::filtered-work-products])
+    (re-frame/subscribe [::filtered-screen-products])])
+
+ (fn [all-visible-prods]
+   (select [ALL ALL :products ALL] all-visible-prods)))
+
+(reg-sub
  ::textiles-info
  (fn [db]
    (:textiles-info db)))
