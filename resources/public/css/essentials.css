@@ -202,6 +202,8 @@
 .product-list>li {
     float: left;
     width: 25%;
+	padding-top: 120px;
+	margin-top: -120px;
     margin-bottom: 95px;
 }
 

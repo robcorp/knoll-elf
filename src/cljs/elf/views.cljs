@@ -170,12 +170,11 @@
     (reagent/create-class
      {:display-name "search-box"
 
-      :reagent-render
-      (fn []
-        (let [prods (<sub [::subs/visible-filtered-products])]
-          [:div.ui-widget.search-box
-           [:label {:for search-box-id} "Find Product: "]
-           [:input {:id search-box-id}]]))
+      :reagent-render (fn []
+                        (let [prods (<sub [::subs/visible-filtered-products])]
+                          [:div.ui-widget.search-box
+                           [:label {:for search-box-id} "Find Product: "]
+                           [:input {:id search-box-id}]]))
 
       :component-did-mount make-autocomplete
 
@@ -231,11 +230,7 @@
            (map filtered-product-type-section filtered-storage-prods)
            (map filtered-product-type-section filtered-power-prods)
            (map filtered-product-type-section filtered-work-prods)
-           (map filtered-product-type-section filtered-screen-prods)
-           #_[:div {:class "hidden"}
-            (for [img all-swatches]
-              ^{:key img}
-              [:img {:src (str config/media-url-base img)}])]]))]]))
+           (map filtered-product-type-section filtered-screen-prods)]))]]))
 
 
 (defn- finish-types-pill-clicked [evt]
