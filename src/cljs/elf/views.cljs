@@ -369,7 +369,7 @@
     
     (when (> (count fabs) 0)
       [:div.upholstery-list-wrap
-       [:h4 "Fabrics"]
+       [:h4 "Approved Fabrics"]
        [:div.tab-main
         [:label "Grade:"]
         [:ul.upholstery-types-list
