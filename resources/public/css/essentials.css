@@ -752,7 +752,7 @@ ul.upholstery-types-list {
     box-sizing: border-box;
 }
 
-.swatch-div:after {
+.has-sub-tab .swatch-div:after {
     content: '';
     position: absolute;
     width: calc(100% - 4px);
@@ -907,7 +907,7 @@ ul.upholstery-types-list {
     display: none;
 }
 
-li.selected.has-sub-tab {
+li.has-sub-tab {
     cursor: pointer;
 }
 
