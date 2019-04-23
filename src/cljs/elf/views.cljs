@@ -377,7 +377,6 @@
        [:div.upholstery-tab-wrap
         (map-indexed create-fabric-grade-tab (sort fabs))]
        [:div.sub-tab-wrap
-        #_(map #(create-fabric-grade-sub-tab lead-time %) (sort fabs))
         (for [fab (sort fabs)]
             (create-fabric-grade-sub-tab lead-time fab))]])))
 
@@ -503,7 +502,7 @@
         ^{:key (str epp-id "-" "std")}
         [:li {:id (str epp-id "-" "std")
               :data-tab "std"
-              :class (if (= @first-tab "std") "selected") #_(if (= 1 lead-times-count) "selected")
+              :class (if (= @first-tab "std") "selected")
               :style {:width tab-width}
               :on-click lead-time-tab-clicked}
          [:span.tab-color.standard-ship-active]
