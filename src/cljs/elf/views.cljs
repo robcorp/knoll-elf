@@ -5,7 +5,7 @@
    [elf.config :as config]
    [elf.events :as events]
    [elf.subs :as subs]
-   [com.rpl.specter :refer [ALL collect-one multi-path walker] :refer-macros [select select-first] :as spctr]
+   [com.rpl.specter :refer [ALL collect-one] :refer-macros [select select-first] :as spctr]
    [clojure.string :as str]))
 
 (def <sub (comp deref re-frame/subscribe)) ; permits using (<sub [::subs/name]) rather than @(subscribe [::subs/name])
