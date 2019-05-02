@@ -168,39 +168,61 @@
        (clear-all-product-filters)
        (filter-category-products (:filtered-products db)))))
 
+(defn- popupheight []
+  (let [windowheight (.-innerHeight js/window)
+        popupheight (.innerHeight (js/$ ".essentials-modal-wrap"))
+        popupimgheight (.innerHeight (js/$ ".essentials-product-img-wrap"))
+        topproimgheight (.innerHeight (js/$ ".essentials-product-img"))
+        contentheight (+ popupimgheight (- popupheight topproimgheight))]
+    
+    #_(println "windowheight: " windowheight)
+    #_(println "popupheight: " popupheight)
+    #_(println "popupimgheight: " popupimgheight)
+    #_(println "topproimgheight: " topproimgheight)
+    #_(println "contentheight: " contentheight)
+    (if (> topproimgheight windowheight)
+      (println "topproimgheight is greater than windowheight"))))
+
+(defn- setup-popup []
+  #_(println "opening popup")
+  (.. js/$ -magnificPopup
+      (open (clj->js {:type "inline"
+                      :midClick true
+                      :showCloseBtn false
+                      :items {:src "#essentials-modal"}
+                      :callbacks {:open popupheight}})))
+
+  ;; create the carousel (mainly for styling and rendering the
+  ;; navigation arrows, since we don't actually scroll left or
+  ;; right for next / previous
+  #_(println "creating owl carousel")
+  (.. (js/$ ".owl-popup-div")
+      (owlCarousel (clj->js {:items 1
+                             :responsiveClass true
+                             :margin 0
+                             :dots false
+                             :nav true
+                             :loop false
+                             :autoHeight true
+                             :touchDrag true
+                             :mouseDrag true})))
+
+  ;; set up click events for next / previous navigation arrows
+  #_(println "setting click function on next/prev buttons")
+  (.. (js/$ ".owl-next")
+      (unbind "click")
+      (click #(re-frame/dispatch [::select-next-product])))
+
+  (.. (js/$ ".owl-prev")
+      (unbind "click")
+      (click #(re-frame/dispatch [::select-previous-product]))))
+
 (reg-event-db
  ::product-selected
  (fn-traced [db [_ label epp-id] event]
             ;; show the popup
-            (if-not config/debug?
-              (.. js/$ -magnificPopup
-                  (open (clj->js {:type "inline"
-                                  :midClick true
-                                  :showCloseBtn false
-                                  :items {:src "#essentials-modal"}}))))
-
-            ;; create the carousel (mainly for styling and rendering the
-            ;; navigation arrows, since we don't actually scroll left or
-            ;; right for next / previous
-            (.. (js/$ ".owl-popup-div")
-                (owlCarousel (clj->js {:items 1
-                                       :responsiveClass true
-                                       :margin 0
-                                       :dots false
-                                       :nav true
-                                       :loop false
-                                       :autoHeight true
-                                       :touchDrag true
-                                       :mouseDrag true})))
-
-            ;; set up click events for next / previous navigation arrows
-            (.. (js/$ ".owl-next")
-                (unbind "click")
-                (click #(re-frame/dispatch [::select-next-product])))
-
-            (.. (js/$ ".owl-prev")
-                (unbind "click")
-                (click #(re-frame/dispatch [::select-previous-product])))
+            (if-not false #_config/debug?
+                    (.setTimeout js/window setup-popup 100))
 
             ;; update the :selected-epp-id in the app db with the selected product's
             ;; label and epp-id
