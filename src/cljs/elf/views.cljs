@@ -538,19 +538,23 @@
     (reagent/create-class
      {:display-name "clipboard-button"
       :component-did-mount #(let [clipboard (new js/ClipboardJS (reagent/dom-node %))]
-                              (reset! clipboard-atom clipboard))
+                              (reset! clipboard-atom clipboard)
+                              (.on clipboard "success" (fn [e]
+                                                         (.show (js/$ "#copied-msg"))
+                                                         (.setTimeout js/window (fn [] (.hide (js/$ "#copied-msg"))) 1000))))
       :component-did-update setup
       :component-will-unmount #(when-not (nil? @clipboard-atom)
                                  (.destroy @clipboard-atom)
                                  (reset! clipboard-atom nil))
       :reagent-render (fn []
                         [:li.clipboard {:data-clipboard-target target}
-                         [:a {:href "javascript:;"} label]])})))
+                         [:a {:href "javascript:;"} label [:span#copied-msg {:style {:display "none"
+                                                                                     :font-size "75%"}} " (copied to clipboard)"]]])})))
 
 (defn- modal-popup []
   (let [selected-prod (<sub [::subs/selected-product])
         lead-times-set (set (:lead-times selected-prod))]
-    [:div#essentials-modal {:class ["white-popup-block" (if-not false #_config/debug? "mfp-hide")]}
+    [:div#essentials-modal {:class ["white-popup-block" (if-not config/debug? "mfp-hide")]}
      [:div.essentials-modal-wrap
       [:div.header-popup-view
        [:div.popup-action-list-wrap
