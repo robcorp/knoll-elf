@@ -184,18 +184,18 @@
       (println "topproimgheight is greater than windowheight"))))
 
 (defn- setup-popup []
-  #_(println "opening popup")
   (.. js/$ -magnificPopup
       (open (clj->js {:type "inline"
                       :midClick true
                       :showCloseBtn false
                       :items {:src "#essentials-modal"}
-                      :callbacks {:open popupheight}})))
+                      :callbacks {:open popupheight
+                                  :close #(.pushState js/history nil nil (.-pathname js/location))}}))))
 
+(defn- setup-owl-carousel []
   ;; create the carousel (mainly for styling and rendering the
   ;; navigation arrows, since we don't actually scroll left or
   ;; right for next / previous
-  #_(println "creating owl carousel")
   (.. (js/$ ".owl-popup-div")
       (owlCarousel (clj->js {:items 1
                              :responsiveClass true
@@ -208,7 +208,6 @@
                              :mouseDrag true})))
 
   ;; set up click events for next / previous navigation arrows
-  #_(println "setting click function on next/prev buttons")
   (.. (js/$ ".owl-next")
       (unbind "click")
       (click #(re-frame/dispatch [::select-next-product])))
@@ -221,8 +220,15 @@
  ::product-selected
  (fn-traced [db [_ label epp-id] event]
             ;; show the popup
-            (if-not false #_config/debug?
-                    (.setTimeout js/window setup-popup 100))
+            (if-not config/debug?
+              (.setTimeout js/window setup-popup 50))
+
+            (setup-owl-carousel)
+
+            
+            ;; change the URL to include the pop param
+            (.pushState js/history nil nil (str (.-pathname js/location) "?pop=" epp-id))
+
 
             ;; update the :selected-epp-id in the app db with the selected product's
             ;; label and epp-id
@@ -296,13 +302,23 @@
 (reg-event-db
  ::select-previous-product
  (fn [db _]
-   (let [prev-prod (previous-visible-prod-id db)]
+   (let [prev-prod (previous-visible-prod-id db)
+         [_ epp-id] prev-prod]
+
+     ;; change the URL to include the pop param
+     (.pushState js/history nil nil (str (.-pathname js/location) "?pop=" epp-id))
+
      (assoc db :selected-epp-id prev-prod))))
 
 (reg-event-db
  ::select-next-product
  (fn [db _]
-   (let [next-prod (next-visible-prod-id db)]
+   (let [next-prod (next-visible-prod-id db)
+         [_ epp-id] next-prod]
+
+     ;; change the URL to include the pop param
+     (.pushState js/history nil nil (str (.-pathname js/location) "?pop=" epp-id))
+
      (assoc db :selected-epp-id next-prod))))
 
 
