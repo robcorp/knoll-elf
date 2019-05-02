@@ -6,7 +6,8 @@
    [elf.events :as events]
    [elf.subs :as subs]
    [com.rpl.specter :refer [ALL collect-one] :refer-macros [select select-first] :as spctr]
-   [clojure.string :as str]))
+   [clojure.string :as str]
+   [cljsjs.clipboard]))
 
 (def <sub (comp deref re-frame/subscribe)) ; permits using (<sub [::subs/name]) rather than @(subscribe [::subs/name])
 (def evt> re-frame/dispatch)
@@ -14,29 +15,36 @@
 (declare filters-view filtered-products-view modal-popup mouse-pos-comp)
 
 (defn main-panel []
-  (let [name (<sub [::subs/name])]
-    [:<> ; this allows sibling elements without needing to wrap in a separate [:div]
-     [modal-popup]
-     [:div.veil]
-     (when false #_config/debug?
-           [:section.body_container]
-           [:div
-            [:h1 name]
-            [:p "(built using the re-frame app framework.)"]
-            [mouse-pos-comp]
-            [:hr]])
-     [:section.wrapper.essentials
-      [:section#page
-       [:div.product-col.clearfix
-        [filters-view]
-        [filtered-products-view]]]]]))
+  (reagent/create-class
+   {:display-name "main-panel"
+    :component-did-mount #(let [parms (js/URLSearchParams. (.-search js/location))
+                                pop (.get parms "pop")]
+                            (when pop
+                              (.click (js/$ (str "li#" pop)))))
+    :reagent-render (fn []
+                      (let [name (<sub [::subs/name])]
+                        [:<> ; this allows sibling elements without needing to wrap in a separate [:div]
+                         [modal-popup]
+                         [:div.veil]
+                         (when false #_config/debug?
+                               [:section.body_container]
+                               [:div
+                                [:h1 name]
+                                [:p "(built using the re-frame app framework.)"]
+                                [mouse-pos-comp]
+                                [:hr]])
+                         [:section.wrapper.essentials
+                          [:section#page
+                           [:div.product-col.clearfix
+                            [filters-view]
+                            [filtered-products-view]]]]]))}))
 
 
 (defn- essential-product-summary [label {:keys [epp-id title product-name lead-times thumb-img]}]
   (let [lead-times-set (set lead-times)]
-    [:li {:id epp-id}
-     [:a.popup-modal {:href "#essentials-modal"
-                      :on-click #(evt> [::events/product-selected label epp-id])}
+    [:li {:id epp-id
+          :on-click #(evt> [::events/product-selected label epp-id])}
+     [:div.popup-modal {:style {:cursor "pointer"}}
       [:div.product-col-image
        [:img {:src (str config/media-url-base thumb-img) :data-no-retina ""}]]
       [:ul.lead-time-status
@@ -522,18 +530,38 @@
 
      [popup-tab-wrap selected-prod lead-times-set]]))
 
+(defn clipboard-button [label target]
+  (let [clipboard-atom (atom nil)
+        setup #(let [clipboard (new js/ClipboardJS (reagent/dom-node %))]
+                 (reset! clipboard-atom clipboard))]
+    
+    (reagent/create-class
+     {:display-name "clipboard-button"
+      :component-did-mount #(let [clipboard (new js/ClipboardJS (reagent/dom-node %))]
+                              (reset! clipboard-atom clipboard))
+      :component-did-update setup
+      :component-will-unmount #(when-not (nil? @clipboard-atom)
+                                 (.destroy @clipboard-atom)
+                                 (reset! clipboard-atom nil))
+      :reagent-render (fn []
+                        [:li.clipboard {:data-clipboard-target target}
+                         [:a {:href "javascript:;"} label]])})))
+
 (defn- modal-popup []
   (let [selected-prod (<sub [::subs/selected-product])
         lead-times-set (set (:lead-times selected-prod))]
-    [:div#essentials-modal {:class ["white-popup-block" (if-not config/debug? "mfp-hide")]}
+    [:div#essentials-modal {:class ["white-popup-block" (if-not false #_config/debug? "mfp-hide")]}
      [:div.essentials-modal-wrap
       [:div.header-popup-view
        [:div.popup-action-list-wrap
+        [:div#clipboard-target {:style {:position "absolute" :top "-1000px" :left "-1000px"}}
+         (let [loc (.-location js/window)] (str (.-origin loc) (.-pathname loc) "?pop=" (:epp-id selected-prod)))]
         [:ul.popup-action-list-view
          [:li [:span.pop-action-icon]
           [:ul.popup-action-list
            [:li [:a {:href (str "https://www.knoll.com/product/" (:product-id selected-prod) "?section=design") :target "_blank"} " Visit Full Product Page"]]
-           [:li [:a {:href "javascript:;"} "Share"]] [:li [:a {:href "javascript:;" :on-click #(.print js/window)} "PRINT"]]
+           [clipboard-button "Share" "#clipboard-target"]
+           [:li [:a {:href "javascript:;" :on-click #(.print js/window)} "PRINT"]]
            [:li [:a {:href "javascript:;"} "View essentials brochure"]]]]]]
        [:a.popup-modal-dismiss {:on-click #(->> js/$ .-magnificPopup .close)} "Dismiss"]]
 
