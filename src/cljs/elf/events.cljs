@@ -220,8 +220,8 @@
  ::product-selected
  (fn-traced [db [_ label epp-id] event]
             ;; show the popup
-            (if-not config/debug?
-              (.setTimeout js/window setup-popup 50))
+            (if-not false #_config/debug?
+                    (setup-popup))
 
             (setup-owl-carousel)
 

@@ -554,7 +554,7 @@
 (defn- modal-popup []
   (let [selected-prod (<sub [::subs/selected-product])
         lead-times-set (set (:lead-times selected-prod))]
-    [:div#essentials-modal {:class ["white-popup-block" (if-not config/debug? "mfp-hide")]}
+    [:div#essentials-modal {:class ["white-popup-block" (if-not false #_config/debug? "mfp-hide")]}
      [:div.essentials-modal-wrap
       [:div.header-popup-view
        [:div.popup-action-list-wrap
