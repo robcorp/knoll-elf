@@ -422,7 +422,9 @@
         [:div.finish-tab-wrap
          (map-indexed create-finish-types-tab avail-fin-mods)]])
 
-     (if (not= "quick" lead-time)
+     (if (or (= lead-time "std")
+             (and (= lead-time "three-week")
+                  (not= "Y" (:excl3wk selected-prod))))
        [approved-fabrics lead-time])]))
 
 (defn- lead-time-tab-clicked [evt]
