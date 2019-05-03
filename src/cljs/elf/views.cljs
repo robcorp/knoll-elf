@@ -20,7 +20,12 @@
     :component-did-mount #(let [parms (js/URLSearchParams. (.-search js/location))
                                 pop (.get parms "pop")]
                             (when pop
-                              (.click (js/$ (str "li#" pop)))))
+                              ;; wait a sufficient amount of time for the page's javascript
+                              ;; to finish loading and then "click" the selected product
+                              ;; to trigger the popup
+                              (.setTimeout js/window
+                                           (fn [] (.click (js/$ (str "li#" pop))))
+                                           1500)))
     :reagent-render (fn []
                       (let [name (<sub [::subs/name])]
                         [:<> ; this allows sibling elements without needing to wrap in a separate [:div]
