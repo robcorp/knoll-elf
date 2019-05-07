@@ -502,8 +502,8 @@
 
 .popup-tab-wrap {
     padding: 25px 0px 25px 40px;
-    /* max-height: 645px; */
-    overflow-y: hidden;
+    max-height: 645px;
+    overflow-y: scroll;
 }
 
 .popup-tab-content {

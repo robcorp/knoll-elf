@@ -458,19 +458,18 @@
         epp-id (:epp-id selected-prod)
         first-tab (atom nil)]
     
-    [:div#style-2.scrollbar
-     [:div.popup-tab-wrap.force-overflow
-      (when (lead-times-set "quick")
-        (if-not @first-tab (reset! first-tab "quick")) ;; if first-tab hasn't been set yet, set it to "quick"
-        [tab-contents "quick" selected-prod lead-times-set (= @first-tab "quick")])
+    [:div.popup-tab-wrap
+     (when (lead-times-set "quick")
+       (if-not @first-tab (reset! first-tab "quick")) ;; if first-tab hasn't been set yet, set it to "quick"
+       [tab-contents "quick" selected-prod lead-times-set (= @first-tab "quick")])
 
-      (when (lead-times-set "three-week")
-        (if-not @first-tab (reset! first-tab "three-week")) ;; if first-tab hasn't been set yet, set it to "three-week"
-        [tab-contents "three-week" selected-prod lead-times-set (= @first-tab "three-week")])
+     (when (lead-times-set "three-week")
+       (if-not @first-tab (reset! first-tab "three-week")) ;; if first-tab hasn't been set yet, set it to "three-week"
+       [tab-contents "three-week" selected-prod lead-times-set (= @first-tab "three-week")])
 
-      (when (lead-times-set "std")
-        (if-not @first-tab (reset! first-tab "std")) ;; if first-tab hasn't been set yet, set it to "std"
-        [tab-contents "std" selected-prod lead-times-set (= @first-tab "std")])]]))
+     (when (lead-times-set "std")
+       (if-not @first-tab (reset! first-tab "std")) ;; if first-tab hasn't been set yet, set it to "std"
+       [tab-contents "std" selected-prod lead-times-set (= @first-tab "std")])]))
 
 (defn- product-tabs []
   (let [selected-prod (<sub [::subs/selected-product])
