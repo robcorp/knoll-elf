@@ -177,7 +177,8 @@
                                                      id (.. ui -item -id)]
                                                  (.. js/document
                                                      (getElementById id)
-                                                     scrollIntoView))
+                                                     scrollIntoView)
+                                                 (.. (js/$ (str "li#" id)) fadeOut fadeIn))
                                                false)}))))]
 
     (reagent/create-class
