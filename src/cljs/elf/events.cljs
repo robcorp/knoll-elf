@@ -15,12 +15,12 @@
  (fn-traced [_ _]
    (load-textiles-approvals)
    (load-textiles-info)
-   (load-filter-options "ELFSeatingSelector")
-   (load-filter-options "ELFTableSelector")
-   (load-filter-options "ELFStorageSelector")
-   (load-filter-options "ELFPowerAndDataSelector")
-   (load-filter-options "ELFWorkToolsSelector")
-   (load-filter-options "ELFScreensAndBoardsSelector")
+   (run! load-filter-options ["ELFSeatingSelector"
+                              "ELFTableSelector"
+                              "ELFStorageSelector"
+                              "ELFPowerAndDataSelector"
+                              "ELFWorkToolsSelector"
+                              "ELFScreensAndBoardsSelector"])
    (load-all-products)
    (let [db db/default-db]
      (filter-category-products db (:filtered-products db)))))
