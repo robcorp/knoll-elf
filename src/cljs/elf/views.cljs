@@ -7,7 +7,8 @@
    [elf.subs :as subs]
    [com.rpl.specter :refer [ALL collect-one] :refer-macros [select select-first] :as spctr]
    [clojure.string :as str]
-   [cljsjs.clipboard]))
+   [cljsjs.clipboard] ; required in order to make the global js/ClipboardJS available
+   #_[cljsjs.tether])) ; required in order to make the global js/Tether available
 
 (def <sub (comp deref re-frame/subscribe)) ; permits using (<sub [::subs/name]) rather than @(subscribe [::subs/name])
 (def evt> re-frame/dispatch)
@@ -31,12 +32,12 @@
                         [:<> ; this allows sibling elements without needing to wrap in a separate [:div]
                          [modal-popup]
                          [:div.veil]
-                         (when false #_config/debug?
+                         (when config/debug?
                                [:section.body_container]
                                [:div
                                 [:h1 name]
                                 [:p "(built using the re-frame app framework.)"]
-                                [mouse-pos-comp]
+                                #_[mouse-pos-comp]
                                 [:hr]])
                          [:section.wrapper.essentials
                           [:section#page
@@ -45,7 +46,7 @@
                             [filtered-products-view]]]]]))}))
 
 
-(defn- essential-product-summary [label {:keys [epp-id title product-name lead-times thumb-img]}]
+(defn- essential-product-summary [label {:keys [epp-id title lead-times thumb-img]}]
   (let [lead-times-set (set lead-times)]
     [:li {:id epp-id
           :on-click #(evt> [::events/product-selected label epp-id])}
@@ -170,11 +171,10 @@
 
             (.autocomplete (js/$ (str "input#" search-box-id))
                            (clj->js {:source src
-                                     :autoFocus true
+                                     :autoFocus false
                                      :select (fn [evt ui]
                                                (.val (js/$ (str "input#" search-box-id)) "")
-                                               (let [label (.. ui -item -label)
-                                                     id (.. ui -item -id)]
+                                               (let [id (.. ui -item -id)]
                                                  (.. js/document
                                                      (getElementById id)
                                                      scrollIntoView)
@@ -185,7 +185,13 @@
      {:display-name "search-box"
 
       :reagent-render (fn []
-                        (let [prods (<sub [::subs/visible-filtered-products])]
+                        (let [_ (<sub [::subs/visible-filtered-products])]
+                                        ; This <sub forces the
+                                        ; re-rendering of this
+                                        ; component wheneve the
+                                        ; filtering changes.  The _
+                                        ; means we don't actually use
+                                        ; the <sub here.
                           [:div.ui-widget.search-box
                            [:label {:for search-box-id} "Find Product: "]
                            [:input {:id search-box-id}]]))
@@ -202,7 +208,7 @@
     [product-type-filters]]])
 
 (defn- filtered-product-type-section [{:keys [label products]}]
-  (when (not (empty? products))
+  (when (seq products)
     ^{:key label}
     [:div.product-list
      [:h3.titleGreyborder (str label " (" (count products) ")")]
@@ -258,7 +264,7 @@
     (.addClass (js/$ tab-content) "selected")))
 
 (defn- create-finish-types-pill [i [title fins]]
-  (if (> (count fins) 0)
+  (if (pos? (count fins))
     ^{:key (str "finish-" title - "pill")}
     [:li {:class (if (= i 0) "selected" "")
           :data-tab (str "finish-" (str/replace title #"[^a-zA-Z0-9-]" ""))
@@ -266,7 +272,7 @@
      [:a {:href "javascript:;"} title]]))
 
 (defn- create-finish-types-tab [i [title fins]]
-  (if (> (count fins) 0)
+  (if (pos? (count fins))
     ^{:key (str "finish-" title "-tab")}
     [:div {:id (str "finish-" (str/replace title #"[^a-zA-Z0-9-]" ""))
            :class ["finish-tab-content" (if (= i 0) "selected")]}
@@ -375,13 +381,12 @@
             ])])))
 
 (defn- approved-fabrics [lead-time]
-  (let [selected-prod (<sub [::subs/selected-product])
-        fabs (case lead-time
+  (let [fabs (case lead-time
                "std" (<sub [::subs/selected-product-all-textiles])
                "three-week" (<sub [::subs/selected-product-essential-textiles]))
         grades (->> fabs keys sort)]
     
-    (when (> (count fabs) 0)
+    (when (pos? (count fabs))
       [:div.upholstery-list-wrap
        [:h4 "Approved Fabrics"]
        [:div.tab-main
@@ -392,7 +397,7 @@
         (map-indexed create-fabric-grade-tab (sort fabs))]
        [:div.sub-tab-wrap
         (for [fab (sort fabs)]
-            (create-fabric-grade-sub-tab lead-time fab))]])))
+          (create-fabric-grade-sub-tab lead-time fab))]])))
 
 (defn- tab-contents [lead-time selected-prod lead-times-set selected?]
   (let [avail-fin-mods (select [:availFinMods ALL #(not= "Options" (:title %)) (collect-one :title) (keyword lead-time) :fins] selected-prod)
@@ -413,7 +418,7 @@
         [:h4 optsTitle]
         [:div {:dangerouslySetInnerHTML {:__html (:optsTxt opts)}}]])
 
-     (if (> (count avail-fin-mods) 0)
+     (if (pos? (count avail-fin-mods))
        [:div.finish-list-wrap
         [:h4 "Finishes"]
         [:div.tab-main
@@ -437,8 +442,8 @@
     (.removeClass (js/$ ".popup-tab-content") "selected") ; and hide the current tab's contents
     (.addClass target "selected")             ; select the new tab
     (.addClass (js/$ tab-content) "selected") ; show the new tab's content
-    (let [selected-pill (.data (js/$ ".popup-tab-content.selected .finish-types-list > li.selected") "tab")]
-      (.removeClass (js/$ ".popup-tab-content.selected .finish-tab-wrap .finish-tab-content") "selected") ; make sure only the selected pill's contents are showing
+    (.removeClass (js/$ ".popup-tab-content.selected .finish-tab-wrap .finish-tab-content") "selected") ; make sure only the selected pill's contents are showing
+    (when-let [selected-pill (.data (js/$ ".popup-tab-content.selected .finish-types-list > li.selected") "tab")]
       (.addClass (js/$ (str ".finish-tab-wrap " "#" selected-pill)) "selected"))))
 
 (defn- lead-time-dropdown-selection-changed [evt]
@@ -455,8 +460,6 @@
 (defn- popup-tab-wrap []
   (let [selected-prod (<sub [::subs/selected-product])
         lead-times-set (set (:lead-times selected-prod))
-        num-lead-times (count lead-times-set)
-        epp-id (:epp-id selected-prod)
         first-tab (atom nil)]
     
     [:div.popup-tab-wrap
@@ -559,8 +562,7 @@
                                                                                      :font-size "75%"}} " (copied to clipboard)"]]])})))
 
 (defn- modal-popup []
-  (let [selected-prod (<sub [::subs/selected-product])
-        lead-times-set (set (:lead-times selected-prod))]
+  (let [selected-prod (<sub [::subs/selected-product])]
     [:div#essentials-modal {:class ["white-popup-block" (if-not false #_config/debug? "mfp-hide")]}
      [:div.essentials-modal-wrap
       [:div.header-popup-view
@@ -590,7 +592,7 @@
 
          [product-tabs]]]]]]))
 
-(defn- mouse-pos-comp []
+#_(defn- mouse-pos-comp []
   (reagent/with-let [pointer (reagent/atom {:x nil :y nil})
                      handler #(swap! pointer assoc
                                      :x (.-pageX %)

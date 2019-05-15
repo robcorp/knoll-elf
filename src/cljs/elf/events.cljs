@@ -5,8 +5,7 @@
             [day8.re-frame.tracing :refer-macros [fn-traced defn-traced]]
             [com.rpl.specter :refer [ALL collect-one multi-path walker] :refer-macros [select select-first setval transform] :as spctr]
             [ajax.core :as ajax]
-            [clojure.string :as str]
-            [day8.re-frame.http-fx]))
+            [clojure.string :as str]))
 
 
 (declare load-textiles-approvals load-textiles-info load-fabric-data load-all-products load-filter-options filter-category-products)
@@ -37,14 +36,14 @@
         category-key (:product-category selected-filter)
         cat-products (sort-by :title
                               #(compare (str/lower-case %1) (str/lower-case %2))
-                              (filter #(not (empty? (category-key %))) products))
+                              (filter #(seq (category-key %)) products))
         label (:description selected-filter)
-        no-product-filters-selected? (not (some true? (select (multi-path [:ELFSeatingSelector :items ALL :value]
-                                                                          [:ELFTableSelector :items ALL :value]
-                                                                          [:ELFStorageSelector :items ALL :value]
-                                                                          [:ELFPowerAndDataSelector :items ALL :value]
-                                                                          [:ELFWorkToolsSelector :items ALL :value]
-                                                                          [:ELFScreensAndBoardsSelector :items ALL :value]) db)))
+        no-product-filters-selected? (not-any? true? (select (multi-path [:ELFSeatingSelector :items ALL :value]
+                                                                         [:ELFTableSelector :items ALL :value]
+                                                                         [:ELFStorageSelector :items ALL :value]
+                                                                         [:ELFPowerAndDataSelector :items ALL :value]
+                                                                         [:ELFWorkToolsSelector :items ALL :value]
+                                                                         [:ELFScreensAndBoardsSelector :items ALL :value]) db))
         categories (if no-product-filters-selected?
                      (select [:items ALL :label #(not= "All" %)] selected-filter)
                      (set (select [:items ALL #(true? (:value %)) :label] selected-filter)))]
@@ -114,8 +113,7 @@
  (fn-traced [db [_ lead-time] event]
    (let [updated-lead-time-filters (update-lead-time-filter-state lead-time (:lead-time-filters db))
          selected-lead-times (set (select [ALL #(true? (:value %)) :lead-time] updated-lead-time-filters))
-         filtered-products (->> (:all-products db)
-                                (filter-products-by-lead-times selected-lead-times))]
+         filtered-products (filter-products-by-lead-times selected-lead-times (:all-products db))]
 
      (-> db
          (assoc
