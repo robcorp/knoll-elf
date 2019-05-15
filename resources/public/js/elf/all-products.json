@@ -25319,7 +25319,7 @@
             "fins" : []
           },
           "three-week" : {
-            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Arm Options:</span><span class=\"essop-option\"> Armless</span></p>\r\n\r\n<p><span class=\"essop-title\">Optional Seat Pad:</span><span class=\"essop-option\">Not Available</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Base Style:</span><span class=\"essop-option\">Four Leg</span></p>\r\n\r\n<p><span class=\"essop-title\">Accessories:</span><span class=\"essop-option\">Not Available</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 25)</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t\t<th>arm h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Armless</td>\r\n\t\t\t<td>19.75&quot;</td>\r\n\t\t\t<td>20&quot;</td>\r\n\t\t\t<td>34.25&quot;</td>\r\n\t\t\t<td>18&quot;</td>\r\n\t\t\t<td>&ndash;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Arm Options:</span><span class=\"essop-option\">Armless</span></p>\r\n\r\n<p><span class=\"essop-title\">Optional Seat Pad:&nbsp;</span><span class=\"essop-option\">Not Available</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Base Style:</span><span class=\"essop-option\">Four Leg</span></p>\r\n\r\n<p><span class=\"essop-title\">Accessories:</span><span class=\"essop-option\">Not Available</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 25)</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t\t<th>arm h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Armless</td>\r\n\t\t\t<td>19.75&quot;</td>\r\n\t\t\t<td>20&quot;</td>\r\n\t\t\t<td>34.25&quot;</td>\r\n\t\t\t<td>18&quot;</td>\r\n\t\t\t<td>&ndash;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
             "fins" : []
           },
           "quick" : {
@@ -29914,7 +29914,7 @@
             "fins" : []
           },
           "three-week" : {
-            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Optional Seat Pad:</span><span class=\"essop-option\">Not Available</span></p>\r\n\r\n<p><span class=\"essop-title\">Accessories:</span><span class=\"essop-option\">Ganging Mechanism</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 25)</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>20.5&quot;</td>\r\n\t\t\t<td>22&quot;</td>\r\n\t\t\t<td>31&quot;</td>\r\n\t\t\t<td>18&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Optional Seat Pad:</span><span class=\"essop-option\">Not Available</span></p>\r\n\r\n<p><span class=\"essop-title\">Accessories:</span><span class=\"essop-option\">Ganging Mechanism</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 10)</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>20.5&quot;</td>\r\n\t\t\t<td>22&quot;</td>\r\n\t\t\t<td>31&quot;</td>\r\n\t\t\t<td>18&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
             "fins" : []
           },
           "quick" : {
@@ -38270,6 +38270,388 @@
       "name" : "ES Series 2 Towers",
       "powerCats" : [],
       "product-id" : "series-2"
+    },
+    {
+      "lead-times" : [
+        "quick",
+        "std",
+        "three-week"
+      ],
+      "short-text" : "<p>Innovative in its simplicity, this work chair minimizes materials and components. The straightforward design leverages flexible and durable materials that respond to your movements, providing comfort and ergonomic support throughout the day without interrupting your work flow.</p>",
+      "storageCats" : [],
+      "screensCats" : [],
+      "epp-id" : "1356385682793",
+      "seatingCats" : [
+        "Work"
+      ],
+      "apprvId" : "OS-06",
+      "tableCats" : [],
+      "excl3wk" : "",
+      "availFinMods" : [
+        {
+          "id" : "1356406933902",
+          "title" : "Options",
+          "std" : {
+            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Back:</span><span class=\"essop-option\">Flex Back Net</span></p>\r\n\r\n<p><span class=\"essop-title\">Seat:</span><span class=\"essop-option\">Generation Fabric, Approved Fabric and Leather</span></p>\r\n\r\n<p><span class=\"essop-title\">Arm Options:</span><span class=\"essop-option\">High-performance, Height-adjustable, Armless </span></p>\r\n\r\n<p><span class=\"essop-title\">Lumbar Support:</span><span class=\"essop-option\">Optional</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Cylinder:</span><span class=\"essop-option\">Standard, Low, High</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Plastic, Polished Aluminum</span></p>\r\n\r\n<p><span class=\"essop-title\">Casters:</span><span class=\"essop-option\">Hard, Soft, Glides</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t\t<th>arm h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>With Arms</td>\r\n\t\t\t<td>29&quot;</td>\r\n\t\t\t<td>24.6&quot;</td>\r\n\t\t\t<td>38.1 - 43.3&quot;</td>\r\n\t\t\t<td>16.4 - 21.6&quot;</td>\r\n\t\t\t<td>22.5 - 31.9&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins" : []
+          },
+          "three-week" : {
+            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Back:</span><span class=\"essop-option\">Flex Back Net</span></p>\r\n\r\n<p><span class=\"essop-title\">Seat:</span><span class=\"essop-option\">Generation Fabric, Approved Fabric and Leather</span></p>\r\n\r\n<p><span class=\"essop-title\">Arm Options:</span><span class=\"essop-option\">High-performance, Height-adjustable, Armless </span></p>\r\n\r\n<p><span class=\"essop-title\">Lumbar Support:</span><span class=\"essop-option\">Optional</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Cylinder:</span><span class=\"essop-option\">Standard, Low, High</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Plastic, Polished Aluminum</span></p>\r\n\r\n<p><span class=\"essop-title\">Casters:</span><span class=\"essop-option\">Hard, Soft, Glides</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t\t<th>arm h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>With Arms</td>\r\n\t\t\t<td>29&quot;</td>\r\n\t\t\t<td>24.6&quot;</td>\r\n\t\t\t<td>38.1 - 43.3&quot;</td>\r\n\t\t\t<td>16.4 - 21.6&quot;</td>\r\n\t\t\t<td>22.5 - 31.9&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Back:</span><span class=\"essop-option\">Flex Back Net</span></p>\r\n\r\n<p><span class=\"essop-title\">Seat:</span><span class=\"essop-option\">Generation Fabric</span></p>\r\n\r\n<p><span class=\"essop-title\">Arm Options:</span><span class=\"essop-option\">High-performance, Height-adjustable </span></p>\r\n\r\n<p><span class=\"essop-title\">Lumbar Support:</span><span class=\"essop-option\">Not Available</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Cylinder:</span><span class=\"essop-option\">Standard</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Plastic, Polished Aluminum</span></p>\r\n\r\n<p><span class=\"essop-title\">Casters:</span><span class=\"essop-option\">Hard</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 25)</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t\t<th>arm h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>With Arms</td>\r\n\t\t\t<td>29&quot;</td>\r\n\t\t\t<td>24.6&quot;</td>\r\n\t\t\t<td>38.1 - 43.3&quot;</td>\r\n\t\t\t<td>16.4 - 21.6&quot;</td>\r\n\t\t\t<td>22.5 - 31.9&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins" : []
+          }
+        },
+        {
+          "id" : "1347383242402",
+          "title" : "Flex Back Net",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1347382783836",
+                "color" : "Pebble ",
+                "img" : "/129/910/Thumb_PLAGEN03,2.png",
+                "type" : "Plastic"
+              },
+              {
+                "id" : "1347382783937",
+                "color" : "Espresso ",
+                "img" : "/772/543/Thumb_PLAGEN06,2.png",
+                "type" : "Plastic"
+              },
+              {
+                "id" : "1347382784059",
+                "color" : "Onyx",
+                "img" : "/391/177/Thumb_PLAGEN09,2.png",
+                "type" : "Plastic"
+              },
+              {
+                "id" : "1347382784103",
+                "color" : "Olive",
+                "img" : "/459/197/Thumb_oliveflex,0.png",
+                "type" : "Plastic"
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1347382783836",
+                "color" : "Pebble ",
+                "img" : "/129/910/Thumb_PLAGEN03,2.png",
+                "type" : "Plastic"
+              },
+              {
+                "id" : "1347382783937",
+                "color" : "Espresso ",
+                "img" : "/772/543/Thumb_PLAGEN06,2.png",
+                "type" : "Plastic"
+              },
+              {
+                "id" : "1347382784059",
+                "color" : "Onyx",
+                "img" : "/391/177/Thumb_PLAGEN09,2.png",
+                "type" : "Plastic"
+              },
+              {
+                "id" : "1347382784103",
+                "color" : "Olive",
+                "img" : "/459/197/Thumb_oliveflex,0.png",
+                "type" : "Plastic"
+              }
+            ]
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1347382783836",
+                "color" : "Pebble ",
+                "img" : "/129/910/Thumb_PLAGEN03,2.png",
+                "type" : "Plastic"
+              },
+              {
+                "id" : "1347382783937",
+                "color" : "Espresso ",
+                "img" : "/772/543/Thumb_PLAGEN06,2.png",
+                "type" : "Plastic"
+              },
+              {
+                "id" : "1347382784059",
+                "color" : "Onyx",
+                "img" : "/391/177/Thumb_PLAGEN09,2.png",
+                "type" : "Plastic"
+              }
+            ]
+          }
+        },
+        {
+          "id" : "1347382959544",
+          "title" : "Generation Fabric",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1347382781388",
+                "color" : "Storm",
+                "img" : "/420/228/Thumb_GEN01,0.png",
+                "type" : "Textiles"
+              },
+              {
+                "id" : "1347382781428",
+                "color" : "Pebble",
+                "img" : "/166/1008/Thumb_GEN03,2.png",
+                "type" : "Textiles"
+              },
+              {
+                "id" : "1347382781527",
+                "color" : "Desert",
+                "img" : "/39/886/Thumb_GEN04,2.png",
+                "type" : "Textiles"
+              },
+              {
+                "id" : "1347382781034",
+                "color" : "Lemongrass",
+                "img" : "/936/763/Thumb_GEN05,2.png",
+                "type" : "Textiles"
+              },
+              {
+                "id" : "1347382781598",
+                "color" : "Espresso",
+                "img" : "/809/641/Thumb_GEN06,2.png",
+                "type" : "Textiles"
+              },
+              {
+                "id" : "1347382781633",
+                "color" : "Firecracker",
+                "img" : "/682/519/Thumb_GEN07,2.png",
+                "type" : "Textiles"
+              },
+              {
+                "id" : "1347382781668",
+                "color" : "Bluemarine",
+                "img" : "/555/397/Thumb_GEN08,2.png",
+                "type" : "Textiles"
+              },
+              {
+                "id" : "1347382781703",
+                "color" : "Onyx",
+                "img" : "/428/275/Thumb_GEN09,0.png",
+                "type" : "Textiles"
+              },
+              {
+                "id" : "1347382781801",
+                "color" : "Olive",
+                "img" : "/706/660/Thumb_GEN10,2.png",
+                "type" : "Textiles"
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1352939427728",
+                "color" : "Storm",
+                "img" : "/232/819/Thumb_GEN01,2.png",
+                "type" : "Textiles"
+              },
+              {
+                "id" : "1347382780972",
+                "color" : "Pebble",
+                "img" : "/874/592/Thumb_GEN03,0.png",
+                "type" : "Textiles"
+              },
+              {
+                "id" : "1347382781003",
+                "color" : "Desert",
+                "img" : "/556/869/Thumb_GEN04,0.png",
+                "type" : "Textiles"
+              },
+              {
+                "id" : "1347382966236",
+                "color" : "Lemongrass",
+                "img" : "/492/366/Thumb_GEN05,0.png",
+                "type" : "Textiles"
+              },
+              {
+                "id" : "1347382781065",
+                "color" : "Espresso",
+                "img" : "/301/765/Thumb_GEN06,0.png",
+                "type" : "Textiles"
+              },
+              {
+                "id" : "1347382781096",
+                "color" : "Firecracker",
+                "img" : "/110/140/Thumb_GEN07,0.png",
+                "type" : "Textiles"
+              },
+              {
+                "id" : "1347382781127",
+                "color" : "Bluemarine",
+                "img" : "/943/538/Thumb_GEN08,0.png",
+                "type" : "Textiles"
+              },
+              {
+                "id" : "1347382781159",
+                "color" : "Onyx",
+                "img" : "/752/937/Thumb_GEN09,0.png",
+                "type" : "Textiles"
+              },
+              {
+                "id" : "1347382781195",
+                "color" : "Olive",
+                "img" : "/646/495/Thumb_GEN10,0.png",
+                "type" : "Textiles"
+              }
+            ]
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1352939427728",
+                "color" : "Storm",
+                "img" : "/232/819/Thumb_GEN01,2.png",
+                "type" : "Textiles"
+              },
+              {
+                "id" : "1347382780972",
+                "color" : "Pebble",
+                "img" : "/874/592/Thumb_GEN03,0.png",
+                "type" : "Textiles"
+              },
+              {
+                "id" : "1347382781003",
+                "color" : "Desert",
+                "img" : "/556/869/Thumb_GEN04,0.png",
+                "type" : "Textiles"
+              },
+              {
+                "id" : "1347382781065",
+                "color" : "Espresso",
+                "img" : "/301/765/Thumb_GEN06,0.png",
+                "type" : "Textiles"
+              },
+              {
+                "id" : "1347382781127",
+                "color" : "Bluemarine",
+                "img" : "/943/538/Thumb_GEN08,0.png",
+                "type" : "Textiles"
+              },
+              {
+                "id" : "1347382781159",
+                "color" : "Onyx",
+                "img" : "/752/937/Thumb_GEN09,0.png",
+                "type" : "Textiles"
+              }
+            ]
+          }
+        },
+        {
+          "id" : "1356397079252",
+          "title" : "Finish",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1347382784134",
+                "color" : "Dark Finish ",
+                "img" : "/1019/678/Thumb_frame_dark,0.png",
+                "type" : "Plastic"
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1347382784134",
+                "color" : "Dark Finish ",
+                "img" : "/1019/678/Thumb_frame_dark,0.png",
+                "type" : "Plastic"
+              }
+            ]
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1347382784134",
+                "color" : "Dark Finish ",
+                "img" : "/1019/678/Thumb_frame_dark,0.png",
+                "type" : "Plastic"
+              }
+            ]
+          }
+        },
+        {
+          "id" : "1356397079484",
+          "title" : "Base",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1347382784134",
+                "color" : "Dark Finish ",
+                "img" : "/1019/678/Thumb_frame_dark,0.png",
+                "type" : "Plastic"
+              },
+              {
+                "id" : "1356397256229",
+                "color" : "Polished Aluminum",
+                "img" : "/615/698/Thumb_polished-aluminum,2.png",
+                "type" : "Metal"
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1347382784134",
+                "color" : "Dark Finish ",
+                "img" : "/1019/678/Thumb_frame_dark,0.png",
+                "type" : "Plastic"
+              },
+              {
+                "id" : "1356397256229",
+                "color" : "Polished Aluminum",
+                "img" : "/615/698/Thumb_polished-aluminum,2.png",
+                "type" : "Metal"
+              }
+            ]
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1347382784134",
+                "color" : "Dark Finish ",
+                "img" : "/1019/678/Thumb_frame_dark,0.png",
+                "type" : "Plastic"
+              },
+              {
+                "id" : "1356397256229",
+                "color" : "Polished Aluminum",
+                "img" : "/615/698/Thumb_polished-aluminum,2.png",
+                "type" : "Metal"
+              }
+            ]
+          }
+        }
+      ],
+      "title" : "ReGeneration by Knoll",
+      "thumb-img" : "/801/805/regeneration_thumb.jpg",
+      "hero1-img" : "/557/175/regeneration_hero.jpg",
+      "workCats" : [],
+      "name" : "ES ReGeneration by Knoll",
+      "powerCats" : [],
+      "product-id" : "regeneration-by-knoll"
     },
     {
       "lead-times" : [
@@ -48507,7 +48889,7 @@
           "id" : "1356405496162",
           "title" : "Options",
           "std" : {
-            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Arm Options:</span><span class=\"essop-option\">Fixed Arms, Armless </span></p>\r\n\r\n<p><span class=\"essop-title\">Frame Rim:</span><span class=\"essop-option\">Polished Aluminum, Satin Aluminum, Black Aluminum </span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Base Top Caps:</span><span class=\"essop-option\">Stainless Steel, Brushed Stainless Steel, Black Epoxy</span></p>\r\n\r\n<p><span class=\"essop-title\">Casters:</span><span class=\"essop-option\">Hard, Soft</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t\t<th>arm h from seat</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>With Arms</td>\r\n\t\t\t<td>26.25&quot;</td>\r\n\t\t\t<td>28.25&quot;</td>\r\n\t\t\t<td>31 - 36&quot;</td>\r\n\t\t\t<td>18 - 23&quot;</td>\r\n\t\t\t<td>6&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Armless</td>\r\n\t\t\t<td>23.5&quot;</td>\r\n\t\t\t<td>28.25&quot;</td>\r\n\t\t\t<td>31 - 36&quot;</td>\r\n\t\t\t<td>18 - 23&quot;</td>\r\n\t\t\t<td>&ndash;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Arm Options:</span><span class=\"essop-option\">Fixed Arms, Armless </span></p>\r\n\r\n<p><span class=\"essop-title\">Frame Rim:</span><span class=\"essop-option\">Polished Aluminum, Satin Aluminum, Black Aluminum </span></p>\r\n\r\n<p><span class=\"essop-title\">Frame:</span><span class=\"essop-option\">Polished Aluminum, Satin Aluminum</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Stainless Steel, Black Epoxy</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Top Caps:</span><span class=\"essop-option\">Stainless Steel, Brushed Stainless Steel, Black Epoxy</span></p>\r\n\r\n<p><span class=\"essop-title\">Casters:</span><span class=\"essop-option\">Hard, Soft</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t\t<th>arm h from seat</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>With Arms</td>\r\n\t\t\t<td>26.25&quot;</td>\r\n\t\t\t<td>28.25&quot;</td>\r\n\t\t\t<td>31 - 36&quot;</td>\r\n\t\t\t<td>18 - 23&quot;</td>\r\n\t\t\t<td>6&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Armless</td>\r\n\t\t\t<td>23.5&quot;</td>\r\n\t\t\t<td>28.25&quot;</td>\r\n\t\t\t<td>31 - 36&quot;</td>\r\n\t\t\t<td>18 - 23&quot;</td>\r\n\t\t\t<td>&ndash;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
             "fins" : []
           },
           "three-week" : {
@@ -71163,382 +71545,6 @@
         "std",
         "three-week"
       ],
-      "short-text" : "<p>Innovative in its simplicity, this work chair minimizes materials and components. The straightforward design leverages flexible and durable materials that respond to your movements, providing comfort and ergonomic support throughout the day without interrupting your work flow.</p>",
-      "storageCats" : [],
-      "screensCats" : [],
-      "epp-id" : "1356385682793",
-      "seatingCats" : [
-        "Work"
-      ],
-      "apprvId" : "OS-06",
-      "tableCats" : [],
-      "excl3wk" : "",
-      "availFinMods" : [
-        {
-          "id" : "1356406933902",
-          "title" : "Options",
-          "std" : {
-            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Back:</span><span class=\"essop-option\">Flex Back Net</span></p>\r\n\r\n<p><span class=\"essop-title\">Seat:</span><span class=\"essop-option\">Generation Fabric, Approved Fabric and Leather</span></p>\r\n\r\n<p><span class=\"essop-title\">Arm Options:</span><span class=\"essop-option\">High-performance, Height-adjustable, Armless </span></p>\r\n\r\n<p><span class=\"essop-title\">Lumbar Support:</span><span class=\"essop-option\">Optional</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Cylinder:</span><span class=\"essop-option\">Standard, Low, High</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Plastic, Polished Aluminum</span></p>\r\n\r\n<p><span class=\"essop-title\">Casters:</span><span class=\"essop-option\">Hard, Soft, Glides</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t\t<th>arm h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>With Arms</td>\r\n\t\t\t<td>29&quot;</td>\r\n\t\t\t<td>24.6&quot;</td>\r\n\t\t\t<td>38.1 - 43.3&quot;</td>\r\n\t\t\t<td>16.4 - 21.6&quot;</td>\r\n\t\t\t<td>22.5 - 31.9&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
-            "fins" : []
-          },
-          "three-week" : {
-            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Back:</span><span class=\"essop-option\">Flex Back Net</span></p>\r\n\r\n<p><span class=\"essop-title\">Seat:</span><span class=\"essop-option\">Generation Fabric, Approved Fabric and Leather</span></p>\r\n\r\n<p><span class=\"essop-title\">Arm Options:</span><span class=\"essop-option\">High-performance, Height-adjustable, Armless </span></p>\r\n\r\n<p><span class=\"essop-title\">Lumbar Support:</span><span class=\"essop-option\">Optional</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Cylinder:</span><span class=\"essop-option\">Standard, Low, High</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Plastic, Polished Aluminum</span></p>\r\n\r\n<p><span class=\"essop-title\">Casters:</span><span class=\"essop-option\">Hard, Soft, Glides</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t\t<th>arm h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>With Arms</td>\r\n\t\t\t<td>29&quot;</td>\r\n\t\t\t<td>24.6&quot;</td>\r\n\t\t\t<td>38.1 - 43.3&quot;</td>\r\n\t\t\t<td>16.4 - 21.6&quot;</td>\r\n\t\t\t<td>22.5 - 31.9&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
-            "fins" : []
-          },
-          "quick" : {
-            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Back:</span><span class=\"essop-option\">Flex Back Net</span></p>\r\n\r\n<p><span class=\"essop-title\">Seat:</span><span class=\"essop-option\">Generation Fabric</span></p>\r\n\r\n<p><span class=\"essop-title\">Arm Options:</span><span class=\"essop-option\">High-performance, Height-adjustable </span></p>\r\n\r\n<p><span class=\"essop-title\">Lumbar Support:</span><span class=\"essop-option\">Not Available</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Cylinder:</span><span class=\"essop-option\">Standard</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Plastic, Polished Aluminum</span></p>\r\n\r\n<p><span class=\"essop-title\">Casters:</span><span class=\"essop-option\">Hard</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 25)</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t\t<th>arm h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>With Arms</td>\r\n\t\t\t<td>29&quot;</td>\r\n\t\t\t<td>24.6&quot;</td>\r\n\t\t\t<td>38.1 - 43.3&quot;</td>\r\n\t\t\t<td>16.4 - 21.6&quot;</td>\r\n\t\t\t<td>22.5 - 31.9&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
-            "fins" : []
-          }
-        },
-        {
-          "id" : "1347383242402",
-          "title" : "Flex Back Net",
-          "std" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1347382783836",
-                "color" : "Pebble ",
-                "img" : "/129/910/Thumb_PLAGEN03,2.png",
-                "type" : "Plastic"
-              },
-              {
-                "id" : "1347382783937",
-                "color" : "Espresso ",
-                "img" : "/772/543/Thumb_PLAGEN06,2.png",
-                "type" : "Plastic"
-              },
-              {
-                "id" : "1347382784059",
-                "color" : "Onyx",
-                "img" : "/391/177/Thumb_PLAGEN09,2.png",
-                "type" : "Plastic"
-              },
-              {
-                "id" : "1347382784103",
-                "color" : "Olive",
-                "img" : "/459/197/Thumb_oliveflex,0.png",
-                "type" : "Plastic"
-              }
-            ]
-          },
-          "three-week" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1347382783836",
-                "color" : "Pebble ",
-                "img" : "/129/910/Thumb_PLAGEN03,2.png",
-                "type" : "Plastic"
-              },
-              {
-                "id" : "1347382783937",
-                "color" : "Espresso ",
-                "img" : "/772/543/Thumb_PLAGEN06,2.png",
-                "type" : "Plastic"
-              },
-              {
-                "id" : "1347382784059",
-                "color" : "Onyx",
-                "img" : "/391/177/Thumb_PLAGEN09,2.png",
-                "type" : "Plastic"
-              },
-              {
-                "id" : "1347382784103",
-                "color" : "Olive",
-                "img" : "/459/197/Thumb_oliveflex,0.png",
-                "type" : "Plastic"
-              }
-            ]
-          },
-          "quick" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1347382783836",
-                "color" : "Pebble ",
-                "img" : "/129/910/Thumb_PLAGEN03,2.png",
-                "type" : "Plastic"
-              },
-              {
-                "id" : "1347382783937",
-                "color" : "Espresso ",
-                "img" : "/772/543/Thumb_PLAGEN06,2.png",
-                "type" : "Plastic"
-              },
-              {
-                "id" : "1347382784059",
-                "color" : "Onyx",
-                "img" : "/391/177/Thumb_PLAGEN09,2.png",
-                "type" : "Plastic"
-              }
-            ]
-          }
-        },
-        {
-          "id" : "1347382959544",
-          "title" : "Generation Fabric",
-          "std" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1347382781388",
-                "color" : "Storm",
-                "img" : "/420/228/Thumb_GEN01,0.png",
-                "type" : "Textiles"
-              },
-              {
-                "id" : "1347382781428",
-                "color" : "Pebble",
-                "img" : "/166/1008/Thumb_GEN03,2.png",
-                "type" : "Textiles"
-              },
-              {
-                "id" : "1347382781527",
-                "color" : "Desert",
-                "img" : "/39/886/Thumb_GEN04,2.png",
-                "type" : "Textiles"
-              },
-              {
-                "id" : "1347382781034",
-                "color" : "Lemongrass",
-                "img" : "/936/763/Thumb_GEN05,2.png",
-                "type" : "Textiles"
-              },
-              {
-                "id" : "1347382781598",
-                "color" : "Espresso",
-                "img" : "/809/641/Thumb_GEN06,2.png",
-                "type" : "Textiles"
-              },
-              {
-                "id" : "1347382781633",
-                "color" : "Firecracker",
-                "img" : "/682/519/Thumb_GEN07,2.png",
-                "type" : "Textiles"
-              },
-              {
-                "id" : "1347382781668",
-                "color" : "Bluemarine",
-                "img" : "/555/397/Thumb_GEN08,2.png",
-                "type" : "Textiles"
-              },
-              {
-                "id" : "1347382781703",
-                "color" : "Onyx",
-                "img" : "/428/275/Thumb_GEN09,0.png",
-                "type" : "Textiles"
-              },
-              {
-                "id" : "1347382781801",
-                "color" : "Olive",
-                "img" : "/706/660/Thumb_GEN10,2.png",
-                "type" : "Textiles"
-              }
-            ]
-          },
-          "three-week" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1352939427728",
-                "color" : "Storm",
-                "img" : "/232/819/Thumb_GEN01,2.png",
-                "type" : "Textiles"
-              },
-              {
-                "id" : "1347382780972",
-                "color" : "Pebble",
-                "img" : "/874/592/Thumb_GEN03,0.png",
-                "type" : "Textiles"
-              },
-              {
-                "id" : "1347382781003",
-                "color" : "Desert",
-                "img" : "/556/869/Thumb_GEN04,0.png",
-                "type" : "Textiles"
-              },
-              {
-                "id" : "1347382966236",
-                "color" : "Lemongrass",
-                "img" : "/492/366/Thumb_GEN05,0.png",
-                "type" : "Textiles"
-              },
-              {
-                "id" : "1347382781065",
-                "color" : "Espresso",
-                "img" : "/301/765/Thumb_GEN06,0.png",
-                "type" : "Textiles"
-              },
-              {
-                "id" : "1347382781096",
-                "color" : "Firecracker",
-                "img" : "/110/140/Thumb_GEN07,0.png",
-                "type" : "Textiles"
-              },
-              {
-                "id" : "1347382781127",
-                "color" : "Bluemarine",
-                "img" : "/943/538/Thumb_GEN08,0.png",
-                "type" : "Textiles"
-              },
-              {
-                "id" : "1347382781159",
-                "color" : "Onyx",
-                "img" : "/752/937/Thumb_GEN09,0.png",
-                "type" : "Textiles"
-              },
-              {
-                "id" : "1347382781195",
-                "color" : "Olive",
-                "img" : "/646/495/Thumb_GEN10,0.png",
-                "type" : "Textiles"
-              }
-            ]
-          },
-          "quick" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1352939427728",
-                "color" : "Storm",
-                "img" : "/232/819/Thumb_GEN01,2.png",
-                "type" : "Textiles"
-              },
-              {
-                "id" : "1347382780972",
-                "color" : "Pebble",
-                "img" : "/874/592/Thumb_GEN03,0.png",
-                "type" : "Textiles"
-              },
-              {
-                "id" : "1347382781003",
-                "color" : "Desert",
-                "img" : "/556/869/Thumb_GEN04,0.png",
-                "type" : "Textiles"
-              },
-              {
-                "id" : "1347382781065",
-                "color" : "Espresso",
-                "img" : "/301/765/Thumb_GEN06,0.png",
-                "type" : "Textiles"
-              },
-              {
-                "id" : "1347382781127",
-                "color" : "Bluemarine",
-                "img" : "/943/538/Thumb_GEN08,0.png",
-                "type" : "Textiles"
-              },
-              {
-                "id" : "1347382781159",
-                "color" : "Onyx",
-                "img" : "/752/937/Thumb_GEN09,0.png",
-                "type" : "Textiles"
-              }
-            ]
-          }
-        },
-        {
-          "id" : "1356397079252",
-          "title" : "Finish",
-          "std" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1347382784134",
-                "color" : "Dark Finish ",
-                "img" : "/1019/678/Thumb_frame_dark,0.png",
-                "type" : "Plastic"
-              }
-            ]
-          },
-          "three-week" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1347382784134",
-                "color" : "Dark Finish ",
-                "img" : "/1019/678/Thumb_frame_dark,0.png",
-                "type" : "Plastic"
-              }
-            ]
-          },
-          "quick" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1347382784134",
-                "color" : "Dark Finish ",
-                "img" : "/1019/678/Thumb_frame_dark,0.png",
-                "type" : "Plastic"
-              }
-            ]
-          }
-        },
-        {
-          "id" : "1356397079484",
-          "title" : "Base",
-          "std" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1347382784134",
-                "color" : "Dark Finish ",
-                "img" : "/1019/678/Thumb_frame_dark,0.png",
-                "type" : "Plastic"
-              },
-              {
-                "id" : "1356397256229",
-                "color" : "Polished Aluminum",
-                "img" : "/615/698/Thumb_polished-aluminum,2.png",
-                "type" : "Metal"
-              }
-            ]
-          },
-          "three-week" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1347382784134",
-                "color" : "Dark Finish ",
-                "img" : "/1019/678/Thumb_frame_dark,0.png",
-                "type" : "Plastic"
-              },
-              {
-                "id" : "1356397256229",
-                "color" : "Polished Aluminum",
-                "img" : "/615/698/Thumb_polished-aluminum,2.png",
-                "type" : "Metal"
-              }
-            ]
-          },
-          "quick" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1347382784134",
-                "color" : "Dark Finish ",
-                "img" : "/1019/678/Thumb_frame_dark,0.png",
-                "type" : "Plastic"
-              }
-            ]
-          }
-        }
-      ],
-      "title" : "ReGeneration by Knoll",
-      "thumb-img" : "/158/148/regeneration_thumb.jpg",
-      "hero1-img" : "/938/541/regeneration_hero.jpg",
-      "workCats" : [],
-      "name" : "ES ReGeneration by Knoll",
-      "powerCats" : [],
-      "product-id" : "regeneration-by-knoll"
-    },
-    {
-      "lead-times" : [
-        "quick",
-        "std",
-        "three-week"
-      ],
       "short-text" : "<p>Unscripted Easy Tables are a collection of work tables in a wide range of sizes and shapes. Friendly rounded corners, handholds and optional casters allow people to define how a space is configured and reconfigured, creating informal, multi-use spaces like flexible workshops, meeting areas and reading rooms.</p>",
       "storageCats" : [],
       "screensCats" : [],
@@ -72128,6 +72134,12 @@
                 "color" : "Dark Finish ",
                 "img" : "/1019/678/Thumb_frame_dark,0.png",
                 "type" : "Plastic"
+              },
+              {
+                "id" : "1356397256229",
+                "color" : "Polished Aluminum",
+                "img" : "/615/698/Thumb_polished-aluminum,2.png",
+                "type" : "Metal"
               }
             ]
           }
@@ -81319,7 +81331,7 @@
             "fins" : []
           },
           "three-week" : {
-            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Arm Options:</span><span class=\"essop-option\">With Arms, Armless</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 10)</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t\t<th>arm h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>With Arms</td>\r\n\t\t\t<td>21.5&quot;</td>\r\n\t\t\t<td>19.75&quot;</td>\r\n\t\t\t<td>31&quot;</td>\r\n\t\t\t<td>17.75&quot;</td>\r\n\t\t\t<td>26.25&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Armless</td>\r\n\t\t\t<td>20&quot;</td>\r\n\t\t\t<td>19.75&quot;</td>\r\n\t\t\t<td>31&quot;</td>\r\n\t\t\t<td>17.75&quot;</td>\r\n\t\t\t<td>&ndash;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Arm Options:</span><span class=\"essop-option\">Armless</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 10)</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t\t<th>arm h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>With Arms</td>\r\n\t\t\t<td>21.5&quot;</td>\r\n\t\t\t<td>19.75&quot;</td>\r\n\t\t\t<td>31&quot;</td>\r\n\t\t\t<td>17.75&quot;</td>\r\n\t\t\t<td>26.25&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Armless</td>\r\n\t\t\t<td>20&quot;</td>\r\n\t\t\t<td>19.75&quot;</td>\r\n\t\t\t<td>31&quot;</td>\r\n\t\t\t<td>17.75&quot;</td>\r\n\t\t\t<td>&ndash;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
             "fins" : []
           },
           "quick" : {
@@ -83599,7 +83611,7 @@
             "fins" : []
           },
           "three-week" : {
-            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Back:</span><span class=\"essop-option\">Plastic (upper and lower specified separately)</span></p>\r\n\r\n<p><span class=\"essop-title\">Seat Pad:</span><span class=\"essop-option\">Delite, Approved Fabric and Leather</span></p>\r\n\r\n<p><span class=\"essop-title\">Arm Options:</span><span class=\"essop-option\">Fixed Arms, Armless </span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Plastic, Aluminum </span></p>\r\n\r\n<p><span class=\"essop-title\">Base Style:</span><span class=\"essop-option\">5 Star, 4 Star (glides only)</span></p>\r\n\r\n<p><span class=\"essop-title\">Casters:</span><span class=\"essop-option\">Hard, Soft, Glides</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 25)</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t\t<th>arm h from seat</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>With Arms</td>\r\n\t\t\t<td>25.14&quot;</td>\r\n\t\t\t<td>23&quot;</td>\r\n\t\t\t<td>31.75 - 36.95&quot;</td>\r\n\t\t\t<td>16 - 21.2&quot;</td>\r\n\t\t\t<td>8.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Armless</td>\r\n\t\t\t<td>23.5&quot;</td>\r\n\t\t\t<td>23&quot;</td>\r\n\t\t\t<td>31.75 - 36.95&quot;</td>\r\n\t\t\t<td>16 - 21.2&quot;</td>\r\n\t\t\t<td>&ndash;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Back:</span><span class=\"essop-option\">Plastic (upper and lower specified separately)</span></p>\r\n\r\n<p><span class=\"essop-title\">Seat Pad:</span><span class=\"essop-option\">Delite, Approved Fabric and Leather</span></p>\r\n\r\n<p><span class=\"essop-title\">Arm Options:</span><span class=\"essop-option\">Fixed Arms, Armless </span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Plastic, Aluminum </span></p>\r\n\r\n<p><span class=\"essop-title\">Base Style:</span><span class=\"essop-option\">5 Star, 4 Star (glides only)</span></p>\r\n\r\n<p><span class=\"essop-title\">Casters:</span><span class=\"essop-option\">Hard, Soft, Glides</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t\t<th>arm h from seat</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>With Arms</td>\r\n\t\t\t<td>25.14&quot;</td>\r\n\t\t\t<td>23&quot;</td>\r\n\t\t\t<td>31.75 - 36.95&quot;</td>\r\n\t\t\t<td>16 - 21.2&quot;</td>\r\n\t\t\t<td>8.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Armless</td>\r\n\t\t\t<td>23.5&quot;</td>\r\n\t\t\t<td>23&quot;</td>\r\n\t\t\t<td>31.75 - 36.95&quot;</td>\r\n\t\t\t<td>16 - 21.2&quot;</td>\r\n\t\t\t<td>&ndash;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
             "fins" : []
           },
           "quick" : {
@@ -86611,7 +86623,7 @@
             "fins" : []
           },
           "quick" : {
-            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Back:</span><span class=\"essop-option\">Generation Fabric</span></p>\r\n\r\n<p><span class=\"essop-title\">Seat:</span><span class=\"essop-option\">Generation Fabric</span></p>\r\n\r\n<p><span class=\"essop-title\">Arm Options:</span><span class=\"essop-option\">High-performance, Height-adjustable </span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Cylinder:</span><span class=\"essop-option\">Standard</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Plastic, Polished Aluminum</span></p>\r\n\r\n<p><span class=\"essop-title\">Casters:</span><span class=\"essop-option\">Hard</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title\">Quantity Limit:&nbsp;</span><span class=\"essop-option red\">25</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 25)</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t\t<th>arm h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>29&quot;</td>\r\n\t\t\t<td>24.6&quot;</td>\r\n\t\t\t<td>43.5 - 52.3&quot;</td>\r\n\t\t\t<td>22 - 30.8&quot;</td>\r\n\t\t\t<td>27.9 - 40.7&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Back:</span><span class=\"essop-option\">Generation Fabric</span></p>\r\n\r\n<p><span class=\"essop-title\">Seat:</span><span class=\"essop-option\">Generation Fabric</span></p>\r\n\r\n<p><span class=\"essop-title\">Arm Options:</span><span class=\"essop-option\">High-performance, Height-adjustable </span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Cylinder:</span><span class=\"essop-option\">Standard</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Plastic, Polished Aluminum</span></p>\r\n\r\n<p><span class=\"essop-title\">Casters:</span><span class=\"essop-option\">Hard</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 25)</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t\t<th>arm h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>29&quot;</td>\r\n\t\t\t<td>24.6&quot;</td>\r\n\t\t\t<td>43.5 - 52.3&quot;</td>\r\n\t\t\t<td>22 - 30.8&quot;</td>\r\n\t\t\t<td>27.9 - 40.7&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
             "fins" : []
           }
         },
@@ -86860,6 +86872,12 @@
                 "color" : "Dark Finish ",
                 "img" : "/1019/678/Thumb_frame_dark,0.png",
                 "type" : "Plastic"
+              },
+              {
+                "id" : "1356397256229",
+                "color" : "Polished Aluminum",
+                "img" : "/615/698/Thumb_polished-aluminum,2.png",
+                "type" : "Metal"
               }
             ]
           }
@@ -87237,6 +87255,12 @@
                 "color" : "Dark Finish ",
                 "img" : "/1019/678/Thumb_frame_dark,0.png",
                 "type" : "Plastic"
+              },
+              {
+                "id" : "1356397256229",
+                "color" : "Polished Aluminum",
+                "img" : "/615/698/Thumb_polished-aluminum,2.png",
+                "type" : "Metal"
               }
             ]
           }
@@ -93479,7 +93503,7 @@
             "fins" : []
           },
           "three-week" : {
-            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Back:</span><span class=\"essop-option\">Wood Back</span></p>\r\n\r\n<p><span class=\"essop-title\">Arm Options:</span><span class=\"essop-option\">With Arms, Armless</span></p>\r\n\r\n<p><span class=\"essop-title\">Seat:</span><span class=\"essop-option\">Approved Textiles and Leathers</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 50)</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t\t<th>arm h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>With Arms</td>\r\n\t\t\t<td>21.75&quot;</td>\r\n\t\t\t<td>23.5&quot;</td>\r\n\t\t\t<td>32.25&quot;</td>\r\n\t\t\t<td>18&quot;</td>\r\n\t\t\t<td>25.25&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Back:</span><span class=\"essop-option\">Wood Back</span></p>\r\n\r\n<p><span class=\"essop-title\">Arm Options:</span><span class=\"essop-option\">With Arms, Armless</span></p>\r\n\r\n<p><span class=\"essop-title\">Seat:</span><span class=\"essop-option\">Approved Textiles and Leathers</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 25)</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t\t<th>arm h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>With Arms</td>\r\n\t\t\t<td>21.75&quot;</td>\r\n\t\t\t<td>23.5&quot;</td>\r\n\t\t\t<td>32.25&quot;</td>\r\n\t\t\t<td>18&quot;</td>\r\n\t\t\t<td>25.25&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
             "fins" : []
           },
           "quick" : {
@@ -93653,7 +93677,7 @@
             "fins" : []
           },
           "three-week" : {
-            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Optional Seat Pad:</span><span class=\"essop-option\">Not Available</span></p>\r\n\r\n<p><span class=\"essop-title\">Accessories:</span><span class=\"essop-option\">Ganging Mechanism</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 25)</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>20.5&quot;</td>\r\n\t\t\t<td>22&quot;</td>\r\n\t\t\t<td>31&quot;</td>\r\n\t\t\t<td>18&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "optsTxt" : "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Optional Seat Pad:</span><span class=\"essop-option\">Not Available</span></p>\r\n\r\n<p><span class=\"essop-title\">Accessories:</span><span class=\"essop-option\">Ganging Mechanism</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 10)</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>20.5&quot;</td>\r\n\t\t\t<td>22&quot;</td>\r\n\t\t\t<td>31&quot;</td>\r\n\t\t\t<td>18&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
             "fins" : []
           },
           "quick" : {
