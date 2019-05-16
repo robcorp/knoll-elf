@@ -5,8 +5,7 @@
             [day8.re-frame.tracing :refer-macros [fn-traced defn-traced]]
             [com.rpl.specter :refer [ALL collect-one multi-path walker] :refer-macros [select select-first setval transform] :as spctr]
             [ajax.core :as ajax]
-            [clojure.string :as str]
-            [day8.re-frame.http-fx]))
+            [clojure.string :as str]))
 
 
 (declare load-textiles-approvals load-textiles-info load-fabric-data load-all-products load-filter-options filter-category-products)
@@ -16,12 +15,12 @@
  (fn-traced [_ _]
    (load-textiles-approvals)
    (load-textiles-info)
-   (load-filter-options "ELFSeatingSelector")
-   (load-filter-options "ELFTableSelector")
-   (load-filter-options "ELFStorageSelector")
-   (load-filter-options "ELFPowerAndDataSelector")
-   (load-filter-options "ELFWorkToolsSelector")
-   (load-filter-options "ELFScreensAndBoardsSelector")
+   (run! load-filter-options ["ELFSeatingSelector"
+                              "ELFTableSelector"
+                              "ELFStorageSelector"
+                              "ELFPowerAndDataSelector"
+                              "ELFWorkToolsSelector"
+                              "ELFScreensAndBoardsSelector"])
    (load-all-products)
    (let [db db/default-db]
      (filter-category-products db (:filtered-products db)))))
@@ -37,14 +36,14 @@
         category-key (:product-category selected-filter)
         cat-products (sort-by :title
                               #(compare (str/lower-case %1) (str/lower-case %2))
-                              (filter #(not (empty? (category-key %))) products))
+                              (filter #(seq (category-key %)) products))
         label (:description selected-filter)
-        no-product-filters-selected? (not (some true? (select (multi-path [:ELFSeatingSelector :items ALL :value]
-                                                                          [:ELFTableSelector :items ALL :value]
-                                                                          [:ELFStorageSelector :items ALL :value]
-                                                                          [:ELFPowerAndDataSelector :items ALL :value]
-                                                                          [:ELFWorkToolsSelector :items ALL :value]
-                                                                          [:ELFScreensAndBoardsSelector :items ALL :value]) db)))
+        no-product-filters-selected? (not-any? true? (select (multi-path [:ELFSeatingSelector :items ALL :value]
+                                                                         [:ELFTableSelector :items ALL :value]
+                                                                         [:ELFStorageSelector :items ALL :value]
+                                                                         [:ELFPowerAndDataSelector :items ALL :value]
+                                                                         [:ELFWorkToolsSelector :items ALL :value]
+                                                                         [:ELFScreensAndBoardsSelector :items ALL :value]) db))
         categories (if no-product-filters-selected?
                      (select [:items ALL :label #(not= "All" %)] selected-filter)
                      (set (select [:items ALL #(true? (:value %)) :label] selected-filter)))]
@@ -114,8 +113,7 @@
  (fn-traced [db [_ lead-time] event]
    (let [updated-lead-time-filters (update-lead-time-filter-state lead-time (:lead-time-filters db))
          selected-lead-times (set (select [ALL #(true? (:value %)) :lead-time] updated-lead-time-filters))
-         filtered-products (->> (:all-products db)
-                                (filter-products-by-lead-times selected-lead-times))]
+         filtered-products (filter-products-by-lead-times selected-lead-times (:all-products db))]
 
      (-> db
          (assoc
@@ -168,39 +166,67 @@
        (clear-all-product-filters)
        (filter-category-products (:filtered-products db)))))
 
+(defn- popupheight []
+  (let [windowheight (.-innerHeight js/window)
+        popupheight (.innerHeight (js/$ ".essentials-modal-wrap"))
+        popupimgheight (.innerHeight (js/$ ".essentials-product-img-wrap"))
+        topproimgheight (.innerHeight (js/$ ".essentials-product-img"))
+        contentheight (+ popupimgheight (- popupheight topproimgheight))]
+    
+    #_(println "windowheight: " windowheight)
+    #_(println "popupheight: " popupheight)
+    #_(println "popupimgheight: " popupimgheight)
+    #_(println "topproimgheight: " topproimgheight)
+    #_(println "contentheight: " contentheight)
+    (if (> topproimgheight windowheight)
+      (println "topproimgheight is greater than windowheight"))))
+
+(defn- setup-popup []
+  (.. js/$ -magnificPopup
+      (open (clj->js {:type "inline"
+                      :midClick true
+                      :showCloseBtn false
+                      :items {:src "#essentials-modal"}
+                      :callbacks {:open popupheight
+                                  :close #(.pushState js/history nil nil (.-pathname js/location))}}))))
+
+(defn- setup-owl-carousel []
+  ;; create the carousel (mainly for styling and rendering the
+  ;; navigation arrows, since we don't actually scroll left or
+  ;; right for next / previous
+  (.. (js/$ ".owl-popup-div")
+      (owlCarousel (clj->js {:items 1
+                             :responsiveClass true
+                             :margin 0
+                             :dots false
+                             :nav true
+                             :loop false
+                             :autoHeight true
+                             :touchDrag true
+                             :mouseDrag true})))
+
+  ;; set up click events for next / previous navigation arrows
+  (.. (js/$ ".owl-next")
+      (unbind "click")
+      (click #(re-frame/dispatch [::select-next-product])))
+
+  (.. (js/$ ".owl-prev")
+      (unbind "click")
+      (click #(re-frame/dispatch [::select-previous-product]))))
+
 (reg-event-db
  ::product-selected
  (fn-traced [db [_ label epp-id] event]
             ;; show the popup
-            (if-not config/debug?
-              (.. js/$ -magnificPopup
-                  (open (clj->js {:type "inline"
-                                  :midClick true
-                                  :showCloseBtn false
-                                  :items {:src "#essentials-modal"}}))))
+            (if-not false #_config/debug?
+                    (setup-popup))
 
-            ;; create the carousel (mainly for styling and rendering the
-            ;; navigation arrows, since we don't actually scroll left or
-            ;; right for next / previous
-            (.. (js/$ ".owl-popup-div")
-                (owlCarousel (clj->js {:items 1
-                                       :responsiveClass true
-                                       :margin 0
-                                       :dots false
-                                       :nav true
-                                       :loop false
-                                       :autoHeight true
-                                       :touchDrag true
-                                       :mouseDrag true})))
+            (setup-owl-carousel)
 
-            ;; set up click events for next / previous navigation arrows
-            (.. (js/$ ".owl-next")
-                (unbind "click")
-                (click #(re-frame/dispatch [::select-next-product])))
+            
+            ;; change the URL to include the pop param
+            (.pushState js/history nil nil (str (.-pathname js/location) "?pop=" epp-id))
 
-            (.. (js/$ ".owl-prev")
-                (unbind "click")
-                (click #(re-frame/dispatch [::select-previous-product])))
 
             ;; update the :selected-epp-id in the app db with the selected product's
             ;; label and epp-id
@@ -221,7 +247,7 @@
   (let [path "/cs/Satellite?pagename=Knoll/Common/Utils/EssentialsPopupProductsJSON"
         all-products-url (if config/debug?
                            (if config/use-local-products?
-                             "http://localhost:3449/js/elf/all-products.json" ;; use the local file - this file should be updated periodically using the json from prod or staging
+                             "/js/elf/all-products.json" ;; use the local file - this file should be updated periodically using the json from prod or staging
                              (str "http://knlprdwcsmgt1.knoll.com" path)) ;; use staging url
                            (str (.. js/window -location -origin) path)) ;; use the host of the current browser window
         success-handler (fn [resp]
@@ -274,20 +300,30 @@
 (reg-event-db
  ::select-previous-product
  (fn [db _]
-   (let [prev-prod (previous-visible-prod-id db)]
+   (let [prev-prod (previous-visible-prod-id db)
+         [_ epp-id] prev-prod]
+
+     ;; change the URL to include the pop param
+     (.pushState js/history nil nil (str (.-pathname js/location) "?pop=" epp-id))
+
      (assoc db :selected-epp-id prev-prod))))
 
 (reg-event-db
  ::select-next-product
  (fn [db _]
-   (let [next-prod (next-visible-prod-id db)]
+   (let [next-prod (next-visible-prod-id db)
+         [_ epp-id] next-prod]
+
+     ;; change the URL to include the pop param
+     (.pushState js/history nil nil (str (.-pathname js/location) "?pop=" epp-id))
+
      (assoc db :selected-epp-id next-prod))))
 
 
 (defn- load-textiles-approvals []
   (let [path "/js/elf/knolltextiles_approvals.json"
         url (if config/debug?
-              (str "http://localhost:3449" path)
+              path
               (str (.. js/window -location -origin) path))
         success-handler (fn [resp]
                           (re-frame/dispatch [::set-textiles-approvals resp]))
@@ -300,7 +336,7 @@
 (defn- load-textiles-info []
   (let [path "/js/elf/knolltextiles_info.json"
         url (if config/debug?
-              (str "http://localhost:3449" path) ;; use the local
+              path ;; use the local
               (str (.. js/window -location -origin) path))
         success-handler (fn [resp]
                           (re-frame/dispatch [::set-textiles-info resp]))

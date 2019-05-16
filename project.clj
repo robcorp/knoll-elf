@@ -5,7 +5,9 @@
                  [re-frame "0.10.6"]
                  [cljs-ajax "0.8.0"]
                  [day8.re-frame/http-fx "0.1.6"]
-                 [com.rpl/specter "1.1.2"]]
+                 [com.rpl/specter "1.1.2"]
+                 [cljsjs/clipboard "2.0.4-0"]
+                 #_[cljsjs/tether "1.4.0-0"]]
 
   :plugins [[lein-cljsbuild "1.1.7"]]
 

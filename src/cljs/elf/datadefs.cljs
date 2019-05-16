@@ -1,6 +1,4 @@
-(ns elf.datadefs
-  (:require [com.rpl.specter :refer [ALL multi-path walker] :refer-macros [select select-first setval] :as spctr]))
-
+(ns elf.datadefs)
 
 (defonce lead-time-filters
   [{:lead-time "all" :id "all-lead" :label "All lead Times" :value true :li-id "all" :li-class "all-lead-type"}
