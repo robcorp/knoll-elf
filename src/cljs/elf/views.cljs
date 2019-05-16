@@ -326,6 +326,18 @@
       [:img {:src (str "https://www.knoll.com/textileimages/th/" part primarySku ".jpg")}]]
      [:p name]]))
 
+(defn- create-leather-swatch [i leather]
+  (let [name (:Name leather)
+        part (:PartNum leather)
+        grade (:Grade leather)
+        image (:LeatherImage leather)]
+
+    ^{:key (str grade "-" part)}
+    [:li {:data-tab (str "fabric-" part "-tab")}
+     [:div.swatch-div
+      [:img {:src (str "https://www.knoll.com/nkdc/images/essentials/essentials-leathers/" image)}]]
+     [:p name]]))
+
 (defn- create-fabric-grade-tab [i [grade fabs]]
   (when grade
     ^{:key (str "grade-" grade "-tab")}
@@ -384,17 +396,30 @@
   (let [fabs (case lead-time
                "std" (<sub [::subs/selected-product-all-textiles])
                "three-week" (<sub [::subs/selected-product-essential-textiles]))
+        leathers (case lead-time
+                   "std" (<sub [::subs/selected-product-all-leathers])
+                   "three-week" (<sub [::subs/selected-product-essential-leathers]))
         grades (->> fabs keys sort)]
-    
+
     (when (pos? (count fabs))
       [:div.upholstery-list-wrap
        [:h4 "Approved Fabrics"]
        [:div.tab-main
         [:label "Grade:"]
         [:ul.upholstery-types-list
-         (map-indexed create-fabric-grade-pill grades)]]
+         (map-indexed create-fabric-grade-pill grades)
+         (when leathers
+           [:li {:data-tab (str "grade-" "leather")
+                 :on-click fabric-grade-pill-clicked}
+            [:a {:href "javascript:;"} "Leather"]])]]
        [:div.upholstery-tab-wrap
-        (map-indexed create-fabric-grade-tab (sort fabs))]
+        (map-indexed create-fabric-grade-tab (sort fabs))
+        (when leathers
+          [:div {:id (str "grade-" "leather")
+                 :class "upholstery-tab-content" }
+           [:h5.print-show "Leather"]
+           [:ul.upholstery-textile-list
+            (map-indexed create-leather-swatch (sort-by :Name leathers))]])]
        [:div.sub-tab-wrap
         (for [fab (sort fabs)]
           (create-fabric-grade-sub-tab lead-time fab))]])))

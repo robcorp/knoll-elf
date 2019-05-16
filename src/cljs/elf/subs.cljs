@@ -83,6 +83,32 @@
  (fn [textiles]
    (group-by :Grade (select [spctr/MAP-VALS ALL #(not-empty (:EssntlSKUs %))] textiles))))
 
+(reg-sub ::selected-product-all-leathers
+         (fn [_]
+           [(re-frame/subscribe [::selected-product])
+            (re-frame/subscribe [::textiles-info])
+            (re-frame/subscribe [::textiles-approvals])])
+
+         (fn [[selected-prod info approvals]]
+           (let [partnums (->> selected-prod
+                               :apprvId
+                               keyword
+                               (get approvals)
+                               (map str/trim)
+                               (filter not-empty)
+                               (filter #(not (re-find #"[0-9]+" %))))
+                 get-leather-info (fn [partnum]
+                                    (select-first [ALL #(= (:PartNum %) partnum)] info))]
+
+             (map get-leather-info partnums))))
+
+(reg-sub ::selected-product-essential-leathers
+         (fn [_]
+           [(re-frame/subscribe [::selected-product-all-leathers])])
+
+         (fn [[all-leathers]]
+           (filter #(= "yes" (str/lower-case (:EssntlSKUs %))) all-leathers)))
+
 (reg-sub ::lead-time-filters
          :lead-time-filters)
 
