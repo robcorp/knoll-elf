@@ -408,13 +408,13 @@
         [:label "Grade:"]
         [:ul.upholstery-types-list
          (map-indexed create-fabric-grade-pill grades)
-         (when leathers
+         (when (seq leathers)
            [:li {:data-tab (str "grade-" "leather")
                  :on-click fabric-grade-pill-clicked}
             [:a {:href "javascript:;"} "Leather"]])]]
        [:div.upholstery-tab-wrap
         (map-indexed create-fabric-grade-tab (sort fabs))
-        (when leathers
+        (when (seq leathers)
           [:div {:id (str "grade-" "leather")
                  :class "upholstery-tab-content" }
            [:h5.print-show "Leather"]
