@@ -74,4 +74,6 @@
                                    :product-category :screensCats
                                    :items [{:label "All" :value false}
                                            {:label "Screens & Dividers" :value false}
-                                           {:label "Communication Boards" :value false}]})})
+                                           {:label "Communication Boards" :value false}]})
+   :textiles-approvals nil
+   :textiles-info nil})

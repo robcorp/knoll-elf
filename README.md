@@ -1,6 +1,7 @@
-# essentials-frontend-re-frame
+# ELF
+(**E**ssentials **L**ead-times and **F**inishes)
 
-A [re-frame](https://github.com/Day8/re-frame) application designed to ... well, that part is up to you.
+A [re-frame](https://github.com/Day8/re-frame) application designed to display Essentials Products Lead-times and Finishes
 
 ## Development Mode
 
@@ -35,5 +36,5 @@ To compile clojurescript to javascript:
 
 ```
 lein clean
-lein cljsbuild once min
+lein cljsbuild once advanced
 ```

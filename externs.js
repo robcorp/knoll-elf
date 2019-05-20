@@ -1,6 +1,8 @@
 var $ = function(){};
 $.magnificPopup = function(){};
 $.owlCarousel = function(){};
+$.autocomplete = function(){};
+
 
 /*
 $.click = function(){};

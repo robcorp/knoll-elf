@@ -6,3 +6,6 @@ out
 .nrepl-port
 .rebel_readline_history
 /elf.org
+ELF.sjson/
+.idea/
+/elf.iml

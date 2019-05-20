@@ -8,17 +8,19 @@
             [clojure.string :as str]))
 
 
-(declare load-all-products load-filter-options filter-category-products)
+(declare load-textiles-approvals load-textiles-info load-fabric-data load-all-products load-filter-options filter-category-products)
 
 (reg-event-db
  ::initialize-db
  (fn-traced [_ _]
-   (load-filter-options "ELFSeatingSelector")
-   (load-filter-options "ELFTableSelector")
-   (load-filter-options "ELFStorageSelector")
-   (load-filter-options "ELFPowerAndDataSelector")
-   (load-filter-options "ELFWorkToolsSelector")
-   (load-filter-options "ELFScreensAndBoardsSelector")
+   (load-textiles-approvals)
+   (load-textiles-info)
+   (run! load-filter-options ["ELFSeatingSelector"
+                              "ELFTableSelector"
+                              "ELFStorageSelector"
+                              "ELFPowerAndDataSelector"
+                              "ELFWorkToolsSelector"
+                              "ELFScreensAndBoardsSelector"])
    (load-all-products)
    (let [db db/default-db]
      (filter-category-products db (:filtered-products db)))))
@@ -34,14 +36,14 @@
         category-key (:product-category selected-filter)
         cat-products (sort-by :title
                               #(compare (str/lower-case %1) (str/lower-case %2))
-                              (filter #(not (empty? (category-key %))) products))
+                              (filter #(seq (category-key %)) products))
         label (:description selected-filter)
-        no-product-filters-selected? (not (some true? (select (multi-path [:ELFSeatingSelector :items ALL :value]
-                                                                          [:ELFTableSelector :items ALL :value]
-                                                                          [:ELFStorageSelector :items ALL :value]
-                                                                          [:ELFPowerAndDataSelector :items ALL :value]
-                                                                          [:ELFWorkToolsSelector :items ALL :value]
-                                                                          [:ELFScreensAndBoardsSelector :items ALL :value]) db)))
+        no-product-filters-selected? (not-any? true? (select (multi-path [:ELFSeatingSelector :items ALL :value]
+                                                                         [:ELFTableSelector :items ALL :value]
+                                                                         [:ELFStorageSelector :items ALL :value]
+                                                                         [:ELFPowerAndDataSelector :items ALL :value]
+                                                                         [:ELFWorkToolsSelector :items ALL :value]
+                                                                         [:ELFScreensAndBoardsSelector :items ALL :value]) db))
         categories (if no-product-filters-selected?
                      (select [:items ALL :label #(not= "All" %)] selected-filter)
                      (set (select [:items ALL #(true? (:value %)) :label] selected-filter)))]
@@ -80,6 +82,21 @@
      (.setItem js/localStorage selector filter-options)
      (assoc db selector-key filter-options))))
 
+(reg-event-db
+ ::set-textiles-approvals
+ (fn-traced [db [_ approvals]]
+   (assoc db :textiles-approvals approvals)))
+
+(reg-event-db
+ ::set-textiles-info
+ (fn-traced [db [_ info]]
+   (assoc db :textiles-info info)))
+
+(reg-event-db
+ ::set-fabric-colors
+ (fn [db [_ partnum colors]]
+   (let [color-names-skus (map (fn [c] [(:SkuNumber c) (:ColorName c)]) colors)]
+     (setval [:textiles-info ALL #(= partnum (:PartNum %)) :FabricColors] color-names-skus db))))
 
 (defn- update-lead-time-filter-state [selected-filter filters]
   (->> filters
@@ -96,8 +113,7 @@
  (fn-traced [db [_ lead-time] event]
    (let [updated-lead-time-filters (update-lead-time-filter-state lead-time (:lead-time-filters db))
          selected-lead-times (set (select [ALL #(true? (:value %)) :lead-time] updated-lead-time-filters))
-         filtered-products (->> (:all-products db)
-                                (filter-products-by-lead-times selected-lead-times))]
+         filtered-products (filter-products-by-lead-times selected-lead-times (:all-products db))]
 
      (-> db
          (assoc
@@ -136,12 +152,12 @@
 
 (defn- clear-all-product-filters [db]
   (setval (multi-path [:ELFSeatingSelector :items ALL :value]
-                       [:ELFTableSelector :items ALL :value]
-                       [:ELFStorageSelector :items ALL :value]
-                       [:ELFPowerAndDataSelector :items ALL :value]
-                       [:ELFWorkToolsSelector :items ALL :value]
-                       [:ELFScreensAndBoardsSelector :items ALL :value])
-           false db))
+                      [:ELFTableSelector :items ALL :value]
+                      [:ELFStorageSelector :items ALL :value]
+                      [:ELFPowerAndDataSelector :items ALL :value]
+                      [:ELFWorkToolsSelector :items ALL :value]
+                      [:ELFScreensAndBoardsSelector :items ALL :value])
+          false db))
 
 (reg-event-db
  ::reset-product-type-filters
@@ -150,44 +166,88 @@
        (clear-all-product-filters)
        (filter-category-products (:filtered-products db)))))
 
+(defn- popupheight []
+  (let [windowheight (.-innerHeight js/window)
+        popupheight (.innerHeight (js/$ ".essentials-modal-wrap"))
+        popupimgheight (.innerHeight (js/$ ".essentials-product-img-wrap"))
+        topproimgheight (.innerHeight (js/$ ".essentials-product-img"))
+        contentheight (+ popupimgheight (- popupheight topproimgheight))]
+    
+    #_(println "windowheight: " windowheight)
+    #_(println "popupheight: " popupheight)
+    #_(println "popupimgheight: " popupimgheight)
+    #_(println "topproimgheight: " topproimgheight)
+    #_(println "contentheight: " contentheight)
+    (if (> topproimgheight windowheight)
+      (println "topproimgheight is greater than windowheight"))))
+
+(defn- setup-popup []
+  (.. js/$ -magnificPopup
+      (open (clj->js {:type "inline"
+                      :midClick true
+                      :showCloseBtn false
+                      :items {:src "#essentials-modal"}
+                      :callbacks {:open popupheight
+                                  :close #(.pushState js/history nil nil (.-pathname js/location))}}))))
+
+(defn- setup-owl-carousel []
+  ;; create the carousel (mainly for styling and rendering the
+  ;; navigation arrows, since we don't actually scroll left or
+  ;; right for next / previous
+  (.. (js/$ ".owl-popup-div")
+      (owlCarousel (clj->js {:items 1
+                             :responsiveClass true
+                             :margin 0
+                             :dots false
+                             :nav true
+                             :loop false
+                             :autoHeight true
+                             :touchDrag true
+                             :mouseDrag true})))
+
+  ;; set up click events for next / previous navigation arrows
+  (.. (js/$ ".owl-next")
+      (unbind "click")
+      (click #(re-frame/dispatch [::select-next-product])))
+
+  (.. (js/$ ".owl-prev")
+      (unbind "click")
+      (click #(re-frame/dispatch [::select-previous-product]))))
+
 (reg-event-db
  ::product-selected
  (fn-traced [db [_ label epp-id] event]
-            (.. js/$ -magnificPopup
-                (open (clj->js {:type "inline"
-                                :midClick true
-                                :showCloseBtn false
-                                :items {:src "#essentials-modal"}})))
-            
-            (.. (js/$ ".owl-popup-div")
-                (owlCarousel (clj->js {:items 1
-                                       :responsiveClass true
-                                       :margin 0
-                                       :dots false
-                                       :nav true
-                                       :loop false
-                                       :autoHeight true
-                                       :touchDrag true
-                                       :mouseDrag true})))
-            
-            (.. (js/$ ".owl-next")
-                (unbind "click")
-                (click #(re-frame/dispatch [::select-next-product])))
+            ;; show the popup
+            (if-not false #_config/debug?
+                    (setup-popup))
 
-            (.. (js/$ ".owl-prev")
-                (unbind "click")
-                (click #(re-frame/dispatch [::select-previous-product])))
+            (setup-owl-carousel)
 
-            #_(.. (js/$ ".popup-tab-wrap") mCustomScrollbar)
             
+            ;; change the URL to include the pop param
+            (.pushState js/history nil nil (str (.-pathname js/location) "?pop=" epp-id))
+
+
+            ;; update the :selected-epp-id in the app db with the selected product's
+            ;; label and epp-id
             (assoc db :selected-epp-id [label epp-id])))
 
+(reg-event-db
+ ::show-fabric-skus
+ (fn-traced [db [evt partnum]]
+   ;; if FabricColors don't exist in the db for the partnum,
+   ;; call textiles webservice with partnums.
+   ;; Otherwise, just return the db untouched
+   (if-not (spctr/select-first [:textiles-info ALL #(= partnum (:PartNum %)) :FabricColors] db)
+     (load-fabric-data partnum))
+
+   db))
 
 (defn- load-all-products []
   (let [path "/cs/Satellite?pagename=Knoll/Common/Utils/EssentialsPopupProductsJSON"
         all-products-url (if config/debug?
                            (if config/use-local-products?
-                             "http://localhost:3449/all-products.json" ;; use the local file - this file should be updated periodically using the json from prod or staging
+                             "/js/elf/all-products.json" ;; use the local file - this file should be updated periodically using the json from prod or staging
                              (str "http://knlprdwcsmgt1.knoll.com" path)) ;; use staging url
                            (str (.. js/window -location -origin) path)) ;; use the host of the current browser window
         success-handler (fn [resp]
@@ -201,7 +261,7 @@
 (defn- load-filter-options [selector]
   (let [baseURL (if config/debug?
                   "http://knlprdwcsmgt1.knoll.com"
-                  (str (.. js/window -location -origin) ))
+                  (str (.. js/window -location -origin)))
         presentationObjectItemsURL (str baseURL "/cs/Satellite?pagename=Knoll/Common/Utils/PresentationObjectItemsJSON&presentationObject=" selector)
         success-handler (fn [resp]
                           (re-frame/dispatch [::set-filter-options selector (:presentationObjectItems resp)]))
@@ -240,11 +300,68 @@
 (reg-event-db
  ::select-previous-product
  (fn [db _]
-   (let [prev-prod (previous-visible-prod-id db)]
+   (let [prev-prod (previous-visible-prod-id db)
+         [_ epp-id] prev-prod]
+
+     ;; change the URL to include the pop param
+     (.pushState js/history nil nil (str (.-pathname js/location) "?pop=" epp-id))
+
      (assoc db :selected-epp-id prev-prod))))
 
 (reg-event-db
  ::select-next-product
  (fn [db _]
-   (let [next-prod (next-visible-prod-id db)]
+   (let [next-prod (next-visible-prod-id db)
+         [_ epp-id] next-prod]
+
+     ;; change the URL to include the pop param
+     (.pushState js/history nil nil (str (.-pathname js/location) "?pop=" epp-id))
+
      (assoc db :selected-epp-id next-prod))))
+
+
+(defn- load-textiles-approvals []
+  (let [path "/js/elf/knolltextiles_approvals.json"
+        url (if config/debug?
+              path
+              (str (.. js/window -location -origin) path))
+        success-handler (fn [resp]
+                          (re-frame/dispatch [::set-textiles-approvals resp]))
+        error-handler (fn [{:keys [status status-text]}]
+                        (.log js/console (str "Ajax request to get knolltextiles-approvals failed: " status " " status-text))
+                        #_(re-frame/dispatch [::use-default-db]))]
+
+    (ajax/GET url {:timeout 90000 :handler success-handler :error-handler error-handler :response-format :json :keywords? true})))
+
+(defn- load-textiles-info []
+  (let [path "/js/elf/knolltextiles_info.json"
+        url (if config/debug?
+              path ;; use the local
+              (str (.. js/window -location -origin) path))
+        success-handler (fn [resp]
+                          (re-frame/dispatch [::set-textiles-info resp]))
+        error-handler (fn [{:keys [status status-text]}]
+                        (.log js/console (str "Ajax request to get knolltextiles-info failed: " status " " status-text))
+                        #_(re-frame/dispatch [::use-default-db]))]
+
+    (ajax/GET url {:timeout 90000 :handler success-handler :error-handler error-handler :response-format :json :keywords? true})))
+
+(defn- load-fabric-data
+  "Call the textiles webservice with the provided partnum"
+  [partnum]
+  (let [baseURL (if config/debug?
+                  "https://www.knoll.com" #_"http://knlprdwcsmgt1.knoll.com"
+                  ;; prod server is fast, but staging server may have updated
+                  ;; data not yet in prod.
+                  (str (.. js/window -location -origin)))
+        textileWSURL (str baseURL "/textiles/" (str/replace partnum #"^[a-zA-Z]*" ""))
+        success-handler (fn [resp]
+                          (re-frame/dispatch [::set-fabric-colors partnum (:FabricColors resp)]))
+
+        error-handler (fn [{:keys [status status-text]}]
+                        (.log js/console (str "Ajax request failed: " status " " status-text)))]
+
+    (ajax/GET textileWSURL {:handler success-handler
+                            :error-handler error-handler
+                            :response-format :json
+                            :keywords? true})))
