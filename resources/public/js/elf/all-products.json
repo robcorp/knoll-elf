@@ -1215,260 +1215,6 @@
       "lead-times" : [
         "std"
       ],
-      "short-text" : "<p>Richard Schultz designed the 1966 Collection at the request of Florence Knoll, who wanted well-designed outdoor furniture that would withstand the corrosive salt air at her home in Florida. The Collection was the first truly modern outdoor collection and has been the category standard ever since.</p>",
-      "storageCats" : [],
-      "screensCats" : [],
-      "epp-id" : "1356390548382",
-      "seatingCats" : [
-        "Outdoor",
-        "Stools"
-      ],
-      "apprvId" : "",
-      "tableCats" : [],
-      "excl3wk" : "",
-      "availFinMods" : [
-        {
-          "id" : "1356416853490",
-          "title" : "Options",
-          "std" : {
-            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Counter Height</td>\r\n\t\t\t<td>19&quot;</td>\r\n\t\t\t<td>24.25&quot;</td>\r\n\t\t\t<td>39.25&quot;</td>\r\n\t\t\t<td>26&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Bar Height</td>\r\n\t\t\t<td>19&quot;</td>\r\n\t\t\t<td>24.25&quot;</td>\r\n\t\t\t<td>44.5&quot;</td>\r\n\t\t\t<td>31&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
-            "fins" : []
-          },
-          "three-week" : {
-            "optsTxt" : "",
-            "fins" : []
-          },
-          "quick" : {
-            "optsTxt" : "<div>\r\n<div>&nbsp;</div>\r\n</div>\r\n",
-            "fins" : []
-          }
-        },
-        {
-          "id" : "1352941180668",
-          "title" : "Powder Coat",
-          "std" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1347383016362",
-                "color" : "White ",
-                "img" : "/413/792/Thumb_PNTRSDW,2.png",
-                "type" : "Paint"
-              },
-              {
-                "id" : "1347383015944",
-                "color" : "Light Bronze ",
-                "img" : "/162/177/Thumb_PNTRSD13,2.png",
-                "type" : "Paint"
-              },
-              {
-                "id" : "1347383016291",
-                "color" : "Weatherable Silver ",
-                "img" : "/413/549/Thumb_PNTRSDS,0.png",
-                "type" : "Paint"
-              },
-              {
-                "id" : "1347383016255",
-                "color" : "Onyx ",
-                "img" : "/405/745/Thumb_PNTRSDO,2.png",
-                "type" : "Paint"
-              },
-              {
-                "id" : "1347383015844",
-                "color" : "Warm Wood ",
-                "img" : "/289/299/Thumb_PNTRSD12,2.png",
-                "type" : "Paint"
-              },
-              {
-                "id" : "1352940014749",
-                "color" : "Warm Bronze",
-                "img" : "/139/733/Thumb_POR16,6.png",
-                "type" : "Paint"
-              },
-              {
-                "id" : "1347383016197",
-                "color" : "Chestnut ",
-                "img" : "/532/867/Thumb_PNTRSDN,2.png",
-                "type" : "Paint"
-              },
-              {
-                "id" : "1347383016037",
-                "color" : "Dark Bronze ",
-                "img" : "/935/92/Thumb_PNTRSD14,2.png",
-                "type" : "Paint"
-              },
-              {
-                "id" : "1353005351429",
-                "color" : "Green",
-                "img" : "/195/719/Thumb_green,2.png",
-                "type" : "Paint"
-              },
-              {
-                "id" : "1352940658590",
-                "color" : "Blue",
-                "img" : "/271/813/Thumb_Olivares Powder Coat Paint_Blue_BLU,2.png",
-                "type" : "Paint"
-              },
-              {
-                "id" : "1347383015561",
-                "color" : "Sky Blue ",
-                "img" : "/889/68/Thumb_PNTRSD3,0.png",
-                "type" : "Paint"
-              },
-              {
-                "id" : "1352940658189",
-                "color" : "Lime Green",
-                "img" : "/891/412/Thumb_Olivares Powder Coat Paint_Lime Green_LGR,2.png",
-                "type" : "Paint"
-              },
-              {
-                "id" : "1352940658147",
-                "color" : "Yellow",
-                "img" : "/224/985/Thumb_Olivares Powder Coat Paint_Yellow_YEL,2.png",
-                "type" : "Paint"
-              },
-              {
-                "id" : "1352940658347",
-                "color" : "Orange",
-                "img" : "/925/221/Thumb_Olivares Powder Coat Paint_Orange_ORG,2.png",
-                "type" : "Paint"
-              },
-              {
-                "id" : "1352940658389",
-                "color" : "Plum",
-                "img" : "/138/523/Thumb_PLM,2.png",
-                "type" : "Paint"
-              }
-            ]
-          },
-          "three-week" : {
-            "optsTxt" : "",
-            "fins" : []
-          },
-          "quick" : {
-            "optsTxt" : "",
-            "fins" : []
-          }
-        },
-        {
-          "id" : "1352941180007",
-          "title" : "Mesh",
-          "std" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1347383016977",
-                "color" : "White Mesh",
-                "img" : "/1021/583/Thumb_MESHW,0.png",
-                "type" : "Textiles"
-              },
-              {
-                "id" : "1347383016810",
-                "color" : "Grey Tone Mesh",
-                "img" : "/378/950/Thumb_MESHT,0.png",
-                "type" : "Textiles"
-              },
-              {
-                "id" : "1347383016431",
-                "color" : "Aluminum ",
-                "img" : "/743/198/Thumb_MESHA,0.png",
-                "type" : "Textiles"
-              },
-              {
-                "id" : "1347383017048",
-                "color" : "Bronze Mesh",
-                "img" : "/640/217/Thumb_MESHZ,0.png",
-                "type" : "Textiles"
-              },
-              {
-                "id" : "1347383016569",
-                "color" : "Chestnut Mesh",
-                "img" : "/116/659/Thumb_MESHN,0.png",
-                "type" : "Textiles"
-              },
-              {
-                "id" : "1347383016637",
-                "color" : "Onyx Mesh",
-                "img" : "/817/757/Thumb_onyx,0.png",
-                "type" : "Textiles"
-              }
-            ]
-          },
-          "three-week" : {
-            "optsTxt" : "",
-            "fins" : []
-          },
-          "quick" : {
-            "optsTxt" : "",
-            "fins" : []
-          }
-        },
-        {
-          "id" : "1352941180142",
-          "title" : "Strap",
-          "std" : {
-            "optsTxt" : "",
-            "fins" : [
-              {
-                "id" : "1347383020954",
-                "color" : "White Strap",
-                "img" : "/970/877/Thumb_STRAPW,0.png",
-                "type" : "Textiles"
-              },
-              {
-                "id" : "1347383020716",
-                "color" : "Grey Strap",
-                "img" : "/382/147/Thumb_STRAPG,0.png",
-                "type" : "Textiles"
-              },
-              {
-                "id" : "1347383020752",
-                "color" : "Onyx Strap",
-                "img" : "/962/830/Thumb_STRAPO,0.png",
-                "type" : "Textiles"
-              },
-              {
-                "id" : "1347383020867",
-                "color" : "Sand Strap",
-                "img" : "/454/342/Thumb_STRAPS,2.png",
-                "type" : "Textiles"
-              },
-              {
-                "id" : "1352939463639",
-                "color" : "Bronze Strap",
-                "img" : "/589/511/Thumb_STRAPZ,0.png",
-                "type" : "Textiles"
-              },
-              {
-                "id" : "1352939463547",
-                "color" : "Brown Strap",
-                "img" : "/565/370/Thumb_STRAPB,0.png",
-                "type" : "Textiles"
-              }
-            ]
-          },
-          "three-week" : {
-            "optsTxt" : "",
-            "fins" : []
-          },
-          "quick" : {
-            "optsTxt" : "",
-            "fins" : []
-          }
-        }
-      ],
-      "title" : "1966 Barstool",
-      "thumb-img" : "/1013/419/1966-stool_thumb.jpg",
-      "hero1-img" : "/235/825/1966-stool_hero.jpg",
-      "workCats" : [],
-      "name" : "ES 1966 Barstool",
-      "powerCats" : [],
-      "product-id" : "1966-barstool"
-    },
-    {
-      "lead-times" : [
-        "std"
-      ],
       "short-text" : "<p>The Lounge Collection unites casual comfort with refined elegance and adds a dash of high-fashion. The stunning design explores the contrast between soft and hard, with an inviting, upholstered core enveloped by a rigid exterior surround. A signature leg elegantly delivers the lounge to the floor.</p>",
       "storageCats" : [],
       "screensCats" : [],
@@ -8414,7 +8160,7 @@
           "id" : "1356400040127",
           "title" : "Options",
           "std" : {
-            "optsTxt" : "<link href=\"/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Worksurface:</span><span class=\"essop-option\">Rectangular, Round, Square</span></p>\r\n\r\n<p><span class=\"essop-title\">Worksurface Material:</span><span class=\"essop-option\">Laminate, Veneer</span></p>\r\n\r\n<p><span class=\"essop-title\">Grommet:</span><span class=\"essop-option\">No Grommet, Round&nbsp;Grommet</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Legs:</span><span class=\"essop-option\">Smooth Paint</span></p>\r\n\r\n<p><span class=\"essop-title\">Feet:</span><span class=\"essop-option\">Casters, Adjustable Glides (high or low range)</span></p>\r\n</div>\r\n\r\n\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h<br />\r\n\t\t\t(adj. glides)</th>\r\n\t\t\t<th>h<br />\r\n\t\t\t(casters)</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Square and Round Top</td>\r\n\t\t\t<td>36 / 42 &quot;</td>\r\n\t\t\t<td>&ndash;</td>\r\n\t\t\t<td>25.8-28.5&quot; or 28.5-31.5&quot;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Racetrack Top</td>\r\n\t\t\t<td>72&quot;</td>\r\n\t\t\t<td>36&quot;</td>\r\n\t\t\t<td>25.8-28.5&quot; or 28.5-31.5&quot;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Rectangle Top</td>\r\n\t\t\t<td>\r\n\t\t\t<div>36 &ndash; 84&quot;</div>\r\n\r\n\t\t\t<div>(6&quot; increments)</div>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<div>18 &ndash; 36&quot;</div>\r\n\r\n\t\t\t<div>(6&quot; increments)</div>\r\n\t\t\t</td>\r\n\t\t\t<td>25.8-28.5&quot; or 28.5-31.5&quot;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>",
+            "optsTxt" : "<link href=\"/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Worksurface:</span><span class=\"essop-option\">Rectangular, Round, Square</span></p>\r\n\r\n<p><span class=\"essop-title\">Worksurface Material:</span><span class=\"essop-option\">Laminate, Veneer</span></p>\r\n\r\n<p><span class=\"essop-title\">Grommet:</span><span class=\"essop-option\">No Grommet, Round&nbsp;Grommet</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Legs:</span><span class=\"essop-option\">Smooth Paint</span></p>\r\n\r\n<p><span class=\"essop-title\">Feet:</span><span class=\"essop-option\">Casters, Adjustable Glides (high or low range)</span></p>\r\n</div>\r\n\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h<br />\r\n\t\t\t(adj. glides)</th>\r\n\t\t\t<th>h<br />\r\n\t\t\t(casters)</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Square and Round Top</td>\r\n\t\t\t<td>36 / 42 &quot;</td>\r\n\t\t\t<td>&ndash;</td>\r\n\t\t\t<td>25.8-28.5&quot; or 28.5-31.5&quot;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Racetrack Top</td>\r\n\t\t\t<td>72&quot;</td>\r\n\t\t\t<td>36&quot;</td>\r\n\t\t\t<td>25.8-28.5&quot; or 28.5-31.5&quot;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Rectangle Top</td>\r\n\t\t\t<td>\r\n\t\t\t<div>36 &ndash; 84&quot;</div>\r\n\r\n\t\t\t<div>(6&quot; increments)</div>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<div>18 &ndash; 36&quot;</div>\r\n\r\n\t\t\t<div>(6&quot; increments)</div>\r\n\t\t\t</td>\r\n\t\t\t<td>25.8-28.5&quot; or 28.5-31.5&quot;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>120 Degrees</td>\r\n\t\t\t<td>\r\n\t\t\t<div>36 &ndash; 84&quot;</div>\r\n\r\n\t\t\t<div>(6&quot; increments)</div>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<div>18 &ndash; 36&quot;</div>\r\n\r\n\t\t\t<div>(6&quot; increments)</div>\r\n\t\t\t</td>\r\n\t\t\t<td>25.8-28.5&quot; or 28.5-31.5&quot;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
             "fins" : []
           },
           "three-week" : {
@@ -8422,7 +8168,7 @@
             "fins" : []
           },
           "quick" : {
-            "optsTxt" : "<link href=\"/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Worksurface:</span><span class=\"essop-option\">Rectangular, Round, Square</span></p>\r\n\r\n<p><span class=\"essop-title\">Worksurface Material:</span><span class=\"essop-option\">Laminate</span></p>\r\n\r\n<p><span class=\"essop-title\">Grommet:</span><span class=\"essop-option\">No Grommet</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Legs:</span><span class=\"essop-option\">Smooth Paint</span></p>\r\n\r\n<p><span class=\"essop-title\">Feet:</span><span class=\"essop-option\">Casters, Adjustable Glides (high range only)</span></p>\r\n</div>\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 25)</span></p>\r\n</div>\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>\r\n\t\t\t<div>h</div>\r\n\r\n\t\t\t<div>(adj. glides)</div>\r\n\t\t\t</th>\r\n\t\t\t<th>h<br />\r\n\t\t\t(casters)</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Square and Round Top</td>\r\n\t\t\t<td>36 / 42 &quot;</td>\r\n\t\t\t<td>&ndash;</td>\r\n\t\t\t<td>28.5-31.5&quot;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Rectangle Top</td>\r\n\t\t\t<td>60&quot;</td>\r\n\t\t\t<td>30&quot;</td>\r\n\t\t\t<td>28.5-31.5&quot;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>72</td>\r\n\t\t\t<td>36&quot;</td>\r\n\t\t\t<td>28.5-31.5&quot;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>",
+            "optsTxt" : "<link href=\"/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Worksurface:</span><span class=\"essop-option\">Rectangular, Round, Square</span></p>\r\n\r\n<p><span class=\"essop-title\">Worksurface Material:</span><span class=\"essop-option\">Laminate</span></p>\r\n\r\n<p><span class=\"essop-title\">Grommet:</span><span class=\"essop-option\">No Grommet</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Legs:</span><span class=\"essop-option\">Smooth Paint</span></p>\r\n\r\n<p><span class=\"essop-title\">Feet:</span><span class=\"essop-option\">Casters, Adjustable Glides (high range only)</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 25)</span></p>\r\n</div>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>\r\n\t\t\t<div>h</div>\r\n\r\n\t\t\t<div>(adj. glides)</div>\r\n\t\t\t</th>\r\n\t\t\t<th>h<br />\r\n\t\t\t(casters)</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Square and Round Top</td>\r\n\t\t\t<td>36&quot;</td>\r\n\t\t\t<td>&ndash;</td>\r\n\t\t\t<td>28.5-31.5&quot;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Rectangle Top</td>\r\n\t\t\t<td>60&quot;</td>\r\n\t\t\t<td>30&quot;</td>\r\n\t\t\t<td>28.5-31.5&quot;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>72</td>\r\n\t\t\t<td>36&quot;</td>\r\n\t\t\t<td>28.5-31.5&quot;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
             "fins" : []
           }
         },
@@ -24014,11 +23760,11 @@
           "id" : "1356404752912",
           "title" : "Options",
           "std" : {
-            "optsTxt" : "<link href=\"/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Worksurface:</span><span class=\"essop-option\">Rectangular, Round, Square</span></p>\r\n\r\n<p><span class=\"essop-title\">Worksurface Material:</span><span class=\"essop-option\">Laminate, Veneer, Mixed, Glass</span></p>\r\n\r\n<p><span class=\"essop-title\">Grommet:</span><span class=\"essop-option\">No Grommet</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Legs:</span><span class=\"essop-option\">Textured Paint, Chrome, Clear Finish on Steel</span></p>\r\n\r\n<p><span class=\"essop-title\">Feet:</span><span class=\"essop-option\">Glides</span></p>\r\n</div>\r\n</div>\r\n\r\n<p><span class=\"essop-title\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<p>\r\n<style type=\"text/css\">table, th, td {\r\n    border-collapse: collapse;\r\n}\r\nth, td {\r\n    padding: 3px 6px 5px 0px;\r\n}\r\ntd {  \r\n  color: #777;\r\n  font: 11px/13px 'HelveticaNeueW01-55Roma', Arial, Helvetica, sans-serif;}\r\nth {\r\n    color: #777;\r\n  font: 11px/13px 'HelveticaNeueW01-75Bold', Arial, Helvetica, sans-serif;text-align: left;\r\n}\r\n</style>\r\n</p>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>Square Top</td>\r\n\t\t\t<td>30&quot;</td>\r\n\t\t\t<td>&ndash;</td>\r\n\t\t\t<td>18.5 / 24.5 / 28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>36 / 42 / 48&quot;</td>\r\n\t\t\t<td>&ndash;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>Round Top</td>\r\n\t\t\t<td>42&quot;</td>\r\n\t\t\t<td>&ndash;</td>\r\n\t\t\t<td>18.5 / 24.5 / 28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>48&quot;</td>\r\n\t\t\t<td>&ndash;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>Rectangular Top</td>\r\n\t\t\t<td>48&quot;</td>\r\n\t\t\t<td>24&quot;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>54&quot;</td>\r\n\t\t\t<td>27&quot;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>60&quot;</td>\r\n\t\t\t<td>30&quot;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>72&quot;</td>\r\n\t\t\t<td>36&quot;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>84&quot;</td>\r\n\t\t\t<td>42&quot;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n",
+            "optsTxt" : "<link href=\"/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Worksurface:</span><span class=\"essop-option\">Rectangular, Round, Square</span></p>\r\n\r\n<p><span class=\"essop-title\">Worksurface Material:</span><span class=\"essop-option\">Laminate, Veneer, Mixed, Glass</span></p>\r\n\r\n<p><span class=\"essop-title\">Grommet:</span><span class=\"essop-option\">No Grommet</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Legs:</span><span class=\"essop-option\">Textured Paint, Chrome, Clear Finish on Steel</span></p>\r\n\r\n<p><span class=\"essop-title\">Feet:</span><span class=\"essop-option\">Glides</span></p>\r\n</div>\r\n</div>\r\n\r\n<p><span class=\"essop-title\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<p>\r\n<style type=\"text/css\">table, th, td {\r\n    border-collapse: collapse;\r\n}\r\nth, td {\r\n    padding: 3px 6px 5px 0px;\r\n}\r\ntd {  \r\n  color: #777;\r\n  font: 11px/13px 'HelveticaNeueW01-55Roma', Arial, Helvetica, sans-serif;}\r\nth {\r\n    color: #777;\r\n  font: 11px/13px 'HelveticaNeueW01-75Bold', Arial, Helvetica, sans-serif;text-align: left;\r\n}\r\n</style>\r\n</p>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>Square Top</td>\r\n\t\t\t<td>30&quot;</td>\r\n\t\t\t<td>&ndash;</td>\r\n\t\t\t<td>18.5 / 24.5 / 28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>36 / 42 / 48&quot;</td>\r\n\t\t\t<td>&ndash;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>Round Top</td>\r\n\t\t\t<td>42&quot;</td>\r\n\t\t\t<td>&ndash;</td>\r\n\t\t\t<td>18.5 / 24.5 / 28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>48&quot;</td>\r\n\t\t\t<td>&ndash;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>Rectangular Top</td>\r\n\t\t\t<td>48&quot;</td>\r\n\t\t\t<td>24&quot;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>54&quot;</td>\r\n\t\t\t<td>27&quot;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>60&quot;</td>\r\n\t\t\t<td>30&quot;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>72&quot;</td>\r\n\t\t\t<td>36&quot;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>84&quot;</td>\r\n\t\t\t<td>42&quot;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n        <tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>Racetrack Top</td>\r\n\t\t\t<td>72&quot;</td>\r\n\t\t\t<td>36&quot;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>84&quot;</td>\r\n\t\t\t<td>42&quot;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n",
             "fins" : []
           },
           "three-week" : {
-            "optsTxt" : "<link href=\"/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Worksurface:</span><span class=\"essop-option\">Rectangular, Round, Square</span></p>\r\n\r\n<p><span class=\"essop-title\">Worksurface Material:</span><span class=\"essop-option\">Laminate</span></p>\r\n\r\n<p><span class=\"essop-title\">Grommet:</span><span class=\"essop-option\">No Grommet</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Legs:</span><span class=\"essop-option\">Textured Paint</span></p>\r\n\r\n<p><span class=\"essop-title\">Feet:</span><span class=\"essop-option\">Glides</span></p>\r\n</div>\r\n</div>\r\n\r\n<p><span class=\"essop-title\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<p>\r\n<style type=\"text/css\">table, th, td {\r\n    border-collapse: collapse;\r\n}\r\nth, td {\r\n    padding: 3px 6px 5px 0px;\r\n}\r\ntd {  \r\n  color: #777;\r\n  font: 11px/13px 'HelveticaNeueW01-55Roma', Arial, Helvetica, sans-serif;}\r\nth {\r\n    color: #777;\r\n  font: 11px/13px 'HelveticaNeueW01-75Bold', Arial, Helvetica, sans-serif;text-align: left;\r\n}\r\n</style>\r\n</p>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>Square Top</td>\r\n\t\t\t<td>30&quot;</td>\r\n\t\t\t<td>&ndash;</td>\r\n\t\t\t<td>18.5 / 24.5 / 28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>36 / 42 / 48&quot;</td>\r\n\t\t\t<td>&ndash;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>Round Top</td>\r\n\t\t\t<td>42&quot;</td>\r\n\t\t\t<td>&ndash;</td>\r\n\t\t\t<td>18.5 / 24.5 / 28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>48&quot;</td>\r\n\t\t\t<td>&ndash;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>Rectangular Top</td>\r\n\t\t\t<td>48&quot;</td>\r\n\t\t\t<td>24&quot;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>54&quot;</td>\r\n\t\t\t<td>27&quot;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>60&quot;</td>\r\n\t\t\t<td>30&quot;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>72&quot;</td>\r\n\t\t\t<td>36&quot;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>84&quot;</td>\r\n\t\t\t<td>42&quot;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n",
+            "optsTxt" : "<link href=\"/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Worksurface:</span><span class=\"essop-option\">Rectangular, Round, Square</span></p>\r\n\r\n<p><span class=\"essop-title\">Worksurface Material:</span><span class=\"essop-option\">Laminate</span></p>\r\n\r\n<p><span class=\"essop-title\">Grommet:</span><span class=\"essop-option\">No Grommet</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Legs:</span><span class=\"essop-option\">Textured Paint</span></p>\r\n\r\n<p><span class=\"essop-title\">Feet:</span><span class=\"essop-option\">Glides</span></p>\r\n</div>\r\n</div>\r\n\r\n<p><span class=\"essop-title\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<p>\r\n<style type=\"text/css\">table, th, td {\r\n    border-collapse: collapse;\r\n}\r\nth, td {\r\n    padding: 3px 6px 5px 0px;\r\n}\r\ntd {  \r\n  color: #777;\r\n  font: 11px/13px 'HelveticaNeueW01-55Roma', Arial, Helvetica, sans-serif;}\r\nth {\r\n    color: #777;\r\n  font: 11px/13px 'HelveticaNeueW01-75Bold', Arial, Helvetica, sans-serif;text-align: left;\r\n}\r\n</style>\r\n</p>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>Square Top</td>\r\n\t\t\t<td>30&quot;</td>\r\n\t\t\t<td>&ndash;</td>\r\n\t\t\t<td>18.5 / 24.5 / 28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>36 / 42 / 48&quot;</td>\r\n\t\t\t<td>&ndash;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>Round Top</td>\r\n\t\t\t<td>42&quot;</td>\r\n\t\t\t<td>&ndash;</td>\r\n\t\t\t<td>18.5 / 24.5 / 28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>48&quot;</td>\r\n\t\t\t<td>&ndash;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>Rectangular Top</td>\r\n\t\t\t<td>48&quot;</td>\r\n\t\t\t<td>24&quot;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>54&quot;</td>\r\n\t\t\t<td>27&quot;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>60&quot;</td>\r\n\t\t\t<td>30&quot;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>72&quot;</td>\r\n\t\t\t<td>36&quot;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>84&quot;</td>\r\n\t\t\t<td>42&quot;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>Racetrack Top</td>\r\n\t\t\t<td>72&quot;</td>\r\n\t\t\t<td>36&quot;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>84&quot;</td>\r\n\t\t\t<td>42&quot;</td>\r\n\t\t\t<td>28.5&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n",
             "fins" : []
           },
           "quick" : {
@@ -38652,6 +38398,260 @@
       "name" : "ES ReGeneration by Knoll",
       "powerCats" : [],
       "product-id" : "regeneration-by-knoll"
+    },
+    {
+      "lead-times" : [
+        "std"
+      ],
+      "short-text" : "<p>Richard Schultz designed the 1966 Collection at the request of Florence Knoll, who wanted well-designed outdoor furniture that would withstand the corrosive salt air at her home in Florida. The Collection was the first truly modern outdoor collection and has been the category standard ever since.</p>",
+      "storageCats" : [],
+      "screensCats" : [],
+      "epp-id" : "1356390548382",
+      "seatingCats" : [
+        "Outdoor",
+        "Stools"
+      ],
+      "apprvId" : "",
+      "tableCats" : [],
+      "excl3wk" : "",
+      "availFinMods" : [
+        {
+          "id" : "1356416853490",
+          "title" : "Options",
+          "std" : {
+            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Counter Height</td>\r\n\t\t\t<td>19&quot;</td>\r\n\t\t\t<td>24.25&quot;</td>\r\n\t\t\t<td>39.25&quot;</td>\r\n\t\t\t<td>26&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Bar Height</td>\r\n\t\t\t<td>19&quot;</td>\r\n\t\t\t<td>24.25&quot;</td>\r\n\t\t\t<td>44.5&quot;</td>\r\n\t\t\t<td>31&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins" : []
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "<div>\r\n<div>&nbsp;</div>\r\n</div>\r\n",
+            "fins" : []
+          }
+        },
+        {
+          "id" : "1352941180668",
+          "title" : "Powder Coat",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1347383016362",
+                "color" : "White ",
+                "img" : "/413/792/Thumb_PNTRSDW,2.png",
+                "type" : "Paint"
+              },
+              {
+                "id" : "1347383015944",
+                "color" : "Light Bronze ",
+                "img" : "/162/177/Thumb_PNTRSD13,2.png",
+                "type" : "Paint"
+              },
+              {
+                "id" : "1347383016291",
+                "color" : "Weatherable Silver ",
+                "img" : "/413/549/Thumb_PNTRSDS,0.png",
+                "type" : "Paint"
+              },
+              {
+                "id" : "1347383016255",
+                "color" : "Onyx ",
+                "img" : "/405/745/Thumb_PNTRSDO,2.png",
+                "type" : "Paint"
+              },
+              {
+                "id" : "1347383015844",
+                "color" : "Warm Wood ",
+                "img" : "/289/299/Thumb_PNTRSD12,2.png",
+                "type" : "Paint"
+              },
+              {
+                "id" : "1352940014749",
+                "color" : "Warm Bronze",
+                "img" : "/139/733/Thumb_POR16,6.png",
+                "type" : "Paint"
+              },
+              {
+                "id" : "1347383016197",
+                "color" : "Chestnut ",
+                "img" : "/532/867/Thumb_PNTRSDN,2.png",
+                "type" : "Paint"
+              },
+              {
+                "id" : "1347383016037",
+                "color" : "Dark Bronze ",
+                "img" : "/935/92/Thumb_PNTRSD14,2.png",
+                "type" : "Paint"
+              },
+              {
+                "id" : "1353005351429",
+                "color" : "Green",
+                "img" : "/195/719/Thumb_green,2.png",
+                "type" : "Paint"
+              },
+              {
+                "id" : "1352940658590",
+                "color" : "Blue",
+                "img" : "/271/813/Thumb_Olivares Powder Coat Paint_Blue_BLU,2.png",
+                "type" : "Paint"
+              },
+              {
+                "id" : "1347383015561",
+                "color" : "Sky Blue ",
+                "img" : "/889/68/Thumb_PNTRSD3,0.png",
+                "type" : "Paint"
+              },
+              {
+                "id" : "1352940658189",
+                "color" : "Lime Green",
+                "img" : "/891/412/Thumb_Olivares Powder Coat Paint_Lime Green_LGR,2.png",
+                "type" : "Paint"
+              },
+              {
+                "id" : "1352940658147",
+                "color" : "Yellow",
+                "img" : "/224/985/Thumb_Olivares Powder Coat Paint_Yellow_YEL,2.png",
+                "type" : "Paint"
+              },
+              {
+                "id" : "1352940658347",
+                "color" : "Orange",
+                "img" : "/925/221/Thumb_Olivares Powder Coat Paint_Orange_ORG,2.png",
+                "type" : "Paint"
+              },
+              {
+                "id" : "1352940658389",
+                "color" : "Plum",
+                "img" : "/138/523/Thumb_PLM,2.png",
+                "type" : "Paint"
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        },
+        {
+          "id" : "1352941180007",
+          "title" : "Mesh",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1347383016977",
+                "color" : "White Mesh",
+                "img" : "/1021/583/Thumb_MESHW,0.png",
+                "type" : "Textiles"
+              },
+              {
+                "id" : "1347383016810",
+                "color" : "Grey Tone Mesh",
+                "img" : "/378/950/Thumb_MESHT,0.png",
+                "type" : "Textiles"
+              },
+              {
+                "id" : "1347383016431",
+                "color" : "Aluminum ",
+                "img" : "/743/198/Thumb_MESHA,0.png",
+                "type" : "Textiles"
+              },
+              {
+                "id" : "1347383017048",
+                "color" : "Bronze Mesh",
+                "img" : "/640/217/Thumb_MESHZ,0.png",
+                "type" : "Textiles"
+              },
+              {
+                "id" : "1347383016569",
+                "color" : "Chestnut Mesh",
+                "img" : "/116/659/Thumb_MESHN,0.png",
+                "type" : "Textiles"
+              },
+              {
+                "id" : "1347383016637",
+                "color" : "Onyx Mesh",
+                "img" : "/817/757/Thumb_onyx,0.png",
+                "type" : "Textiles"
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        },
+        {
+          "id" : "1352941180142",
+          "title" : "Strap",
+          "std" : {
+            "optsTxt" : "",
+            "fins" : [
+              {
+                "id" : "1347383020954",
+                "color" : "White Strap",
+                "img" : "/970/877/Thumb_STRAPW,0.png",
+                "type" : "Textiles"
+              },
+              {
+                "id" : "1347383020716",
+                "color" : "Grey Strap",
+                "img" : "/382/147/Thumb_STRAPG,0.png",
+                "type" : "Textiles"
+              },
+              {
+                "id" : "1347383020752",
+                "color" : "Onyx Strap",
+                "img" : "/962/830/Thumb_STRAPO,0.png",
+                "type" : "Textiles"
+              },
+              {
+                "id" : "1347383020867",
+                "color" : "Sand Strap",
+                "img" : "/454/342/Thumb_STRAPS,2.png",
+                "type" : "Textiles"
+              },
+              {
+                "id" : "1352939463639",
+                "color" : "Bronze Strap",
+                "img" : "/589/511/Thumb_STRAPZ,0.png",
+                "type" : "Textiles"
+              },
+              {
+                "id" : "1352939463547",
+                "color" : "Brown Strap",
+                "img" : "/565/370/Thumb_STRAPB,0.png",
+                "type" : "Textiles"
+              }
+            ]
+          },
+          "three-week" : {
+            "optsTxt" : "",
+            "fins" : []
+          },
+          "quick" : {
+            "optsTxt" : "",
+            "fins" : []
+          }
+        }
+      ],
+      "title" : "1966 Barstool",
+      "thumb-img" : "/505/955/1966-stool_thumb.jpg",
+      "hero1-img" : "/751/336/1966-stool_hero.jpg",
+      "workCats" : [],
+      "name" : "ES 1966 Barstool",
+      "powerCats" : [],
+      "product-id" : "1966-barstool"
     },
     {
       "lead-times" : [
@@ -57141,7 +57141,7 @@
           "id" : "1356400616080",
           "title" : "Options",
           "std" : {
-            "optsTxt" : "<link href=\"/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Tabletop Material:</span><span class=\"essop-option\">Stone, Glass (48x26&quot; only)</span></p>\r\n\r\n<p><span class=\"essop-title\">Legs:</span><span class=\"essop-option\">Polished Chrome</span></p>\r\n</div>\r\n</div>\r\n\r\n<p><span class=\"essop-title\">Available Sizes:&nbsp;</span></p>\r\n\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>48&quot;</td>\r\n\t\t\t<td>26&quot;</td>\r\n\t\t\t<td>28.375&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>55.125&quot;</td>\r\n\t\t\t<td>55.125&quot;</td>\r\n\t\t\t<td>28.375&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>60&quot;</td>\r\n\t\t\t<td>36&quot;</td>\r\n\t\t\t<td>28.375&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>78.75&quot;</td>\r\n\t\t\t<td>35.5&quot;</td>\r\n\t\t\t<td>28.375&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>94.5&quot;</td>\r\n\t\t\t<td>39.375&quot;</td>\r\n\t\t\t<td>28.375&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n<style type=\"text/css\">table, th, td {\r\n    border-collapse: collapse;\r\n}\r\nth, td {\r\n    padding: 3px 6px 5px 0px;\r\n}\r\ntd {  \r\n  color: #777;\r\n  font: 11px/13px 'HelveticaNeueW01-55Roma', Arial, Helvetica, sans-serif;}\r\nth {\r\n    color: #777;\r\n  font: 11px/13px 'HelveticaNeueW01-75Bold', Arial, Helvetica, sans-serif;text-align: left;\r\n}\r\n</style>\r\n<style type=\"text/css\">table, th, td {\r\n    border-collapse: collapse;\r\n}\r\nth, td {\r\n    padding: 8px 6px 5px 0px;\r\n}\r\ntd {  \r\n  color: #777;\r\n  font: 11px/13px 'HelveticaNeueW01-55Roma', Arial, Helvetica, sans-serif;}\r\nth {\r\n    color: #333;\r\n  font: 11px/13px 'HelveticaNeueW01-75Bold', Arial, Helvetica, sans-serif;text-align: left;\r\n}\r\n</style>",
+            "optsTxt" : "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Tabletop Material:</span><span class=\"essop-option\">Stone, Glass (48x26&quot; only)</span></p>\r\n\r\n<p><span class=\"essop-title\">Legs:</span><span class=\"essop-option\">Polished Chrome</span></p>\r\n</div>\r\n\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Dining Table</td>\r\n\t\t\t<td>48&quot;</td>\r\n\t\t\t<td>26&quot;</td>\r\n\t\t\t<td>28.4&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>55.1&quot;</td>\r\n\t\t\t<td>55.1&quot;</td>\r\n\t\t\t<td>28.4&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>60&quot;</td>\r\n\t\t\t<td>36&quot;</td>\r\n\t\t\t<td>28.4&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>78.75&quot;</td>\r\n\t\t\t<td>35.5&quot;</td>\r\n\t\t\t<td>28.4&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>94.5&quot;</td>\r\n\t\t\t<td>39.4&quot;</td>\r\n\t\t\t<td>28.4&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
             "fins" : []
           },
           "three-week" : {
