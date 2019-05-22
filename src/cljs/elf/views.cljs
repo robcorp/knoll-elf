@@ -18,27 +18,39 @@
 (defn main-panel []
   (reagent/create-class
    {:display-name "main-panel"
-    :component-did-mount #(let [parms (js/URLSearchParams. (.-search js/location))
-                                pop (.get parms "pop")]
-                            (when pop
-                              ;; wait a sufficient amount of time for the page's javascript
-                              ;; to finish loading and then "click" the selected product
-                              ;; to trigger the popup
-                              (.setTimeout js/window
-                                           (fn [] (.click (js/$ (str "li#" pop))))
-                                           1500)))
+    :component-did-mount #(do
+                            ;; set up Top button
+                            (set! (.-onscroll js/window)
+                                  (fn []
+                                    (let [scrollTop (.. js/document -documentElement -scrollTop)]
+                                      #_(.log js/console (str "scrollTop: " scrollTop))
+                                      (.css (js/$ "#top-button") "display" (if (> scrollTop 100) "block" "none")))))
+
+                            ;; If pop param is present, open the popup on that product
+                            (let [parms (js/URLSearchParams. (.-search js/location))
+                                  pop (.get parms "pop")]
+                              (when pop
+                                ;; wait a sufficient amount of time for the page's javascript
+                                ;; to finish loading and then "click" the selected product
+                                ;; to trigger the popup
+                                (.setTimeout js/window
+                                             (fn [] (.click (js/$ (str "li#" pop))))
+                                             1500))))
     :reagent-render (fn []
                       (let [name (<sub [::subs/name])]
                         [:<> ; this allows sibling elements without needing to wrap in a separate [:div]
                          [modal-popup]
                          [:div.veil]
+                         [:button#top-button {:title "Go to top"
+                                              :on-click #(set! (.. js/document -documentElement -scrollTop) 0)}
+                          "Top"]
                          (when config/debug?
-                               [:section.body_container]
-                               [:div
-                                [:h1 name]
-                                [:p "(built using the re-frame app framework.)"]
-                                #_[mouse-pos-comp]
-                                [:hr]])
+                           [:section.body_container]
+                           [:div
+                            [:h1 name]
+                            [:p "(built using the re-frame app framework.)"]
+                            #_[mouse-pos-comp]
+                            [:hr]])
                          [:section.wrapper.essentials
                           [:section#page
                            [:div.product-col.clearfix
