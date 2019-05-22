@@ -1224,7 +1224,7 @@ h3.titleGreyborder.inactive+ul.product-list {
     }
     .upholstery-textile-list li,
     .frame-list li {
-        width: calc(33.33% - 10px);
+        width: calc(20% - 10px);
         min-height: auto;
         margin-bottom: 15px;
         padding: 0 5px;
@@ -1292,6 +1292,11 @@ h3.titleGreyborder.inactive+ul.product-list {
     .product-col-image {
         width: 100%;
     }
+
+	.product-list>li {
+		padding-top: 100px;
+		margin-top: -100px;
+	}
 }
 
 @media screen and (max-width: 480px) {
@@ -1304,6 +1309,10 @@ h3.titleGreyborder.inactive+ul.product-list {
     .product-col-image {
         margin-bottom: 10px;
     }
+
+	.upholstery-textile-list li, .frame-list li {
+		width: calc(33.33% - 10px);
+	}
 }
 
 @media print {
