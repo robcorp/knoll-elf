@@ -1049,6 +1049,26 @@ h3.titleGreyborder.inactive+ul.product-list {
     opacity: 1;
 }
 
+#top-button {
+	display: none;
+	position: fixed;
+	bottom: 25px;
+	right: 25px;
+	z-index: 99;
+	border: none; /* Remove borders */
+	outline: none; /* Remove outline */
+	background-color: #f04e23; /* Set a background color */
+	color: white; /* Text color */
+	cursor: pointer; /* Add a mouse pointer on hover */
+	padding: 10px; /* Some padding */
+	border-radius: 10px; /* Rounded corners */
+	font-size: 14px; /* Increase font size */
+}
+
+#top-button:hover {
+	background-color: #555; /* Add a dark-grey background on hover */
+}
+
 @media screen and (max-width: 992px) {}
 
 @media screen and (max-width: 991px) {
