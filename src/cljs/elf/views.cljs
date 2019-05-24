@@ -148,7 +148,8 @@
         work-tools-filter-options (<sub [::subs/work-tools-filter-options])
         screen-board-filter-options (<sub [::subs/screen-board-filter-options])
         filtered-prods (<sub [::subs/filtered-products])
-        
+
+        ;; show-reset should probably be calculated by a subscription
         show-reset? (some true? (concat (get-filter-values seating-filter-options)
                                         (get-filter-values tables-filter-options)
                                         (get-filter-values storage-filter-options)
@@ -178,7 +179,8 @@
         (fn []
           (let [src (->> (<sub [::subs/visible-filtered-products])
                          (map (fn [p] {:label (:title p) :id (:epp-id p)}))
-                         (into #{})
+                         #_(into #{})
+                         set
                          (sort-by :label))]
 
             (.autocomplete (js/$ (str "input#" search-box-id))
