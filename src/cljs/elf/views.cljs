@@ -81,7 +81,8 @@
             :checked value
             :name "lead-times-radio"
             :on-change #(evt> [::events/lead-time-filter-radio-button-clicked lead-time])}]
-   [:label.active {:for id} label]])
+   [:label.active {:for id
+                   :dangerouslySetInnerHTML {:__html label}}]])
 
 ;;; render the Lead Time: filters 
 (defn- lead-time-filters []
