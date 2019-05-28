@@ -2617,5 +2617,41 @@
    "PrimarySKU": "",
    "Type": "LEA",
    "LeatherImage": "ss-2256-chalk.jpg"
+ },
+ {
+   "Name": "Infinite",
+   "PartNum": "K2263",
+   "Grade": "A",
+   "EssntlSKUs": "",
+   "PrimarySKU": "",
+   "Type": "TEX",
+   "LeatherImage": ""
+ },
+ {
+   "Name": "Dottie",
+   "PartNum": "K2259",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "",
+   "Type": "TEX",
+   "LeatherImage": ""
+ },
+ {
+   "Name": "Code",
+   "PartNum": "K2251",
+   "Grade": "D",
+   "EssntlSKUs": "",
+   "PrimarySKU": "",
+   "Type": "TEX",
+   "LeatherImage": ""
+ },
+ {
+   "Name": "Twist Tie",
+   "PartNum": "K2264",
+   "Grade": "H",
+   "EssntlSKUs": "",
+   "PrimarySKU": "",
+   "Type": "TEX",
+   "LeatherImage": ""
  }
 ]
