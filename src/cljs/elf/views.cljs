@@ -602,7 +602,7 @@
         loc (.-location js/window)
         orig (.-origin loc)
         path (.-pathname loc)]
-    [:div#essentials-modal {:class ["white-popup-block" (if-not false #_config/debug? "mfp-hide")]}
+    [:div#essentials-modal {:class ["white-popup-block" (if-not config/debug? "mfp-hide")]}
      [:div.essentials-modal-wrap
       [:div.header-popup-view
        [:div.popup-action-list-wrap
