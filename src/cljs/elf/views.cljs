@@ -113,7 +113,9 @@
           [:li
            [:input {:type "checkbox"
                     :id id
-                    :checked value
+                    :checked (if (available-categories label)
+                               value
+                               false)
                     :class (if (available-categories label) "" "disable-filter")
                     :on-change #(evt> [::events/product-type-filter-checkbox-clicked id])}]
            [:label {:for id} (if (= "All" label)
