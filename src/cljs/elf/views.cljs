@@ -94,7 +94,6 @@
 
 (defn- product-type-filter-group-clicked [evt]
   (let [$this (js/$ (.-currentTarget evt))]
-    (.log js/console "click!")
     (.toggleClass $this "open")
     (.slideToggle (.next $this ".product-type-check-list"))))
 
@@ -102,6 +101,7 @@
   (let [{:keys [name description product-category items]} filter-options
         available-categories (conj (set (select [ALL #(not (empty? (product-category %))) product-category ALL] filtered-prods)) "All")
         disable-group? false]
+
     [:div.product-type-check.has-filter-submenu
      [:h4 {:class (if disable-group? "disable-filter")
            :on-click product-type-filter-group-clicked} description]
@@ -118,45 +118,8 @@
                     :on-change #(evt> [::events/product-type-filter-checkbox-clicked id])}]
            [:label {:for id} (if (= "All" label)
                                (str label " " description)
-                               label)]]))]])
-  
-  #_(let [did-mount-toggler (fn [comp]
-                              #_(.click (.find (js/$ (reagent/dom-node comp)) "h4") 
-                                        (fn [ev]
-                                          (this-as this
-                                            (let [$this (js/$ this)]
-                                              (.toggleClass $this "open")
-                                              (.slideToggle (.next $this ".product-type-check-list")))))))]
-    
-      (reagent/create-class
-       {:display-name "product-type-filter-group"
+                               label)]]))]]))
 
-        :reagent-render (fn [filter-options filtered-prods]
-                          (let [{:keys [name description product-category items]} filter-options
-                                available-categories (conj (set (select [ALL #(not (empty? (product-category %))) product-category ALL] filtered-prods)) "All")
-                                disable-group? false]
-                            [:div.product-type-check.has-filter-submenu
-                             [:h4 {:class (if disable-group? "disable-filter")
-                                   :on-click product-type-filter-group-clicked} description]
-                             [:ul.product-type-check-list {:style {:display "none"}}
-                              (for [i items]
-                                (let [{:keys [label value]} i
-                                      id (str name ":" label)]
-                                  ^{:key id}
-                                  [:li
-                                   [:input {:type "checkbox"
-                                            :id id
-                                            :checked value
-                                            :class (if (available-categories label) "" "disable-filter")
-                                            :on-change #(evt> [::events/product-type-filter-checkbox-clicked id])}]
-                                   [:label {:for id} (if (= "All" label)
-                                                       (str label " " description)
-                                                       label)]]))]]))
-
-        :component-did-mount did-mount-toggler})))
-
-(defn- get-filter-values [filter]
-  (select [:items ALL :value] filter))
 
 (defn- close-filter-slideout []
   (.removeClass (js/$ ".select-wrap") "open")
@@ -178,6 +141,8 @@
         screen-board-filter-options (<sub [::subs/screen-board-filter-options])
         filtered-prods (<sub [::subs/filtered-products])
 
+        get-filter-values #(select [:items ALL :value] %)
+
         ;; show-reset should probably be calculated by a subscription
         show-reset? (some true? (concat (get-filter-values seating-filter-options)
                                         (get-filter-values tables-filter-options)
@@ -192,6 +157,7 @@
        {:style {:display (if show-reset? "block" "none")}
         :on-click #(evt> [::events/reset-product-type-filters])}
        "Reset"]]
+
      [product-type-filter-group seating-filter-options filtered-prods]
      [product-type-filter-group tables-filter-options filtered-prods]
      [product-type-filter-group storage-filter-options filtered-prods]
