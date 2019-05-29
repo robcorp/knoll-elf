@@ -256,7 +256,7 @@
                         (.log js/console (str "Ajax request to get all-products failed: " status " " status-text))
                         (re-frame/dispatch [::use-default-db]))]
 
-    (ajax/GET all-products-url {:timeout 90000 :handler success-handler :error-handler error-handler :response-format :json :keywords? true})))
+    (ajax/GET all-products-url {:timeout 180000 :handler success-handler :error-handler error-handler :response-format :json :keywords? true})))
 
 (defn- load-filter-options [selector]
   (let [baseURL (if config/debug?
