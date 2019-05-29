@@ -129,3 +129,28 @@
 
 (reg-sub ::screen-board-filter-options
          :ELFScreensAndBoardsSelector)
+
+#_(reg-sub ::all-filter-options
+         (fn [_]
+           [(re-frame/subscribe [::seating-filter-options])
+            (re-frame/subscribe [::tables-filter-options])
+            (re-frame/subscribe [::storage-filter-options])
+            (re-frame/subscribe [::power-data-filter-options])
+            (re-frame/subscribe [::work-tools-filter-options])
+            (re-frame/subscribe [::screen-board-filter-options])])
+
+         (fn [all-filter-options]
+           all-filter-options))
+
+#_(defn- get-filter-values [filter]
+  (select [:items ALL :value] filter))
+
+#_(reg-sub ::show-reset?
+         (fn [_]
+           [(re-frame/subscribe [::all-filter-options])])
+
+         (fn [[all-filter-options]]
+           (->> all-filter-options
+                (map get-filter-values)
+                flatten
+                (some true?))))
