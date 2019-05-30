@@ -130,7 +130,7 @@
 (reg-sub ::screen-board-filter-options
          :ELFScreensAndBoardsSelector)
 
-#_(reg-sub ::all-filter-options
+(reg-sub ::all-filter-options
          (fn [_]
            [(re-frame/subscribe [::seating-filter-options])
             (re-frame/subscribe [::tables-filter-options])
@@ -140,12 +140,12 @@
             (re-frame/subscribe [::screen-board-filter-options])])
 
          (fn [all-filter-options]
-           all-filter-options))
+           (apply vector all-filter-options)))
 
-#_(defn- get-filter-values [filter]
+(defn- get-filter-values [filter]
   (select [:items ALL :value] filter))
 
-#_(reg-sub ::show-reset?
+(reg-sub ::show-reset?
          (fn [_]
            [(re-frame/subscribe [::all-filter-options])])
 
@@ -154,3 +154,17 @@
                 (map get-filter-values)
                 flatten
                 (some true?))))
+
+
+(reg-sub ::no-results?
+         (fn [_]
+           [(re-frame/subscribe [::filtered-seating-products])
+            (re-frame/subscribe [::filtered-table-products])
+            (re-frame/subscribe [::filtered-storage-products])
+            (re-frame/subscribe [::filtered-power-products])
+            (re-frame/subscribe [::filtered-work-products])
+            (re-frame/subscribe [::filtered-screen-products])])
+
+         (fn [[all-filtered-products]]
+           (empty? (select [ALL :products ALL] all-filtered-products))))
+
