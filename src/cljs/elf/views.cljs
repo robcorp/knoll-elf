@@ -170,7 +170,7 @@
                                                (let [id (.. ui -item -id)]
                                                  (.animate (js/$ "html, body")
                                                            #js{:scrollTop (.. (js/$ (str "#" id)) offset -top)} 400
-                                                           #(.. (js/$ (str "li#" id)) fadeToggle)))
+                                                           #(.fadeToggle (js/$ (str "li#" id)))))
                                                false)}))))]
 
     (reagent/create-class
