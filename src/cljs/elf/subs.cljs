@@ -46,6 +46,13 @@
  (fn [all-visible-prods]
    (select [ALL ALL :products ALL] all-visible-prods)))
 
+(reg-sub ::no-results?
+         (fn [_]
+           [(re-frame/subscribe [::visible-filtered-products])])
+
+         (fn [[all-filtered-products]]
+           (empty? all-filtered-products)))
+
 (reg-sub ::textiles-info
          :textiles-info )
 
@@ -154,17 +161,4 @@
                 (map get-filter-values)
                 flatten
                 (some true?))))
-
-
-(reg-sub ::no-results?
-         (fn [_]
-           [(re-frame/subscribe [::filtered-seating-products])
-            (re-frame/subscribe [::filtered-table-products])
-            (re-frame/subscribe [::filtered-storage-products])
-            (re-frame/subscribe [::filtered-power-products])
-            (re-frame/subscribe [::filtered-work-products])
-            (re-frame/subscribe [::filtered-screen-products])])
-
-         (fn [[all-filtered-products]]
-           (empty? (select [ALL :products ALL] all-filtered-products))))
 
