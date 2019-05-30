@@ -218,7 +218,7 @@
  ::product-selected
  (fn-traced [db [_ label epp-id] event]
             ;; show the popup
-            (if-not config/debug?
+            (when-not false #_config/debug?
                     (setup-popup))
 
             (setup-owl-carousel)
