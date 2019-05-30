@@ -8,7 +8,7 @@
    [com.rpl.specter :refer [ALL collect-one] :refer-macros [select select-first] :as spctr]
    [clojure.string :as str]
    [cljsjs.clipboard] ; required in order to make the global js/ClipboardJS available
-   #_[cljsjs.tether])) ; required in order to make the global js/Tether available
+   ))
 
 (def <sub (comp deref re-frame/subscribe)) ; permits using (<sub [::subs/name]) rather than @(subscribe [::subs/name])
 (def evt> re-frame/dispatch)
@@ -23,7 +23,6 @@
                             (set! (.-onscroll js/window)
                                   (fn []
                                     (let [scrollTop (.. js/document -documentElement -scrollTop)]
-                                      #_(.log js/console (str "scrollTop: " scrollTop))
                                       (.css (js/$ "#top-button") "display" (if (> scrollTop 100) "block" "none")))))
 
                             ;; If pop param is present, open the popup on that product
@@ -42,7 +41,7 @@
                          [modal-popup]
                          [:div.veil]
                          [:button#top-button {:title "Go to top"
-                                              :on-click #(set! (.. js/document -documentElement -scrollTop) 0)}
+                                              :on-click #(.animate (js/$ "body, html") #js{:scrollTop 0} 400)}
                           "Top"]
                          (when config/debug?
                            [:section.body_container]
@@ -186,10 +185,9 @@
                                      :select (fn [evt ui]
                                                (.val (js/$ (str "input#" search-box-id)) "")
                                                (let [id (.. ui -item -id)]
-                                                 (.. js/document
-                                                     (getElementById id)
-                                                     scrollIntoView)
-                                                 (.. (js/$ (str "li#" id)) fadeOut fadeIn))
+                                                 (.animate (js/$ "html, body")
+                                                           #js{:scrollTop (.. (js/$ (str "#" id)) offset -top)} 400
+                                                           #(.. (js/$ (str "li#" id)) fadeToggle)))
                                                false)}))))]
 
     (reagent/create-class
@@ -602,7 +600,7 @@
         loc (.-location js/window)
         orig (.-origin loc)
         path (.-pathname loc)]
-    [:div#essentials-modal {:class ["white-popup-block" (if-not config/debug? "mfp-hide")]}
+    [:div#essentials-modal {:class ["white-popup-block" (when-not false #_config/debug? "mfp-hide")]}
      [:div.essentials-modal-wrap
       [:div.header-popup-view
        [:div.popup-action-list-wrap
