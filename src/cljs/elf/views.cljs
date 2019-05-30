@@ -134,23 +134,10 @@
   (.click (js/$ ".veil.overlay") close-filter-slideout))
 
 (defn- product-type-filters []
-  (let [seating-filter-options (<sub [::subs/seating-filter-options])
-        tables-filter-options (<sub [::subs/tables-filter-options])
-        storage-filter-options (<sub [::subs/storage-filter-options])
-        power-data-filter-options (<sub [::subs/power-data-filter-options])
-        work-tools-filter-options (<sub [::subs/work-tools-filter-options])
-        screen-board-filter-options (<sub [::subs/screen-board-filter-options])
-        filtered-prods (<sub [::subs/filtered-products])
-
-        get-filter-values #(select [:items ALL :value] %)
-
-        ;; show-reset should probably be calculated by a subscription
-        show-reset? (some true? (concat (get-filter-values seating-filter-options)
-                                        (get-filter-values tables-filter-options)
-                                        (get-filter-values storage-filter-options)
-                                        (get-filter-values power-data-filter-options)
-                                        (get-filter-values work-tools-filter-options)
-                                        (get-filter-values screen-board-filter-options)))]
+  (let [filtered-prods (<sub [::subs/filtered-products])
+        all-filter-options (<sub [::subs/all-filter-options])
+        show-reset? (<sub [::subs/show-reset?])]
+    
     [:<>
      [:div.filter-view-head
       [:h3 "Filter By"]
@@ -159,12 +146,9 @@
         :on-click #(evt> [::events/reset-product-type-filters])}
        "Reset"]]
 
-     [product-type-filter-group seating-filter-options filtered-prods]
-     [product-type-filter-group tables-filter-options filtered-prods]
-     [product-type-filter-group storage-filter-options filtered-prods]
-     [product-type-filter-group power-data-filter-options filtered-prods]
-     [product-type-filter-group work-tools-filter-options filtered-prods]
-     [product-type-filter-group screen-board-filter-options filtered-prods]
+     (for [filter-options all-filter-options]
+       ^{:key (str "product-type-filter-group-" (:name filter-options))}
+       [product-type-filter-group filter-options filtered-prods])
 
      [:div.mobile-visible
       [:a.apply_btn.accordian_btn {:on-click close-filter-slideout} " < APPLY AND RETURN"]]]))
@@ -175,7 +159,6 @@
         (fn []
           (let [src (->> (<sub [::subs/visible-filtered-products])
                          (map (fn [p] {:label (:title p) :id (:epp-id p)}))
-                         #_(into #{})
                          set
                          (sort-by :label))]
 
@@ -236,12 +219,7 @@
         filtered-power-prods (<sub [::subs/filtered-power-products])
         filtered-work-prods (<sub [::subs/filtered-work-products])
         filtered-screen-prods (<sub [::subs/filtered-screen-products])
-        no-results? (empty? (select [ALL :products ALL] (concat filtered-seating-prods
-                                                                filtered-table-prods
-                                                                filtered-storage-prods
-                                                                filtered-power-prods
-                                                                filtered-work-prods
-                                                                filtered-screen-prods)))]
+        no-results? (<sub [::subs/no-results?])]
 
     [:div.right-product-col
      [:div.right-product-content
@@ -592,8 +570,9 @@
                                  (reset! clipboard-atom nil))
       :reagent-render (fn []
                         [:li.clipboard {:data-clipboard-target target}
-                         [:a {:href "javascript:;"} label [:span#copied-msg {:style {:display "none"
-                                                                                     :font-size "75%"}} " (copied to clipboard)"]]])})))
+                         [:a {:href "javascript:;"} label
+                          [:span#copied-msg {:style {:display "none" :font-size "75%"}}
+                           " (copied to clipboard)"]]])})))
 
 (defn- modal-popup []
   (let [selected-prod (<sub [::subs/selected-product])
