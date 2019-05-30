@@ -207,6 +207,33 @@
    "LeatherImage": ""
  },
  {
+   "Name": "Infinite",
+   "PartNum": "K2263",
+   "Grade": "A",
+   "EssntlSKUs": "",
+   "PrimarySKU": "19",
+   "Type": "TEX",
+   "LeatherImage": ""
+ },
+ {
+   "Name": "Element",
+   "PartNum": "W1077",
+   "Grade": "A",
+   "EssntlSKUs": "W10771, W10772, W10774, W10775, W10776, W10777, W10778, W10779, W107710, W107711, W107712, W107713",
+   "PrimarySKU": "10",
+   "Type": "TEX",
+   "LeatherImage": ""
+ },
+ {
+   "Name": "Reflect",
+   "PartNum": "W884",
+   "Grade": "A",
+   "EssntlSKUs": "W8841A, W8842A, W8843A, W8844A, W8845A, W8846A, W8847A, W8848A, W8846A, W88410A, W88413A, W88414A",
+   "PrimarySKU": "5A",
+   "Type": "",
+   "LeatherImage": ""
+ },
+ {
    "Name": "Abacus",
    "PartNum": "K715",
    "Grade": "B",
@@ -752,6 +779,15 @@
    "Grade": "B",
    "EssntlSKUs": "",
    "PrimarySKU": "5",
+   "Type": "TEX",
+   "LeatherImage": ""
+ },
+ {
+   "Name": "Dottie",
+   "PartNum": "K2259",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "2",
    "Type": "TEX",
    "LeatherImage": ""
  },
@@ -1409,6 +1445,15 @@
    "Grade": "D",
    "EssntlSKUs": "",
    "PrimarySKU": "1",
+   "Type": "TEX",
+   "LeatherImage": ""
+ },
+ {
+   "Name": "Code",
+   "PartNum": "K2251",
+   "Grade": "D",
+   "EssntlSKUs": "",
+   "PrimarySKU": "7",
    "Type": "TEX",
    "LeatherImage": ""
  },
@@ -2142,6 +2187,15 @@
    "LeatherImage": ""
  },
  {
+   "Name": "Twist Tie",
+   "PartNum": "K2264",
+   "Grade": "H",
+   "EssntlSKUs": "",
+   "PrimarySKU": "3",
+   "Type": "TEX",
+   "LeatherImage": ""
+ },
+ {
    "Name": "Aswan",
    "PartNum": "K2046",
    "Grade": "I",
@@ -2431,7 +2485,7 @@
  },
  {
    "Name": "Amazon",
-   "PartNum": "AM",
+   "PartNum": " ",
    "Grade": "W",
    "EssntlSKUs": "",
    "PrimarySKU": "",
@@ -2619,39 +2673,120 @@
    "LeatherImage": "ss-2256-chalk.jpg"
  },
  {
-   "Name": "Infinite",
-   "PartNum": "K2263",
-   "Grade": "A",
+   "Name": "blank",
+   "PartNum": " ",
+   "Grade": "Z",
    "EssntlSKUs": "",
    "PrimarySKU": "",
-   "Type": "TEX",
+   "Type": "",
    "LeatherImage": ""
  },
  {
-   "Name": "Dottie",
-   "PartNum": "K2259",
-   "Grade": "B",
+   "Name": "blank",
+   "PartNum": " ",
+   "Grade": "Z",
    "EssntlSKUs": "",
    "PrimarySKU": "",
-   "Type": "TEX",
+   "Type": "",
    "LeatherImage": ""
  },
  {
-   "Name": "Code",
-   "PartNum": "K2251",
-   "Grade": "D",
+   "Name": "blank",
+   "PartNum": " ",
+   "Grade": "Z",
    "EssntlSKUs": "",
    "PrimarySKU": "",
-   "Type": "TEX",
+   "Type": "",
    "LeatherImage": ""
  },
  {
-   "Name": "Twist Tie",
-   "PartNum": "K2264",
-   "Grade": "H",
+   "Name": "blank",
+   "PartNum": " ",
+   "Grade": "Z",
    "EssntlSKUs": "",
    "PrimarySKU": "",
-   "Type": "TEX",
+   "Type": "",
+   "LeatherImage": ""
+ },
+ {
+   "Name": "blank",
+   "PartNum": " ",
+   "Grade": "Z",
+   "EssntlSKUs": "",
+   "PrimarySKU": "",
+   "Type": "",
+   "LeatherImage": ""
+ },
+ {
+   "Name": "blank",
+   "PartNum": " ",
+   "Grade": "Z",
+   "EssntlSKUs": "",
+   "PrimarySKU": "",
+   "Type": "",
+   "LeatherImage": ""
+ },
+ {
+   "Name": "blank",
+   "PartNum": " ",
+   "Grade": "Z",
+   "EssntlSKUs": "",
+   "PrimarySKU": "",
+   "Type": "",
+   "LeatherImage": ""
+ },
+ {
+   "Name": "blank",
+   "PartNum": " ",
+   "Grade": "Z",
+   "EssntlSKUs": "",
+   "PrimarySKU": "",
+   "Type": "",
+   "LeatherImage": ""
+ },
+ {
+   "Name": "blank",
+   "PartNum": " ",
+   "Grade": "Z",
+   "EssntlSKUs": "",
+   "PrimarySKU": "",
+   "Type": "",
+   "LeatherImage": ""
+ },
+ {
+   "Name": "blank",
+   "PartNum": " ",
+   "Grade": "Z",
+   "EssntlSKUs": "",
+   "PrimarySKU": "",
+   "Type": "",
+   "LeatherImage": ""
+ },
+ {
+   "Name": "blank",
+   "PartNum": " ",
+   "Grade": "Z",
+   "EssntlSKUs": "",
+   "PrimarySKU": "",
+   "Type": "",
+   "LeatherImage": ""
+ },
+ {
+   "Name": "blank",
+   "PartNum": " ",
+   "Grade": "Z",
+   "EssntlSKUs": "",
+   "PrimarySKU": "",
+   "Type": "",
+   "LeatherImage": ""
+ },
+ {
+   "Name": "blank",
+   "PartNum": " ",
+   "Grade": "Z",
+   "EssntlSKUs": "",
+   "PrimarySKU": "",
+   "Type": "",
    "LeatherImage": ""
  }
 ]
