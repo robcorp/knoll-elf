@@ -73,7 +73,7 @@
          [:li.standard-ship-active])]
       [:p title]]]))
 
-(defn- lead-time-filter-radio-button [{:keys [li-id li-class id lead-time label value]} filter]
+(defn- lead-time-filter-radio-button [{:keys [li-id li-class id lead-time label value]}]
   [:li {:key id :id li-id :class ["lead-time-list-types" li-class]}
    [:input.check-in {:type "radio"
             :id id
@@ -313,7 +313,7 @@
       [:img {:src (str "https://www.knoll.com/textileimages/th/" part primarySku ".jpg")}]]
      [:p name]]))
 
-(defn- create-leather-swatch [i leather]
+(defn- create-leather-swatch [leather]
   (let [name (:Name leather)
         part (:PartNum leather)
         grade (:Grade leather)
@@ -406,12 +406,12 @@
                  :class "upholstery-tab-content" }
            [:h5.print-show "Leather"]
            [:ul.upholstery-textile-list
-            (map-indexed create-leather-swatch (sort-by :Name leathers))]])]
+            (map create-leather-swatch (sort-by :Name leathers))]])]
        [:div.sub-tab-wrap
         (for [fab (sort fabs)]
           (create-fabric-grade-sub-tab lead-time fab))]])))
 
-(defn- tab-contents [lead-time selected-prod lead-times-set selected?]
+(defn- tab-contents [lead-time selected-prod selected?]
   (let [avail-fin-mods (select [:availFinMods ALL #(not= "Options" (:title %)) (collect-one :title) (keyword lead-time) :fins] selected-prod)
         [optsTitle opts] (select-first [:availFinMods ALL #(= "options" (str/lower-case (:title %))) (collect-one :title) (keyword lead-time)] selected-prod)
         tab-content-class (if selected? "selected" "")
@@ -477,15 +477,15 @@
     [:div.popup-tab-wrap
      (when (lead-times-set "quick")
        (if-not @first-tab (reset! first-tab "quick")) ;; if first-tab hasn't been set yet, set it to "quick"
-       [tab-contents "quick" selected-prod lead-times-set (= @first-tab "quick")])
+       [tab-contents "quick" selected-prod (= @first-tab "quick")])
 
      (when (lead-times-set "three-week")
        (if-not @first-tab (reset! first-tab "three-week")) ;; if first-tab hasn't been set yet, set it to "three-week"
-       [tab-contents "three-week" selected-prod lead-times-set (= @first-tab "three-week")])
+       [tab-contents "three-week" selected-prod (= @first-tab "three-week")])
 
      (when (lead-times-set "std")
        (if-not @first-tab (reset! first-tab "std")) ;; if first-tab hasn't been set yet, set it to "std"
-       [tab-contents "std" selected-prod lead-times-set (= @first-tab "std")])]))
+       [tab-contents "std" selected-prod (= @first-tab "std")])]))
 
 (defn- product-tabs []
   (let [selected-prod (<sub [::subs/selected-product])
@@ -561,7 +561,7 @@
      {:display-name "clipboard-button"
       :component-did-mount #(let [clipboard (new js/ClipboardJS (reagent/dom-node %))]
                               (reset! clipboard-atom clipboard)
-                              (.on clipboard "success" (fn [e]
+                              (.on clipboard "success" (fn [_]
                                                          (.show (js/$ "#copied-msg"))
                                                          (.setTimeout js/window (fn [] (.hide (js/$ "#copied-msg"))) 1000))))
       :component-did-update setup
