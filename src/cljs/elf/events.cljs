@@ -28,7 +28,7 @@
 (reg-event-db
  ::use-default-db
  (fn-traced [_ _]
-   (.log js/console "Using db/default-db.")
+   (js/console.log "Using db/default-db.")
    db/default-db))
 
 (defn- category-products [db products selector]
