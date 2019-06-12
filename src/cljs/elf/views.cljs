@@ -203,7 +203,7 @@
   (when (seq products)
     ^{:key label}
     [:div.product-list
-     [:h3.titleGreyborder (str label " (" (count products) ")")]
+     [:h3.titleGreyborder label " (" (count products) ")"]
      [:ul.product-list
       (for [prod products]
         (let [epp-id (:epp-id prod)]
@@ -368,15 +368,16 @@
           [:ul.upholstery-types-sub-list
            [:li
 	        [:a {:href "javascript:;"
-                 :data-tab (str "fabric-" part "-tab")
-                 :on-click return-to-fabrics-view} (str "Back to all grade " grade)]]]
-          [:h5 (str name " " part)]
+              :data-tab (str "fabric-" part "-tab")
+              :on-click return-to-fabrics-view}
+          "Back to all grade " grade]]]
+          [:h5 name " " part]
           [:ul.upholstery-textile-list
            (for [[sku name] colors]
              ^{:key (str lead-time grade part sku name)}
-             [:li {:class (str lead-time grade part sku name)}
+             [:li
               [:div.swatch-div [:img {:src (str "https://www.knoll.com/textileimages/th/" part sku ".jpg") :data-no-retina ""}]]
-              [:p (str sku " " name)]])]
+              [:p sku " " name]])]
             ])])))
 
 (defn- approved-fabrics [lead-time]
