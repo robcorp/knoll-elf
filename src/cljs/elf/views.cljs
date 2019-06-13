@@ -165,11 +165,11 @@
             (.autocomplete (js/$ (str "input#" search-box-id))
                            (clj->js {:source src
                                      :autoFocus false
-                                     :select (fn [evt ui]
+                                     :select (fn [_ ui]
                                                (.val (js/$ (str "input#" search-box-id)) "")
                                                (let [id (.. ui -item -id)]
                                                  (.animate (js/$ "html, body")
-                                                           #js{:scrollTop (.. (js/$ (str "#" id)) offset -top)} 400
+                                                           #js {:scrollTop (.. (js/$ (str "#" id)) offset -top)} 400
                                                            #(.fadeToggle (js/$ (str "li#" id)))))
                                                false)}))))]
 
