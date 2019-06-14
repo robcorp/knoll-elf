@@ -354,7 +354,7 @@
 (defn- create-fabric-grade-sub-tab [lead-time [grade fabs]]
   (for [fab fabs]
     (let [part (:PartNum fab)
-          name (:Name fab)
+          fab-name (:Name fab)
           colors (case lead-time
                    "std" (:FabricColors fab)
                    "three-week" (essential-colors fab))]
@@ -367,18 +367,18 @@
          [:<>
           [:ul.upholstery-types-sub-list
            [:li
-	        [:a {:href "javascript:;"
-              :data-tab (str "fabric-" part "-tab")
-              :on-click return-to-fabrics-view}
-          "Back to all grade " grade]]]
-          [:h5 name " " part]
+	    [:a {:href "javascript:;"
+                 :data-tab (str "fabric-" part "-tab")
+                 :on-click return-to-fabrics-view}
+             "Back to all grade " grade]]]
+          [:h5 fab-name " " part]
           [:ul.upholstery-textile-list
-           (for [[sku name] colors]
-             ^{:key (str lead-time grade part sku name)}
+           (for [[sku color-name] colors]
+             ^{:key (str lead-time grade part sku color-name)}
              [:li
-              [:div.swatch-div [:img {:src (str "https://www.knoll.com/textileimages/th/" part sku ".jpg") :data-no-retina ""}]]
-              [:p sku " " name]])]
-            ])])))
+              [:a {:href (str "https://www.knoll.com/knolltextileproductdetail/" (str/replace fab-name " " "+") "?sku=" sku) :target "_blank"}
+               [:div.swatch-div [:img {:src (str "https://www.knoll.com/textileimages/th/" part sku ".jpg") :data-no-retina ""}]]
+               [:p sku " " color-name]]])]])])))
 
 (defn- approved-fabrics [lead-time]
   (let [fabs (case lead-time
@@ -609,7 +609,7 @@
 
          [product-tabs]]]]]]))
 
-#_(defn- mouse-pos-comp []
+(defn- mouse-pos-comp []
   (reagent/with-let [pointer (reagent/atom {:x nil :y nil})
                      handler #(swap! pointer assoc
                                      :x (.-pageX %)
