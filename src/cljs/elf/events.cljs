@@ -187,6 +187,9 @@
                       :midClick true
                       :showCloseBtn false
                       :items {:src "#essentials-modal"}
+                      :key "elf-popup"
+                      :overflowY "scroll"
+                      :alignTop false
                       :callbacks {:open popupheight
                                   :close #(.pushState js/history nil nil (.-pathname js/location))}}))))
 
