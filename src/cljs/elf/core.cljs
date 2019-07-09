@@ -3,7 +3,7 @@
    [reagent.core :as reagent]
    [re-frame.core :as re-frame]
    [elf.events :as events]
-   [elf.views :as views]
+   [elf.views.main :refer [main-panel]]
    [elf.config :as config]
    ))
 
@@ -15,7 +15,7 @@
 
 (defn mount-root []
   (re-frame/clear-subscription-cache!)
-  (reagent/render [views/main-panel]
+  (reagent/render [main-panel]
                   (.getElementById js/document "elf-app")))
 
 (defn ^:export init []
