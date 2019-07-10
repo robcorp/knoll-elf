@@ -7,7 +7,6 @@
    [elf.subs :as subs]
    [elf.views.popup :refer [modal-popup]]
    [com.rpl.specter :refer [ALL collect-one] :refer-macros [select select-first] :as spctr]
-   [clojure.string :as str]
    [cljsjs.clipboard] ; required in order to make the global js/ClipboardJS available
    ))
 
@@ -57,7 +56,6 @@
                             [filters-view]
                             [filtered-products-view]]]]]))}))
 
-
 (defn- essential-product-summary [label {:keys [epp-id title lead-times thumb-img]}]
   (let [lead-times-set (set lead-times)]
     [:li {:id epp-id
@@ -77,10 +75,10 @@
 (defn- lead-time-filter-radio-button [{:keys [li-id li-class id lead-time label value]}]
   [:li {:key id :id li-id :class ["lead-time-list-types" li-class]}
    [:input.check-in {:type "radio"
-            :id id
-            :checked value
-            :name "lead-times-radio"
-            :on-change #(evt> [::events/lead-time-filter-radio-button-clicked lead-time])}]
+                     :id id
+                     :checked value
+                     :name "lead-times-radio"
+                     :on-change #(evt> [::events/lead-time-filter-radio-button-clicked lead-time])}]
    [:label.active {:for id
                    :dangerouslySetInnerHTML {:__html label}}]])
 
@@ -92,36 +90,35 @@
      [:ul.lead-time-list
       (map lead-time-filter-radio-button filters)]]))
 
-(defn- product-type-filter-group-clicked [evt]
-  (let [$this (js/$ (.-currentTarget evt))]
-    (.toggleClass $this "open")
-    (.slideToggle (.next $this ".product-type-check-list"))))
-
 (defn- product-type-filter-group [filter-options filtered-prods]
-  (let [{:keys [name description product-category items]} filter-options
-        available-categories (conj (set (select [ALL #(not (empty? (product-category %))) product-category ALL] filtered-prods)) "All")
-        disable-group? false]
+  (let [open? (reagent/atom false)] ; local state indicating whether the filter UI is open or closed.
+    (fn [filter-options filtered-prods]
+      (let [{:keys [name description product-category items]} filter-options
+            available-categories (conj (set (select [ALL #(not (empty? (product-category %))) product-category ALL] filtered-prods)) "All")
+            has-selection? false #_(some #(true? (:value %)) items)]
 
-    [:div.product-type-check.has-filter-submenu
-     [:h4 {:class (if disable-group? "disable-filter")
-           :on-click product-type-filter-group-clicked} description]
-     [:ul.product-type-check-list {:style {:display "none"}}
-      (for [i items]
-        (let [{:keys [label value]} i
-              id (str name ":" label)]
-          ^{:key id}
-          [:li
-           [:input {:type "checkbox"
-                    :id id
-                    :checked (if (available-categories label)
-                               value
-                               false)
-                    :class (if (available-categories label) "" "disable-filter")
-                    :on-change #(evt> [::events/product-type-filter-checkbox-clicked id])}]
-           [:label {:for id} (if (= "All" label)
-                               (str label " " description)
-                               label)]]))]]))
-
+        [:div.product-type-check.has-filter-submenu
+         [:h4 {:class [(if @open? "open") (if (true? has-selection?) "has-selection")]
+               :on-click #(do
+                            (swap! open? not)
+                            (.slideToggle (.next (js/$ (.-currentTarget %)) ".product-type-check-list")))}
+          description]
+         [:ul.product-type-check-list {:style {:display "none"}}
+          (for [i items]
+            (let [{:keys [label value]} i
+                  id (str name ":" label)]
+              ^{:key id}
+              [:li
+               [:input {:type "checkbox"
+                        :id id
+                        :checked (if (available-categories label)
+                                   value
+                                   false)
+                        :class (if (available-categories label) "" "disable-filter")
+                        :on-change #(evt> [::events/product-type-filter-checkbox-clicked id])}]
+               [:label {:for id} (if (= "All" label)
+                                   (str label " " description)
+                                   label)]]))]]))))
 
 (defn- close-filter-slideout []
   (.removeClass (js/$ ".select-wrap") "open")
@@ -138,7 +135,7 @@
   (let [filtered-prods (<sub [::subs/filtered-products])
         all-filter-options (<sub [::subs/all-filter-options])
         show-reset? (<sub [::subs/show-reset?])]
-    
+
     [:<>
      [:div.filter-view-head
       [:h3 "Filter By"]
@@ -211,7 +208,6 @@
           ^{:key epp-id}
           [essential-product-summary label prod]))]]))
 
-
 (defn- filtered-products-view []
   (let [all-products (<sub [::subs/all-products])
         filtered-seating-prods (<sub [::subs/filtered-seating-products])
@@ -239,7 +235,6 @@
            (map filtered-product-type-section filtered-power-prods)
            (map filtered-product-type-section filtered-work-prods)
            (map filtered-product-type-section filtered-screen-prods)]))]]))
-
 
 (defn- mouse-pos-comp []
   (reagent/with-let [pointer (reagent/atom {:x nil :y nil})
