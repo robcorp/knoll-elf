@@ -194,7 +194,7 @@
                       :callbacks {:open popupheight
                                   :close #(.pushState js/history nil nil (.-pathname js/location))}}))))
 
-(defn- setup-owl-carousel []
+#_(defn- setup-owl-carousel []
   ;; create the carousel (mainly for styling and rendering the
   ;; navigation arrows, since we don't actually scroll left or
   ;; right for next / previous
@@ -225,7 +225,7 @@
             (when-not false #_config/debug?
                     (setup-popup))
 
-            (setup-owl-carousel)
+            #_(setup-owl-carousel)
 
             
             ;; change the URL to include the pop param

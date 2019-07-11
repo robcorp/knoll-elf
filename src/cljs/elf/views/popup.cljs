@@ -221,7 +221,7 @@
                   (not= "Y" (:excl3wk selected-prod))))
        [approved-fabrics lead-time])]))
 
-(defn- lead-time-dropdown-selection-changed [evt]
+#_(defn- lead-time-dropdown-selection-changed [evt]
   (let [tab (.. evt -target -value)
         tab-content (str "#" tab ".popup-tab-content")]
 
@@ -275,7 +275,17 @@
                                   (.addClass (js/$ tab-content) "selected") ; show the new tab's content
                                   (.removeClass (js/$ ".popup-tab-content.selected .finish-tab-wrap .finish-tab-content") "selected") ; make sure only the selected pill's contents are showing
                                   (when-let [selected-pill (.data (js/$ ".popup-tab-content.selected .finish-types-list > li.selected") "tab")]
-                                    (.addClass (js/$ (str ".finish-tab-wrap " "#" selected-pill)) "selected"))))]
+                                    (.addClass (js/$ (str ".finish-tab-wrap " "#" selected-pill)) "selected"))))
+
+        lead-time-dropdown-selection-changed (fn [evt] (let [tab (.. evt -target -value)
+                                                             tab-content (str "#" tab ".popup-tab-content")]
+
+                                                         (.removeClass (js/$ ".essentials-tab-list > li") "selected") ; deselect the current tab
+                                                         (.removeClass (js/$ ".popup-tab-content") "selected") ; and hide the current tab's contents
+                                                         (.addClass (js/$ tab-content) "selected") ; show the new tab's content
+                                                         (let [selected-pill (.data (js/$ ".popup-tab-content.selected .finish-types-list > li.selected") "tab")]
+                                                           (.removeClass (js/$ ".popup-tab-content.selected .finish-tab-wrap .finish-tab-content") "selected") ; make sure only the selected pill's contents are showing
+                                                           (.addClass (js/$ (str ".finish-tab-wrap " "#" selected-pill)) "selected"))))]
 
     [:div.essentials-product-tabs
      ^{:key :epp-id}
@@ -356,6 +366,12 @@
         path (.-pathname loc)]
     [:div#essentials-modal {:class ["white-popup-block" (when-not false #_config/debug? "mfp-hide")]}
      [:div.essentials-modal-wrap
+
+      [:div.owl-controls
+       [:div.owl-nav
+        [:div.owl-prev {:on-click #(evt> [::events/select-previous-product])} "prev"]
+        [:div.owl-next {:on-click #(evt> [::events/select-next-product])} "next"]]]
+      
       [:div.header-popup-view
        [:div.popup-action-list-wrap
         [:div#clipboard-target {:style {:position "absolute" :top "-1000px" :left "-1000px"}}
@@ -369,17 +385,17 @@
            [:li [:a {:href "javascript:;"} "View essentials brochure"]]]]]]
        [:a.popup-modal-dismiss {:on-click #(->> js/$ .-magnificPopup .close)} "Dismiss"]]
 
-      [:div.owl-popup-div
-       [:div.item
-        [:div.essentials-modal-content
-         [:div.essentials-product-img
-          [:div.essentials-product-img-wrap
-           (when (:hero1-img selected-prod)
-             ^{:key (str (:epp-id selected-prod) "-" (:hero1-img selected-prod))}
-             [:img {:src (str config/media-url-base (:hero1-img selected-prod)) :data-no-retina ""}])]
-          [:div.essentials-product-img-detail
-           [:h2 {:class (:apprvId selected-prod)} (:title selected-prod)]
-           [:div {:dangerouslySetInnerHTML {:__html (:short-text selected-prod)}}]]]
+      #_[:div.owl-popup-div
+       [:div.item]]
+      [:div.essentials-modal-content
+       [:div.essentials-product-img
+        [:div.essentials-product-img-wrap
+         (when (:hero1-img selected-prod)
+           ^{:key (str (:epp-id selected-prod) "-" (:hero1-img selected-prod))}
+           [:img {:src (str config/media-url-base (:hero1-img selected-prod)) :data-no-retina ""}])]
+        [:div.essentials-product-img-detail
+         [:h2 {:class (:apprvId selected-prod)} (:title selected-prod)]
+         [:div {:dangerouslySetInnerHTML {:__html (:short-text selected-prod)}}]]]
 
-         [product-tabs]]]]]]))
+       [product-tabs]]]]))
 
