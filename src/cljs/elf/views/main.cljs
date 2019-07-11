@@ -90,7 +90,7 @@
      [:ul.lead-time-list
       (map lead-time-filter-radio-button filters)]]))
 
-(defn- product-type-filter-group [filter-options filtered-prods]
+(defn- product-type-filter-group [_ _]
   (let [open? (reagent/atom false)] ; local state indicating whether the filter UI is open or closed.
     (fn [filter-options filtered-prods]
       (let [{:keys [name description product-category items]} filter-options
@@ -99,9 +99,9 @@
 
         [:div.product-type-check.has-filter-submenu
          [:h4 {:class [(if @open? "open") (if (true? has-selection?) "has-selection")]
-               :on-click #(do
+               :on-click (fn [evt]
                             (swap! open? not)
-                            (.slideToggle (.next (js/$ (.-currentTarget %)) ".product-type-check-list")))}
+                            (.slideToggle (.next (js/$ (.-currentTarget evt)) ".product-type-check-list")))}
           description]
          [:ul.product-type-check-list {:style {:display "none"}}
           (for [i items]
