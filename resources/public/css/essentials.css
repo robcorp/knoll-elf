@@ -871,8 +871,8 @@ ul.upholstery-types-list {
     background-position: center;
     position: absolute;
     background-repeat: no-repeat;
-    left: -55px;
-    top: 50%;
+    left: 15px; //-55px;
+    top: 30vh; //50%;
     transform: translateY(-50%);
     font-size: 0;
 }
@@ -886,8 +886,8 @@ ul.upholstery-types-list {
     background-position: center;
     position: absolute;
     background-repeat: no-repeat;
-    right: -55px;
-    top: 50%;
+    right: 15px; //-55px;
+    top: 30vh; //50%;
     transform: translateY(-50%);
     font-size: 0;
 }
@@ -1203,7 +1203,7 @@ h3.titleGreyborder.inactive+ul.product-list {
     }
     .essentials-modal-wrap .owl-next,
     .essentials-modal-wrap .owl-prev {
-        top: 7%;
+        top: 20vh; //7%;;
         transform: translateY(-7%);
     }
     .essentials-modal-wrap {
