@@ -190,6 +190,7 @@
                       :key "elf-popup"
                       :overflowY "scroll"
                       :alignTop false
+                      :mainClass "elfPopup"
                       :callbacks {:open popupheight
                                   :close #(.pushState js/history nil nil (.-pathname js/location))}}))))
 
