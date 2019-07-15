@@ -874,7 +874,7 @@ ul.upholstery-types-list {
     position: absolute;
     background-repeat: no-repeat;
     left: 15px; //-55px;
-    top: 30vh; //50%;
+    top: 50%;
     transform: translateY(-50%);
     font-size: 0;
 }
@@ -889,7 +889,7 @@ ul.upholstery-types-list {
     position: absolute;
     background-repeat: no-repeat;
     right: 15px; //-55px;
-    top: 30vh; //50%;
+    top: 50%;
     transform: translateY(-50%);
     font-size: 0;
 }
