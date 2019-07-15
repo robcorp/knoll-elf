@@ -385,8 +385,6 @@
            [:li [:a {:href "javascript:;"} "View essentials brochure"]]]]]]
        [:a.popup-modal-dismiss {:on-click #(->> js/$ .-magnificPopup .close)} "Dismiss"]]
 
-      #_[:div.owl-popup-div
-       [:div.item]]
       [:div.essentials-modal-content
        [:div.essentials-product-img
         [:div.essentials-product-img-wrap

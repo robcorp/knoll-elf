@@ -399,6 +399,7 @@
     margin-top: 50px;
     position: relative;
     box-sizing: border-box;
+    height: 85vh;
 }
 
 .essentials-product-img-detail h2 {
@@ -442,6 +443,7 @@
 .essentials-modal-content {
     display: flex;
     width: 100%;
+    height: 100%;
     flex-wrap: wrap;
     justify-content: space-around;
 }
@@ -502,8 +504,8 @@
 
 .popup-tab-wrap {
     padding: 25px 0px 25px 40px;
-    max-height: 645px;
     overflow-y: scroll;
+    height: calc(100% - 99px);
 }
 
 .popup-tab-content {
