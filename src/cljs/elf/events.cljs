@@ -194,30 +194,6 @@
                       :callbacks {:open popupheight
                                   :close #(.pushState js/history nil nil (.-pathname js/location))}}))))
 
-#_(defn- setup-owl-carousel []
-  ;; create the carousel (mainly for styling and rendering the
-  ;; navigation arrows, since we don't actually scroll left or
-  ;; right for next / previous
-  (.. (js/$ ".owl-popup-div")
-      (owlCarousel (clj->js {:items 1
-                             :responsiveClass true
-                             :margin 0
-                             :dots false
-                             :nav true
-                             :loop false
-                             :autoHeight true
-                             :touchDrag true
-                             :mouseDrag true})))
-
-  ;; set up click events for next / previous navigation arrows
-  (.. (js/$ ".owl-next")
-      (unbind "click")
-      (click #(re-frame/dispatch [::select-next-product])))
-
-  (.. (js/$ ".owl-prev")
-      (unbind "click")
-      (click #(re-frame/dispatch [::select-previous-product]))))
-
 (reg-event-db
  ::product-selected
  (fn-traced [db [_ label epp-id] event]

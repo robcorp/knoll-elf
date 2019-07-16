@@ -13,23 +13,24 @@
 (def <sub (comp deref re-frame/subscribe)) ; permits using (<sub [::subs/name]) rather than @(subscribe [::subs/name])
 (def evt> re-frame/dispatch)
 
-(defn- finish-types-pill-clicked [evt]
-  (let [target (js/$ (.-currentTarget evt))
-        tab (.data target "tab")
-        tab-content (str ".popup-tab-content.selected " "#" tab ".finish-tab-content")]
-
-    (.removeClass (js/$ ".popup-tab-content.selected .finish-types-list > li") "selected") ; deselect the current pill
-    (.removeClass (js/$ ".finish-tab-content") "selected") ; and hide the current pill's tab contents
-    (.addClass target "selected") ; select the new tab
-    (.addClass (js/$ tab-content) "selected")))
 
 (defn- create-finish-types-pill [i [title fins]]
-  (if (pos? (count fins))
-    ^{:key (str "finish-" title - "pill")}
-    [:li {:class (if (= i 0) "selected" "")
-          :data-tab (str "finish-" (str/replace title #"[^a-zA-Z0-9-]" ""))
-          :on-click finish-types-pill-clicked}
-     [:a {:href "javascript:;"} title]]))
+  (let [finish-types-pill-clicked (fn [evt]
+                                    (let [target (js/$ (.-currentTarget evt))
+                                          tab (.data target "tab")
+                                          tab-content (str ".popup-tab-content.selected " "#" tab ".finish-tab-content")]
+
+                                      (.removeClass (js/$ ".popup-tab-content.selected .finish-types-list > li") "selected") ; deselect the current pill
+                                      (.removeClass (js/$ ".finish-tab-content") "selected") ; and hide the current pill's tab contents
+                                      (.addClass target "selected") ; select the new tab
+                                      (.addClass (js/$ tab-content) "selected")))]
+
+    (if (pos? (count fins))
+      ^{:key (str "finish-" title - "pill")}
+      [:li {:class (if (= i 0) "selected" "")
+            :data-tab (str "finish-" (str/replace title #"[^a-zA-Z0-9-]" ""))
+            :on-click finish-types-pill-clicked}
+       [:a {:href "javascript:;"} title]])))
 
 (defn- create-finish-types-tab [i [title fins]]
   (if (pos? (count fins))
@@ -62,21 +63,21 @@
         :on-click fabric-grade-pill-clicked}
    [:a {:href "javascript:;"} grade]])
 
-(defn- fabric-swatch-clicked [evt]
-  (let [target (js/$ (.-currentTarget evt))
-        tab (.data target "tab")
-        part (str/replace tab #"fabric-(.*)-tab" "$1")]
-
-    (evt> [::events/show-fabric-skus part])
-    (.hide (js/$ ".popup-tab-content.selected .upholstery-list-wrap .tab-main"))
-    (.hide (js/$ ".popup-tab-content.selected .upholstery-list-wrap .upholstery-tab-wrap"))
-    (.show (js/$ (str ".popup-tab-content.selected .upholstery-list-wrap .sub-tab-wrap #" tab)))))
 
 (defn- create-fabric-swatch [i fab]
   (let [name (:Name fab)
         part (:PartNum fab)
         grade (:Grade fab)
-        primarySku (:PrimarySKU fab)]
+        primarySku (:PrimarySKU fab)
+        fabric-swatch-clicked (fn [evt]
+                                (let [target (js/$ (.-currentTarget evt))
+                                      tab (.data target "tab")
+                                      part (str/replace tab #"fabric-(.*)-tab" "$1")]
+
+                                  (evt> [::events/show-fabric-skus part])
+                                  (.hide (js/$ ".popup-tab-content.selected .upholstery-list-wrap .tab-main"))
+                                  (.hide (js/$ ".popup-tab-content.selected .upholstery-list-wrap .upholstery-tab-wrap"))
+                                  (.show (js/$ (str ".popup-tab-content.selected .upholstery-list-wrap .sub-tab-wrap #" tab)))))]
 
     ^{:key (str grade "-" part)}
     [:li {:class ["has-sub-tab" (if (= i 0) " selected")]
@@ -107,14 +108,6 @@
      [:ul.upholstery-textile-list
       (map-indexed create-fabric-swatch (sort-by :Name fabs))]]))
 
-(defn- return-to-fabrics-view [evt]
-  (let [target (js/$ (.-currentTarget evt))
-        tab (.data target "tab")]
-
-    (.hide (js/$ (str ".popup-tab-content.selected .upholstery-list-wrap .sub-tab-wrap #" tab)))
-    (.show (js/$ ".popup-tab-content.selected .upholstery-list-wrap .tab-main"))
-    (.show (js/$ ".popup-tab-content.selected .upholstery-list-wrap .upholstery-tab-wrap"))))
-
 (defn- essential-colors [fab]
   (let [part-len (count (:PartNum fab))
         fab-colors (:FabricColors fab)
@@ -130,7 +123,14 @@
           fab-name (:Name fab)
           colors (case lead-time
                    "std" (:FabricColors fab)
-                   "three-week" (essential-colors fab))]
+                   "three-week" (essential-colors fab))
+          return-to-fabrics-view (fn [evt]
+                                   (let [target (js/$ (.-currentTarget evt))
+                                         tab (.data target "tab")]
+
+                                     (.hide (js/$ (str ".popup-tab-content.selected .upholstery-list-wrap .sub-tab-wrap #" tab)))
+                                     (.show (js/$ ".popup-tab-content.selected .upholstery-list-wrap .tab-main"))
+                                     (.show (js/$ ".popup-tab-content.selected .upholstery-list-wrap .upholstery-tab-wrap"))))]
 
       ^{:key (str lead-time grade part)}
       [:div {:id (str "fabric-" part "-tab")
@@ -221,17 +221,6 @@
                   (not= "Y" (:excl3wk selected-prod))))
        [approved-fabrics lead-time])]))
 
-#_(defn- lead-time-dropdown-selection-changed [evt]
-  (let [tab (.. evt -target -value)
-        tab-content (str "#" tab ".popup-tab-content")]
-
-    (.removeClass (js/$ ".essentials-tab-list > li") "selected") ; deselect the current tab
-    (.removeClass (js/$ ".popup-tab-content") "selected") ; and hide the current tab's contents
-    (.addClass (js/$ tab-content) "selected") ; show the new tab's content
-    (let [selected-pill (.data (js/$ ".popup-tab-content.selected .finish-types-list > li.selected") "tab")]
-      (.removeClass (js/$ ".popup-tab-content.selected .finish-tab-wrap .finish-tab-content") "selected") ; make sure only the selected pill's contents are showing
-      (.addClass (js/$ (str ".finish-tab-wrap " "#" selected-pill)) "selected"))))
-
 (defn- popup-tab-wrap []
   (let [selected-prod (<sub [::subs/selected-product])
         lead-times-set (set (:lead-times selected-prod))
@@ -277,15 +266,16 @@
                                   (when-let [selected-pill (.data (js/$ ".popup-tab-content.selected .finish-types-list > li.selected") "tab")]
                                     (.addClass (js/$ (str ".finish-tab-wrap " "#" selected-pill)) "selected"))))
 
-        lead-time-dropdown-selection-changed (fn [evt] (let [tab (.. evt -target -value)
-                                                             tab-content (str "#" tab ".popup-tab-content")]
+        lead-time-dropdown-selection-changed (fn [evt]
+                                               (let [tab (.. evt -target -value)
+                                                     tab-content (str "#" tab ".popup-tab-content")]
 
-                                                         (.removeClass (js/$ ".essentials-tab-list > li") "selected") ; deselect the current tab
-                                                         (.removeClass (js/$ ".popup-tab-content") "selected") ; and hide the current tab's contents
-                                                         (.addClass (js/$ tab-content) "selected") ; show the new tab's content
-                                                         (let [selected-pill (.data (js/$ ".popup-tab-content.selected .finish-types-list > li.selected") "tab")]
-                                                           (.removeClass (js/$ ".popup-tab-content.selected .finish-tab-wrap .finish-tab-content") "selected") ; make sure only the selected pill's contents are showing
-                                                           (.addClass (js/$ (str ".finish-tab-wrap " "#" selected-pill)) "selected"))))]
+                                                 (.removeClass (js/$ ".essentials-tab-list > li") "selected") ; deselect the current tab
+                                                 (.removeClass (js/$ ".popup-tab-content") "selected") ; and hide the current tab's contents
+                                                 (.addClass (js/$ tab-content) "selected") ; show the new tab's content
+                                                 (let [selected-pill (.data (js/$ ".popup-tab-content.selected .finish-types-list > li.selected") "tab")]
+                                                   (.removeClass (js/$ ".popup-tab-content.selected .finish-tab-wrap .finish-tab-content") "selected") ; make sure only the selected pill's contents are showing
+                                                   (.addClass (js/$ (str ".finish-tab-wrap " "#" selected-pill)) "selected"))))]
 
     [:div.essentials-product-tabs
      ^{:key :epp-id}
