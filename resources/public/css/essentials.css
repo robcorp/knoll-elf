@@ -414,6 +414,8 @@
     max-width: 320px;
     width: 100%;
     float: left;
+    height: 100%;
+    overflow-y: scroll;
 }
 
 .essentials-product-img-wrap,
@@ -505,7 +507,7 @@
 .popup-tab-wrap {
     padding: 25px 0px 25px 40px;
     overflow-y: scroll;
-    height: calc(100% - 99px);
+    height: calc(98% - 99px);
 }
 
 .popup-tab-content {
@@ -1084,9 +1086,12 @@ h3.titleGreyborder.inactive+ul.product-list {
     .right-product-col h3 {
         margin-bottom: 45px;
     }
+
     .essentials-modal-wrap {
-        margin-top: 85px;
+        //margin-top: 85px;
+	//height: 100%;
     }
+    
     .essentials-tab-list li a {
         padding: 10px 15px 10px 35px;
     }
@@ -1125,6 +1130,7 @@ h3.titleGreyborder.inactive+ul.product-list {
     }
     .essentials-product-tabs {
         width: 100%;
+	border: none;
     }
     .essentials-product-img-wrap {
         float: left;
@@ -1137,6 +1143,8 @@ h3.titleGreyborder.inactive+ul.product-list {
     .popup-tab-wrap {
         max-height: 100%;
         overflow: auto;
+        border: 1px solid #ccc;
+	height: 30%
     }
     .essentials-tab-list {
         display: none;
@@ -1151,12 +1159,6 @@ h3.titleGreyborder.inactive+ul.product-list {
         font-weight: normal;
         color: #777;
         font-family: 'HelveticaNeueW01-65Medi', Arial, Helvetica, sans-serif;
-    }
-    .essentials-product-tabs {
-        border: none;
-    }
-    .popup-tab-wrap {
-        border: 1px solid #ccc;
     }
     .popup-tab-wrap .mCSB_draggerContainer {
         display: none;
@@ -1205,17 +1207,20 @@ h3.titleGreyborder.inactive+ul.product-list {
     }
     .essentials-modal-wrap .owl-next,
     .essentials-modal-wrap .owl-prev {
-        top: 20vh; //7%;;
+        top: 160px;
         transform: translateY(-7%);
     }
     .essentials-modal-wrap {
         padding: 40px 0px 15px;
+	height: 100%;
     }
     .essentials-modal-wrap .owl-next {
         right: 15px;
+	//top: 7%;
     }
     .essentials-modal-wrap .owl-prev {
         left: 15px;
+	//top: 7%;
     }
     .upholstery-textile-list,
     .frame-list {
