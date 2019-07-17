@@ -440,6 +440,7 @@
     float: right;
     border: 1px solid #d3d3d3;
     border-top: none;
+    height: 100%;
 }
 
 .essentials-modal-content {
