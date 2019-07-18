@@ -164,7 +164,7 @@
                    "three-week" (<sub [::subs/selected-product-essential-leathers]))
         grades (->> fabs keys sort)]
 
-    (when (pos? (count fabs))
+    (when (pos? (+ (count fabs) (count leathers)))
       [:div.upholstery-list-wrap
        [:h4 "Approved Fabrics"]
        [:div.tab-main
@@ -172,14 +172,15 @@
         [:ul.upholstery-types-list
          (map-indexed create-fabric-grade-pill grades)
          (when (seq leathers)
-           [:li {:data-tab (str "grade-" "leather")
+           [:li {:class (if-not (seq fabs) "selected" "") ;; if no fabs, then autoselect Leathers
+                 :data-tab (str "grade-" "leather")
                  :on-click fabric-grade-pill-clicked}
             [:a {:href "javascript:;"} "Leather"]])]]
        [:div.upholstery-tab-wrap
         (map-indexed create-fabric-grade-tab (sort fabs))
         (when (seq leathers)
-          [:div {:id (str "grade-" "leather")
-                 :class "upholstery-tab-content" }
+          [:div {:id "grade-leather"
+                 :class ["upholstery-tab-content" (if-not (seq fabs) "selected" "")] }
            [:h5.print-show "Leather"]
            [:ul.upholstery-textile-list
             (map create-leather-swatch (sort-by :Name leathers))]])]
