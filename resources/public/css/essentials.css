@@ -1332,6 +1332,7 @@ h3.titleGreyborder.inactive+ul.product-list {
     .popup-action-list,
     .popup-action-list-view,
     .owl-item,
+    .owl-controls,
     .swatch-div,
     .sub-tab-wrap,
     ul.upholstery-types-list,
@@ -1344,6 +1345,7 @@ h3.titleGreyborder.inactive+ul.product-list {
     .essentials-product-img {
         max-width: 100%;
         float: none;
+	height: initial;
     }
     .essentials-product-tabs {
         width: 100%;
@@ -1351,6 +1353,7 @@ h3.titleGreyborder.inactive+ul.product-list {
         float: none;
         border: none;
         box-shadow: none;
+	height: initial;
     }
     .essentials-tab-list li {
         width: 100%;
@@ -1399,6 +1402,7 @@ h3.titleGreyborder.inactive+ul.product-list {
     .popup-tab-wrap,
     .mCustomScrollBox {
         max-height: 100% !important;
+	height: max-content;
         overflow: auto !important;
         padding: 0;
     }
