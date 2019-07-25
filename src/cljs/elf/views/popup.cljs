@@ -370,10 +370,11 @@
         [:ul.popup-action-list-view
          [:li [:span.pop-action-icon]
           [:ul.popup-action-list
-           [:li [:a {:href (str "https://www.knoll.com/product/" (:product-id selected-prod) "?section=design") :target "_blank"} " Visit Full Product Page"]]
+           [:li [:a {:href (str (when config/debug? "https://knlprdwcsmgt.knoll.com") "/product/" (:product-id selected-prod) "?section=design")
+                     :target "_blank"} " Visit Full Product Page"]]
            [clipboard-button "Share" "#clipboard-target"]
            [:li [:a {:href "javascript:;" :on-click #(.print js/window)} "PRINT"]]
-           [:li [:a {:href "javascript:;"} "View essentials brochure"]]]]]]
+           [:li [:a {:href (str (when config/debug? "https://knlprdwcsmgt.knoll.com") "/design-plan/knoll-essentials/collections")} "ESSENTIALS COLLECTIONS"]]]]]]
        [:a.popup-modal-dismiss {:on-click #(->> js/$ .-magnificPopup .close)} "Dismiss"]]
 
       [:div.essentials-modal-content
