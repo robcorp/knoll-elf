@@ -166,21 +166,6 @@
        (clear-all-product-filters)
        (filter-category-products (:filtered-products db)))))
 
-(defn- popupheight []
-  (let [windowheight (.-innerHeight js/window)
-        popupheight (.innerHeight (js/$ ".essentials-modal-wrap"))
-        popupimgheight (.innerHeight (js/$ ".essentials-product-img-wrap"))
-        topproimgheight (.innerHeight (js/$ ".essentials-product-img"))
-        contentheight (+ popupimgheight (- popupheight topproimgheight))]
-    
-    #_(println "windowheight: " windowheight)
-    #_(println "popupheight: " popupheight)
-    #_(println "popupimgheight: " popupimgheight)
-    #_(println "topproimgheight: " topproimgheight)
-    #_(println "contentheight: " contentheight)
-    (if (> topproimgheight windowheight)
-      (println "topproimgheight is greater than windowheight"))))
-
 (defn- setup-popup []
   (.. js/$ -magnificPopup
       (open (clj->js {:type "inline"
@@ -191,8 +176,7 @@
                       :overflowY "scroll"
                       :alignTop false
                       :mainClass "elfPopup"
-                      :callbacks {:open popupheight
-                                  :close #(.pushState js/history nil nil (.-pathname js/location))}}))))
+                      :callbacks {:close #(.pushState js/history nil nil (.-pathname js/location))}}))))
 
 (reg-event-db
  ::product-selected

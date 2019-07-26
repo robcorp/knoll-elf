@@ -149,16 +149,13 @@
          (fn [all-filter-options]
            (apply vector all-filter-options)))
 
-(defn- get-filter-values [filter]
-  (select [:items ALL :value] filter))
-
 (reg-sub ::show-reset?
          (fn [_]
            [(re-frame/subscribe [::all-filter-options])])
 
          (fn [[all-filter-options]]
-           (->> all-filter-options
-                (map get-filter-values)
-                flatten
-                (some true?))))
-
+           (let [get-filter-values (fn [f] (select [:items ALL :value] f))]
+             (->> all-filter-options
+                  (map get-filter-values)
+                  flatten
+                  (some true?)))))

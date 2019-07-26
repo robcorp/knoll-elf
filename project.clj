@@ -2,7 +2,7 @@
   :dependencies [[org.clojure/clojure "1.10.1"]
                  [org.clojure/clojurescript "1.10.520"]
                  [reagent "0.8.1"]
-                 [re-frame "0.10.6"]
+                 [re-frame "0.10.8"]
                  [cljs-ajax "0.8.0"]
                  #_[day8.re-frame/http-fx "0.1.6"]
                  [com.rpl/specter "1.1.2"]
