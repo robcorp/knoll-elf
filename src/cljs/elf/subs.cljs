@@ -2,7 +2,7 @@
   (:require
    [clojure.string :as str]
    [re-frame.core :refer [reg-sub] :as re-frame]
-   [com.rpl.specter :refer [ALL multi-path walker] :refer-macros [select select-first setval] :as spctr]))
+   [com.rpl.specter :refer [ALL] :refer-macros [select select-first] :as spctr]))
 
 (reg-sub ::name
          :name)

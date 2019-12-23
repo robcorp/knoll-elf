@@ -6,7 +6,7 @@
    [elf.events :as events]
    [elf.subs :as subs]
    [elf.views.popup :refer [modal-popup]]
-   [com.rpl.specter :refer [ALL collect-one] :refer-macros [select select-first] :as spctr]
+   [com.rpl.specter :refer [ALL] :refer-macros [select] :as spctr]
    [cljsjs.clipboard] ; required in order to make the global js/ClipboardJS available
    ))
 
@@ -64,11 +64,11 @@
       [:div.product-col-image
        [:img {:src (str config/media-url-base thumb-img) :data-no-retina ""}]]
       [:ul.lead-time-status
-       (if (lead-times-set "quick")
+       (when (lead-times-set "quick")
          [:li.quick-lead-active])
-       (if (lead-times-set "three-week")
+       (when (lead-times-set "three-week")
          [:li.three-ship-active])
-       (if (lead-times-set "std")
+       (when (lead-times-set "std")
          [:li.standard-ship-active])]
       [:p title]]]))
 
@@ -98,7 +98,7 @@
             has-selection? false #_(some #(true? (:value %)) items)]
 
         [:div.product-type-check.has-filter-submenu
-         [:h4 {:class [(if @open? "open") (if (true? has-selection?) "has-selection")]
+         [:h4 {:class [(when @open? "open") (when (true? has-selection?) "has-selection")]
                :on-click (fn [evt]
                             (swap! open? not)
                             (.slideToggle (.next (js/$ (.-currentTarget evt)) ".product-type-check-list")))}
