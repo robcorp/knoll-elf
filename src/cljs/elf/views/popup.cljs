@@ -25,7 +25,7 @@
                                       (.addClass target "selected") ; select the new tab
                                       (.addClass (js/$ tab-content) "selected")))]
 
-    (if (pos? (count fins))
+    (when (pos? (count fins))
       ^{:key (str "finish-" title - "pill")}
       [:li {:class (if (= i 0) "selected" "")
             :data-tab (str "finish-" (str/replace title #"[^a-zA-Z0-9-]" ""))
@@ -33,10 +33,10 @@
        [:a {:href "javascript:;"} title]])))
 
 (defn- create-finish-types-tab [i [title fins]]
-  (if (pos? (count fins))
+  (when (pos? (count fins))
     ^{:key (str "finish-" title "-tab")}
     [:div {:id (str "finish-" (str/replace title #"[^a-zA-Z0-9-]" ""))
-           :class ["finish-tab-content" (if (= i 0) "selected")]}
+           :class ["finish-tab-content" (when (= i 0) "selected")]}
      [:h5.print-show title]
      [:ul.frame-list
            (for [fin fins]
@@ -80,7 +80,7 @@
                                   (.show (js/$ (str ".popup-tab-content.selected .upholstery-list-wrap .sub-tab-wrap #" tab)))))]
 
     ^{:key (str grade "-" part)}
-    [:li {:class ["has-sub-tab" (if (= i 0) " selected")]
+    [:li {:class ["has-sub-tab" (when (= i 0) " selected")]
           :data-tab (str "fabric-" part "-tab")
           :on-click fabric-swatch-clicked}
      [:div.swatch-div
@@ -103,7 +103,7 @@
   (when grade
     ^{:key (str "grade-" grade "-tab")}
     [:div {:id (str "grade-" grade)
-           :class ["upholstery-tab-content" (if (= i 0) "selected")]}
+           :class ["upholstery-tab-content" (when (= i 0) "selected")]}
      [:h5.print-show (str "Grade " grade)]
      [:ul.upholstery-textile-list
       (map-indexed create-fabric-swatch (sort-by :Name fabs))]]))
@@ -113,7 +113,7 @@
         fab-colors (:FabricColors fab)
         ess-skus (map #(subs (str/trim %) part-len)
                       (str/split (:EssntlSKUs fab) #","))
-        ess-colors (filter not-empty (map #(some (fn [sku] (if (= (first sku) %) sku)) fab-colors) ess-skus))]
+        ess-colors (filter not-empty (map #(some (fn [sku] (when (= (first sku) %) sku)) fab-colors) ess-skus))]
 
     ess-colors))
 
@@ -202,12 +202,12 @@
      [:h3.print-show.print-show-h3
       [:a.tab-nav print-show-text]]
      
-     (if opts
+     (when opts
        [:div.options-list-wrap
         [:h4 optsTitle]
         [:div {:dangerouslySetInnerHTML {:__html (:optsTxt opts)}}]])
 
-     (if (pos? (count avail-fin-mods))
+     (when (pos? (count avail-fin-mods))
        [:div.finish-list-wrap
         [:h4 "Finishes"]
         [:div.tab-main
@@ -217,7 +217,7 @@
         [:div.finish-tab-wrap
          (map-indexed create-finish-types-tab avail-fin-mods)]])
 
-     (if (or (= lead-time "std")
+     (when (or (= lead-time "std")
              (and (= lead-time "three-week")
                   (not= "Y" (:excl3wk selected-prod))))
        [approved-fabrics lead-time])]))
@@ -286,7 +286,7 @@
         ^{:key (str epp-id "-" "quick")}
         [:li {:id (str epp-id "-" "quick")
               :data-tab "quick"
-              :class (if (= @first-tab "quick") "selected")
+              :class (when (= @first-tab "quick") "selected")
               :style {:width tab-width}
               :on-click lead-time-tab-clicked}
          [:span.tab-color.quick-lead-active]
@@ -297,7 +297,7 @@
         ^{:key (str epp-id "-" "three-week")}
         [:li {:id (str epp-id "-" "three-week")
               :data-tab "three-week"
-              :class (if (= @first-tab "three-week") "selected")
+              :class (when (= @first-tab "three-week") "selected")
               :style {:width tab-width}
               :on-click lead-time-tab-clicked}
          [:span.tab-color.three-ship-active]
@@ -308,7 +308,7 @@
         ^{:key (str epp-id "-" "std")}
         [:li {:id (str epp-id "-" "std")
               :data-tab "std"
-              :class (if (= @first-tab "std") "selected")
+              :class (when (= @first-tab "std") "selected")
               :style {:width tab-width}
               :on-click lead-time-tab-clicked}
          [:span.tab-color.standard-ship-active]
@@ -317,13 +317,13 @@
      ^{:key (str "select-" epp-id)}
      [:select.tab-select-option {:defaultValue select-default-value
                                  :on-change lead-time-dropdown-selection-changed}
-      (if (lead-times-set "quick")
+      (when (lead-times-set "quick")
         [:option {:value "quick"} "ESSENTIALS QUICKSHIP OPTIONS"])
 
-      (if (lead-times-set "three-week")
+      (when (lead-times-set "three-week")
         [:option {:value "three-week"} "ESSENTIALS 3 WEEK OPTIONS"])
 
-      (if (lead-times-set "std")
+      (when (lead-times-set "std")
         [:option {:value "std"} "STANDARD SHIP OPTIONS"])]
 
      [popup-tab-wrap selected-prod lead-times-set]]))
