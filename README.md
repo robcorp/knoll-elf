@@ -36,5 +36,5 @@ To compile clojurescript to javascript:
 
 ```
 lein clean
-lein cljsbuild once advanced
+lein cljsbuild once prod
 ```

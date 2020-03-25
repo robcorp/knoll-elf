@@ -4,8 +4,7 @@
    [re-frame.core :as re-frame]
    [elf.events :as events]
    [elf.views.main :refer [main-panel]]
-   [elf.config :as config]
-   ))
+   [elf.config :as config]))
 
 
 (defn dev-setup []
