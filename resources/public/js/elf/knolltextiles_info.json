@@ -183,7 +183,7 @@
    "Name": "Sonnet",
    "PartNum": "K1460",
    "Grade": "A",
-   "EssntlSKUs": "K14601, K14602, K14603, K14604, K14605, K14606, K14607, K14608, K14609, K146010, K146011, K146012",
+   "EssntlSKUs": "K14601, K14602, K14603, K14604, sdf K14606, K14607, K14608, K14609, K146010, K146011, K146012",
    "PrimarySKU": "9",
    "Type": "TEX",
    "LeatherImage": ""
@@ -210,7 +210,7 @@
    "Name": "Infinite",
    "PartNum": "K2263",
    "Grade": "A",
-   "EssntlSKUs": "",
+   "EssntlSKUs": "K22631, K22632, K22633, K22634, K22635, K22636, K22637, K22638, K22639, K226310, K226311, K226312, K226313, K226314, K226315, K226316, K226317, K226318, K226319, K226320, K226321, K226322",
    "PrimarySKU": "19",
    "Type": "TEX",
    "LeatherImage": ""
@@ -239,6 +239,15 @@
    "Grade": "B",
    "EssntlSKUs": "",
    "PrimarySKU": "1A",
+   "Type": "TEX",
+   "LeatherImage": ""
+ },
+ {
+   "Name": "Attire",
+   "PartNum": "K2340",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "2",
    "Type": "TEX",
    "LeatherImage": ""
  },
@@ -275,6 +284,15 @@
    "Grade": "B",
    "EssntlSKUs": "",
    "PrimarySKU": "2",
+   "Type": "TEX",
+   "LeatherImage": ""
+ },
+ {
+   "Name": "Block Party",
+   "PartNum": "WC2335",
+   "Grade": "B",
+   "EssntlSKUs": "",
+   "PrimarySKU": "5",
    "Type": "TEX",
    "LeatherImage": ""
  },
@@ -480,7 +498,7 @@
    "Name": "Little Devil",
    "PartNum": "K2112",
    "Grade": "B",
-   "EssntlSKUs": "",
+   "EssntlSKUs": "K21121, K21122, K21123, K21124, K21125, K21126, K21127, K21128, K21129, K211210, K211211, K211212",
    "PrimarySKU": "5",
    "Type": "TEX",
    "LeatherImage": ""
@@ -561,7 +579,7 @@
    "Name": "Prairie",
    "PartNum": "K1925",
    "Grade": "B",
-   "EssntlSKUs": "K19251, K19252, K19253, K19254, K19255, K19256, K19257, K19258, K19259, K192510, K192511, K192512, K192513, K192514, K192515, K192516, K192517, K192518, K192519, K192520, K192521, K192522, K192523, K192524, K192525, K192526, K192527, K192528, K192529, K192530, K192531, K192532, K192533, K192534, K192535, K192536, K192537, K192538, K192539, K192540, K192541, K192542, K192543, K192544, K192545, K192546, K192547, K192548, K192549, K192550, K192551, K192552, K192553, K192554, K192555, K192556, K192557, K192558, K192558, K192559, K192560, K192561",
+   "EssntlSKUs": "K19251,  K19254, K19255, K19256, K19257, K19258, K19259, K192511, K192512, K192513, K192514, K192515, K192516, K192517, K192518, K192519, K192520, K192521, K192522, K192523, K192524, K192525, K192526, K192527, K192528, K192529, K192530, K192531, K192532, K192533, K192534, K192535, K192536, K192537, K192538, K192539, K192540, K192541, K192542, K192543, K192544, K192545, K192546, K192547, K192548, K192549, K192550, K192551, K192552, K192553, K192554, K192555, K192556, K192557, K192558, K192558, K192559, K192560, K192561",
    "PrimarySKU": "12",
    "Type": "TEX",
    "LeatherImage": ""
@@ -588,7 +606,7 @@
    "Name": "Ransom",
    "PartNum": "K1298",
    "Grade": "B",
-   "EssntlSKUs": "K12981, K12982, K12983, K12984, K12985, K12986, K12987, K12988, K12989, K129810, K129811, K129812, K129813, K129814",
+   "EssntlSKUs": "",
    "PrimarySKU": "10",
    "Type": "TEX",
    "LeatherImage": ""
@@ -606,7 +624,7 @@
    "Name": "Rush Hour",
    "PartNum": "K1824",
    "Grade": "B",
-   "EssntlSKUs": "K18241, K18242, K18243, K18244, K18245, K18246, K18247, K18248",
+   "EssntlSKUs": "K18241, K18242,  K18244, K18245, K18246, K18247, K18248",
    "PrimarySKU": "4",
    "Type": "TEX",
    "LeatherImage": ""
@@ -689,6 +707,15 @@
    "Grade": "B",
    "EssntlSKUs": "",
    "PrimarySKU": "9",
+   "Type": "TEX",
+   "LeatherImage": ""
+ },
+ {
+   "Name": "Utmost II",
+   "PartNum": "K2358",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "10",
    "Type": "TEX",
    "LeatherImage": ""
  },
@@ -786,7 +813,7 @@
    "Name": "Dottie",
    "PartNum": "K2259",
    "Grade": "B",
-   "EssntlSKUs": "",
+   "EssntlSKUs": "K22591, K22592, K22593, K22594, K22595, K22596, K22597, K22598, K22599, K225910, K225911, K225912",
    "PrimarySKU": "2",
    "Type": "TEX",
    "LeatherImage": ""
@@ -1080,6 +1107,15 @@
    "LeatherImage": ""
  },
  {
+   "Name": "On Point",
+   "PartNum": "K2293",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "6",
+   "Type": "TEX",
+   "LeatherImage": ""
+ },
+ {
    "Name": "Palisade",
    "PartNum": "K2030",
    "Grade": "C",
@@ -1094,6 +1130,15 @@
    "Grade": "C",
    "EssntlSKUs": "",
    "PrimarySKU": "1",
+   "Type": "TEX",
+   "LeatherImage": ""
+ },
+ {
+   "Name": "Patchwork",
+   "PartNum": "K2292",
+   "Grade": "C",
+   "EssntlSKUs": "",
+   "PrimarySKU": "6",
    "Type": "TEX",
    "LeatherImage": ""
  },
@@ -1584,6 +1629,15 @@
    "LeatherImage": ""
  },
  {
+   "Name": "Premier",
+   "PartNum": "K2294",
+   "Grade": "E",
+   "EssntlSKUs": "",
+   "PrimarySKU": "7",
+   "Type": "TEX",
+   "LeatherImage": ""
+ },
+ {
    "Name": "Rebel",
    "PartNum": "K2261",
    "Grade": "E",
@@ -1728,6 +1782,15 @@
    "LeatherImage": ""
  },
  {
+   "Name": "Imprint",
+   "PartNum": "K2333",
+   "Grade": "F",
+   "EssntlSKUs": "",
+   "PrimarySKU": "2",
+   "Type": "TEX",
+   "LeatherImage": ""
+ },
+ {
    "Name": "In Stitches",
    "PartNum": "K2190",
    "Grade": "F",
@@ -1742,6 +1805,15 @@
    "Grade": "F",
    "EssntlSKUs": "",
    "PrimarySKU": "3",
+   "Type": "TEX",
+   "LeatherImage": ""
+ },
+ {
+   "Name": "It's Complicated",
+   "PartNum": "K2252",
+   "Grade": "F",
+   "EssntlSKUs": "",
+   "PrimarySKU": "4",
    "Type": "TEX",
    "LeatherImage": ""
  },
@@ -1917,6 +1989,24 @@
    "LeatherImage": ""
  },
  {
+   "Name": "Color Collage",
+   "PartNum": "K2349",
+   "Grade": "G",
+   "EssntlSKUs": "",
+   "PrimarySKU": "6",
+   "Type": "TEX",
+   "LeatherImage": ""
+ },
+ {
+   "Name": "Dapper",
+   "PartNum": "K2338",
+   "Grade": "G",
+   "EssntlSKUs": "",
+   "PrimarySKU": "8",
+   "Type": "TEX",
+   "LeatherImage": ""
+ },
+ {
    "Name": "Djenne",
    "PartNum": "K2029",
    "Grade": "G",
@@ -1931,6 +2021,15 @@
    "Grade": "G",
    "EssntlSKUs": "",
    "PrimarySKU": "4",
+   "Type": "TEX",
+   "LeatherImage": ""
+ },
+ {
+   "Name": "Fancy Twill",
+   "PartNum": "K2348",
+   "Grade": "G",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1",
    "Type": "TEX",
    "LeatherImage": ""
  },
@@ -2133,6 +2232,15 @@
    "LeatherImage": ""
  },
  {
+   "Name": "Doyenne",
+   "PartNum": "K2353",
+   "Grade": "H",
+   "EssntlSKUs": "",
+   "PrimarySKU": "6",
+   "Type": "TEX",
+   "LeatherImage": ""
+ },
+ {
    "Name": "Firefly",
    "PartNum": "K2021",
    "Grade": "H",
@@ -2205,6 +2313,15 @@
    "LeatherImage": ""
  },
  {
+   "Name": "Bella",
+   "PartNum": "K2336",
+   "Grade": "I",
+   "EssntlSKUs": "",
+   "PrimarySKU": "1",
+   "Type": "TEX",
+   "LeatherImage": ""
+ },
+ {
    "Name": "Byron",
    "PartNum": "K1387",
    "Grade": "I",
@@ -2219,6 +2336,15 @@
    "Grade": "I",
    "EssntlSKUs": "",
    "PrimarySKU": "19",
+   "Type": "TEX",
+   "LeatherImage": ""
+ },
+ {
+   "Name": "Chic",
+   "PartNum": "K2351",
+   "Grade": "I",
+   "EssntlSKUs": "",
+   "PrimarySKU": "4",
    "Type": "TEX",
    "LeatherImage": ""
  },
