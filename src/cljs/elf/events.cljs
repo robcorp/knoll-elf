@@ -176,7 +176,7 @@
                       :overflowY "scroll"
                       :alignTop false
                       :mainClass "elfPopup"
-                      :callbacks {:close #(.pushState js/history nil nil (.-pathname js/location))}}))))
+                      :callbacks {:close #(.replaceState js/history nil nil (.-pathname js/location))}}))))
 
 (reg-event-db
  ::product-selected
@@ -189,7 +189,7 @@
 
             
             ;; change the URL to include the pop param
-            (.pushState js/history nil nil (str (.-pathname js/location) "?pop=" epp-id))
+            (.replaceState js/history nil nil (str (.-pathname js/location) "?pop=" epp-id))
 
 
             ;; update the :selected-epp-id in the app db with the selected product's
@@ -268,7 +268,7 @@
          [_ epp-id] prev-prod]
 
      ;; change the URL to include the pop param
-     (.pushState js/history nil nil (str (.-pathname js/location) "?pop=" epp-id))
+     (.replaceState js/history nil nil (str (.-pathname js/location) "?pop=" epp-id))
 
      (assoc db :selected-epp-id prev-prod))))
 
@@ -279,7 +279,7 @@
          [_ epp-id] next-prod]
 
      ;; change the URL to include the pop param
-     (.pushState js/history nil nil (str (.-pathname js/location) "?pop=" epp-id))
+     (.replaceState js/history nil nil (str (.-pathname js/location) "?pop=" epp-id))
 
      (assoc db :selected-epp-id next-prod))))
 
