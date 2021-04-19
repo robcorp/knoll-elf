@@ -47,7 +47,7 @@
     margin-right: 15px;
 }
 
-.ui-widget.search-box label {
+.ui-widget.elf-search-box label {
     padding-top: 13px;
     padding-bottom: 10px;
     font: 15px/22px 'HelveticaNeueW01-75Bold', Arial, Helvetica, sans-serif;
@@ -62,7 +62,7 @@
     color: #464646;
 }
 
-.ui-widget.search-box input {
+.ui-widget.elf-search-box input {
 	border-style: solid;
 	border-width: 1px;
 	border-color: #dddddd;

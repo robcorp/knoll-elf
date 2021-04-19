@@ -182,7 +182,7 @@
                                         ; filtering changes.  The _
                                         ; means we don't actually use
                                         ; the <sub here.
-                          [:div.ui-widget.search-box
+                          [:div.ui-widget.elf-search-box
                            [:label {:for search-box-id} "Find Product: "]
                            [:input {:id search-box-id}]]))
 
