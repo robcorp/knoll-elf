@@ -64,6 +64,8 @@
       [:div.product-col-image
        [:img {:src (str config/media-url-base thumb-img) :data-no-retina ""}]]
       [:ul.lead-time-status
+       (when (lead-times-set "one-to-three-day")
+         [:li.one-to-three-day-lead-active])
        (when (lead-times-set "quick")
          [:li.quick-lead-active])
        (when (lead-times-set "three-week")
@@ -73,6 +75,7 @@
       [:p title]]]))
 
 (defn- lead-time-filter-radio-button [{:keys [li-id li-class id lead-time label value]}]
+  (println "lead-time: " lead-time)
   [:li {:key id :id li-id :class ["lead-time-list-types" li-class]}
    [:input.check-in {:type "radio"
                      :id id

@@ -150,6 +150,14 @@
     background-color: #777777;
 }
 
+.lead-time-list-types.one-to-three-day-ship label:before {
+    border-color: #00ee39;
+}
+
+.lead-time-list-types.one-to-three-day-ship input:checked+label:before {
+    background-color: #00ee39;
+}
+
 .lead-time-list-types.quick-ship-type label:before {
     border-color: #00adef;
 }
@@ -236,6 +244,10 @@
     float: left;
     display: inline-block;
     margin-right: 3px;
+}
+
+.one-to-three-day-lead-active {
+    background-color: #00ee39;
 }
 
 .quick-lead-active {

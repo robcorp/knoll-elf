@@ -65,7 +65,9 @@
 (reg-event-db
  ::set-all-products
  (fn-traced [db [_ products]]
-   (.setItem js/localStorage "all-products" products)
+   (try (.setItem js/localStorage "all-products" products)
+        (catch :default err (println err "Couldn't store all-products in localStorage.")))
+   #_(.setItem js/localStorage "all-products" products)
    (-> db
        (assoc :all-products products
               :filtered-products products)
@@ -212,7 +214,7 @@
         all-products-url (if config/debug?
                            (if config/use-local-products?
                              "/js/elf/all-products.json" ;; use the local file - this file should be updated periodically using the json from prod or staging
-                             (str "http://knlprdwcsmgt1.knoll.com" path)) ;; use staging url
+                             (str "http://knldev2wcsapp1a.knoll.com" #_"http://knlprdwcsmgt1.knoll.com" path)) ;; use staging url
                            (str (.. js/window -location -origin) path)) ;; use the host of the current browser window
         success-handler (fn [resp]
                           (re-frame/dispatch [::set-all-products (:all-products resp)]))
