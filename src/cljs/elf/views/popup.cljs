@@ -194,7 +194,7 @@
         tab-content-class (if selected? "selected" "")
         print-show-text (case (keyword lead-time)
                           :one-to-three-day "Essentials 1-3 Day options"
-                          :quick "Essentials Quickship options"
+                          :quick "Essentials QuickShip options"
                           :three-week "Essentials 3 week options"
                           :std "Standard Ship options")]
 
@@ -308,7 +308,7 @@
               :style {:width tab-width}
               :on-click lead-time-tab-clicked}
          [:span.tab-color.quick-lead-active]
-         [:a.tab-nav "Essentials Quickship options"]])
+         [:a.tab-nav "Essentials QuickShip options"]])
 
       (when (lead-times-set "three-week")
         (if-not @first-tab (reset! first-tab "three-week"))
