@@ -70,20 +70,20 @@
          [:li.quick-lead-active])
        (when (lead-times-set "three-week")
          [:li.three-ship-active])
-       (when (lead-times-set "std")
+       #_(when (lead-times-set "std")
          [:li.standard-ship-active])]
       [:p title]]]))
 
 (defn- lead-time-filter-radio-button [{:keys [li-id li-class id lead-time label value]}]
-  (println "lead-time: " lead-time)
-  [:li {:key id :id li-id :class ["lead-time-list-types" li-class]}
-   [:input.check-in {:type "radio"
-                     :id id
-                     :checked value
-                     :name "lead-times-radio"
-                     :on-change #(evt> [::events/lead-time-filter-radio-button-clicked lead-time])}]
-   [:label.active {:for id
-                   :dangerouslySetInnerHTML {:__html label}}]])
+  (when-not (= lead-time "std")
+    [:li {:key id :id li-id :class ["lead-time-list-types" li-class]}
+     [:input.check-in {:type "radio"
+                       :id id
+                       :checked value
+                       :name "lead-times-radio"
+                       :on-change #(evt> [::events/lead-time-filter-radio-button-clicked lead-time])}]
+     [:label.active {:for id
+                     :dangerouslySetInnerHTML {:__html label}}]]))
 
 ;;; render the Lead Time: filters 
 (defn- lead-time-filters []

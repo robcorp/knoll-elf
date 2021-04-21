@@ -10,5 +10,5 @@
 ;; base URL for media (images)
 (def media-url-base
   (if debug?
-    "https://knlprdwcsmgt.knoll.com/media"
+    "http://knldev2wcsapp1a.knoll.com/media" #_"https://knlprdwcsmgt.knoll.com/media"
     (str (.. js/window -location -origin) "/media")))

@@ -193,6 +193,7 @@
         [optsTitle opts] (select-first [:availFinMods ALL #(= "options" (str/lower-case (:title %))) (collect-one :title) (keyword lead-time)] selected-prod)
         tab-content-class (if selected? "selected" "")
         print-show-text (case (keyword lead-time)
+                          :one-to-three-day "Essentials 1-3 Day options"
                           :quick "Essentials Quickship options"
                           :three-week "Essentials 3 week options"
                           :std "Standard Ship options")]
@@ -228,6 +229,10 @@
         first-tab (atom nil)]
     
     [:div.popup-tab-wrap
+     (when (lead-times-set "one-to-three-day")
+       (if-not @first-tab (reset! first-tab "one-to-three-day")) ;; if first-tab hasn't been set yet, set it to "quick"
+       [tab-contents "one-to-three-day" selected-prod (= @first-tab "one-to-three-day")])
+
      (when (lead-times-set "quick")
        (if-not @first-tab (reset! first-tab "quick")) ;; if first-tab hasn't been set yet, set it to "quick"
        [tab-contents "quick" selected-prod (= @first-tab "quick")])
@@ -248,8 +253,10 @@
         tab-width (case lead-times-count
                     (0 1) "100%"
                     2 "50%"
-                    3 "33.33%")
+                    3 "33.33%"
+                    4 "25%")
         select-default-value (case lead-times-count
+                               4 "one-to-three-day"
                                3 "quick"
                                2 "three-week"
                                (0 1) "std")
@@ -281,6 +288,17 @@
     [:div.essentials-product-tabs
      ^{:key :epp-id}
      [:ul.essentials-tab-list
+      (when (lead-times-set "one-to-three-day")
+        (if-not @first-tab (reset! first-tab "one-to-three-day"))
+        ^{:key (str epp-id "-" "one-to-three-day")}
+        [:li {:id (str epp-id "-" "one-to-three-day")
+              :data-tab "one-to-three-day"
+              :class (when (= @first-tab "one-to-three-day") "selected")
+              :style {:width tab-width}
+              :on-click lead-time-tab-clicked}
+         [:span.tab-color.one-to-three-day-lead-active]
+         [:a.tab-nav "Essentials 1-3 Day options"]])
+
       (when (lead-times-set "quick")
         (if-not @first-tab (reset! first-tab "quick"))
         ^{:key (str epp-id "-" "quick")}
@@ -317,6 +335,9 @@
      ^{:key (str "select-" epp-id)}
      [:select.tab-select-option {:defaultValue select-default-value
                                  :on-change lead-time-dropdown-selection-changed}
+      (when (lead-times-set "one-to-three-day")
+        [:option {:value "one-to-three-day"} "ESSENTIALS 1-3 DAY OPTIONS"])
+
       (when (lead-times-set "quick")
         [:option {:value "quick"} "ESSENTIALS QUICKSHIP OPTIONS"])
 
