@@ -307,12 +307,16 @@
     background-position: center;
     display: inline-block;
     background-repeat: no-repeat;
+	transform: rotateZ(-90deg);
+	transition: transform 0.5s;
 }
 
 .product-type-check.has-filter-submenu h4.open:before {
-    background-image: url(/images/up-arrow.jpg);
+    /*background-image: url(/images/up-arrow.jpg);*/
     width: 12px;
     height: 8px;
+	transform: rotateZ(0deg);
+	transition: transform 0.5s;
 }
 
 .product-type-check.has-filter-submenu.disable-filter h4:before {
