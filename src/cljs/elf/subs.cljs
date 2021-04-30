@@ -13,6 +13,9 @@
 (reg-sub ::all-products
          :all-products)
 
+(reg-sub ::finishes
+         :finishes)
+
 (reg-sub ::filtered-products
          :filtered-products)
 

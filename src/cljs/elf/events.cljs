@@ -21,7 +21,7 @@
                               "ELFPowerAndDataSelector"
                               "ELFWorkToolsSelector"
                               "ELFScreensAndBoardsSelector"])
-   (load-all-products)
+   (load-all-products-and-finishes)
    (let [db db/default-db]
      (filter-category-products db (:filtered-products db)))))
 
@@ -63,14 +63,15 @@
          :filtered-screen-products (category-products db products :ELFScreensAndBoardsSelector)))
 
 (reg-event-db
- ::set-all-products
- (fn-traced [db [_ products]]
+ ::set-all-products-and-finishes
+ (fn-traced [db [_ products finishes]]
    (try (.setItem js/localStorage "all-products" products)
         (catch :default err (println err "Couldn't store all-products in localStorage.")))
    #_(.setItem js/localStorage "all-products" products)
    (-> db
        (assoc :all-products products
-              :filtered-products products)
+              :filtered-products products
+              :finishes finishes)
        (filter-category-products products))))
 
 (reg-event-db
@@ -209,15 +210,15 @@
 
    db))
 
-(defn- load-all-products []
+(defn- load-all-products-and-finishes []
   (let [path "/cs/Satellite?pagename=Knoll/Common/Utils/EssentialsPopupProductsJSON"
         all-products-url (if config/debug?
                            (if config/use-local-products?
-                             "/js/elf/all-products.json" ;; use the local file - this file should be updated periodically using the json from prod or staging
+                             "/js/elf/all-products-dev.json" ;; use the local file - this file should be updated periodically using the json from prod or staging
                              (str "http://knldev2wcsapp1a.knoll.com" #_"http://knlprdwcsmgt1.knoll.com" path)) ;; use staging url
                            (str (.. js/window -location -origin) path)) ;; use the host of the current browser window
         success-handler (fn [resp]
-                          (re-frame/dispatch [::set-all-products (:all-products resp)]))
+                          (re-frame/dispatch [::set-all-products-and-finishes (:all-products resp) (:finishes resp)]))
         error-handler (fn [{:keys [status status-text]}]
                         (.log js/console (str "Ajax request to get all-products failed: " status " " status-text))
                         (re-frame/dispatch [::use-default-db]))]

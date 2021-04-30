@@ -33,18 +33,20 @@
        [:a {:href "javascript:;"} title]])))
 
 (defn- create-finish-types-tab [i [title fins]]
-  (when (pos? (count fins))
-    ^{:key (str "finish-" title "-tab")}
-    [:div {:id (str "finish-" (str/replace title #"[^a-zA-Z0-9-]" ""))
-           :class ["finish-tab-content" (when (= i 0) "selected")]}
-     [:h5.print-show title]
-     [:ul.frame-list
-           (for [fin fins]
-             ^{:key (:id fin)}
-             [:li
-              [:div.swatch-div
-               [:img {:src (str config/media-url-base (:img fin)) :data-no-retina ""}]]
-              [:p (:color fin)]])]]))
+  (let [finishes (<sub [::subs/finishes])]
+    (when (pos? (count fins))
+      ^{:key (str "finish-" title "-tab")}
+      [:div {:id (str "finish-" (str/replace title #"[^a-zA-Z0-9-]" ""))
+             :class ["finish-tab-content" (when (= i 0) "selected")]}
+       [:h5.print-show title]
+       [:ul.frame-list
+        (for [id fins]
+          (let [{:keys [img color]} (get finishes (keyword id))]
+            ^{:key id}
+            [:li
+             [:div.swatch-div
+              [:img {:src (str config/media-url-base img) :data-no-retina ""}]]
+             [:p color]]))]])))
 
 (defn- fabric-grade-pill-clicked [evt]
   (let [target (js/$ (.-currentTarget evt))
