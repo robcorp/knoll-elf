@@ -360,10 +360,6 @@
       "color": "Silver",
       "img": "/920/699/Thumb_multigerneration-silver,2.png"
     },
-    "1356396698136": {
-      "color": "Stainless Steel",
-      "img": "/143/1006/Thumb_stainless-steel,0.png"
-    },
     "1356038634905": {
       "color": "Khaki Canvas",
       "img": "/75/380/Thumb_CANKH,0.png"
@@ -375,6 +371,10 @@
     "1407335363676": {
       "color": "Grey Ash",
       "img": "/413/656/Thumb_grey-ash-142,2.png"
+    },
+    "1356396698136": {
+      "color": "Stainless Steel",
+      "img": "/143/1006/Thumb_stainless-steel,0.png"
     },
     "1401396304088": {
       "color": "Deep Green",
@@ -788,13 +788,13 @@
       "color": "Black",
       "img": "/676/389/Thumb_Moment Black 2,0.png"
     },
-    "1356396688477": {
-      "color": "Satin Nickel",
-      "img": "/120/386/Thumb_pu,0.png"
-    },
     "1347383004210": {
       "color": "Reff Dark Cherry ",
       "img": "/867/295/Thumb_WODV314,0.png"
+    },
+    "1356396688477": {
+      "color": "Satin Nickel",
+      "img": "/120/386/Thumb_pu,0.png"
     },
     "1352939427728": {
       "color": "Storm",
@@ -1184,13 +1184,13 @@
       "color": "Clear Tempered Glass",
       "img": "/684/194/Thumb_GLTEMP,2.png"
     },
-    "1356396706590": {
-      "color": "Routed Intergral Pull",
-      "img": "/547/257/Thumb_reff-routered-pull,2.png"
-    },
     "1356396700477": {
       "color": "Grommet Pull",
       "img": "/108/831/Thumb_reff-grommet-pull,16.png"
+    },
+    "1356396706590": {
+      "color": "Routed Intergral Pull",
+      "img": "/547/257/Thumb_reff-routered-pull,2.png"
     },
     "1347383020716": {
       "color": "Grey Strap",
@@ -1528,13 +1528,13 @@
       "color": "Yellow",
       "img": "/871/227/Thumb_yellow,7.png"
     },
-    "1356396706874": {
-      "color": "D Pull",
-      "img": "/987/895/Thumb_reff-d-pull,2.png"
-    },
     "1411852472991": {
       "color": "Black Back Painted Glass",
       "img": "/56/225/Thumb_GL11,0.png"
+    },
+    "1356396706874": {
+      "color": "D Pull",
+      "img": "/987/895/Thumb_reff-d-pull,2.png"
     },
     "1352940501450": {
       "color": "Grommet Mount",
@@ -2128,13 +2128,13 @@
       "color": "Sandstone - Smooth",
       "img": "/307/907/Thumb_PNT116,0.png"
     },
-    "1352996326010": {
-      "color": "White Ash ",
-      "img": "/644/983/Thumb_A101,7.png"
-    },
     "1347382700951": {
       "color": "Silver - Smooth",
       "img": "/378/20/Thumb_PNT613,0.png"
+    },
+    "1352996326010": {
+      "color": "White Ash ",
+      "img": "/644/983/Thumb_A101,7.png"
     },
     "1347382783621": {
       "color": "Dark Brown Knit Topper Fabric",
@@ -9082,6 +9082,59 @@
       "product-id": "1356847198155"
     },
     {
+      "smquick": [
+        "Truck",
+        "White Glove"
+      ],
+      "lead-times": [
+        "quick"
+      ],
+      "short-text": "",
+      "storageCats": [],
+      "screensCats": [
+        "Communication Boards"
+      ],
+      "epp-id": "1356847880585",
+      "seatingCats": [],
+      "apprvId": "",
+      "tableCats": [],
+      "excl3wk": "",
+      "availFinMods": [
+        {
+          "id": "1356847882742",
+          "title": "Options",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "std": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "three-week": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "quick": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Tackboard Finish:</span><span class=\"essop-option\">Approved Fabrics</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 25)</span></p>\r\n</div>\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>H13</td>\r\n\t\t\t<td>30 / 36 / 48 / 60 / 72 / 96&quot;</td>\r\n\t\t\t<td>1.5&quot;</td>\r\n\t\t\t<td>18.25&quot;</td>\r\n\t\t</tr>\t\r\n\t\t<tr>\r\n\t\t\t<td>H03 / H06</td>\r\n\t\t\t<td>48 / 54 / 60 / 72&quot;</td>\r\n\t\t\t<td>1.5&quot;</td>\r\n\t\t\t<td>34.25 / 49&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          }
+        }
+      ],
+      "brands": [
+        "Knoll Office"
+      ],
+      "title": "Reff Profiles Wall Tackboard",
+      "thumb-img": "",
+      "sm1-3d": [],
+      "hero1-img": "",
+      "workCats": [],
+      "name": "ES Reff Profiles Wall Tackboard",
+      "powerCats": [],
+      "sm3w": [],
+      "product-id": "1356847880585"
+    },
+    {
       "smquick": [],
       "lead-times": [
         "quick",
@@ -9548,6 +9601,359 @@
       "powerCats": [],
       "sm3w": [],
       "product-id": "anchor"
+    },
+    {
+      "smquick": [
+        "Truck",
+        "White Glove"
+      ],
+      "lead-times": [
+        "quick",
+        "std",
+        "three-week"
+      ],
+      "short-text": "<p>Inspired by the functionalist vision of the modern masters, Reff Profiles delivers a progressive and architectural design solution for private offices, administrative areas and open plan environments.</p>",
+      "storageCats": [
+        "Mounted Storage"
+      ],
+      "screensCats": [],
+      "epp-id": "1356386282769",
+      "seatingCats": [],
+      "apprvId": "",
+      "tableCats": [],
+      "excl3wk": "",
+      "availFinMods": [
+        {
+          "id": "1356847887726",
+          "title": "Options",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "std": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "three-week": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "quick": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shelf Finish:</span><span class=\"essop-option\">Lamiante</span></p>\r\n\r\n<p><span class=\"essop-title\">Grain Direction:</span><span class=\"essop-option\">Vertical</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 10)</span></p>\r\n</div>\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>30 / 36 / 48 / 60 / 72&quot;</td>\r\n\t\t\t<td>15&quot;</td>\r\n\t\t\t<td>15&quot;</td>\r\n\t\t</tr>\t\t\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          }
+        },
+        {
+          "id": "1347383286241",
+          "title": "Laminate",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "std": {
+            "optsTxt": "",
+            "fins": [
+              "1347382748926",
+              "1347382749054",
+              "1347382748992",
+              "1347382749206",
+              "1347382749117",
+              "1347382749086",
+              "1347382749820",
+              "1347382749851",
+              "1347382749237",
+              "1347382749023",
+              "1347382749882",
+              "1407324586168",
+              "1407323799333",
+              "1407324579410",
+              "1407335363676",
+              "1347382750145",
+              "1347382748959",
+              "1347382749913",
+              "1407324849870",
+              "1347382750240",
+              "1407325186154",
+              "1407325659651",
+              "1355995871527",
+              "1355995873292",
+              "1355995873369"
+            ]
+          },
+          "three-week": {
+            "optsTxt": "",
+            "fins": [
+              "1347382748926",
+              "1347382749054",
+              "1347382748992",
+              "1347382749206",
+              "1347382749117",
+              "1347382749086",
+              "1347382749820",
+              "1347382749851",
+              "1347382749237",
+              "1347382749023",
+              "1347382749882",
+              "1407324586168",
+              "1407323799333",
+              "1407324579410",
+              "1407335363676",
+              "1347382750145",
+              "1347382748959",
+              "1347382749913",
+              "1407324849870",
+              "1347382750240",
+              "1407325186154",
+              "1407325659651",
+              "1355995871527",
+              "1355995873292",
+              "1355995873369"
+            ]
+          },
+          "quick": {
+            "optsTxt": "",
+            "fins": [
+              "1347382748926",
+              "1347382749882",
+              "1407324579410",
+              "1347382750240"
+            ]
+          }
+        },
+        {
+          "id": "1356619712788",
+          "title": "Laminate",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "std": {
+            "optsTxt": "",
+            "fins": [
+              "1347382748926",
+              "1347382749054",
+              "1347382748992",
+              "1347382749206",
+              "1347382749117",
+              "1347382749086",
+              "1347382749820",
+              "1347382749851",
+              "1347382749237",
+              "1347382749023",
+              "1347382749882",
+              "1407324586168",
+              "1407323799333",
+              "1407324579410",
+              "1407335363676",
+              "1347382750145",
+              "1347382748959",
+              "1347382749913",
+              "1407324849870",
+              "1347382750240",
+              "1407325186154",
+              "1407325659651"
+            ]
+          },
+          "three-week": {
+            "optsTxt": "",
+            "fins": [
+              "1347382748926",
+              "1347382749054",
+              "1347382748992",
+              "1347382749206",
+              "1347382749117",
+              "1347382749086",
+              "1347382749820",
+              "1347382749851",
+              "1347382749237",
+              "1347382749023",
+              "1347382749882",
+              "1407324586168",
+              "1407323799333",
+              "1407324579410",
+              "1407335363676",
+              "1347382750145",
+              "1347382748959",
+              "1347382749913",
+              "1407324849870",
+              "1347382750240",
+              "1407325186154",
+              "1407325659651"
+            ]
+          },
+          "quick": {
+            "optsTxt": "",
+            "fins": [
+              "1347382748926",
+              "1347382749882",
+              "1407324579410",
+              "1347382750240"
+            ]
+          }
+        },
+        {
+          "id": "1356392876933",
+          "title": "Natural Veneer & Premium Techwood (V2)",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "std": {
+            "optsTxt": "",
+            "fins": [
+              "1353004129653",
+              "1353024065756",
+              "1347382756358",
+              "1352995732981",
+              "1347382756396",
+              "1347382756622",
+              "1355995420519",
+              "1347382756659",
+              "1347382756696",
+              "1352994611631",
+              "1347382756321"
+            ]
+          },
+          "three-week": {
+            "optsTxt": "",
+            "fins": [
+              "1352995732981",
+              "1347382756659"
+            ]
+          },
+          "quick": {
+            "optsTxt": "",
+            "fins": []
+          }
+        },
+        {
+          "id": "1347383308467",
+          "title": "Premium Natural Veneer (V3)",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "std": {
+            "optsTxt": "",
+            "fins": [
+              "1347382757063",
+              "1355995422134"
+            ]
+          },
+          "three-week": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "quick": {
+            "optsTxt": "",
+            "fins": []
+          }
+        },
+        {
+          "id": "1356396688306",
+          "title": "Pull & Trim Finishes",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "std": {
+            "optsTxt": "",
+            "fins": [
+              "1347382951898",
+              "1356396698136",
+              "1356396688477",
+              "1356396694215",
+              "1347382699772",
+              "1347382700503",
+              "1347382700845",
+              "1347382700060",
+              "1347382700813",
+              "1347382700129",
+              "1347382699964",
+              "1347382699840",
+              "1347382700097",
+              "1347382700887",
+              "1347382700919",
+              "1347382700951"
+            ]
+          },
+          "three-week": {
+            "optsTxt": "",
+            "fins": [
+              "1356396698136",
+              "1356396688477",
+              "1347382699772",
+              "1347382700503",
+              "1347382700845",
+              "1347382700060",
+              "1347382700813",
+              "1347382700129",
+              "1347382699964",
+              "1347382699840",
+              "1347382700097",
+              "1347382700887",
+              "1347382700919",
+              "1347382700951"
+            ]
+          },
+          "quick": {
+            "optsTxt": "",
+            "fins": []
+          }
+        },
+        {
+          "id": "1356396709325",
+          "title": "Pull Style",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "std": {
+            "optsTxt": "",
+            "fins": [
+              "1356396700477",
+              "1356396709172",
+              "1356396706248",
+              "1356396707166",
+              "1356396706590",
+              "1356396707019",
+              "1356396706874",
+              "1356396706731",
+              "1356396706451"
+            ]
+          },
+          "three-week": {
+            "optsTxt": "",
+            "fins": [
+              "1356396700477",
+              "1356396709172",
+              "1356396706248",
+              "1356396707166",
+              "1356396706590",
+              "1356396707019",
+              "1356396706874",
+              "1356396706731",
+              "1356396706451"
+            ]
+          },
+          "quick": {
+            "optsTxt": "",
+            "fins": []
+          }
+        }
+      ],
+      "brands": [
+        "Knoll Office"
+      ],
+      "title": "Reff Profiles 28 3/8\" L Shelf & Cubby",
+      "thumb-img": "/839/812/reff-profiles-desktop-towers_mounted_thumb,0.jpg",
+      "sm1-3d": [],
+      "hero1-img": "/175/482/reff-profiles-desktop-towers_mounted_hero,0.jpg",
+      "workCats": [],
+      "name": "ES Reff Profiles 28 3/8 L Shelf & Cubby",
+      "powerCats": [],
+      "sm3w": [],
+      "product-id": "reff-profiles"
     },
     {
       "smquick": [],
@@ -16461,7 +16867,7 @@
             "fins": []
           },
           "quick": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Worksurface:</span><span class=\"essop-option\">Rectangle, Radiused</span></p>\r\n\r\n<p><span class=\"essop-title\">Worksurface Material:</span><span class=\"essop-option\">Laminate</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Painted</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Adjustment:</span><span class=\"essop-option\">Standard Electric</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Control:</span><span class=\"essop-option\">Toggle Switch</span></p>\r\n\r\n<p><span class=\"essop-title\">Accessories:</span><span class=\"essop-option\">Desk Screens, Fabric Boards, Center Screens</span></p>\r\n\r\n<p><span class=\"essop-title\">Power &amp; Cable Management:</span><span class=\"essop-option\">Vertical Wire Manager, Felt Cable Sleeve, Power Components, Cable Clips</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 50)</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Worksurface</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp; &nbsp; Rectangular</td>\r\n\t\t\t<td>59&quot;</td>\r\n\t\t\t<td>29 / 30&quot;</td>\r\n\t\t\t<td>1.25&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp; &nbsp; Radiused</td>\r\n\t\t\t<td>58 / 59&quot;</td>\r\n\t\t\t<td>29&quot;</td>\r\n\t\t\t<td>1.25&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp; &nbsp; Radiused</td>\r\n\t\t\t<td>59&quot;</td>\r\n\t\t\t<td>30&quot;</td>\r\n\t\t\t<td>1.25&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Base</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp; &nbsp;&nbsp;Standard Electric</td>\r\n\t\t\t<td>48 &ndash; 72&quot;</td>\r\n\t\t\t<td>46.5&quot;</td>\r\n\t\t\t<td>&nbsp;27.8 &ndash; 47.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Worksurface :</span><span class=\"essop-option\">Rectangle, Radiused</span></p>\r\n\r\n<p><span class=\"essop-title\">Worksurface Material:</span><span class=\"essop-option\">Laminate</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Painted</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Adjustment:</span><span class=\"essop-option\">Standard Electric</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Control:</span><span class=\"essop-option\">Toggle Switch</span></p>\r\n\r\n<p><span class=\"essop-title\">Accessories:</span><span class=\"essop-option\">Desk Screens, Fabric Boards, Center Screens</span></p>\r\n\r\n<p><span class=\"essop-title\">Power &amp; Cable Management:</span><span class=\"essop-option\">Vertical Wire Manager, Felt Cable Sleeve, Power Components, Cable Clips</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 50)</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Worksurface</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp; &nbsp; Rectangular</td>\r\n\t\t\t<td>59\"</td>\r\n\t\t\t<td>29 / 30\"</td>\r\n\t\t\t<td>1.25\"</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp; &nbsp; Radiused</td>\r\n\t\t\t<td>58 / 59\"</td>\r\n\t\t\t<td>29\"</td>\r\n\t\t\t<td>1.25\"</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp; &nbsp;</td>\r\n\t\t\t<td>59\"</td>\r\n\t\t\t<td>30\"</td>\r\n\t\t\t<td>1.25\"</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Base</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp; &nbsp;&nbsp;Standard Electric</td>\r\n\t\t\t<td>48 – 72\"</td>\r\n\t\t\t<td>46.5\"</td>\r\n\t\t\t<td>&nbsp;27.8 - 47.1\"</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
             "fins": []
           }
         },
@@ -19839,187 +20245,6 @@
     {
       "smquick": [],
       "lead-times": [
-        "quick",
-        "std",
-        "three-week"
-      ],
-      "short-text": "<p>Unscripted Easy Tables are a collection of work tables in a wide range of sizes and shapes. Friendly rounded corners, handholds and optional casters allow people to define how a space is configured and reconfigured, creating informal, multi-use spaces like flexible workshops, meeting areas and reading rooms.</p>",
-      "storageCats": [],
-      "screensCats": [],
-      "epp-id": "1356386246622",
-      "seatingCats": [],
-      "apprvId": "",
-      "tableCats": [
-        "Desks & Benching",
-        "Dining & Multi-use",
-        "Meeting & Conference",
-        "Training"
-      ],
-      "excl3wk": "",
-      "availFinMods": [
-        {
-          "id": "1356398233511",
-          "title": "Options",
-          "one-to-three-day": {
-            "optsTxt": "",
-            "fins": []
-          },
-          "std": {
-            "optsTxt": "<link href=\"/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Worksurface:</span><span class=\"essop-option\">Rectangular, Round, Square, D Shape</span></p>\r\n\r\n<p><span class=\"essop-title\">Worksurface Material:</span><span class=\"essop-option\">Laminate, Veneer</span></p>\r\n\r\n<p><span class=\"essop-title\">Worksurface Edge:</span><span class=\"essop-option\">Flat, Bullnose</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Grommet:</span><span class=\"essop-option\">No Grommet, Round&nbsp;Grommet, Capsule Grommet</span></p>\r\n\r\n<p><span class=\"essop-title\">Legs:</span><span class=\"essop-option\">Textured Paint</span></p>\r\n\r\n<p><span class=\"essop-title\">Feet:</span><span class=\"essop-option\">Casters, Glides</span></p>\r\n</div>\r\n</div>\r\n\r\n<p><span class=\"essop-title\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<p>\r\n<style type=\"text/css\">table, th, td {\r\n    border-collapse: collapse;\r\n}\r\nth, td {\r\n    padding: 3px 6px 5px 0px;\r\n}\r\ntd {  \r\n  color: #777;\r\n  font: 11px/13px 'HelveticaNeueW01-55Roma', Arial, Helvetica, sans-serif;}\r\nth {\r\n    color: #777;\r\n  font: 11px/13px 'HelveticaNeueW01-75Bold', Arial, Helvetica, sans-serif;text-align: left;\r\n}\r\n</style>\r\n</p>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>Rectangular Top</td>\r\n\t\t\t<td>w/ casters or glides</td>\r\n\t\t\t<td>48 / 54 / 60 / 66&quot;</td>\r\n\t\t\t<td>24 / 27 / 30&quot;</td>\r\n\t\t\t<td>28&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>w/ glides</td>\r\n\t\t\t<td>72&quot;</td>\r\n\t\t\t<td>24 / 27 / 30 / 36&quot;</td>\r\n\t\t\t<td>28&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>D Shape Top</td>\r\n\t\t\t<td>w/ casters or glides</td>\r\n\t\t\t<td>60&quot;</td>\r\n\t\t\t<td>60&quot;</td>\r\n\t\t\t<td>28 / 36 / 42&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>Round Top</td>\r\n\t\t\t<td>w/ casters or glides</td>\r\n\t\t\t<td>42 / 60&quot;</td>\r\n\t\t\t<td>&ndash;</td>\r\n\t\t\t<td>28 / 36 / 42&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>Square Top</td>\r\n\t\t\t<td>w/ casters or glides</td>\r\n\t\t\t<td>40 / 60&quot;</td>\r\n\t\t\t<td>&ndash;</td>\r\n\t\t\t<td>28 / 36 / 42&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n",
-            "fins": []
-          },
-          "three-week": {
-            "optsTxt": "<link href=\"/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Worksurface:</span><span class=\"essop-option\">Rectangular, Round, Square, D Shape</span></p>\r\n\r\n<p><span class=\"essop-title\">Worksurface Material:</span><span class=\"essop-option\">Laminate</span></p>\r\n\r\n<p><span class=\"essop-title\">Worksurface Edge:</span><span class=\"essop-option\">Flat</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Grommet:</span><span class=\"essop-option\">No Grommet</span></p>\r\n\r\n<p><span class=\"essop-title\">Legs:</span><span class=\"essop-option\">Textured Paint</span></p>\r\n\r\n<p><span class=\"essop-title\">Feet:</span><span class=\"essop-option\">Casters, Glides</span></p>\r\n</div>\r\n</div>\r\n\r\n<p><span class=\"essop-title\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<p>\r\n<style type=\"text/css\">table, th, td {\r\n    border-collapse: collapse;\r\n}\r\nth, td {\r\n    padding: 3px 6px 5px 0px;\r\n}\r\ntd {  \r\n  color: #777;\r\n  font: 11px/13px 'HelveticaNeueW01-55Roma', Arial, Helvetica, sans-serif;}\r\nth {\r\n    color: #777;\r\n  font: 11px/13px 'HelveticaNeueW01-75Bold', Arial, Helvetica, sans-serif;text-align: left;\r\n}\r\n</style>\r\n</p>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>Rectangular Top</td>\r\n\t\t\t<td>w/ casters or glides</td>\r\n\t\t\t<td>48 / 54 / 60 / 66&quot;</td>\r\n\t\t\t<td>24 / 27 / 30&quot;</td>\r\n\t\t\t<td>28&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>w/ glides</td>\r\n\t\t\t<td>72&quot;</td>\r\n\t\t\t<td>24 / 27 / 30 / 36&quot;</td>\r\n\t\t\t<td>28&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>D Shape Top</td>\r\n\t\t\t<td>w/ casters or glides</td>\r\n\t\t\t<td>60&quot;</td>\r\n\t\t\t<td>60&quot;</td>\r\n\t\t\t<td>28 / 36 / 42&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>Round Top</td>\r\n\t\t\t<td>w/ casters or glides</td>\r\n\t\t\t<td>42 / 60&quot;</td>\r\n\t\t\t<td>&ndash;</td>\r\n\t\t\t<td>28 / 36 / 42&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>Square Top</td>\r\n\t\t\t<td>w/ casters or glides</td>\r\n\t\t\t<td>40 / 60&quot;</td>\r\n\t\t\t<td>&ndash;</td>\r\n\t\t\t<td>28 / 36 / 42&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n",
-            "fins": []
-          },
-          "quick": {
-            "optsTxt": "<link href=\"/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Worksurface:</span><span class=\"essop-option\">Rectangular, Round</span></p>\r\n\r\n<p><span class=\"essop-title\">Worksurface Material:</span><span class=\"essop-option\">Laminate</span></p>\r\n\r\n<p><span class=\"essop-title\">Worksurface Edge:</span><span class=\"essop-option\">Flat</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Grommet:</span><span class=\"essop-option\">No Grommet</span></p>\r\n\r\n<p><span class=\"essop-title\">Legs:</span><span class=\"essop-option\">Textured Paint (will match worksurface color)</span></p>\r\n\r\n<p><span class=\"essop-title\">Feet:</span><span class=\"essop-option\">Casters, Glides</span></p>\r\n</div>\r\n</div>\r\n\r\n<p><span class=\"essop-title\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 25)</span></p>\r\n</div>\r\n\r\n<p>\r\n<style type=\"text/css\">table, th, td {\r\n    border-collapse: collapse;\r\n}\r\nth, td {\r\n    padding: 3px 6px 5px 0px;\r\n}\r\ntd {  \r\n  color: #777;\r\n  font: 11px/13px 'HelveticaNeueW01-55Roma', Arial, Helvetica, sans-serif;}\r\nth {\r\n    color: #777;\r\n  font: 11px/13px 'HelveticaNeueW01-75Bold', Arial, Helvetica, sans-serif;text-align: left;\r\n}\r\n</style>\r\n</p>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>Rectangular Top</td>\r\n\t\t\t<td>w/ casters or glides</td>\r\n\t\t\t<td>48&quot;</td>\r\n\t\t\t<td>24&quot;</td>\r\n\t\t\t<td>28&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>60&quot;</td>\r\n\t\t\t<td>30&quot;</td>\r\n\t\t\t<td>28&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>Round Top</td>\r\n\t\t\t<td>w/ casters or glides</td>\r\n\t\t\t<td>42 / 60&quot;</td>\r\n\t\t\t<td>&ndash;</td>\r\n\t\t\t<td>28&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n",
-            "fins": []
-          }
-        },
-        {
-          "id": "1356431699225",
-          "title": "Laminate",
-          "one-to-three-day": {
-            "optsTxt": "",
-            "fins": []
-          },
-          "std": {
-            "optsTxt": "",
-            "fins": [
-              "1347382748926",
-              "1347382749237",
-              "1347382749023",
-              "1347382749882",
-              "1407324586168",
-              "1355995871527",
-              "1355995873292",
-              "1355995873369"
-            ]
-          },
-          "three-week": {
-            "optsTxt": "",
-            "fins": [
-              "1347382748926",
-              "1347382749237",
-              "1347382749023",
-              "1347382749882",
-              "1407324586168",
-              "1355995871527",
-              "1355995873292",
-              "1355995873369"
-            ]
-          },
-          "quick": {
-            "optsTxt": "",
-            "fins": [
-              "1347382748926",
-              "1347382749237",
-              "1347382749882"
-            ]
-          }
-        },
-        {
-          "id": "1355995785654",
-          "title": "Veneer",
-          "one-to-three-day": {
-            "optsTxt": "",
-            "fins": []
-          },
-          "std": {
-            "optsTxt": "",
-            "fins": [
-              "1352995732981",
-              "1353024065756",
-              "1355995422134",
-              "1355995420519"
-            ]
-          },
-          "three-week": {
-            "optsTxt": "",
-            "fins": []
-          },
-          "quick": {
-            "optsTxt": "",
-            "fins": []
-          }
-        },
-        {
-          "id": "1355995787215",
-          "title": "Textured Paint",
-          "one-to-three-day": {
-            "optsTxt": "",
-            "fins": []
-          },
-          "std": {
-            "optsTxt": "",
-            "fins": [
-              "1347382702133",
-              "1355996232859",
-              "1347382702596",
-              "1347382702345",
-              "1347382703086"
-            ]
-          },
-          "three-week": {
-            "optsTxt": "",
-            "fins": [
-              "1347382702133",
-              "1347382702345",
-              "1347382703086"
-            ]
-          },
-          "quick": {
-            "optsTxt": "",
-            "fins": [
-              "1347382702133",
-              "1347382702345",
-              "1347382703086"
-            ]
-          }
-        },
-        {
-          "id": "1356077694972",
-          "title": "Edge Style",
-          "one-to-three-day": {
-            "optsTxt": "",
-            "fins": []
-          },
-          "std": {
-            "optsTxt": "",
-            "fins": [
-              "1356076575610",
-              "1356076575686"
-            ]
-          },
-          "three-week": {
-            "optsTxt": "",
-            "fins": [
-              "1356076575610"
-            ]
-          },
-          "quick": {
-            "optsTxt": "",
-            "fins": [
-              "1356076575610"
-            ]
-          }
-        }
-      ],
-      "brands": [],
-      "title": "Rockwell Unscripted Easy Tables",
-      "thumb-img": "/9/361/rockwell-unscripted-easy-table_dining-multiuse_thumb.jpg",
-      "sm1-3d": [],
-      "hero1-img": "/735/482/rockwell-unscripted-easy-table_dining-multiuse_hero.jpg",
-      "workCats": [],
-      "name": "ES Rockwell Unscripted Easy Tables",
-      "powerCats": [],
-      "sm3w": [],
-      "product-id": "rockwell-unscripted-easy-tables"
-    },
-    {
-      "smquick": [],
-      "lead-times": [
         "std"
       ],
       "short-text": "<p>David Adjaye&#39;s cantilevered side chairs explore between propping and balancing, so that they are simultaneously functional and sculptural.&nbsp;Skeleton&#39;s cast-aluminum frame is available with a outdoor powder coat paint finish or copper plating (copper not suitable for outdoor use). The copper plating will patina with time.</p>",
@@ -21136,11 +21361,11 @@
             "fins": []
           },
           "three-week": {
-            "optsTxt": "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Configuration:</span><span class=\"essop-option\">Combinations of Drawers (3/10/10 available)</span></p>\r\n\r\n<p><span class=\"essop-title\">Case:</span><span class=\"essop-option\">Metal</span></p>\r\n\r\n<p><span class=\"essop-title\">Surface Finish:</span><span class=\"essop-option\">Smooth Paint, Textured Paint</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Lock:</span><span class=\"essop-option\">Lock</span></p>\r\n\r\n<p><span class=\"essop-title\">Feet:</span><span class=\"essop-option\">Floorstanding</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Calibre Doublewide Pedestals</td>\r\n\t\t\t<td>30 / 36&quot;</td>\r\n\t\t\t<td>18.75&quot;</td>\r\n\t\t\t<td>26.9&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "optsTxt": "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Configuration:</span><span class=\"essop-option\">Combinations of Drawers (3/10/10 available)</span></p>\r\n\r\n<p><span class=\"essop-title\">Case:</span><span class=\"essop-option\">Metal</span></p>\r\n\r\n<p><span class=\"essop-title\">Surface Finish:</span><span class=\"essop-option\">Smooth Paint, Textured Paint</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Lock:</span><span class=\"essop-option\">Lock</span></p>\r\n\r\n<p><span class=\"essop-title\">Feet:</span><span class=\"essop-option\">Floorstanding</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Calibre Doublewide Pedestals</td>\r\n\t\t\t<td>30 / 36&quot;</td>\r\n\t\t\t<td>18.75&quot;</td>\r\n\t\t\t<td>26.9&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
             "fins": []
           },
           "quick": {
-            "optsTxt": "<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Configuration:</span><span class=\"essop-option\">Combination of Drawers (File and Box)</span></p>\r\n\r\n<p><span class=\"essop-title\">Front:</span><span class=\"essop-option\">Dividends Front (Steel), Template Front (Steel or Laminate)</span></p>\r\n\r\n<p><span class=\"essop-title\">Pull:</span><span class=\"essop-option\">Recessed, Template</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Surface Finish:</span><span class=\"essop-option\">Painted</span></p>\r\n\r\n<p><span class=\"essop-title\">Lock:</span><span class=\"essop-option\">Locking</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 25)</span></p>\r\n</div>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Dividends Front Mobile Pedestal</td>\r\n\t\t\t<td>14.9&quot;</td>\r\n\t\t\t<td>16.75 / 22.75&quot;</td>\r\n\t\t\t<td>20.4 / 26.4&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Template Front Mobile Pedestal</td>\r\n\t\t\t<td>14.9&quot;</td>\r\n\t\t\t<td>16.75 / 22.75&quot;</td>\r\n\t\t\t<td>20.4 / 26.4&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Configuration:</span><span class=\"essop-option\">Combination of Drawers (File/File), Receding Door</span></p>\r\n\r\n<p><span class=\"essop-title\">Case:</span><span class=\"essop-option\">Metal</span></p>\r\n\r\n<p><span class=\"essop-title\">Surface Finish:</span><span class=\"essop-option\">Smooth Paint, Textured Paint</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Lock:</span><span class=\"essop-option\">Locking</span></p>\r\n\r\n<p><span class=\"essop-title\">Optional Accessories:</span><span class=\"essop-option\">Counterweight Kits</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 50)</span></p>\r\n</div>\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Calibre Lateral File - 12\" drawers</td>\r\n\t\t\t<td>30 / 36 / 42\"</td>\r\n\t\t\t<td>18\"</td>\r\n\t\t\t<td>27 / 39 / 51\"</td>\r\n\t\t</tr>\r\n\t\t\t<td>Calibre Lateral File - 1-12\" receding door, 4-12\" drawers</td>\r\n\t\t\t<td>30 / 36 / 42\"</td>\r\n\t\t\t<td>18\"</td>\r\n\t\t\t<td>63\"</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
             "fins": []
           }
         },
@@ -30442,6 +30667,159 @@
       "powerCats": [],
       "sm3w": [],
       "product-id": "rockwell-unscripted-sawhorse-table"
+    },
+    {
+      "smquick": [
+        "Truck"
+      ],
+      "lead-times": [
+        "quick",
+        "std",
+        "three-week"
+      ],
+      "short-text": "<p>Open table, open mind&mdash;with access to power for your digital appendages. The Unscripted Big Easy Table delivers efficient benching solutions for primary and hoteling workstations. Mega grommet cutouts for power access, cordset or hardwired below-surface power, privacy screens, and ganging plates combine to plan a variety of light benching configurations.</p>",
+      "storageCats": [],
+      "screensCats": [],
+      "epp-id": "1356388423732",
+      "seatingCats": [],
+      "apprvId": "",
+      "tableCats": [
+        "Desks & Benching",
+        "Meeting & Conference"
+      ],
+      "excl3wk": "",
+      "availFinMods": [
+        {
+          "id": "1356404162879",
+          "title": "Options",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "std": {
+            "optsTxt": "<link href=\"/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Worksurface Material:</span><span class=\"essop-option\">Laminate</span></p>\r\n\r\n<p><span class=\"essop-title\">Worksurface Edge:</span><span class=\"essop-option\">Flat, Bullnose</span></p>\r\n\r\n<p><span class=\"essop-title\">Grommet:</span><span class=\"essop-option\">Mega Grommet</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Legs:</span><span class=\"essop-option\">Textured Paint</span></p>\r\n\r\n<p><span class=\"essop-title\">Feet:</span><span class=\"essop-option\">Glides</span></p>\r\n\r\n<p><span class=\"essop-title\">Accessories:</span><span class=\"essop-option\">Divider Screens</span></p>\r\n</div>\r\n</div>\r\n\r\n<p><span class=\"essop-title\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<p>\r\n<style type=\"text/css\">table, th, td {\r\n    border-collapse: collapse;\r\n}\r\nth, td {\r\n    padding: 3px 6px 5px 0px;\r\n}\r\ntd {  \r\n  color: #777;\r\n  font: 11px/13px 'HelveticaNeueW01-55Roma', Arial, Helvetica, sans-serif;}\r\nth {\r\n    color: #777;\r\n  font: 11px/13px 'HelveticaNeueW01-75Bold', Arial, Helvetica, sans-serif;text-align: left;\r\n}\r\n</style>\r\n</p>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>overall h</th>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>2 Mega Grommets</td>\r\n\t\t\t<td>60 / 72 / 84 / 96 / 108 / 120&quot;</td>\r\n\t\t\t<td>60&quot;</td>\r\n\t\t\t<td>28&quot;&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>4 Mega Grommets</td>\r\n\t\t\t<td>108 / 120&quot;</td>\r\n\t\t\t<td>60&quot;</td>\r\n\t\t\t<td>28&quot;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>Divider Screen*</td>\r\n\t\t\t<td>36 / 48 / 60 / 72 / 84 / 96&quot;</td>\r\n\t\t\t<td>.75&quot;</td>\r\n\t\t\t<td>13.5 / 20.25&quot;</td>\r\n\t\t\t<td>42 / 49&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p><br />\r\n<em>*Divider Screens are 24&quot; narrower than matching table width.</em></p>\r\n",
+            "fins": []
+          },
+          "three-week": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "quick": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Worksurface Material:</span><span class=\"essop-option\">Laminate</span></p>\r\n\r\n<p><span class=\"essop-title\">Worksurface Edge:</span><span class=\"essop-option\">Flat</span></p>\r\n\r\n<p><span class=\"essop-title\">Grommet:</span><span class=\"essop-option\">Mega Grommet</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Legs:</span><span class=\"essop-option\">Textured Paint (will match worksurface color)</span></p>\r\n\r\n<p><span class=\"essop-title\">Feet:</span><span class=\"essop-option\">Glides</span></p>\r\n\r\n<p><span class=\"essop-title\">Accessories:</span><span class=\"essop-option\">Power Components</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 25)</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>2 Mega Grommets</td>\r\n\t\t\t<td>72 / 96&quot;</td>\r\n\t\t\t<td>60&quot;</td>\r\n\t\t\t<td>28&quot;&nbsp;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          }
+        },
+        {
+          "id": "1355995781550",
+          "title": "Laminate",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "std": {
+            "optsTxt": "",
+            "fins": [
+              "1347382748926",
+              "1347382749237",
+              "1347382749023",
+              "1347382749882",
+              "1407324586168",
+              "1355995871527",
+              "1355995873292",
+              "1355995873369"
+            ]
+          },
+          "three-week": {
+            "optsTxt": "",
+            "fins": [
+              "1347382748926",
+              "1347382749237",
+              "1347382749882"
+            ]
+          },
+          "quick": {
+            "optsTxt": "",
+            "fins": [
+              "1347382748926",
+              "1347382749237",
+              "1347382749882"
+            ]
+          }
+        },
+        {
+          "id": "1355995787215",
+          "title": "Textured Paint",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "std": {
+            "optsTxt": "",
+            "fins": [
+              "1347382702133",
+              "1355996232859",
+              "1347382702596",
+              "1347382702345",
+              "1347382703086"
+            ]
+          },
+          "three-week": {
+            "optsTxt": "",
+            "fins": [
+              "1347382702133",
+              "1347382702345",
+              "1347382703086"
+            ]
+          },
+          "quick": {
+            "optsTxt": "",
+            "fins": [
+              "1347382702133",
+              "1347382702345",
+              "1347382703086"
+            ]
+          }
+        },
+        {
+          "id": "1356077694972",
+          "title": "Edge Style",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "std": {
+            "optsTxt": "",
+            "fins": [
+              "1356076575610",
+              "1356076575686"
+            ]
+          },
+          "three-week": {
+            "optsTxt": "",
+            "fins": [
+              "1356076575610"
+            ]
+          },
+          "quick": {
+            "optsTxt": "",
+            "fins": [
+              "1356076575610"
+            ]
+          }
+        }
+      ],
+      "brands": [
+        "Knoll Office"
+      ],
+      "title": "Rockwell Unscripted Big Easy Table",
+      "thumb-img": "/110/217/rockwell-unscripted-big-easy-table_thumb.jpg",
+      "sm1-3d": [],
+      "hero1-img": "/215/85/rockwell-unscripted-big-easy-table.jpg",
+      "workCats": [],
+      "name": "ES Rockwell Unscripted Big Easy Table",
+      "powerCats": [],
+      "sm3w": [],
+      "product-id": "rockwell-unscripted-big-easy-table"
     },
     {
       "smquick": [],
@@ -40259,6 +40637,60 @@
       "product-id": "pixel-storage-by-marc-krusin"
     },
     {
+      "smquick": [
+        "Parcel",
+        "Truck",
+        "White Glove"
+      ],
+      "lead-times": [
+        "quick"
+      ],
+      "short-text": "<p>Aleris provides the right light for any space, any time of day. This stylish lamp with a minimal footprint and an extensive range of brightness and temperature has 2 built-in USB charging ports, providing added convenience for charging small devices.</p>",
+      "storageCats": [],
+      "screensCats": [],
+      "epp-id": "1356842278244",
+      "seatingCats": [],
+      "apprvId": "",
+      "tableCats": [],
+      "excl3wk": "",
+      "availFinMods": [
+        {
+          "id": "1356847852834",
+          "title": "Options",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "std": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "three-week": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "quick": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Body:</span><span class=\"essop-option\">Aluminum</span></p>\r\n\r\n<p><span class=\"essop-title\">Body Finish:</span><span class=\"essop-option\">Painted</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 50)</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>light w</th>\r\n\t\t\t<th>base w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>14.25&quot;</td>\r\n\t\t\t<td>6&quot;</td>\r\n\t\t\t<td>4.75&quot;</td>\r\n\t\t\t<td>15&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          }
+        }
+      ],
+      "brands": [
+        "Fully"
+      ],
+      "title": "Aleris by Fully",
+      "thumb-img": "",
+      "sm1-3d": [],
+      "hero1-img": "",
+      "workCats": [
+        "Lighting"
+      ],
+      "name": "ES Aleris by Fully",
+      "powerCats": [],
+      "sm3w": [],
+      "product-id": "1356842278244"
+    },
+    {
       "smquick": [],
       "lead-times": [
         "std"
@@ -45199,161 +45631,6 @@
         "Truck"
       ],
       "lead-times": [
-        "quick",
-        "std",
-        "three-week"
-      ],
-      "short-text": "<p>Open table, open mind&mdash;with access to power for your digital appendages. The Unscripted Big Easy Table delivers efficient benching solutions for primary and hoteling workstations. Mega grommet cutouts for power access, cordset or hardwired below-surface power, privacy screens, and ganging plates combine to plan a variety of light benching configurations.</p>",
-      "storageCats": [],
-      "screensCats": [],
-      "epp-id": "1356388423732",
-      "seatingCats": [],
-      "apprvId": "",
-      "tableCats": [
-        "Desks & Benching",
-        "Meeting & Conference"
-      ],
-      "excl3wk": "",
-      "availFinMods": [
-        {
-          "id": "1356404162879",
-          "title": "Options",
-          "one-to-three-day": {
-            "optsTxt": "",
-            "fins": []
-          },
-          "std": {
-            "optsTxt": "<link href=\"/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Worksurface Material:</span><span class=\"essop-option\">Laminate</span></p>\r\n\r\n<p><span class=\"essop-title\">Worksurface Edge:</span><span class=\"essop-option\">Flat, Bullnose</span></p>\r\n\r\n<p><span class=\"essop-title\">Grommet:</span><span class=\"essop-option\">Mega Grommet</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Legs:</span><span class=\"essop-option\">Textured Paint</span></p>\r\n\r\n<p><span class=\"essop-title\">Feet:</span><span class=\"essop-option\">Glides</span></p>\r\n\r\n<p><span class=\"essop-title\">Accessories:</span><span class=\"essop-option\">Divider Screens</span></p>\r\n</div>\r\n</div>\r\n\r\n<p><span class=\"essop-title\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<p>\r\n<style type=\"text/css\">table, th, td {\r\n    border-collapse: collapse;\r\n}\r\nth, td {\r\n    padding: 3px 6px 5px 0px;\r\n}\r\ntd {  \r\n  color: #777;\r\n  font: 11px/13px 'HelveticaNeueW01-55Roma', Arial, Helvetica, sans-serif;}\r\nth {\r\n    color: #777;\r\n  font: 11px/13px 'HelveticaNeueW01-75Bold', Arial, Helvetica, sans-serif;text-align: left;\r\n}\r\n</style>\r\n</p>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>overall h</th>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>2 Mega Grommets</td>\r\n\t\t\t<td>60 / 72 / 84 / 96 / 108 / 120&quot;</td>\r\n\t\t\t<td>60&quot;</td>\r\n\t\t\t<td>28&quot;&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>4 Mega Grommets</td>\r\n\t\t\t<td>108 / 120&quot;</td>\r\n\t\t\t<td>60&quot;</td>\r\n\t\t\t<td>28&quot;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>Divider Screen*</td>\r\n\t\t\t<td>36 / 48 / 60 / 72 / 84 / 96&quot;</td>\r\n\t\t\t<td>.75&quot;</td>\r\n\t\t\t<td>13.5 / 20.25&quot;</td>\r\n\t\t\t<td>42 / 49&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p><br />\r\n<em>*Divider Screens are 24&quot; narrower than matching table width.</em></p>\r\n",
-            "fins": []
-          },
-          "three-week": {
-            "optsTxt": "",
-            "fins": []
-          },
-          "quick": {
-            "optsTxt": "<link href=\"/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Worksurface Material:</span><span class=\"essop-option\">Laminate</span></p>\r\n\r\n<p><span class=\"essop-title\">Worksurface Edge:</span><span class=\"essop-option\">Flat</span></p>\r\n\r\n<p><span class=\"essop-title\">Grommet:</span><span class=\"essop-option\">Mega Grommet</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Legs:</span><span class=\"essop-option\">Textured Paint (will match worksurface color)</span></p>\r\n\r\n<p><span class=\"essop-title\">Feet:</span><span class=\"essop-option\">Glides</span></p>\r\n</div>\r\n</div>\r\n\r\n<p><span class=\"essop-title\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 25)</span></p>\r\n</div>\r\n\r\n<p>\r\n<style type=\"text/css\">table, th, td {\r\n    border-collapse: collapse;\r\n}\r\nth, td {\r\n    padding: 3px 6px 5px 0px;\r\n}\r\ntd {  \r\n  color: #777;\r\n  font: 11px/13px 'HelveticaNeueW01-55Roma', Arial, Helvetica, sans-serif;}\r\nth {\r\n    color: #777;\r\n  font: 11px/13px 'HelveticaNeueW01-75Bold', Arial, Helvetica, sans-serif;text-align: left;\r\n}\r\n</style>\r\n</p>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>2 Mega Grommets</td>\r\n\t\t\t<td>72 / 96&quot;</td>\r\n\t\t\t<td>60&quot;</td>\r\n\t\t\t<td>28&quot;&nbsp;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n",
-            "fins": []
-          }
-        },
-        {
-          "id": "1355995781550",
-          "title": "Laminate",
-          "one-to-three-day": {
-            "optsTxt": "",
-            "fins": []
-          },
-          "std": {
-            "optsTxt": "",
-            "fins": [
-              "1347382748926",
-              "1347382749237",
-              "1347382749023",
-              "1347382749882",
-              "1407324586168",
-              "1355995871527",
-              "1355995873292",
-              "1355995873369"
-            ]
-          },
-          "three-week": {
-            "optsTxt": "",
-            "fins": [
-              "1347382748926",
-              "1347382749237",
-              "1347382749882"
-            ]
-          },
-          "quick": {
-            "optsTxt": "",
-            "fins": [
-              "1347382748926",
-              "1347382749237",
-              "1347382749882"
-            ]
-          }
-        },
-        {
-          "id": "1355995787215",
-          "title": "Textured Paint",
-          "one-to-three-day": {
-            "optsTxt": "",
-            "fins": []
-          },
-          "std": {
-            "optsTxt": "",
-            "fins": [
-              "1347382702133",
-              "1355996232859",
-              "1347382702596",
-              "1347382702345",
-              "1347382703086"
-            ]
-          },
-          "three-week": {
-            "optsTxt": "",
-            "fins": [
-              "1347382702133",
-              "1347382702345",
-              "1347382703086"
-            ]
-          },
-          "quick": {
-            "optsTxt": "",
-            "fins": [
-              "1347382702133",
-              "1347382702345",
-              "1347382703086"
-            ]
-          }
-        },
-        {
-          "id": "1356077694972",
-          "title": "Edge Style",
-          "one-to-three-day": {
-            "optsTxt": "",
-            "fins": []
-          },
-          "std": {
-            "optsTxt": "",
-            "fins": [
-              "1356076575610",
-              "1356076575686"
-            ]
-          },
-          "three-week": {
-            "optsTxt": "",
-            "fins": [
-              "1356076575610"
-            ]
-          },
-          "quick": {
-            "optsTxt": "",
-            "fins": [
-              "1356076575610"
-            ]
-          }
-        }
-      ],
-      "brands": [
-        "Knoll Office"
-      ],
-      "title": "Rockwell Unscripted Big Easy Table",
-      "thumb-img": "/682/404/rockwell-unscripted-big-easy-table_thumb.jpg",
-      "sm1-3d": [],
-      "hero1-img": "/339/466/rockwell-unscripted-big-easy-table.jpg",
-      "workCats": [],
-      "name": "ES Rockwell Unscripted Big Easy Table",
-      "powerCats": [],
-      "sm3w": [
-        "Truck"
-      ],
-      "product-id": "rockwell-unscripted-big-easy-table"
-    },
-    {
-      "smquick": [
-        "Truck"
-      ],
-      "lead-times": [
         "quick"
       ],
       "short-text": "<p>Dividends Horizon panels, engineered to the industry&rsquo;s highest standards, delineate space and offer tailored privacy within the open plan, while providing efficient power and data access. A wide range of modular components can also be integrated to achieve varying levels of enclosure and space for freestanding furniture.</p>",
@@ -45897,6 +46174,197 @@
       "powerCats": [],
       "sm3w": [],
       "product-id": "antenna-workspaces"
+    },
+    {
+      "smquick": [
+        "Parcel",
+        "Truck",
+        "White Glove"
+      ],
+      "lead-times": [
+        "quick",
+        "std",
+        "three-week",
+        "one-to-three-day"
+      ],
+      "short-text": "<p>Unscripted Easy Tables are a collection of work tables in a wide range of sizes and shapes. Friendly rounded corners, handholds and optional casters allow people to define how a space is configured and reconfigured, creating informal, multi-use spaces like flexible workshops, meeting areas and reading rooms.</p>",
+      "storageCats": [],
+      "screensCats": [],
+      "epp-id": "1356386246622",
+      "seatingCats": [],
+      "apprvId": "",
+      "tableCats": [
+        "Desks & Benching",
+        "Dining & Multi-use",
+        "Meeting & Conference",
+        "Training"
+      ],
+      "excl3wk": "",
+      "availFinMods": [
+        {
+          "id": "1356398233511",
+          "title": "Options",
+          "one-to-three-day": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Worksurface:</span><span class=\"essop-option\">Rectangular</span></p>\r\n\r\n<p><span class=\"essop-title\">Worksurface Material:</span><span class=\"essop-option\">Laminate</span></p>\r\n\r\n<p><span class=\"essop-title\">Worksurface Edge:</span><span class=\"essop-option\">Bullnose</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Grommet:</span><span class=\"essop-option\">No Grommet</span></p>\r\n\r\n<p><span class=\"essop-title\">Legs:</span><span class=\"essop-option\">Textured Paint (will match worksurface color)</span></p>\r\n\r\n<p><span class=\"essop-title\">Feet:</span><span class=\"essop-option\">Casters, Glides</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 50)</span></p>\r\n</div>\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Rectangular Top</td>\r\n\t\t\t<td>Bullnose Edge</td>\r\n\t\t\t<td>w/ glides</td>\r\n\t\t\t<td>48&quot;</td>\r\n\t\t\t<td>24&quot;</td>\r\n\t\t\t<td>28&quot;</td>\r\n\t\t</tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>54&quot;</td>\r\n\t\t\t<td>27&quot;</td>\r\n\t\t\t<td>28&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          },
+          "std": {
+            "optsTxt": "<link href=\"/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Worksurface:</span><span class=\"essop-option\">Rectangular, Round, Square, D Shape</span></p>\r\n\r\n<p><span class=\"essop-title\">Worksurface Material:</span><span class=\"essop-option\">Laminate, Veneer</span></p>\r\n\r\n<p><span class=\"essop-title\">Worksurface Edge:</span><span class=\"essop-option\">Flat, Bullnose</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Grommet:</span><span class=\"essop-option\">No Grommet, Round&nbsp;Grommet, Capsule Grommet</span></p>\r\n\r\n<p><span class=\"essop-title\">Legs:</span><span class=\"essop-option\">Textured Paint</span></p>\r\n\r\n<p><span class=\"essop-title\">Feet:</span><span class=\"essop-option\">Casters, Glides</span></p>\r\n</div>\r\n</div>\r\n\r\n<p><span class=\"essop-title\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<p>\r\n<style type=\"text/css\">table, th, td {\r\n    border-collapse: collapse;\r\n}\r\nth, td {\r\n    padding: 3px 6px 5px 0px;\r\n}\r\ntd {  \r\n  color: #777;\r\n  font: 11px/13px 'HelveticaNeueW01-55Roma', Arial, Helvetica, sans-serif;}\r\nth {\r\n    color: #777;\r\n  font: 11px/13px 'HelveticaNeueW01-75Bold', Arial, Helvetica, sans-serif;text-align: left;\r\n}\r\n</style>\r\n</p>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>Rectangular Top</td>\r\n\t\t\t<td>w/ casters or glides</td>\r\n\t\t\t<td>48 / 54 / 60 / 66&quot;</td>\r\n\t\t\t<td>24 / 27 / 30&quot;</td>\r\n\t\t\t<td>28&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>w/ glides</td>\r\n\t\t\t<td>72&quot;</td>\r\n\t\t\t<td>24 / 27 / 30 / 36&quot;</td>\r\n\t\t\t<td>28&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>D Shape Top</td>\r\n\t\t\t<td>w/ casters or glides</td>\r\n\t\t\t<td>60&quot;</td>\r\n\t\t\t<td>60&quot;</td>\r\n\t\t\t<td>28 / 36 / 42&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>Round Top</td>\r\n\t\t\t<td>w/ casters or glides</td>\r\n\t\t\t<td>42 / 60&quot;</td>\r\n\t\t\t<td>&ndash;</td>\r\n\t\t\t<td>28 / 36 / 42&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>Square Top</td>\r\n\t\t\t<td>w/ casters or glides</td>\r\n\t\t\t<td>40 / 60&quot;</td>\r\n\t\t\t<td>&ndash;</td>\r\n\t\t\t<td>28 / 36 / 42&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n",
+            "fins": []
+          },
+          "three-week": {
+            "optsTxt": "<link href=\"/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Worksurface:</span><span class=\"essop-option\">Rectangular, Round, Square, D Shape</span></p>\r\n\r\n<p><span class=\"essop-title\">Worksurface Material:</span><span class=\"essop-option\">Laminate</span></p>\r\n\r\n<p><span class=\"essop-title\">Worksurface Edge:</span><span class=\"essop-option\">Flat</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Grommet:</span><span class=\"essop-option\">No Grommet</span></p>\r\n\r\n<p><span class=\"essop-title\">Legs:</span><span class=\"essop-option\">Textured Paint</span></p>\r\n\r\n<p><span class=\"essop-title\">Feet:</span><span class=\"essop-option\">Casters, Glides</span></p>\r\n</div>\r\n</div>\r\n\r\n<p><span class=\"essop-title\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<p>\r\n<style type=\"text/css\">table, th, td {\r\n    border-collapse: collapse;\r\n}\r\nth, td {\r\n    padding: 3px 6px 5px 0px;\r\n}\r\ntd {  \r\n  color: #777;\r\n  font: 11px/13px 'HelveticaNeueW01-55Roma', Arial, Helvetica, sans-serif;}\r\nth {\r\n    color: #777;\r\n  font: 11px/13px 'HelveticaNeueW01-75Bold', Arial, Helvetica, sans-serif;text-align: left;\r\n}\r\n</style>\r\n</p>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>Rectangular Top</td>\r\n\t\t\t<td>w/ casters or glides</td>\r\n\t\t\t<td>48 / 54 / 60 / 66&quot;</td>\r\n\t\t\t<td>24 / 27 / 30&quot;</td>\r\n\t\t\t<td>28&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>w/ glides</td>\r\n\t\t\t<td>72&quot;</td>\r\n\t\t\t<td>24 / 27 / 30 / 36&quot;</td>\r\n\t\t\t<td>28&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>D Shape Top</td>\r\n\t\t\t<td>w/ casters or glides</td>\r\n\t\t\t<td>60&quot;</td>\r\n\t\t\t<td>60&quot;</td>\r\n\t\t\t<td>28 / 36 / 42&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>Round Top</td>\r\n\t\t\t<td>w/ casters or glides</td>\r\n\t\t\t<td>42 / 60&quot;</td>\r\n\t\t\t<td>&ndash;</td>\r\n\t\t\t<td>28 / 36 / 42&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr style=\"border-top: 1px solid #dedede; padding-top:5px;\">\r\n\t\t\t<td>Square Top</td>\r\n\t\t\t<td>w/ casters or glides</td>\r\n\t\t\t<td>40 / 60&quot;</td>\r\n\t\t\t<td>&ndash;</td>\r\n\t\t\t<td>28 / 36 / 42&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n",
+            "fins": []
+          },
+          "quick": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Worksurface:</span><span class=\"essop-option\">Rectangular, Round</span></p>\r\n\r\n<p><span class=\"essop-title\">Worksurface Material:</span><span class=\"essop-option\">Laminate</span></p>\r\n\r\n<p><span class=\"essop-title\">Worksurface Edge:</span><span class=\"essop-option\">Flat, Bullnose</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Grommet:</span><span class=\"essop-option\">No Grommet</span></p>\r\n\r\n<p><span class=\"essop-title\">Legs:</span><span class=\"essop-option\">Textured Paint (will match worksurface color)</span></p>\r\n\r\n<p><span class=\"essop-title\">Feet:</span><span class=\"essop-option\">Casters, Glides</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 50)</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Rectangular Top</td>\r\n\t\t\t<td>Flat Edge</td>\r\n\t\t\t<td>w/ casters or glides</td>\r\n\t\t\t<td>48&quot;</td>\r\n\t\t\t<td>24&quot;</td>\r\n\t\t\t<td>28&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>60 / 72&quot;</td>\r\n\t\t\t<td>30&quot;</td>\r\n\t\t\t<td>28&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>72&quot;</td>\r\n\t\t\t<td>36&quot;</td>\r\n\t\t\t<td>28&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>Bullnose Edge</td>\r\n\t\t\t<td>w/ glides</td>\r\n\t\t\t<td>48&quot;</td>\r\n\t\t\t<td>24&quot;</td>\r\n\t\t\t<td>28&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>54&quot;</td>\r\n\t\t\t<td>27&quot;</td>\r\n\t\t\t<td>28&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Round Top</td>\r\n\t\t\t<td>Flat Edge</td>\r\n\t\t\t<td>w/ casters or glides</td>\r\n\t\t\t<td>42 / 60&quot;</td>\r\n\t\t\t<td>&ensp;-</td>\r\n\t\t\t<td>28&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          }
+        },
+        {
+          "id": "1356431699225",
+          "title": "Laminate",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "std": {
+            "optsTxt": "",
+            "fins": [
+              "1347382748926",
+              "1347382749237",
+              "1347382749023",
+              "1347382749882",
+              "1407324586168",
+              "1355995871527",
+              "1355995873292",
+              "1355995873369"
+            ]
+          },
+          "three-week": {
+            "optsTxt": "",
+            "fins": [
+              "1347382748926",
+              "1347382749237",
+              "1347382749023",
+              "1347382749882",
+              "1407324586168",
+              "1355995871527",
+              "1355995873292",
+              "1355995873369"
+            ]
+          },
+          "quick": {
+            "optsTxt": "",
+            "fins": [
+              "1347382748926",
+              "1347382749237",
+              "1347382749882"
+            ]
+          }
+        },
+        {
+          "id": "1355995785654",
+          "title": "Veneer",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "std": {
+            "optsTxt": "",
+            "fins": [
+              "1352995732981",
+              "1353024065756",
+              "1355995422134",
+              "1355995420519"
+            ]
+          },
+          "three-week": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "quick": {
+            "optsTxt": "",
+            "fins": []
+          }
+        },
+        {
+          "id": "1355995787215",
+          "title": "Textured Paint",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "std": {
+            "optsTxt": "",
+            "fins": [
+              "1347382702133",
+              "1355996232859",
+              "1347382702596",
+              "1347382702345",
+              "1347382703086"
+            ]
+          },
+          "three-week": {
+            "optsTxt": "",
+            "fins": [
+              "1347382702133",
+              "1347382702345",
+              "1347382703086"
+            ]
+          },
+          "quick": {
+            "optsTxt": "",
+            "fins": [
+              "1347382702133",
+              "1347382702345",
+              "1347382703086"
+            ]
+          }
+        },
+        {
+          "id": "1356077694972",
+          "title": "Edge Style",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "std": {
+            "optsTxt": "",
+            "fins": [
+              "1356076575610",
+              "1356076575686"
+            ]
+          },
+          "three-week": {
+            "optsTxt": "",
+            "fins": [
+              "1356076575610"
+            ]
+          },
+          "quick": {
+            "optsTxt": "",
+            "fins": [
+              "1356076575610"
+            ]
+          }
+        }
+      ],
+      "brands": [
+        "Knoll Office"
+      ],
+      "title": "Rockwell Unscripted Easy Tables",
+      "thumb-img": "/644/971/rockwell-unscripted-easy-table_dining-multiuse_thumb.jpg",
+      "sm1-3d": [
+        "Parcel",
+        "White Glove"
+      ],
+      "hero1-img": "/346/69/rockwell-unscripted-easy-table_dining-multiuse_hero.jpg",
+      "workCats": [],
+      "name": "ES Rockwell Unscripted Easy Tables",
+      "powerCats": [],
+      "sm3w": [],
+      "product-id": "rockwell-unscripted-easy-tables"
     },
     {
       "smquick": [
@@ -46662,6 +47130,59 @@
         "White Glove"
       ],
       "product-id": "sapper-50-monitor-arm"
+    },
+    {
+      "smquick": [
+        "Parcel",
+        "Truck"
+      ],
+      "lead-times": [
+        "quick"
+      ],
+      "short-text": "",
+      "storageCats": [],
+      "screensCats": [],
+      "epp-id": "1356847852590",
+      "seatingCats": [],
+      "apprvId": "",
+      "tableCats": [],
+      "excl3wk": "",
+      "availFinMods": [
+        {
+          "id": "1356842282582",
+          "title": "Options",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "std": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "three-week": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "quick": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Finish:</span><span class=\"essop-option\">Painted</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 40)</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>11&quot;</td>\r\n\t\t\t<td>11&quot;</td>\r\n\t\t\t<td>22 / 24&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          }
+        }
+      ],
+      "brands": [
+        "Knoll Office"
+      ],
+      "title": "Rockwell Cable Tower",
+      "thumb-img": "",
+      "sm1-3d": [],
+      "hero1-img": "",
+      "workCats": [
+        "Technology Support"
+      ],
+      "name": "ES Rockwell Cable Tower",
+      "powerCats": [],
+      "sm3w": [],
+      "product-id": "1356847852590"
     },
     {
       "smquick": [
@@ -54531,333 +55052,6 @@
       "product-id": "anchor"
     },
     {
-      "smquick": [],
-      "lead-times": [
-        "std",
-        "three-week"
-      ],
-      "short-text": "<p>Inspired by the functionalist vision of the modern masters, Reff Profiles delivers a progressive and architectural design solution for private offices, administrative areas and open plan environments.</p>",
-      "storageCats": [
-        "Mounted Storage"
-      ],
-      "screensCats": [],
-      "epp-id": "1356386282769",
-      "seatingCats": [],
-      "apprvId": "",
-      "tableCats": [],
-      "excl3wk": "",
-      "availFinMods": [
-        {
-          "id": "1347383286241",
-          "title": "Laminate",
-          "one-to-three-day": {
-            "optsTxt": "",
-            "fins": []
-          },
-          "std": {
-            "optsTxt": "",
-            "fins": [
-              "1347382748926",
-              "1347382749054",
-              "1347382748992",
-              "1347382749206",
-              "1347382749117",
-              "1347382749086",
-              "1347382749820",
-              "1347382749851",
-              "1347382749237",
-              "1347382749023",
-              "1347382749882",
-              "1407324586168",
-              "1407323799333",
-              "1407324579410",
-              "1407335363676",
-              "1347382750145",
-              "1347382748959",
-              "1347382749913",
-              "1407324849870",
-              "1347382750240",
-              "1407325186154",
-              "1407325659651",
-              "1355995871527",
-              "1355995873292",
-              "1355995873369"
-            ]
-          },
-          "three-week": {
-            "optsTxt": "",
-            "fins": [
-              "1347382748926",
-              "1347382749054",
-              "1347382748992",
-              "1347382749206",
-              "1347382749117",
-              "1347382749086",
-              "1347382749820",
-              "1347382749851",
-              "1347382749237",
-              "1347382749023",
-              "1347382749882",
-              "1407324586168",
-              "1407323799333",
-              "1407324579410",
-              "1407335363676",
-              "1347382750145",
-              "1347382748959",
-              "1347382749913",
-              "1407324849870",
-              "1347382750240",
-              "1407325186154",
-              "1407325659651",
-              "1355995871527",
-              "1355995873292",
-              "1355995873369"
-            ]
-          },
-          "quick": {
-            "optsTxt": "",
-            "fins": [
-              "1347382748926",
-              "1347382749882",
-              "1407324579410",
-              "1347382750240"
-            ]
-          }
-        },
-        {
-          "id": "1356619712788",
-          "title": "Laminate",
-          "one-to-three-day": {
-            "optsTxt": "",
-            "fins": []
-          },
-          "std": {
-            "optsTxt": "",
-            "fins": [
-              "1347382748926",
-              "1347382749054",
-              "1347382748992",
-              "1347382749206",
-              "1347382749117",
-              "1347382749086",
-              "1347382749820",
-              "1347382749851",
-              "1347382749237",
-              "1347382749023",
-              "1347382749882",
-              "1407324586168",
-              "1407323799333",
-              "1407324579410",
-              "1407335363676",
-              "1347382750145",
-              "1347382748959",
-              "1347382749913",
-              "1407324849870",
-              "1347382750240",
-              "1407325186154",
-              "1407325659651"
-            ]
-          },
-          "three-week": {
-            "optsTxt": "",
-            "fins": [
-              "1347382748926",
-              "1347382749054",
-              "1347382748992",
-              "1347382749206",
-              "1347382749117",
-              "1347382749086",
-              "1347382749820",
-              "1347382749851",
-              "1347382749237",
-              "1347382749023",
-              "1347382749882",
-              "1407324586168",
-              "1407323799333",
-              "1407324579410",
-              "1407335363676",
-              "1347382750145",
-              "1347382748959",
-              "1347382749913",
-              "1407324849870",
-              "1347382750240",
-              "1407325186154",
-              "1407325659651"
-            ]
-          },
-          "quick": {
-            "optsTxt": "",
-            "fins": [
-              "1347382748926",
-              "1347382749882",
-              "1407324579410",
-              "1347382750240"
-            ]
-          }
-        },
-        {
-          "id": "1356392876933",
-          "title": "Natural Veneer & Premium Techwood (V2)",
-          "one-to-three-day": {
-            "optsTxt": "",
-            "fins": []
-          },
-          "std": {
-            "optsTxt": "",
-            "fins": [
-              "1353004129653",
-              "1353024065756",
-              "1347382756358",
-              "1352995732981",
-              "1347382756396",
-              "1347382756622",
-              "1355995420519",
-              "1347382756659",
-              "1347382756696",
-              "1352994611631",
-              "1347382756321"
-            ]
-          },
-          "three-week": {
-            "optsTxt": "",
-            "fins": [
-              "1352995732981",
-              "1347382756659"
-            ]
-          },
-          "quick": {
-            "optsTxt": "",
-            "fins": []
-          }
-        },
-        {
-          "id": "1347383308467",
-          "title": "Premium Natural Veneer (V3)",
-          "one-to-three-day": {
-            "optsTxt": "",
-            "fins": []
-          },
-          "std": {
-            "optsTxt": "",
-            "fins": [
-              "1347382757063",
-              "1355995422134"
-            ]
-          },
-          "three-week": {
-            "optsTxt": "",
-            "fins": []
-          },
-          "quick": {
-            "optsTxt": "",
-            "fins": []
-          }
-        },
-        {
-          "id": "1356396688306",
-          "title": "Pull & Trim Finishes",
-          "one-to-three-day": {
-            "optsTxt": "",
-            "fins": []
-          },
-          "std": {
-            "optsTxt": "",
-            "fins": [
-              "1347382951898",
-              "1356396698136",
-              "1356396688477",
-              "1356396694215",
-              "1347382699772",
-              "1347382700503",
-              "1347382700845",
-              "1347382700060",
-              "1347382700813",
-              "1347382700129",
-              "1347382699964",
-              "1347382699840",
-              "1347382700097",
-              "1347382700887",
-              "1347382700919",
-              "1347382700951"
-            ]
-          },
-          "three-week": {
-            "optsTxt": "",
-            "fins": [
-              "1356396698136",
-              "1356396688477",
-              "1347382699772",
-              "1347382700503",
-              "1347382700845",
-              "1347382700060",
-              "1347382700813",
-              "1347382700129",
-              "1347382699964",
-              "1347382699840",
-              "1347382700097",
-              "1347382700887",
-              "1347382700919",
-              "1347382700951"
-            ]
-          },
-          "quick": {
-            "optsTxt": "",
-            "fins": []
-          }
-        },
-        {
-          "id": "1356396709325",
-          "title": "Pull Style",
-          "one-to-three-day": {
-            "optsTxt": "",
-            "fins": []
-          },
-          "std": {
-            "optsTxt": "",
-            "fins": [
-              "1356396700477",
-              "1356396709172",
-              "1356396706248",
-              "1356396707166",
-              "1356396706590",
-              "1356396707019",
-              "1356396706874",
-              "1356396706731",
-              "1356396706451"
-            ]
-          },
-          "three-week": {
-            "optsTxt": "",
-            "fins": [
-              "1356396700477",
-              "1356396709172",
-              "1356396706248",
-              "1356396707166",
-              "1356396706590",
-              "1356396707019",
-              "1356396706874",
-              "1356396706731",
-              "1356396706451"
-            ]
-          },
-          "quick": {
-            "optsTxt": "",
-            "fins": []
-          }
-        }
-      ],
-      "brands": [],
-      "title": "Reff Profiles 28 3/8\" L Shelf & Cubby",
-      "thumb-img": "/340/185/reff-profiles-desktop-towers_mounted_thumb.jpg",
-      "sm1-3d": [],
-      "hero1-img": "/188/896/reff-profiles-desktop-towers_mounted_hero.jpg",
-      "workCats": [],
-      "name": "ES Reff Profiles 28 3/8 L Shelf & Cubby",
-      "powerCats": [],
-      "sm3w": [],
-      "product-id": "reff-profiles"
-    },
-    {
       "smquick": [
         "Parcel",
         "Truck",
@@ -59645,60 +59839,6 @@
         "White Glove"
       ],
       "product-id": "orchestra"
-    },
-    {
-      "smquick": [
-        "Parcel",
-        "Truck",
-        "White Glove"
-      ],
-      "lead-times": [
-        "quick"
-      ],
-      "short-text": "<p>Aleris provides the right light for any space, any time of day. This stylish lamp with a minimal footprint and an extensive range of brightness and temperature has 2 built-in USB charging ports, providing added convenience for charging small devices.</p>",
-      "storageCats": [],
-      "screensCats": [],
-      "epp-id": "1356842278244",
-      "seatingCats": [],
-      "apprvId": "",
-      "tableCats": [],
-      "excl3wk": "",
-      "availFinMods": [
-        {
-          "id": "1356842282582",
-          "title": "Options",
-          "one-to-three-day": {
-            "optsTxt": "",
-            "fins": []
-          },
-          "std": {
-            "optsTxt": "",
-            "fins": []
-          },
-          "three-week": {
-            "optsTxt": "",
-            "fins": []
-          },
-          "quick": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Body:</span><span class=\"essop-option\">Aluminum</span></p>\r\n\r\n<p><span class=\"essop-title\">Body Finish:</span><span class=\"essop-option\">Painted</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 50)</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>light w</th>\r\n\t\t\t<th>base w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>14.25&quot;</td>\r\n\t\t\t<td>6&quot;</td>\r\n\t\t\t<td>4.75&quot;</td>\r\n\t\t\t<td>15&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
-            "fins": []
-          }
-        }
-      ],
-      "brands": [
-        "Fully"
-      ],
-      "title": "Aleris by Fully",
-      "thumb-img": "",
-      "sm1-3d": [],
-      "hero1-img": "",
-      "workCats": [
-        "Lighting"
-      ],
-      "name": "ES Aleris by Fully",
-      "powerCats": [],
-      "sm3w": [],
-      "product-id": "1356842278244"
     },
     {
       "smquick": [
