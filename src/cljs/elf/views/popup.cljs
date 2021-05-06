@@ -30,7 +30,7 @@
       [:li {:class (if (= i 0) "selected" "")
             :data-tab (str "finish-" (str/replace title #"[^a-zA-Z0-9-]" ""))
             :on-click finish-types-pill-clicked}
-       [:a {:href "javascript:;"} title]])))
+       [:a title]])))
 
 (defn- create-finish-types-tab [i [title fins]]
   (let [finishes (<sub [::subs/finishes])]
@@ -63,7 +63,7 @@
   [:li {:class (if (= i 0) "selected" "")
         :data-tab (str "grade-" grade)
         :on-click fabric-grade-pill-clicked}
-   [:a {:href "javascript:;"} grade]])
+   [:a grade]])
 
 
 (defn- create-fabric-swatch [i fab]
@@ -142,8 +142,7 @@
          [:<>
           [:ul.upholstery-types-sub-list
            [:li
-	    [:a {:href "javascript:;"
-                 :data-tab (str "fabric-" part "-tab")
+	        [:a {:data-tab (str "fabric-" part "-tab")
                  :on-click return-to-fabrics-view}
              "Back to all grade " grade]]]
           [:h5 fab-name " " part]
@@ -177,7 +176,7 @@
            [:li {:class (if-not (seq fabs) "selected" "") ;; if no fabs, then autoselect Leathers
                  :data-tab (str "grade-" "leather")
                  :on-click fabric-grade-pill-clicked}
-            [:a {:href "javascript:;"} "Leather"]])]]
+            [:a "Leather"]])]]
        [:div.upholstery-tab-wrap
         (map-indexed create-fabric-grade-tab (sort fabs))
         (when (seq leathers)
@@ -369,7 +368,7 @@
                                  (reset! clipboard-atom nil))
       :reagent-render (fn []
                         [:li.clipboard {:data-clipboard-target target}
-                         [:a {:href "javascript:;"} label
+                         [:a label
                           [:span#copied-msg {:style {:display "none" :font-size "75%"}}
                            " (copied to clipboard)"]]])})))
 
@@ -396,7 +395,7 @@
            [:li [:a {:href (str (when config/debug? "https://knlprdwcsmgt.knoll.com") "/product/" (:product-id selected-prod) "?section=design")
                      :target "_blank"} " Visit Full Product Page"]]
            [clipboard-button "Share" "#clipboard-target"]
-           [:li [:a {:href "javascript:;" :on-click #(.print js/window)} "PRINT"]]
+           [:li [:a {:on-click #(.print js/window)} "PRINT"]]
            [:li [:a {:href (str (when config/debug? "https://knlprdwcsmgt.knoll.com") "/design-plan/knoll-essentials/collections")} "ESSENTIALS COLLECTIONS"]]]]]]
        [:a.popup-modal-dismiss {:on-click #(->> js/$ .-magnificPopup .close)} "Dismiss"]]
 

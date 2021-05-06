@@ -1,14 +1,17 @@
 (defproject elf "0.1.0-SNAPSHOT"
   :dependencies [[org.clojure/clojure "1.10.1"]
                  [org.clojure/clojurescript "1.10.597"]
-                 [reagent "0.8.1"]
-                 [re-frame "0.10.8"]
+                 #_[reagent "0.8.1"]
+                 [reagent "0.9.0"]
+                 #_[re-frame "0.10.8"]
+                 [re-frame "1.2.0"]
                  [cljs-ajax "0.8.0"]
                  #_[day8.re-frame/http-fx "0.1.6"]
                  [com.rpl/specter "1.1.2"]
                  [cljsjs/clipboard "2.0.4-0"]]
 
-  :plugins [[lein-cljsbuild "1.1.7"]]
+  :plugins [#_[lein-cljsbuild "1.1.7"]
+            [lein-cljsbuild "1.1.8"]]
 
   :min-lein-version "2.5.3"
 
@@ -21,14 +24,19 @@
   :repl-options {:nrepl-middleware [cider.piggieback/wrap-cljs-repl]}
 
   :profiles {:dev
-             {:dependencies [[binaryage/devtools "0.9.10"]
-                             [day8.re-frame/re-frame-10x "0.3.7"]
-                             [day8.re-frame/tracing "0.5.1"]
-                             [figwheel-sidecar "0.5.18"]
-                             [cider/piggieback "0.4.0"]]
+             {:dependencies [#_[binaryage/devtools "0.9.10"]
+                             [binaryage/devtools "1.0.3"]
+                             #_[day8.re-frame/re-frame-10x "0.3.7"]
+                             [day8.re-frame/re-frame-10x "0.5.2"]
+                             #_[day8.re-frame/tracing "0.5.1"]
+                             [day8.re-frame/tracing "0.6.2"]
+                             #_[figwheel-sidecar "0.5.18"]
+                             [figwheel-sidecar "0.5.20"]
+                             #_[cider/piggieback "0.4.0"]
+                             #_[cider/piggieback "0.5.2"]]
 
-              :plugins      [[lein-figwheel "0.5.18"]]}
-             :prod { :dependencies [[day8.re-frame/tracing-stubs "0.5.1"]]}}
+              :plugins      [[lein-figwheel "0.5.20"]]}
+             :prod { :dependencies [[day8.re-frame/tracing-stubs "0.6.2"]]}}
 
   :cljsbuild {:builds
               [{:id           "dev"
