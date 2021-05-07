@@ -16474,7 +16474,7 @@
           "id": "1356419681783",
           "title": "Options",
           "one-to-three-day": {
-            "optsTxt": "",
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Kitted Mounting Options:</span><br />\r\n<span class=\"essop-option\">Two Piece Table Clamp<br />\r\nGrommet Mount<br />\r\nFixed Table Mount</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Arm Type:</span><span class=\"essop-option\">Standard</span></p>\r\n\r\n<p><span class=\"essop-title\">Mast Heights:</span><span class=\"essop-option\">16&quot; (16&quot; available in kits with arms, others sold separately)</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 50)</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>mast heights</th>\r\n\t\t\t<th>depth range</th>\r\n\t\t\t<th>max monitor weight</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>16&quot;</td>\r\n\t\t\t<td>2.875 - 17&quot;</td>\r\n\t\t\t<td>20 lbs</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
             "fins": []
           },
           "std": {
@@ -16486,7 +16486,7 @@
             "fins": []
           },
           "quick": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Kitted Mounting Options:</span><br />\r\n<span class=\"essop-option\">Two Piece Table Clamp<br />\r\nGrommet Mount</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Arm Type:</span><span class=\"essop-option\">Standard, Sleeve, Compact (Standard available in kits, others sold separately)</span></p>\r\n\r\n<p><span class=\"essop-title\">Mast Heights:</span><span class=\"essop-option\">8&quot;, 12&quot;, 16&quot;, 24&quot;, 32&quot; (16&quot; available in kits with arms, others sold separately)</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 25)</span></p></p>\r\n</div>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>mast heights</th>\r\n\t\t\t<th>depth range</th>\r\n\t\t\t<th>max monitor weight</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>8 / 12 / 16 / 24 / 32&quot;</td>\r\n\t\t\t<td>2.875 - 17&quot;</td>\r\n\t\t\t<td>20 lbs</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Kitted Mounting Options:</span><br />\r\n<span class=\"essop-option\">Two Piece Table Clamp<br />\r\nGrommet Mount<br />\r\nFixed Table Mount</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Arm Type:</span><span class=\"essop-option\">Standard</span></p>\r\n\r\n<p><span class=\"essop-title\">Mast Heights:</span><span class=\"essop-option\">16&quot; (16&quot; available in kits with arms, others sold separately)</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 50)</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>mast heights</th>\r\n\t\t\t<th>depth range</th>\r\n\t\t\t<th>max monitor weight</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>16&quot;</td>\r\n\t\t\t<td>2.875 - 17&quot;</td>\r\n\t\t\t<td>20 lbs</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
             "fins": []
           }
         },
@@ -46969,6 +46969,250 @@
     },
     {
       "smquick": [
+        "Truck",
+        "White Glove"
+      ],
+      "lead-times": [
+        "quick",
+        "std",
+        "three-week"
+      ],
+      "short-text": "<p>Quoin&#39;s clean aesthetic and thoughtful features exceed traditional expectations of metal storage.&nbsp;Low storage tucks under the table for easy access and a place to stack work in progress.</p>",
+      "storageCats": [
+        "Credenzas, Carts & Consoles"
+      ],
+      "screensCats": [],
+      "epp-id": "1356386278150",
+      "seatingCats": [],
+      "apprvId": "",
+      "tableCats": [],
+      "excl3wk": "",
+      "availFinMods": [
+        {
+          "id": "1356595586091",
+          "title": "Options",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "std": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Configuration:</span><span class=\"essop-option\">Open with shelf, Box/File, Combination Box/File &amp; Open</span></p>\r\n\r\n<p><span class=\"essop-title\">Front:</span><span class=\"essop-option\">Steel</span></p>\r\n\r\n<p><span class=\"essop-title\">Case:</span><span class=\"essop-option\">Steel</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Top:</span><span class=\"essop-option\">Laminate</span></p>\r\n\r\n<p><span class=\"essop-title\">Pull:</span><span class=\"essop-option\">Quoin&nbsp;Pull</span></p>\r\n\r\n<p><span class=\"essop-title\">Lock:</span><span class=\"essop-option\">Digital Keypad Locking, Locking, Non-locking, RFID Locking</span></p>\r\n</div>\r\n\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Single Unit, Open</td>\r\n\t\t\t<td>\r\n\t\t\t<div>\r\n\t\t\t<div>18 &ndash; 36&quot;</div>\r\n\r\n\t\t\t<div>(6&quot; increments)</div>\r\n\t\t\t</div>\r\n\t\t\t</td>\r\n\t\t\t<td>18.8&quot;</td>\r\n\t\t\t<td>22.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Double Unit, Open + Open</td>\r\n\t\t\t<td>\r\n\t\t\t<div>36 &ndash; 72&quot;</div>\r\n\r\n\t\t\t<div>(6&quot; increments)</div>\r\n\t\t\t</td>\r\n\t\t\t<td>18.8&quot;</td>\r\n\t\t\t<td>22.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Single Unit, Box/File</td>\r\n\t\t\t<td>30 / 36&quot;</td>\r\n\t\t\t<td>18.8&quot;</td>\r\n\t\t\t<td>22.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Double Unit, Box/File + Open</td>\r\n\t\t\t<td>\r\n\t\t\t<div>48&nbsp;&ndash; 72&quot;</div>\r\n\r\n\t\t\t<div>(6&quot; increments)</div>\r\n\t\t\t</td>\r\n\t\t\t<td>18.8&quot;</td>\r\n\t\t\t<td>22.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Double Unit, Box/File + Box/File</td>\r\n\t\t\t<td>60 &ndash; 72&quot;<br />\r\n\t\t\t(6&quot; increments)</td>\r\n\t\t\t<td>18.8&quot;</td>\r\n\t\t\t<td>22.5&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          },
+          "three-week": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Configuration:</span><span class=\"essop-option\">Open with shelf, Box/File, Combination Box/File &amp; Open</span></p>\r\n\r\n<p><span class=\"essop-title\">Front:</span><span class=\"essop-option\">Steel</span></p>\r\n\r\n<p><span class=\"essop-title\">Case:</span><span class=\"essop-option\">Steel</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Top:</span><span class=\"essop-option\">Laminate</span></p>\r\n\r\n<p><span class=\"essop-title\">Pull:</span><span class=\"essop-option\">Quoin&nbsp;Pull</span></p>\r\n\r\n<p><span class=\"essop-title\">Lock:</span><span class=\"essop-option\">Digital Keypad Locking, Locking, Non-locking, RFID Locking</span></p>\r\n</div>\r\n\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Single Unit, Open</td>\r\n\t\t\t<td>\r\n\t\t\t<div>\r\n\t\t\t<div>18 &ndash; 36&quot;</div>\r\n\r\n\t\t\t<div>(6&quot; increments)</div>\r\n\t\t\t</div>\r\n\t\t\t</td>\r\n\t\t\t<td>18.8&quot;</td>\r\n\t\t\t<td>22.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Double Unit, Open + Open</td>\r\n\t\t\t<td>\r\n\t\t\t<div>36 &ndash; 72&quot;</div>\r\n\r\n\t\t\t<div>(6&quot; increments)</div>\r\n\t\t\t</td>\r\n\t\t\t<td>18.8&quot;</td>\r\n\t\t\t<td>22.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Single Unit, Box/File</td>\r\n\t\t\t<td>30 / 36&quot;</td>\r\n\t\t\t<td>18.8&quot;</td>\r\n\t\t\t<td>22.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Double Unit, Box/File + Open</td>\r\n\t\t\t<td>\r\n\t\t\t<div>48&nbsp;&ndash; 72&quot;</div>\r\n\r\n\t\t\t<div>(6&quot; increments)</div>\r\n\t\t\t</td>\r\n\t\t\t<td>18.8&quot;</td>\r\n\t\t\t<td>22.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Double Unit, Box/File + Box/File</td>\r\n\t\t\t<td>60 &ndash; 72&quot;<br />\r\n\t\t\t(6&quot; increments)</td>\r\n\t\t\t<td>18.8&quot;</td>\r\n\t\t\t<td>22.5&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          },
+          "quick": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Configuration:</span><span class=\"essop-option\">Box/File, Combination Box/File &amp; Open</span></p>\r\n\r\n<p><span class=\"essop-title\">Front:</span><span class=\"essop-option\">Steel</span></p>\r\n\r\n<p><span class=\"essop-title\">Case:</span><span class=\"essop-option\">Steel</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Top:</span><span class=\"essop-option\">Laminate</span></p>\r\n\r\n<p><span class=\"essop-title\">Pull:</span><span class=\"essop-option\">Quoin&nbsp;Pull</span></p>\r\n\r\n<p><span class=\"essop-title\">Lock:</span><span class=\"essop-option\">Digital Keypad Locking, Locking, Non-locking, RFID Locking</span></p>\r\n</div>\r\n\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 25)</span></p>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Single Unit, Box/File</td>\r\n\t\t\t<td>30&quot;</td>\r\n\t\t\t<td>18.8&quot;</td>\r\n\t\t\t<td>22.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Double Unit, Box/File + Open</td>\r\n\t\t\t<td>\r\n\t\t\t<div>48 / 54 / 60&quot;</div>\r\n\t\t\t</td>\r\n\t\t\t<td>18.8&quot;</td>\r\n\t\t\t<td>22.5&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          }
+        },
+        {
+          "id": "1356595505074",
+          "title": "Smooth Paint",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "std": {
+            "optsTxt": "",
+            "fins": [
+              "1347382699772",
+              "1347382700845",
+              "1347382700060",
+              "1347382700813",
+              "1347382700129",
+              "1347382699964",
+              "1347382699840",
+              "1347382700097",
+              "1347382700887",
+              "1347382700919",
+              "1347382700951"
+            ]
+          },
+          "three-week": {
+            "optsTxt": "",
+            "fins": [
+              "1347382699772",
+              "1347382700845",
+              "1347382700060",
+              "1347382700813",
+              "1347382700129",
+              "1347382699964",
+              "1347382699840",
+              "1347382700097",
+              "1347382700887",
+              "1347382700919",
+              "1347382700951"
+            ]
+          },
+          "quick": {
+            "optsTxt": "",
+            "fins": [
+              "1347382699772",
+              "1347382700845",
+              "1347382700060",
+              "1347382700813",
+              "1347382700129",
+              "1347382699964",
+              "1347382699840",
+              "1347382700097",
+              "1347382700887",
+              "1347382700919",
+              "1347382700951"
+            ]
+          }
+        },
+        {
+          "id": "1352941024629",
+          "title": "Textured Paint",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "std": {
+            "optsTxt": "",
+            "fins": [
+              "1347382703086",
+              "1347382703003",
+              "1347382702345",
+              "1347382702893",
+              "1347382702596",
+              "1347382702311",
+              "1347382702279",
+              "1347382702133",
+              "1347382703180",
+              "1347382703212"
+            ]
+          },
+          "three-week": {
+            "optsTxt": "",
+            "fins": [
+              "1347382703086",
+              "1347382703003",
+              "1347382702345",
+              "1347382702893",
+              "1347382702596",
+              "1347382702311",
+              "1347382702279",
+              "1347382702133",
+              "1347382703180",
+              "1347382703212"
+            ]
+          },
+          "quick": {
+            "optsTxt": "",
+            "fins": [
+              "1347382703086",
+              "1347382703003",
+              "1347382702345",
+              "1347382702893",
+              "1347382702596",
+              "1347382702311",
+              "1347382702279",
+              "1347382702133",
+              "1347382703180",
+              "1347382703212"
+            ]
+          }
+        },
+        {
+          "id": "1347383286241",
+          "title": "Laminate",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "std": {
+            "optsTxt": "",
+            "fins": [
+              "1347382748926",
+              "1347382749054",
+              "1347382748992",
+              "1347382749206",
+              "1347382749117",
+              "1347382749086",
+              "1347382749820",
+              "1347382749851",
+              "1347382749237",
+              "1347382749023",
+              "1347382749882",
+              "1407324586168",
+              "1407323799333",
+              "1407324579410",
+              "1407335363676",
+              "1347382750145",
+              "1347382748959",
+              "1347382749913",
+              "1407324849870",
+              "1347382750240",
+              "1407325186154",
+              "1407325659651",
+              "1355995871527",
+              "1355995873292",
+              "1355995873369"
+            ]
+          },
+          "three-week": {
+            "optsTxt": "",
+            "fins": [
+              "1347382748926",
+              "1347382749054",
+              "1347382748992",
+              "1347382749206",
+              "1347382749117",
+              "1347382749086",
+              "1347382749820",
+              "1347382749851",
+              "1347382749237",
+              "1347382749023",
+              "1347382749882",
+              "1407324586168",
+              "1407323799333",
+              "1407324579410",
+              "1407335363676",
+              "1347382750145",
+              "1347382748959",
+              "1347382749913",
+              "1407324849870",
+              "1347382750240",
+              "1407325186154",
+              "1407325659651",
+              "1355995871527",
+              "1355995873292",
+              "1355995873369"
+            ]
+          },
+          "quick": {
+            "optsTxt": "",
+            "fins": [
+              "1347382748926",
+              "1347382749882",
+              "1407324579410",
+              "1347382750240"
+            ]
+          }
+        }
+      ],
+      "brands": [
+        "Knoll Office"
+      ],
+      "title": "Quoin Credenzas",
+      "thumb-img": "/286/23/quoin_credenza_thumb.jpg",
+      "sm1-3d": [],
+      "hero1-img": "/230/741/quoin_credenza_hero.jpg",
+      "workCats": [],
+      "name": "ES Quoin Credenzas",
+      "powerCats": [],
+      "sm3w": [
+        "Truck",
+        "White Glove"
+      ],
+      "product-id": "quoin"
+    },
+    {
+      "smquick": [
         "Parcel",
         "Truck",
         "White Glove"
@@ -48874,11 +49118,11 @@
             "fins": []
           },
           "three-week": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Sled</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Powder Coat Paint</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>21.5&quot;</td>\r\n\t\t\t<td>21.7&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Sled</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Powder Coat Paint</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>21.5&quot;</td>\r\n\t\t\t<td>21.7&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
             "fins": []
           },
           "quick": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Sled</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Powder Coat Paint</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>21.5&quot;</td>\r\n\t\t\t<td>21.7&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Sled</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Powder Coat Paint</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>21.5&quot;</td>\r\n\t\t\t<td>21.7&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
             "fins": []
           }
         }
@@ -48926,7 +49170,7 @@
           "id": "1356837912124",
           "title": "Options",
           "one-to-three-day": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Swivel</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Die Cast Aluminum</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>21.5&quot;</td>\r\n\t\t\t<td>22&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Swivel</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Die Cast Aluminum</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>21.5&quot;</td>\r\n\t\t\t<td>22&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
             "fins": []
           },
           "std": {
@@ -48934,11 +49178,11 @@
             "fins": []
           },
           "three-week": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Swivel</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Die Cast Aluminum</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>21.5&quot;</td>\r\n\t\t\t<td>22&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Swivel</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Die Cast Aluminum</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>21.5&quot;</td>\r\n\t\t\t<td>22&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
             "fins": []
           },
           "quick": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Swivel</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Die Cast Aluminum</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>21.5&quot;</td>\r\n\t\t\t<td>22&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Swivel</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Die Cast Aluminum</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>21.5&quot;</td>\r\n\t\t\t<td>22&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
             "fins": []
           }
         }
@@ -55290,248 +55534,6 @@
         "White Glove"
       ],
       "product-id": "1356825894026"
-    },
-    {
-      "smquick": [
-        "Truck",
-        "White Glove"
-      ],
-      "lead-times": [
-        "quick",
-        "std",
-        "three-week"
-      ],
-      "short-text": "<p>Quoin&#39;s clean aesthetic and thoughtful features exceed traditional expectations of metal storage.&nbsp;Low storage tucks under the table for easy access and a place to stack work in progress.</p>",
-      "storageCats": [],
-      "screensCats": [],
-      "epp-id": "1356386278150",
-      "seatingCats": [],
-      "apprvId": "",
-      "tableCats": [],
-      "excl3wk": "",
-      "availFinMods": [
-        {
-          "id": "1356595586091",
-          "title": "Options",
-          "one-to-three-day": {
-            "optsTxt": "",
-            "fins": []
-          },
-          "std": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Configuration:</span><span class=\"essop-option\">Open with shelf, Box/File, Combination Box/File &amp; Open</span></p>\r\n\r\n<p><span class=\"essop-title\">Front:</span><span class=\"essop-option\">Steel</span></p>\r\n\r\n<p><span class=\"essop-title\">Case:</span><span class=\"essop-option\">Steel</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Top:</span><span class=\"essop-option\">Laminate</span></p>\r\n\r\n<p><span class=\"essop-title\">Pull:</span><span class=\"essop-option\">Quoin&nbsp;Pull</span></p>\r\n\r\n<p><span class=\"essop-title\">Lock:</span><span class=\"essop-option\">Digital Keypad Locking, Locking, Non-locking, RFID Locking</span></p>\r\n</div>\r\n\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Single Unit, Open</td>\r\n\t\t\t<td>\r\n\t\t\t<div>\r\n\t\t\t<div>18 &ndash; 36&quot;</div>\r\n\r\n\t\t\t<div>(6&quot; increments)</div>\r\n\t\t\t</div>\r\n\t\t\t</td>\r\n\t\t\t<td>18.8&quot;</td>\r\n\t\t\t<td>22.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Double Unit, Open + Open</td>\r\n\t\t\t<td>\r\n\t\t\t<div>36 &ndash; 72&quot;</div>\r\n\r\n\t\t\t<div>(6&quot; increments)</div>\r\n\t\t\t</td>\r\n\t\t\t<td>18.8&quot;</td>\r\n\t\t\t<td>22.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Single Unit, Box/File</td>\r\n\t\t\t<td>30 / 36&quot;</td>\r\n\t\t\t<td>18.8&quot;</td>\r\n\t\t\t<td>22.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Double Unit, Box/File + Open</td>\r\n\t\t\t<td>\r\n\t\t\t<div>48&nbsp;&ndash; 72&quot;</div>\r\n\r\n\t\t\t<div>(6&quot; increments)</div>\r\n\t\t\t</td>\r\n\t\t\t<td>18.8&quot;</td>\r\n\t\t\t<td>22.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Double Unit, Box/File + Box/File</td>\r\n\t\t\t<td>60 &ndash; 72&quot;<br />\r\n\t\t\t(6&quot; increments)</td>\r\n\t\t\t<td>18.8&quot;</td>\r\n\t\t\t<td>22.5&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
-            "fins": []
-          },
-          "three-week": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Configuration:</span><span class=\"essop-option\">Open with shelf, Box/File, Combination Box/File &amp; Open</span></p>\r\n\r\n<p><span class=\"essop-title\">Front:</span><span class=\"essop-option\">Steel</span></p>\r\n\r\n<p><span class=\"essop-title\">Case:</span><span class=\"essop-option\">Steel</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Top:</span><span class=\"essop-option\">Laminate</span></p>\r\n\r\n<p><span class=\"essop-title\">Pull:</span><span class=\"essop-option\">Quoin&nbsp;Pull</span></p>\r\n\r\n<p><span class=\"essop-title\">Lock:</span><span class=\"essop-option\">Digital Keypad Locking, Locking, Non-locking, RFID Locking</span></p>\r\n</div>\r\n\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Single Unit, Open</td>\r\n\t\t\t<td>\r\n\t\t\t<div>\r\n\t\t\t<div>18 &ndash; 36&quot;</div>\r\n\r\n\t\t\t<div>(6&quot; increments)</div>\r\n\t\t\t</div>\r\n\t\t\t</td>\r\n\t\t\t<td>18.8&quot;</td>\r\n\t\t\t<td>22.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Double Unit, Open + Open</td>\r\n\t\t\t<td>\r\n\t\t\t<div>36 &ndash; 72&quot;</div>\r\n\r\n\t\t\t<div>(6&quot; increments)</div>\r\n\t\t\t</td>\r\n\t\t\t<td>18.8&quot;</td>\r\n\t\t\t<td>22.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Single Unit, Box/File</td>\r\n\t\t\t<td>30 / 36&quot;</td>\r\n\t\t\t<td>18.8&quot;</td>\r\n\t\t\t<td>22.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Double Unit, Box/File + Open</td>\r\n\t\t\t<td>\r\n\t\t\t<div>48&nbsp;&ndash; 72&quot;</div>\r\n\r\n\t\t\t<div>(6&quot; increments)</div>\r\n\t\t\t</td>\r\n\t\t\t<td>18.8&quot;</td>\r\n\t\t\t<td>22.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Double Unit, Box/File + Box/File</td>\r\n\t\t\t<td>60 &ndash; 72&quot;<br />\r\n\t\t\t(6&quot; increments)</td>\r\n\t\t\t<td>18.8&quot;</td>\r\n\t\t\t<td>22.5&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
-            "fins": []
-          },
-          "quick": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Configuration:</span><span class=\"essop-option\">Box/File, Combination Box/File &amp; Open</span></p>\r\n\r\n<p><span class=\"essop-title\">Front:</span><span class=\"essop-option\">Steel</span></p>\r\n\r\n<p><span class=\"essop-title\">Case:</span><span class=\"essop-option\">Steel</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Top:</span><span class=\"essop-option\">Laminate</span></p>\r\n\r\n<p><span class=\"essop-title\">Pull:</span><span class=\"essop-option\">Quoin&nbsp;Pull</span></p>\r\n\r\n<p><span class=\"essop-title\">Lock:</span><span class=\"essop-option\">Digital Keypad Locking, Locking, Non-locking, RFID Locking</span></p>\r\n</div>\r\n\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 25)</span></p>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Single Unit, Box/File</td>\r\n\t\t\t<td>30&quot;</td>\r\n\t\t\t<td>18.8&quot;</td>\r\n\t\t\t<td>22.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Double Unit, Box/File + Open</td>\r\n\t\t\t<td>\r\n\t\t\t<div>48 / 54 / 60&quot;</div>\r\n\t\t\t</td>\r\n\t\t\t<td>18.8&quot;</td>\r\n\t\t\t<td>22.5&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
-            "fins": []
-          }
-        },
-        {
-          "id": "1356595505074",
-          "title": "Smooth Paint",
-          "one-to-three-day": {
-            "optsTxt": "",
-            "fins": []
-          },
-          "std": {
-            "optsTxt": "",
-            "fins": [
-              "1347382699772",
-              "1347382700845",
-              "1347382700060",
-              "1347382700813",
-              "1347382700129",
-              "1347382699964",
-              "1347382699840",
-              "1347382700097",
-              "1347382700887",
-              "1347382700919",
-              "1347382700951"
-            ]
-          },
-          "three-week": {
-            "optsTxt": "",
-            "fins": [
-              "1347382699772",
-              "1347382700845",
-              "1347382700060",
-              "1347382700813",
-              "1347382700129",
-              "1347382699964",
-              "1347382699840",
-              "1347382700097",
-              "1347382700887",
-              "1347382700919",
-              "1347382700951"
-            ]
-          },
-          "quick": {
-            "optsTxt": "",
-            "fins": [
-              "1347382699772",
-              "1347382700845",
-              "1347382700060",
-              "1347382700813",
-              "1347382700129",
-              "1347382699964",
-              "1347382699840",
-              "1347382700097",
-              "1347382700887",
-              "1347382700919",
-              "1347382700951"
-            ]
-          }
-        },
-        {
-          "id": "1352941024629",
-          "title": "Textured Paint",
-          "one-to-three-day": {
-            "optsTxt": "",
-            "fins": []
-          },
-          "std": {
-            "optsTxt": "",
-            "fins": [
-              "1347382703086",
-              "1347382703003",
-              "1347382702345",
-              "1347382702893",
-              "1347382702596",
-              "1347382702311",
-              "1347382702279",
-              "1347382702133",
-              "1347382703180",
-              "1347382703212"
-            ]
-          },
-          "three-week": {
-            "optsTxt": "",
-            "fins": [
-              "1347382703086",
-              "1347382703003",
-              "1347382702345",
-              "1347382702893",
-              "1347382702596",
-              "1347382702311",
-              "1347382702279",
-              "1347382702133",
-              "1347382703180",
-              "1347382703212"
-            ]
-          },
-          "quick": {
-            "optsTxt": "",
-            "fins": [
-              "1347382703086",
-              "1347382703003",
-              "1347382702345",
-              "1347382702893",
-              "1347382702596",
-              "1347382702311",
-              "1347382702279",
-              "1347382702133",
-              "1347382703180",
-              "1347382703212"
-            ]
-          }
-        },
-        {
-          "id": "1347383286241",
-          "title": "Laminate",
-          "one-to-three-day": {
-            "optsTxt": "",
-            "fins": []
-          },
-          "std": {
-            "optsTxt": "",
-            "fins": [
-              "1347382748926",
-              "1347382749054",
-              "1347382748992",
-              "1347382749206",
-              "1347382749117",
-              "1347382749086",
-              "1347382749820",
-              "1347382749851",
-              "1347382749237",
-              "1347382749023",
-              "1347382749882",
-              "1407324586168",
-              "1407323799333",
-              "1407324579410",
-              "1407335363676",
-              "1347382750145",
-              "1347382748959",
-              "1347382749913",
-              "1407324849870",
-              "1347382750240",
-              "1407325186154",
-              "1407325659651",
-              "1355995871527",
-              "1355995873292",
-              "1355995873369"
-            ]
-          },
-          "three-week": {
-            "optsTxt": "",
-            "fins": [
-              "1347382748926",
-              "1347382749054",
-              "1347382748992",
-              "1347382749206",
-              "1347382749117",
-              "1347382749086",
-              "1347382749820",
-              "1347382749851",
-              "1347382749237",
-              "1347382749023",
-              "1347382749882",
-              "1407324586168",
-              "1407323799333",
-              "1407324579410",
-              "1407335363676",
-              "1347382750145",
-              "1347382748959",
-              "1347382749913",
-              "1407324849870",
-              "1347382750240",
-              "1407325186154",
-              "1407325659651",
-              "1355995871527",
-              "1355995873292",
-              "1355995873369"
-            ]
-          },
-          "quick": {
-            "optsTxt": "",
-            "fins": [
-              "1347382748926",
-              "1347382749882",
-              "1407324579410",
-              "1347382750240"
-            ]
-          }
-        }
-      ],
-      "brands": [
-        "Knoll Office"
-      ],
-      "title": "Quoin Credenzas",
-      "thumb-img": "/23/619/quoin_credenza_thumb.jpg",
-      "sm1-3d": [],
-      "hero1-img": "/479/13/quoin_credenza_hero.jpg",
-      "workCats": [],
-      "name": "ES Quoin Credenzas",
-      "powerCats": [],
-      "sm3w": [
-        "Truck",
-        "White Glove"
-      ],
-      "product-id": "quoin"
     },
     {
       "smquick": [
