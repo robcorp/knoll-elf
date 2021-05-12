@@ -8,7 +8,7 @@
             [clojure.string :as str]))
 
 
-(declare load-textiles-approvals load-textiles-info load-fabric-data load-all-products load-filter-options filter-category-products)
+(declare load-textiles-approvals load-textiles-info load-fabric-data load-all-products-and-finishes load-filter-options filter-category-products)
 
 (reg-event-db
  ::initialize-db
@@ -20,7 +20,9 @@
                               "ELFStorageSelector"
                               "ELFPowerAndDataSelector"
                               "ELFWorkToolsSelector"
-                              "ELFScreensAndBoardsSelector"])
+                              "ELFScreensAndBoardsSelector"
+                              "ELFShipMethodSelector"
+                              "ELFBrandSelector"])
    (load-all-products-and-finishes)
    (let [db db/default-db]
      (filter-category-products db (:filtered-products db)))))
@@ -123,7 +125,6 @@
           :lead-time-filters updated-lead-time-filters
           :filtered-products filtered-products)
          (filter-category-products filtered-products)))))
-
 
 (defn- toggle-product-type-filter-state [selected-filter filters]
   (let [selected-filter-value (select-first [ALL #(= selected-filter (:label %)) :value] filters)

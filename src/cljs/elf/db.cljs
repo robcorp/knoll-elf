@@ -14,6 +14,8 @@
    :filtered-screen-products {}
    :selected-epp-id nil
    :lead-time-filters dd/lead-time-filters
+   :ELFShipMethodSelector {}
+   :ELFBrandSelector {}
    :ELFSeatingSelector (if-let [from-local-storage (rdr/read-string (.getItem js.localStorage "ELFSeatingSelector"))]
                          from-local-storage
                          {:name "ELFSeatingSelector"

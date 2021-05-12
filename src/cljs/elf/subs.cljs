@@ -122,6 +122,12 @@
 (reg-sub ::lead-time-filters
          :lead-time-filters)
 
+(reg-sub ::ship-method-filters
+         :ELFShipMethodSelector)
+
+(reg-sub ::brand-filters
+         :ELFBrandSelector)
+
 (reg-sub ::seating-filter-options
          :ELFSeatingSelector)
 

@@ -226,30 +226,36 @@
 
 (defn- popup-tab-wrap []
   (let [selected-prod (<sub [::subs/selected-product])
-        lead-times-set (set (:lead-times selected-prod))
+        has-lead-time (->> selected-prod
+                           :lead-times
+                           (remove #(= % "std")) ; No longer show Standard lead-time
+                           set)
         first-tab (atom nil)]
     
     [:div.popup-tab-wrap
-     (when (lead-times-set "one-to-three-day")
+     (when (has-lead-time "one-to-three-day")
        (if-not @first-tab (reset! first-tab "one-to-three-day")) ;; if first-tab hasn't been set yet, set it to "quick"
        [tab-contents "one-to-three-day" selected-prod (= @first-tab "one-to-three-day")])
 
-     (when (lead-times-set "quick")
+     (when (has-lead-time "quick")
        (if-not @first-tab (reset! first-tab "quick")) ;; if first-tab hasn't been set yet, set it to "quick"
        [tab-contents "quick" selected-prod (= @first-tab "quick")])
 
-     (when (lead-times-set "three-week")
+     (when (has-lead-time "three-week")
        (if-not @first-tab (reset! first-tab "three-week")) ;; if first-tab hasn't been set yet, set it to "three-week"
        [tab-contents "three-week" selected-prod (= @first-tab "three-week")])
 
-     (when (lead-times-set "std")
+     (when (has-lead-time "std")
        (if-not @first-tab (reset! first-tab "std")) ;; if first-tab hasn't been set yet, set it to "std"
        [tab-contents "std" selected-prod (= @first-tab "std")])]))
 
 (defn- product-tabs []
   (let [selected-prod (<sub [::subs/selected-product])
-        lead-times-set (set (:lead-times selected-prod))
-        lead-times-count (count lead-times-set)
+        has-lead-time (->> selected-prod
+                           :lead-times
+                           (remove #(= % "std")) ; no longer show the Standard lead-time tab
+                           set)
+        lead-times-count (count has-lead-time)
         epp-id (:epp-id selected-prod)
         tab-width (case lead-times-count
                     (0 1) "100%"
@@ -289,7 +295,7 @@
     [:div.essentials-product-tabs
      ^{:key :epp-id}
      [:ul.essentials-tab-list
-      (when (lead-times-set "one-to-three-day")
+      (when (has-lead-time "one-to-three-day")
         (if-not @first-tab (reset! first-tab "one-to-three-day"))
         ^{:key (str epp-id "-" "one-to-three-day")}
         [:li {:id (str epp-id "-" "one-to-three-day")
@@ -300,7 +306,7 @@
          [:span.tab-color.one-to-three-day-lead-active]
          [:a.tab-nav "Essentials 1-3 Day options"]])
 
-      (when (lead-times-set "quick")
+      (when (has-lead-time "quick")
         (if-not @first-tab (reset! first-tab "quick"))
         ^{:key (str epp-id "-" "quick")}
         [:li {:id (str epp-id "-" "quick")
@@ -311,7 +317,7 @@
          [:span.tab-color.quick-lead-active]
          [:a.tab-nav "Essentials QuickShip options"]])
 
-      (when (lead-times-set "three-week")
+      (when (has-lead-time "three-week")
         (if-not @first-tab (reset! first-tab "three-week"))
         ^{:key (str epp-id "-" "three-week")}
         [:li {:id (str epp-id "-" "three-week")
@@ -322,7 +328,7 @@
          [:span.tab-color.three-ship-active]
          [:a.tab-nav "Essentials 3 week options "]])
 
-      (when (lead-times-set "std")
+      (when (has-lead-time "std")
         (if-not @first-tab (reset! first-tab "std"))
         ^{:key (str epp-id "-" "std")}
         [:li {:id (str epp-id "-" "std")
@@ -336,19 +342,19 @@
      ^{:key (str "select-" epp-id)}
      [:select.tab-select-option {:defaultValue select-default-value
                                  :on-change lead-time-dropdown-selection-changed}
-      (when (lead-times-set "one-to-three-day")
+      (when (has-lead-time "one-to-three-day")
         [:option {:value "one-to-three-day"} "ESSENTIALS 1-3 DAY OPTIONS"])
 
-      (when (lead-times-set "quick")
+      (when (has-lead-time "quick")
         [:option {:value "quick"} "ESSENTIALS QUICKSHIP OPTIONS"])
 
-      (when (lead-times-set "three-week")
+      (when (has-lead-time "three-week")
         [:option {:value "three-week"} "ESSENTIALS 3 WEEK OPTIONS"])
 
-      (when (lead-times-set "std")
+      (when (has-lead-time "std")
         [:option {:value "std"} "STANDARD SHIP OPTIONS"])]
 
-     [popup-tab-wrap selected-prod lead-times-set]]))
+     [popup-tab-wrap selected-prod has-lead-time]]))
 
 (defn clipboard-button [label target]
   (let [clipboard-atom (atom nil)
