@@ -43,6 +43,7 @@
                          [:button#top-button {:title "Go to top"
                                               :on-click #(.animate (js/$ "body, html") #js{:scrollTop 0} 400)}
                           "Top"]
+
                          (when config/debug?
                            [:section.body_container]
                            [:div
@@ -56,23 +57,28 @@
                             [filters-view]
                             [filtered-products-view]]]]]))}))
 
-(defn- essential-product-summary [label {:keys [epp-id title lead-times thumb-img]}]
-  (let [lead-times-set (set lead-times)]
-    [:li {:id epp-id
-          :on-click #(evt> [::events/product-selected label epp-id])}
-     [:div.popup-modal {:style {:cursor "pointer"}}
-      [:div.product-col-image
-       [:img {:src (str config/media-url-base thumb-img) :data-no-retina ""}]]
-      [:ul.lead-time-status
-       (when (lead-times-set "one-to-three-day")
-         [:li.one-to-three-day-lead-active])
-       (when (lead-times-set "quick")
-         [:li.quick-lead-active])
-       (when (lead-times-set "three-week")
-         [:li.three-ship-active])
-       #_(when (lead-times-set "std")
-         [:li.standard-ship-active])]
-      [:p title]]]))
+(defn- essential-product-summary [label {:keys [epp-id title lead-times thumb-img brands]}]
+  (let [has-lead-time (->> lead-times (remove #(= % "std")) set)
+        has-brand (set brands)]
+    (when (not-empty has-lead-time)
+      [:li {:id epp-id
+            :on-click #(evt> [::events/product-selected label epp-id])}
+       [:div.popup-modal {:style {:cursor "pointer"}}
+        [:div.product-col-image
+         [:img {:src (str config/media-url-base thumb-img) :data-no-retina ""}]]
+        [:ul.lead-time-status
+         (when (has-lead-time "one-to-three-day")
+           [:li.one-to-three-day-lead-active])
+         (when (has-lead-time "quick")
+           [:li.quick-lead-active])
+         (when (has-lead-time "three-week")
+           [:li.three-ship-active])
+         (when (has-lead-time "std")
+           [:li.standard-ship-active])]
+        (when (has-brand "Muuto")
+          [:div
+           [:img.brand-logo {:src "http://knlprdwcsmgt1.knoll.com/images/muuto-logo.svg" :alt "Muuto logo" :data-no-retina ""}]])
+        [:p title]]])))
 
 (defn- lead-time-filter-radio-button [{:keys [li-id li-class id lead-time label value]}]
   (when-not (= lead-time "std")
@@ -82,31 +88,75 @@
                        :checked value
                        :name "lead-times-radio"
                        :on-change #(evt> [::events/lead-time-filter-radio-button-clicked lead-time])}]
-     [:label.active {:for id
+     [:label {:for id
                      :dangerouslySetInnerHTML {:__html label}}]]))
+
 
 ;;; render the Lead Time: filters 
 (defn- lead-time-filters []
   (let [filters (<sub [::subs/lead-time-filters])]
     [:<>
      [:h3 "Lead Time:"]
-     [:ul.lead-time-list
+     [:ul.filter-list
       (map lead-time-filter-radio-button filters)]]))
+
+(defn- ship-method-filters []
+  (let [{:keys [name description items]} (<sub [::subs/ship-method-filters])
+        #_#_available-brands (conj (set (select [ALL #(not (empty? (product-category %))) product-category ALL] filtered-prods)) "All")]
+    [:<>
+     [:h3 description ":"]
+     [:ul.filter-check-list
+      (for [i items]
+            (let [{:keys [label value]} i
+                  id (str name ":" label)]
+              ^{:key id}
+              [:li
+               [:input {:type "checkbox"
+                        :id id
+                        #_#_:checked (if (available-categories label)
+                                   value
+                                   false)
+                        #_#_:class (if (available-categories label) "" "disable-filter")
+                        :on-change #(evt> [::events/product-type-filter-checkbox-clicked id])}]
+               [:label {:for id} (if (= "All" label)
+                                   (str label " " description "s")
+                                   label)]]))]]))
+
+(defn- brand-filters []
+  (let [{:keys [name description items]} (<sub [::subs/brand-filters])]
+    [:<>
+     [:h3 description ":"]
+     [:ul.filter-check-list
+      (for [i items]
+            (let [{:keys [label value]} i
+                  id (str name ":" label)]
+              ^{:key id}
+              [:li
+               [:input {:type "checkbox"
+                        :id id
+                        #_#_:checked (if (available-categories label)
+                                   value
+                                   false)
+                        #_#_:class (if (available-categories label) "" "disable-filter")
+                        :on-change #(evt> [::events/brand-filter-checkbox-clicked id])}]
+               [:label {:for id} (if (= "All" label)
+                                   (str label " " description "s")
+                                   label)]]))]]))
 
 (defn- product-type-filter-group [_ _]
   (let [open? (reagent/atom false)] ; local state indicating whether the filter UI is open or closed.
     (fn [filter-options filtered-prods]
       (let [{:keys [name description product-category items]} filter-options
-            available-categories (conj (set (select [ALL #(not (empty? (product-category %))) product-category ALL] filtered-prods)) "All")
-            has-selection? false #_(some #(true? (:value %)) items)]
+            has-selection? #_true (some #(true? (:value %)) items)
+            available-categories (conj (set (select [ALL #(not (empty? (product-category %))) product-category ALL] filtered-prods)) "All")]
 
         [:div.product-type-check.has-filter-submenu
          [:h4 {:class [(when @open? "open") (when (true? has-selection?) "has-selection")]
                :on-click (fn [evt]
                             (swap! open? not)
-                            (.slideToggle (.next (js/$ (.-currentTarget evt)) ".product-type-check-list")))}
+                            (.slideToggle (.next (js/$ (.-currentTarget evt)) ".filter-check-list")))}
           description]
-         [:ul.product-type-check-list {:style {:display "none"}}
+         [:ul.filter-check-list {:style {:display "none"}}
           (for [i items]
             (let [{:keys [label value]} i
                   id (str name ":" label)]
@@ -139,20 +189,17 @@
         all-filter-options (<sub [::subs/all-filter-options])
         show-reset? (<sub [::subs/show-reset?])]
 
-    [:<>
+    [:div.filter-list
      [:div.filter-view-head
       [:h3 "Filter By"]
-      [:p.reset-filter-link
-       {:style {:display (if show-reset? "block" "none")}
-        :on-click #(evt> [::events/reset-product-type-filters])}
-       "Reset"]]
+      (when show-reset?
+        [:p.reset-filter-link
+         {:on-click #(evt> [::events/reset-product-type-filters])}
+         "Reset"])]
 
      (for [filter-options all-filter-options]
        ^{:key (str "product-type-filter-group-" (:name filter-options))}
-       [product-type-filter-group filter-options filtered-prods])
-
-     [:div.mobile-visible
-      [:a.apply_btn.accordian_btn {:on-click close-filter-slideout} " < APPLY AND RETURN"]]]))
+       [product-type-filter-group filter-options filtered-prods])]))
 
 (defn- search-box []
   (let [search-box-id (str (gensym "search-box-"))
@@ -198,7 +245,11 @@
    [:div.select-wrap
     [search-box]
     [lead-time-filters]
-    [product-type-filters]]])
+    [ship-method-filters]
+    [product-type-filters]
+    [brand-filters]
+    [:div.mobile-visible
+      [:a.apply_btn.accordian_btn {:on-click close-filter-slideout} " < APPLY AND RETURN"]]]])
 
 (defn- filtered-product-type-section [{:keys [label products]}]
   (when (seq products)
