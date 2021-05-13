@@ -212,11 +212,11 @@
    db))
 
 (defn- load-all-products-and-finishes []
-  (let [path "/cs/Satellite?pagename=Knoll/Common/Utils/EssentialsPopupProductsJSON"
+  (let [path "/cs/Satellite?pagename=Knoll/Common/Utils/EssentialsPopupProductsJSONDev"
         all-products-url (if config/debug?
                            (if config/use-local-products?
                              "/js/elf/all-products-dev.json" ;; use the local file - this file should be updated periodically using the json from prod or staging
-                             (str "http://knldev2wcsapp1a.knoll.com" #_"http://knlprdwcsmgt1.knoll.com" path)) ;; use staging url
+                             (str #_"http://knldev2wcsapp1a.knoll.com" "http://knlprdwcsmgt1.knoll.com" path)) ;; use staging url
                            (str (.. js/window -location -origin) path)) ;; use the host of the current browser window
         success-handler (fn [resp]
                           (re-frame/dispatch [::set-all-products-and-finishes (:all-products resp) (:finishes resp)]))
