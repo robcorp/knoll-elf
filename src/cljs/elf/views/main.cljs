@@ -77,7 +77,7 @@
            [:li.standard-ship-active])]
         (when (has-brand "Muuto")
           [:div
-           [:img.brand-logo {:src "http://knlprdwcsmgt1.knoll.com/images/muuto-logo.svg" :alt "Muuto logo" :data-no-retina ""}]])
+           [:img.brand-logo {:src "/images/muuto-logo.svg" :alt "Muuto logo" :data-no-retina ""}]])
         [:p title]]])))
 
 (defn- lead-time-filter-radio-button [{:keys [li-id li-class id lead-time label value]}]
