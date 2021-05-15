@@ -14,8 +14,26 @@
    :filtered-screen-products {}
    :selected-epp-id nil
    :lead-time-filters dd/lead-time-filters
-   :ELFShipMethodSelector {}
-   :ELFBrandSelector {}
+   :ELFShipMethodSelector (if-let [from-local-storage (rdr/read-string (.getItem js.localStorage "ELFShipMethodSelector"))]
+                            from-local-storage
+                            {:name "ELFShipMethodSelector"
+                             :description "Ship Method-"
+                             :product-category :sm3w
+                             :items [{:label "All" :value false}
+                                     {:label "Parcel" :value false}
+                                     {:label "White Glove" :value false}
+                                     {:label "Truck" :value false}]})
+   :ELFBrandSelector (if-let [from-local-storage (rdr/read-string (.getItem js.localStorage "ELFBrandSelector"))]
+                            from-local-storage
+                            {:name "ELFBrandSelector"
+                             :description "Brands-"
+                             :product-category :brands
+                             :items [{:label "All" :value false}
+                                     {:label "Knoll Office" :value false}
+                                     {:label "KnollStudio" :value false}
+                                     {:label "Muuto" :value false}
+                                     {:label "Fully" :value false}
+                                     {:label "DatesWeiser" :value false}]})
    :ELFSeatingSelector (if-let [from-local-storage (rdr/read-string (.getItem js.localStorage "ELFSeatingSelector"))]
                          from-local-storage
                          {:name "ELFSeatingSelector"

@@ -50,6 +50,7 @@
                      (select [:items ALL :label #(not= "All" %)] selected-filter)
                      (set (select [:items ALL #(true? (:value %)) :label] selected-filter)))]
 
+    #_(.log js/console categories)
     (for [category categories]
       {:product-category category
        :label (str label " / " category)
@@ -69,7 +70,6 @@
  (fn-traced [db [_ products finishes]]
    (try (.setItem js/localStorage "all-products" products)
         (catch :default err (println err "Couldn't store all-products in localStorage.")))
-   #_(.setItem js/localStorage "all-products" products)
    (-> db
        (assoc :all-products products
               :filtered-products products
@@ -104,29 +104,36 @@
      (setval [:textiles-info ALL #(= partnum (:PartNum %)) :FabricColors] color-names-skus db))))
 
 (defn- update-lead-time-filter-state [selected-filter filters]
-  (->> filters
-       (setval [ALL :value] false)
-       (setval [(walker #(= selected-filter (:lead-time %))) :value] true)))
+  #_(->> filters
+         (setval [ALL :value] false)
+         (setval [(walker #(= selected-filter (:lead-time %))) :value] true))
+  (mapv #(assoc-in % [:value] (= selected-filter (:lead-time %))) filters))
 
-(defn- filter-products-by-lead-times [lead-times prods]
+#_(defn- filter-products-by-lead-times [lead-times prods]
   (if (lead-times "all")
     prods ;; return prods unfiltered
     (select [ALL #(some lead-times (:lead-times %))] prods)))
 
+(defn- filter-products-by-lead-time [lead-time prods]
+  (if (= lead-time "all")
+    prods ;; return prods unfiltered
+    (filter #((set (:lead-times %)) lead-time) prods)))
+
 (reg-event-db
  ::lead-time-filter-radio-button-clicked
  (fn-traced [db [_ lead-time] event]
-   (let [updated-lead-time-filters (update-lead-time-filter-state lead-time (:lead-time-filters db))
-         selected-lead-times (set (select [ALL #(true? (:value %)) :lead-time] updated-lead-time-filters))
-         filtered-products (filter-products-by-lead-times selected-lead-times (:all-products db))]
+            (let [updated-lead-time-filters (update-lead-time-filter-state lead-time (:lead-time-filters db))
+                  #_#_selected-lead-times (conj #{} lead-time) #_(set (select [ALL #(true? (:value %)) :lead-time] updated-lead-time-filters))
+                  #_#_filtered-products (filter-products-by-lead-times selected-lead-times (:all-products db))
+                  filtered-products (filter-products-by-lead-time lead-time (:all-products db))]
 
-     (-> db
-         (assoc
-          :lead-time-filters updated-lead-time-filters
-          :filtered-products filtered-products)
-         (filter-category-products filtered-products)))))
+              (-> db
+                  (assoc
+                   :lead-time-filters updated-lead-time-filters
+                   :filtered-products filtered-products)
+                  (filter-category-products filtered-products)))))
 
-(defn- toggle-product-type-filter-state [selected-filter filters]
+(defn- toggle-filter-state [selected-filter filters]
   (let [selected-filter-value (select-first [ALL #(= selected-filter (:label %)) :value] filters)
         all-value (select-first [ALL #(= "All" (:label %)) :value] filters)]
 
@@ -141,16 +148,19 @@
         (transform [ALL #(= selected-filter (:label %)) :value] not filters)))))
 
 (reg-event-db
- ::product-type-filter-checkbox-clicked
+ ::filter-checkbox-clicked
  (fn-traced [db [_ filter-id] event]
    (let [[selector-str label] (str/split filter-id #":")
          selector (keyword selector-str)
          filters (:items (selector db))
-         updated-filters (toggle-product-type-filter-state label filters)
+         updated-filters (toggle-filter-state label filters)
          enable-all? (every? true? (select [ALL #(not= "All" (:label %)) :value] updated-filters))
          updated-db (if enable-all?
                       (setval [selector :items] (setval [ALL #(= "All" (:label %)) :value] true updated-filters) db)
                       (setval [selector :items] updated-filters db))]
+
+     (.log js/console filter-id)
+     (.log js/console updated-filters)
 
      (filter-category-products updated-db (:filtered-products updated-db)))))
 

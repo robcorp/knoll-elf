@@ -43,7 +43,7 @@
         (for [id fins]
           (let [{:keys [img color]} (get finishes (keyword id))]
             ^{:key id}
-            [:li
+            [:li {:class id}
              [:div.swatch-div
               [:img {:src (str config/media-url-base img) :data-no-retina ""}]]
              [:p color]]))]])))
@@ -220,8 +220,8 @@
          (map-indexed create-finish-types-tab avail-fin-mods)]])
 
      (when (or (= lead-time "std")
-             (and (= lead-time "three-week")
-                  (not= "Y" (:excl3wk selected-prod))))
+               (and (= lead-time "three-week")
+                    (not= "Y" (:excl3wk selected-prod))))
        [approved-fabrics lead-time])]))
 
 (defn- popup-tab-wrap []

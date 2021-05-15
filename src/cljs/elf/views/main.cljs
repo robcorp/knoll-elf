@@ -100,48 +100,36 @@
      [:ul.filter-list
       (map lead-time-filter-radio-button filters)]]))
 
-(defn- ship-method-filters []
-  (let [{:keys [name description items]} (<sub [::subs/ship-method-filters])
-        #_#_available-brands (conj (set (select [ALL #(not (empty? (product-category %))) product-category ALL] filtered-prods)) "All")]
+(defn- filters [filter-sub]
+  (let [{:keys [name description product-category items]} (<sub [filter-sub])
+        filtered-prods (<sub [::subs/filtered-products])
+        available-filter-options #_#{} (conj (set (select [ALL #(not (empty? (product-category %))) product-category ALL] filtered-prods)) "All")]
+
     [:<>
      [:h3 description ":"]
      [:ul.filter-check-list
       (for [i items]
-            (let [{:keys [label value]} i
-                  id (str name ":" label)]
-              ^{:key id}
-              [:li
-               [:input {:type "checkbox"
-                        :id id
-                        #_#_:checked (if (available-categories label)
-                                   value
-                                   false)
-                        #_#_:class (if (available-categories label) "" "disable-filter")
-                        :on-change #(evt> [::events/product-type-filter-checkbox-clicked id])}]
-               [:label {:for id} (if (= "All" label)
-                                   (str label " " description "s")
-                                   label)]]))]]))
+        (let [{:keys [label value]} i
+              id (str name ":" label)]
+          ^{:key id}
+          #_[filter-checkbox i available-filter-options]
+          [:li
+           [:input {:type "checkbox"
+                    :id id
+                    :checked (if (available-filter-options label)
+                               value
+                               false)
+                    :class (if (available-filter-options label) "" "disable-filter")
+                    :on-change #(evt> [::events/filter-checkbox-clicked id])}]
+           [:label {:for id} (if (= "All" label)
+                               (str label " " description "s")
+                               label)]]))]]))
+
+(defn- ship-method-filters []
+  (filters ::subs/ship-method-filters))
 
 (defn- brand-filters []
-  (let [{:keys [name description items]} (<sub [::subs/brand-filters])]
-    [:<>
-     [:h3 description ":"]
-     [:ul.filter-check-list
-      (for [i items]
-            (let [{:keys [label value]} i
-                  id (str name ":" label)]
-              ^{:key id}
-              [:li
-               [:input {:type "checkbox"
-                        :id id
-                        #_#_:checked (if (available-categories label)
-                                   value
-                                   false)
-                        #_#_:class (if (available-categories label) "" "disable-filter")
-                        :on-change #(evt> [::events/brand-filter-checkbox-clicked id])}]
-               [:label {:for id} (if (= "All" label)
-                                   (str label " " description "s")
-                                   label)]]))]]))
+  (filters ::subs/brand-filters))
 
 (defn- product-type-filter-group [_ _]
   (let [open? (reagent/atom false)] ; local state indicating whether the filter UI is open or closed.
@@ -168,7 +156,7 @@
                                    value
                                    false)
                         :class (if (available-categories label) "" "disable-filter")
-                        :on-change #(evt> [::events/product-type-filter-checkbox-clicked id])}]
+                        :on-change #(evt> [::events/filter-checkbox-clicked id])}]
                [:label {:for id} (if (= "All" label)
                                    (str label " " description)
                                    label)]]))]]))))
