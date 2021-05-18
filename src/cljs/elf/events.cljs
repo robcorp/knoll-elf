@@ -24,8 +24,7 @@
                               "ELFShipMethodSelector"
                               "ELFBrandSelector"])
    (load-all-products-and-finishes)
-   (let [db db/default-db]
-     (filter-category-products db (:filtered-products db)))))
+   (filter-category-products db/default-db)))
 
 (reg-event-db
  ::use-default-db
@@ -33,8 +32,9 @@
    (. js/console log "Using db/default-db.")
    db/default-db))
 
-(defn- category-products [db products selector]
-  (let [selected-filter (selector db)
+(defn- category-products [db selector]
+  (let [products (:filtered-products db)
+        selected-filter (selector db)
         category-key (:product-category selected-filter)
         cat-products (sort-by :title
                               #(compare (str/lower-case %1) (str/lower-case %2))
@@ -48,22 +48,21 @@
                                                                          [:ELFScreensAndBoardsSelector :items ALL :value]) db))
         categories (if no-product-filters-selected?
                      (select [:items ALL :label #(not= "All" %)] selected-filter)
-                     (set (select [:items ALL #(true? (:value %)) :label] selected-filter)))]
+                     (select [:items ALL #(true? (:value %)) :label] selected-filter))]
 
-    #_(.log js/console categories)
     (for [category categories]
       {:product-category category
        :label (str label " / " category)
        :products (filter #((set (category-key %)) category) cat-products)})))
 
-(defn- filter-category-products [db products]
+(defn- filter-category-products [db]
   (assoc db
-         :filtered-seating-products (category-products db products :ELFSeatingSelector)
-         :filtered-table-products (category-products db products :ELFTableSelector)
-         :filtered-storage-products (category-products db products :ELFStorageSelector)
-         :filtered-power-products (category-products db products :ELFPowerAndDataSelector)
-         :filtered-work-products (category-products db products :ELFWorkToolsSelector)
-         :filtered-screen-products (category-products db products :ELFScreensAndBoardsSelector)))
+         :filtered-seating-products (category-products db :ELFSeatingSelector)
+         :filtered-table-products (category-products db :ELFTableSelector)
+         :filtered-storage-products (category-products db :ELFStorageSelector)
+         :filtered-power-products (category-products db :ELFPowerAndDataSelector)
+         :filtered-work-products (category-products db :ELFWorkToolsSelector)
+         :filtered-screen-products (category-products db :ELFScreensAndBoardsSelector)))
 
 (reg-event-db
  ::set-all-products-and-finishes
@@ -74,7 +73,7 @@
        (assoc :all-products products
               :filtered-products products
               :finishes finishes)
-       (filter-category-products products))))
+       (filter-category-products))))
 
 (reg-event-db
  ::set-filter-options
@@ -104,15 +103,7 @@
      (setval [:textiles-info ALL #(= partnum (:PartNum %)) :FabricColors] color-names-skus db))))
 
 (defn- update-lead-time-filter-state [selected-filter filters]
-  #_(->> filters
-         (setval [ALL :value] false)
-         (setval [(walker #(= selected-filter (:lead-time %))) :value] true))
   (mapv #(assoc-in % [:value] (= selected-filter (:lead-time %))) filters))
-
-#_(defn- filter-products-by-lead-times [lead-times prods]
-  (if (lead-times "all")
-    prods ;; return prods unfiltered
-    (select [ALL #(some lead-times (:lead-times %))] prods)))
 
 (defn- filter-products-by-lead-time [lead-time prods]
   (if (= lead-time "all")
@@ -123,15 +114,13 @@
  ::lead-time-filter-radio-button-clicked
  (fn-traced [db [_ lead-time] event]
             (let [updated-lead-time-filters (update-lead-time-filter-state lead-time (:lead-time-filters db))
-                  #_#_selected-lead-times (conj #{} lead-time) #_(set (select [ALL #(true? (:value %)) :lead-time] updated-lead-time-filters))
-                  #_#_filtered-products (filter-products-by-lead-times selected-lead-times (:all-products db))
                   filtered-products (filter-products-by-lead-time lead-time (:all-products db))]
 
               (-> db
                   (assoc
                    :lead-time-filters updated-lead-time-filters
                    :filtered-products filtered-products)
-                  (filter-category-products filtered-products)))))
+                  (filter-category-products)))))
 
 (defn- toggle-filter-state [selected-filter filters]
   (let [selected-filter-value (select-first [ALL #(= selected-filter (:label %)) :value] filters)
@@ -159,10 +148,32 @@
                       (setval [selector :items] (setval [ALL #(= "All" (:label %)) :value] true updated-filters) db)
                       (setval [selector :items] updated-filters db))]
 
-     (.log js/console filter-id)
-     (.log js/console updated-filters)
+     (filter-category-products updated-db))))
 
-     (filter-category-products updated-db (:filtered-products updated-db)))))
+(reg-event-db
+ ::brand-filter-checkbox-clicked
+ (fn-traced [db [_ filter-id] event]
+            (let [[selector-str label] (str/split filter-id #":")
+                  selector (keyword selector-str)
+                  filters (:items (selector db))
+                  updated-filters (toggle-filter-state label filters)
+                  enable-all? (every? true? (select [ALL #(not= "All" (:label %)) :value] updated-filters))
+                  updated-db (if enable-all?
+                               (setval [selector :items] (setval [ALL #(= "All" (:label %)) :value] true updated-filters) db)
+                               (setval [selector :items] updated-filters db))
+                  no-brand-filters-selected? (not-any? true? (select [:ELFBrandSelector :items ALL :value] updated-db))
+                  current-filtered-prods (:filtered-products updated-db)
+                  brands-to-filter (set (map :label (if no-brand-filters-selected?
+                                                      updated-filters
+                                                      (filter :value updated-filters))))]
+
+              (.log js/console brands-to-filter)
+
+              (if no-brand-filters-selected?
+                updated-db
+                (-> updated-db
+                    #_(assoc :filtered-products (filter #(brands-to-filter (first (:brands %))) current-filtered-prods))
+                    (filter-category-products))))))
 
 (defn- clear-all-product-filters [db]
   (setval (multi-path [:ELFSeatingSelector :items ALL :value]
@@ -178,7 +189,7 @@
  (fn-traced [db _]
    (-> db
        (clear-all-product-filters)
-       (filter-category-products (:filtered-products db)))))
+       (filter-category-products))))
 
 (defn- setup-popup []
   (.. js/$ -magnificPopup
@@ -226,7 +237,7 @@
         all-products-url (if config/debug?
                            (if config/use-local-products?
                              "/js/elf/all-products-dev.json" ;; use the local file - this file should be updated periodically using the json from prod or staging
-                             (str #_"http://knldev2wcsapp1a.knoll.com" "http://knlprdwcsmgt1.knoll.com" path)) ;; use staging url
+                             (str #_"http://knldev2wcsapp1a.knoll.com" "https://knlprdwcsmgt.knoll.com" path)) ;; use staging url
                            (str (.. js/window -location -origin) path)) ;; use the host of the current browser window
         success-handler (fn [resp]
                           (re-frame/dispatch [::set-all-products-and-finishes (:all-products resp) (:finishes resp)]))

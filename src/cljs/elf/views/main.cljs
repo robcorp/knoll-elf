@@ -100,10 +100,10 @@
      [:ul.filter-list
       (map lead-time-filter-radio-button filters)]]))
 
-(defn- filters [filter-sub]
+(defn- filters [filter-sub filter-evt]
   (let [{:keys [name description product-category items]} (<sub [filter-sub])
         filtered-prods (<sub [::subs/filtered-products])
-        available-filter-options #_#{} (conj (set (select [ALL #(not (empty? (product-category %))) product-category ALL] filtered-prods)) "All")]
+        available-filter-options (conj (set (select [ALL #(not (empty? (product-category %))) product-category ALL] filtered-prods)) "All")]
 
     [:<>
      [:h3 description ":"]
@@ -111,8 +111,8 @@
       (for [i items]
         (let [{:keys [label value]} i
               id (str name ":" label)]
+
           ^{:key id}
-          #_[filter-checkbox i available-filter-options]
           [:li
            [:input {:type "checkbox"
                     :id id
@@ -120,16 +120,16 @@
                                value
                                false)
                     :class (if (available-filter-options label) "" "disable-filter")
-                    :on-change #(evt> [::events/filter-checkbox-clicked id])}]
+                    :on-change #(evt> [filter-evt id])}]
            [:label {:for id} (if (= "All" label)
                                (str label " " description "s")
                                label)]]))]]))
 
 (defn- ship-method-filters []
-  (filters ::subs/ship-method-filters))
+  (filters ::subs/ship-method-filters ::events/filter-checkbox-clicked))
 
 (defn- brand-filters []
-  (filters ::subs/brand-filters))
+  (filters ::subs/brand-filters ::events/brand-filter-checkbox-clicked))
 
 (defn- product-type-filter-group [_ _]
   (let [open? (reagent/atom false)] ; local state indicating whether the filter UI is open or closed.
