@@ -217,7 +217,7 @@
           (map-indexed create-finish-types-pill avail-fin-mods)]]
 
         [:div.finish-tab-wrap
-         (map-indexed create-finish-types-tab avail-fin-mods)]])
+         (doall (map-indexed create-finish-types-tab avail-fin-mods))]])
 
      (when (or (= lead-time "std")
                (and (= lead-time "three-week")
