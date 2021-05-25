@@ -26,12 +26,6 @@
    (load-all-products-and-finishes)
    (filter-category-products db/default-db)))
 
-(reg-event-db
- ::use-default-db
- (fn-traced [_ _]
-   (. js/console log "Using db/default-db.")
-   db/default-db))
-
 (defn- category-products [db selector]
   (let [products (:filtered-products db)
         selected-filter (selector db)
@@ -233,7 +227,7 @@
    db))
 
 (defn- load-all-products-and-finishes []
-  (let [path "/cs/Satellite?pagename=Knoll/Common/Utils/EssentialsPopupProductsJSONDev"
+  (let [path "/cs/Satellite?pagename=Knoll/Common/Utils/EssentialsPopupProductsJSON"
         all-products-url (if config/debug?
                            (if config/use-local-products?
                              "/js/elf/all-products-dev.json" ;; use the local file - this file should be updated periodically using the json from prod or staging
@@ -242,8 +236,7 @@
         success-handler (fn [resp]
                           (re-frame/dispatch [::set-all-products-and-finishes (:all-products resp) (:finishes resp)]))
         error-handler (fn [{:keys [status status-text]}]
-                        (.log js/console (str "Ajax request to get all-products failed: " status " " status-text))
-                        (re-frame/dispatch [::use-default-db]))]
+                        (.log js/console (str "Ajax request to get all-products failed: " status " " status-text)))]
 
     (ajax/GET all-products-url {:timeout 180000 :handler success-handler :error-handler error-handler :response-format :json :keywords? true})))
 
@@ -317,8 +310,7 @@
         success-handler (fn [resp]
                           (re-frame/dispatch [::set-textiles-approvals resp]))
         error-handler (fn [{:keys [status status-text]}]
-                        (.log js/console (str "Ajax request to get knolltextiles-approvals failed: " status " " status-text))
-                        #_(re-frame/dispatch [::use-default-db]))]
+                        (.log js/console (str "Ajax request to get knolltextiles-approvals failed: " status " " status-text)))]
 
     (ajax/GET url {:timeout 90000 :handler success-handler :error-handler error-handler :response-format :json :keywords? true})))
 
@@ -330,8 +322,7 @@
         success-handler (fn [resp]
                           (re-frame/dispatch [::set-textiles-info resp]))
         error-handler (fn [{:keys [status status-text]}]
-                        (.log js/console (str "Ajax request to get knolltextiles-info failed: " status " " status-text))
-                        #_(re-frame/dispatch [::use-default-db]))]
+                        (.log js/console (str "Ajax request to get knolltextiles-info failed: " status " " status-text)))]
 
     (ajax/GET url {:timeout 90000 :handler success-handler :error-handler error-handler :response-format :json :keywords? true})))
 
