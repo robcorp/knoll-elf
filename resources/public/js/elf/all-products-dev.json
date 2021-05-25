@@ -76,6 +76,10 @@
       "color": "Delite - Green",
       "img": "/630/134/Thumb_green,9.png"
     },
+    "1356863565711": {
+      "color": "Walnut",
+      "img": "/739/724/Thumb_WN-medium,2.png"
+    },
     "1347382700887": {
       "color": "Beige Mist Metallic - Smooth",
       "img": "/1011/439/Thumb_PNT611,2.png"
@@ -107,6 +111,10 @@
     "1347382784134": {
       "color": "Dark Finish ",
       "img": "/256/557/Thumb_frame_dark,0.png"
+    },
+    "1356863629574": {
+      "color": "Black/Refine Black",
+      "img": "/815/432/Thumb_TBFBKBK-medium,2.png"
     },
     "1352995786729": {
       "color": "Antenna Beam Side Mount",
@@ -184,17 +192,17 @@
       "color": "White Laminate",
       "img": "/765/473/Thumb_F2 Smooth white Laminate,0.png"
     },
-    "1356858475001": {
-      "color": "Blueberry",
-      "img": "/706/21/Thumb_Ollo-Knit-Swatches-Blueberry,2.png"
+    "1352940500982": {
+      "color": "Antenna Beam Center Mount",
+      "img": "/156/255/Thumb_antenna-center-beam-mount,9.png"
     },
     "1347382784028": {
       "color": "Bluemarine",
       "img": "/531/917/Thumb_bluemarine,0.png"
     },
-    "1352940500982": {
-      "color": "Antenna Beam Center Mount",
-      "img": "/156/255/Thumb_antenna-center-beam-mount,9.png"
+    "1356858475001": {
+      "color": "Blueberry",
+      "img": "/706/21/Thumb_Ollo-Knit-Swatches-Blueberry,2.png"
     },
     "1352940444482": {
       "color": "Clear (CL)",
@@ -208,6 +216,10 @@
       "color": "Brushed Sand",
       "img": "/676/688/Thumb_122,0.png"
     },
+    "1356863627135": {
+      "color": "White/Natural White",
+      "img": "/155/344/Thumb_TBFWHWH-medium,2.png"
+    },
     "1356095047213": {
       "color": "Orange Red",
       "img": "/934/418/Thumb_orange,0.png"
@@ -215,6 +227,10 @@
     "1353003209990": {
       "color": "Delite - Stone",
       "img": "/728/304/Thumb_stone,9.png"
+    },
+    "1356863638826": {
+      "color": "Black/Ochre",
+      "img": "/153/554/Thumb_Black Ochre,2.png"
     },
     "1356293818838": {
       "color": "k. bench White",
@@ -259,6 +275,10 @@
     "1356095047310": {
       "color": "Yellow",
       "img": "/871/227/Thumb_yellow,7.png"
+    },
+    "1356863698357": {
+      "color": "Oak/Natural White",
+      "img": "/382/859/Thumb_Oak Natural White,2.png"
     },
     "1352993977372": {
       "color": "White",
@@ -368,13 +388,13 @@
       "color": "Folkstone Grey - Textured",
       "img": "/57/682/Thumb_PNT114,0.png"
     },
-    "1347382699964": {
-      "color": "Dark Grey - Smooth",
-      "img": "/502/527/Thumb_PNT113,0.png"
-    },
     "1353003021798": {
       "color": "Tackable Upholstered",
       "img": "/310/996/Thumb_tackable-fabric,2.png"
+    },
+    "1347382699964": {
+      "color": "Dark Grey - Smooth",
+      "img": "/502/527/Thumb_PNT113,0.png"
     },
     "1352940696491": {
       "color": "White",
@@ -660,6 +680,10 @@
       "color": "Delite - Orange",
       "img": "/33/633/Thumb_orange,9.png"
     },
+    "1356863565566": {
+      "color": "Grey",
+      "img": "/295/912/Thumb_GY-medium,2.png"
+    },
     "1352940505953": {
       "color": "Antenna Beam Center Mount",
       "img": "/654/985/Thumb_xyz-antenna-mount,9.png"
@@ -667,6 +691,14 @@
     "1347382783038": {
       "color": "Avocado Back Suspension Fabric",
       "img": "/170/186/Thumb_BSF35,0.png"
+    },
+    "1356863629492": {
+      "color": "Black/Remix 183",
+      "img": "/359/674/Thumb_Black Remix 183,2.png"
+    },
+    "1356863565424": {
+      "color": "White",
+      "img": "/297/550/Thumb_WH-medium,2.png"
     },
     "1355998554834": {
       "color": "Dark Grey",
@@ -736,13 +768,13 @@
       "color": "Rouge Back Suspension Fabric ",
       "img": "/551/552/Thumb_BSF32,0.png"
     },
-    "1355995880510": {
-      "color": "Spice",
-      "img": "/333/272/Thumb_RUF03_Spice,0.png"
-    },
     "1356432212811": {
       "color": "Lime",
       "img": "/140/185/Thumb_lime,0.png"
+    },
+    "1355995880510": {
+      "color": "Spice",
+      "img": "/333/272/Thumb_RUF03_Spice,0.png"
     },
     "1353002780989": {
       "color": "Slatwall",
@@ -840,17 +872,21 @@
       "color": "Fixed Table Mount",
       "img": "/960/205/Thumb_xyz-fixed-table-mount,2.png"
     },
-    "1347383001159": {
-      "color": "Natural Beech Lumber",
-      "img": "/683/501/Thumb_WODBN,2.png"
-    },
     "1353008469920": {
       "color": "Folkstone Grey",
       "img": "/602/713/Thumb_folkstone-edgeband,2.png"
     },
+    "1347383001159": {
+      "color": "Natural Beech Lumber",
+      "img": "/683/501/Thumb_WODBN,2.png"
+    },
     "1347382988110": {
       "color": "Blue",
       "img": "/786/275/Thumb_CHIPBU,0.png"
+    },
+    "1356863627275": {
+      "color": "Black/Black",
+      "img": "/593/629/Thumb_Black Black,2.png"
     },
     "1352995786690": {
       "color": "Open Desk Clamp",
@@ -1052,6 +1088,10 @@
       "color": "Graphite",
       "img": "/994/533/Thumb_GIGI003,0.png"
     },
+    "1356863565285": {
+      "color": "Black",
+      "img": "/689/143/Thumb_BK-medium,2.png"
+    },
     "1356597286609": {
       "color": "Natural Wood",
       "img": "/913/791/Thumb_fully-black-wood,2.png"
@@ -1160,6 +1200,10 @@
       "color": "Upholstered",
       "img": "/426/697/Thumb_upholstered,2.png"
     },
+    "1356863602855": {
+      "color": "Mustard",
+      "img": "/990/167/Thumb_MD-medium,2.png"
+    },
     "1352993888349": {
       "color": "Clear Glass",
       "img": "/751/594/Thumb_clear-glass,2.png"
@@ -1196,9 +1240,17 @@
       "color": "Walnut",
       "img": "/41/78/Thumb_127,0.png"
     },
+    "1356863627001": {
+      "color": "Grey/Remix 133",
+      "img": "/364/685/Thumb_Grey Remix 133,2.png"
+    },
     "1356038627836": {
       "color": "Birch",
       "img": "/344/21/Thumb_birch-clear-coat,2.png"
+    },
+    "1356863629651": {
+      "color": "Black/Refine Cognac",
+      "img": "/767/635/Thumb_Black Refine Cognac,2.png"
     },
     "1352940444444": {
       "color": "Medium Grey (DG)",
@@ -1412,6 +1464,10 @@
       "color": "Graphite Pear",
       "img": "/997/485/Thumb_graphite-pear-144,0.png"
     },
+    "1356863626921": {
+      "color": "Grey/Grey",
+      "img": "/115/271/Thumb_Grey Grey,2.png"
+    },
     "1352941969768": {
       "color": "Chartreuse",
       "img": "/787/923/Thumb_MayaLin_CHRC,0.png"
@@ -1452,6 +1508,10 @@
       "color": "Pumice - Smooth",
       "img": "/507/994/Thumb_PNT119,0.png"
     },
+    "1356863700589": {
+      "color": "Oak/Refine Cognac",
+      "img": "/20/455/Thumb_Oak Refine Cognac,2.png"
+    },
     "1347383009548": {
       "color": "Jet Black ",
       "img": "/340/141/Thumb_LAM111,2.png"
@@ -1471,6 +1531,10 @@
     "1347382783131": {
       "color": "Platinum Back Suspension Fabric",
       "img": "/686/721/Thumb_BSF39,0.png"
+    },
+    "1356863560374": {
+      "color": "Oak",
+      "img": "/71/939/Thumb_OA-medium,2.png"
     }
   },
   "all-products": [
@@ -6178,6 +6242,105 @@
       "product-id": "saarinen-side-table"
     },
     {
+      "smquick": [
+        "Parcel",
+        "Truck",
+        "White Glove"
+      ],
+      "lead-times": [
+        "one-to-three-day",
+        "quick",
+        "three-week"
+      ],
+      "short-text": "<p>The Fiber Side Chair presents a new perspective on the iconic shell chair. Made in an innovative composite of plastic and wood fibers, the surface presents as matte finish at a glance, but reveals a soft, inviting texture up close. The Swivel Base allows for easy movement.</p>",
+      "storageCats": [],
+      "screensCats": [],
+      "epp-id": "1356825323201",
+      "seatingCats": [
+        "Side & Multi-Use"
+      ],
+      "apprvId": "",
+      "tableCats": [],
+      "excl3wk": "",
+      "availFinMods": [
+        {
+          "id": "1356837932572",
+          "title": "Options",
+          "one-to-three-day": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Swivel</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Die Cast Aluminum</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>18.7&quot;</td>\r\n\t\t\t<td>20.9&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          },
+          "three-week": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Swivel</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Die Cast Aluminum</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>18.7&quot;</td>\r\n\t\t\t<td>20.9&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          },
+          "quick": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Swivel</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Die Cast Aluminum</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>18.7&quot;</td>\r\n\t\t\t<td>20.9&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          }
+        },
+        {
+          "id": "1356863631711",
+          "title": "Base/Seat Finishes",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": [
+              "1356863626921",
+              "1356863627001",
+              "1356863627135",
+              "1356863627275",
+              "1356863629492",
+              "1356863629574",
+              "1356863629651"
+            ]
+          },
+          "three-week": {
+            "optsTxt": "",
+            "fins": [
+              "1356863626921",
+              "1356863627001",
+              "1356863627135",
+              "1356863627275",
+              "1356863629492",
+              "1356863629574",
+              "1356863629651"
+            ]
+          },
+          "quick": {
+            "optsTxt": "",
+            "fins": [
+              "1356863626921",
+              "1356863627001",
+              "1356863627135",
+              "1356863627275",
+              "1356863629492",
+              "1356863629574",
+              "1356863629651"
+            ]
+          }
+        }
+      ],
+      "brands": [
+        "Muuto"
+      ],
+      "title": "Fiber Side Chair Swivel Base",
+      "thumb-img": "/141/40/fiber-side-chair-swivel-base-thumb.jpg",
+      "sm1-3d": [
+        "Parcel",
+        "White Glove"
+      ],
+      "hero1-img": "/697/722/fiber-side-chair-swivel-base-hero.jpg",
+      "workCats": [],
+      "name": "ESMU Fiber Side Chair Swivel Base",
+      "powerCats": [],
+      "sm3w": [
+        "Parcel",
+        "Truck",
+        "White Glove"
+      ],
+      "product-id": "1356825323201"
+    },
+    {
       "smquick": [],
       "lead-times": [
         "three-week"
@@ -9175,6 +9338,203 @@
         "quick",
         "three-week"
       ],
+      "short-text": "<p>The Fiber Armchair presents a new perspective on the iconic shell chair. Made in an innovative composite of plastic and wood fibers, the surface presents as matte finish at a glance, but reveals a soft, inviting texture up close. The Fiber Armchair Tube Base articulates a clean, modern aesthetic.</p>",
+      "storageCats": [],
+      "screensCats": [],
+      "epp-id": "1356825320922",
+      "seatingCats": [
+        "Side & Multi-Use"
+      ],
+      "apprvId": "",
+      "tableCats": [],
+      "excl3wk": "",
+      "availFinMods": [
+        {
+          "id": "1356837914439",
+          "title": "Options",
+          "one-to-three-day": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Tube</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Powder Coated Paint</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>21.5&quot;</td>\r\n\t\t\t<td>22&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          },
+          "three-week": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Tube</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Powder Coated Paint</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>21.5&quot;</td>\r\n\t\t\t<td>22&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          },
+          "quick": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Tube</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Powder Coated Paint</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>21.5&quot;</td>\r\n\t\t\t<td>22&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          }
+        },
+        {
+          "id": "1356863638761",
+          "title": "Base/Seat Finishes",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": [
+              "1356863626921",
+              "1356863627135",
+              "1356863638826",
+              "1356863627275"
+            ]
+          },
+          "three-week": {
+            "optsTxt": "",
+            "fins": [
+              "1356863626921",
+              "1356863627001",
+              "1356863627135",
+              "1356863638826",
+              "1356863627275",
+              "1356863629492",
+              "1356863629574",
+              "1356863629651"
+            ]
+          },
+          "quick": {
+            "optsTxt": "",
+            "fins": [
+              "1356863626921",
+              "1356863627001",
+              "1356863627135",
+              "1356863638826",
+              "1356863627275",
+              "1356863629492",
+              "1356863629574",
+              "1356863629651"
+            ]
+          }
+        }
+      ],
+      "brands": [
+        "Muuto"
+      ],
+      "title": "Fiber Armchair Tube Base",
+      "thumb-img": "/25/6/fiber-armchair-tube-base-thumb.jpg",
+      "sm1-3d": [
+        "Parcel",
+        "White Glove"
+      ],
+      "hero1-img": "/873/858/fiber-armchair-tube-base-hero.jpg",
+      "workCats": [],
+      "name": "ESMU Fiber Armchair Tube Base",
+      "powerCats": [],
+      "sm3w": [
+        "Parcel",
+        "Truck",
+        "White Glove"
+      ],
+      "product-id": "1356825320922"
+    },
+    {
+      "smquick": [
+        "Parcel",
+        "Truck",
+        "White Glove"
+      ],
+      "lead-times": [
+        "one-to-three-day",
+        "quick",
+        "three-week"
+      ],
+      "short-text": "<p>The Fiber Armchair presents a new perspective on the iconic shell chair. Made in an innovative composite of plastic and wood fibers, the surface presents as matte finish at a glance, but reveals a soft, inviting texture up close. The Fiber Armchair Wood Base balances its modern design with a warm materiality.</p>",
+      "storageCats": [],
+      "screensCats": [],
+      "epp-id": "1356825323120",
+      "seatingCats": [
+        "Side & Multi-Use"
+      ],
+      "apprvId": "",
+      "tableCats": [],
+      "excl3wk": "",
+      "availFinMods": [
+        {
+          "id": "1356837914645",
+          "title": "Options",
+          "one-to-three-day": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Wood</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Lacquered Oak</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>21.5&quot;</td>\r\n\t\t\t<td>22&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          },
+          "three-week": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Wood</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Lacquered Oak</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>21.5&quot;</td>\r\n\t\t\t<td>22&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          },
+          "quick": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Wood</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Lacquered Oak</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>21.5&quot;</td>\r\n\t\t\t<td>22&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          }
+        },
+        {
+          "id": "1356863698199",
+          "title": "Base/Seat Finishes",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": [
+              "1356863626921",
+              "1356863627001",
+              "1356863698357",
+              "1356863700589",
+              "1356863627275",
+              "1356863629492",
+              "1356863629574"
+            ]
+          },
+          "three-week": {
+            "optsTxt": "",
+            "fins": [
+              "1356863626921",
+              "1356863627001",
+              "1356863698357",
+              "1356863700589",
+              "1356863627275",
+              "1356863629492",
+              "1356863629574"
+            ]
+          },
+          "quick": {
+            "optsTxt": "",
+            "fins": [
+              "1356863626921",
+              "1356863627001",
+              "1356863698357",
+              "1356863700589",
+              "1356863627275",
+              "1356863629492",
+              "1356863629574"
+            ]
+          }
+        }
+      ],
+      "brands": [
+        "Muuto"
+      ],
+      "title": "Fiber Armchair Wood Base",
+      "thumb-img": "/161/929/fiber-arm-wood-base-thumb.jpg",
+      "sm1-3d": [
+        "Parcel",
+        "White Glove"
+      ],
+      "hero1-img": "/481/723/fiber-arm-wood-base-hero.jpg",
+      "workCats": [],
+      "name": "ESMU Fiber Armchair Wood Base",
+      "powerCats": [],
+      "sm3w": [
+        "Parcel",
+        "Truck",
+        "White Glove"
+      ],
+      "product-id": "1356825323120"
+    },
+    {
+      "smquick": [
+        "Parcel",
+        "Truck",
+        "White Glove"
+      ],
+      "lead-times": [
+        "one-to-three-day",
+        "quick",
+        "three-week"
+      ],
       "short-text": "<p>k. task is a highly adjustable, highly affordable work chair well-suited for the demands of today's workplace. The double-layer mesh back and cushioned seat offer lasting comfort, while the simple aesthetic adapts to any environment.</p>",
       "storageCats": [],
       "screensCats": [],
@@ -11952,160 +12312,6 @@
       "lead-times": [
         "three-week"
       ],
-      "short-text": "<p>Anchor lockers are now available with a raised base for a lighter, more open aesthetic.</p>",
-      "storageCats": [
-        "Lockers & Wardrobes"
-      ],
-      "screensCats": [],
-      "epp-id": "1356386242225",
-      "seatingCats": [],
-      "apprvId": "",
-      "tableCats": [],
-      "excl3wk": "",
-      "availFinMods": [
-        {
-          "id": "1356420140134",
-          "title": "Options",
-          "one-to-three-day": {
-            "optsTxt": "",
-            "fins": []
-          },
-          "three-week": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Configuration:</span><span class=\"essop-option\">Combinations of Doors and Open with Shelves</span></p>\r\n\r\n<p><span class=\"essop-title\">Front:</span><span class=\"essop-option\">Laminate</span></p>\r\n\r\n<p><span class=\"essop-title\">Case:</span><span class=\"essop-option\">Laminate</span></p>\r\n\r\n<p><span class=\"essop-title\">Pull:</span><span class=\"essop-option\">Finger Pull</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Top:</span><span class=\"essop-option\">Laminate</span></p>\r\n\r\n<p><span class=\"essop-title\">Lock:</span><span class=\"essop-option\">Digital Keypad Locking, Locking, Non-locking, RFID Locking</span></p>\r\n\r\n<p><span class=\"essop-title\">Optional Accessories:</span><span class=\"essop-option\">Partial and Full Depth Shelves</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Workstations Lockers</td>\r\n\t\t\t<td>12&quot;</td>\r\n\t\t\t<td>20 / 24 / 30&quot;</td>\r\n\t\t\t<td>42 / 50 / 57 / 64 &quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
-            "fins": []
-          },
-          "quick": {
-            "optsTxt": "",
-            "fins": []
-          }
-        },
-        {
-          "id": "1347383286241",
-          "title": "Laminate",
-          "one-to-three-day": {
-            "optsTxt": "",
-            "fins": []
-          },
-          "three-week": {
-            "optsTxt": "",
-            "fins": [
-              "1347382748926",
-              "1347382749054",
-              "1347382748992",
-              "1347382749206",
-              "1347382749117",
-              "1347382749086",
-              "1347382749820",
-              "1347382749851",
-              "1347382749237",
-              "1347382749023",
-              "1347382749882",
-              "1407324586168",
-              "1407323799333",
-              "1407324579410",
-              "1407335363676",
-              "1347382750145",
-              "1347382748959",
-              "1347382749913",
-              "1407324849870",
-              "1347382750240",
-              "1407325186154",
-              "1407325659651",
-              "1355995871527",
-              "1355995873292",
-              "1355995873369"
-            ]
-          },
-          "quick": {
-            "optsTxt": "",
-            "fins": [
-              "1347382748926",
-              "1347382749882",
-              "1407324579410",
-              "1347382750240"
-            ]
-          }
-        },
-        {
-          "id": "1352994393340",
-          "title": "Pull Finishes",
-          "one-to-three-day": {
-            "optsTxt": "",
-            "fins": []
-          },
-          "three-week": {
-            "optsTxt": "",
-            "fins": [
-              "1347382699772",
-              "1347382700060",
-              "1347382700845",
-              "1347382700813",
-              "1347382700129",
-              "1347382699840",
-              "1355996234585",
-              "1347382699964",
-              "1347382700097",
-              "1347382700887",
-              "1347382700951",
-              "1347382700919",
-              "1352994673987",
-              "1353010479279",
-              "1413510670380",
-              "1356662720246",
-              "1356662720163",
-              "1356662717946",
-              "1413510646900"
-            ]
-          },
-          "quick": {
-            "optsTxt": "",
-            "fins": [
-              "1347382700097",
-              "1347382699772"
-            ]
-          }
-        },
-        {
-          "id": "1356396002975",
-          "title": "Pull Style",
-          "one-to-three-day": {
-            "optsTxt": "",
-            "fins": []
-          },
-          "three-week": {
-            "optsTxt": "",
-            "fins": [
-              "1356396004906"
-            ]
-          },
-          "quick": {
-            "optsTxt": "",
-            "fins": [
-              "1356396004906"
-            ]
-          }
-        }
-      ],
-      "brands": [
-        "Knoll Office"
-      ],
-      "title": "Anchor Raised Lockers",
-      "thumb-img": "/630/643/anchor-raised_lockers_thumb.jpg",
-      "sm1-3d": [],
-      "hero1-img": "/928/674/anchor-raised_lockers_hero.jpg",
-      "workCats": [],
-      "name": "ES Anchor Raised Lockers",
-      "powerCats": [],
-      "sm3w": [
-        "Truck"
-      ],
-      "product-id": "anchor"
-    },
-    {
-      "smquick": [],
-      "lead-times": [
-        "three-week"
-      ],
       "short-text": "<p>From the hand-buffed stainless or chrome frame to the individual leather squares carefully welted together, each Barcelona piece is a tribute to the marriage of modern design and exceptional craftsmanship.</p>",
       "storageCats": [],
       "screensCats": [],
@@ -13016,7 +13222,7 @@
             "fins": []
           },
           "quick": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Configuration:</span><span class=\"essop-option\">Combinations of Drawers (File/File)</span></p>\r\n\r\n<p><span class=\"essop-title\">Surface Finish:</span><span class=\"essop-option\">Laminate</span></p>\r\n\r\n<p><span class=\"essop-title\">Lock:</span><span class=\"essop-option\">Standard Lock</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Feet:</span><span class=\"essop-option\">Freestanding</span></p>\r\n\r\n<p><span class=\"essop-title\">Optional Accessories:</span><span class=\"essop-option\">Counterweight Kits, Extended Glides, Credenza Cushions, Filing Bar</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 50)</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Doublewide Pedestal</td>\r\n\t\t\t<td>30&quot;</td>\r\n\t\t\t<td>20&quot;</td>\r\n\t\t\t<td>28&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Configuration:</span><span class=\"essop-option\">Combinations of Drawers (File/File)</span></p>\r\n\r\n<p><span class=\"essop-title\">Surface Finish:</span><span class=\"essop-option\">Laminate</span></p>\r\n\r\n<p><span class=\"essop-title\">Lock:</span><span class=\"essop-option\">Standard Lock</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Feet:</span><span class=\"essop-option\">Freestanding</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 50)</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Doublewide Pedestal</td>\r\n\t\t\t<td>30&quot;</td>\r\n\t\t\t<td>20&quot;</td>\r\n\t\t\t<td>28&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
             "fins": []
           }
         },
@@ -14458,160 +14664,6 @@
         "Truck"
       ],
       "product-id": "series-2"
-    },
-    {
-      "smquick": [],
-      "lead-times": [
-        "three-week"
-      ],
-      "short-text": "<p>Anchor credenzas are now available with a raised base for a lighter, more open aesthetic.</p>",
-      "storageCats": [
-        "Credenzas, Carts & Consoles"
-      ],
-      "screensCats": [],
-      "epp-id": "1356386240110",
-      "seatingCats": [],
-      "apprvId": "STRG-04",
-      "tableCats": [],
-      "excl3wk": "",
-      "availFinMods": [
-        {
-          "id": "1356420119348",
-          "title": "Options",
-          "one-to-three-day": {
-            "optsTxt": "",
-            "fins": []
-          },
-          "three-week": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Configuration:</span><span class=\"essop-option\">Combinations of Drawers (File and Box) Doors and Open</span></p>\r\n\r\n<p><span class=\"essop-title\">Surface Finish:</span><span class=\"essop-option\">Laminate</span></p>\r\n\r\n<p><span class=\"essop-title\">Lock:</span><span class=\"essop-option\">Digital Keypad Locking, Locking, Non-locking, RFID</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Feet:</span><span class=\"essop-option\">Casters</span></p>\r\n\r\n<p><span class=\"essop-title\">Optional Accessories:</span><span class=\"essop-option\">Credenza Cushion, Extended Glides, Counterweight Kits, Credenza Spacer</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Anchor Raised Credenza - All Open</td>\r\n\t\t\t<td>\r\n\t\t\t<div>18 &ndash; 48 / 60 / 72 / 84&quot;</div>\r\n\r\n\t\t\t<div>(6&quot; increments)</div>\r\n\t\t\t</td>\r\n\t\t\t<td>15 / 19.2&quot;</td>\r\n\t\t\t<td>25&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Anchor Raised Credenza - File</td>\r\n\t\t\t<td>\r\n\t\t\t<div>30 &ndash; 42&quot;</div>\r\n\r\n\t\t\t<div>(6&quot; increments)</div>\r\n\t\t\t</td>\r\n\t\t\t<td>15 / 19.1&quot;</td>\r\n\t\t\t<td>25&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Anchor Raised Credenza - Open with File</td>\r\n\t\t\t<td>48 / 60 / 72 / 84&quot;</td>\r\n\t\t\t<td>15 / 19.1&quot;</td>\r\n\t\t\t<td>25&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Anchor Raised Credenza - Box/File</td>\r\n\t\t\t<td>\r\n\t\t\t<div>30 &ndash; 42&quot;</div>\r\n\r\n\t\t\t<div>(6&quot; increments)</div>\r\n\t\t\t</td>\r\n\t\t\t<td>15 / 19.1&quot;</td>\r\n\t\t\t<td>25&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Anchor Raised Credenza - Open with Box/File</td>\r\n\t\t\t<td>48 / 60 / 72 / 84&quot;</td>\r\n\t\t\t<td>15 / 19.1&quot;</td>\r\n\t\t\t<td>25&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Anchor Raised Credenza - Open with 2 Box/File</td>\r\n\t\t\t<td>84&quot;</td>\r\n\t\t\t<td>15 / 19.1&quot;</td>\r\n\t\t\t<td>25&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Anchor Raised Credenza - File/File</td>\r\n\t\t\t<td>60 / 72 / 84&quot;</td>\r\n\t\t\t<td>15 / 19.1&quot;</td>\r\n\t\t\t<td>25&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Anchor Raised Credenza - (Box/File)/(Box/File)</td>\r\n\t\t\t<td>60 / 72 / 84&quot;</td>\r\n\t\t\t<td>15 / 19.1&quot;</td>\r\n\t\t\t<td>25&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
-            "fins": []
-          },
-          "quick": {
-            "optsTxt": "",
-            "fins": []
-          }
-        },
-        {
-          "id": "1347383286241",
-          "title": "Laminate",
-          "one-to-three-day": {
-            "optsTxt": "",
-            "fins": []
-          },
-          "three-week": {
-            "optsTxt": "",
-            "fins": [
-              "1347382748926",
-              "1347382749054",
-              "1347382748992",
-              "1347382749206",
-              "1347382749117",
-              "1347382749086",
-              "1347382749820",
-              "1347382749851",
-              "1347382749237",
-              "1347382749023",
-              "1347382749882",
-              "1407324586168",
-              "1407323799333",
-              "1407324579410",
-              "1407335363676",
-              "1347382750145",
-              "1347382748959",
-              "1347382749913",
-              "1407324849870",
-              "1347382750240",
-              "1407325186154",
-              "1407325659651",
-              "1355995871527",
-              "1355995873292",
-              "1355995873369"
-            ]
-          },
-          "quick": {
-            "optsTxt": "",
-            "fins": [
-              "1347382748926",
-              "1347382749882",
-              "1407324579410",
-              "1347382750240"
-            ]
-          }
-        },
-        {
-          "id": "1352994393340",
-          "title": "Pull Finishes",
-          "one-to-three-day": {
-            "optsTxt": "",
-            "fins": []
-          },
-          "three-week": {
-            "optsTxt": "",
-            "fins": [
-              "1347382699772",
-              "1347382700060",
-              "1347382700845",
-              "1347382700813",
-              "1347382700129",
-              "1347382699840",
-              "1355996234585",
-              "1347382699964",
-              "1347382700097",
-              "1347382700887",
-              "1347382700951",
-              "1347382700919",
-              "1352994673987",
-              "1353010479279",
-              "1413510670380",
-              "1356662720246",
-              "1356662720163",
-              "1356662717946",
-              "1413510646900"
-            ]
-          },
-          "quick": {
-            "optsTxt": "",
-            "fins": [
-              "1347382700097",
-              "1347382699772"
-            ]
-          }
-        },
-        {
-          "id": "1356396002975",
-          "title": "Pull Style",
-          "one-to-three-day": {
-            "optsTxt": "",
-            "fins": []
-          },
-          "three-week": {
-            "optsTxt": "",
-            "fins": [
-              "1356396004906"
-            ]
-          },
-          "quick": {
-            "optsTxt": "",
-            "fins": [
-              "1356396004906"
-            ]
-          }
-        }
-      ],
-      "brands": [
-        "Knoll Office"
-      ],
-      "title": "Anchor Raised Credenzas",
-      "thumb-img": "/311/593/anchor-raised_credenza_thumb.jpg",
-      "sm1-3d": [],
-      "hero1-img": "/191/574/anchor-raised_credenza_hero.jpg",
-      "workCats": [],
-      "name": "ES Anchor Raised Credenzas",
-      "powerCats": [],
-      "sm3w": [
-        "Truck"
-      ],
-      "product-id": "anchor"
     },
     {
       "smquick": [],
@@ -20761,6 +20813,279 @@
     },
     {
       "smquick": [
+        "Truck",
+        "White Glove"
+      ],
+      "lead-times": [
+        "three-week",
+        "quick"
+      ],
+      "short-text": "<p>Anchor credenzas are now available with a raised base for a lighter, more open aesthetic.</p>",
+      "storageCats": [
+        "Credenzas, Carts & Consoles"
+      ],
+      "screensCats": [],
+      "epp-id": "1356386240110",
+      "seatingCats": [],
+      "apprvId": "STRG-04",
+      "tableCats": [],
+      "excl3wk": "",
+      "availFinMods": [
+        {
+          "id": "1356420119348",
+          "title": "Options",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "three-week": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Configuration:</span><span class=\"essop-option\">Combinations of Drawers (File and Box) Doors and Open</span></p>\r\n\r\n<p><span class=\"essop-title\">Surface Finish:</span><span class=\"essop-option\">Laminate</span></p>\r\n\r\n<p><span class=\"essop-title\">Lock:</span><span class=\"essop-option\">Digital Keypad Locking, Locking, Non-locking, RFID</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Feet:</span><span class=\"essop-option\">Raised</span></p>\r\n\r\n<p><span class=\"essop-title\">Feet Finish:</span><span class=\"essop-option\">Painted</span></p>\r\n\r\n<p><span class=\"essop-title\">Optional Accessories:</span><span class=\"essop-option\">Credenza Cushion, Extended Glides, Counterweight Kits, Credenza Spacer</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Anchor Raised Credenza - All Open</td>\r\n\t\t\t<td>\r\n\t\t\t<div>18 &ndash; 48 / 60 / 72 / 84&quot;</div>\r\n\r\n\t\t\t<div>(6&quot; increments)</div>\r\n\t\t\t</td>\r\n\t\t\t<td>15 / 19.2&quot;</td>\r\n\t\t\t<td>25&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Anchor Raised Credenza - File</td>\r\n\t\t\t<td>\r\n\t\t\t<div>30 &ndash; 42&quot;</div>\r\n\r\n\t\t\t<div>(6&quot; increments)</div>\r\n\t\t\t</td>\r\n\t\t\t<td>15 / 19.1&quot;</td>\r\n\t\t\t<td>25&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Anchor Raised Credenza - Open with File</td>\r\n\t\t\t<td>48 / 60 / 72 / 84&quot;</td>\r\n\t\t\t<td>15 / 19.1&quot;</td>\r\n\t\t\t<td>25&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Anchor Raised Credenza - Box/File</td>\r\n\t\t\t<td>\r\n\t\t\t<div>30 &ndash; 42&quot;</div>\r\n\r\n\t\t\t<div>(6&quot; increments)</div>\r\n\t\t\t</td>\r\n\t\t\t<td>15 / 19.1&quot;</td>\r\n\t\t\t<td>25&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Anchor Raised Credenza - Open with Box/File</td>\r\n\t\t\t<td>48 / 60 / 72 / 84&quot;</td>\r\n\t\t\t<td>15 / 19.1&quot;</td>\r\n\t\t\t<td>25&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Anchor Raised Credenza - Open with 2 Box/File</td>\r\n\t\t\t<td>84&quot;</td>\r\n\t\t\t<td>15 / 19.1&quot;</td>\r\n\t\t\t<td>25&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Anchor Raised Credenza - File/File</td>\r\n\t\t\t<td>60 / 72 / 84&quot;</td>\r\n\t\t\t<td>15 / 19.1&quot;</td>\r\n\t\t\t<td>25&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Anchor Raised Credenza - (Box/File)/(Box/File)</td>\r\n\t\t\t<td>60 / 72 / 84&quot;</td>\r\n\t\t\t<td>15 / 19.1&quot;</td>\r\n\t\t\t<td>25&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          },
+          "quick": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Configuration:</span><span class=\"essop-option\">Combinations of Drawers (File and Box) Doors and Open</span></p>\r\n\r\n<p><span class=\"essop-title\">Surface Finish:</span><span class=\"essop-option\">Laminate</span></p>\r\n\r\n<p><span class=\"essop-title\">Lock:</span><span class=\"essop-option\">Standard Lock</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Feet:</span><span class=\"essop-option\">Raised</span></p>\r\n\r\n<p><span class=\"essop-title\">Feet Finish:</span><span class=\"essop-option\">Painted</span></p>\r\n\r\n<p><span class=\"essop-title\">Optional Accessories:</span><span class=\"essop-option\">Credenza Spacer, Counterweight Kits</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 50)</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Anchor Credenza - All Open</td>\r\n\t\t\t<td>48&quot;</td>\r\n\t\t\t<td>20&quot;</td>\r\n\t\t\t<td>22.2&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Anchor Credenza - Open with File</td>\r\n\t\t\t<td>36&quot;</td>\r\n\t\t\t<td>16&quot;</td>\r\n\t\t\t<td>22.2&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Anchor Credenza - Box/File</td>\r\n\t\t\t<td>30&quot;</td>\r\n\t\t\t<td>20&quot;</td>\r\n\t\t\t<td>22.2&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Anchor Credenza - Open with Box/File</td>\r\n\t\t\t<td>48 / 60&quot;</td>\r\n\t\t\t<td>20&quot;</td>\r\n\t\t\t<td>22.2&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          }
+        },
+        {
+          "id": "1356854124781",
+          "title": "Laminate",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": [
+              "1347382748926",
+              "1407324579410",
+              "1347382750240"
+            ]
+          },
+          "three-week": {
+            "optsTxt": "",
+            "fins": [
+              "1347382748926",
+              "1347382749054",
+              "1347382748992",
+              "1347382749206",
+              "1347382749117",
+              "1347382749086",
+              "1347382749820",
+              "1347382749851",
+              "1347382749237",
+              "1347382749023",
+              "1347382749882",
+              "1407324586168",
+              "1407323799333",
+              "1407324579410",
+              "1407335363676",
+              "1347382750145",
+              "1347382748959",
+              "1347382749913",
+              "1407324849870",
+              "1347382750240",
+              "1407325186154",
+              "1407325659651",
+              "1355995871527",
+              "1355995873292",
+              "1355995873369"
+            ]
+          },
+          "quick": {
+            "optsTxt": "",
+            "fins": [
+              "1347382748926",
+              "1407324579410",
+              "1347382750240"
+            ]
+          }
+        },
+        {
+          "id": "1352994393340",
+          "title": "Pull Finishes",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "three-week": {
+            "optsTxt": "",
+            "fins": [
+              "1347382699772",
+              "1347382700060",
+              "1347382700845",
+              "1347382700813",
+              "1347382700129",
+              "1347382699840",
+              "1355996234585",
+              "1347382699964",
+              "1347382700097",
+              "1347382700887",
+              "1347382700951",
+              "1347382700919",
+              "1352994673987",
+              "1353010479279",
+              "1413510670380",
+              "1356662720246",
+              "1356662720163",
+              "1356662717946",
+              "1413510646900"
+            ]
+          },
+          "quick": {
+            "optsTxt": "",
+            "fins": [
+              "1347382700097",
+              "1347382699772"
+            ]
+          }
+        },
+        {
+          "id": "1356396002975",
+          "title": "Pull Style",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "three-week": {
+            "optsTxt": "",
+            "fins": [
+              "1356396004906"
+            ]
+          },
+          "quick": {
+            "optsTxt": "",
+            "fins": [
+              "1356396004906"
+            ]
+          }
+        },
+        {
+          "id": "1356863037547",
+          "title": "Feet",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "three-week": {
+            "optsTxt": "",
+            "fins": [
+              "1347382703086",
+              "1347382702133"
+            ]
+          },
+          "quick": {
+            "optsTxt": "",
+            "fins": [
+              "1347382703086",
+              "1347382702133"
+            ]
+          }
+        }
+      ],
+      "brands": [
+        "Knoll Office"
+      ],
+      "title": "Anchor Raised Credenzas",
+      "thumb-img": "/828/127/anchor-raised_credenza_thumb.jpg",
+      "sm1-3d": [],
+      "hero1-img": "/196/188/anchor-raised_credenza_hero.jpg",
+      "workCats": [],
+      "name": "ES Anchor Raised Credenzas",
+      "powerCats": [],
+      "sm3w": [
+        "Truck"
+      ],
+      "product-id": "anchor"
+    },
+    {
+      "smquick": [
+        "Parcel",
+        "Truck",
+        "White Glove"
+      ],
+      "lead-times": [
+        "one-to-three-day",
+        "quick",
+        "three-week"
+      ],
+      "short-text": "<p>With an expression that is at once comfortable and harmonious, the Fiber Counter Stool is a design with an unobtrusive yet distinct identity. With its shell made in an innovative composite of plastic and wood fibers, the Fiber Counter Stool has a textured, matte surface and soft, inviting touch, paired with its embracing seat. Designed in two different heights, both available with or without backrest, the Fiber Counter Stool encapsulates the ideals of simply modern design with a human touch. When viewed from afar, the wood fibers of its shell blend into the surface for a matte finish yet appear when viewed up-close for a modern sentiment, joined by an elegant tube base.</p>",
+      "storageCats": [],
+      "screensCats": [],
+      "epp-id": "1356825884377",
+      "seatingCats": [
+        "Stools"
+      ],
+      "apprvId": "",
+      "tableCats": [],
+      "excl3wk": "",
+      "availFinMods": [
+        {
+          "id": "1356837921218",
+          "title": "Options",
+          "one-to-three-day": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Tube</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Powder Coated Paint</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>With Backrest</td>\r\n\t\t\t<td>16.7&quot;</td>\r\n\t\t\t<td>17.5&quot;</td>\r\n\t\t\t<td>34.4&quot;</td>\r\n\t\t\t<td>25.6&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          },
+          "three-week": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Tube</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Powder Coat Paint</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Without Backrest</td>\r\n\t\t\t<td>17.7&quot;</td>\r\n\t\t\t<td>17.3&quot;</td>\r\n\t\t\t<td>26&quot;</td>\r\n\t\t\t<td>25.6&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>With Backrest</td>\r\n\t\t\t<td>16.7&quot;</td>\r\n\t\t\t<td>17.5&quot;</td>\r\n\t\t\t<td>34.4&quot;</td>\r\n\t\t\t<td>25.6&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          },
+          "quick": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Tube</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Powder Coat Paint</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Without Backrest</td>\r\n\t\t\t<td>17.7&quot;</td>\r\n\t\t\t<td>17.3&quot;</td>\r\n\t\t\t<td>26&quot;</td>\r\n\t\t\t<td>25.6&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>With Backrest</td>\r\n\t\t\t<td>16.7&quot;</td>\r\n\t\t\t<td>17.5&quot;</td>\r\n\t\t\t<td>34.4&quot;</td>\r\n\t\t\t<td>25.6&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          }
+        },
+        {
+          "id": "1356863723988",
+          "title": "Base/Seat Finishes",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": [
+              "1356863627135",
+              "1356863627275"
+            ]
+          },
+          "three-week": {
+            "optsTxt": "",
+            "fins": [
+              "1356863626921",
+              "1356863627135",
+              "1356863627275",
+              "1356863629574",
+              "1356863629651"
+            ]
+          },
+          "quick": {
+            "optsTxt": "",
+            "fins": [
+              "1356863626921",
+              "1356863627135",
+              "1356863627275",
+              "1356863629574",
+              "1356863629651"
+            ]
+          }
+        }
+      ],
+      "brands": [
+        "Muuto"
+      ],
+      "title": "Fiber Counter Stool Tube Base",
+      "thumb-img": "",
+      "sm1-3d": [
+        "Parcel",
+        "White Glove"
+      ],
+      "hero1-img": "",
+      "workCats": [],
+      "name": "ESMU Fiber Counter Stool Tube Base",
+      "powerCats": [],
+      "sm3w": [
+        "Parcel",
+        "Truck",
+        "White Glove"
+      ],
+      "product-id": "1356825884377"
+    },
+    {
+      "smquick": [
         "Parcel",
         "Truck",
         "White Glove"
@@ -25856,65 +26181,6 @@
         "three-week",
         "one-to-three-day"
       ],
-      "short-text": "<p>The Fiber Side Chair presents a new perspective on the iconic shell chair. Made in an innovative composite of plastic and wood fibers, the surface presents as matte finish at a glance, but reveals a soft, inviting texture up close. The Fiber Side Chair Wood Base balances its modern design with a warm materiality.</p>",
-      "storageCats": [],
-      "screensCats": [],
-      "epp-id": "1356825327604",
-      "seatingCats": [
-        "Side & Multi-Use"
-      ],
-      "apprvId": "",
-      "tableCats": [],
-      "excl3wk": "",
-      "availFinMods": [
-        {
-          "id": "1356837956995",
-          "title": "Options",
-          "one-to-three-day": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Wood</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Lacquered Oak</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>19.5&quot;</td>\r\n\t\t\t<td>20.9&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
-            "fins": []
-          },
-          "three-week": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Wood</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Lacquered Oak</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>19.5&quot;</td>\r\n\t\t\t<td>20.9&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
-            "fins": []
-          },
-          "quick": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Wood</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Lacquered Oak</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>19.5&quot;</td>\r\n\t\t\t<td>20.9&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
-            "fins": []
-          }
-        }
-      ],
-      "brands": [
-        "Muuto"
-      ],
-      "title": "Fiber Side Chair Wood Base",
-      "thumb-img": "/822/331/fiber-side-chair-wood-base-thumb.jpg",
-      "sm1-3d": [
-        "Parcel",
-        "White Glove"
-      ],
-      "hero1-img": "/172/671/fiber-side-chair-wood-base-hero.jpg",
-      "workCats": [],
-      "name": "ESMU Fiber Side Chair Wood Base",
-      "powerCats": [],
-      "sm3w": [
-        "Parcel",
-        "Truck",
-        "White Glove"
-      ],
-      "product-id": "1356825327604"
-    },
-    {
-      "smquick": [
-        "Parcel",
-        "Truck",
-        "White Glove"
-      ],
-      "lead-times": [
-        "quick",
-        "three-week",
-        "one-to-three-day"
-      ],
       "short-text": "<p>The Around Coffee Table reimagines the classic mid-century Scandinavian style. With multiple sizes and two different heights, the Around Coffee Table can work in living rooms as a centerpiece coffee table or symmetrical end tables.</p>",
       "storageCats": [],
       "screensCats": [],
@@ -26644,12 +26910,7 @@
           "title": "Smooth Paint",
           "one-to-three-day": {
             "optsTxt": "",
-            "fins": [
-              "1347382699772",
-              "1347382700060",
-              "1413510646900",
-              "1356662717946"
-            ]
+            "fins": []
           },
           "three-week": {
             "optsTxt": "",
@@ -26688,7 +26949,12 @@
           "title": "Textured Paint",
           "one-to-three-day": {
             "optsTxt": "",
-            "fins": []
+            "fins": [
+              "1347382703086",
+              "1347382702345",
+              "1347382700983",
+              "1356662717946"
+            ]
           },
           "three-week": {
             "optsTxt": "",
@@ -26714,7 +26980,8 @@
             "fins": [
               "1347382703086",
               "1347382702345",
-              "1347382702596"
+              "1347382702596",
+              "1347382700983"
             ]
           }
         }
@@ -27088,10 +27355,10 @@
         "quick",
         "three-week"
       ],
-      "short-text": "<p>The Fiber Amrchair presents a new perspective on the iconic shell chair. Made in an innovative composite of plastic and wood fibers, the surface presents as matte finish at a glance, but reveals a soft, inviting texture up close. The Fiber Armchair Swivel Base and Swivel Base with Castors and Gas Lift allow for easy movement.</p>",
+      "short-text": "<p>The Fiber Side Chair presents a new perspective on the iconic shell chair. Made in an innovative composite of plastic and wood fibers, the surface presents as matte finish at a glance, but reveals a soft, inviting texture up close. The Fiber Side Chair Wood Base balances its modern design with a warm materiality.</p>",
       "storageCats": [],
       "screensCats": [],
-      "epp-id": "1356825303327",
+      "epp-id": "1356825327604",
       "seatingCats": [
         "Side & Multi-Use"
       ],
@@ -27100,41 +27367,81 @@
       "excl3wk": "",
       "availFinMods": [
         {
-          "id": "1356837912124",
+          "id": "1356837956995",
           "title": "Options",
           "one-to-three-day": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Swivel</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Die Cast Aluminum</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>21.5&quot;</td>\r\n\t\t\t<td>22&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Wood</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Lacquered Oak</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>19.5&quot;</td>\r\n\t\t\t<td>20.9&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
             "fins": []
           },
           "three-week": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Swivel</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Die Cast Aluminum</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>21.5&quot;</td>\r\n\t\t\t<td>22&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Wood</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Lacquered Oak</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>19.5&quot;</td>\r\n\t\t\t<td>20.9&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
             "fins": []
           },
           "quick": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Swivel</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Die Cast Aluminum</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>21.5&quot;</td>\r\n\t\t\t<td>22&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Wood</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Lacquered Oak</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>19.5&quot;</td>\r\n\t\t\t<td>20.9&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
             "fins": []
+          }
+        },
+        {
+          "id": "1356863698199",
+          "title": "Base/Seat Finishes",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": [
+              "1356863626921",
+              "1356863627001",
+              "1356863698357",
+              "1356863700589",
+              "1356863627275",
+              "1356863629492",
+              "1356863629574"
+            ]
+          },
+          "three-week": {
+            "optsTxt": "",
+            "fins": [
+              "1356863626921",
+              "1356863627001",
+              "1356863698357",
+              "1356863700589",
+              "1356863627275",
+              "1356863629492",
+              "1356863629574"
+            ]
+          },
+          "quick": {
+            "optsTxt": "",
+            "fins": [
+              "1356863626921",
+              "1356863627001",
+              "1356863698357",
+              "1356863700589",
+              "1356863627275",
+              "1356863629492",
+              "1356863629574"
+            ]
           }
         }
       ],
       "brands": [
         "Muuto"
       ],
-      "title": "Fiber Armchair Swivel Base",
-      "thumb-img": "/142/59/fiber-armchair-swivel-base-fixed-thumb.jpg",
+      "title": "Fiber Side Chair Wood Base",
+      "thumb-img": "/568/87/fiber-side-chair-wood-base-thumb.jpg",
       "sm1-3d": [
         "Parcel",
         "White Glove"
       ],
-      "hero1-img": "/664/62/fiber-armchair-swivel-base-fixed-hero.jpg",
+      "hero1-img": "/942/426/fiber-side-chair-wood-base-hero.jpg",
       "workCats": [],
-      "name": "ESMU Fiber Armchair Swivel Base",
+      "name": "ESMU Fiber Side Chair Wood Base",
       "powerCats": [],
       "sm3w": [
         "Parcel",
         "Truck",
         "White Glove"
       ],
-      "product-id": "1356825303327"
+      "product-id": "1356825327604"
     },
     {
       "smquick": [
@@ -27250,6 +27557,104 @@
         "White Glove"
       ],
       "product-id": "1356837907378"
+    },
+    {
+      "smquick": [
+        "Parcel",
+        "Truck",
+        "White Glove"
+      ],
+      "lead-times": [
+        "one-to-three-day",
+        "quick",
+        "three-week"
+      ],
+      "short-text": "<p>The Fiber Side Chair presents a new perspective on the iconic shell chair. Made in an innovative composite of plastic and wood fibers, the surface presents as matte finish at a glance, but reveals a soft, inviting texture up close. The Fiber Side Chair Tube Base articulates a clean, modern aesthetic.</p>",
+      "storageCats": [],
+      "screensCats": [],
+      "epp-id": "1356825325397",
+      "seatingCats": [
+        "Side & Multi-Use"
+      ],
+      "apprvId": "",
+      "tableCats": [],
+      "excl3wk": "",
+      "availFinMods": [
+        {
+          "id": "1356837956688",
+          "title": "Options",
+          "one-to-three-day": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Tube</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Powder Coat Paint</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>20.1&quot;</td>\r\n\t\t\t<td>20.9&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          },
+          "three-week": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Tube</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Powder Coat Paint</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>20.1&quot;</td>\r\n\t\t\t<td>20.9&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          },
+          "quick": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Tube</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Powder Coat Paint</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>20.1&quot;</td>\r\n\t\t\t<td>20.9&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          }
+        },
+        {
+          "id": "1356863638761",
+          "title": "Base/Seat Finishes",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": [
+              "1356863626921",
+              "1356863627135",
+              "1356863638826",
+              "1356863627275"
+            ]
+          },
+          "three-week": {
+            "optsTxt": "",
+            "fins": [
+              "1356863626921",
+              "1356863627001",
+              "1356863627135",
+              "1356863638826",
+              "1356863627275",
+              "1356863629492",
+              "1356863629574",
+              "1356863629651"
+            ]
+          },
+          "quick": {
+            "optsTxt": "",
+            "fins": [
+              "1356863626921",
+              "1356863627001",
+              "1356863627135",
+              "1356863638826",
+              "1356863627275",
+              "1356863629492",
+              "1356863629574",
+              "1356863629651"
+            ]
+          }
+        }
+      ],
+      "brands": [
+        "Muuto"
+      ],
+      "title": "Fiber Side Chair Tube Base",
+      "thumb-img": "/706/673/fiber-side-chair-tube-base-thumb.jpg",
+      "sm1-3d": [
+        "Parcel",
+        "White Glove"
+      ],
+      "hero1-img": "/516/175/fiber-side-chair-tube-base-hero.jpg",
+      "workCats": [],
+      "name": "ESMU Fiber Side Chair Tube Base",
+      "powerCats": [],
+      "sm3w": [
+        "Parcel",
+        "Truck",
+        "White Glove"
+      ],
+      "product-id": "1356825325397"
     },
     {
       "smquick": [
@@ -27995,6 +28400,366 @@
     },
     {
       "smquick": [
+        "Parcel",
+        "Truck",
+        "White Glove"
+      ],
+      "lead-times": [
+        "one-to-three-day",
+        "quick",
+        "three-week"
+      ],
+      "short-text": "<p>The Fiber Bar Stool has a contemporary simple look in an innovative composite of plastic and wood fibers. The design has a textured, matte surface and soft, inviting touch, paired with its embracing backrest and wooden base. Available in two different heights.</p>",
+      "storageCats": [],
+      "screensCats": [],
+      "epp-id": "1356825327754",
+      "seatingCats": [
+        "Stools"
+      ],
+      "apprvId": "",
+      "tableCats": [],
+      "excl3wk": "",
+      "availFinMods": [
+        {
+          "id": "1356837927818",
+          "title": "Options",
+          "one-to-three-day": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Wood</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Lacquered Oak</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>With Backrest</td>\r\n\t\t\t<td>17.5&quot;</td>\r\n\t\t\t<td>17.9&quot;</td>\r\n\t\t\t<td>38.4&quot;</td>\r\n\t\t\t<td>29.5&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          },
+          "three-week": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Wood</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Lacquered Oak</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Without Backrest</td>\r\n\t\t\t<td>17.7&quot;</td>\r\n\t\t\t<td>17.9&quot;</td>\r\n\t\t\t<td>29.9&quot;</td>\r\n\t\t\t<td>29.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>With Backrest</td>\r\n\t\t\t<td>17.5&quot;</td>\r\n\t\t\t<td>17.9&quot;</td>\r\n\t\t\t<td>38.4&quot;</td>\r\n\t\t\t<td>29.5&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          },
+          "quick": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Wood</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Lacquered Oak</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Without Backrest</td>\r\n\t\t\t<td>17.7&quot;</td>\r\n\t\t\t<td>17.9&quot;</td>\r\n\t\t\t<td>29.9&quot;</td>\r\n\t\t\t<td>29.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>With Backrest</td>\r\n\t\t\t<td>17.5&quot;</td>\r\n\t\t\t<td>17.9&quot;</td>\r\n\t\t\t<td>38.4&quot;</td>\r\n\t\t\t<td>29.5&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          }
+        },
+        {
+          "id": "1356863712574",
+          "title": "Base/Seat Finishes",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": [
+              "1356863700589",
+              "1356863629574"
+            ]
+          },
+          "three-week": {
+            "optsTxt": "",
+            "fins": [
+              "1356863626921",
+              "1356863698357",
+              "1356863700589",
+              "1356863627275",
+              "1356863629574",
+              "1356863629651"
+            ]
+          },
+          "quick": {
+            "optsTxt": "",
+            "fins": [
+              "1356863626921",
+              "1356863698357",
+              "1356863700589",
+              "1356863627275",
+              "1356863629574",
+              "1356863629651"
+            ]
+          }
+        }
+      ],
+      "brands": [
+        "Muuto"
+      ],
+      "title": "Fiber Bar Stool Wood Base",
+      "thumb-img": "/464/98/fiber-stool-wood-base-thumb.jpg",
+      "sm1-3d": [
+        "Parcel",
+        "White Glove"
+      ],
+      "hero1-img": "/722/729/fiber-stool-wood-base-hero.jpg",
+      "workCats": [],
+      "name": "ESMU Fiber Bar Stool Wood Base",
+      "powerCats": [],
+      "sm3w": [
+        "Parcel",
+        "Truck",
+        "White Glove"
+      ],
+      "product-id": "1356825327754"
+    },
+    {
+      "smquick": [
+        "Truck",
+        "White Glove"
+      ],
+      "lead-times": [
+        "quick",
+        "three-week"
+      ],
+      "short-text": "<p>Anchor lockers are now available with a raised base for a lighter, more open aesthetic.</p>",
+      "storageCats": [
+        "Lockers & Wardrobes"
+      ],
+      "screensCats": [],
+      "epp-id": "1356386242225",
+      "seatingCats": [],
+      "apprvId": "",
+      "tableCats": [],
+      "excl3wk": "",
+      "availFinMods": [
+        {
+          "id": "1356420140134",
+          "title": "Options",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "three-week": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Configuration:</span><span class=\"essop-option\">Combinations of Doors and Open with Shelves</span></p>\r\n\r\n<p><span class=\"essop-title\">Front:</span><span class=\"essop-option\">Laminate</span></p>\r\n\r\n<p><span class=\"essop-title\">Case:</span><span class=\"essop-option\">Laminate</span></p>\r\n\r\n<p><span class=\"essop-title\">Pull:</span><span class=\"essop-option\">Finger Pull</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Top:</span><span class=\"essop-option\">Laminate</span></p>\r\n\r\n<p><span class=\"essop-title\">Lock:</span><span class=\"essop-option\">Digital Keypad Locking, Locking, Non-locking, RFID Locking</span></p>\r\n\r\n<p><span class=\"essop-title\">Feet:</span><span class=\"essop-option\">Painted</span></p>\r\n\r\n<p><span class=\"essop-title\">Optional Accessories:</span><span class=\"essop-option\">Partial and Full Depth Shelves</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Workstation Lockers</td>\r\n\t\t\t<td>12&quot;</td>\r\n\t\t\t<td>20 / 24 / 30&quot;</td>\r\n\t\t\t<td>42 / 50 / 57 / 64 &quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          },
+          "quick": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Configuration:</span><span class=\"essop-option\">Combinations of Doors and Open with Shelves</span></p>\r\n\r\n<p><span class=\"essop-title\">Front:</span><span class=\"essop-option\">Laminate</span></p>\r\n\r\n<p><span class=\"essop-title\">Case:</span><span class=\"essop-option\">Laminate</span></p>\r\n\r\n<p><span class=\"essop-title\">Pull:</span><span class=\"essop-option\">Finger Pull</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Top:</span><span class=\"essop-option\">Laminate</span></p>\r\n\r\n<p><span class=\"essop-title\">Lock:</span><span class=\"essop-option\">Locking</span></p>\r\n\r\n<p><span class=\"essop-title\">Feet:</span><span class=\"essop-option\">Painted</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 50)</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Workstation Lockers</td>\r\n\t\t\t<td>12&quot;</td>\r\n\t\t\t<td>20&quot;</td>\r\n\t\t\t<td>42 / 50 / 64&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          }
+        },
+        {
+          "id": "1356854112628",
+          "title": "Laminate",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "three-week": {
+            "optsTxt": "",
+            "fins": [
+              "1347382748926",
+              "1347382749054",
+              "1347382748992",
+              "1347382749206",
+              "1347382749117",
+              "1347382749086",
+              "1347382749820",
+              "1347382749851",
+              "1347382749237",
+              "1347382749023",
+              "1347382749882",
+              "1407324586168",
+              "1407323799333",
+              "1407324579410",
+              "1407335363676",
+              "1347382750145",
+              "1347382748959",
+              "1347382749913",
+              "1407324849870",
+              "1347382750240",
+              "1407325186154",
+              "1407325659651",
+              "1355995871527",
+              "1355995873292",
+              "1355995873369"
+            ]
+          },
+          "quick": {
+            "optsTxt": "",
+            "fins": [
+              "1347382748926",
+              "1407324579410"
+            ]
+          }
+        },
+        {
+          "id": "1352994393340",
+          "title": "Pull Finishes",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "three-week": {
+            "optsTxt": "",
+            "fins": [
+              "1347382699772",
+              "1347382700060",
+              "1347382700845",
+              "1347382700813",
+              "1347382700129",
+              "1347382699840",
+              "1355996234585",
+              "1347382699964",
+              "1347382700097",
+              "1347382700887",
+              "1347382700951",
+              "1347382700919",
+              "1352994673987",
+              "1353010479279",
+              "1413510670380",
+              "1356662720246",
+              "1356662720163",
+              "1356662717946",
+              "1413510646900"
+            ]
+          },
+          "quick": {
+            "optsTxt": "",
+            "fins": [
+              "1347382700097",
+              "1347382699772"
+            ]
+          }
+        },
+        {
+          "id": "1356396002975",
+          "title": "Pull Style",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "three-week": {
+            "optsTxt": "",
+            "fins": [
+              "1356396004906"
+            ]
+          },
+          "quick": {
+            "optsTxt": "",
+            "fins": [
+              "1356396004906"
+            ]
+          }
+        },
+        {
+          "id": "1356863037547",
+          "title": "Feet",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": []
+          },
+          "three-week": {
+            "optsTxt": "",
+            "fins": [
+              "1347382703086",
+              "1347382702133"
+            ]
+          },
+          "quick": {
+            "optsTxt": "",
+            "fins": [
+              "1347382703086",
+              "1347382702133"
+            ]
+          }
+        }
+      ],
+      "brands": [
+        "Knoll Office"
+      ],
+      "title": "Anchor Raised Lockers",
+      "thumb-img": "/314/471/anchor-raised_lockers_thumb.jpg",
+      "sm1-3d": [],
+      "hero1-img": "/996/845/anchor-raised_lockers_hero.jpg",
+      "workCats": [],
+      "name": "ES Anchor Raised Lockers",
+      "powerCats": [],
+      "sm3w": [
+        "Truck"
+      ],
+      "product-id": "anchor"
+    },
+    {
+      "smquick": [
+        "Parcel",
+        "Truck",
+        "White Glove"
+      ],
+      "lead-times": [
+        "one-to-three-day",
+        "quick",
+        "three-week"
+      ],
+      "short-text": "<p>With an expression that is at once comfortable and harmonious, the Fiber Counter Stool is a design with an unobtrusive yet distinct identity. With its shell made in an innovative composite of plastic and wood fibers, the Fiber Counter Stool has a textured, matte surface and soft, inviting touch, paired with its embracing seat. Designed in two different heights, both available with or without backrest, the Fiber Bar Stool encapsulates the ideals of simply modern design with a human touch. When viewed from afar, the wood fibers of its shell blend into the surface for a matte finish yet appear when viewed up-close for a modern sentiment, joined by a wooden base.</p>",
+      "storageCats": [],
+      "screensCats": [],
+      "epp-id": "1356825882166",
+      "seatingCats": [
+        "Stools"
+      ],
+      "apprvId": "",
+      "tableCats": [],
+      "excl3wk": "",
+      "availFinMods": [
+        {
+          "id": "1356837925616",
+          "title": "Options",
+          "one-to-three-day": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Wood</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Lacquered Oak</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>With Backrest</td>\r\n\t\t\t<td>16.7&quot;</td>\r\n\t\t\t<td>17.5&quot;</td>\r\n\t\t\t<td>34.4&quot;</td>\r\n\t\t\t<td>25.6&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          },
+          "three-week": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Wood</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Lacquered Oak</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Without Backrest</td>\r\n\t\t\t<td>17.7&quot;</td>\r\n\t\t\t<td>16.7&quot;</td>\r\n\t\t\t<td>26&quot;</td>\r\n\t\t\t<td>25.6&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>With Backrest</td>\r\n\t\t\t<td>16.7&quot;</td>\r\n\t\t\t<td>17.5&quot;</td>\r\n\t\t\t<td>34.4&quot;</td>\r\n\t\t\t<td>25.6&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          },
+          "quick": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Wood</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Lacquered Oak</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Without Backrest</td>\r\n\t\t\t<td>17.7&quot;</td>\r\n\t\t\t<td>16.7&quot;</td>\r\n\t\t\t<td>26&quot;</td>\r\n\t\t\t<td>25.6&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>With Backrest</td>\r\n\t\t\t<td>16.7&quot;</td>\r\n\t\t\t<td>17.5&quot;</td>\r\n\t\t\t<td>34.4&quot;</td>\r\n\t\t\t<td>25.6&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          }
+        },
+        {
+          "id": "1356863717651",
+          "title": "Base/Seat Finishes",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": [
+              "1356863700589",
+              "1356863629574"
+            ]
+          },
+          "three-week": {
+            "optsTxt": "",
+            "fins": [
+              "1356863626921",
+              "1356863698357",
+              "1356863700589",
+              "1356863627275",
+              "1356863629574"
+            ]
+          },
+          "quick": {
+            "optsTxt": "",
+            "fins": [
+              "1356863626921",
+              "1356863698357",
+              "1356863700589",
+              "1356863627275",
+              "1356863629574"
+            ]
+          }
+        }
+      ],
+      "brands": [
+        "Muuto"
+      ],
+      "title": "Fiber Counter Stool Wood Base",
+      "thumb-img": "",
+      "sm1-3d": [
+        "Parcel",
+        "White Glove"
+      ],
+      "hero1-img": "",
+      "workCats": [],
+      "name": "ESMU Fiber Counter Stool Wood Base",
+      "powerCats": [],
+      "sm3w": [
+        "Parcel",
+        "Truck",
+        "White Glove"
+      ],
+      "product-id": "1356825882166"
+    },
+    {
+      "smquick": [
         "Truck",
         "White Glove",
         "Parcel"
@@ -28102,124 +28867,6 @@
         "White Glove"
       ],
       "product-id": "muuto-fiber-chair-family-alt"
-    },
-    {
-      "smquick": [
-        "Parcel",
-        "Truck",
-        "White Glove"
-      ],
-      "lead-times": [
-        "one-to-three-day",
-        "quick",
-        "three-week"
-      ],
-      "short-text": "<p>The Fiber Armchair presents a new perspective on the iconic shell chair. Made in an innovative composite of plastic and wood fibers, the surface presents as matte finish at a glance, but reveals a soft, inviting texture up close. The Fiber Armchair Tube Base articulates a clean, modern aesthetic.</p>",
-      "storageCats": [],
-      "screensCats": [],
-      "epp-id": "1356825320922",
-      "seatingCats": [
-        "Side & Multi-Use"
-      ],
-      "apprvId": "",
-      "tableCats": [],
-      "excl3wk": "",
-      "availFinMods": [
-        {
-          "id": "1356837914439",
-          "title": "Options",
-          "one-to-three-day": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Tube</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Powder Coated Paint</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>21.5&quot;</td>\r\n\t\t\t<td>22&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
-            "fins": []
-          },
-          "three-week": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Tube</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Powder Coated Paint</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>21.5&quot;</td>\r\n\t\t\t<td>22&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
-            "fins": []
-          },
-          "quick": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Tube</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Powder Coated Paint</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>21.5&quot;</td>\r\n\t\t\t<td>22&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
-            "fins": []
-          }
-        }
-      ],
-      "brands": [
-        "Muuto"
-      ],
-      "title": "Fiber Armchair Tube Base",
-      "thumb-img": "/152/128/fiber-armchair-tube-base-thumb.jpg",
-      "sm1-3d": [
-        "Parcel",
-        "White Glove"
-      ],
-      "hero1-img": "/1000/980/fiber-armchair-tube-base-hero.jpg",
-      "workCats": [],
-      "name": "ESMU Fiber Armchair Tube Base",
-      "powerCats": [],
-      "sm3w": [
-        "Parcel",
-        "Truck",
-        "White Glove"
-      ],
-      "product-id": "1356825320922"
-    },
-    {
-      "smquick": [
-        "Parcel",
-        "Truck",
-        "White Glove"
-      ],
-      "lead-times": [
-        "one-to-three-day",
-        "quick",
-        "three-week"
-      ],
-      "short-text": "<p>The Fiber Bar Stool has a contemporary simple look in an innovative composite of plastic and wood fibers. The design has a textured, matte surface and soft, inviting touch, paired with its embracing backrest and slim tube base. Available in two different heights.</p>",
-      "storageCats": [],
-      "screensCats": [],
-      "epp-id": "1356825357435",
-      "seatingCats": [
-        "Stools"
-      ],
-      "apprvId": "",
-      "tableCats": [],
-      "excl3wk": "",
-      "availFinMods": [
-        {
-          "id": "1356837925524",
-          "title": "Options",
-          "one-to-three-day": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Tube</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Powder Coated Paint</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>With Backrest</td>\r\n\t\t\t<td>17.5&quot;</td>\r\n\t\t\t<td>18.3&quot;</td>\r\n\t\t\t<td>38.4&quot;</td>\r\n\t\t\t<td>29.5&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
-            "fins": []
-          },
-          "three-week": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Tube</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Powder Coated Paint</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Without Backrest</td>\r\n\t\t\t<td>17.7&quot;</td>\r\n\t\t\t<td>18.3&quot;</td>\r\n\t\t\t<td>29.9&quot;</td>\r\n\t\t\t<td>29.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>With Backrest</td>\r\n\t\t\t<td>17.5&quot;</td>\r\n\t\t\t<td>18.3&quot;</td>\r\n\t\t\t<td>38.4&quot;</td>\r\n\t\t\t<td>29.5&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
-            "fins": []
-          },
-          "quick": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Tube</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Powder Coated Paint</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Without Backrest</td>\r\n\t\t\t<td>17.7&quot;</td>\r\n\t\t\t<td>18.3&quot;</td>\r\n\t\t\t<td>29.9&quot;</td>\r\n\t\t\t<td>29.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>With Backrest</td>\r\n\t\t\t<td>17.5&quot;</td>\r\n\t\t\t<td>18.3&quot;</td>\r\n\t\t\t<td>38.4&quot;</td>\r\n\t\t\t<td>29.5&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
-            "fins": []
-          }
-        }
-      ],
-      "brands": [
-        "Muuto"
-      ],
-      "title": "Fiber Bar Stool Tube Base",
-      "thumb-img": "/602/684/fiber-stool-tube-base-thumb.jpg",
-      "sm1-3d": [
-        "Parcel",
-        "White Glove"
-      ],
-      "hero1-img": "/42/234/fiber-stool-tube-base-hero.jpg",
-      "workCats": [],
-      "name": "ESMU Fiber Bar Stool Tube Base",
-      "powerCats": [],
-      "sm3w": [
-        "Parcel",
-        "Truck",
-        "White Glove"
-      ],
-      "product-id": "1356825357435"
     },
     {
       "smquick": [
@@ -29413,65 +30060,6 @@
         "quick",
         "three-week"
       ],
-      "short-text": "<p>The Dots Wood Coat Hooks brings a friendly feel to the traditional coat hook. Arrange with multiple patterns and colors for a playful and functional storage approach. Combines well with the Dots Metal.</p>",
-      "storageCats": [],
-      "screensCats": [],
-      "epp-id": "1356825389659",
-      "seatingCats": [],
-      "apprvId": "",
-      "tableCats": [],
-      "excl3wk": "",
-      "availFinMods": [
-        {
-          "id": "1356837281941",
-          "title": "Options",
-          "one-to-three-day": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Dot Material:</span><span class=\"essop-option\">Oiled Walnut, Oiled Oak, Painted Ash</span></p>\r\n\r\n<p><span class=\"essop-title\">Mounting Screws:</span><span class=\"essop-option\">Included</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Quantity:</span><span class=\"essop-option\">Set of 5</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>large</th>\r\n\t\t\t<th>med</th>\r\n\t\t\t<th>sm</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Diameter</td>\r\n\t\t\t<td>6.75&quot;</td>\r\n\t\t\t<td>5&quot;</td>\r\n\t\t\t<td>3.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Quantity in Set</td>\r\n\t\t\t<td>1</td>\r\n\t\t\t<td>1</td>\r\n\t\t\t<td>3</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
-            "fins": []
-          },
-          "three-week": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Dot Material:</span><span class=\"essop-option\">Oiled Walnut, Oiled Oak, Painted Ash</span></p>\r\n\r\n<p><span class=\"essop-title\">Mounting Screws:</span><span class=\"essop-option\">Included</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Quantity:</span><span class=\"essop-option\">Sold Separately or in Set of 5</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>large</th>\r\n\t\t\t<th>med</th>\r\n\t\t\t<th>sm</th>\r\n\t\t\t<th>extra sm</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Diameter</td>\r\n\t\t\t<td>6.75&quot;</td>\r\n\t\t\t<td>5&quot;</td>\r\n\t\t\t<td>3.5&quot;</td>\r\n\t\t\t<td>2.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Quantity in Set</td>\r\n\t\t\t<td>1</td>\r\n\t\t\t<td>1</td>\r\n\t\t\t<td>3</td>\r\n\t\t\t<td>&ensp;-</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
-            "fins": []
-          },
-          "quick": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Dot Material:</span><span class=\"essop-option\">Oiled Walnut, Oiled Oak, Painted Ash</span></p>\r\n\r\n<p><span class=\"essop-title\">Mounting Screws:</span><span class=\"essop-option\">Included</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Quantity:</span><span class=\"essop-option\">Sold Separately or in Set of 5</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>large</th>\r\n\t\t\t<th>med</th>\r\n\t\t\t<th>sm</th>\r\n\t\t\t<th>extra sm</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Diameter</td>\r\n\t\t\t<td>6.75&quot;</td>\r\n\t\t\t<td>5&quot;</td>\r\n\t\t\t<td>3.5&quot;</td>\r\n\t\t\t<td>2.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Quantity in Set</td>\r\n\t\t\t<td>1</td>\r\n\t\t\t<td>1</td>\r\n\t\t\t<td>3</td>\r\n\t\t\t<td>&ensp;-</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
-            "fins": []
-          }
-        }
-      ],
-      "brands": [
-        "Muuto"
-      ],
-      "title": "Dots Wood Coat Hooks",
-      "thumb-img": "/337/493/dots-wood-thumb.jpg",
-      "sm1-3d": [
-        "Parcel",
-        "White Glove"
-      ],
-      "hero1-img": "/15/233/dots-wood-hero.jpg",
-      "workCats": [
-        "Desktop Management"
-      ],
-      "name": "ESMU Dots Wood Coat Hooks",
-      "powerCats": [],
-      "sm3w": [
-        "Parcel",
-        "Truck",
-        "White Glove"
-      ],
-      "product-id": "1356825389659"
-    },
-    {
-      "smquick": [
-        "Parcel",
-        "Truck",
-        "White Glove"
-      ],
-      "lead-times": [
-        "one-to-three-day",
-        "quick",
-        "three-week"
-      ],
       "short-text": "<p>The E27 Pendant Lamp pairs a naked LED bulb with a contemporary silicone rubber casing. Available in a variety of colors, the design makes a simple and distinctive addition to any space, alone or in clusters.</p>",
       "storageCats": [],
       "screensCats": [],
@@ -30515,7 +31103,7 @@
             "fins": []
           },
           "quick": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Configuration:</span><span class=\"essop-option\">Box/File, Combination Box/File &amp; Open</span></p>\r\n\r\n<p><span class=\"essop-title\">Front:</span><span class=\"essop-option\">Steel</span></p>\r\n\r\n<p><span class=\"essop-title\">Case:</span><span class=\"essop-option\">Steel</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Top:</span><span class=\"essop-option\">Laminate</span></p>\r\n\r\n<p><span class=\"essop-title\">Pull:</span><span class=\"essop-option\">Quoin&nbsp;Pull</span></p>\r\n\r\n<p><span class=\"essop-title\">Lock:</span><span class=\"essop-option\">Locking</span></p>\r\n</div>\r\n\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 25)</span></p>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Single Unit, Box/File</td>\r\n\t\t\t<td>30&quot;</td>\r\n\t\t\t<td>18.8&quot;</td>\r\n\t\t\t<td>22.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Double Unit, Box/File + Open</td>\r\n\t\t\t<td>\r\n\t\t\t<div>48 / 54 / 60&quot;</div>\r\n\t\t\t</td>\r\n\t\t\t<td>18.8&quot;</td>\r\n\t\t\t<td>22.5&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Configuration:</span><span class=\"essop-option\">Box/File, Combination Box/File &amp; Open</span></p>\r\n\r\n<p><span class=\"essop-title\">Front:</span><span class=\"essop-option\">Steel</span></p>\r\n\r\n<p><span class=\"essop-title\">Case:</span><span class=\"essop-option\">Steel</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Top:</span><span class=\"essop-option\">Laminate</span></p>\r\n\r\n<p><span class=\"essop-title\">Pull:</span><span class=\"essop-option\">Quoin&nbsp;Pull</span></p>\r\n\r\n<p><span class=\"essop-title\">Lock:</span><span class=\"essop-option\">Locking</span></p>\r\n</div>\r\n\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 50)</span></p>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Single Unit, Box/File</td>\r\n\t\t\t<td>30&quot;</td>\r\n\t\t\t<td>18.8&quot;</td>\r\n\t\t\t<td>22.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Double Unit, Box/File + Open</td>\r\n\t\t\t<td>\r\n\t\t\t<div>48&nbsp;&ndash; 60&quot;</div>\r\n\r\n\t\t\t<div>(6&quot; increments)</div>\r\n\t\t\t</td>\r\n\t\t\t<td>18.8&quot;</td>\r\n\t\t\t<td>22.5&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
             "fins": []
           }
         },
@@ -31227,7 +31815,7 @@
           "id": "1356398233511",
           "title": "Options",
           "one-to-three-day": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Worksurface:</span><span class=\"essop-option\">Rectangular</span></p>\r\n\r\n<p><span class=\"essop-title\">Worksurface Material:</span><span class=\"essop-option\">Laminate</span></p>\r\n\r\n<p><span class=\"essop-title\">Worksurface Edge:</span><span class=\"essop-option\">Bullnose</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Grommet:</span><span class=\"essop-option\">No Grommet</span></p>\r\n\r\n<p><span class=\"essop-title\">Legs:</span><span class=\"essop-option\">Textured Paint (will match worksurface color)</span></p>\r\n\r\n<p><span class=\"essop-title\">Feet:</span><span class=\"essop-option\">Casters, Glides</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 25)</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Rectangular Top</td>\r\n\t\t\t<td>Bullnose Edge</td>\r\n\t\t\t<td>w/ glides</td>\r\n\t\t\t<td>48&quot;</td>\r\n\t\t\t<td>24&quot;</td>\r\n\t\t\t<td>28&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>54&quot;</td>\r\n\t\t\t<td>27&quot;</td>\r\n\t\t\t<td>28&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Worksurface:</span><span class=\"essop-option\">Rectangular</span></p>\r\n\r\n<p><span class=\"essop-title\">Worksurface Material:</span><span class=\"essop-option\">Laminate</span></p>\r\n\r\n<p><span class=\"essop-title\">Worksurface Edge:</span><span class=\"essop-option\">Bullnose</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Grommet:</span><span class=\"essop-option\">No Grommet</span></p>\r\n\r\n<p><span class=\"essop-title\">Legs:</span><span class=\"essop-option\">Textured Paint (will match worksurface color)</span></p>\r\n\r\n<p><span class=\"essop-title\">Feet:</span><span class=\"essop-option\">Glides</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span><span class=\"essop-option red\">(Quantity Limit 25)</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Rectangular Top</td>\r\n\t\t\t<td>Bullnose Edge</td>\r\n\t\t\t<td>w/ glides</td>\r\n\t\t\t<td>48&quot;</td>\r\n\t\t\t<td>24&quot;</td>\r\n\t\t\t<td>28&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>54&quot;</td>\r\n\t\t\t<td>27&quot;</td>\r\n\t\t\t<td>28&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
             "fins": []
           },
           "three-week": {
@@ -31295,7 +31883,10 @@
           "title": "Textured Paint",
           "one-to-three-day": {
             "optsTxt": "",
-            "fins": []
+            "fins": [
+              "1347382702133",
+              "1347382703086"
+            ]
           },
           "three-week": {
             "optsTxt": "",
@@ -36109,183 +36700,6 @@
     },
     {
       "smquick": [
-        "Parcel",
-        "Truck",
-        "White Glove"
-      ],
-      "lead-times": [
-        "one-to-three-day",
-        "quick",
-        "three-week"
-      ],
-      "short-text": "<p>The Fiber Armchair presents a new perspective on the iconic shell chair. Made in an innovative composite of plastic and wood fibers, the surface presents as matte finish at a glance, but reveals a soft, inviting texture up close. The Fiber Armchair Wood Base balances its modern design with a warm materiality.</p>",
-      "storageCats": [],
-      "screensCats": [],
-      "epp-id": "1356825323120",
-      "seatingCats": [
-        "Side & Multi-Use"
-      ],
-      "apprvId": "",
-      "tableCats": [],
-      "excl3wk": "",
-      "availFinMods": [
-        {
-          "id": "1356837914645",
-          "title": "Options",
-          "one-to-three-day": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Wood</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Lacquered Oak</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>21.5&quot;</td>\r\n\t\t\t<td>22&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
-            "fins": []
-          },
-          "three-week": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Wood</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Lacquered Oak</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>21.5&quot;</td>\r\n\t\t\t<td>22&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
-            "fins": []
-          },
-          "quick": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Wood</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Lacquered Oak</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>21.5&quot;</td>\r\n\t\t\t<td>22&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
-            "fins": []
-          }
-        }
-      ],
-      "brands": [
-        "Muuto"
-      ],
-      "title": "Fiber Armchair Wood Base",
-      "thumb-img": "/288/27/fiber-arm-wood-base-thumb.jpg",
-      "sm1-3d": [
-        "Parcel",
-        "White Glove"
-      ],
-      "hero1-img": "/608/845/fiber-arm-wood-base-hero.jpg",
-      "workCats": [],
-      "name": "ESMU Fiber Armchair Wood Base",
-      "powerCats": [],
-      "sm3w": [
-        "Parcel",
-        "Truck",
-        "White Glove"
-      ],
-      "product-id": "1356825323120"
-    },
-    {
-      "smquick": [
-        "Parcel",
-        "Truck",
-        "White Glove"
-      ],
-      "lead-times": [
-        "one-to-three-day",
-        "quick",
-        "three-week"
-      ],
-      "short-text": "<p>The Fiber Bar Stool has a contemporary simple look in an innovative composite of plastic and wood fibers. The design has a textured, matte surface and soft, inviting touch, paired with its embracing backrest and wooden base. Available in two different heights.</p>",
-      "storageCats": [],
-      "screensCats": [],
-      "epp-id": "1356825327754",
-      "seatingCats": [
-        "Stools"
-      ],
-      "apprvId": "",
-      "tableCats": [],
-      "excl3wk": "",
-      "availFinMods": [
-        {
-          "id": "1356837927818",
-          "title": "Options",
-          "one-to-three-day": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Wood</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Lacquered Oak</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>With Backrest</td>\r\n\t\t\t<td>17.5&quot;</td>\r\n\t\t\t<td>17.9&quot;</td>\r\n\t\t\t<td>38.4&quot;</td>\r\n\t\t\t<td>29.5&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
-            "fins": []
-          },
-          "three-week": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Wood</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Lacquered Oak</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Without Backrest</td>\r\n\t\t\t<td>17.7&quot;</td>\r\n\t\t\t<td>17.9&quot;</td>\r\n\t\t\t<td>29.9&quot;</td>\r\n\t\t\t<td>29.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>With Backrest</td>\r\n\t\t\t<td>17.5&quot;</td>\r\n\t\t\t<td>17.9&quot;</td>\r\n\t\t\t<td>38.4&quot;</td>\r\n\t\t\t<td>29.5&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
-            "fins": []
-          },
-          "quick": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Wood</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Lacquered Oak</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Without Backrest</td>\r\n\t\t\t<td>17.7&quot;</td>\r\n\t\t\t<td>17.9&quot;</td>\r\n\t\t\t<td>29.9&quot;</td>\r\n\t\t\t<td>29.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>With Backrest</td>\r\n\t\t\t<td>17.5&quot;</td>\r\n\t\t\t<td>17.9&quot;</td>\r\n\t\t\t<td>38.4&quot;</td>\r\n\t\t\t<td>29.5&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
-            "fins": []
-          }
-        }
-      ],
-      "brands": [
-        "Muuto"
-      ],
-      "title": "Fiber Bar Stool Wood Base",
-      "thumb-img": "/591/220/fiber-stool-wood-base-thumb.jpg",
-      "sm1-3d": [
-        "Parcel",
-        "White Glove"
-      ],
-      "hero1-img": "/849/851/fiber-stool-wood-base-hero.jpg",
-      "workCats": [],
-      "name": "ESMU Fiber Bar Stool Wood Base",
-      "powerCats": [],
-      "sm3w": [
-        "Parcel",
-        "Truck",
-        "White Glove"
-      ],
-      "product-id": "1356825327754"
-    },
-    {
-      "smquick": [
-        "Parcel",
-        "Truck",
-        "White Glove"
-      ],
-      "lead-times": [
-        "one-to-three-day",
-        "quick",
-        "three-week"
-      ],
-      "short-text": "<p>With an expression that is at once comfortable and harmonious, the Fiber Counter Stool is a design with an unobtrusive yet distinct identity. With its shell made in an innovative composite of plastic and wood fibers, the Fiber Counter Stool has a textured, matte surface and soft, inviting touch, paired with its embracing seat. Designed in two different heights, both available with or without backrest, the Fiber Counter Stool encapsulates the ideals of simply modern design with a human touch. When viewed from afar, the wood fibers of its shell blend into the surface for a matte finish yet appear when viewed up-close for a modern sentiment, joined by an elegant tube base.</p>",
-      "storageCats": [],
-      "screensCats": [],
-      "epp-id": "1356825884377",
-      "seatingCats": [
-        "Stools"
-      ],
-      "apprvId": "",
-      "tableCats": [],
-      "excl3wk": "",
-      "availFinMods": [
-        {
-          "id": "1356837921218",
-          "title": "Options",
-          "one-to-three-day": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Tube</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Powder Coated Paint</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>With Backrest</td>\r\n\t\t\t<td>16.7&quot;</td>\r\n\t\t\t<td>17.5&quot;</td>\r\n\t\t\t<td>34.4&quot;</td>\r\n\t\t\t<td>25.6&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
-            "fins": []
-          },
-          "three-week": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Tube</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Powder Coat Paint</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Without Backrest</td>\r\n\t\t\t<td>17.7&quot;</td>\r\n\t\t\t<td>17.3&quot;</td>\r\n\t\t\t<td>26&quot;</td>\r\n\t\t\t<td>25.6&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>With Backrest</td>\r\n\t\t\t<td>16.7&quot;</td>\r\n\t\t\t<td>17.5&quot;</td>\r\n\t\t\t<td>34.4&quot;</td>\r\n\t\t\t<td>25.6&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
-            "fins": []
-          },
-          "quick": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Tube</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Powder Coat Paint</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Without Backrest</td>\r\n\t\t\t<td>17.7&quot;</td>\r\n\t\t\t<td>17.3&quot;</td>\r\n\t\t\t<td>26&quot;</td>\r\n\t\t\t<td>25.6&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>With Backrest</td>\r\n\t\t\t<td>16.7&quot;</td>\r\n\t\t\t<td>17.5&quot;</td>\r\n\t\t\t<td>34.4&quot;</td>\r\n\t\t\t<td>25.6&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
-            "fins": []
-          }
-        }
-      ],
-      "brands": [
-        "Muuto"
-      ],
-      "title": "Fiber Counter Stool Tube Base",
-      "thumb-img": "",
-      "sm1-3d": [
-        "Parcel",
-        "White Glove"
-      ],
-      "hero1-img": "",
-      "workCats": [],
-      "name": "ESMU Fiber Counter Stool Tube Base",
-      "powerCats": [],
-      "sm3w": [
-        "Parcel",
-        "Truck",
-        "White Glove"
-      ],
-      "product-id": "1356825884377"
-    },
-    {
-      "smquick": [
         "Truck",
         "White Glove"
       ],
@@ -36336,65 +36750,6 @@
         "White Glove"
       ],
       "product-id": "1356825875328"
-    },
-    {
-      "smquick": [
-        "Parcel",
-        "Truck",
-        "White Glove"
-      ],
-      "lead-times": [
-        "one-to-three-day",
-        "quick",
-        "three-week"
-      ],
-      "short-text": "<p>With an expression that is at once comfortable and harmonious, the Fiber Counter Stool is a design with an unobtrusive yet distinct identity. With its shell made in an innovative composite of plastic and wood fibers, the Fiber Counter Stool has a textured, matte surface and soft, inviting touch, paired with its embracing seat. Designed in two different heights, both available with or without backrest, the Fiber Bar Stool encapsulates the ideals of simply modern design with a human touch. When viewed from afar, the wood fibers of its shell blend into the surface for a matte finish yet appear when viewed up-close for a modern sentiment, joined by a wooden base.</p>",
-      "storageCats": [],
-      "screensCats": [],
-      "epp-id": "1356825882166",
-      "seatingCats": [
-        "Stools"
-      ],
-      "apprvId": "",
-      "tableCats": [],
-      "excl3wk": "",
-      "availFinMods": [
-        {
-          "id": "1356837925616",
-          "title": "Options",
-          "one-to-three-day": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Wood</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Lacquered Oak</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>With Backrest</td>\r\n\t\t\t<td>16.7&quot;</td>\r\n\t\t\t<td>17.5&quot;</td>\r\n\t\t\t<td>34.4&quot;</td>\r\n\t\t\t<td>25.6&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
-            "fins": []
-          },
-          "three-week": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Wood</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Lacquered Oak</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Without Backrest</td>\r\n\t\t\t<td>17.7&quot;</td>\r\n\t\t\t<td>16.7&quot;</td>\r\n\t\t\t<td>26&quot;</td>\r\n\t\t\t<td>25.6&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>With Backrest</td>\r\n\t\t\t<td>16.7&quot;</td>\r\n\t\t\t<td>17.5&quot;</td>\r\n\t\t\t<td>34.4&quot;</td>\r\n\t\t\t<td>25.6&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
-            "fins": []
-          },
-          "quick": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Wood</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Lacquered Oak</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Without Backrest</td>\r\n\t\t\t<td>17.7&quot;</td>\r\n\t\t\t<td>16.7&quot;</td>\r\n\t\t\t<td>26&quot;</td>\r\n\t\t\t<td>25.6&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>With Backrest</td>\r\n\t\t\t<td>16.7&quot;</td>\r\n\t\t\t<td>17.5&quot;</td>\r\n\t\t\t<td>34.4&quot;</td>\r\n\t\t\t<td>25.6&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
-            "fins": []
-          }
-        }
-      ],
-      "brands": [
-        "Muuto"
-      ],
-      "title": "Fiber Counter Stool Wood Base",
-      "thumb-img": "",
-      "sm1-3d": [
-        "Parcel",
-        "White Glove"
-      ],
-      "hero1-img": "",
-      "workCats": [],
-      "name": "ESMU Fiber Counter Stool Wood Base",
-      "powerCats": [],
-      "sm3w": [
-        "Parcel",
-        "Truck",
-        "White Glove"
-      ],
-      "product-id": "1356825882166"
     },
     {
       "smquick": [
@@ -36682,65 +37037,6 @@
         "three-week",
         "one-to-three-day"
       ],
-      "short-text": "<p>The Fiber Side Chair presents a new perspective on the iconic shell chair. Made in an innovative composite of plastic and wood fibers, the surface presents as matte finish at a glance, but reveals a soft, inviting texture up close. The Fiber Side Chair Tube Base articulates a clean, modern aesthetic.</p>",
-      "storageCats": [],
-      "screensCats": [],
-      "epp-id": "1356825325397",
-      "seatingCats": [
-        "Side & Multi-Use"
-      ],
-      "apprvId": "",
-      "tableCats": [],
-      "excl3wk": "",
-      "availFinMods": [
-        {
-          "id": "1356837956688",
-          "title": "Options",
-          "one-to-three-day": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Tube</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Powder Coat Paint</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>20.1&quot;</td>\r\n\t\t\t<td>20.9&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
-            "fins": []
-          },
-          "three-week": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Tube</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Powder Coat Paint</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>20.1&quot;</td>\r\n\t\t\t<td>20.9&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
-            "fins": []
-          },
-          "quick": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Tube</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Powder Coat Paint</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>20.1&quot;</td>\r\n\t\t\t<td>20.9&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
-            "fins": []
-          }
-        }
-      ],
-      "brands": [
-        "Muuto"
-      ],
-      "title": "Fiber Side Chair Tube Base",
-      "thumb-img": "/63/16/fiber-side-chair-tube-base-thumb.jpg",
-      "sm1-3d": [
-        "Parcel",
-        "White Glove"
-      ],
-      "hero1-img": "/897/541/fiber-side-chair-tube-base-hero.jpg",
-      "workCats": [],
-      "name": "ESMU Fiber Side Chair Tube Base",
-      "powerCats": [],
-      "sm3w": [
-        "Parcel",
-        "Truck",
-        "White Glove"
-      ],
-      "product-id": "1356825325397"
-    },
-    {
-      "smquick": [
-        "Parcel",
-        "Truck",
-        "White Glove"
-      ],
-      "lead-times": [
-        "quick",
-        "three-week",
-        "one-to-three-day"
-      ],
       "short-text": "<p>The Nerd Counter &amp; Bar Stool is an unconventional take on the classic stool. The seamless integration of its back and seat give the Nerd Stool a distinct and playful personality.</p>",
       "storageCats": [],
       "screensCats": [],
@@ -36796,14 +37092,14 @@
         "White Glove"
       ],
       "lead-times": [
+        "one-to-three-day",
         "quick",
-        "three-week",
-        "one-to-three-day"
+        "three-week"
       ],
-      "short-text": "<p>The Fiber Side Chair presents a new perspective on the iconic shell chair. Made in an innovative composite of plastic and wood fibers, the surface presents as matte finish at a glance, but reveals a soft, inviting texture up close. The Swivel Base allows for easy movement.</p>",
+      "short-text": "<p>The Fiber Amrchair presents a new perspective on the iconic shell chair. Made in an innovative composite of plastic and wood fibers, the surface presents as matte finish at a glance, but reveals a soft, inviting texture up close. The Fiber Armchair Swivel Base and Swivel Base with Castors and Gas Lift allow for easy movement.</p>",
       "storageCats": [],
       "screensCats": [],
-      "epp-id": "1356825323201",
+      "epp-id": "1356825303327",
       "seatingCats": [
         "Side & Multi-Use"
       ],
@@ -36812,41 +37108,173 @@
       "excl3wk": "",
       "availFinMods": [
         {
-          "id": "1356837932572",
+          "id": "1356837912124",
           "title": "Options",
           "one-to-three-day": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Swivel</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Die Cast Aluminum</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>18.7&quot;</td>\r\n\t\t\t<td>20.9&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Swivel</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Die Cast Aluminum</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>21.5&quot;</td>\r\n\t\t\t<td>22&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
             "fins": []
           },
           "three-week": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Swivel</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Die Cast Aluminum</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>18.7&quot;</td>\r\n\t\t\t<td>20.9&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Swivel</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Die Cast Aluminum</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>21.5&quot;</td>\r\n\t\t\t<td>22&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
             "fins": []
           },
           "quick": {
-            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Swivel</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Die Cast Aluminum</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>18.7&quot;</td>\r\n\t\t\t<td>20.9&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Swivel</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Die Cast Aluminum</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>21.5&quot;</td>\r\n\t\t\t<td>22&quot;</td>\r\n\t\t\t<td>30.3&quot;</td>\r\n\t\t\t<td>18.1&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
             "fins": []
+          }
+        },
+        {
+          "id": "1356863631711",
+          "title": "Base/Seat Finishes",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": [
+              "1356863626921",
+              "1356863627001",
+              "1356863627135",
+              "1356863627275",
+              "1356863629492",
+              "1356863629574",
+              "1356863629651"
+            ]
+          },
+          "three-week": {
+            "optsTxt": "",
+            "fins": [
+              "1356863626921",
+              "1356863627001",
+              "1356863627135",
+              "1356863627275",
+              "1356863629492",
+              "1356863629574",
+              "1356863629651"
+            ]
+          },
+          "quick": {
+            "optsTxt": "",
+            "fins": [
+              "1356863626921",
+              "1356863627001",
+              "1356863627135",
+              "1356863627275",
+              "1356863629492",
+              "1356863629574",
+              "1356863629651"
+            ]
           }
         }
       ],
       "brands": [
         "Muuto"
       ],
-      "title": "Fiber Side Chair Swivel Base",
-      "thumb-img": "/395/284/fiber-side-chair-swivel-base-thumb.jpg",
+      "title": "Fiber Armchair Swivel Base",
+      "thumb-img": "/15/961/fiber-armchair-swivel-base-fixed-thumb.jpg",
       "sm1-3d": [
         "Parcel",
         "White Glove"
       ],
-      "hero1-img": "/951/966/fiber-side-chair-swivel-base-hero.jpg",
+      "hero1-img": "/537/964/fiber-armchair-swivel-base-fixed-hero.jpg",
       "workCats": [],
-      "name": "ESMU Fiber Side Chair Swivel Base",
+      "name": "ESMU Fiber Armchair Swivel Base",
       "powerCats": [],
       "sm3w": [
         "Parcel",
         "Truck",
         "White Glove"
       ],
-      "product-id": "1356825323201"
+      "product-id": "1356825303327"
+    },
+    {
+      "smquick": [
+        "Parcel",
+        "Truck",
+        "White Glove"
+      ],
+      "lead-times": [
+        "one-to-three-day",
+        "quick",
+        "three-week"
+      ],
+      "short-text": "<p>The Fiber Bar Stool has a contemporary simple look in an innovative composite of plastic and wood fibers. The design has a textured, matte surface and soft, inviting touch, paired with its embracing backrest and slim tube base. Available in two different heights.</p>",
+      "storageCats": [],
+      "screensCats": [],
+      "epp-id": "1356825357435",
+      "seatingCats": [
+        "Stools"
+      ],
+      "apprvId": "",
+      "tableCats": [],
+      "excl3wk": "",
+      "availFinMods": [
+        {
+          "id": "1356837925524",
+          "title": "Options",
+          "one-to-three-day": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Tube</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Powder Coated Paint</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>With Backrest</td>\r\n\t\t\t<td>17.5&quot;</td>\r\n\t\t\t<td>18.3&quot;</td>\r\n\t\t\t<td>38.4&quot;</td>\r\n\t\t\t<td>29.5&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          },
+          "three-week": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Tube</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Powder Coated Paint</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Without Backrest</td>\r\n\t\t\t<td>17.7&quot;</td>\r\n\t\t\t<td>18.3&quot;</td>\r\n\t\t\t<td>29.9&quot;</td>\r\n\t\t\t<td>29.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>With Backrest</td>\r\n\t\t\t<td>17.5&quot;</td>\r\n\t\t\t<td>18.3&quot;</td>\r\n\t\t\t<td>38.4&quot;</td>\r\n\t\t\t<td>29.5&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          },
+          "quick": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Shell Material:</span><span class=\"essop-option\">Innovative Composition of Plastic and up to 25% Pine Wood Fibers</span></p>\r\n\r\n<p><span class=\"essop-title\">Base:</span><span class=\"essop-option\">Tube</span></p>\r\n\r\n<p><span class=\"essop-title\">Base Material:</span><span class=\"essop-option\">Powder Coated Paint</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>w</th>\r\n\t\t\t<th>d</th>\r\n\t\t\t<th>h</th>\r\n\t\t\t<th>seat h</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Without Backrest</td>\r\n\t\t\t<td>17.7&quot;</td>\r\n\t\t\t<td>18.3&quot;</td>\r\n\t\t\t<td>29.9&quot;</td>\r\n\t\t\t<td>29.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>With Backrest</td>\r\n\t\t\t<td>17.5&quot;</td>\r\n\t\t\t<td>18.3&quot;</td>\r\n\t\t\t<td>38.4&quot;</td>\r\n\t\t\t<td>29.5&quot;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          }
+        },
+        {
+          "id": "1356863721542",
+          "title": "Base/Seat Finishes",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": [
+              "1356863627135",
+              "1356863627275"
+            ]
+          },
+          "three-week": {
+            "optsTxt": "",
+            "fins": [
+              "1356863626921",
+              "1356863627135",
+              "1356863638826",
+              "1356863627275",
+              "1356863629574",
+              "1356863629651"
+            ]
+          },
+          "quick": {
+            "optsTxt": "",
+            "fins": [
+              "1356863626921",
+              "1356863627135",
+              "1356863638826",
+              "1356863627275",
+              "1356863629574",
+              "1356863629651"
+            ]
+          }
+        }
+      ],
+      "brands": [
+        "Muuto"
+      ],
+      "title": "Fiber Bar Stool Tube Base",
+      "thumb-img": "/475/562/fiber-stool-tube-base-thumb.jpg",
+      "sm1-3d": [
+        "Parcel",
+        "White Glove"
+      ],
+      "hero1-img": "/939/111/fiber-stool-tube-base-hero.jpg",
+      "workCats": [],
+      "name": "ESMU Fiber Bar Stool Tube Base",
+      "powerCats": [],
+      "sm3w": [
+        "Parcel",
+        "Truck",
+        "White Glove"
+      ],
+      "product-id": "1356825357435"
     },
     {
       "smquick": [
@@ -37090,6 +37518,101 @@
       "powerCats": [],
       "sm3w": [],
       "product-id": "1356825399224"
+    },
+    {
+      "smquick": [
+        "Parcel",
+        "Truck",
+        "White Glove"
+      ],
+      "lead-times": [
+        "one-to-three-day",
+        "quick",
+        "three-week"
+      ],
+      "short-text": "<p>The Dots Wood Coat Hooks brings a friendly feel to the traditional coat hook. Arrange with multiple patterns and colors for a playful and functional storage approach. Combines well with the Dots Metal.</p>",
+      "storageCats": [],
+      "screensCats": [],
+      "epp-id": "1356825389659",
+      "seatingCats": [],
+      "apprvId": "",
+      "tableCats": [],
+      "excl3wk": "",
+      "availFinMods": [
+        {
+          "id": "1356837281941",
+          "title": "Options",
+          "one-to-three-day": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Dot Material:</span><span class=\"essop-option\">Oiled Walnut, Oiled Oak, Painted Ash</span></p>\r\n\r\n<p><span class=\"essop-title\">Mounting Screws:</span><span class=\"essop-option\">Included</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Quantity:</span><span class=\"essop-option\">Set of 5</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>large</th>\r\n\t\t\t<th>med</th>\r\n\t\t\t<th>sm</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Diameter</td>\r\n\t\t\t<td>6.75&quot;</td>\r\n\t\t\t<td>5&quot;</td>\r\n\t\t\t<td>3.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Quantity in Set</td>\r\n\t\t\t<td>1</td>\r\n\t\t\t<td>1</td>\r\n\t\t\t<td>3</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          },
+          "three-week": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Dot Material:</span><span class=\"essop-option\">Oiled Walnut, Oiled Oak, Painted Ash</span></p>\r\n\r\n<p><span class=\"essop-title\">Mounting Screws:</span><span class=\"essop-option\">Included</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Quantity:</span><span class=\"essop-option\">Sold Separately or in Set of 5</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>large</th>\r\n\t\t\t<th>med</th>\r\n\t\t\t<th>sm</th>\r\n\t\t\t<th>extra sm</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Diameter</td>\r\n\t\t\t<td>6.75&quot;</td>\r\n\t\t\t<td>5&quot;</td>\r\n\t\t\t<td>3.5&quot;</td>\r\n\t\t\t<td>2.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Quantity in Set</td>\r\n\t\t\t<td>1</td>\r\n\t\t\t<td>1</td>\r\n\t\t\t<td>3</td>\r\n\t\t\t<td>&ensp;-</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          },
+          "quick": {
+            "optsTxt": "<link href=\"https://www.knoll.com/nkdc/css/essentials-options.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<div id=\"essop-container\">\r\n<div class=\"essop-options\">\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Dot Material:</span><span class=\"essop-option\">Oiled Walnut, Oiled Oak, Painted Ash</span></p>\r\n\r\n<p><span class=\"essop-title\">Mounting Screws:</span><span class=\"essop-option\">Included</span></p>\r\n</div>\r\n\r\n<div class=\"essop-column\">\r\n<p><span class=\"essop-title\">Quantity:</span><span class=\"essop-option\">Sold Separately or in Set of 5</span></p>\r\n</div>\r\n\r\n<div class=\"left\">\r\n<p><span class=\"essop-title left\">Available Sizes:&nbsp;</span></p>\r\n</div>\r\n\r\n<table style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>&nbsp;</th>\r\n\t\t\t<th>large</th>\r\n\t\t\t<th>med</th>\r\n\t\t\t<th>sm</th>\r\n\t\t\t<th>extra sm</th>\r\n\t\t</tr>\r\n\t\t<tr class=\"grey-line\">\r\n\t\t\t<td>Diameter</td>\r\n\t\t\t<td>6.75&quot;</td>\r\n\t\t\t<td>5&quot;</td>\r\n\t\t\t<td>3.5&quot;</td>\r\n\t\t\t<td>2.5&quot;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Quantity in Set</td>\r\n\t\t\t<td>1</td>\r\n\t\t\t<td>1</td>\r\n\t\t\t<td>3</td>\r\n\t\t\t<td>&ensp;-</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n",
+            "fins": []
+          }
+        },
+        {
+          "id": "1356863564973",
+          "title": "Finishes",
+          "one-to-three-day": {
+            "optsTxt": "",
+            "fins": [
+              "1356863560374",
+              "1356863565285",
+              "1356863565424",
+              "1356863565566",
+              "1356863565711"
+            ]
+          },
+          "three-week": {
+            "optsTxt": "",
+            "fins": [
+              "1356863560374",
+              "1356863565285",
+              "1356863565424",
+              "1356863565566",
+              "1356863565711",
+              "1356863602855"
+            ]
+          },
+          "quick": {
+            "optsTxt": "",
+            "fins": [
+              "1356863560374",
+              "1356863565285",
+              "1356863565424",
+              "1356863565566",
+              "1356863565711",
+              "1356863602855"
+            ]
+          }
+        }
+      ],
+      "brands": [
+        "Muuto"
+      ],
+      "title": "Dots Wood Coat Hooks",
+      "thumb-img": "/210/371/dots-wood-thumb.jpg",
+      "sm1-3d": [
+        "Parcel",
+        "White Glove"
+      ],
+      "hero1-img": "/912/110/dots-wood-hero.jpg",
+      "workCats": [
+        "Desktop Management"
+      ],
+      "name": "ESMU Dots Wood Coat Hooks",
+      "powerCats": [],
+      "sm3w": [
+        "Parcel",
+        "Truck",
+        "White Glove"
+      ],
+      "product-id": "1356825389659"
     },
     {
       "smquick": [
