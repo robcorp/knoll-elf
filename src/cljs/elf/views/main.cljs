@@ -50,6 +50,7 @@
                             [:h1 name]
                             [:p "(built using the re-frame app framework.)"]
                             #_[mouse-pos-comp]
+                            [:button {:on-click #(evt> [::events/initialize-db])} "Reset"]
                             [:hr]])
                          [:section.wrapper.essentials
                           [:section#page
@@ -102,8 +103,8 @@
 
 (defn- filters [filter-sub filter-evt]
   (let [{:keys [name description product-category items]} (<sub [filter-sub])
-        filtered-prods (<sub [::subs/filtered-products])
-        available-filter-options (conj (set (select [ALL #(not (empty? (product-category %))) product-category ALL] filtered-prods)) "All")]
+        prods (<sub [::subs/all-products])
+        available-filter-options (conj (set (select [ALL #(not (empty? (product-category %))) product-category ALL] prods)) "All")]
 
     [:<>
      [:h3 description ":"]

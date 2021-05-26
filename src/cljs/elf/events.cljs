@@ -99,21 +99,44 @@
 (defn- update-lead-time-filter-state [selected-filter filters]
   (mapv #(assoc-in % [:value] (= selected-filter (:lead-time %))) filters))
 
+(defn- selected-lead-time []
+  (->> @re-frame.db/app-db
+       :lead-time-filters
+       (filter :value)
+       first
+       :lead-time))
+
 (defn- filter-products-by-lead-time [lead-time prods]
   (if (= lead-time "all")
     prods ;; return prods unfiltered
     (filter #((set (:lead-times %)) lead-time) prods)))
 
+(defn- selected-brands []
+  (->> @re-frame.db/app-db
+       :ELFBrandSelector
+       :items
+       (filter :value)
+       (map :label)
+       set))
+
+(defn- filter-products-by-brands [brands prods]
+  (let [has-brands (set brands)]
+    (if (or (empty? has-brands)
+            (has-brands "All"))
+      prods
+      (filter #(not-empty (clojure.set/intersection has-brands (set (:brands %)))) prods))))
+
 (reg-event-db
  ::lead-time-filter-radio-button-clicked
  (fn-traced [db [_ lead-time] event]
-            (let [updated-lead-time-filters (update-lead-time-filter-state lead-time (:lead-time-filters db))
-                  filtered-products (filter-products-by-lead-time lead-time (:all-products db))]
+            (let [updated-lead-time-filters (update-lead-time-filter-state lead-time (:lead-time-filters db))]
 
               (-> db
                   (assoc
                    :lead-time-filters updated-lead-time-filters
-                   :filtered-products filtered-products)
+                   :filtered-products (->> (:all-products db)
+                                           (filter-products-by-lead-time lead-time)
+                                           (filter-products-by-brands (selected-brands))))
                   (filter-category-products)))))
 
 (defn- toggle-filter-state [selected-filter filters]
@@ -161,13 +184,13 @@
                                                       updated-filters
                                                       (filter :value updated-filters))))]
 
-              (.log js/console brands-to-filter)
-
-              (if no-brand-filters-selected?
-                updated-db
-                (-> updated-db
-                    #_(assoc :filtered-products (filter #(brands-to-filter (first (:brands %))) current-filtered-prods))
-                    (filter-category-products))))))
+              (-> db
+                  (assoc-in [selector :items] updated-filters)
+                  (assoc
+                   :filtered-products (->> (:all-products db)
+                                           (filter-products-by-lead-time (selected-lead-time))
+                                           (filter-products-by-brands brands-to-filter)))
+                  (filter-category-products)))))
 
 (defn- clear-all-product-filters [db]
   (setval (multi-path [:ELFSeatingSelector :items ALL :value]
@@ -230,8 +253,8 @@
   (let [path "/cs/Satellite?pagename=Knoll/Common/Utils/EssentialsPopupProductsJSON"
         all-products-url (if config/debug?
                            (if config/use-local-products?
-                             "/js/elf/all-products-dev.json" ;; use the local file - this file should be updated periodically using the json from prod or staging
-                             (str #_"http://knldev2wcsapp1a.knoll.com" "https://knlprdwcsmgt.knoll.com" path)) ;; use staging url
+                             "/js/elf/all-products.json" ;; use the local file - this file should be updated periodically using the json from prod or staging
+                             (str #_"http://knldev2wcsapp1a.knoll.com" "http://knlprdwcsmgt1.knoll.com" path)) ;; use staging url
                            (str (.. js/window -location -origin) path)) ;; use the host of the current browser window
         success-handler (fn [resp]
                           (re-frame/dispatch [::set-all-products-and-finishes (:all-products resp) (:finishes resp)]))
@@ -345,3 +368,34 @@
                             :error-handler error-handler
                             :response-format :json
                             :keywords? true})))
+
+
+(comment
+  (re-frame/dispatch-sync [:elf.events/initialize-db])
+
+  (re-frame/dispatch [:elf.events/lead-time-filter-radio-button-clicked "all"])
+  (re-frame/dispatch [:elf.events/lead-time-filter-radio-button-clicked "one-to-three-day"])
+  (re-frame/dispatch [:elf.events/lead-time-filter-radio-button-clicked "quick"])
+  (re-frame/dispatch [:elf.events/lead-time-filter-radio-button-clicked "three-week"])
+
+  (defn ap [] @(re-frame/subscribe [:elf.subs/all-products]))
+  (defn fp [] @(re-frame/subscribe [:elf.subs/filtered-products]))
+
+
+  (count (ap))
+
+  (count (fp))
+
+  (selected-brands)
+
+  (count (filter-products-by-lead-time (selected-lead-time) (ap)))
+
+  (count (filter-products-by-brands (selected-brands) (fp)))
+
+  (->> (ap)
+       (filter-products-by-lead-time (selected-lead-time))
+       (filter-products-by-brands (selected-brands)))
+
+
+
+  )
