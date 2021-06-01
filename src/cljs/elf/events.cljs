@@ -111,6 +111,14 @@
     prods ;; return prods unfiltered
     (filter #((set (:lead-times %)) lead-time) prods)))
 
+(defn- selected-ship-methods []
+  (->> @re-frame.db/app-db
+       :ELFShipMethodSelector
+       :items
+       (filter :value)
+       (map :label)
+       set))
+
 (defn- selected-brands []
   (->> @re-frame.db/app-db
        :ELFBrandSelector
@@ -118,6 +126,13 @@
        (filter :value)
        (map :label)
        set))
+
+(defn- filter-products-by-ship-methods [ship-methods prods]
+  (let [has-ship-methods (set ship-methods)]
+    (if (or (empty? has-ship-methods)
+            (has-ship-methods "All"))
+      prods
+      (filter #(not-empty (clojure.set/intersection has-ship-methods (set (:sm1-3d %)))) prods))))
 
 (defn- filter-products-by-brands [brands prods]
   (let [has-brands (set brands)]
@@ -183,6 +198,8 @@
                   brands-to-filter (set (map :label (if no-brand-filters-selected?
                                                       updated-filters
                                                       (filter :value updated-filters))))]
+
+              #_(.log js/console brands-to-filter)
 
               (-> db
                   (assoc-in [selector :items] updated-filters)
@@ -380,12 +397,17 @@
 
   (defn ap [] @(re-frame/subscribe [:elf.subs/all-products]))
   (defn fp [] @(re-frame/subscribe [:elf.subs/filtered-products]))
+  (defn vfp [] @(re-frame/subscribe [:elf.subs/visible-filtered-products]))
+  (defn sp [] @(re-frame/subscribe [:elf.subs/selected-product]))
 
 
   (count (ap))
-
   (count (fp))
+  (count (vfp))
+  (count (set (vfp)))
 
+  (selected-lead-time)
+  (selected-ship-methods)
   (selected-brands)
 
   (count (filter-products-by-lead-time (selected-lead-time) (ap)))
@@ -396,6 +418,17 @@
        (filter-products-by-lead-time (selected-lead-time))
        (filter-products-by-brands (selected-brands)))
 
+  (->> (sp)
+       :sm1-3d)
 
+  (->> (vfp)
+       (filter-products-by-ship-methods (selected-ship-methods)))
+
+  (->> (vfp)
+       (map :sm1-3d))
+
+  (->> (vfp)
+       (take 5))
 
   )
+

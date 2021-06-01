@@ -103,9 +103,11 @@
 
 (defn- filters [filter-sub filter-evt]
   (let [{:keys [name description product-category items]} (<sub [filter-sub])
-        prods (<sub [::subs/all-products])
+        prods (<sub [::subs/visible-filtered-products])
         available-filter-options (conj (set (select [ALL #(not (empty? (product-category %))) product-category ALL] prods)) "All")]
 
+    #_(.log js/console available-filter-options)
+    
     [:<>
      [:h3 description ":"]
      [:ul.filter-check-list
