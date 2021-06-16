@@ -65,7 +65,9 @@
 (reg-event-db
  ::set-all-products
  (fn-traced [db [_ products]]
-   (.setItem js/localStorage "all-products" products)
+   (try (.setItem js/localStorage "all-products" products)
+        (catch :default err (println err "Couldn't store all-products in localStorage.")))
+
    (-> db
        (assoc :all-products products
               :filtered-products products)
