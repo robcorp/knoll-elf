@@ -18,7 +18,7 @@
                             from-local-storage
                             {:name "ELFShipMethodSelector"
                              :description "Ship Method-"
-                             :product-category :sm3w
+                             :product-category :all
                              :items [{:label "All" :value false}
                                      {:label "Parcel" :value false}
                                      {:label "White Glove" :value false}

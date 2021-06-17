@@ -76,7 +76,7 @@
          product-category (select-first [selector-key :product-category] db/default-db)
          desc (:description resp)
          items (setval [spctr/BEFORE-ELEM] "All" (:items resp))
-         filter-options {:name selector :description desc :product-category product-category :items (mapv (fn [i] {:label i :value false}) items)}]
+         filter-options {:name selector :description desc :product-category product-category :items (mapv (fn [i] {:label i :value false :enabled true}) items)}]
      (.setItem js/localStorage selector filter-options)
      (assoc db selector-key filter-options))))
 
@@ -132,7 +132,7 @@
     (if (or (empty? has-ship-methods)
             (has-ship-methods "All"))
       prods
-      (filter #(not-empty (clojure.set/intersection has-ship-methods (set (:sm1-3d %)))) prods))))
+      (filter #(not-empty (clojure.set/intersection has-ship-methods (set (:sm3w %)))) prods))))
 
 (defn- filter-products-by-brands [brands prods]
   (let [has-brands (set brands)]
@@ -142,9 +142,35 @@
       (filter #(not-empty (clojure.set/intersection has-brands (set (:brands %)))) prods))))
 
 (reg-event-db
+ ::update-ship-method-filters
+ (fn-traced [db [_ lead-time] event]
+            (println "lead-time: " lead-time)
+            (let [ship-method-filters (setval [:items ALL :enabled] true (:ELFShipMethodSelector db))
+                  updated-ship-method-filters (case lead-time
+                                                "all" (->> ship-method-filters
+                                                           (setval [:items ALL :enabled] true)
+                                                           (setval [:product-category] :all))
+                                                "quick" (->> ship-method-filters
+                                                             (setval [:items ALL :enabled] true)
+                                                             (setval [:product-category] :smquick))
+                                                "one-to-three-day" (->> ship-method-filters
+                                                                        (setval [:items ALL #(= "Truck" (:label %)) :enabled] false)
+                                                                        (setval [:product-category] :sm1-3d))
+                                                "three-week" (->> ship-method-filters
+                                                                  (setval [:items ALL #(#{"All" "Parcel" "White Glove"} (:label %)) :enabled] false)
+                                                                  (setval [:product-category] :sm3w))
+                                                (->> ship-method-filters
+                                                     (setval [:product-category] :all)))]
+
+              (-> db
+                  (assoc :ELFShipMethodSelector updated-ship-method-filters)))))
+
+(reg-event-db
  ::lead-time-filter-radio-button-clicked
  (fn-traced [db [_ lead-time] event]
             (let [updated-lead-time-filters (update-lead-time-filter-state lead-time (:lead-time-filters db))]
+
+              (re-frame/dispatch [::update-ship-method-filters lead-time])
 
               (-> db
                   (assoc
@@ -181,6 +207,33 @@
                       (setval [selector :items] updated-filters db))]
 
      (filter-category-products updated-db))))
+
+(reg-event-db
+ ::ship-method-filter-checkbox-clicked
+ (fn-traced [db [_ filter-id] event]
+            (let [[selector-str label] (str/split filter-id #":")
+                  selector (keyword selector-str)
+                  filters (:items (selector db))
+                  updated-filters (toggle-filter-state label filters)
+                  enable-all? (every? true? (select [ALL #(not= "All" (:label %)) :value] updated-filters))
+                  updated-db (if enable-all?
+                               (setval [selector :items] (setval [ALL #(= "All" (:label %)) :value] true updated-filters) db)
+                               (setval [selector :items] updated-filters db))
+                  no-ship-method-filters-selected? (not-any? true? (select [selector :items ALL :value] updated-db))
+                  current-filtered-prods (:filtered-products updated-db)
+                  ship-methods-to-filter (set (map :label (if no-ship-method-filters-selected?
+                                                      updated-filters
+                                                      (filter :value updated-filters))))]
+
+              #_(.log js/console ship-methods-to-filter)
+
+              (-> db
+                  (assoc-in [selector :items] updated-filters)
+                  (assoc
+                   :filtered-products (->> (:all-products db)
+                                           (filter-products-by-lead-time (selected-lead-time))
+                                           (filter-products-by-ship-methods ship-methods-to-filter)))
+                  (filter-category-products)))))
 
 (reg-event-db
  ::brand-filter-checkbox-clicked
@@ -386,6 +439,11 @@
                             :response-format :json
                             :keywords? true})))
 
+(defn- ap [] @(re-frame/subscribe [:elf.subs/all-products]))
+(defn- fp [] @(re-frame/subscribe [:elf.subs/filtered-products]))
+(defn- vfp [] @(re-frame/subscribe [:elf.subs/visible-filtered-products]))
+(defn- sp [] @(re-frame/subscribe [:elf.subs/selected-product]))
+(defn- smf [] @(re-frame/subscribe [:elf.subs/ship-method-filters]))
 
 (comment
   (re-frame/dispatch-sync [:elf.events/initialize-db])
@@ -395,20 +453,19 @@
   (re-frame/dispatch [:elf.events/lead-time-filter-radio-button-clicked "quick"])
   (re-frame/dispatch [:elf.events/lead-time-filter-radio-button-clicked "three-week"])
 
-  (defn ap [] @(re-frame/subscribe [:elf.subs/all-products]))
-  (defn fp [] @(re-frame/subscribe [:elf.subs/filtered-products]))
-  (defn vfp [] @(re-frame/subscribe [:elf.subs/visible-filtered-products]))
-  (defn sp [] @(re-frame/subscribe [:elf.subs/selected-product]))
-
-
+  (smf)
+  
   (count (ap))
   (count (fp))
   (count (vfp))
   (count (set (vfp)))
 
+  (smf)
+
   (selected-lead-time)
   (selected-ship-methods)
   (selected-brands)
+
 
   (count (filter-products-by-lead-time (selected-lead-time) (ap)))
 
@@ -428,7 +485,9 @@
        (map :sm1-3d))
 
   (->> (vfp)
-       (take 5))
+       (take 5)
+       (map :sm1-3d)
+       set)
 
   )
 

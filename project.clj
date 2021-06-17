@@ -53,6 +53,14 @@
                                                       "day8.re_frame.tracing.trace_enabled_QMARK_" true}
                                :external-config      {:devtools/config {:features-to-install :all}}}}
 
+               {:id           "whitespace"
+                :source-paths ["src/cljs"]
+                :compiler     {:main            elf.core
+                               :output-to       "resources/public/js/compiled/elf.js"
+                               :output-dir      "resources/public/js/compiled/whitespace-out"
+                               :optimizations   :whitespace
+                               :closure-defines {goog.DEBUG false}
+                               :pretty-print    false}}
                {:id           "simple"
                 :source-paths ["src/cljs"]
                 :compiler     {:main            elf.core

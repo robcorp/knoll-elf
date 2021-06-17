@@ -122,6 +122,16 @@
 (reg-sub ::lead-time-filters
          :lead-time-filters)
 
+(reg-sub ::selected-lead-time
+         (fn [_]
+           [(re-frame/subscribe [::lead-time-filters])])
+
+         (fn [[lead-time-filters]]
+           (->> lead-time-filters
+                (filter :value)
+                first
+                :lead-time)))
+
 (reg-sub ::ship-method-filters
          :ELFShipMethodSelector)
 
