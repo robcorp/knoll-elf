@@ -21,3 +21,6 @@
   (re-frame/dispatch-sync [::events/initialize-db])
   (dev-setup)
   (mount-root))
+
+(defn ^:export set-name [name]
+  (re-frame/dispatch [::events/set-name name]))

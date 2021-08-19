@@ -34,17 +34,13 @@
 (reg-sub ::filtered-work-products
          :filtered-work-products)
 
-(reg-sub ::filtered-screen-products
-         :filtered-screen-products)
-
 (reg-sub ::visible-filtered-products
  (fn [_]
    [(re-frame/subscribe [::filtered-seating-products])
     (re-frame/subscribe [::filtered-table-products])
     (re-frame/subscribe [::filtered-storage-products])
     (re-frame/subscribe [::filtered-power-products])
-    (re-frame/subscribe [::filtered-work-products])
-    (re-frame/subscribe [::filtered-screen-products])])
+    (re-frame/subscribe [::filtered-work-products])])
 
  (fn [all-visible-prods]
    (select [ALL ALL :products ALL] all-visible-prods)))
@@ -153,17 +149,13 @@
 (reg-sub ::work-tools-filter-options
          :ELFWorkToolsSelector)
 
-(reg-sub ::screen-board-filter-options
-         :ELFScreensAndBoardsSelector)
-
 (reg-sub ::all-filter-options
          (fn [_]
            [(re-frame/subscribe [::seating-filter-options])
             (re-frame/subscribe [::tables-filter-options])
             (re-frame/subscribe [::storage-filter-options])
             (re-frame/subscribe [::power-data-filter-options])
-            (re-frame/subscribe [::work-tools-filter-options])
-            (re-frame/subscribe [::screen-board-filter-options])])
+            (re-frame/subscribe [::work-tools-filter-options])])
 
          (fn [all-filter-options]
            (apply vector all-filter-options)))

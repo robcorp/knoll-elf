@@ -51,6 +51,7 @@
                             [:p "(built using the re-frame app framework.)"]
                             #_[mouse-pos-comp]
                             [:button {:on-click #(evt> [::events/initialize-db])} "Reset"]
+                            #_[clicker 1]
                             [:hr]])
                          [:section.wrapper.essentials
                           [:section#page
@@ -123,7 +124,7 @@
         prods (<sub [::subs/visible-filtered-products])
         available-filter-options (conj (set (select [ALL #(not (empty? (product-category %))) product-category ALL] prods)) "All")]
 
-    (println available-filter-options)
+    #_(println available-filter-options)
     
     [:<>
      [:h3 description ":"]
@@ -132,7 +133,7 @@
         (let [{:keys [label value enabled]} i
               id (str name ":" label)]
 
-          (println "label: " label ", value: " value ", enabled: " enabled)
+          #_(println "label: " label ", value: " value ", enabled: " enabled)
 
           (when enabled
             ^{:key id}
@@ -309,7 +310,6 @@
         filtered-storage-prods (<sub [::subs/filtered-storage-products])
         filtered-power-prods (<sub [::subs/filtered-power-products])
         filtered-work-prods (<sub [::subs/filtered-work-products])
-        filtered-screen-prods (<sub [::subs/filtered-screen-products])
         no-results? (<sub [::subs/no-results?])]
 
     [:div.right-product-col
@@ -327,8 +327,7 @@
            (map filtered-product-type-section filtered-table-prods)
            (map filtered-product-type-section filtered-storage-prods)
            (map filtered-product-type-section filtered-power-prods)
-           (map filtered-product-type-section filtered-work-prods)
-           (map filtered-product-type-section filtered-screen-prods)]))]]))
+           (map filtered-product-type-section filtered-work-prods)]))]]))
 
 (defn- mouse-pos-comp []
   (reagent/with-let [pointer (reagent/atom {:x nil :y nil})
@@ -341,3 +340,23 @@
      (str @pointer)]
     (finally
       (.removeEventListener js/document "mousemove" handler))))
+
+
+(comment
+  (defn clicker [n]
+    (let [val (reagent/atom n)]
+      (fn []
+        [:button {:on-click #(swap! val inc)}
+         "clicker " @val])))
+
+  (defn make-clicker [{:keys [name id val]}]
+    (let [n name
+          i id
+          v val]
+      (println n i v)))
+
+
+  (reagent/render [clicker 5] (.getElementById js/document "clicker1"))
+  (reagent/render [clicker 1] (.getElementById js/document "clicker2"))
+
+  )

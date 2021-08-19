@@ -11,7 +11,6 @@
    :filtered-storage-products {}
    :filtered-power-products {}
    :filtered-work-products {}
-   :filtered-screen-products {}
    :selected-epp-id nil
    :lead-time-filters dd/lead-time-filters
    :ELFShipMethodSelector (if-let [from-local-storage (rdr/read-string (.getItem js.localStorage "ELFShipMethodSelector"))]
@@ -87,13 +86,6 @@
                                     {:label "Lighting" :value false}
                                     {:label "Technology Support" :value false}
                                     {:label "Desktop Management" :value false}]})
-   :ELFScreensAndBoardsSelector (if-let [from-local-storage (rdr/read-string (.getItem js.localStorage "ELFScreensAndBoardsSelector"))]
-                                  from-local-storage
-                                  {:name "ELFScreensAndBoardsSelector"
-                                   :description "Screens & Communication Boards-"
-                                   :product-category :screensCats
-                                   :items [{:label "All" :value false}
-                                           {:label "Screens & Dividers" :value false}
-                                           {:label "Communication Boards" :value false}]})
+
    :textiles-approvals nil
    :textiles-info nil})

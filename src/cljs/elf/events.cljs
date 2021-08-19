@@ -20,7 +20,6 @@
                               "ELFStorageSelector"
                               "ELFPowerAndDataSelector"
                               "ELFWorkToolsSelector"
-                              "ELFScreensAndBoardsSelector"
                               "ELFShipMethodSelector"
                               "ELFBrandSelector"])
    (load-all-products-and-finishes)
@@ -38,8 +37,7 @@
                                                                          [:ELFTableSelector :items ALL :value]
                                                                          [:ELFStorageSelector :items ALL :value]
                                                                          [:ELFPowerAndDataSelector :items ALL :value]
-                                                                         [:ELFWorkToolsSelector :items ALL :value]
-                                                                         [:ELFScreensAndBoardsSelector :items ALL :value]) db))
+                                                                         [:ELFWorkToolsSelector :items ALL :value]) db))
         categories (if no-product-filters-selected?
                      (select [:items ALL :label #(not= "All" %)] selected-filter)
                      (select [:items ALL #(true? (:value %)) :label] selected-filter))]
@@ -55,8 +53,7 @@
          :filtered-table-products (category-products db :ELFTableSelector)
          :filtered-storage-products (category-products db :ELFStorageSelector)
          :filtered-power-products (category-products db :ELFPowerAndDataSelector)
-         :filtered-work-products (category-products db :ELFWorkToolsSelector)
-         :filtered-screen-products (category-products db :ELFScreensAndBoardsSelector)))
+         :filtered-work-products (category-products db :ELFWorkToolsSelector)))
 
 (reg-event-db
  ::set-all-products-and-finishes
@@ -144,7 +141,7 @@
 (reg-event-db
  ::update-ship-method-filters
  (fn-traced [db [_ lead-time] event]
-            (println "lead-time: " lead-time)
+            #_(println "lead-time: " lead-time)
             (let [ship-method-filters (setval [:items ALL :enabled] true (:ELFShipMethodSelector db))
                   updated-ship-method-filters (case lead-time
                                                 "all" (->> ship-method-filters
@@ -267,8 +264,7 @@
                       [:ELFTableSelector :items ALL :value]
                       [:ELFStorageSelector :items ALL :value]
                       [:ELFPowerAndDataSelector :items ALL :value]
-                      [:ELFWorkToolsSelector :items ALL :value]
-                      [:ELFScreensAndBoardsSelector :items ALL :value])
+                      [:ELFWorkToolsSelector :items ALL :value])
           false db))
 
 (reg-event-db
@@ -357,8 +353,7 @@
                       [:filtered-table-products ALL (collect-one :label) :products ALL :epp-id]
                       [:filtered-storage-products ALL (collect-one :label) :products ALL :epp-id]
                       [:filtered-power-products ALL (collect-one :label) :products ALL :epp-id]
-                      [:filtered-work-products ALL (collect-one :label) :products ALL :epp-id]
-                      [:filtered-screen-products ALL (collect-one :label) :products ALL :epp-id]) db))
+                      [:filtered-work-products ALL (collect-one :label) :products ALL :epp-id]) db))
 
 (defn- next-visible-prod-id [db]
   (let [current-prod (:selected-epp-id db)
@@ -444,6 +439,15 @@
 (defn- vfp [] @(re-frame/subscribe [:elf.subs/visible-filtered-products]))
 (defn- sp [] @(re-frame/subscribe [:elf.subs/selected-product]))
 (defn- smf [] @(re-frame/subscribe [:elf.subs/ship-method-filters]))
+(defn- fins [] @(re-frame/subscribe [:elf.subs/finishes]))
+(defn- ltf [] @(re-frame/subscribe [:elf.subs/lead-time-filters]))
+(defn- sltf [] @(re-frame/subscribe [:elf.subs/selected-lead-time]))
+
+
+(reg-event-db
+ ::set-name
+ (fn [db name]
+   (assoc db :name name)))
 
 (comment
   (re-frame/dispatch-sync [:elf.events/initialize-db])
@@ -453,14 +457,23 @@
   (re-frame/dispatch [:elf.events/lead-time-filter-radio-button-clicked "quick"])
   (re-frame/dispatch [:elf.events/lead-time-filter-radio-button-clicked "three-week"])
 
+  (re-frame/dispatch [:elf.events/product-selected "Seating / Work" "1356385677781"])
+
+  (re-frame/dispatch [:elf.events/set-name "Fred"])
+
   (smf)
+  (ltf)
+  (sltf)
   
   (count (ap))
   (count (fp))
   (count (vfp))
   (count (set (vfp)))
+  (fins)
 
   (smf)
+
+  (sp)
 
   (selected-lead-time)
   (selected-ship-methods)
